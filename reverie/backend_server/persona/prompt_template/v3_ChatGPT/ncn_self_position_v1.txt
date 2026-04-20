@@ -1,0 +1,25 @@
+ncn_self_position_v1.txt
+
+Variables:
+!<INPUT 0>! -- Statements (relevant memory)
+!<INPUT 1>! -- respondent agent name
+!<INPUT 2>! -- comma-separated list of other agent names
+
+<commentblockmarker>###</commentblockmarker>
+Statements (your knowledge):
+!<INPUT 0>!
+
+You are !<INPUT 1>!. Consider the following people in your community: !<INPUT 2>!.
+
+Think about how many of these people you interact with, have conversations with, or have social relationships with, compared to how many the others interact with.
+
+How socially connected are you compared to others in this community? Rate yourself on a scale from 1 to 5:
+1 = Much less connected than most others (you interact with very few people)
+2 = Somewhat less connected than most others
+3 = About as connected as most others
+4 = Somewhat more connected than most others
+5 = Much more connected than most others (you interact with many people)
+
+Answer with a single integer from 1 to 5. Do not add any explanation.
+
+Your rating:

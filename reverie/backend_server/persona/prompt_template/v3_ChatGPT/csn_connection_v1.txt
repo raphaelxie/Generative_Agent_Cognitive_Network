@@ -1,0 +1,17 @@
+csn_connection_v1.txt
+
+Variables: 
+!<INPUT 0>! -- Statements (relevant memory)
+!<INPUT 1>! -- respondent agent name
+!<INPUT 2>! -- person_j (alter)
+!<INPUT 3>! -- person_k (alter)
+
+<commentblockmarker>###</commentblockmarker>
+Statements (your knowledge):
+!<INPUT 0>!
+
+You are !<INPUT 1>!. Based only on the statements above, do you think !<INPUT 2>! has a connection with !<INPUT 3>! (e.g. they know each other, interact, or have a relationship)?
+
+Answer with exactly one of: 0 (no connection), 1 (yes, they have a connection), or null (unsure).
+
+Your answer:

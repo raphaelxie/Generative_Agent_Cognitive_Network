@@ -1,0 +1,19 @@
+csn_connection_batch_v1.txt
+
+Variables: 
+!<INPUT 0>! -- Statements (relevant memory)
+!<INPUT 1>! -- respondent agent name
+!<INPUT 2>! -- person_j (alter)
+!<INPUT 3>! -- comma-separated list of person_k names in order
+
+<commentblockmarker>###</commentblockmarker>
+Statements (your knowledge):
+!<INPUT 0>!
+
+You are !<INPUT 1>!. For each person in the list below, answer whether !<INPUT 2>! has a connection with that person (e.g. they know each other, interact, or have a relationship).
+
+List of people (in order): !<INPUT 3>!
+
+Give your answers as a single line: exactly one value per person, in the same order as the list, separated by commas. Each value must be: 0 (no connection), 1 (yes, connection), or null (unsure).
+
+Your answer (comma-separated, same order as list):
