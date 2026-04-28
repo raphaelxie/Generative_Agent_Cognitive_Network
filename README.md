@@ -1,6 +1,10 @@
 # Generative Agents: Interactive Simulacra of Human Behavior
 
 
+## Current Project Description
+The current codebase runs a short-horizon n=15 Smallville simulation and performs a preflight measurement pass at step 600. The current preflight loads `preflight_the_ville_n15-1`, runs a perception survey, writes ground-truth network files, records retrieval diagnostics, runs hub/broker shock probes, analyzes micro-tie perception, and verifies whether artifacts are complete enough for a full pilot.
+
+
 
 This repository accompanies our research paper titled "[Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442)." It contains our core simulation module for  generative agents—computational agents that simulate believable human behaviors—and their game environment. Below, we document the steps for setting up the simulation environment on your local machine and for replaying the simulation as a demo animation.
 
