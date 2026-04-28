@@ -15,6 +15,7 @@ NOTE (migration patch):
 import json
 import time
 import os
+import hashlib
 
 from openai import OpenAI
 
@@ -29,6 +30,27 @@ LOG_DIR = pathlib.Path("runs") / RUN_TAG
 LOG_DIR.mkdir(parents=True, exist_ok=True)
 LLM_LOG = LOG_DIR / "llm_calls.jsonl"
 
+# #region agent log
+DEBUG_LOG = pathlib.Path(__file__).resolve().parents[4] / ".cursor" / "debug-2483ef.log"
+
+def _dbg2483ef(message, data, hypothesis_id):
+    try:
+        DEBUG_LOG.parent.mkdir(parents=True, exist_ok=True)
+        payload = {
+            "sessionId": "2483ef",
+            "runId": "llm-mei-lin",
+            "hypothesisId": hypothesis_id,
+            "location": "gpt_structure.py",
+            "message": message,
+            "data": data,
+            "timestamp": int(time.time() * 1000),
+        }
+        with open(DEBUG_LOG, "a", encoding="utf-8") as f:
+            f.write(json.dumps(payload, default=str) + "\n")
+    except Exception:
+        pass
+# #endregion
+
 # ----------------------------------------------------------------------------
 # Global client + defaults
 # ----------------------------------------------------------------------------
@@ -36,7 +58,6 @@ LLM_LOG = LOG_DIR / "llm_calls.jsonl"
 # Reads API key from environment variable. You already verified this works:
 #   export OPENAI_API_KEY="..."
 _api_key = os.environ.get("OPENAI_API_KEY", None)
-client = OpenAI(api_key=_api_key)
 
 # Default model can be overridden:
 #   export OPENAI_MODEL="gpt-5.2-mini"  (or any model available to your account)
@@ -44,6 +65,18 @@ DEFAULT_CHAT_MODEL = os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
 
 # Embedding model (keep stable for reproducibility)
 DEFAULT_EMBED_MODEL = os.environ.get("OPENAI_EMBED_MODEL", "text-embedding-3-small")
+
+# Bound OpenAI calls so a bad connection or half-closed socket cannot hang a run forever.
+DEFAULT_OPENAI_TIMEOUT = float(os.environ.get("OPENAI_TIMEOUT_SECONDS", "45"))
+DEFAULT_OPENAI_MAX_RETRIES = int(os.environ.get("OPENAI_MAX_RETRIES", "1"))
+
+# Rebuild client with bounded timeout/retry behavior. The earlier client construction is
+# retained above for historical context, but all calls below use this configured client.
+client = OpenAI(
+    api_key=_api_key,
+    timeout=DEFAULT_OPENAI_TIMEOUT,
+    max_retries=DEFAULT_OPENAI_MAX_RETRIES,
+)
 
 
 def temp_sleep(seconds: float = 0.1):
@@ -58,13 +91,50 @@ def _chat(prompt: str, model: str = None, temperature: float = 0.7, max_tokens: 
     temp_sleep()
     used_model = (model or DEFAULT_CHAT_MODEL)
 
-    resp = client.chat.completions.create(
-        model=used_model,
-        messages=[{"role": "user", "content": prompt}],
-        temperature=temperature,
-        max_tokens=max_tokens,
-    )
+    # #region agent log
+    start_ms = int(time.time() * 1000)
+    prompt_hash = hashlib.sha1(prompt.encode("utf-8", "ignore")).hexdigest()[:12]
+    _dbg2483ef("before_chat_request", {
+        "model": used_model,
+        "timeout_seconds": DEFAULT_OPENAI_TIMEOUT,
+        "max_retries": DEFAULT_OPENAI_MAX_RETRIES,
+        "temperature": temperature,
+        "max_tokens": max_tokens,
+        "prompt_chars": len(prompt),
+        "prompt_hash": prompt_hash,
+        "mentions_mei_lin": "Mei Lin" in prompt,
+        "mentions_poignancy": "poignancy" in prompt.lower(),
+    }, "LLM-A")
+    # #endregion
+    try:
+        resp = client.chat.completions.create(
+            model=used_model,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=temperature,
+            max_tokens=max_tokens,
+        )
+    except Exception as e:
+        # #region agent log
+        _dbg2483ef("chat_request_exception", {
+            "model": used_model,
+            "elapsed_ms": int(time.time() * 1000) - start_ms,
+            "prompt_hash": prompt_hash,
+            "mentions_mei_lin": "Mei Lin" in prompt,
+            "error_type": type(e).__name__,
+            "error": str(e)[:500],
+        }, "LLM-B")
+        # #endregion
+        raise
     text = resp.choices[0].message.content or ""
+    # #region agent log
+    _dbg2483ef("after_chat_request", {
+        "model": used_model,
+        "elapsed_ms": int(time.time() * 1000) - start_ms,
+        "prompt_hash": prompt_hash,
+        "mentions_mei_lin": "Mei Lin" in prompt,
+        "output_chars": len(text),
+    }, "LLM-A")
+    # #endregion
 
     # minimal logging
     record = {
@@ -297,12 +367,39 @@ def get_embedding(text: str, model: str = None):
     text = text.replace("\n", " ")
     used_model = model or DEFAULT_EMBED_MODEL
 
-    resp = client.embeddings.create(
-        model=used_model,
-        input=text
-    )
+    # #region agent log
+    start_ms = int(time.time() * 1000)
+    _dbg2483ef("before_embedding_request", {
+        "model": used_model,
+        "timeout_seconds": DEFAULT_OPENAI_TIMEOUT,
+        "max_retries": DEFAULT_OPENAI_MAX_RETRIES,
+        "input_chars": len(text),
+    }, "EMBED-A")
+    # #endregion
+    try:
+        resp = client.embeddings.create(
+            model=used_model,
+            input=text
+        )
+    except Exception as e:
+        # #region agent log
+        _dbg2483ef("embedding_request_exception", {
+            "model": used_model,
+            "elapsed_ms": int(time.time() * 1000) - start_ms,
+            "error_type": type(e).__name__,
+            "error": str(e)[:500],
+        }, "EMBED-B")
+        # #endregion
+        raise
 
     embedding = resp.data[0].embedding
+    # #region agent log
+    _dbg2483ef("after_embedding_request", {
+        "model": used_model,
+        "elapsed_ms": int(time.time() * 1000) - start_ms,
+        "output_dim": len(embedding),
+    }, "EMBED-A")
+    # #endregion
 
     # logging
     record = {

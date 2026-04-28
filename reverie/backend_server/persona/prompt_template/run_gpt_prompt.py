@@ -1901,6 +1901,30 @@ def run_gpt_prompt_event_poignancy(persona, event_description, test_input=None, 
   example_output = "5" ########
   special_instruction = "The output should ONLY contain ONE integer value on the scale of 1 to 10." ########
   fail_safe = get_fail_safe() ########
+  # #region agent log
+  try:
+    import json as _dbg_json, os as _dbg_os, time as _dbg_time
+    _dbg_path = _dbg_os.path.normpath(_dbg_os.path.join(
+      _dbg_os.path.dirname(_dbg_os.path.abspath(__file__)),
+      "..", "..", "..", ".cursor", "debug-2483ef.log"))
+    _dbg_os.makedirs(_dbg_os.path.dirname(_dbg_path), exist_ok=True)
+    with open(_dbg_path, "a", encoding="utf-8") as _dbg_f:
+      _dbg_f.write(_dbg_json.dumps({
+        "sessionId": "2483ef",
+        "runId": "llm-mei-lin",
+        "hypothesisId": "MEI-A",
+        "location": "run_gpt_prompt.py:run_gpt_prompt_event_poignancy",
+        "message": "event_poignancy_prompt_ready",
+        "data": {
+          "persona": persona.scratch.name,
+          "event_description_prefix": str(event_description)[:40],
+          "prompt_chars": len(prompt),
+        },
+        "timestamp": int(_dbg_time.time() * 1000),
+      }) + "\n")
+  except Exception:
+    pass
+  # #endregion
   output = ChatGPT_safe_generate_response(prompt, example_output, special_instruction, 3, fail_safe,
                                           __chat_func_validate, __chat_func_clean_up, True)
   if output != False: 

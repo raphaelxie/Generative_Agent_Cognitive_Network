@@ -1,12 +1,63 @@
-# Generative Agents: Interactive Simulacra of Human Behavior
+# Generative Agents for Network Cognition Experiments
+
+This repository extends the Generative Agents simulation environment to study network cognition: whether agents form coherent perceptions of social structure, and whether those perceptions update after network shocks.
+
+
+## Research Goal
+
+We study whether agents can infer:
+- micro-level ties: who knows or interacts with whom
+- centrality: who is socially central
+- brokerage: who bridges parts of the network
+- self-position: how agents perceive their own connectedness
+The current priority is measurement and identification, not longer simulations.
+
+## Current Status
+Implemented:
+- n=15 preflight simulation state
+- structured perception survey
+- micro-tie survey
+- centrality ranking survey
+- self-position survey
+- ground-truth interaction graph export
+- retrieval diagnostics
+- hub-removal and broker-removal shock probes
+- micro-tie analysis with precision, recall, FPR, FNR, pair accuracy
+- preflight verification script
+
+Current validated preflight:
+- simulation: `preflight_the_ville_n15-1`
+- step: 600
+- status: preflight pass
+- main artifact folder: `environment/frontend_server/storage/preflight_the_ville_n15-1/survey`
+
+## Current Measurement Outputs
+Survey outputs:
+- `perception_survey_pre.csv`
+- `perception_survey_pre_meta.json`
+- `retrieval_diagnostics_pre.jsonl`
+
+Ground truth:
+- `ground_truth/ground_truth_chats_<step>.csv`
+- `ground_truth/ground_truth_edges_<step>.csv`
+
+Analysis:
+- `analysis_micro_tie_metrics.csv`
+- `analysis_micro_tie_metrics_README.md`
+
+Shock logs:
+- `shock_log.jsonl`
 
 
 ## Current Project Description
 The current codebase runs a short-horizon n=15 Smallville simulation and performs a preflight measurement pass at step 600. The current preflight loads `preflight_the_ville_n15-1`, runs a perception survey, writes ground-truth network files, records retrieval diagnostics, runs hub/broker shock probes, analyzes micro-tie perception, and verifies whether artifacts are complete enough for a full pilot.
 
-This project extends on the research paper titled "[Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442)." It contains the core simulation module for generative agents—computational agents that simulate believable human behaviors—and their game environment.
+## Upstream Attribution
 
-## Implementation added 
+This project builds on the research paper titled "[Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442)." It contains the core simulation module for generative agents—computational agents that simulate believable human behaviors—and their game environment.
+
+## Implementation added
+
 A structured perception survey has been implemented. It currently measures:
 
 - `micro_tie`: whether agents perceive pairwise ties.
@@ -46,7 +97,6 @@ Retrieval diagnostics are implemented. `retrieval_diagnostics_pre.jsonl` records
 Hub and broker shocks have been explicitly separated. `shock isolate-hub` selects by degree, while `shock isolate-broker` selects by betweenness. The shock log records both `hub_removal` and `broker_removal`, along with degree and betweenness values.
 
 A preflight verifier exists. `verify_preflight_n15.py` checks that the core artifacts exist, that retrieval diagnostics have the expected number of lines, that ground truth has 105 pairs, that hub and broker shocks were logged, and that fail-safe rate is below threshold.
-
 
 Below are the steps for setting up the simulation environment on your local machine and for replaying the simulation as a demo animation.
 

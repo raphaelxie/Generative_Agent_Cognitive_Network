@@ -310,6 +310,29 @@ class ReverieServer:
     """
     # <sim_folder> points to the current simulation folder.
     sim_folder = f"{fs_storage}/{self.sim_code}"
+    # #region agent log
+    _dbg_logged_waiting_env = set()
+    _dbg_log_path = os.path.normpath(os.path.join(
+        os.path.dirname(os.path.abspath(__file__)),
+        "..", "..", ".cursor", "debug-2483ef.log"))
+
+    def _dbg2483ef(message, data, hypothesis_id):
+      try:
+        os.makedirs(os.path.dirname(_dbg_log_path), exist_ok=True)
+        payload = {
+          "sessionId": "2483ef",
+          "runId": "frontend-handoff",
+          "hypothesisId": hypothesis_id,
+          "location": "reverie.py:start_server",
+          "message": message,
+          "data": data,
+          "timestamp": int(time.time() * 1000),
+        }
+        with open(_dbg_log_path, "a", encoding="utf-8") as _df:
+          _df.write(json.dumps(payload, default=str) + "\n")
+      except Exception:
+        pass
+    # #endregion
 
     # When a persona arrives at a game object, we give a unique event
     # to that object. 
@@ -326,6 +349,9 @@ class ReverieServer:
       # Done with this iteration if <int_counter> reaches 0. 
       if int_counter == 0: 
         break
+      # Reset per outer iteration so a failed read cannot leave a stale True.
+      env_retrieved = False
+      new_env = None
 
       # <curr_env_file> file is the file that our frontend outputs. When the
       # frontend has done its job and moved the personas, then it will put a 
@@ -342,7 +368,7 @@ class ReverieServer:
             env_retrieved = True
         except: 
           pass
-      
+        
         if env_retrieved: 
           # This is where we go through <game_obj_cleanup> to clean up all 
           # object actions that were used in this cylce. 
@@ -417,8 +443,17 @@ class ReverieServer:
           #  "persona": {"Klaus Mueller": {"movement": [38, 12]}}, 
           #  "meta": {curr_time: <datetime>}}
           curr_move_file = f"{sim_folder}/movement/{self.step}.json"
+          _dbg_move_parent = os.path.dirname(curr_move_file)
+          os.makedirs(_dbg_move_parent, exist_ok=True)
           with open(curr_move_file, "w") as outfile: 
             outfile.write(json.dumps(movements, indent=2))
+          # #region agent log
+          _dbg2483ef("movement_written", {
+            "step": self.step,
+            "curr_move_file": curr_move_file,
+            "next_env_expected": f"{sim_folder}/environment/{self.step + 1}.json",
+          }, "HANDOFF-A")
+          # #endregion
 
           # After this cycle, the world takes one step forward, and the 
           # current time moves by <sec_per_step> amount. 
@@ -426,10 +461,185 @@ class ReverieServer:
           self.curr_time += datetime.timedelta(seconds=self.sec_per_step)
 
           int_counter -= 1
+      else:
+        # #region agent log
+        if self.step not in _dbg_logged_waiting_env:
+          _dbg_logged_waiting_env.add(self.step)
+          _dbg2483ef("waiting_for_environment_file", {
+            "step": self.step,
+            "curr_env_file": curr_env_file,
+            "movement_prev_exists": check_if_file_exists(
+                f"{sim_folder}/movement/{self.step - 1}.json"),
+          }, "HANDOFF-B")
+        # #endregion
           
       # Sleep so we don't burn our machines. 
       time.sleep(self.server_sleep)
 
+  def _try_shock_isolate_command(self, sim_command, sim_folder):
+    """
+    Handle shock isolate / shock isolate-hub / shock isolate-broker.
+    Returns message string. Prints and returns early message on hard errors
+    (unknown agent, no broker, no hub) matching open_server behavior.
+    """
+    from collections import defaultdict as _dd
+    from ground_truth_log import (
+        build_ground_truth,
+        highest_degree_agent,
+        agent_betweenness,
+        highest_betweenness_agent,
+    )
+
+    ret_str = ""
+    cmd_lower = sim_command.lower()
+    if cmd_lower.startswith("shock isolate-broker"):
+      variant = "broker"
+      prefix = "shock isolate-broker"
+      command_field = "shock_isolate_broker"
+      treatment_type = "broker_removal"
+    elif cmd_lower.startswith("shock isolate-hub"):
+      variant = "hub"
+      prefix = "shock isolate-hub"
+      command_field = "shock_isolate_hub"
+      treatment_type = "hub_removal"
+    else:
+      variant = "legacy"
+      prefix = "shock isolate"
+      command_field = "shock_isolate"
+      treatment_type = "hub_removal"
+
+    agent_name = sim_command[len(prefix):].strip() or None
+
+    prev = [n for n, p in self.personas.items() if p.isolated]
+    for n in prev:
+      self.personas[n].isolated = False
+    if prev:
+      ret_str += f"Cleared previous isolation: {', '.join(prev)}\n"
+
+    if agent_name and agent_name not in self.personas:
+      ret_str += (f"Error: '{agent_name}' not found. "
+                  f"Valid names: {sorted(self.personas.keys())}")
+      print(ret_str)
+      return ""
+
+    _, edge_rows = build_ground_truth(
+        self.personas, self.sim_code, self.step, self.curr_time)
+
+    best_hub_name, best_hub_deg = highest_degree_agent(edge_rows)
+    best_broker_name, best_broker_bc = highest_betweenness_agent(edge_rows)
+
+    all_degrees = _dd(int)
+    for row in edge_rows:
+      if row["count_cumulative"] > 0:
+        all_degrees[row["node_a"]] += 1
+        all_degrees[row["node_b"]] += 1
+    all_degrees = dict(all_degrees)
+    all_betweenness = agent_betweenness(edge_rows)
+
+    if agent_name:
+      target = agent_name
+      selection_criterion = "manual"
+    elif variant == "broker":
+      if best_broker_name is None:
+        ret_str += ("No broker structure in current graph -- "
+                    "cannot auto-select broker (all betweenness=0).")
+        print(ret_str)
+        return ""
+      target = best_broker_name
+      selection_criterion = "betweenness"
+    else:
+      if best_hub_name is None:
+        ret_str += "No interactions yet -- cannot auto-select target."
+        print(ret_str)
+        return ""
+      target = best_hub_name
+      selection_criterion = "degree"
+
+    target_deg = all_degrees.get(target, 0)
+    target_bc = all_betweenness.get(target, 0.0)
+
+    self.personas[target].isolated = True
+    ret_str += (f"Isolated: {target}  "
+                f"(treatment={treatment_type}, "
+                f"criterion={selection_criterion}, "
+                f"degree={target_deg}, "
+                f"betweenness={target_bc:.4f}, "
+                f"step={self.step})")
+    if (variant in ("broker", "hub")
+        and best_hub_name and best_broker_name):
+      if best_hub_name == best_broker_name:
+        ret_str += (f"\n  (note: highest-degree and highest-"
+                    f"betweenness agent coincide: {best_hub_name})")
+      else:
+        ret_str += (f"\n  (highest-degree={best_hub_name} deg={best_hub_deg}; "
+                    f"highest-betweenness={best_broker_name} "
+                    f"bc={best_broker_bc:.4f})")
+    elif agent_name and best_hub_name:
+      ret_str += (f"\n  (highest-degree agent is {best_hub_name} "
+                  f"with degree={best_hub_deg})")
+
+    shock_dir = f"{sim_folder}/survey"
+    os.makedirs(shock_dir, exist_ok=True)
+    with open(f"{shock_dir}/shock_log.jsonl", "a") as _sf:
+      _sf.write(json.dumps({
+          "command":              command_field,
+          "step":                 self.step,
+          "sim_time":             self.curr_time.strftime("%B %d, %Y, %H:%M:%S"),
+          "target_agent":         target,
+          "target_degree":        target_deg,
+          "auto_selected":        agent_name is None,
+          "highest_degree_agent": best_hub_name,
+          "highest_degree":       best_hub_deg,
+          "treatment_type":            treatment_type,
+          "selection_criterion":       selection_criterion,
+          "target_betweenness":        target_bc,
+          "highest_betweenness_agent": best_broker_name,
+          "highest_betweenness":       best_broker_bc,
+          "all_degrees":               all_degrees,
+          "all_betweenness":           all_betweenness,
+      }) + "\n")
+
+    return ret_str
+
+  def _try_unshock_command(self, sim_folder):
+    prev = [n for n, p in self.personas.items() if p.isolated]
+    for n in prev:
+      self.personas[n].isolated = False
+    if prev:
+      ret_str = f"Un-isolated: {', '.join(prev)}"
+      shock_dir = f"{sim_folder}/survey"
+      os.makedirs(shock_dir, exist_ok=True)
+      with open(f"{shock_dir}/shock_log.jsonl", "a") as _sf:
+        _sf.write(json.dumps({
+            "command": "unshock",
+            "step": self.step,
+            "sim_time": self.curr_time.strftime("%B %d, %Y, %H:%M:%S"),
+            "agents_unshocked": prev,
+            "treatment_type": "unshock",
+            "selection_criterion": None,
+        }) + "\n")
+      return ret_str
+    return "No agent was isolated."
+
+  def run_preflight_measurement_batch(self, wave_id="pre"):
+    """
+    After burn-in: run perception survey + hub/broker shock probe (no post wave).
+    Use with sim_code preflight_the_ville_n15-1 (or any loaded Reverie state).
+    """
+    sim_folder = f"{fs_storage}/{self.sim_code}"
+    from perception_survey import run_perception_survey
+    out_dir = f"{sim_folder}/survey"
+    survey_path = run_perception_survey(
+        self.personas, self.sim_code, self.step, self.curr_time,
+        out_dir, wave_id=wave_id)
+    print(f"Survey complete: {survey_path}")
+    for cmd in ("shock isolate-hub", "unshock",
+                "shock isolate-broker", "unshock"):
+      msg = (self._try_shock_isolate_command(cmd, sim_folder)
+             if cmd.startswith("shock")
+             else self._try_unshock_command(sim_folder))
+      if msg:
+        print(msg)
 
   def open_server(self): 
     """
@@ -484,7 +694,7 @@ class ReverieServer:
           # Runs the number of steps specified in the prompt.
           # Example: run 1000
           int_count = int(sim_command.split()[-1])
-          rs.start_server(int_count)
+          self.start_server(int_count)
 
         elif ("print persona schedule" 
               in sim_command[:22].lower()): 
@@ -622,161 +832,10 @@ class ReverieServer:
         elif (sim_command.lower().startswith("shock isolate-broker")
               or sim_command.lower().startswith("shock isolate-hub")
               or sim_command.lower().startswith("shock isolate")):
-          # Three variants share the same underlying soft-isolation
-          # mechanism; they differ only in (a) how the target is
-          # auto-selected and (b) what is logged.
-          #
-          #   shock isolate         [name]   -- legacy: degree/hub (backward-
-          #                                    compatible; command="shock_isolate")
-          #   shock isolate-hub     [name]   -- explicit hub variant (degree)
-          #   shock isolate-broker  [name]   -- broker variant (betweenness)
-          #
-          # If a name is supplied the selection is "manual" regardless.
-          # Specific variants must be checked before the bare prefix since
-          # "shock isolate-broker" also startswith("shock isolate").
-          from ground_truth_log import (
-              build_ground_truth,
-              highest_degree_agent,
-              agent_betweenness,
-              highest_betweenness_agent,
-          )
-
-          cmd_lower = sim_command.lower()
-          if cmd_lower.startswith("shock isolate-broker"):
-            variant = "broker"
-            prefix = "shock isolate-broker"
-            command_field = "shock_isolate_broker"
-            treatment_type = "broker_removal"
-          elif cmd_lower.startswith("shock isolate-hub"):
-            variant = "hub"
-            prefix = "shock isolate-hub"
-            command_field = "shock_isolate_hub"
-            treatment_type = "hub_removal"
-          else:
-            variant = "legacy"
-            prefix = "shock isolate"
-            command_field = "shock_isolate"          # unchanged
-            treatment_type = "hub_removal"
-
-          # Parse optional trailing agent name (the prefix is case-insensitive;
-          # remove exactly len(prefix) chars from the original string).
-          agent_name = sim_command[len(prefix):].strip() or None
-
-          # Clear any existing isolation first (at most one at a time).
-          prev = [n for n, p in self.personas.items() if p.isolated]
-          for n in prev:
-            self.personas[n].isolated = False
-          if prev:
-            ret_str += f"Cleared previous isolation: {', '.join(prev)}\n"
-
-          if agent_name and agent_name not in self.personas:
-            ret_str += (f"Error: '{agent_name}' not found. "
-                        f"Valid names: {sorted(self.personas.keys())}")
-            print(ret_str)
-            continue
-
-          _, edge_rows = build_ground_truth(
-              self.personas, self.sim_code, self.step, self.curr_time)
-
-          best_hub_name, best_hub_deg = highest_degree_agent(edge_rows)
-          best_broker_name, best_broker_bc = highest_betweenness_agent(edge_rows)
-
-          from collections import defaultdict as _dd
-          all_degrees = _dd(int)
-          for row in edge_rows:
-            if row["count_cumulative"] > 0:
-              all_degrees[row["node_a"]] += 1
-              all_degrees[row["node_b"]] += 1
-          all_degrees = dict(all_degrees)
-          all_betweenness = agent_betweenness(edge_rows)
-
-          # Target selection
-          if agent_name:
-            target = agent_name
-            selection_criterion = "manual"
-          elif variant == "broker":
-            if best_broker_name is None:
-              ret_str += ("No broker structure in current graph -- "
-                          "cannot auto-select broker (all betweenness=0).")
-              print(ret_str)
-              continue
-            target = best_broker_name
-            selection_criterion = "betweenness"
-          else:
-            # hub and legacy both auto-select by degree
-            if best_hub_name is None:
-              ret_str += "No interactions yet -- cannot auto-select target."
-              print(ret_str)
-              continue
-            target = best_hub_name
-            selection_criterion = "degree"
-
-          target_deg = all_degrees.get(target, 0)
-          target_bc = all_betweenness.get(target, 0.0)
-
-          self.personas[target].isolated = True
-          ret_str += (f"Isolated: {target}  "
-                      f"(treatment={treatment_type}, "
-                      f"criterion={selection_criterion}, "
-                      f"degree={target_deg}, "
-                      f"betweenness={target_bc:.4f}, "
-                      f"step={self.step})")
-          # Annotate coincidence so users can spot small-world artifacts.
-          if (variant in ("broker", "hub")
-              and best_hub_name and best_broker_name):
-            if best_hub_name == best_broker_name:
-              ret_str += (f"\n  (note: highest-degree and highest-"
-                          f"betweenness agent coincide: {best_hub_name})")
-            else:
-              ret_str += (f"\n  (highest-degree={best_hub_name} deg={best_hub_deg}; "
-                          f"highest-betweenness={best_broker_name} "
-                          f"bc={best_broker_bc:.4f})")
-          elif agent_name and best_hub_name:
-            ret_str += (f"\n  (highest-degree agent is {best_hub_name} "
-                        f"with degree={best_hub_deg})")
-
-          shock_dir = f"{sim_folder}/survey"
-          os.makedirs(shock_dir, exist_ok=True)
-          with open(f"{shock_dir}/shock_log.jsonl", "a") as _sf:
-            _sf.write(json.dumps({
-              # --- existing fields (preserved for backward compatibility) ---
-              "command":              command_field,
-              "step":                 self.step,
-              "sim_time":             self.curr_time.strftime("%B %d, %Y, %H:%M:%S"),
-              "target_agent":         target,
-              "target_degree":        target_deg,
-              "auto_selected":        agent_name is None,
-              "highest_degree_agent": best_hub_name,
-              "highest_degree":       best_hub_deg,
-              # --- new fields ---
-              "treatment_type":            treatment_type,
-              "selection_criterion":       selection_criterion,
-              "target_betweenness":        target_bc,
-              "highest_betweenness_agent": best_broker_name,
-              "highest_betweenness":       best_broker_bc,
-              "all_degrees":               all_degrees,
-              "all_betweenness":           all_betweenness,
-            }) + "\n")
+          ret_str += self._try_shock_isolate_command(sim_command, sim_folder)
 
         elif sim_command.lower().strip() == "unshock":
-          prev = [n for n, p in self.personas.items() if p.isolated]
-          for n in prev:
-            self.personas[n].isolated = False
-          if prev:
-            ret_str += f"Un-isolated: {', '.join(prev)}"
-            shock_dir = f"{sim_folder}/survey"
-            os.makedirs(shock_dir, exist_ok=True)
-            with open(f"{shock_dir}/shock_log.jsonl", "a") as _sf:
-              _sf.write(json.dumps({
-                "command": "unshock",
-                "step": self.step,
-                "sim_time": self.curr_time.strftime("%B %d, %Y, %H:%M:%S"),
-                "agents_unshocked": prev,
-                "treatment_type": "unshock",
-                "selection_criterion": None,
-              }) + "\n")
-          else:
-            ret_str += "No agent was isolated."
+          ret_str += self._try_unshock_command(sim_folder)
 
         print (ret_str)
 

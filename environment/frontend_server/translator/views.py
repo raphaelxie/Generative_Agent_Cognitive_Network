@@ -6,6 +6,7 @@ import os
 import string
 import random
 import json
+import time
 from os import listdir
 import os
 
@@ -16,6 +17,28 @@ from global_methods import *
 
 from django.contrib.staticfiles.templatetags.staticfiles import static
 from .models import *
+
+# #region agent log
+def _dbg2483ef(message, data, hypothesis_id):
+  try:
+    log_path = os.path.normpath(os.path.join(
+      os.path.dirname(os.path.abspath(__file__)),
+      "..", "..", "..", ".cursor", "debug-2483ef.log"))
+    os.makedirs(os.path.dirname(log_path), exist_ok=True)
+    payload = {
+      "sessionId": "2483ef",
+      "runId": "frontend-handoff",
+      "hypothesisId": hypothesis_id,
+      "location": "translator/views.py",
+      "message": message,
+      "data": data,
+      "timestamp": int(time.time() * 1000),
+    }
+    with open(log_path, "a", encoding="utf-8") as f:
+      f.write(json.dumps(payload, default=str) + "\n")
+  except Exception:
+    pass
+# #endregion
 
 def landing(request): 
   context = {}
@@ -106,18 +129,40 @@ def home(request):
   f_curr_sim_code = "temp_storage/curr_sim_code.json"
   f_curr_step = "temp_storage/curr_step.json"
 
-  if not check_if_file_exists(f_curr_step): 
+  if not check_if_file_exists(f_curr_sim_code):
     context = {}
     template = "home/error_start_backend.html"
     return render(request, template, context)
 
   with open(f_curr_sim_code) as json_file:  
     sim_code = json.load(json_file)["sim_code"]
-  
-  with open(f_curr_step) as json_file:  
-    step = json.load(json_file)["step"]
 
-  os.remove(f_curr_step)
+  if check_if_file_exists(f_curr_step):
+    with open(f_curr_step) as json_file:  
+      step = json.load(json_file)["step"]
+    os.remove(f_curr_step)
+  else:
+    # Allow browser refresh/reopen during a run. The backend writes one
+    # movement file per step and waits for the frontend to write the next
+    # environment file, so resuming from the latest environment snapshot lets
+    # the frontend consume the last available movement and continue the
+    # handshake.
+    file_count = []
+    for i in find_filenames(f"storage/{sim_code}/environment", ".json"):
+      x = i.split("/")[-1].strip()
+      if x[0] != ".": 
+        file_count += [int(x.split(".")[0])]
+    if not file_count:
+      context = {}
+      template = "home/error_start_backend.html"
+      return render(request, template, context)
+    step = max(file_count)
+    # #region agent log
+    _dbg2483ef("home_resume_without_curr_step", {
+      "sim_code": sim_code,
+      "step": step,
+    }, "HANDOFF-E")
+    # #endregion
 
   persona_names = []
   persona_names_set = set()
@@ -258,6 +303,14 @@ def process_environment(request):
   step = data["step"]
   sim_code = data["sim_code"]
   environment = data["environment"]
+  # #region agent log
+  _dbg2483ef("process_environment_request", {
+    "sim_code": sim_code,
+    "step": step,
+    "n_personas": len(environment),
+    "target": f"storage/{sim_code}/environment/{step}.json",
+  }, "HANDOFF-D")
+  # #endregion
 
   with open(f"storage/{sim_code}/environment/{step}.json", "w") as outfile:
     outfile.write(json.dumps(environment, indent=2))
@@ -287,8 +340,18 @@ def update_environment(request):
   sim_code = data["sim_code"]
 
   response_data = {"<step>": -1}
-  if (check_if_file_exists(f"storage/{sim_code}/movement/{step}.json")):
-    with open(f"storage/{sim_code}/movement/{step}.json") as json_file: 
+  movement_path = f"storage/{sim_code}/movement/{step}.json"
+  movement_exists = check_if_file_exists(movement_path)
+  # #region agent log
+  _dbg2483ef("update_environment_request", {
+    "sim_code": sim_code,
+    "step": step,
+    "movement_exists": movement_exists,
+    "movement_path": movement_path,
+  }, "HANDOFF-C")
+  # #endregion
+  if (movement_exists):
+    with open(movement_path) as json_file: 
       response_data = json.load(json_file)
       response_data["<step>"] = step
 
