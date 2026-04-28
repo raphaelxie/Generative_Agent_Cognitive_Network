@@ -4,9 +4,51 @@
 ## Current Project Description
 The current codebase runs a short-horizon n=15 Smallville simulation and performs a preflight measurement pass at step 600. The current preflight loads `preflight_the_ville_n15-1`, runs a perception survey, writes ground-truth network files, records retrieval diagnostics, runs hub/broker shock probes, analyzes micro-tie perception, and verifies whether artifacts are complete enough for a full pilot.
 
+This project extends on the research paper titled "[Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442)." It contains the core simulation module for generative agents—computational agents that simulate believable human behaviors—and their game environment.
+
+## Implementation added 
+A structured perception survey has been implemented. It currently measures:
+
+- `micro_tie`: whether agents perceive pairwise ties.
+- `centrality_rank`: how agents rank everyone by connectedness.
+- `self_position`: how agents rate their own connectedness.
+
+Ground truth is generated for the observed interaction graph. The current preflight writes:
+
+- `ground_truth_chats_600.csv`
+- `ground_truth_edges_600.csv`
+
+Micro-tie analysis has been improved beyond a single accuracy number. `analysis_micro_tie_metrics.csv` now reports:
+
+- undirected-pair accuracy,
+- true positives,
+- false positives,
+- false negatives,
+- true negatives,
+- precision,
+- recall,
+- false-positive rate,
+- false-negative rate,
+- fail-safe counts.
+
+Retrieval diagnostics are implemented. `retrieval_diagnostics_pre.jsonl` records retrieval calls with:
+
+- number of candidates,
+- number returned,
+- node type,
+- recency score,
+- relevance score,
+- importance score,
+- final score,
+- whether retrieved content mentions the queried person,
+- whether retrieved content is self-focused.
+
+Hub and broker shocks have been explicitly separated. `shock isolate-hub` selects by degree, while `shock isolate-broker` selects by betweenness. The shock log records both `hub_removal` and `broker_removal`, along with degree and betweenness values.
+
+A preflight verifier exists. `verify_preflight_n15.py` checks that the core artifacts exist, that retrieval diagnostics have the expected number of lines, that ground truth has 105 pairs, that hub and broker shocks were logged, and that fail-safe rate is below threshold.
 
 
-This repository accompanies our research paper titled "[Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442)." It contains our core simulation module for  generative agents—computational agents that simulate believable human behaviors—and their game environment. Below, we document the steps for setting up the simulation environment on your local machine and for replaying the simulation as a demo animation.
+Below are the steps for setting up the simulation environment on your local machine and for replaying the simulation as a demo animation.
 
 ##    Setting Up the Environment
 
