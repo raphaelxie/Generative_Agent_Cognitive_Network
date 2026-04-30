@@ -1,0 +1,277 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2026, 19:39:50",
+  "curr_tile": [
+    123,
+    57
+  ],
+  "daily_plan_req": "Maria Lopez spends at least 6 hours a day Twitch streaming or gaming.",
+  "name": "Maria Lopez",
+  "first_name": "Maria",
+  "last_name": "Lopez",
+  "age": 21,
+  "innate": "energetic, enthusiastic, inquisitive",
+  "learned": "Maria Lopez is a student at Oak Hill College studying physics and a part time Twitch game streamer who loves to connect with people and explore new ideas.",
+  "currently": "Maria Lopez is working on her physics degree and streaming games on Twitch to make some extra money. She visits Hobbs Cafe for studying and eating just about everyday.",
+  "lifestyle": "Maria Lopez goes to bed around midnight, awakes up around 10am, eats dinner around 7pm.",
+  "living_area": "the Ville:Dorm for Oak Hill College:Maria Lopez's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 113,
+  "importance_ele_n": 70,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "wake up and complete the morning routine at 10:00 am",
+    "have breakfast at 10:30 am",
+    "start studying for her physics classes at Hobbs Cafe from 11:00 am to 2:00 pm",
+    "take a break and have lunch at 2:00 pm",
+    "stream on Twitch from 3:00 pm to 6:00 pm",
+    "take a break and have dinner at 7:00 pm",
+    "continue streaming from 8:00 pm to 11:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine\n[(ID:3jH4nD) Friday February 13 -- 09:00 AM] Activity: Maria is getting ready for the day\n[(ID:4q7g3W)",
+      60
+    ],
+    [
+      "getting ready for the day\n[ (on the way to getting out of bed)",
+      0
+    ],
+    [
+      "getting ready for the day\n[ (conversing about Maria Lopez and Ayesha Khan discussing their plans for studying, meeting at Hobbs Cafe, and coordinating lunch after Ayesha's classes.)",
+      8
+    ],
+    [
+      "getting ready for the day\n[(ID:4q7g3W) Friday February 13 -- 10:00 AM] Activity: Maria is having breakfast\n[(ID:5h8X8B) Friday February 13 -- (brushing her teeth)",
+      5
+    ],
+    [
+      "getting ready for the day\n[(ID:4q7g3W) Friday February 13 -- 10:00 AM] Activity: Maria is having breakfast\n[(ID:5h8X8B) Friday February 13 -- (washing her face)",
+      5
+    ],
+    [
+      "getting ready for the day\n[(ID:4q7g3W) Friday February 13 -- 10:00 AM] Activity: Maria is having breakfast\n[(ID:5h8X8B) Friday February 13 -- (taking a shower)",
+      15
+    ],
+    [
+      "getting ready for the day\n[(ID:4q7g3W) Friday February 13 -- 10:00 AM] Activity: Maria is having breakfast\n[(ID:5h8X8B) Friday February 13 -- (drying off and getting dressed)",
+      10
+    ],
+    [
+      "getting ready for the day\n[(ID:4q7g3W) Friday February 13 -- 10:00 AM] Activity: Maria is having breakfast\n[(ID:5h8X8B) Friday February 13 -- (doing her hair)",
+      10
+    ],
+    [
+      "getting ready for the day\n[(ID:4q7g3W) Friday February 13 -- 10:00 AM] Activity: Maria is having breakfast\n[(ID:5h8X8B) Friday February 13 -- (applying makeup)",
+      7
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Maria is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Maria is sleeping  \n[Friday February 13 -- 02:00 AM] Activity:",
+      120
+    ],
+    [
+      "Here\u2019s the completed hourly schedule for Maria Lopez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Maria is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Maria is",
+      60
+    ],
+    [
+      "Here's the completed hourly schedule for Maria Lopez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Maria is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Maria is sleeping",
+      120
+    ],
+    [
+      "Here\u2019s the completed hourly schedule for Maria Lopez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Maria is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Maria is",
+      60
+    ],
+    [
+      "Here's the completed hourly schedule for Maria Lopez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Maria is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Maria is sleeping",
+      60
+    ],
+    [
+      "Here\u2019s the completed hourly schedule for Maria Lopez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Maria is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Maria is",
+      60
+    ],
+    [
+      "Here's the completed hourly schedule for Maria Lopez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Maria is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Maria is sleeping",
+      60
+    ],
+    [
+      "Here\u2019s the completed hourly schedule for Maria Lopez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Maria is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Maria is",
+      60
+    ],
+    [
+      "Here's the completed hourly schedule for Maria Lopez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Maria is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Maria is sleeping",
+      120
+    ],
+    [
+      "Here\u2019s the completed hourly schedule for Maria Lopez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Maria is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Maria is",
+      60
+    ],
+    [
+      "Here's the completed hourly schedule for Maria Lopez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Maria is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Maria is sleeping",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine\n[(ID:3jH4nD) Friday February 13 -- 09:00 AM] Activity: Maria is getting ready for the day\n[(ID:4q7g3W)",
+      60
+    ],
+    [
+      "getting ready for the day\n[(ID:4q7g3W) Friday February 13 -- 10:00 AM] Activity: Maria is having breakfast\n[(ID:5h8X8B) Friday February 13 --",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Maria is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Maria is sleeping  \n[Friday February 13 -- 02:00 AM] Activity:",
+      120
+    ],
+    [
+      "Here\u2019s the completed hourly schedule for Maria Lopez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Maria is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Maria is",
+      60
+    ],
+    [
+      "Here's the completed hourly schedule for Maria Lopez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Maria is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Maria is sleeping",
+      120
+    ],
+    [
+      "Here\u2019s the completed hourly schedule for Maria Lopez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Maria is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Maria is",
+      60
+    ],
+    [
+      "Here's the completed hourly schedule for Maria Lopez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Maria is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Maria is sleeping",
+      60
+    ],
+    [
+      "Here\u2019s the completed hourly schedule for Maria Lopez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Maria is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Maria is",
+      60
+    ],
+    [
+      "Here's the completed hourly schedule for Maria Lopez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Maria is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Maria is sleeping",
+      60
+    ],
+    [
+      "Here\u2019s the completed hourly schedule for Maria Lopez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Maria is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Maria is",
+      60
+    ],
+    [
+      "Here's the completed hourly schedule for Maria Lopez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Maria is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Maria is sleeping",
+      120
+    ],
+    [
+      "Here\u2019s the completed hourly schedule for Maria Lopez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Maria is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Maria is",
+      60
+    ],
+    [
+      "Here's the completed hourly schedule for Maria Lopez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Maria is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Maria is sleeping",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+  "act_start_time": "February 13, 2026, 19:01:00",
+  "act_duration": 60,
+  "act_description": "Here\u2019s the completed hourly schedule for Maria Lopez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Maria is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Maria is",
+  "act_pronunciatio": "\ud83d\ude34",
+  "act_event": [
+    "Maria Lopez",
+    "sleep",
+    "schedule"
+  ],
+  "act_obj_description": "being used for sleeping",
+  "act_obj_pronunciatio": "\ud83d\ude34\ud83d\udecf\ufe0f",
+  "act_obj_event": [
+    "bed",
+    "be used",
+    "sleeping"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Ayesha Khan": -3346
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

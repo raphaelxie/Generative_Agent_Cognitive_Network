@@ -1,0 +1,215 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2026, 09:39:50",
+  "curr_tile": [
+    93,
+    66
+  ],
+  "daily_plan_req": "Mei Lin goes to Oak Hill college to teach starting 10 am, teaches until 2pm, and returns home to work.",
+  "name": "Mei Lin",
+  "first_name": "Mei",
+  "last_name": "Lin",
+  "age": 44,
+  "innate": "nurturing, kind, patient",
+  "learned": "Mei Lin is a college professor and a mom who loves to help people reach their goals. She is always looking for ways to support her students and her family.",
+  "currently": "Mei Lin is living with her husband, John Lin, and son, Eddy Lin, and is teaching a course on philosophy and working on her research paper. She also is helping her two kids with their schoolwork.",
+  "lifestyle": "Mei Lin goes to bed around 11pm, awakes up around 7am, eats dinner around 5pm.",
+  "living_area": "the Ville:Lin family's house:Mei and John Lin's bedroom",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 200,
+  "importance_ele_n": 22,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "have breakfast from 8:00 am to 8:30 am",
+    "leave for Oak Hill College at 9:15 am to arrive by 10:00 am",
+    "teach her philosophy class from 10:00 am to 12:00 pm",
+    "have lunch with colleagues from 12:00 pm to 1:00 pm",
+    "teach another class from 1:00 pm to 2:00 pm",
+    "return home by 2:45 pm",
+    "help Eddy with his schoolwork from 3:00 pm to 4:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine\n[(ID:3nGxkA) Friday February 13 -- 09:00 AM] Activity: Mei is having breakfast\n[(ID:Zk6fC3) Friday February",
+      60
+    ],
+    [
+      "having breakfast\n[(ID:5q7Gxq) Friday February 13 -- 10:00 AM] Activity: Mei is teaching her philosophy class at Oak Hill College\n[(ID:8cH5nG) Friday February (preparing her breakfast)",
+      10
+    ],
+    [
+      "having breakfast\n[(ID:5q7Gxq) Friday February 13 -- 10:00 AM] Activity: Mei is teaching her philosophy class at Oak Hill College\n[(ID:8cH5nG) Friday February (setting the table for breakfast)",
+      5
+    ],
+    [
+      "having breakfast\n[(ID:5q7Gxq) Friday February 13 -- 10:00 AM] Activity: Mei is teaching her philosophy class at Oak Hill College\n[(ID:8cH5nG) Friday February (enjoying her breakfast)",
+      20
+    ],
+    [
+      "having breakfast\n[(ID:5q7Gxq) Friday February 13 -- 10:00 AM] Activity: Mei is teaching her philosophy class at Oak Hill College\n[(ID:8cH5nG) Friday February (chatting with her husband, John, during breakfast)",
+      10
+    ],
+    [
+      "having breakfast\n[(ID:5q7Gxq) Friday February 13 -- 10:00 AM] Activity: Mei is teaching her philosophy class at Oak Hill College\n[(ID:8cH5nG) Friday February (helping her son, Eddy, with his breakfast)",
+      10
+    ],
+    [
+      "having breakfast\n[(ID:5q7Gxq) Friday February 13 -- 10:00 AM] Activity: Mei is teaching her philosophy class at Oak Hill College\n[(ID:8cH5nG) Friday February (cleaning up the breakfast dishes)",
+      5
+    ],
+    [
+      "teaching her philosophy class at Oak Hill College  \n[(ID:2q6v3b) Friday February 13 -- 11:00 AM] Activity: Mei is teaching her philosophy class at Oak Hill College  \n[(ID:3gN (asleep)",
+      60
+    ],
+    [
+      "Here's the completed hourly schedule for Mei Lin on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Mei is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Mei is sleeping",
+      120
+    ],
+    [
+      "Here\u2019s the completed hourly schedule for Mei Lin on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Mei is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Mei is",
+      120
+    ],
+    [
+      "Here's the completed hourly schedule for Mei Lin on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Mei is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Mei is sleeping",
+      60
+    ],
+    [
+      "Here\u2019s the completed hourly schedule for Mei Lin on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Mei is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Mei is",
+      120
+    ],
+    [
+      "Here's the completed hourly schedule for Mei Lin on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Mei is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Mei is sleeping",
+      60
+    ],
+    [
+      "Here\u2019s the completed hourly schedule for Mei Lin on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Mei is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Mei is",
+      60
+    ],
+    [
+      "Here's the completed hourly schedule for Mei Lin on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Mei is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Mei is sleeping",
+      60
+    ],
+    [
+      "Here\u2019s the completed hourly schedule for Mei Lin on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Mei is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Mei is",
+      120
+    ],
+    [
+      "Here's the completed hourly schedule for Mei Lin on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Mei is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Mei is sleeping",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine\n[(ID:3nGxkA) Friday February 13 -- 09:00 AM] Activity: Mei is having breakfast\n[(ID:Zk6fC3) Friday February",
+      60
+    ],
+    [
+      "having breakfast\n[(ID:5q7Gxq) Friday February 13 -- 10:00 AM] Activity: Mei is teaching her philosophy class at Oak Hill College\n[(ID:8cH5nG) Friday February",
+      60
+    ],
+    [
+      "teaching her philosophy class at Oak Hill College  \n[(ID:2q6v3b) Friday February 13 -- 11:00 AM] Activity: Mei is teaching her philosophy class at Oak Hill College  \n[(ID:3gN",
+      60
+    ],
+    [
+      "Here's the completed hourly schedule for Mei Lin on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Mei is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Mei is sleeping",
+      120
+    ],
+    [
+      "Here\u2019s the completed hourly schedule for Mei Lin on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Mei is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Mei is",
+      120
+    ],
+    [
+      "Here's the completed hourly schedule for Mei Lin on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Mei is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Mei is sleeping",
+      60
+    ],
+    [
+      "Here\u2019s the completed hourly schedule for Mei Lin on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Mei is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Mei is",
+      120
+    ],
+    [
+      "Here's the completed hourly schedule for Mei Lin on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Mei is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Mei is sleeping",
+      60
+    ],
+    [
+      "Here\u2019s the completed hourly schedule for Mei Lin on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Mei is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Mei is",
+      60
+    ],
+    [
+      "Here's the completed hourly schedule for Mei Lin on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Mei is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Mei is sleeping",
+      60
+    ],
+    [
+      "Here\u2019s the completed hourly schedule for Mei Lin on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Mei is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Mei is",
+      120
+    ],
+    [
+      "Here's the completed hourly schedule for Mei Lin on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Mei is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Mei is sleeping",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Lin family's house:kitchen:cooking area",
+  "act_start_time": "February 13, 2026, 09:35:00",
+  "act_duration": 10,
+  "act_description": "having breakfast\n[(ID:5q7Gxq) Friday February 13 -- 10:00 AM] Activity: Mei is teaching her philosophy class at Oak Hill College\n[(ID:8cH5nG) Friday February (chatting with her husband, John, during breakfast)",
+  "act_pronunciatio": "\ud83d\udde8\ufe0f\u2615",
+  "act_event": [
+    "Mei Lin",
+    "chat",
+    "husband"
+  ],
+  "act_obj_description": "being used for breakfast preparation",
+  "act_obj_pronunciatio": "\ud83c\udf73\ud83e\udd53",
+  "act_obj_event": [
+    "cooking area",
+    "is being used for",
+    "breakfast preparation"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {},
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

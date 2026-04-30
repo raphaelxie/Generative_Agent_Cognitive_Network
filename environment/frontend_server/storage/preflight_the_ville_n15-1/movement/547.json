@@ -1,0 +1,264 @@
+{
+  "persona": {
+    "Latoya Williams": {
+      "movement": [
+        16,
+        18
+      ],
+      "pronunciatio": "\ud83d\ude34\ud83d\udca4",
+      "description": "[Friday February 13 -- 00:00 AM] Activity: Latoya is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Latoya is sleeping  \n[Friday February 13 -- 02:00 AM] @ the Ville:artist's co-living space:Latoya Williams's room:bed",
+      "chat": null
+    },
+    "Rajiv Patel": {
+      "movement": [
+        40,
+        25
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f\u2615",
+      "description": "having breakfast and enjoying a cup of coffee  \n[(ID:2sW8xA) Friday February 13 -- 10:00 AM] Activity: Rajiv is painting in his studio  \n[(ID:3tH9mB) (setting the table for breakfast) @ the Ville:artist's co-living space:kitchen:toaster",
+      "chat": null
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        22
+      ],
+      "pronunciatio": "\ud83c\udfa8\u2705",
+      "description": "[Friday February 13 -- 00:00 AM] Activity: Abigail is working on her animation project, focusing on character design and storyboarding.\n\n[Friday February 13 -- 01:00 AM] Activity: Abigail continues to refine her character (selecting the best character sketches to develop further) @ the Ville:artist's co-living space:Abigail Chen's room:desk",
+      "chat": null
+    },
+    "Francisco Lopez": {
+      "movement": [
+        16,
+        32
+      ],
+      "pronunciatio": "\ud83d\ude34\ud83d\udca4",
+      "description": "[Friday February 13 -- 00:00 AM] Activity: Francisco is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Francisco is sleeping  \n[Friday February 13 -- 02:00 AM] Activity: @ the Ville:artist's co-living space:Francisco Lopez's room:bed",
+      "chat": null
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udcdd",
+      "description": "preparing for her writing session  \n[(ID:5V9oN) Friday February 13 -- 10:00 AM] Activity: Hailey is writing for her novel, focusing on character development  \n[(ID:5V9oN (reviewing her notes and outlines for the novel) @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null
+    },
+    "Arthur Burton": {
+      "movement": [
+        54,
+        14
+      ],
+      "pronunciatio": "\ud83d\ude34\ud83d\udca4",
+      "description": "[Friday February 13 -- 00:00 AM] Activity: Arthur is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Arthur is sleeping  \n[Friday February 13 -- 02:00 AM] Activity: @ the Ville:Arthur Burton's apartment:main room:bed",
+      "chat": null
+    },
+    "Ryan Park": {
+      "movement": [
+        66,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udca1",
+      "description": "reviewing the latest technologies and trends in mobile app development\n[(ID:4HbKbK) Friday February 13 -- 10:00 AM] Activity: Ryan is reviewing the latest technologies and trends in mobile app development\n[(ID:2 (taking notes on key points from the articles and videos) @ the Ville:Ryan Park's apartment:main room:computer desk",
+      "chat": null
+    },
+    "Isabella Rodriguez": {
+      "movement": [
+        72,
+        14
+      ],
+      "pronunciatio": "\ud83d\ude34\ud83d\udca4",
+      "description": "[Friday February 13 -- 00:00 AM] Activity: Isabella is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Isabella is sleeping  \n[Friday February 13 -- 02:00 AM] Activity: @ the Ville:Isabella Rodriguez's apartment:main room:bed",
+      "chat": null
+    },
+    "Giorgio Rossi": {
+      "movement": [
+        87,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udd0d",
+      "description": "working on his research project analyzing mathematical patterns in nature  \n[(ID:8F5D4k) Friday February 13 -- 10:00 AM] Activity: Giorgio is working on his research project analyzing mathematical patterns in nature  \n[(ID: (reading through the gathered literature to identify key patterns) @ the Ville:Giorgio Rossi's apartment:main room:desk",
+      "chat": null
+    },
+    "Carlos Gomez": {
+      "movement": [
+        94,
+        18
+      ],
+      "pronunciatio": "\ud83d\ude34",
+      "description": "having breakfast and enjoying a cup of coffee while journaling  \n[(ID:3H8YpV) Friday February 13 -- 09:30 AM] Activity: Carlos is attending a creative writing workshop  \n[(ID:3K4N (asleep) @ the Ville:Carlos Gomez's apartment:main room:bed",
+      "chat": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        108,
+        37
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller and Ayesha Khan discussing their insights on gentrification in literature, exploring themes of identity and belonging, and planning to collaborate on a paper analyzing how different authors portray these themes. @ <persona> Ayesha Khan",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hey Ayesha! How's your review going? I was just thinking about our discussions on gentrification and how it ties into the themes in your notes. Any interesting insights so far?"
+        ],
+        [
+          "Ayesha Khan",
+          "Hi Klaus! My review has been going well, thanks! I was actually thinking about how gentrification can be seen as a double-edged sword in literature, reflecting both progress and displacement. I wonder how Shakespeare might have tackled such themes if he were writing today. What do you think?"
+        ],
+        [
+          "Klaus Mueller",
+          "That's a fascinating perspective! I think Shakespeare would have found a way to highlight the human experiences behind gentrification, perhaps focusing on individual stories to show the emotional impact. It would be interesting to explore how characters from different backgrounds react to the changes in their communities. What specific themes from your notes do you think align with this idea?"
+        ],
+        [
+          "Ayesha Khan",
+          "I completely agree! In my notes, I've highlighted themes of identity and belonging, which I think are crucial when discussing gentrification. Characters like Shylock in 'The Merchant of Venice' face similar issues of displacement and cultural marginalization. It would be compelling to analyze how these themes resonate in modern contexts. Do you have any characters in mind that exemplify these struggles?"
+        ],
+        [
+          "Klaus Mueller",
+          "That's a great example! I think of characters like Willy Loman from 'Death of a Salesman' who grapples with his identity and the changing landscape of his neighborhood. His struggles reflect the impact of economic shifts on personal dreams. It would be interesting to compare how these themes manifest in different contexts. Have you found any modern texts that explore similar ideas?"
+        ],
+        [
+          "Ayesha Khan",
+          "Yes, I've been looking at contemporary novels such as 'The Brief Wondrous Life of Oscar Wao' by Junot Diaz, which touches on identity and cultural displacement. It really captures the essence of how gentrification affects communities. I think comparing it with Shakespeare's works could reveal some striking parallels. What do you think?"
+        ],
+        [
+          "Klaus Mueller",
+          "I completely agree! Drawing parallels between 'The Brief Wondrous Life of Oscar Wao' and Shakespeare could yield some intriguing insights into how cultural displacement has evolved over time. I'm curious, do you think contemporary authors are more effective in portraying these themes than classic writers, or do they complement each other?"
+        ],
+        [
+          "Ayesha Khan",
+          "I think both contemporary authors and classic writers have their strengths. Contemporary authors can draw from current socio-political contexts, making their portrayals very relatable. However, classic writers often delve deeper into the human experience, which can resonate across time. It's about how effectively they capture the emotional truths of their characters. What do you think makes a portrayal of these themes effective?"
+        ],
+        [
+          "Klaus Mueller",
+          "I agree, emotional truth is key! I think an effective portrayal resonates with the audience, making them empathize with the characters' struggles. Maybe we could explore how different authors balance these elements in a paper together? It could be a great way to combine our insights on gentrification and literature."
+        ],
+        [
+          "Ayesha Khan",
+          "That sounds like an excellent idea, Klaus! I'd love to collaborate on that paper. We could analyze how different authors portray the themes of gentrification and emotional truth in their works. Let's set aside some time to brainstorm ideas and outline our approach. When are you free to meet?"
+        ],
+        [
+          "Klaus Mueller",
+          "How about we meet this weekend? I have some time on Saturday afternoon after I finish my writing. Would that work for you?"
+        ],
+        [
+          "Ayesha Khan",
+          "Saturday afternoon works perfectly for me! Let's say around 2 PM? We can meet at the library and start outlining our ideas."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds great! I'll see you at the library on Saturday at 2 PM. I'm looking forward to diving deeper into our ideas. By the way, if you come across any more texts or examples before then, feel free to share them with me. It will help enrich our discussion!"
+        ],
+        [
+          "Ayesha Khan",
+          "Absolutely, I'll make sure to share any relevant texts I find. I'm excited about our collaboration! Also, if you have any specific themes or texts in mind that you'd like to focus on, feel free to let me know. I'm looking forward to it!"
+        ],
+        [
+          "Klaus Mueller",
+          "Perfect! I'll make sure to gather some texts and themes to discuss as well. Have a great time in your literature class! See you Saturday!"
+        ]
+      ]
+    },
+    "Maria Lopez": {
+      "movement": [
+        130,
+        57
+      ],
+      "pronunciatio": "\ud83e\uddfc\ud83d\udc57",
+      "description": "getting ready for the day\n[(ID:2Yz8xD) Friday February 13 -- 10:00 AM] Activity: Maria is having breakfast\n[(ID:3Yz8xD) Friday February 13 -- (drying off and getting dressed) @ the Ville:Dorm for Oak Hill College:woman's bathroom:shower",
+      "chat": null
+    },
+    "Ayesha Khan": {
+      "movement": [
+        109,
+        39
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller and Ayesha Khan discussing their insights on gentrification in literature, exploring themes of identity and belonging, and planning to collaborate on a paper analyzing how different authors portray these themes. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hey Ayesha! How's your review going? I was just thinking about our discussions on gentrification and how it ties into the themes in your notes. Any interesting insights so far?"
+        ],
+        [
+          "Ayesha Khan",
+          "Hi Klaus! My review has been going well, thanks! I was actually thinking about how gentrification can be seen as a double-edged sword in literature, reflecting both progress and displacement. I wonder how Shakespeare might have tackled such themes if he were writing today. What do you think?"
+        ],
+        [
+          "Klaus Mueller",
+          "That's a fascinating perspective! I think Shakespeare would have found a way to highlight the human experiences behind gentrification, perhaps focusing on individual stories to show the emotional impact. It would be interesting to explore how characters from different backgrounds react to the changes in their communities. What specific themes from your notes do you think align with this idea?"
+        ],
+        [
+          "Ayesha Khan",
+          "I completely agree! In my notes, I've highlighted themes of identity and belonging, which I think are crucial when discussing gentrification. Characters like Shylock in 'The Merchant of Venice' face similar issues of displacement and cultural marginalization. It would be compelling to analyze how these themes resonate in modern contexts. Do you have any characters in mind that exemplify these struggles?"
+        ],
+        [
+          "Klaus Mueller",
+          "That's a great example! I think of characters like Willy Loman from 'Death of a Salesman' who grapples with his identity and the changing landscape of his neighborhood. His struggles reflect the impact of economic shifts on personal dreams. It would be interesting to compare how these themes manifest in different contexts. Have you found any modern texts that explore similar ideas?"
+        ],
+        [
+          "Ayesha Khan",
+          "Yes, I've been looking at contemporary novels such as 'The Brief Wondrous Life of Oscar Wao' by Junot Diaz, which touches on identity and cultural displacement. It really captures the essence of how gentrification affects communities. I think comparing it with Shakespeare's works could reveal some striking parallels. What do you think?"
+        ],
+        [
+          "Klaus Mueller",
+          "I completely agree! Drawing parallels between 'The Brief Wondrous Life of Oscar Wao' and Shakespeare could yield some intriguing insights into how cultural displacement has evolved over time. I'm curious, do you think contemporary authors are more effective in portraying these themes than classic writers, or do they complement each other?"
+        ],
+        [
+          "Ayesha Khan",
+          "I think both contemporary authors and classic writers have their strengths. Contemporary authors can draw from current socio-political contexts, making their portrayals very relatable. However, classic writers often delve deeper into the human experience, which can resonate across time. It's about how effectively they capture the emotional truths of their characters. What do you think makes a portrayal of these themes effective?"
+        ],
+        [
+          "Klaus Mueller",
+          "I agree, emotional truth is key! I think an effective portrayal resonates with the audience, making them empathize with the characters' struggles. Maybe we could explore how different authors balance these elements in a paper together? It could be a great way to combine our insights on gentrification and literature."
+        ],
+        [
+          "Ayesha Khan",
+          "That sounds like an excellent idea, Klaus! I'd love to collaborate on that paper. We could analyze how different authors portray the themes of gentrification and emotional truth in their works. Let's set aside some time to brainstorm ideas and outline our approach. When are you free to meet?"
+        ],
+        [
+          "Klaus Mueller",
+          "How about we meet this weekend? I have some time on Saturday afternoon after I finish my writing. Would that work for you?"
+        ],
+        [
+          "Ayesha Khan",
+          "Saturday afternoon works perfectly for me! Let's say around 2 PM? We can meet at the library and start outlining our ideas."
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds great! I'll see you at the library on Saturday at 2 PM. I'm looking forward to diving deeper into our ideas. By the way, if you come across any more texts or examples before then, feel free to share them with me. It will help enrich our discussion!"
+        ],
+        [
+          "Ayesha Khan",
+          "Absolutely, I'll make sure to share any relevant texts I find. I'm excited about our collaboration! Also, if you have any specific themes or texts in mind that you'd like to focus on, feel free to let me know. I'm looking forward to it!"
+        ],
+        [
+          "Klaus Mueller",
+          "Perfect! I'll make sure to gather some texts and themes to discuss as well. Have a great time in your literature class! See you Saturday!"
+        ]
+      ]
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        119,
+        28
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udfd9\ufe0f",
+      "description": "having breakfast\n[ (conversing about Klaus Mueller and Wolfgang Schulz discussing gentrification, its impact on housing affordability and local culture, and brainstorming ideas for community engagement initiatives to address displacement in their neighborhood.) @ the Ville:Oak Hill College:library:library table",
+      "chat": null
+    },
+    "Mei Lin": {
+      "movement": [
+        93,
+        66
+      ],
+      "pronunciatio": "\ud83e\udd50\u2615",
+      "description": "having breakfast\n[(ID:5q7Gxq) Friday February 13 -- 10:00 AM] Activity: Mei is teaching her philosophy class at Oak Hill College\n[(ID:8cH5nG) Friday February (enjoying her breakfast) @ the Ville:Lin family's house:kitchen:cooking area",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2026, 09:31:10"
+  }
+}

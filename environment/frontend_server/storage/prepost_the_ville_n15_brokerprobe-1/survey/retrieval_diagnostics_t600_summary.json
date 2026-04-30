@@ -1,0 +1,101 @@
+{
+  "wave_id": "t600",
+  "global_excluding_self_queries": {
+    "n_calls": 225,
+    "pct_calls_with_any_target_mention": 4.44,
+    "pct_calls_all_self_mention": 26.67,
+    "mean_target_mention_fraction": 0.0119
+  },
+  "per_respondent_excluding_self_queries": {
+    "Abigail Chen": {
+      "n_calls": 15,
+      "pct_calls_with_any_target_mention": 0.0,
+      "pct_calls_all_self_mention": 0.0,
+      "mean_target_mention_fraction": 0.0
+    },
+    "Arthur Burton": {
+      "n_calls": 15,
+      "pct_calls_with_any_target_mention": 0.0,
+      "pct_calls_all_self_mention": 0.0,
+      "mean_target_mention_fraction": 0.0
+    },
+    "Ayesha Khan": {
+      "n_calls": 15,
+      "pct_calls_with_any_target_mention": 13.33,
+      "pct_calls_all_self_mention": 0.0,
+      "mean_target_mention_fraction": 0.0222
+    },
+    "Carlos Gomez": {
+      "n_calls": 15,
+      "pct_calls_with_any_target_mention": 0.0,
+      "pct_calls_all_self_mention": 0.0,
+      "mean_target_mention_fraction": 0.0
+    },
+    "Francisco Lopez": {
+      "n_calls": 15,
+      "pct_calls_with_any_target_mention": 6.67,
+      "pct_calls_all_self_mention": 0.0,
+      "mean_target_mention_fraction": 0.0381
+    },
+    "Giorgio Rossi": {
+      "n_calls": 15,
+      "pct_calls_with_any_target_mention": 6.67,
+      "pct_calls_all_self_mention": 0.0,
+      "mean_target_mention_fraction": 0.0154
+    },
+    "Hailey Johnson": {
+      "n_calls": 15,
+      "pct_calls_with_any_target_mention": 0.0,
+      "pct_calls_all_self_mention": 100.0,
+      "mean_target_mention_fraction": 0.0
+    },
+    "Isabella Rodriguez": {
+      "n_calls": 15,
+      "pct_calls_with_any_target_mention": 6.67,
+      "pct_calls_all_self_mention": 0.0,
+      "mean_target_mention_fraction": 0.01
+    },
+    "Klaus Mueller": {
+      "n_calls": 15,
+      "pct_calls_with_any_target_mention": 13.33,
+      "pct_calls_all_self_mention": 0.0,
+      "mean_target_mention_fraction": 0.0333
+    },
+    "Latoya Williams": {
+      "n_calls": 15,
+      "pct_calls_with_any_target_mention": 0.0,
+      "pct_calls_all_self_mention": 100.0,
+      "mean_target_mention_fraction": 0.0
+    },
+    "Maria Lopez": {
+      "n_calls": 15,
+      "pct_calls_with_any_target_mention": 13.33,
+      "pct_calls_all_self_mention": 0.0,
+      "mean_target_mention_fraction": 0.0267
+    },
+    "Mei Lin": {
+      "n_calls": 15,
+      "pct_calls_with_any_target_mention": 0.0,
+      "pct_calls_all_self_mention": 0.0,
+      "mean_target_mention_fraction": 0.0
+    },
+    "Rajiv Patel": {
+      "n_calls": 15,
+      "pct_calls_with_any_target_mention": 6.67,
+      "pct_calls_all_self_mention": 0.0,
+      "mean_target_mention_fraction": 0.0333
+    },
+    "Ryan Park": {
+      "n_calls": 15,
+      "pct_calls_with_any_target_mention": 0.0,
+      "pct_calls_all_self_mention": 100.0,
+      "mean_target_mention_fraction": 0.0
+    },
+    "Wolfgang Schulz": {
+      "n_calls": 15,
+      "pct_calls_with_any_target_mention": 0.0,
+      "pct_calls_all_self_mention": 100.0,
+      "mean_target_mention_fraction": 0.0
+    }
+  }
+}

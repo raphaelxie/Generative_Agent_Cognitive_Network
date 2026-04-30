@@ -1,0 +1,188 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2026, 09:39:50",
+  "curr_tile": [
+    39,
+    28
+  ],
+  "daily_plan_req": "",
+  "name": "Rajiv Patel",
+  "first_name": "Rajiv",
+  "last_name": "Patel",
+  "age": 27,
+  "innate": "patient, reliable, cheerful",
+  "learned": "Rajiv Patel is a painter who wants live quietly and paint while enjoying his everyday life.",
+  "currently": "Rajiv Patel is preparing for his first solo show. He mostly works from the artists' co-living space. Also, he recently got into playing the guitar.",
+  "lifestyle": "Rajiv Patel goes to bed around midnight, awakes up around 9am, eats dinner around 5pm.",
+  "living_area": "the Ville:artist's co-living space:Rajiv Patel's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 171,
+  "importance_ele_n": 33,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine\n[(ID:1yJFa0) Friday February 13 -- 09:00 AM] Activity: Rajiv is having breakfast and enjoying a cup of coffee\n[(ID:Jw5YZh",
+      60
+    ],
+    [
+      "having breakfast and enjoying a cup of coffee  \n[(ID:2sW8xA) Friday February 13 -- 10:00 AM] Activity: Rajiv is painting in his studio  \n[(ID:3tH9mB) (having a glass of water)",
+      5
+    ],
+    [
+      "having breakfast and enjoying a cup of coffee  \n[(ID:2sW8xA) Friday February 13 -- 10:00 AM] Activity: Rajiv is painting in his studio  \n[(ID:3tH9mB) (preparing his breakfast)",
+      10
+    ],
+    [
+      "having breakfast and enjoying a cup of coffee  \n[(ID:2sW8xA) Friday February 13 -- 10:00 AM] Activity: Rajiv is painting in his studio  \n[(ID:3tH9mB) (cooking his breakfast)",
+      15
+    ],
+    [
+      "having breakfast and enjoying a cup of coffee  \n[(ID:2sW8xA) Friday February 13 -- 10:00 AM] Activity: Rajiv is painting in his studio  \n[(ID:3tH9mB) (setting the table for breakfast)",
+      5
+    ],
+    [
+      "having breakfast and enjoying a cup of coffee  \n[(ID:2sW8xA) Friday February 13 -- 10:00 AM] Activity: Rajiv is painting in his studio  \n[(ID:3tH9mB) (sitting down to eat his breakfast)",
+      5
+    ],
+    [
+      "having breakfast and enjoying a cup of coffee  \n[(ID:2sW8xA) Friday February 13 -- 10:00 AM] Activity: Rajiv is painting in his studio  \n[(ID:3tH9mB) (enjoying his breakfast)",
+      15
+    ],
+    [
+      "having breakfast and enjoying a cup of coffee  \n[(ID:2sW8xA) Friday February 13 -- 10:00 AM] Activity: Rajiv is painting in his studio  \n[(ID:3tH9mB) (finishing his breakfast)",
+      5
+    ],
+    [
+      "painting in his studio  \n[(ID:3tH9mB) Friday February 13 -- 11:00 AM] Activity: Rajiv is continuing to paint and work on his pieces for the solo show  \n[(ID:5g3 (1) Rajiv is setting up his painting area, organizing brushes, paints, and canvases)",
+      10
+    ],
+    [
+      "painting in his studio  \n[(ID:3tH9mB) Friday February 13 -- 11:00 AM] Activity: Rajiv is continuing to paint and work on his pieces for the solo show  \n[(ID:5g3 (selecting the colors he wants to use for his painting)",
+      5
+    ],
+    [
+      "painting in his studio  \n[(ID:3tH9mB) Friday February 13 -- 11:00 AM] Activity: Rajiv is continuing to paint and work on his pieces for the solo show  \n[(ID:5g3 (sketching the outline of his painting on the canvas)",
+      10
+    ],
+    [
+      "painting in his studio  \n[(ID:3tH9mB) Friday February 13 -- 11:00 AM] Activity: Rajiv is continuing to paint and work on his pieces for the solo show  \n[(ID:5g3 (applying the base layer of paint to the canvas)",
+      15
+    ],
+    [
+      "painting in his studio  \n[(ID:3tH9mB) Friday February 13 -- 11:00 AM] Activity: Rajiv is continuing to paint and work on his pieces for the solo show  \n[(ID:5g3 (adding details to the painting, focusing on the main subject)",
+      15
+    ],
+    [
+      "painting in his studio  \n[(ID:3tH9mB) Friday February 13 -- 11:00 AM] Activity: Rajiv is continuing to paint and work on his pieces for the solo show  \n[(ID:5g3 (stepping back to assess his work and make adjustments)",
+      5
+    ],
+    [
+      "continuing to paint and work on his pieces for the solo show  \n[(ID:5g3Z3F) Friday February 13 -- 12:00 PM] Activity: Rajiv is taking a break and having lunch  \n[(ID:",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Rajiv is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Rajiv is sleeping  \n[Friday February 13 -- 02:00 AM]",
+      60
+    ],
+    [
+      "Here is the completed hourly schedule for Rajiv Patel on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Rajiv is sleeping  \n[Friday February 13 -- 01:00 AM] Activity:",
+      660
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine\n[(ID:1yJFa0) Friday February 13 -- 09:00 AM] Activity: Rajiv is having breakfast and enjoying a cup of coffee\n[(ID:Jw5YZh",
+      60
+    ],
+    [
+      "having breakfast and enjoying a cup of coffee  \n[(ID:2sW8xA) Friday February 13 -- 10:00 AM] Activity: Rajiv is painting in his studio  \n[(ID:3tH9mB)",
+      60
+    ],
+    [
+      "painting in his studio  \n[(ID:3tH9mB) Friday February 13 -- 11:00 AM] Activity: Rajiv is continuing to paint and work on his pieces for the solo show  \n[(ID:5g3",
+      60
+    ],
+    [
+      "continuing to paint and work on his pieces for the solo show  \n[(ID:5g3Z3F) Friday February 13 -- 12:00 PM] Activity: Rajiv is taking a break and having lunch  \n[(ID:",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Rajiv is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Rajiv is sleeping  \n[Friday February 13 -- 02:00 AM]",
+      60
+    ],
+    [
+      "Here is the completed hourly schedule for Rajiv Patel on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Rajiv is sleeping  \n[Friday February 13 -- 01:00 AM] Activity:",
+      660
+    ]
+  ],
+  "act_address": "the Ville:artist's co-living space:common room:common room table",
+  "act_start_time": "February 13, 2026, 09:35:00",
+  "act_duration": 5,
+  "act_description": "having breakfast and enjoying a cup of coffee  \n[(ID:2sW8xA) Friday February 13 -- 10:00 AM] Activity: Rajiv is painting in his studio  \n[(ID:3tH9mB) (sitting down to eat his breakfast)",
+  "act_pronunciatio": "\ud83c\udf7d\ufe0f\u2615",
+  "act_event": [
+    "Rajiv Patel",
+    "sit",
+    "breakfast"
+  ],
+  "act_obj_description": "common room table is idle",
+  "act_obj_pronunciatio": "\ud83e\ude91\ud83d\udecb\ufe0f",
+  "act_obj_event": [
+    "common room table",
+    "is",
+    "idle"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {},
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

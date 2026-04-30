@@ -1,0 +1,216 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2026, 19:39:50",
+  "curr_tile": [
+    72,
+    14
+  ],
+  "daily_plan_req": "Isabella Rodriguez opens Hobbs Cafe at 8am everyday, and stands at the counter until 8pm, at which point she closes the cafe.",
+  "name": "Isabella Rodriguez",
+  "first_name": "Isabella",
+  "last_name": "Rodriguez",
+  "age": 34,
+  "innate": "friendly, outgoing, hospitable",
+  "learned": "Isabella Rodriguez is a cafe owner of Hobbs Cafe who loves to make people feel welcome. She is always looking for ways to make the cafe a place where people can come to relax and enjoy themselves.",
+  "currently": "Isabella Rodriguez is planning on having a Valentine's Day party at Hobbs Cafe with her customers on February 14th, 2023 at 5pm. She is gathering party material, and is telling everyone to join the party at Hobbs Cafe on *February 14th, 2023, from 5pm to 7pm*.",
+  "lifestyle": "Isabella Rodriguez goes to bed around 11pm, awakes up around 6am.",
+  "living_area": "the Ville:Isabella Rodriguez's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 241,
+  "importance_ele_n": 9,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "open Hobbs Cafe and begin serving customers from 8:00 am to 8:00 pm",
+    "prepare for the Valentine's Day party, including decorating the cafe and gathering all necessary materials",
+    "take a short lunch break around 12:30 pm",
+    "continue to serve customers while finishing the party preparations throughout the afternoon",
+    "take a moment to connect with customers and invite them personally to the Valentine's Day party at 5:00 pm",
+    "close the cafe at 8:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine  \n[(ID:KxU0fB) Friday February 13 -- 09:00 AM] Activity: Isabella opens Hobbs Cafe and begins serving customers  \n[(ID:4H5Lx",
+      60
+    ],
+    [
+      "serving customers at Hobbs Cafe  \n[(ID:7E6B4t) Friday February 13 -- 10:00 AM] Activity: Isabella is serving customers and enjoying conversations with them  \n[(ID:8H5nTg (1) Isabella greets the first customer of the day with a warm smile)",
+      5
+    ],
+    [
+      "serving customers at Hobbs Cafe  \n[(ID:7E6B4t) Friday February 13 -- 10:00 AM] Activity: Isabella is serving customers and enjoying conversations with them  \n[(ID:8H5nTg (the customer's order, asking if they would like any recommendations)",
+      5
+    ],
+    [
+      "serving customers at Hobbs Cafe  \n[(ID:7E6B4t) Friday February 13 -- 10:00 AM] Activity: Isabella is serving customers and enjoying conversations with them  \n[(ID:8H5nTg (the customer's drink, ensuring it is made to perfection)",
+      5
+    ],
+    [
+      "serving customers at Hobbs Cafe  \n[(ID:7E6B4t) Friday February 13 -- 10:00 AM] Activity: Isabella is serving customers and enjoying conversations with them  \n[(ID:8H5nTg (the drink to the customer, thanking them for their order)",
+      5
+    ],
+    [
+      "serving customers at Hobbs Cafe  \n[(ID:7E6B4t) Friday February 13 -- 10:00 AM] Activity: Isabella is serving customers and enjoying conversations with them  \n[(ID:8H5nTg (on the pastries and baked goods, ensuring they are well-stocked and fresh)",
+      5
+    ],
+    [
+      "serving customers at Hobbs Cafe  \n[(ID:7E6B4t) Friday February 13 -- 10:00 AM] Activity: Isabella is serving customers and enjoying conversations with them  \n[(ID:8H5nTg (in a friendly conversation with the customer, asking about their day)",
+      5
+    ],
+    [
+      "serving customers at Hobbs Cafe  \n[(ID:7E6B4t) Friday February 13 -- 10:00 AM] Activity: Isabella is serving customers and enjoying conversations with them  \n[(ID:8H5nTg (another customer's order, repeating the process with enthusiasm)",
+      5
+    ],
+    [
+      "serving customers at Hobbs Cafe  \n[(ID:7E6B4t) Friday February 13 -- 10:00 AM] Activity: Isabella is serving customers and enjoying conversations with them  \n[(ID:8H5nTg (the second customer's food item, paying attention to presentation)",
+      5
+    ],
+    [
+      "serving customers at Hobbs Cafe  \n[ (on the way to the food item to the second customer, making sure they have everything they need)",
+      0
+    ],
+    [
+      "serving customers at Hobbs Cafe  \n[ (conversing about Isabella Rodriguez and Giorgio Rossi discussing Giorgio's research on mathematical patterns in nature, planning a Valentine's Day party at the caf\u00e9 with unique activities, including math-themed games and fractal designs for decorations.)",
+      17
+    ],
+    [
+      "serving customers at Hobbs Cafe  \n[(ID:7E6B4t) Friday February 13 -- 10:00 AM] Activity: Isabella is serving customers and enjoying conversations with them  \n[(ID:8H5nTg (in with a group of customers at a nearby table, asking if they need anything)",
+      5
+    ],
+    [
+      "serving customers at Hobbs Cafe  \n[(ID:7E6B4t) Friday February 13 -- 10:00 AM] Activity: Isabella is serving customers and enjoying conversations with them  \n[(ID:8H5nTg (a moment to refill the coffee pot for the customers)",
+      5
+    ],
+    [
+      "serving customers at Hobbs Cafe  \n[(ID:7E6B4t) Friday February 13 -- 10:00 AM] Activity: Isabella is serving customers and enjoying conversations with them  \n[(ID:8H5nTg (the customers for their visit as they leave, inviting them to return soon)",
+      5
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Isabella is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Isabella is sleeping  \n[Friday February 13 -- 02:00 AM] Activity:",
+      228
+    ],
+    [
+      "Here's the completed hourly schedule for Isabella Rodriguez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Isabella is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Isabella is sleeping",
+      540
+    ],
+    [
+      "Here is the completed hourly schedule for Isabella Rodriguez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Isabella is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Isabella is",
+      60
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine  \n[(ID:KxU0fB) Friday February 13 -- 09:00 AM] Activity: Isabella opens Hobbs Cafe and begins serving customers  \n[(ID:4H5Lx",
+      60
+    ],
+    [
+      "serving customers at Hobbs Cafe  \n[(ID:7E6B4t) Friday February 13 -- 10:00 AM] Activity: Isabella is serving customers and enjoying conversations with them  \n[(ID:8H5nTg",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Isabella is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Isabella is sleeping  \n[Friday February 13 -- 02:00 AM] Activity:",
+      240
+    ],
+    [
+      "Here's the completed hourly schedule for Isabella Rodriguez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Isabella is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Isabella is sleeping",
+      540
+    ],
+    [
+      "Here is the completed hourly schedule for Isabella Rodriguez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Isabella is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Isabella is",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Isabella Rodriguez's apartment:main room:bed",
+  "act_start_time": "February 13, 2026, 14:02:00",
+  "act_duration": 540,
+  "act_description": "Here's the completed hourly schedule for Isabella Rodriguez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Isabella is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Isabella is sleeping",
+  "act_pronunciatio": "\ud83d\ude34\ud83d\udca4",
+  "act_event": [
+    "Isabella Rodriguez",
+    "sleep",
+    "sleeping"
+  ],
+  "act_obj_description": "in use",
+  "act_obj_pronunciatio": "\ud83d\udd04\ud83d\udda5\ufe0f",
+  "act_obj_event": [
+    "bed",
+    "is",
+    "in use"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Giorgio Rossi": -2728
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

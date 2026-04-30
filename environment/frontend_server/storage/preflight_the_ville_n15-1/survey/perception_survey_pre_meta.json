@@ -1,0 +1,31 @@
+{
+  "wave_id": "pre",
+  "step": 600,
+  "sim_time": "2026-02-13 09:40:00",
+  "sim_code": "preflight_the_ville_n15-1",
+  "n_personas": 15,
+  "persona_names": [
+    "Abigail Chen",
+    "Arthur Burton",
+    "Ayesha Khan",
+    "Carlos Gomez",
+    "Francisco Lopez",
+    "Giorgio Rossi",
+    "Hailey Johnson",
+    "Isabella Rodriguez",
+    "Klaus Mueller",
+    "Latoya Williams",
+    "Maria Lopez",
+    "Mei Lin",
+    "Rajiv Patel",
+    "Ryan Park",
+    "Wolfgang Schulz"
+  ],
+  "n_rows": 3390,
+  "n_micro_tie": 3150,
+  "n_centrality_rank": 225,
+  "n_self_position": 15,
+  "n_fail_safe": 308,
+  "n_retrieval_calls": 240,
+  "retrieval_diagnostics_path": "retrieval_diagnostics_pre.jsonl"
+}

@@ -1,0 +1,138 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2026, 09:39:50",
+  "curr_tile": [
+    72,
+    14
+  ],
+  "daily_plan_req": "Isabella Rodriguez opens Hobbs Cafe at 8am everyday, and stands at the counter until 8pm, at which point she closes the cafe.",
+  "name": "Isabella Rodriguez",
+  "first_name": "Isabella",
+  "last_name": "Rodriguez",
+  "age": 34,
+  "innate": "friendly, outgoing, hospitable",
+  "learned": "Isabella Rodriguez is a cafe owner of Hobbs Cafe who loves to make people feel welcome. She is always looking for ways to make the cafe a place where people can come to relax and enjoy themselves.",
+  "currently": "Isabella Rodriguez is planning on having a Valentine's Day party at Hobbs Cafe with her customers on February 14th, 2023 at 5pm. She is gathering party material, and is telling everyone to join the party at Hobbs Cafe on *February 14th, 2023, from 5pm to 7pm*.",
+  "lifestyle": "Isabella Rodriguez goes to bed around 11pm, awakes up around 6am.",
+  "living_area": "the Ville:Isabella Rodriguez's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 242,
+  "importance_ele_n": 8,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 6:00 am",
+    "prepare for the cafe opening at 7:30 am",
+    "open Hobbs Cafe at 8:00 am",
+    "serve customers and manage the cafe until 3:00 pm",
+    "take a lunch break from 3:00 pm to 4:00 pm",
+    "prepare for the Valentine\u2019s Day party by gathering decorations and materials from 4:00 pm to 5:30 pm",
+    "take a moment to relax and review the party plan from 5:30 pm to 6:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "waking up and completing her morning routine  \n[(ID:V5b2x6) Friday February 13 -- 07:00 AM] Activity: Isabella is preparing for the cafe opening  \n[(ID:5U7f3Q)",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Isabella is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Isabella is sleeping  \n[Friday February 13 -- 02:00 AM] Activity:",
+      480
+    ],
+    [
+      "Here's the completed hourly schedule for Isabella Rodriguez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Isabella is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Isabella is sleeping",
+      180
+    ],
+    [
+      "Here is the completed hourly schedule for Isabella Rodriguez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Isabella is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Isabella is",
+      60
+    ],
+    [
+      "Here's the completed hourly schedule for Isabella Rodriguez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Isabella is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Isabella is sleeping",
+      60
+    ],
+    [
+      "Here is the completed hourly schedule for Isabella Rodriguez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Isabella is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Isabella is",
+      60
+    ],
+    [
+      "Here is the completed hourly schedule for Isabella Rodriguez on Friday, February 13, 2023:\n\n[Friday February 13 -- 00:00 AM] Activity: Isabella is sleeping  \n[Friday February 13 -- 01:00 AM]",
+      180
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "waking up and completing her morning routine  \n[(ID:V5b2x6) Friday February 13 -- 07:00 AM] Activity: Isabella is preparing for the cafe opening  \n[(ID:5U7f3Q)",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Isabella is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Isabella is sleeping  \n[Friday February 13 -- 02:00 AM] Activity:",
+      480
+    ],
+    [
+      "Here's the completed hourly schedule for Isabella Rodriguez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Isabella is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Isabella is sleeping",
+      180
+    ],
+    [
+      "Here is the completed hourly schedule for Isabella Rodriguez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Isabella is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Isabella is",
+      60
+    ],
+    [
+      "Here's the completed hourly schedule for Isabella Rodriguez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Isabella is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Isabella is sleeping",
+      60
+    ],
+    [
+      "Here is the completed hourly schedule for Isabella Rodriguez on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Isabella is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Isabella is",
+      60
+    ],
+    [
+      "Here is the completed hourly schedule for Isabella Rodriguez on Friday, February 13, 2023:\n\n[Friday February 13 -- 00:00 AM] Activity: Isabella is sleeping  \n[Friday February 13 -- 01:00 AM]",
+      180
+    ]
+  ],
+  "act_address": "the Ville:Isabella Rodriguez's apartment:main room:bed",
+  "act_start_time": "February 13, 2026, 08:00:00",
+  "act_duration": 480,
+  "act_description": "[Friday February 13 -- 00:00 AM] Activity: Isabella is sleeping  \n[Friday February 13 -- 01:00 AM] Activity: Isabella is sleeping  \n[Friday February 13 -- 02:00 AM] Activity:",
+  "act_pronunciatio": "\ud83d\ude34\ud83d\udca4",
+  "act_event": [
+    "Isabella Rodriguez",
+    "is",
+    "sleep"
+  ],
+  "act_obj_description": "in use",
+  "act_obj_pronunciatio": "\ud83d\udd04\ud83c\udd97",
+  "act_obj_event": [
+    "bed",
+    "is",
+    "in use"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {},
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

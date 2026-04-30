@@ -1,0 +1,8 @@
+step,sim_time,n_personas,n_chats_cumulative,n_new_chats_since_prev,n_active_agents_cumulative,n_new_active_agents_since_prev,n_edges_cumulative,n_edges_recent_8h,density_cumulative,mean_degree_cumulative,max_degree,top3_degree,max_betweenness,top3_betweenness,hub,broker,hub_eq_broker
+600,2026-02-13 09:40:00,15,3,3,6,6,3,3,0.0286,0.4,1,Ayesha Khan=1; Francisco Lopez=1; Giorgio Rossi=1,0.0,,Ayesha Khan,,0
+900,2026-02-13 10:30:00,15,4,1,7,2,4,4,0.0381,0.533,2,Francisco Lopez=2; Arthur Burton=1; Ayesha Khan=1,0.011,Francisco Lopez=0.0110,Francisco Lopez,Francisco Lopez,1
+1200,2026-02-13 11:20:00,15,4,0,7,0,4,4,0.0381,0.533,2,Francisco Lopez=2; Arthur Burton=1; Ayesha Khan=1,0.011,Francisco Lopez=0.0110,Francisco Lopez,Francisco Lopez,1
+1800,2026-02-13 13:00:00,15,4,0,7,0,4,4,0.0381,0.533,2,Francisco Lopez=2; Arthur Burton=1; Ayesha Khan=1,0.011,Francisco Lopez=0.0110,Francisco Lopez,Francisco Lopez,1
+2400,2026-02-13 14:40:00,15,4,0,7,0,4,4,0.0381,0.533,2,Francisco Lopez=2; Arthur Burton=1; Ayesha Khan=1,0.011,Francisco Lopez=0.0110,Francisco Lopez,Francisco Lopez,1
+3000,2026-02-13 16:20:00,15,4,0,7,0,4,3,0.0381,0.533,2,Francisco Lopez=2; Arthur Burton=1; Ayesha Khan=1,0.011,Francisco Lopez=0.0110,Francisco Lopez,Francisco Lopez,1
+4200,2026-02-13 19:40:00,15,4,0,7,0,4,0,0.0381,0.533,2,Francisco Lopez=2; Arthur Burton=1; Ayesha Khan=1,0.011,Francisco Lopez=0.0110,Francisco Lopez,Francisco Lopez,1
