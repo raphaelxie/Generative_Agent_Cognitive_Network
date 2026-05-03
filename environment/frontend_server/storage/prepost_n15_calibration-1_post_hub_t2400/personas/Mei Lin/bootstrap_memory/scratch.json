@@ -1,0 +1,241 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2026, 14:39:50",
+  "curr_tile": [
+    108,
+    23
+  ],
+  "daily_plan_req": "Mei Lin goes to Oak Hill college to teach starting 10 am, teaches until 2pm, and returns home to work.",
+  "name": "Mei Lin",
+  "first_name": "Mei",
+  "last_name": "Lin",
+  "age": 44,
+  "innate": "nurturing, kind, patient",
+  "learned": "Mei Lin is a college professor and a mom who loves to help people reach their goals. She is always looking for ways to support her students and her family.",
+  "currently": "Mei Lin is living with her husband, John Lin, and son, Eddy Lin, and is teaching a course on philosophy and working on her research paper. She also is helping her two kids with their schoolwork.",
+  "lifestyle": "Mei Lin goes to bed around 11pm, awakes up around 7am, eats dinner around 5pm.",
+  "living_area": "the Ville:Lin family's house:Mei and John Lin's bedroom",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 221,
+  "importance_ele_n": 18,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "prepare for teaching at Oak Hill College at 9:00 am",
+    "teach philosophy class from 10:00 am to 2:00 pm",
+    "have lunch and review student assignments from 2:30 pm to 3:30 pm",
+    "spend time helping Eddy with his schoolwork from 4:00 pm to 5:00 pm",
+    "have dinner with the family at 5:00 pm",
+    "continue working on her research paper from 6:00 pm to 8:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "preparing for teaching at Oak Hill College (preparing her lecture notes)",
+      15
+    ],
+    [
+      "preparing for teaching at Oak Hill College (reviewing the course syllabus)",
+      10
+    ],
+    [
+      "preparing for teaching at Oak Hill College (organizing her teaching materials)",
+      10
+    ],
+    [
+      "preparing for teaching at Oak Hill College (setting up her presentation slides)",
+      15
+    ],
+    [
+      "preparing for teaching at Oak Hill College (checking her email for any student inquiries)",
+      5
+    ],
+    [
+      "preparing for teaching at Oak Hill College (on the way to packing her bag with teaching materials)",
+      0
+    ],
+    [
+      "preparing for teaching at Oak Hill College (conversing about Wolfgang Schulz and Mei Lin discussing study strategies and resources for Wolfgang's upcoming chemistry exam, including tips for staying focused and motivated.)",
+      15
+    ],
+    [
+      "teaching philosophy class at Oak Hill College (1) Mei is setting up the classroom and arranging seating)",
+      10
+    ],
+    [
+      "teaching philosophy class at Oak Hill College (greeting students as they arrive)",
+      5
+    ],
+    [
+      "teaching philosophy class at Oak Hill College (taking attendance)",
+      5
+    ],
+    [
+      "teaching philosophy class at Oak Hill College (introducing the day's topic)",
+      10
+    ],
+    [
+      "teaching philosophy class at Oak Hill College (presenting key concepts of the lesson)",
+      15
+    ],
+    [
+      "teaching philosophy class at Oak Hill College (facilitating a class discussion on the topic)",
+      20
+    ],
+    [
+      "teaching philosophy class at Oak Hill College (on the way to guiding students through a group activity)",
+      0
+    ],
+    [
+      "teaching philosophy class at Oak Hill College (conversing about Ayesha Khan and Mei Lin discussing Shakespeare's language, ethical dilemmas in literature, and Ayesha's thesis connecting Shakespeare's characters to philosophical theories while planning to collaborate on her thesis analysis.)",
+      20
+    ],
+    [
+      "teaching philosophy class at Oak Hill College (answering student questions and providing clarification)",
+      10
+    ],
+    [
+      "teaching philosophy class at Oak Hill College (summarizing the key points of the lesson)",
+      10
+    ],
+    [
+      "teaching philosophy class at Oak Hill College (assigning homework and explaining expectations)",
+      5
+    ],
+    [
+      "teaching philosophy class at Oak Hill College (wrapping up the class and thanking students for their participation)",
+      5
+    ],
+    [
+      "teaching philosophy class at Oak Hill College (collecting any assignments or materials from students)",
+      5
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Mei is sleeping",
+      120
+    ],
+    [
+      "continuing to teach philosophy class at Oak Hill College",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Mei is sleeping",
+      60
+    ],
+    [
+      "helping Eddy with his schoolwork",
+      60
+    ],
+    [
+      "having dinner with her family",
+      60
+    ],
+    [
+      "continuing to work on her research paper",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Mei is sleeping",
+      60
+    ],
+    [
+      "continuing to work on her research paper",
+      240
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "preparing for teaching at Oak Hill College",
+      60
+    ],
+    [
+      "teaching philosophy class at Oak Hill College",
+      120
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Mei is sleeping",
+      120
+    ],
+    [
+      "continuing to teach philosophy class at Oak Hill College",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Mei is sleeping",
+      60
+    ],
+    [
+      "helping Eddy with his schoolwork",
+      60
+    ],
+    [
+      "having dinner with her family",
+      60
+    ],
+    [
+      "continuing to work on her research paper",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Mei is sleeping",
+      60
+    ],
+    [
+      "continuing to work on her research paper",
+      240
+    ]
+  ],
+  "act_address": "the Ville:Oak Hill College:classroom:classroom podium",
+  "act_start_time": "February 13, 2026, 14:10:00",
+  "act_duration": 60,
+  "act_description": "continuing to teach philosophy class at Oak Hill College",
+  "act_pronunciatio": "\ud83d\udcda\ud83d\udc69\u200d",
+  "act_event": [
+    "Mei Lin",
+    "continue",
+    "teach philosophy class at Oak Hill College"
+  ],
+  "act_obj_description": "in use",
+  "act_obj_pronunciatio": "\ud83d\udd04\ud83d\udc64",
+  "act_obj_event": [
+    "classroom podium",
+    "is",
+    "in use"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Wolfgang Schulz": -832,
+    "Ayesha Khan": -370
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

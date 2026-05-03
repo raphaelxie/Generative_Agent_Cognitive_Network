@@ -9,6 +9,8 @@ Outputs:
   - Console report (per-respondent + overall per wave)
   - analysis_micro_tie_metrics.csv       (structured metrics)
   - analysis_micro_tie_metrics_README.md (self-describing sidecar)
+  - analysis_micro_tie_metrics_by_truth.csv
+  - analysis_micro_tie_metrics_by_truth_README.md
 
 Micro-tie aggregation rule (IMPORTANT):
   Each respondent answers two directed micro-tie questions per unordered
@@ -97,6 +99,13 @@ METRICS_COLUMNS = [
     "n_fail_safe", "n_pairs_evaluated",
 ]
 
+METRICS_BY_TRUTH_COLUMNS = [
+    "wave_id", "step", "truth_layer", "truth_file", "respondent",
+    "tp", "fp", "fn", "tn",
+    "precision", "recall", "fpr", "fnr", "pair_accuracy",
+    "n_fail_safe", "n_pairs_evaluated",
+]
+
 
 def _parse_perceived(val, is_fs):
     """Return 0, 1, or None (drop). Fail-safe rows are dropped."""
@@ -133,20 +142,43 @@ def _confusion_record(wave_id, step, respondent, tp, fp, fn, tn,
     }
 
 
-def compute_micro_tie_confusion(survey_rows, edge_rows, wave_id, step):
+def build_interaction_truth_labels(edge_rows):
+    """Return {frozenset({a, b}): 0/1} using observed interaction labels."""
+    return {
+        frozenset({r["node_a"], r["node_b"]}): int(r["tie_cumulative"])
+        for r in edge_rows
+    }
+
+
+def build_background_truth_labels(background_rows):
+    """Return {frozenset({a, b}): 0/1} using background social-tie labels."""
+    return {
+        frozenset({r["node_a"], r["node_b"]}): int(r["tie_background"])
+        for r in background_rows
+    }
+
+
+def union_truth_labels(*truth_maps):
+    """Return pair labels where a dyad is positive in any supplied truth map."""
+    pairs = set()
+    for truth_map in truth_maps:
+        pairs.update(truth_map.keys())
+    return {
+        pair: 1 if any(truth_map.get(pair, 0) for truth_map in truth_maps) else 0
+        for pair in pairs
+    }
+
+
+def compute_micro_tie_confusion_for_truth(survey_rows, truth_labels,
+                                          wave_id, step):
     """Return list of per-respondent confusion dicts plus one __overall__ row.
 
-    Requires edge_rows to be present; returns [] if ground truth is missing.
+    Requires truth_labels to be present; returns [] if ground truth is missing.
     Requires survey_rows to have 'target_j' populated; callers should run
     reconstruct_target_j first for old-format CSVs.
     """
-    if not edge_rows:
+    if not truth_labels:
         return []
-
-    gt_tie = {}
-    for r in edge_rows:
-        pair = frozenset({r["node_a"], r["node_b"]})
-        gt_tie[pair] = int(r["tie_cumulative"])
 
     by_resp = defaultdict(list)
     for r in survey_rows:
@@ -170,7 +202,7 @@ def compute_micro_tie_confusion(survey_rows, edge_rows, wave_id, step):
             if not j or not k or j == k:
                 continue
             pair = frozenset({j, k})
-            if pair not in gt_tie:
+            if pair not in truth_labels:
                 continue
             is_fs = r.get("is_fail_safe", "0")
             if is_fs == "1":
@@ -184,7 +216,7 @@ def compute_micro_tie_confusion(survey_rows, edge_rows, wave_id, step):
             if not valid:
                 continue
             perceived_pair = 1 if any(o == 1 for o in valid) else 0
-            actual = gt_tie[pair]
+            actual = truth_labels[pair]
             if perceived_pair == 1 and actual == 1:
                 tp += 1
             elif perceived_pair == 1 and actual == 0:
@@ -209,6 +241,68 @@ def compute_micro_tie_confusion(survey_rows, edge_rows, wave_id, step):
         wave_id, step, "__overall__",
         total_tp, total_fp, total_fn, total_tn, total_fs, total_pairs))
     return results
+
+
+def compute_micro_tie_confusion(survey_rows, edge_rows, wave_id, step):
+    """Legacy interaction-only confusion metrics."""
+    if not edge_rows:
+        return []
+    return compute_micro_tie_confusion_for_truth(
+        survey_rows,
+        build_interaction_truth_labels(edge_rows),
+        wave_id,
+        step,
+    )
+
+
+def add_truth_metadata(records, truth_layer, truth_file):
+    out = []
+    for rec in records:
+        row = dict(rec)
+        row["truth_layer"] = truth_layer
+        row["truth_file"] = truth_file
+        out.append(row)
+    return out
+
+
+def compute_micro_tie_confusion_by_truth(survey_rows, edge_rows,
+                                         background_rows, wave_id, step,
+                                         interaction_truth_file,
+                                         background_truth_file):
+    records = []
+    if edge_rows:
+        interaction_labels = build_interaction_truth_labels(edge_rows)
+        interaction_records = compute_micro_tie_confusion_for_truth(
+            survey_rows, interaction_labels, wave_id, step)
+        records.extend(add_truth_metadata(
+            interaction_records,
+            "observed_interaction",
+            interaction_truth_file,
+        ))
+    else:
+        interaction_labels = {}
+
+    if background_rows:
+        background_labels = build_background_truth_labels(background_rows)
+        background_records = compute_micro_tie_confusion_for_truth(
+            survey_rows, background_labels, wave_id, step)
+        records.extend(add_truth_metadata(
+            background_records,
+            "background_social_tie",
+            background_truth_file,
+        ))
+
+        if interaction_labels:
+            union_labels = union_truth_labels(interaction_labels, background_labels)
+            union_records = compute_micro_tie_confusion_for_truth(
+                survey_rows, union_labels, wave_id, step)
+            records.extend(add_truth_metadata(
+                union_records,
+                "background_or_interaction",
+                f"{background_truth_file}+{interaction_truth_file}",
+            ))
+
+    return records
 
 
 def _fmt_ratio(v):
@@ -272,6 +366,46 @@ summed across respondents and the ratios are recomputed from the sums.
 """
 
 
+MICRO_TIE_METRICS_BY_TRUTH_README = """\
+# analysis_micro_tie_metrics_by_truth.csv
+
+Structured micro-tie perception metrics produced by `analyze_survey.py`,
+computed against multiple explicitly named truth layers.
+
+## Truth layers
+
+- `observed_interaction`: dynamic interaction truth from
+  `ground_truth/ground_truth_edges_{step}.csv`; a positive dyad means the
+  pair has at least one observed chat by that wave's simulation step.
+- `background_social_tie`: baseline social-tie truth from
+  `ground_truth/background_social_edges.csv`; a positive dyad means the
+  pair has conservative evidence of a pre-existing social tie.
+- `background_or_interaction`: derived comparison view; a positive dyad
+  means the pair is positive in either `observed_interaction` or
+  `background_social_tie`.
+
+## Interpretation
+
+The same perceived micro-tie can be a false positive under
+`observed_interaction` but a true positive under `background_social_tie`.
+For the broad survey wording ("connection or relationship"),
+`background_or_interaction` is the least construct-mismatched comparison:
+false positives there are perceived ties supported by neither prior social
+history nor observed interaction.
+
+All other aggregation, fail-safe, and metric definitions match
+`analysis_micro_tie_metrics.csv`.
+"""
+
+
+def fmt_metric_cell(v):
+    if v is None:
+        return ""
+    if isinstance(v, float):
+        return f"{v:.6f}"
+    return v
+
+
 def write_micro_tie_metrics_csv(all_records, survey_dir):
     """Write one row per (wave, respondent) plus one __overall__ row per wave.
 
@@ -282,23 +416,36 @@ def write_micro_tie_metrics_csv(all_records, survey_dir):
         return None
     path = os.path.join(survey_dir, "analysis_micro_tie_metrics.csv")
 
-    def fmt_cell(v):
-        if v is None:
-            return ""
-        if isinstance(v, float):
-            return f"{v:.6f}"
-        return v
-
     with open(path, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(METRICS_COLUMNS)
         for rec in all_records:
-            w.writerow([fmt_cell(rec[c]) for c in METRICS_COLUMNS])
+            w.writerow([fmt_metric_cell(rec[c]) for c in METRICS_COLUMNS])
 
     readme_path = os.path.join(
         survey_dir, "analysis_micro_tie_metrics_README.md")
     with open(readme_path, "w", encoding="utf-8") as f:
         f.write(MICRO_TIE_METRICS_README)
+
+    return path
+
+
+def write_micro_tie_metrics_by_truth_csv(all_records, survey_dir):
+    """Write one row per (wave, truth layer, respondent)."""
+    if not all_records:
+        return None
+    path = os.path.join(survey_dir, "analysis_micro_tie_metrics_by_truth.csv")
+
+    with open(path, "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(METRICS_BY_TRUTH_COLUMNS)
+        for rec in all_records:
+            w.writerow([fmt_metric_cell(rec[c]) for c in METRICS_BY_TRUTH_COLUMNS])
+
+    readme_path = os.path.join(
+        survey_dir, "analysis_micro_tie_metrics_by_truth_README.md")
+    with open(readme_path, "w", encoding="utf-8") as f:
+        f.write(MICRO_TIE_METRICS_BY_TRUTH_README)
 
     return path
 
@@ -356,6 +503,19 @@ def discover_waves(survey_dir):
 
     waves.sort(key=lambda w: int(w[3]))
     return waves
+
+
+def discover_background_edges(survey_dir):
+    """Return background_social_edges.csv path if present."""
+    path = os.path.join(
+        survey_dir, "ground_truth", "background_social_edges.csv")
+    return path if os.path.exists(path) else None
+
+
+def truth_file_label(survey_dir, path):
+    if not path:
+        return ""
+    return os.path.relpath(path, survey_dir)
 
 
 # ── printing helpers ──────────────────────────────────────────────────
@@ -636,9 +796,18 @@ def main():
     else:
         print("  (no shock_log.jsonl found)")
 
+    background_edges_path = discover_background_edges(survey_dir)
+    if background_edges_path:
+        background_rows = load_edges_csv(background_edges_path)
+        print(f"  Background social truth: {background_edges_path}")
+    else:
+        background_rows = []
+        print("  (no background_social_edges.csv found)")
+
     # Analyze each wave independently
     loaded = []
     all_metric_records = []
+    all_metric_records_by_truth = []
     for wave_id, survey_path, edges_path, step in waves:
         survey_rows = load_survey_csv(survey_path)
         edge_rows = load_edges_csv(edges_path) if edges_path else []
@@ -654,6 +823,17 @@ def main():
         records = analyze_wave(wave_id, survey_rows, edge_rows)
         if records:
             all_metric_records.extend(records)
+        by_truth_records = compute_micro_tie_confusion_by_truth(
+            survey_rows,
+            edge_rows,
+            background_rows,
+            wave_id,
+            step,
+            truth_file_label(survey_dir, edges_path),
+            truth_file_label(survey_dir, background_edges_path),
+        )
+        if by_truth_records:
+            all_metric_records_by_truth.extend(by_truth_records)
         loaded.append((wave_id, survey_rows, edge_rows))
 
     # Write structured micro-tie metrics CSV (one row per wave x respondent,
@@ -663,6 +843,12 @@ def main():
             all_metric_records, survey_dir)
         if metrics_path:
             print(f"\n  Wrote {metrics_path}")
+
+    if all_metric_records_by_truth:
+        metrics_by_truth_path = write_micro_tie_metrics_by_truth_csv(
+            all_metric_records_by_truth, survey_dir)
+        if metrics_by_truth_path:
+            print(f"  Wrote {metrics_by_truth_path}")
 
     # Compare consecutive waves
     if len(loaded) >= 2:

@@ -602,15 +602,12 @@ def _determine_action(persona, maze):
   print (persona.scratch.name)
   print ("------")
 
-  # 1440
   x_emergency = 0
   for i in persona.scratch.f_daily_schedule: 
     x_emergency += i[1]
-  # print ("x_emergency", x_emergency)
 
   if 1440 - x_emergency > 0: 
-    print ("x_emergency__AAA", x_emergency)
-  persona.scratch.f_daily_schedule += [["sleeping", 1440 - x_emergency]]
+    persona.scratch.f_daily_schedule += [["sleeping", 1440 - x_emergency]]
   
 
 

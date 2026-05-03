@@ -218,13 +218,22 @@ def run_gpt_prompt_generate_hourly_schedule(persona,
 
   def __func_clean_up(gpt_response, prompt=""):
     cr = gpt_response.strip()
-    if cr[-1] == ".":
+    if "\n" in cr:
+      cr = cr.split("\n")[0].strip()
+    if cr and cr[-1] == ".":
       cr = cr[:-1]
     return cr
 
   def __func_validate(gpt_response, prompt=""): 
-    try: __func_clean_up(gpt_response, prompt="")
-    except: return False
+    try:
+      cr = __func_clean_up(gpt_response, prompt="")
+    except:
+      return False
+    if not cr or len(cr) > 120:
+      return False
+    low = cr.lower()
+    if "here's" in low or "here is" in low or "schedule" in low or "```" in cr:
+      return False
     return True
 
   def get_fail_safe(): 
@@ -361,7 +370,24 @@ def run_gpt_prompt_task_decomp(persona,
     print (gpt_response)
     print ("-==- -==- -==- ")
 
+    def _fallback_decomp():
+      return [[task, int(duration)]]
+
     # TODO SOMETHING HERE sometimes fails... See screenshot
+    if isinstance(gpt_response, list):
+      cr = []
+      for item in gpt_response:
+        if (isinstance(item, (list, tuple))
+            and len(item) == 2
+            and str(item[0]).strip()):
+          try:
+            i_duration = int(item[1])
+          except (TypeError, ValueError):
+            continue
+          if i_duration > 0:
+            cr += [[str(item[0]).strip(), i_duration]]
+      return cr or _fallback_decomp()
+
     temp = [i.strip() for i in gpt_response.split("\n")]
     _cr = []
     cr = []
@@ -386,10 +412,13 @@ def run_gpt_prompt_task_decomp(persona,
       cr += [[task, duration]]
 
     if not cr:
-      cr = [["asleep", 60]]
+      return _fallback_decomp()
 
-    total_expected_min = int(prompt.split("(total duration in minutes")[-1]
-                                   .split("):")[0].strip())
+    try:
+      total_expected_min = int(prompt.split("(total duration in minutes")[-1]
+                                     .split("):")[0].strip())
+    except (ValueError, IndexError):
+      total_expected_min = int(duration)
     
     # TODO -- now, you need to make sure that this is the same as the sum of 
     #         the current action sequence. 
@@ -404,8 +433,12 @@ def run_gpt_prompt_task_decomp(persona,
           curr_min_slot += [(i_task, count)]       
     curr_min_slot = curr_min_slot[1:]   
 
+    if not curr_min_slot:
+      return _fallback_decomp()
+
     if len(curr_min_slot) > total_expected_min: 
-      last_task = curr_min_slot[60]
+      last_task = curr_min_slot[min(len(curr_min_slot) - 1,
+                                    max(total_expected_min - 1, 0))]
       for i in range(1, 6): 
         curr_min_slot[-1 * i] = last_task
     elif len(curr_min_slot) < total_expected_min: 
@@ -414,9 +447,9 @@ def run_gpt_prompt_task_decomp(persona,
         curr_min_slot += [last_task]
 
     cr_ret = [["dummy", -1],]
-    for task, task_index in curr_min_slot: 
-      if task != cr_ret[-1][0]: 
-        cr_ret += [[task, 1]]
+    for slot_task, task_index in curr_min_slot: 
+      if slot_task != cr_ret[-1][0]: 
+        cr_ret += [[slot_task, 1]]
       else: 
         cr_ret[-1][1] += 1
     cr = cr_ret[1:]
@@ -424,16 +457,15 @@ def run_gpt_prompt_task_decomp(persona,
     return cr
 
   def __func_validate(gpt_response, prompt=""): 
-    # TODO -- this sometimes generates error 
     try: 
-      __func_clean_up(gpt_response)
-    except: 
-      pass
-      # return False
-    return gpt_response
+      cleaned = __func_clean_up(gpt_response, prompt=prompt)
+    except Exception: 
+      return False
+    return all(isinstance(i, list) and len(i) == 2 and i[1] > 0
+               for i in cleaned)
 
   def get_fail_safe(): 
-    fs = ["asleep"]
+    fs = [[task, int(duration)]]
     return fs
 
   gpt_param = {"engine": DEFAULT_CHAT_MODEL, "max_tokens": 1000, 
@@ -467,7 +499,19 @@ def run_gpt_prompt_task_decomp(persona,
 
   fin_output = []
   time_sum = 0
-  for i_task, i_duration in output: 
+  for item in output: 
+    if not (isinstance(item, (list, tuple)) and len(item) == 2):
+      continue
+    i_task, i_duration = item
+    i_task = str(i_task).strip()
+    if not i_task:
+      continue
+    try:
+      i_duration = int(i_duration)
+    except (TypeError, ValueError):
+      continue
+    if i_duration <= 0:
+      continue
     time_sum += i_duration
     # HM?????????
     # if time_sum < duration: 
@@ -479,6 +523,10 @@ def run_gpt_prompt_task_decomp(persona,
   for fi_task, fi_duration in fin_output: 
     ftime_sum += fi_duration
   
+  if not fin_output:
+    fin_output = [[task, int(duration)]]
+    ftime_sum = int(duration)
+
   # print ("for debugging... line 365", fin_output)
   fin_output[-1][1] += (duration - ftime_sum)
   output = fin_output 
@@ -643,6 +691,19 @@ def run_gpt_prompt_action_arena(action_description,
                                 maze, act_world, act_sector,
                                 test_input=None, 
                                 verbose=False):
+  def _accessible_arenas():
+    x = f"{act_world}:{act_sector}"
+    accessible_arena_str = persona.s_mem.get_str_accessible_sector_arenas(x)
+    curr = [i.strip() for i in accessible_arena_str.split(",") if i.strip()]
+    fin_accessible_arenas = []
+    for i in curr: 
+      if "'s room" in i: 
+        if persona.scratch.last_name in i: 
+          fin_accessible_arenas += [i]
+      else: 
+        fin_accessible_arenas += [i]
+    return fin_accessible_arenas
+
   def create_prompt_input(action_description, persona, maze, act_world, act_sector, test_input=None): 
     prompt_input = []
     # prompt_input += [persona.scratch.get_str_name()]
@@ -653,16 +714,7 @@ def run_gpt_prompt_action_arena(action_description,
     prompt_input += [act_sector]
 
     # MAR 11 TEMP
-    accessible_arena_str = persona.s_mem.get_str_accessible_sector_arenas(x)
-    curr = accessible_arena_str.split(", ")
-    fin_accessible_arenas = []
-    for i in curr: 
-      if "'s room" in i: 
-        if persona.scratch.last_name in i: 
-          fin_accessible_arenas += [i]
-      else: 
-        fin_accessible_arenas += [i]
-    accessible_arena_str = ", ".join(fin_accessible_arenas)
+    accessible_arena_str = ", ".join(_accessible_arenas())
     # END MAR 11 TEMP
 
 
@@ -703,10 +755,19 @@ def run_gpt_prompt_action_arena(action_description,
       return False
     if "," in gpt_response: 
       return False
+    if __func_clean_up(gpt_response, prompt=prompt) not in _accessible_arenas():
+      return False
     return True
   
   def get_fail_safe(): 
-    fs = ("kitchen")
+    accessible_arenas = _accessible_arenas()
+    curr_arena = maze.access_tile(persona.scratch.curr_tile)["arena"]
+    if curr_arena in accessible_arenas:
+      fs = curr_arena
+    elif accessible_arenas:
+      fs = accessible_arenas[0]
+    else:
+      fs = curr_arena
     return fs
 
   gpt_param = {"engine": DEFAULT_CHAT_MODEL, "max_tokens": 15, 
@@ -720,10 +781,9 @@ def run_gpt_prompt_action_arena(action_description,
   output = safe_generate_response(prompt, gpt_param, 5, fail_safe,
                                    __func_validate, __func_clean_up)
   print (output)
-  # y = f"{act_world}:{act_sector}"
-  # x = [i.strip() for i in persona.s_mem.get_str_accessible_sector_arenas(y).split(",")]
-  # if output not in x: 
-  #   output = random.choice(x)
+  x = _accessible_arenas()
+  if x and output not in x: 
+    output = random.choice(x)
 
   if debug or verbose: 
     print_run_prompts(prompt_template, persona, gpt_param, 
@@ -762,7 +822,10 @@ def run_gpt_prompt_action_game_object(action_description,
     return cleaned_response
 
   def get_fail_safe(): 
-    fs = ("bed")
+    x = [i.strip() for i in
+         persona.s_mem.get_str_accessible_arena_game_objects(temp_address).split(",")
+         if i.strip()]
+    fs = x[0] if x else "<random>"
     return fs
 
   gpt_param = {"engine": DEFAULT_CHAT_MODEL, "max_tokens": 15, 
@@ -779,8 +842,10 @@ def run_gpt_prompt_action_game_object(action_description,
   output = safe_generate_response(prompt, gpt_param, 5, fail_safe,
                                    __func_validate, __func_clean_up)
 
-  x = [i.strip() for i in persona.s_mem.get_str_accessible_arena_game_objects(temp_address).split(",")]
-  if output not in x: 
+  x = [i.strip() for i in persona.s_mem.get_str_accessible_arena_game_objects(temp_address).split(",") if i.strip()]
+  if not x:
+    output = "<random>"
+  elif output not in x: 
     output = random.choice(x)
 
   if debug or verbose: 

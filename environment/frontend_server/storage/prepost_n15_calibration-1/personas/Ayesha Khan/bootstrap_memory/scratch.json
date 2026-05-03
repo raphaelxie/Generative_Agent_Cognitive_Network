@@ -1,0 +1,271 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2026, 12:59:50",
+  "curr_tile": [
+    118,
+    61
+  ],
+  "daily_plan_req": "Ayesha Khan goes to the library at Oak Hill College to take classes from 10am to 2pm, and then spends her days studying at the library.",
+  "name": "Ayesha Khan",
+  "first_name": "Ayesha",
+  "last_name": "Khan",
+  "age": 20,
+  "innate": "curious, determined, independent",
+  "learned": "Ayesha Khan is a college student who loves to explore literature. She is curious and determined to understand the nuances of each work.",
+  "currently": "Ayesha Khan is researching for her senior thesis on the use of language in Shakespeare\u2019s plays. She is also taking classes to learn more about writing.",
+  "lifestyle": "Ayesha Khan goes to bed around 10pm, awakes up around 6am, eats dinner around 5pm.",
+  "living_area": "the Ville:Dorm for Oak Hill College:Ayesha Khan's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 77,
+  "importance_ele_n": 54,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "go to the library for classes from 10:00 am to 2:00 pm",
+    "have lunch at 2:30 pm",
+    "study for her thesis and read literature from 3:00 pm to 5:00 pm",
+    "have dinner at 5:00 pm",
+    "spend the evening researching and taking notes for her thesis from 6:00 pm to 8:00 pm",
+    "take a break and relax from 8:00 pm to 9:00 pm",
+    "review her notes or read for pleasure from 9:00 pm to 10:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "completing her morning routine",
+      60
+    ],
+    [
+      "preparing to head to the library (getting dressed)",
+      15
+    ],
+    [
+      "preparing to head to the library (on the way to brushing her teeth)",
+      0
+    ],
+    [
+      "preparing to head to the library (conversing about Ayesha Khan and Wolfgang Schulz discussing their academic preparations, with Ayesha working on her senior thesis about Shakespeare's language and Wolfgang studying for chemistry exams, while sharing study tips and offering support to each other.)",
+      11
+    ],
+    [
+      "preparing to head to the library (doing her hair)",
+      10
+    ],
+    [
+      "preparing to head to the library (packing her backpack with notebooks and pens)",
+      10
+    ],
+    [
+      "preparing to head to the library (preparing a light snack to take with her)",
+      10
+    ],
+    [
+      "preparing to head to the library (checking her schedule for the day)",
+      5
+    ],
+    [
+      "preparing to head to the library (on the way to putting on her shoes)",
+      0
+    ],
+    [
+      "preparing to head to the library (conversing about Klaus Mueller and Ayesha Khan discussing their research projects, with Klaus focusing on gentrification and Ayesha on Shakespeare's use of language, and planning to meet to exchange ideas and resources.)",
+      13
+    ],
+    [
+      "attending classes at the library (taking her seat in the classroom)",
+      5
+    ],
+    [
+      "attending classes at the library (getting out her notebook and pens)",
+      5
+    ],
+    [
+      "attending classes at the library (reviewing her notes from the previous class)",
+      10
+    ],
+    [
+      "attending classes at the library (listening to the professor's introduction)",
+      10
+    ],
+    [
+      "attending classes at the library (participating in a class discussion)",
+      10
+    ],
+    [
+      "attending classes at the library (taking notes on key points from the lecture)",
+      6
+    ],
+    [
+      "continuing her classes at the library (attending a lecture on Shakespeare's language)",
+      20
+    ],
+    [
+      "continuing her classes at the library (on the way to taking notes on key concepts discussed in the lecture)",
+      0
+    ],
+    [
+      "continuing her classes at the library (conversing about Ayesha Khan and Mei Lin discussing Shakespeare's language, ethical dilemmas in literature, and Ayesha's thesis connecting Shakespeare's characters to philosophical theories while planning to collaborate on her thesis analysis.)",
+      20
+    ],
+    [
+      "continuing her classes at the library (participating in a class discussion about the themes in Shakespeare's plays)",
+      10
+    ],
+    [
+      "continuing her classes at the library (on the way to reviewing her notes from the lecture)",
+      0
+    ],
+    [
+      "continuing her classes at the library (conversing about Ayesha Khan and Wolfgang Schulz discussing their studies, focusing on Shakespeare's ethical dilemmas in 'Hamlet' and 'Macbeth,' while also sharing study strategies and planning a meeting to brainstorm ideas for Ayesha's thesis.)",
+      17
+    ],
+    [
+      "continuing her classes at the library (preparing questions to ask the professor about the lecture material)",
+      5
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Ayesha is sleeping",
+      48
+    ],
+    [
+      "taking her lunch break (preparing her lunch)",
+      15
+    ],
+    [
+      "taking her lunch break (eating her lunch)",
+      20
+    ],
+    [
+      "taking her lunch break (cleaning up after lunch)",
+      10
+    ],
+    [
+      "taking her lunch break (taking a short walk outside)",
+      10
+    ],
+    [
+      "taking her lunch break (relaxing and listening to music)",
+      5
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Ayesha is sleeping",
+      240
+    ],
+    [
+      "researching and taking notes for her thesis",
+      60
+    ],
+    [
+      "relaxing and taking a break",
+      60
+    ],
+    [
+      "reviewing her notes or reading for pleasure",
+      120
+    ],
+    [
+      "preparing for bed and winding down for the night",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Ayesha is sleeping",
+      60
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "completing her morning routine",
+      60
+    ],
+    [
+      "preparing to head to the library",
+      60
+    ],
+    [
+      "attending classes at the library",
+      60
+    ],
+    [
+      "continuing her classes at the library",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Ayesha is sleeping",
+      60
+    ],
+    [
+      "taking her lunch break",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Ayesha is sleeping",
+      240
+    ],
+    [
+      "researching and taking notes for her thesis",
+      60
+    ],
+    [
+      "relaxing and taking a break",
+      60
+    ],
+    [
+      "reviewing her notes or reading for pleasure",
+      120
+    ],
+    [
+      "preparing for bed and winding down for the night",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Ayesha is sleeping",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Dorm for Oak Hill College:Ayesha Khan's room:bed",
+  "act_start_time": "February 13, 2026, 12:21:00",
+  "act_duration": 48,
+  "act_description": "[Friday February 13 -- 00:00 AM] Activity: Ayesha is sleeping",
+  "act_pronunciatio": "\ud83d\ude34\ud83d\udca4",
+  "act_event": [
+    "Ayesha Khan",
+    "sleep",
+    "activity"
+  ],
+  "act_obj_description": "occupied",
+  "act_obj_pronunciatio": "\ud83d\uded1\ud83d\udea7",
+  "act_obj_event": [
+    "bed",
+    "is",
+    "occupied"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Wolfgang Schulz": 464,
+    "Klaus Mueller": -202,
+    "Mei Lin": 230
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

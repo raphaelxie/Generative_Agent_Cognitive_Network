@@ -1,0 +1,246 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2026, 13:01:00",
+  "curr_tile": [
+    36,
+    28
+  ],
+  "daily_plan_req": "",
+  "name": "Latoya Williams",
+  "first_name": "Latoya",
+  "last_name": "Williams",
+  "age": 25,
+  "innate": "organized, logical, attentive",
+  "learned": "Latoya Williams is a digital photographer who has a keen eye for details. She is very organized and analytical when it comes to her art.",
+  "currently": "Latoya Williams is creating a series of photography inspired by her travels. She mostly works from the artists' co-living space. Latoya is also curious about who will be running for the local mayor election next month and that is a central topic in her conversations with others.",
+  "lifestyle": "Latoya Williams goes to bed around 10pm, awakes up around 6am, eats dinner around 17:30pm.",
+  "living_area": "the Ville:artist's co-living space:Latoya Williams's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 81,
+  "importance_ele_n": 50,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "start working on photography edits and project planning from 8:30 am to 11:30 am",
+    "have a light lunch and review local mayor candidates from 12:00 pm to 1:00 pm",
+    "attend an afternoon photography workshop at the co-living space from 1:30 pm to 3:30 pm",
+    "continue working on her photography series from 4:00 pm to 5:30 pm",
+    "have dinner at 5:30 pm",
+    "engage in discussions about the mayoral election with fellow residents from 6:30 pm to 7:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "working on photography edits and project planning (reviewing the photos she took during her recent travels)",
+      15
+    ],
+    [
+      "working on photography edits and project planning (selecting the best photos for editing)",
+      15
+    ],
+    [
+      "working on photography edits and project planning (on the way to organizing the selected photos into folders based on themes)",
+      0
+    ],
+    [
+      "working on photography edits and project planning (conversing about Rajiv Patel and Latoya Williams discussing their upcoming art projects, promotional strategies, and the possibility of collaborating on a combined event to showcase their work.)",
+      17
+    ],
+    [
+      "working on photography edits and project planning (opening the selected photos in her editing software)",
+      5
+    ],
+    [
+      "working on photography edits and project planning (adjusting the brightness and contrast of the first photo)",
+      10
+    ],
+    [
+      "working on photography edits and project planning (saving the edited photo and preparing to edit the next one)",
+      5
+    ],
+    [
+      "continuing to work on photography edits and project planning (continuing to edit photos from her recent trip)",
+      30
+    ],
+    [
+      "continuing to work on photography edits and project planning (selecting the best photos for her project)",
+      20
+    ],
+    [
+      "continuing to work on photography edits and project planning (organizing the selected photos into folders)",
+      15
+    ],
+    [
+      "continuing to work on photography edits and project planning (writing notes on the themes and concepts for her project)",
+      20
+    ],
+    [
+      "continuing to work on photography edits and project planning (on the way to creating a timeline for her project completion)",
+      0
+    ],
+    [
+      "continuing to work on photography edits and project planning (conversing about Hailey Johnson and Latoya Williams discussing their respective creative projects, brainstorming ways to combine their works for an event focused on community and collaboration, and planning to involve other artists while also strategizing on promotion.)",
+      17
+    ],
+    [
+      "continuing to work on photography edits and project planning (on the way to reviewing her project plan and making adjustments)",
+      11
+    ],
+    [
+      "continuing to work on photography edits and project planning (conversing about Latoya Williams and Abigail Chen discussing their creative projects and planning a collaboration that combines Abigail's animation with Latoya's photography.)",
+      9
+    ],
+    [
+      "reviewing local mayor candidates and having a light lunch (reviewing the list of local mayor candidates)",
+      15
+    ],
+    [
+      "reviewing local mayor candidates and having a light lunch (researching each candidate's background and policies)",
+      20
+    ],
+    [
+      "reviewing local mayor candidates and having a light lunch (taking notes on key points about each candidate)",
+      10
+    ],
+    [
+      "reviewing local mayor candidates and having a light lunch (preparing a light lunch (e.g., salad or sandwich))",
+      10
+    ],
+    [
+      "reviewing local mayor candidates and having a light lunch (eating her light lunch while reviewing her notes)",
+      5
+    ],
+    [
+      "continuing to review local mayor candidates and having a light lunch (continuing to read articles about the local mayor candidates)",
+      15
+    ],
+    [
+      "continuing to review local mayor candidates and having a light lunch (taking notes on key points about each candidate)",
+      15
+    ],
+    [
+      "continuing to review local mayor candidates and having a light lunch (comparing the candidates' platforms and policies)",
+      15
+    ],
+    [
+      "continuing to review local mayor candidates and having a light lunch (summarizing her findings in a document)",
+      10
+    ],
+    [
+      "continuing to review local mayor candidates and having a light lunch (preparing her light lunch)",
+      5
+    ],
+    [
+      "attending an afternoon photography workshop at the co-living space",
+      60
+    ],
+    [
+      "continuing to work on her photography series",
+      180
+    ],
+    [
+      "engaging in discussions about the mayoral election with fellow residents",
+      120
+    ],
+    [
+      "continuing to engage in discussions about the mayoral election with fellow residents",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Latoya is sleeping",
+      180
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "working on photography edits and project planning",
+      60
+    ],
+    [
+      "continuing to work on photography edits and project planning",
+      120
+    ],
+    [
+      "reviewing local mayor candidates and having a light lunch",
+      60
+    ],
+    [
+      "continuing to review local mayor candidates and having a light lunch",
+      60
+    ],
+    [
+      "attending an afternoon photography workshop at the co-living space",
+      60
+    ],
+    [
+      "continuing to work on her photography series",
+      180
+    ],
+    [
+      "engaging in discussions about the mayoral election with fellow residents",
+      120
+    ],
+    [
+      "continuing to engage in discussions about the mayoral election with fellow residents",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Latoya is sleeping",
+      180
+    ]
+  ],
+  "act_address": "the Ville:artist's co-living space:common room:common room table",
+  "act_start_time": "February 13, 2026, 12:58:00",
+  "act_duration": 10,
+  "act_description": "reviewing local mayor candidates and having a light lunch (preparing a light lunch (e.g., salad or sandwich))",
+  "act_pronunciatio": "\ud83e\udd57\ud83e\udd6a",
+  "act_event": [
+    "Latoya Williams",
+    "is",
+    "salad or sandwich"
+  ],
+  "act_obj_description": "being used for reviewing local mayor candidates and preparing a light lunch",
+  "act_obj_pronunciatio": "\ud83d\uddf3\ufe0f\ud83e\udd6a",
+  "act_obj_event": [
+    "common room table",
+    "be used",
+    "reviewing local mayor candidates and preparing a light lunch"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Rajiv Patel": -425,
+    "Hailey Johnson": 289,
+    "Abigail Chen": 457
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

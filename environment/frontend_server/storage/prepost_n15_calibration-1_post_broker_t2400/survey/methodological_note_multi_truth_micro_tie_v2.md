@@ -1,0 +1,11 @@
+# Methodological Note: Multi-Truth Micro-Tie Comparison
+
+The multi-truth comparison clarifies that the original interaction-only scoring was partly construct-mismatched. The micro-tie prompt asks whether two agents have a broad "connection or relationship," while `observed_interaction` counts only dyads with observed chat events by a given wave. Under that narrow truth definition, many perceived ties are scored as false positives even when they are supported by pre-existing social facts in the agent histories.
+
+The `background_social_tie` layer tests perception against conservative baseline social ties only. Relative to `observed_interaction`, it reduces false positives at all four waves and raises precision: at `t600`, FP falls from 419 to 325 and precision rises from 0.073 to 0.281; at `t1200`, FP falls from 569 to 499 and precision rises from 0.188 to 0.288; at `t1800`, FP falls from 591 to 547 and precision rises from 0.222 to 0.280; at `t2400`, FP falls from 594 to 544 and precision rises from 0.225 to 0.290.
+
+The `background_or_interaction` layer is the union of baseline social ties and observed interaction ties. This is likely the least construct-mismatched comparison for the current broad prompt wording. Under this union layer, FP falls from 419 to 325 at `t600`, 569 to 473 at `t1200`, 591 to 496 at `t1800`, and 594 to 495 at `t2400`. Precision rises correspondingly from 0.073 to 0.281, 0.188 to 0.325, 0.222 to 0.347, and 0.225 to 0.354.
+
+Not everything improves. Recall remains modest, and false negatives increase under the broader truth definitions because the positive class becomes larger. This means the agents are not merely over-reporting ties; they also miss many dyads that are supported by background social history and/or interaction evidence.
+
+The methodological takeaway is that a substantial share of the apparent false-positive problem was due to evaluating a broad social-tie prompt against a narrow interaction-only truth definition. Going forward, micro-tie cognition should be reported by truth layer: `observed_interaction` for perceived interaction structure, `background_social_tie` for perceived baseline social structure, and `background_or_interaction` as the best current match to the broad "connection or relationship" prompt.

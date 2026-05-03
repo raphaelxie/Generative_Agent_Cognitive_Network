@@ -1,0 +1,5 @@
+step,sim_time,n_personas,n_chats_cumulative,n_new_chats_since_prev,n_active_agents_cumulative,n_new_active_agents_since_prev,n_edges_cumulative,n_edges_recent_8h,density_cumulative,mean_degree_cumulative,max_degree,top3_degree,max_betweenness,top3_betweenness,hub,broker,hub_eq_broker
+600,2026-02-13 09:40:00,15,16,16,9,9,7,7,0.0667,0.933,3,Hailey Johnson=3; Abigail Chen=2; Francisco Lopez=2,0.044,Hailey Johnson=0.0440; Rajiv Patel=0.0330,Hailey Johnson,Hailey Johnson,1
+1200,2026-02-13 11:20:00,15,36,20,14,14,20,20,0.1905,2.667,6,Hailey Johnson=6; Abigail Chen=3; Arthur Burton=3,0.206,Hailey Johnson=0.2060; Carlos Gomez=0.1154; Ryan Park=0.0705,Hailey Johnson,Hailey Johnson,1
+1800,2026-02-13 13:00:00,15,44,8,14,8,25,25,0.2381,3.333,6,Carlos Gomez=6; Hailey Johnson=6; Abigail Chen=4,0.489,Carlos Gomez=0.4890; Hailey Johnson=0.4011; Wolfgang Schulz=0.1593,Hailey Johnson,Carlos Gomez,0
+2400,2026-02-13 14:40:00,15,54,10,14,7,25,25,0.2381,3.333,6,Carlos Gomez=6; Hailey Johnson=6; Abigail Chen=4,0.489,Carlos Gomez=0.4890; Hailey Johnson=0.4011; Wolfgang Schulz=0.1593,Hailey Johnson,Carlos Gomez,0

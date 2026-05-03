@@ -1,0 +1,272 @@
+{
+  "persona": {
+    "Latoya Williams": {
+      "movement": [
+        16,
+        20
+      ],
+      "pronunciatio": "\ud83d\udcf8\ud83d\udd0b",
+      "description": "heading to the artists' co-living space to edit her recent photos from her travels (checking her camera battery and memory cards) @ the Ville:artist's co-living space:Latoya Williams's room:desk",
+      "chat": null
+    },
+    "Rajiv Patel": {
+      "movement": [
+        25,
+        22
+      ],
+      "pronunciatio": "\ud83c\udfa8\ud83d\udd8c\ufe0f",
+      "description": "painting in his studio (selecting the colors he wants to use for his painting) @ the Ville:artist's co-living space:Rajiv Patel's room:easel",
+      "chat": null
+    },
+    "Abigail Chen": {
+      "movement": [
+        39,
+        30
+      ],
+      "pronunciatio": "\u270f\ufe0f\ud83c\udfa8",
+      "description": "working on the animation project for the client (sketching initial concepts for the animation) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null
+    },
+    "Francisco Lopez": {
+      "movement": [
+        40,
+        25
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83e\udd53",
+      "description": "having breakfast (preparing his breakfast) @ the Ville:artist's co-living space:kitchen:toaster",
+      "chat": null
+    },
+    "Hailey Johnson": {
+      "movement": [
+        26,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcda\u270d\ufe0f",
+      "description": "writing for her novel (reviewing her outline for the novel) @ the Ville:artist's co-living space:Hailey Johnson's room:desk",
+      "chat": null
+    },
+    "Arthur Burton": {
+      "movement": [
+        55,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83c\udf79",
+      "description": "reading about mixology and experimenting with new cocktail recipes (reading a mixology book for new cocktail ideas) @ the Ville:The Rose and Crown Pub:pub:bar customer seating",
+      "chat": null
+    },
+    "Ryan Park": {
+      "movement": [
+        66,
+        24
+      ],
+      "pronunciatio": "1\ufe0f\u20e3",
+      "description": "working on the mobile app project (1) Ryan is reviewing the project requirements and specifications) @ the Ville:Ryan Park's apartment:main room:computer desk",
+      "chat": null
+    },
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcdd\u2728",
+      "description": "gathering decorations and party materials for the Valentine's Day party (gathering a list of decoration ideas) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null
+    },
+    "Giorgio Rossi": {
+      "movement": [
+        86,
+        18
+      ],
+      "pronunciatio": "\ud83d\ude34\ud83d\udecc",
+      "description": "[Friday February 13 -- 00:00 AM] Activity: Giorgio is sleeping @ the Ville:Giorgio Rossi's apartment:main room:bed",
+      "chat": null
+    },
+    "Carlos Gomez": {
+      "movement": [
+        94,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcad\u270d\ufe0f",
+      "description": "continuing his poetry writing (continuing his poetry writing) (continuing to brainstorm themes for his poetry collection) @ the Ville:Carlos Gomez's apartment:main room:desk",
+      "chat": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        131,
+        45
+      ],
+      "pronunciatio": "\ud83d\udc57\ud83d\udc56",
+      "description": "going to the library at Oak Hill College (getting dressed for the day) @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:closet",
+      "chat": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude34\ud83d\udca4",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null
+    },
+    "Ayesha Khan": {
+      "movement": [
+        114,
+        51
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Ayesha Khan and Wolfgang Schulz discussing their academic interests, specifically Ayesha's thesis on Shakespeare's language and Wolfgang's chemistry lecture, while exchanging study tips and planning a study session together. @ <persona> Wolfgang Schulz",
+      "chat": [
+        [
+          "Ayesha Khan",
+          "Hey Wolfgang! How's your chemistry lecture going? Anything interesting today?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Hey Ayesha! It's going pretty well, we just started a new topic on organic compounds. I find it really fascinating! How about you? Are you excited for your study session at the library?"
+        ],
+        [
+          "Ayesha Khan",
+          "Definitely! I'm really diving into Shakespeare's use of language for my thesis. It's challenging but exciting. Do you have any tips for studying effectively?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds really interesting! When I study, I like to break down the material into smaller sections and take regular breaks to stay focused. Have you tried using flashcards or summarizing key points? It might help you with your thesis."
+        ],
+        [
+          "Ayesha Khan",
+          "Thanks for the tips, Wolfgang! I'll definitely try breaking down the material and using flashcards. Do you think summarizing key points would help with understanding the language in Shakespeare's plays?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Absolutely! Summarizing key points can help you grasp the essence of Shakespeare's language and themes. Plus, it makes it easier to connect different ideas. If you can find the main concepts, it might really enhance your understanding. Are there any specific plays you're focusing on?"
+        ],
+        [
+          "Ayesha Khan",
+          "I'm focusing on 'Hamlet' and 'Romeo and Juliet' primarily. I find the language so rich and layered. Have you read those plays? Any thoughts on them?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "I've read both of them! 'Hamlet' is so complex with its themes of madness and revenge, while 'Romeo and Juliet' has such a tragic love story. I think the language really captures the emotions in both plays. Do you have a favorite passage or quote from either?"
+        ],
+        [
+          "Ayesha Khan",
+          "I have a few favorite passages! In 'Hamlet', I love the 'To be or not to be' soliloquy; it really captures the struggle of existence. And in 'Romeo and Juliet', the balcony scene is just so beautiful and romantic. What about you? Do you have a favorite quote from either play?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "I really appreciate those quotes too! The 'To be or not to be' soliloquy is so powerful, and the balcony scene definitely captures the essence of young love. I also enjoy the quote, 'All the world's a stage' from 'As You Like It'\u2014it makes you think about life in such a unique way. Have you come across any other interesting quotes that resonate with your thesis?"
+        ],
+        [
+          "Ayesha Khan",
+          "That's a great quote! I love how Shakespeare uses metaphors to express complex ideas. I've also found some intriguing quotes about love and fate in 'Romeo and Juliet' that tie into the themes I'm exploring. Do you have any recommendations for other plays or quotes that might help with my thesis?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "You might want to check out 'Twelfth Night' as well; it has some interesting themes around love and identity. Also, 'Much Ado About Nothing' has some great quotes about love and wit that could complement your thesis. If you want, I can help you find some resources or quotes when we both have some time to study together!"
+        ],
+        [
+          "Ayesha Khan",
+          "That would be awesome, Wolfgang! I'd really appreciate your help in finding some resources. Maybe we can set a time to study together later this week? I could use a fresh perspective on my thesis."
+        ],
+        [
+          "Wolfgang Schulz",
+          "I'd love to help you out! How about we meet up on Sunday afternoon? We can go over some resources and discuss your thesis in more detail. Does that work for you?"
+        ],
+        [
+          "Ayesha Khan",
+          "Sunday afternoon sounds perfect! Let's meet at the library around 2pm. I'm really looking forward to getting your insights. Thanks again, Wolfgang!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Great! I'll see you on Sunday at 2pm in the library. Good luck with your preparations until then, and let me know if you need anything before our study session!"
+        ]
+      ]
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        115,
+        51
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Ayesha Khan and Wolfgang Schulz discussing their academic interests, specifically Ayesha's thesis on Shakespeare's language and Wolfgang's chemistry lecture, while exchanging study tips and planning a study session together. @ <persona> Ayesha Khan",
+      "chat": [
+        [
+          "Ayesha Khan",
+          "Hey Wolfgang! How's your chemistry lecture going? Anything interesting today?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Hey Ayesha! It's going pretty well, we just started a new topic on organic compounds. I find it really fascinating! How about you? Are you excited for your study session at the library?"
+        ],
+        [
+          "Ayesha Khan",
+          "Definitely! I'm really diving into Shakespeare's use of language for my thesis. It's challenging but exciting. Do you have any tips for studying effectively?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds really interesting! When I study, I like to break down the material into smaller sections and take regular breaks to stay focused. Have you tried using flashcards or summarizing key points? It might help you with your thesis."
+        ],
+        [
+          "Ayesha Khan",
+          "Thanks for the tips, Wolfgang! I'll definitely try breaking down the material and using flashcards. Do you think summarizing key points would help with understanding the language in Shakespeare's plays?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Absolutely! Summarizing key points can help you grasp the essence of Shakespeare's language and themes. Plus, it makes it easier to connect different ideas. If you can find the main concepts, it might really enhance your understanding. Are there any specific plays you're focusing on?"
+        ],
+        [
+          "Ayesha Khan",
+          "I'm focusing on 'Hamlet' and 'Romeo and Juliet' primarily. I find the language so rich and layered. Have you read those plays? Any thoughts on them?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "I've read both of them! 'Hamlet' is so complex with its themes of madness and revenge, while 'Romeo and Juliet' has such a tragic love story. I think the language really captures the emotions in both plays. Do you have a favorite passage or quote from either?"
+        ],
+        [
+          "Ayesha Khan",
+          "I have a few favorite passages! In 'Hamlet', I love the 'To be or not to be' soliloquy; it really captures the struggle of existence. And in 'Romeo and Juliet', the balcony scene is just so beautiful and romantic. What about you? Do you have a favorite quote from either play?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "I really appreciate those quotes too! The 'To be or not to be' soliloquy is so powerful, and the balcony scene definitely captures the essence of young love. I also enjoy the quote, 'All the world's a stage' from 'As You Like It'\u2014it makes you think about life in such a unique way. Have you come across any other interesting quotes that resonate with your thesis?"
+        ],
+        [
+          "Ayesha Khan",
+          "That's a great quote! I love how Shakespeare uses metaphors to express complex ideas. I've also found some intriguing quotes about love and fate in 'Romeo and Juliet' that tie into the themes I'm exploring. Do you have any recommendations for other plays or quotes that might help with my thesis?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "You might want to check out 'Twelfth Night' as well; it has some interesting themes around love and identity. Also, 'Much Ado About Nothing' has some great quotes about love and wit that could complement your thesis. If you want, I can help you find some resources or quotes when we both have some time to study together!"
+        ],
+        [
+          "Ayesha Khan",
+          "That would be awesome, Wolfgang! I'd really appreciate your help in finding some resources. Maybe we can set a time to study together later this week? I could use a fresh perspective on my thesis."
+        ],
+        [
+          "Wolfgang Schulz",
+          "I'd love to help you out! How about we meet up on Sunday afternoon? We can go over some resources and discuss your thesis in more detail. Does that work for you?"
+        ],
+        [
+          "Ayesha Khan",
+          "Sunday afternoon sounds perfect! Let's meet at the library around 2pm. I'm really looking forward to getting your insights. Thanks again, Wolfgang!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Great! I'll see you on Sunday at 2pm in the library. Good luck with your preparations until then, and let me know if you need anything before our study session!"
+        ]
+      ]
+    },
+    "Mei Lin": {
+      "movement": [
+        98,
+        65
+      ],
+      "pronunciatio": "\ud83d\udc57\ud83d\udc60",
+      "description": "leaving for Oak Hill College (getting dressed for the day) @ the Ville:Lin family's house:bathroom:bathroom sink",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2026, 09:13:20"
+  }
+}

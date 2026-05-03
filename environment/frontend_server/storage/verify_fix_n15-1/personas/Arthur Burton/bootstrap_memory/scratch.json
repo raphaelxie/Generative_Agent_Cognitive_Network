@@ -1,0 +1,155 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2026, 09:39:50",
+  "curr_tile": [
+    54,
+    17
+  ],
+  "daily_plan_req": "Arthur Burton opens The Rose and Crown Pub at 5pm everyday, and stands at the counter until 10pm, at which point he closes the bar.",
+  "name": "Arthur Burton",
+  "first_name": "Arthur",
+  "last_name": "Burton",
+  "age": 42,
+  "innate": "friendly, outgoing, generous",
+  "learned": "Arthur Burton is a bartender and bar owner of The Rose and Crown Pub who loves to make people feel welcome. He is always looking for ways to make his customers feel special.",
+  "currently": "Arthur Burton is running a beloved bar in the town that's been around for 10 years. He is also learning more about mixology and create unique cocktails.",
+  "lifestyle": "Arthur Burton goes to bed around midnight, awakes up around 7am, eats dinner around 4pm.",
+  "living_area": "the Ville:Arthur Burton's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 185,
+  "importance_ele_n": 41,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "have breakfast at 8:30 am",
+    "spend some time reading about mixology and experimenting with new cocktail recipes from 9:00 am to 11:00 am",
+    "go grocery shopping for bar supplies and fresh ingredients from 11:30 am to 1:30 pm",
+    "return home and prep cocktails and bar snacks from 2:00 pm to 4:00 pm",
+    "have dinner at 4:00 pm",
+    "take a short break to relax and recharge from 4:30 pm to 5:00 pm",
+    "open The Rose and Crown Pub at 5:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "reading about mixology and experimenting with new cocktail recipes (reading a mixology book for new cocktail ideas)",
+      30
+    ],
+    [
+      "reading about mixology and experimenting with new cocktail recipes (taking notes on interesting techniques and ingredients)",
+      15
+    ],
+    [
+      "reading about mixology and experimenting with new cocktail recipes (selecting a few cocktail recipes to try out)",
+      10
+    ],
+    [
+      "reading about mixology and experimenting with new cocktail recipes (gathering ingredients and tools needed for the cocktails)",
+      20
+    ],
+    [
+      "reading about mixology and experimenting with new cocktail recipes (preparing the first cocktail recipe)",
+      20
+    ],
+    [
+      "reading about mixology and experimenting with new cocktail recipes (tasting the first cocktail and making notes on the flavor)",
+      10
+    ],
+    [
+      "reading about mixology and experimenting with new cocktail recipes (adjusting the recipe based on the taste test)",
+      15
+    ],
+    [
+      "reading about mixology and experimenting with new cocktail recipes (preparing the second cocktail recipe)",
+      20
+    ],
+    [
+      "reading about mixology and experimenting with new cocktail recipes (tasting the second cocktail and making notes on the flavor)",
+      10
+    ],
+    [
+      "reading about mixology and experimenting with new cocktail recipes (adjusting the recipe based on the taste test)",
+      30
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Arthur is sleeping",
+      600
+    ],
+    [
+      "closing The Rose and Crown Pub",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Arthur is sleeping",
+      60
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "reading about mixology and experimenting with new cocktail recipes",
+      180
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Arthur is sleeping",
+      600
+    ],
+    [
+      "closing The Rose and Crown Pub",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Arthur is sleeping",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Arthur Burton's apartment:main room:desk",
+  "act_start_time": "February 13, 2026, 09:30:00",
+  "act_duration": 15,
+  "act_description": "reading about mixology and experimenting with new cocktail recipes (taking notes on interesting techniques and ingredients)",
+  "act_pronunciatio": "\ud83d\udcdd\ud83c\udf7d\ufe0f",
+  "act_event": [
+    "Arthur Burton",
+    "take",
+    "notes"
+  ],
+  "act_obj_description": "cluttered with books, notes, and cocktail ingredients",
+  "act_obj_pronunciatio": "\ud83d\udcda\ud83c\udf78",
+  "act_obj_event": [
+    "desk",
+    "desk",
+    "is"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {},
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

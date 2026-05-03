@@ -1,0 +1,106 @@
+node_a,node_b,tie_background,needs_review,relation_types,evidence_a,evidence_b,review_notes,source_file,extraction_method
+Abigail Chen,Arthur Burton,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Ayesha Khan,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Carlos Gomez,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Francisco Lopez,1,0,crush;housemate;known;vague_like,You and Francisco Lopez are housemates and have known each other for about a year,"You and Abigail Chen are housemates and have known each other for about a year || You have a secret crush on Abigail Chen but so far, you haven't had the courage to ask her out || You think Abigail Chen is cute",,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Giorgio Rossi,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Hailey Johnson,1,1,housemate;known;not_talked,You and Hailey Johnson are housemates and have known each other for about a year,"Abigail Chen is a housemate whom you've known for about a year, but you haven't really talked to her yet",strong evidence is qualified by limited contact,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Isabella Rodriguez,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Klaus Mueller,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Latoya Williams,1,0,housemate;known,You and Latoya Williams are housemates and have known each other for about a year,Abigail Chen is your housemate whom you've known for about a year,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Maria Lopez,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Mei Lin,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Rajiv Patel,1,0,close;housemate;known;vague_like,You and Rajiv Patel are housemates and have known each other for about a year and you two are somewhat close,Abigail Chen is your housemate whom you've known for about a year and you think she is kind of cute,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Ryan Park,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Wolfgang Schulz,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Ayesha Khan,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Carlos Gomez,1,0,customer;friend;knows_as_role,"You know Carlos Gomez as a customer at your bar, The Rose and Crown Pub",You are friends with Arthur Burton who is a bartender at the pub,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Francisco Lopez,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Giorgio Rossi,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Hailey Johnson,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Isabella Rodriguez,1,0,friend;known;works_at,You and Isabella Rodriguez are friends || You've known Isabella Rodriguez for a few years since she runs Hobbs Cafe right next to your bar,You and Arthur Burton are friends || You've known Arthur Burton for a few years since he runs a bar right next door,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Klaus Mueller,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Latoya Williams,1,0,customer;known;knows_as_role,"You know Latoya Williams as a customer at your bar, The Rose and Crown Pub","You have known the bartender at The Rose and Crown Pub, Arthur Burton, for about half a year",,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Maria Lopez,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Mei Lin,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Rajiv Patel,1,0,customer;known;knows_as_role;location_overlap,"You know Rajiv Patel as a customer at your bar, The Rose and Crown Pub","In terms of your daily plans, you sometimes spend time at The Rose and Crown Pub when it's late and you have known the bartender, Arthur Burton, for about a year",,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Ryan Park,1,0,customer;known;knows_as_role,"You know Ryan Park as a customer at your bar, The Rose and Crown Pub","You've known the bartender at The Rose and Crown Pub, Arthur Burton, for about a year",,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Wolfgang Schulz,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Ayesha Khan,Carlos Gomez,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Ayesha Khan,Francisco Lopez,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Ayesha Khan,Giorgio Rossi,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Ayesha Khan,Hailey Johnson,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Ayesha Khan,Isabella Rodriguez,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Ayesha Khan,Klaus Mueller,1,0,classmate;close;dormmate,You and Klaus Mueller are dormmates,"You are close with Ayesha Khan, who is a classmate in one of your classes and a dormmate",,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Ayesha Khan,Latoya Williams,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Ayesha Khan,Maria Lopez,1,0,classmate;close;dormmate,You and Maria Lopez are dormmates,"You are close with Ayesha Khan, who is a classmate in one of your classes and a dormmate",,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Ayesha Khan,Mei Lin,1,0,student_professor,You know Mei Lin is a professor at your college,"You know Klaus Mueller, Maria Lopez, Ayesha Khan, and Wolfgang Schulz as students at your college",,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Ayesha Khan,Rajiv Patel,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Ayesha Khan,Ryan Park,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Ayesha Khan,Wolfgang Schulz,1,0,classmate;close;dormmate,"You are close with Wolfgang Schulz, who is a classmate in one of your classes and a dormmate","You are close with Ayesha Khan, who is a classmate in one of your classes and a dormmate",,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Carlos Gomez,Francisco Lopez,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Carlos Gomez,Giorgio Rossi,1,0,antagonism;known;neighbor;seen,"You do not like Giorgio Rossi || You think Giorgio Rossi is annoying || You think Giorgio Rossi is a coward || You've known Giorgio Rossi, your next door neighbor, for about two years || You would rather not see Giorgio Rossi ever || You want Ryan Park to take your side in his fight against Giorgio Rossi","You do not like Carlos Gomez || You think Carlos Gomez is annoying || You think Carlos Gomez is pushy || You think Carlos Gomez is a coward || You've known Carlos Gomez, your next door neighbor, for about two years || You think Carlos Gomez is really loud and you have filed complaints against him before || You would rather not see Carlos Gomez ever",,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Carlos Gomez,Hailey Johnson,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Carlos Gomez,Isabella Rodriguez,1,0,known,,You and Carlos Gomez have known each other for about 4 years || You know that Carlos Gomez is a good poet and you like his poem,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Carlos Gomez,Klaus Mueller,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Carlos Gomez,Latoya Williams,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Carlos Gomez,Maria Lopez,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Carlos Gomez,Mei Lin,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Carlos Gomez,Rajiv Patel,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Carlos Gomez,Ryan Park,1,0,antagonism;known;neighbor,You've known Ryan Park for about a year living as his neighbor || You want Ryan Park to take your side in his fight against Giorgio Rossi,"You've known Carlos Gomez, your neighbor, for about a year || You wonder why Giorgio Rossi and Carlos Gomez are always fighting || You want no part in Giorgio Rossi and Carlos Gomez's fight",,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Carlos Gomez,Wolfgang Schulz,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Francisco Lopez,Giorgio Rossi,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Francisco Lopez,Hailey Johnson,1,0,housemate;known,You and Hailey Johnson are housemates and have known each other for about a year but you don't really like her too much,Francisco Lopez is your housemate and you two have known each other for quite awhile because you are from the same town,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Francisco Lopez,Isabella Rodriguez,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Francisco Lopez,Klaus Mueller,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Francisco Lopez,Latoya Williams,1,0,housemate;known,You and Latoya Williams are housemates and have known each other for about a year,Francisco Lopez is your housemate whom you've known for about a year,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Francisco Lopez,Maria Lopez,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Francisco Lopez,Mei Lin,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Francisco Lopez,Rajiv Patel,1,0,housemate;known,You and Rajiv Patel are housemates and have known each other for about a year,Francisco Lopez is your housemate whom you've known for about a year,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Francisco Lopez,Ryan Park,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Francisco Lopez,Wolfgang Schulz,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Giorgio Rossi,Hailey Johnson,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Giorgio Rossi,Isabella Rodriguez,1,0,customer;friend;knows_as_role;vague_like;works_at,You are friends with Isabella Rodriguez who works at Hobbs Cafe || You think Isabella Rodriguez is kind-hearted,You know Giorgio Rossi as a customer at your Hobbs Cafe,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Giorgio Rossi,Klaus Mueller,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Giorgio Rossi,Latoya Williams,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Giorgio Rossi,Maria Lopez,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Giorgio Rossi,Mei Lin,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Giorgio Rossi,Rajiv Patel,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Giorgio Rossi,Ryan Park,1,0,antagonism;known;neighbor;talks_often,You and Ryan Park sometimes talk about random things || You've known Ryan Park for about a year living as his neighbor,"You've known Giorgio Rossi, your next door neighbor, for about a year || You wonder why Giorgio Rossi and Carlos Gomez are always fighting || You want no part in Giorgio Rossi and Carlos Gomez's fight",,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Giorgio Rossi,Wolfgang Schulz,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Hailey Johnson,Isabella Rodriguez,1,0,customer;frequent_customer;known;location_overlap;talks_often,You've known Isabella Rodriguez for about a year and you talk to her often about the piece you are currently writing,"Hailey Johnson is a frequent customer at your cafe, Hobbs Cafe || You find Hailey Johnson to be a little uncomfortable because she is too pushy",,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Hailey Johnson,Klaus Mueller,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Hailey Johnson,Latoya Williams,1,0,housemate;known;vague_like,Latoya Williams is your housemate whom you've known for about a year and you think she is somewhat cute,Hailey Johnson is your housemate whom you've known for about a year but you don't really find her too comfortable,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Hailey Johnson,Maria Lopez,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Hailey Johnson,Mei Lin,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Hailey Johnson,Rajiv Patel,1,1,housemate;known,"Rajiv Patel is your housemate whom you've known for about a year, but you don't know much about him",Hailey Johnson is your housemate whom you've known for about a year but you don't really find her too comfortable,strong evidence is qualified by limited contact,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Hailey Johnson,Ryan Park,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Hailey Johnson,Wolfgang Schulz,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Isabella Rodriguez,Klaus Mueller,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Isabella Rodriguez,Latoya Williams,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Isabella Rodriguez,Maria Lopez,1,0,close;frequent_customer;friend;known;location_overlap;works_at,You and Maria Lopez have known each other for about a year ever since Maria Lopez visited Hobbs Cafe and are good friends || Maria Lopez is a loyal friend to you and a frequent customer at Hobbs Cafe,You and Isabella Rodriguez who works at Hobbs Cafe are close friends,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Isabella Rodriguez,Mei Lin,0,1,location_overlap;met;works_at,,You sometimes go to Hobbs Cafe and have met Isabella Rodriguez who runs it,only weak or ambiguous contact cues found,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Isabella Rodriguez,Rajiv Patel,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Isabella Rodriguez,Ryan Park,1,0,known;seen;vague_like;works_at,"You see Ryan Park frequently when he visits your cafe, Hobbs Cafe || You often see Ryan Park working hard on his laptop and you think he is dedicated in his work, which you find to be cool",You've known Isabella Rodriguez for about a year || You know Isabella Rodriguez works at Hobbs Cafe,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Isabella Rodriguez,Wolfgang Schulz,1,1,customer;knows_as_role;met;met_not_talked;not_talked;works_at,You know Wolfgang Schulz as a customer at Hobbs Cafe,You've met Isabella Rodriguez who works at the cafe but have not really talked to her,strong evidence is qualified by limited contact,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Klaus Mueller,Latoya Williams,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Klaus Mueller,Maria Lopez,1,0,classmate;close;crush;dormmate;friend;known,This is very important -- you have a crush on Maria Lopez || You and Maria Lopez have known each other for over 2 years now || You and Maria Lopez are close friends and classmates || You and Maria Lopez are dormmates,This is very important -- you have a secret crush on Klaus Mueller || You and Klaus Mueller have known each other for over 2 years now || You and Klaus Mueller are close friends and classmates,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Klaus Mueller,Mei Lin,1,0,student_professor,You know Mei Lin is a professor at your college,"You know Klaus Mueller, Maria Lopez, Ayesha Khan, and Wolfgang Schulz as students at your college",,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Klaus Mueller,Rajiv Patel,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Klaus Mueller,Ryan Park,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Klaus Mueller,Wolfgang Schulz,1,0,classmate;dormmate,You and Wolfgang Schulz are classmates and dormmates,You and Klaus Mueller are dormmates,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Latoya Williams,Maria Lopez,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Latoya Williams,Mei Lin,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Latoya Williams,Rajiv Patel,1,0,housemate;known;talks_often,Rajiv Patel is your housemate whom you've known for about a year || You and Rajiv Patel sometimes talk about politics and local elections,Latoya Williams is your housemate whom you've known for about a year || You and Latoya Williams sometimes talk about politics and local elections,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Latoya Williams,Ryan Park,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Latoya Williams,Wolfgang Schulz,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Maria Lopez,Mei Lin,1,0,student_professor,You know Mei Lin is a professor at your college,"You know Klaus Mueller, Maria Lopez, Ayesha Khan, and Wolfgang Schulz as students at your college",,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Maria Lopez,Rajiv Patel,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Maria Lopez,Ryan Park,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Maria Lopez,Wolfgang Schulz,1,0,classmate;dormmate,You and Wolfgang Schulz are classmates and dormmates,You and Maria Lopez are dormmates,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Mei Lin,Rajiv Patel,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Mei Lin,Ryan Park,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Mei Lin,Wolfgang Schulz,1,0,student_professor,"You know Klaus Mueller, Maria Lopez, Ayesha Khan, and Wolfgang Schulz as students at your college",You know Mei Lin is a professor at your college,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Rajiv Patel,Ryan Park,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Rajiv Patel,Wolfgang Schulz,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1
+Ryan Park,Wolfgang Schulz,0,0,,,,,agent_history_init_n15.csv,conservative_relation_cue_rules_v1

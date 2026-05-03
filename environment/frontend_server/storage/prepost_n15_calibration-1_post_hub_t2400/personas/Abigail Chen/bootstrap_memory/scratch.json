@@ -1,0 +1,333 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2026, 14:39:50",
+  "curr_tile": [
+    38,
+    27
+  ],
+  "daily_plan_req": "",
+  "name": "Abigail Chen",
+  "first_name": "Abigail",
+  "last_name": "Chen",
+  "age": 25,
+  "innate": "open-minded, curious, determined",
+  "learned": "Abigail Chen is a digital artist and animator who loves to explore how technology can be used to express ideas. She is always looking for new ways to combine art and technology.",
+  "currently": "Abigail Chen is working on an animation project for a client. She is also experimenting with different tools and techniques to create interactive art.",
+  "lifestyle": "Abigail Chen goes to bed around midnight, awakes up around 8am, eats dinner around 6pm.",
+  "living_area": "the Ville:artist's co-living space:Abigail Chen's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 204,
+  "importance_ele_n": 10,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "start working on the animation project for the client from 9:00 am to 12:00 pm",
+    "take a lunch break and relax from 12:00 pm to 1:00 pm",
+    "continue working on the animation project from 1:00 pm to 3:00 pm",
+    "spend some time experimenting with new tools and techniques for interactive art from 3:00 pm to 5:00 pm",
+    "take a short break, go for a walk, or practice a hobby from 5:00 pm to 6:00 pm",
+    "have dinner at 6:00 pm",
+    "unwind by watching a movie or catching up on a favorite series from 7:00 pm to 9:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "working on the animation project for the client (1) Abigail is reviewing the project brief and client requirements)",
+      15
+    ],
+    [
+      "working on the animation project for the client (on the way to sketching initial concepts for the animation)",
+      0
+    ],
+    [
+      "working on the animation project for the client (conversing about Abigail Chen and Francisco Lopez discussing their creative projects, specifically Abigail's animation project and Francisco's web series, while planning to brainstorm ideas together after Francisco's morning jog.)",
+      13
+    ],
+    [
+      "working on the animation project for the client (creating a storyboard for the animation)",
+      30
+    ],
+    [
+      "working on the animation project for the client (on the way to selecting the software and tools she will use for the animation)",
+      0
+    ],
+    [
+      "working on the animation project for the client (conversing about Abigail Chen and Hailey Johnson discussing their creative projects, exploring ways to collaborate by integrating elements of comedy and real-life experiences into their respective works.)",
+      19
+    ],
+    [
+      "working on the animation project for the client (on the way to setting up the project file and workspace in the animation software)",
+      0
+    ],
+    [
+      "working on the animation project for the client (conversing about Rajiv Patel and Abigail Chen discussing their creative projects, with Abigail exploring interactive elements in her animation and Rajiv finalizing themes for his art show, while exchanging ideas for audience engagement.)",
+      20
+    ],
+    [
+      "working on the animation project for the client (animating the first scene based on the storyboard)",
+      30
+    ],
+    [
+      "working on the animation project for the client (adding sound effects and background music to the first scene)",
+      15
+    ],
+    [
+      "working on the animation project for the client (reviewing the first scene and making adjustments as needed)",
+      15
+    ],
+    [
+      "working on the animation project for the client (exporting the first scene for client review)",
+      10
+    ],
+    [
+      "working on the animation project for the client (organizing her files and notes for the next steps in the project)",
+      5
+    ],
+    [
+      "taking a lunch break and relaxing (on the way to taking a lunch break and relaxin)",
+      51
+    ],
+    [
+      "taking a lunch break and relaxing (conversing about Latoya Williams and Abigail Chen discussing their creative projects and planning a collaboration that combines Abigail's animation with Latoya's photography.)",
+      9
+    ],
+    [
+      "continuing to work on the animation project for the client (continuing to refine the animation storyboard)",
+      20
+    ],
+    [
+      "continuing to work on the animation project for the client (adjusting character designs based on client feedback)",
+      30
+    ],
+    [
+      "continuing to work on the animation project for the client (creating new animation frames for the project)",
+      30
+    ],
+    [
+      "continuing to work on the animation project for the client (reviewing the animation for consistency and flow)",
+      20
+    ],
+    [
+      "continuing to work on the animation project for the client (on the way to making final adjustments to the animation)",
+      0
+    ],
+    [
+      "continuing to work on the animation project for the client (conversing about Abigail Chen and Latoya Williams collaborating on merging their photography and animation styles, brainstorming themes and storyboards, and discussing current projects.)",
+      20
+    ],
+    [
+      "continuing to work on the animation project for the client (exporting the updated animation files)",
+      5
+    ],
+    [
+      "experimenting with new tools and techniques for interactive art (1) Abigail is researching new tools and techniques for interactive art)",
+      10
+    ],
+    [
+      "experimenting with new tools and techniques for interactive art (selecting a specific tool or technique to experiment with)",
+      10
+    ],
+    [
+      "experimenting with new tools and techniques for interactive art (setting up the software or tools needed for the experiment)",
+      10
+    ],
+    [
+      "experimenting with new tools and techniques for interactive art (creating a basic project outline for the interactive art piece)",
+      10
+    ],
+    [
+      "experimenting with new tools and techniques for interactive art (experimenting with the selected tool or technique, creating initial sketches or prototypes)",
+      15
+    ],
+    [
+      "continuing to experiment with new tools and techniques for interactive art",
+      60
+    ],
+    [
+      "taking a short break, going for a walk, or practicing a hobby",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "watching a movie or catching up on a favorite series",
+      60
+    ],
+    [
+      "continuing to unwind by watching a movie or catching up on a favorite series",
+      120
+    ],
+    [
+      "working on personal projects or exploring new artistic techniques",
+      120
+    ],
+    [
+      "sleeping",
+      17
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "working on the animation project for the client",
+      180
+    ],
+    [
+      "taking a lunch break and relaxing",
+      60
+    ],
+    [
+      "continuing to work on the animation project for the client",
+      120
+    ],
+    [
+      "experimenting with new tools and techniques for interactive art",
+      60
+    ],
+    [
+      "continuing to experiment with new tools and techniques for interactive art",
+      60
+    ],
+    [
+      "taking a short break, going for a walk, or practicing a hobby",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "watching a movie or catching up on a favorite series",
+      60
+    ],
+    [
+      "continuing to unwind by watching a movie or catching up on a favorite series",
+      120
+    ],
+    [
+      "working on personal projects or exploring new artistic techniques",
+      120
+    ]
+  ],
+  "act_address": "<persona> Latoya Williams",
+  "act_start_time": "February 13, 2026, 14:23:10",
+  "act_duration": 20,
+  "act_description": "conversing about Abigail Chen and Latoya Williams collaborating on merging their photography and animation styles, brainstorming themes and storyboards, and discussing current projects.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Abigail Chen",
+    "chat with",
+    "Latoya Williams"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Latoya Williams",
+  "chat": [
+    [
+      "Abigail Chen",
+      "Hey Latoya! I saw you in the photography workshop. How's it going? I'm really excited about our collaboration and would love to hear your thoughts on how we can blend our styles together."
+    ],
+    [
+      "Latoya Williams",
+      "Hi Abigail! The workshop was really insightful, and I think it will inspire some fresh ideas for our project. I love the idea of incorporating interactive elements into your animation to create a more immersive experience. How do you envision blending our styles? Maybe we can brainstorm some concepts together."
+    ],
+    [
+      "Abigail Chen",
+      "That sounds great! I was thinking we could start by identifying key themes in your photography that resonate with the emotions I want to convey in my animation. Maybe we can create some storyboards that incorporate both our styles? What do you think?"
+    ],
+    [
+      "Latoya Williams",
+      "I love that idea! Storyboarding together would really help us visualize how to merge our styles and themes. I have some landscape photos that evoke strong emotions; maybe we can use those as a starting point. How about we set a time to work on the storyboards together?"
+    ],
+    [
+      "Abigail Chen",
+      "That sounds perfect! How about we meet this weekend to start working on the storyboards? I can bring my sketches and we can really dive into the details."
+    ],
+    [
+      "Latoya Williams",
+      "Absolutely! Let's meet on Sunday at 2 PM, as I have some ideas for those landscape photos that I think would fit well with the storyboards. I'm looking forward to seeing your sketches too. This is going to be a fun collaboration!"
+    ],
+    [
+      "Abigail Chen",
+      "Great! I\u2019ll make sure to bring my storyboard sketches and any ideas I have for integrating your photos. I'm really looking forward to this collaboration! If you have any specific themes in mind for the landscape photos, feel free to share them with me before Sunday."
+    ],
+    [
+      "Latoya Williams",
+      "I have a few themes in mind, like tranquility and the beauty of nature, which could really enhance the emotional aspect of your animation. I'll send you some of my favorite landscape photos that reflect these themes. I'm excited to see how we can bring it all together!"
+    ],
+    [
+      "Abigail Chen",
+      "That sounds wonderful! I can't wait to see those photos and start brainstorming. I'll also think about how to visually represent those themes in my animation. Let's keep the communication open until then; I\u2019m sure we\u2019ll come up with some amazing ideas together!"
+    ],
+    [
+      "Latoya Williams",
+      "Absolutely! I\u2019ll send over those landscape photos later today. Also, if you think of any specific elements you want to incorporate from my photos into your animation, just let me know! I\u2019m really looking forward to collaborating on this."
+    ],
+    [
+      "Abigail Chen",
+      "Thanks, Latoya! I\u2019ll definitely think about those elements and let you know. This collaboration is really inspiring me, and I can't wait to see what we come up with together. By the way, do you have any other projects you're currently working on that you'd like to share?"
+    ],
+    [
+      "Latoya Williams",
+      "I appreciate your enthusiasm, Abigail! I'm also working on a series of photography inspired by my travels, and I'm currently selecting the best photos for that. I think it could complement our project nicely, especially with themes of exploration and adventure. How about you? Any other projects on your plate?"
+    ],
+    [
+      "Abigail Chen",
+      "That sounds amazing! I love the idea of exploration and adventure; it fits perfectly with the themes we\u2019re working on. I'm currently focused on this animation project for a client, but I'm also experimenting with some interactive art concepts on the side. I'd love to hear more about your travel photography and see if we can incorporate any of those themes into our project as well. Maybe we can brainstorm some ideas on how to tie everything together!"
+    ],
+    [
+      "Latoya Williams",
+      "That sounds like a great plan, Abigail! I can definitely share some of my travel photos that capture the spirit of exploration, and we can brainstorm how to weave those themes into both our works. Let\u2019s make sure to connect on those ideas this weekend! Also, if you have any interactive concepts in mind, I\u2019d love to hear about them too."
+    ],
+    [
+      "Abigail Chen",
+      "I'm excited to see those travel photos! As for my interactive concepts, I was thinking about creating elements in the animation that allow viewers to make choices based on the scenes you capture, which could enhance the storytelling aspect. I\u2019ll share more details when we meet! This is going to be such a creative weekend!"
+    ],
+    [
+      "Latoya Williams",
+      "That sounds like a fantastic idea, Abigail! Incorporating choices for the viewers will definitely make the experience more engaging. I can\u2019t wait to brainstorm more about it this weekend. Let\u2019s keep this momentum going!"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Francisco Lopez": -1114,
+    "Hailey Johnson": -910,
+    "Rajiv Patel": -736,
+    "Latoya Williams": 800
+  },
+  "chatting_end_time": "February 13, 2026, 14:44:00",
+  "act_path_set": true,
+  "planned_path": []
+}

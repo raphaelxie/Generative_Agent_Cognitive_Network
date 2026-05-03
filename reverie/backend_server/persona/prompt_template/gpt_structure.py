@@ -87,7 +87,7 @@ def temp_sleep(seconds: float = 0.1):
 # Internal helper: minimal chat wrapper
 # ----------------------------------------------------------------------------
 
-def _chat(prompt: str, model: str = None, temperature: float = 0.7, max_tokens: int = None) -> str:
+def _chat(prompt: str, model: str = None, temperature: float = 0.7, max_tokens: int = None, stop=None) -> str:
     temp_sleep()
     used_model = (model or DEFAULT_CHAT_MODEL)
 
@@ -107,12 +107,15 @@ def _chat(prompt: str, model: str = None, temperature: float = 0.7, max_tokens: 
     }, "LLM-A")
     # #endregion
     try:
-        resp = client.chat.completions.create(
+        api_kwargs = dict(
             model=used_model,
             messages=[{"role": "user", "content": prompt}],
             temperature=temperature,
             max_tokens=max_tokens,
         )
+        if stop:
+            api_kwargs["stop"] = stop
+        resp = client.chat.completions.create(**api_kwargs)
     except Exception as e:
         # #region agent log
         _dbg2483ef("chat_request_exception", {
@@ -309,7 +312,9 @@ def GPT_request(prompt, gpt_parameter):
         model = gpt_parameter.get("engine", DEFAULT_CHAT_MODEL)
         temperature = gpt_parameter.get("temperature", 0.7)
         max_tokens = gpt_parameter.get("max_tokens", None)
-        return _chat(prompt, model=model, temperature=temperature, max_tokens=max_tokens)
+        stop = gpt_parameter.get("stop", None)
+        return _chat(prompt, model=model, temperature=temperature,
+                     max_tokens=max_tokens, stop=stop)
     except Exception as e:
         return "error"
 

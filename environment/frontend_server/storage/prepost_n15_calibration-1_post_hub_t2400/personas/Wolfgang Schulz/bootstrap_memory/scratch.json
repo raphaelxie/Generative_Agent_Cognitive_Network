@@ -1,0 +1,341 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2026, 14:39:50",
+  "curr_tile": [
+    119,
+    26
+  ],
+  "daily_plan_req": "Wolfgang Schulz goes for a run at the part in the morning, studies during the day, and exercises at his room at night ",
+  "name": "Wolfgang Schulz",
+  "first_name": "Wolfgang",
+  "last_name": "Schulz",
+  "age": 21,
+  "innate": "Hardworking, passionate, dedicated",
+  "learned": "Wolfgang Schulz is a student at Oak Hill College studying chemistry and a student athlete. He is very dedicated to both his academics and his sport.",
+  "currently": "Wolfgang Schulz is training for his next competition and studying for his exams. He is also looking for ways to make his studies more efficient.",
+  "lifestyle": "Wolfgang Schulz goes to bed around 9pm, awakes up around 5am, eats dinner around 6pm.",
+  "living_area": "the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 22,
+  "importance_ele_n": 79,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "go for a run at the park from 5:30 am to 6:15 am",
+    "take a quick shower and eat breakfast from 6:15 am to 6:45 am",
+    "study for chemistry exams from 7:00 am to 10:00 am",
+    "attend classes from 10:30 am to 1:00 pm",
+    "have lunch with friends from 1:00 pm to 1:30 pm",
+    "continue studying from 1:30 pm to 3:30 pm, focusing on problem sets and practice exams",
+    "take a break to relax and recharge from 3:30 pm to 4:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "studying for chemistry exams (1) Wolfgang is gathering his study materials (textbooks, notes, and stationery))",
+      5
+    ],
+    [
+      "studying for chemistry exams (on the way to reviewing the syllabus to identify key topics for the exam)",
+      0
+    ],
+    [
+      "studying for chemistry exams (conversing about Ayesha Khan and Wolfgang Schulz discussing their academic preparations, with Ayesha working on her senior thesis about Shakespeare's language and Wolfgang studying for chemistry exams, while sharing study tips and offering support to each other.)",
+      11
+    ],
+    [
+      "studying for chemistry exams (reading through his chemistry textbook on the first key topic)",
+      15
+    ],
+    [
+      "studying for chemistry exams (taking notes on important concepts from the textbook)",
+      10
+    ],
+    [
+      "studying for chemistry exams (solving practice problems related to the first key topic)",
+      10
+    ],
+    [
+      "studying for chemistry exams (reviewing his notes and practice problems to reinforce learning)",
+      5
+    ],
+    [
+      "studying for chemistry exams (on the way to preparing a summary sheet of key formulas and concepts)",
+      0
+    ],
+    [
+      "studying for chemistry exams (conversing about Wolfgang Schulz and Mei Lin discussing study strategies and resources for Wolfgang's upcoming chemistry exam, including tips for staying focused and motivated.)",
+      15
+    ],
+    [
+      "attending classes (attending his chemistry lecture)",
+      30
+    ],
+    [
+      "attending classes (on the way to taking notes during the lecture)",
+      0
+    ],
+    [
+      "attending classes (conversing about Klaus Mueller and Wolfgang Schulz discussing their respective academic challenges, including Klaus's research paper on gentrification and Wolfgang's chemistry exam, while sharing study techniques and strategies to stay motivated.)",
+      21
+    ],
+    [
+      "attending classes (participating in class discussions)",
+      15
+    ],
+    [
+      "attending classes (reviewing the lecture material)",
+      15
+    ],
+    [
+      "attending classes (asking questions to clarify concepts)",
+      10
+    ],
+    [
+      "attending classes (preparing for the next class)",
+      9
+    ],
+    [
+      "having lunch with friends (on the way to having lunch with friends)",
+      0
+    ],
+    [
+      "having lunch with friends (conversing about Ayesha Khan and Wolfgang Schulz discussing their studies, focusing on Shakespeare's ethical dilemmas in 'Hamlet' and 'Macbeth,' while also sharing study strategies and planning a meeting to brainstorm ideas for Ayesha's thesis.)",
+      10
+    ],
+    [
+      "having lunch with friends (discussing their classes and upcoming exams)",
+      10
+    ],
+    [
+      "having lunch with friends (sharing tips on study techniques)",
+      10
+    ],
+    [
+      "having lunch with friends (enjoying a light-hearted conversation about sports)",
+      10
+    ],
+    [
+      "having lunch with friends (ordering dessert for the table)",
+      5
+    ],
+    [
+      "having lunch with friends (taking a group photo with friends)",
+      5
+    ],
+    [
+      "having lunch with friends (finishing his meal and chatting)",
+      10
+    ],
+    [
+      "continuing to study for chemistry exams, focusing on problem sets and practice exams (on the way to reviewing his class notes)",
+      0
+    ],
+    [
+      "continuing to study for chemistry exams, focusing on problem sets and practice exams (conversing about Carlos Gomez and Wolfgang Schulz discussing their respective projects, with Carlos sharing updates on his poetry collection and collaboration with Klaus, while Wolfgang talks about balancing his studies and training for competitions, ultimately planning to brainstorm ideas together.)",
+      18
+    ],
+    [
+      "continuing to study for chemistry exams, focusing on problem sets and practice exams (identifying key topics for the problem sets)",
+      10
+    ],
+    [
+      "continuing to study for chemistry exams, focusing on problem sets and practice exams (selecting practice exams to work on)",
+      10
+    ],
+    [
+      "continuing to study for chemistry exams, focusing on problem sets and practice exams (solving the first problem set)",
+      20
+    ],
+    [
+      "continuing to study for chemistry exams, focusing on problem sets and practice exams (checking his answers for the first problem set)",
+      10
+    ],
+    [
+      "continuing to study for chemistry exams, focusing on problem sets and practice exams (solving the second problem set)",
+      20
+    ],
+    [
+      "continuing to study for chemistry exams, focusing on problem sets and practice exams (checking his answers for the second problem set)",
+      10
+    ],
+    [
+      "continuing to study for chemistry exams, focusing on problem sets and practice exams (on the way to reviewing the practice exam questions)",
+      0
+    ],
+    [
+      "continuing to study for chemistry exams, focusing on problem sets and practice exams (conversing about Klaus Mueller and Wolfgang Schulz discussing studying techniques, the significance of gentrification in low-income communities, and planning a study session to help each other with their respective papers and exam preparations.)",
+      13
+    ],
+    [
+      "continuing to study for chemistry exams, focusing on problem sets and practice exams (solving a few selected practice exam questions)",
+      10
+    ],
+    [
+      "taking a break to relax and recharge",
+      57
+    ],
+    [
+      "continuing to study for chemistry exams, focusing on problem sets and practice exams",
+      240
+    ],
+    [
+      "exercising in his room with a workout routine",
+      180
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Wolfgang is sleeping",
+      60
+    ],
+    [
+      "sleeping",
+      9
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "studying for chemistry exams",
+      60
+    ],
+    [
+      "attending classes",
+      120
+    ],
+    [
+      "having lunch with friends",
+      60
+    ],
+    [
+      "continuing to study for chemistry exams, focusing on problem sets and practice exams",
+      120
+    ],
+    [
+      "taking a break to relax and recharge",
+      60
+    ],
+    [
+      "continuing to study for chemistry exams, focusing on problem sets and practice exams",
+      240
+    ],
+    [
+      "exercising in his room with a workout routine",
+      180
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Wolfgang is sleeping",
+      60
+    ]
+  ],
+  "act_address": "<persona> Klaus Mueller",
+  "act_start_time": "February 13, 2026, 14:27:50",
+  "act_duration": 13,
+  "act_description": "conversing about Klaus Mueller and Wolfgang Schulz discussing studying techniques, the significance of gentrification in low-income communities, and planning a study session to help each other with their respective papers and exam preparations.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Wolfgang Schulz",
+    "chat with",
+    "Klaus Mueller"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Klaus Mueller",
+  "chat": [
+    [
+      "Klaus Mueller",
+      "Hey Wolfgang, how's the studying going? I just started drafting the introduction for my paper on gentrification. Any tips on staying focused?"
+    ],
+    [
+      "Wolfgang Schulz",
+      "Hey Klaus! Studying is going well. I\u2019ve been focusing on practice problems for my chemistry exam. As for staying focused, I find that setting short, timed study sessions really helps. Maybe try the Pomodoro technique? It keeps me on track! How\u2019s the introduction coming along?"
+    ],
+    [
+      "Klaus Mueller",
+      "The introduction is coming along, but I'm struggling to clearly articulate the significance of gentrification in low-income communities. Do you have any suggestions on how to frame that? And thanks for the Pomodoro tip; I'll definitely give it a try!"
+    ],
+    [
+      "Wolfgang Schulz",
+      "You might want to consider discussing specific case studies or personal stories that highlight the impact of gentrification on those communities. It could help make the significance more relatable and concrete. Have you thought about including any interviews or firsthand accounts?"
+    ],
+    [
+      "Klaus Mueller",
+      "That's a great idea! I hadn't thought about including interviews or personal accounts. I\u2019ll look into finding some sources or perhaps reaching out to community members for their perspectives. How's your second problem set going, by the way? Any tricky questions?"
+    ],
+    [
+      "Wolfgang Schulz",
+      "I've made some progress, but there was one question about reaction mechanisms that I found particularly challenging. I think I might have gotten it wrong. If you have any tips on that, I'd appreciate it! By the way, let me know if you need help with your paper; I'd be happy to read over your drafts."
+    ],
+    [
+      "Klaus Mueller",
+      "I'd appreciate any feedback you can give on my drafts once I have more down! As for the reaction mechanisms, I can help you review the concepts if you want. Maybe we can study together later this week?"
+    ],
+    [
+      "Wolfgang Schulz",
+      "That sounds great, Klaus! I\u2019d really appreciate your help with the reaction mechanisms. Let\u2019s set a time to meet up and study together. Maybe after your class tomorrow? I can bring my notes and we can go over everything together."
+    ],
+    [
+      "Klaus Mueller",
+      "Sounds good! After my class tomorrow works for me. What time do you want to meet? And I\u2019ll be sure to bring my notes on gentrification too, so we can help each other out."
+    ],
+    [
+      "Wolfgang Schulz",
+      "How about we meet at 3 PM? That should give us both enough time to prepare. I'm looking forward to hearing your ideas on gentrification as well!"
+    ],
+    [
+      "Klaus Mueller",
+      "3 PM works perfectly for me! I\u2019ll make sure to have my notes ready. Thanks again for your help, Wolfgang. I\u2019m looking forward to our study session!"
+    ],
+    [
+      "Wolfgang Schulz",
+      "Great! I'm excited to dive into both the chemistry and your paper. Let\u2019s both bring our questions and ideas so we can make the most of our time together. See you tomorrow!"
+    ],
+    [
+      "Klaus Mueller",
+      "Awesome! I\u2019ll see you at 3 PM tomorrow then. Good luck with your studying today, and let me know if you figure out that tricky problem!"
+    ],
+    [
+      "Wolfgang Schulz",
+      "Thanks, Klaus! I appreciate it. I\u2019ll definitely let you know if I figure out that problem. Good luck with your writing, and I\u2019ll see you tomorrow!"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Ayesha Khan": -136,
+    "Mei Lin": -832,
+    "Klaus Mueller": 800,
+    "Carlos Gomez": 218
+  },
+  "chatting_end_time": "February 13, 2026, 14:41:00",
+  "act_path_set": true,
+  "planned_path": []
+}
