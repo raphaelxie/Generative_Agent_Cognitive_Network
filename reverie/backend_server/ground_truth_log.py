@@ -103,6 +103,63 @@ def build_ground_truth(personas, sim_code, step, curr_time,
     return chat_rows, edge_rows
 
 
+def _safe_count(row, count_field):
+    try:
+        return int(row.get(count_field, 0))
+    except Exception:
+        return 0
+
+
+def graph_nodes(edge_rows, excluded_nodes=None):
+    """Return sorted roster nodes, optionally excluding analysis-time nodes."""
+    excluded = set(excluded_nodes or [])
+    nodes = set()
+    for row in edge_rows:
+        if row["node_a"] not in excluded:
+            nodes.add(row["node_a"])
+        if row["node_b"] not in excluded:
+            nodes.add(row["node_b"])
+    return sorted(nodes)
+
+
+def graph_adjacency(edge_rows, count_field="count_cumulative",
+                    excluded_nodes=None):
+    """Build an undirected adjacency map for the requested edge-count field."""
+    excluded = set(excluded_nodes or [])
+    nodes = graph_nodes(edge_rows, excluded)
+    adj = {node: set() for node in nodes}
+    for row in edge_rows:
+        a, b = row["node_a"], row["node_b"]
+        if a in excluded or b in excluded:
+            continue
+        if _safe_count(row, count_field) > 0:
+            adj.setdefault(a, set()).add(b)
+            adj.setdefault(b, set()).add(a)
+    return adj
+
+
+def degree_by_agent(edge_rows, count_field="count_cumulative",
+                    excluded_nodes=None):
+    """Return degree counts for all roster nodes in the requested graph view."""
+    adj = graph_adjacency(edge_rows, count_field, excluded_nodes)
+    return {node: len(neighbors) for node, neighbors in adj.items()}
+
+
+def highest_degree_agent_for_field(edge_rows, count_field="count_cumulative",
+                                   excluded_nodes=None):
+    """Return the top-degree agent for the requested graph view."""
+    degree = {
+        node: deg
+        for node, deg in degree_by_agent(
+            edge_rows, count_field, excluded_nodes).items()
+        if deg > 0
+    }
+    if not degree:
+        return None, 0
+    best = sorted(degree.items(), key=lambda kv: (-kv[1], kv[0]))[0]
+    return best[0], best[1]
+
+
 def highest_degree_agent(edge_rows):
     """Return (name, degree) for the agent with the highest cumulative degree.
 
@@ -120,28 +177,21 @@ def highest_degree_agent(edge_rows):
     return best, degree[best]
 
 
-def agent_betweenness(edge_rows):
-    """Return {name: betweenness_score} for all agents in the roster.
+def agent_betweenness_for_field(edge_rows, count_field="count_cumulative",
+                                excluded_nodes=None):
+    """Return betweenness scores for the requested graph view.
 
     Implements Brandes' algorithm on the undirected unweighted graph
-    induced by edges with count_cumulative > 0. All roster nodes from
-    edge_rows are included (isolates score 0.0). Scores are normalized
-    by 2 / ((n-1)(n-2)) for n >= 3 so they lie in [0, 1]; for n < 3 the
-    raw (unnormalized) score is returned (which will be 0.0 everywhere).
+    induced by edges with the selected count field > 0. All non-excluded
+    roster nodes from edge_rows are included (isolates score 0.0). Scores
+    are normalized by 2 / ((n-1)(n-2)) for n >= 3 so they lie in [0, 1];
+    for n < 3 the raw score is returned (which will be 0.0 everywhere).
 
     Reference: Brandes, U. (2001). "A faster algorithm for betweenness
     centrality." Journal of Mathematical Sociology, 25(2), 163-177.
     """
-    nodes_set = set()
-    adj = defaultdict(set)
-    for row in edge_rows:
-        nodes_set.add(row["node_a"])
-        nodes_set.add(row["node_b"])
-        if int(row["count_cumulative"]) > 0:
-            adj[row["node_a"]].add(row["node_b"])
-            adj[row["node_b"]].add(row["node_a"])
-
-    nodes = sorted(nodes_set)
+    adj = graph_adjacency(edge_rows, count_field, excluded_nodes)
+    nodes = sorted(adj.keys())
     bc = {v: 0.0 for v in nodes}
 
     for s in nodes:
@@ -183,17 +233,203 @@ def agent_betweenness(edge_rows):
     return dict(bc)
 
 
+def agent_betweenness(edge_rows):
+    """Return cumulative betweenness scores for all agents in the roster."""
+    return agent_betweenness_for_field(edge_rows, "count_cumulative")
+
+
+def highest_betweenness_agent_for_field(edge_rows,
+                                        count_field="count_cumulative",
+                                        excluded_nodes=None):
+    """Return the top-betweenness agent for the requested graph view."""
+    bc = agent_betweenness_for_field(edge_rows, count_field, excluded_nodes)
+    if not bc or max(bc.values()) == 0.0:
+        return None, 0.0
+    best = sorted(bc.items(), key=lambda kv: (-kv[1], kv[0]))[0]
+    return best[0], best[1]
+
+
 def highest_betweenness_agent(edge_rows):
     """Return (name, betweenness_score) for the top-betweenness agent.
 
     Returns (None, 0.0) when the graph has no edges (all scores 0).
     Ties broken alphabetically for determinism.
     """
-    bc = agent_betweenness(edge_rows)
-    if not bc or max(bc.values()) == 0.0:
-        return None, 0.0
-    best = sorted(bc.items(), key=lambda kv: (-kv[1], kv[0]))[0]
-    return best[0], best[1]
+    return highest_betweenness_agent_for_field(edge_rows, "count_cumulative")
+
+
+def graph_components(edge_rows, count_field="count_cumulative",
+                     excluded_nodes=None):
+    """Return connected components for the requested graph view."""
+    adj = graph_adjacency(edge_rows, count_field, excluded_nodes)
+    seen = set()
+    components = []
+    for start in sorted(adj):
+        if start in seen:
+            continue
+        stack = [start]
+        seen.add(start)
+        comp = []
+        while stack:
+            node = stack.pop()
+            comp.append(node)
+            for nbr in sorted(adj[node]):
+                if nbr not in seen:
+                    seen.add(nbr)
+                    stack.append(nbr)
+        components.append(sorted(comp))
+    components.sort(key=lambda c: (-len(c), c[0] if c else ""))
+    return components
+
+
+def shortest_path_summary(edge_rows, count_field="count_cumulative",
+                          excluded_nodes=None):
+    """Return reachable-pair and shortest-path summaries for a graph view."""
+    adj = graph_adjacency(edge_rows, count_field, excluded_nodes)
+    nodes = sorted(adj)
+    n = len(nodes)
+    total_pairs = n * (n - 1) // 2
+    distances = []
+    for i, src in enumerate(nodes):
+        dist = {src: 0}
+        queue = deque([src])
+        while queue:
+            node = queue.popleft()
+            for nbr in adj[node]:
+                if nbr not in dist:
+                    dist[nbr] = dist[node] + 1
+                    queue.append(nbr)
+        for dst in nodes[i + 1:]:
+            if dst in dist:
+                distances.append(dist[dst])
+    reachable_pairs = len(distances)
+    return {
+        "n_pairs": total_pairs,
+        "reachable_pairs": reachable_pairs,
+        "reachable_pair_fraction": (
+            reachable_pairs / total_pairs if total_pairs else None),
+        "mean_reachable_shortest_path_length": (
+            sum(distances) / len(distances) if distances else None),
+        "diameter_reachable": max(distances) if distances else None,
+    }
+
+
+def bridge_edges(edge_rows, count_field="count_cumulative",
+                 excluded_nodes=None):
+    """Return undirected bridge edges for the requested graph view."""
+    adj = graph_adjacency(edge_rows, count_field, excluded_nodes)
+    timer = [0]
+    visited = set()
+    tin = {}
+    low = {}
+    bridges = []
+
+    def dfs(node, parent=None):
+        visited.add(node)
+        timer[0] += 1
+        tin[node] = low[node] = timer[0]
+        for nbr in sorted(adj[node]):
+            if nbr == parent:
+                continue
+            if nbr in visited:
+                low[node] = min(low[node], tin[nbr])
+            else:
+                dfs(nbr, node)
+                low[node] = min(low[node], low[nbr])
+                if low[nbr] > tin[node]:
+                    bridges.append(tuple(sorted((node, nbr))))
+
+    for node in sorted(adj):
+        if node not in visited:
+            dfs(node)
+    return sorted(set(bridges))
+
+
+def _top3(score_dict, fmt):
+    items = sorted(
+        ((k, v) for k, v in score_dict.items() if v > 0),
+        key=lambda kv: (-kv[1], kv[0]),
+    )[:3]
+    return "; ".join(fmt.format(k, v) for k, v in items)
+
+
+def graph_scope_summary(edge_rows, count_field="count_cumulative",
+                        excluded_nodes=None):
+    """Return graph-level diagnostics for one cumulative or recent scope."""
+    nodes = graph_nodes(edge_rows, excluded_nodes)
+    n = len(nodes)
+    n_pairs = n * (n - 1) // 2
+    degree = degree_by_agent(edge_rows, count_field, excluded_nodes)
+    n_edges = sum(degree.values()) // 2
+    bc = agent_betweenness_for_field(edge_rows, count_field, excluded_nodes)
+    nonzero_bc = {k: v for k, v in bc.items() if v > 0}
+    bc_sum = sum(nonzero_bc.values())
+    components = graph_components(edge_rows, count_field, excluded_nodes)
+    paths = shortest_path_summary(edge_rows, count_field, excluded_nodes)
+    bridges = bridge_edges(edge_rows, count_field, excluded_nodes)
+    hub_name, _ = highest_degree_agent_for_field(
+        edge_rows, count_field, excluded_nodes)
+    broker_name, _ = highest_betweenness_agent_for_field(
+        edge_rows, count_field, excluded_nodes)
+    max_degree = max(degree.values()) if degree else 0
+    max_bc = max(nonzero_bc.values()) if nonzero_bc else 0.0
+    hub_eq_broker = (
+        hub_name is not None
+        and broker_name is not None
+        and hub_name == broker_name
+    )
+    return {
+        "n_nodes": n,
+        "n_edges": n_edges,
+        "density": (n_edges / n_pairs) if n_pairs else 0.0,
+        "mean_degree": (2 * n_edges / n) if n else 0.0,
+        "max_degree": max_degree,
+        "top3_degree": _top3(degree, "{}={}"),
+        "max_betweenness": max_bc,
+        "top3_betweenness": _top3(bc, "{}={:.4f}"),
+        "hub": hub_name or "",
+        "broker": broker_name or "",
+        "hub_eq_broker": int(hub_eq_broker),
+        "betweenness_top_share": (max_bc / bc_sum) if bc_sum else None,
+        "betweenness_hhi": (
+            sum((v / bc_sum) ** 2 for v in nonzero_bc.values())
+            if bc_sum else None),
+        "component_count": len(components),
+        "largest_component_size": len(components[0]) if components else 0,
+        "reachable_pair_fraction": paths["reachable_pair_fraction"],
+        "mean_reachable_shortest_path_length": (
+            paths["mean_reachable_shortest_path_length"]),
+        "diameter_reachable": paths["diameter_reachable"],
+        "bridge_edge_count": len(bridges),
+    }
+
+
+def target_graph_summary(edge_rows, target, count_field="count_cumulative"):
+    """Return target-specific diagnostics in the observed target-included view."""
+    if not target:
+        return {}
+    degree = degree_by_agent(edge_rows, count_field)
+    bc = agent_betweenness_for_field(edge_rows, count_field)
+    bc_rank = {
+        name: i + 1
+        for i, (name, _) in enumerate(
+            sorted(bc.items(), key=lambda kv: (-kv[1], kv[0])))
+    }
+    bridges = bridge_edges(edge_rows, count_field)
+    incident_edges = []
+    for row in edge_rows:
+        if target not in (row["node_a"], row["node_b"]):
+            continue
+        if _safe_count(row, count_field) > 0:
+            incident_edges.append(tuple(sorted((row["node_a"], row["node_b"]))))
+    incident_bridge_edges = [edge for edge in incident_edges if edge in bridges]
+    return {
+        "target_degree": degree.get(target, 0),
+        "target_betweenness": bc.get(target, 0.0),
+        "target_betweenness_rank": bc_rank.get(target),
+        "target_incident_edges": len(incident_edges),
+        "target_incident_bridge_edges": len(incident_bridge_edges),
+    }
 
 
 def write_ground_truth_csv(personas, sim_code, step, curr_time,

@@ -60,8 +60,8 @@ def _dbg2483ef(message, data, hypothesis_id):
 _api_key = os.environ.get("OPENAI_API_KEY", None)
 
 # Default model can be overridden:
-#   export OPENAI_MODEL="gpt-5.2-mini"  (or any model available to your account)
-DEFAULT_CHAT_MODEL = os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
+#   export OPENAI_MODEL="gpt-5-mini"  (or any model available to your account)
+DEFAULT_CHAT_MODEL = os.environ.get("OPENAI_MODEL", "gpt-5-mini")
 
 # Embedding model (keep stable for reproducibility)
 DEFAULT_EMBED_MODEL = os.environ.get("OPENAI_EMBED_MODEL", "text-embedding-3-small")

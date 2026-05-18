@@ -1,0 +1,293 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2026, 12:59:50",
+  "curr_tile": [
+    119,
+    31
+  ],
+  "daily_plan_req": "Klaus Mueller goes to the library at Oak Hill College early in the morning, spends his days writing, and eats at Hobbs Cafe.",
+  "name": "Klaus Mueller",
+  "first_name": "Klaus",
+  "last_name": "Mueller",
+  "age": 20,
+  "innate": "kind, inquisitive, passionate",
+  "learned": "Klaus Mueller is a student at Oak Hill College studying sociology. He is passionate about social justice and loves to explore different perspectives.",
+  "currently": "Klaus Mueller is writing a research paper on the effects of gentrification in low-income communities.",
+  "lifestyle": "Klaus Mueller goes to bed around 11pm, awakes up around 7am, eats dinner around 5pm.",
+  "living_area": "the Ville:Dorm for Oak Hill College:Klaus Mueller's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 124,
+  "importance_ele_n": 45,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "head to the library at Oak Hill College by 8:30 am",
+    "work on his research paper on the effects of gentrification in low-income communities until 12:00 pm",
+    "have lunch at Hobbs Cafe at 12:30 pm",
+    "continue writing and conducting research from 1:30 pm to 4:30 pm",
+    "take a break and unwind by reading a book or exploring articles related to social justice from 4:30 pm to 5:00 pm",
+    "have dinner at 5:00 pm",
+    "spend some time relaxing or socializing with friends from 6:00 pm to 8:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "heading to the library at Oak Hill College to begin his research (getting dressed)",
+      10
+    ],
+    [
+      "heading to the library at Oak Hill College to begin his research (making his bed)",
+      5
+    ],
+    [
+      "heading to the library at Oak Hill College to begin his research (brushing his teeth)",
+      5
+    ],
+    [
+      "heading to the library at Oak Hill College to begin his research (preparing a quick breakfast)",
+      10
+    ],
+    [
+      "heading to the library at Oak Hill College to begin his research (eating breakfast)",
+      10
+    ],
+    [
+      "heading to the library at Oak Hill College to begin his research (packing his backpack with necessary materials)",
+      10
+    ],
+    [
+      "heading to the library at Oak Hill College to begin his research (checking his schedule for the day)",
+      5
+    ],
+    [
+      "heading to the library at Oak Hill College to begin his research (putting on his shoes)",
+      5
+    ],
+    [
+      "continuing to work on his research paper in the library (continuing to read academic articles related to gentrification)",
+      30
+    ],
+    [
+      "continuing to work on his research paper in the library (on the way to on the way to taking notes on key points from the articles)",
+      0
+    ],
+    [
+      "continuing to work on his research paper in the library (conversing about Klaus Mueller and Wolfgang Schulz discussing their respective academic challenges, including Klaus's research paper on gentrification and Wolfgang's chemistry exam, while sharing study techniques and strategies to stay motivated.)",
+      21
+    ],
+    [
+      "continuing to work on his research paper in the library (conversing about Klaus Mueller and Ayesha Khan discussing their research projects, with Klaus focusing on gentrification and Ayesha on Shakespeare's use of language, and planning to meet to exchange ideas and resources.)",
+      13
+    ],
+    [
+      "continuing to work on his research paper in the library (organizing his notes into themes)",
+      20
+    ],
+    [
+      "continuing to work on his research paper in the library (drafting the introduction of his research paper)",
+      20
+    ],
+    [
+      "continuing to work on his research paper in the library (reviewing his introduction for clarity and coherence)",
+      10
+    ],
+    [
+      "continuing to work on his research paper in the library (saving his work on the library computer)",
+      5
+    ],
+    [
+      "continuing to work on his research paper in the library (packing up his materials and preparing to leave the library)",
+      5
+    ],
+    [
+      "having lunch at Hobbs Cafe",
+      39
+    ],
+    [
+      "continuing to work on his research paper in the library (on the way to on the way to continuing to read relevant literature on gentrification)",
+      0
+    ],
+    [
+      "continuing to work on his research paper in the library (conversing about Carlos Gomez and Klaus Mueller discussing their respective creative projects, with Carlos working on a poetry collection about nature and Klaus focused on a research paper about gentrification, and exploring the idea of collaborating to blend their works together.)",
+      18
+    ],
+    [
+      "continuing to work on his research paper in the library (conversing about Isabella Rodriguez and Klaus Mueller discussing the upcoming Valentine's Day party, including activities, decorations, and brainstorming ideas.)",
+      12
+    ],
+    [
+      "continuing to work on his research paper in the library (taking notes on key points from the literature)",
+      30
+    ],
+    [
+      "continuing to work on his research paper in the library (outlining the structure of his research paper)",
+      30
+    ],
+    [
+      "continuing to work on his research paper in the library (drafting the introduction section of his paper)",
+      30
+    ],
+    [
+      "continuing to work on his research paper in the library (reviewing his notes and outline)",
+      15
+    ],
+    [
+      "continuing to work on his research paper in the library (writing the literature review section)",
+      30
+    ],
+    [
+      "continuing to work on his research paper in the library (making final edits to the literature review)",
+      15
+    ],
+    [
+      "taking a break and unwinding by reading a book or exploring articles related to social justice",
+      42
+    ],
+    [
+      "having dinner at Hobbs Cafe",
+      60
+    ],
+    [
+      "spending time relaxing or socializing with friends",
+      180
+    ],
+    [
+      "continuing to relax or socialize with friends",
+      120
+    ],
+    [
+      "getting ready for bed and reflecting on his day",
+      60
+    ],
+    [
+      "sleeping",
+      17
+    ],
+    [
+      "sleeping",
+      18
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "heading to the library at Oak Hill College to begin his research",
+      60
+    ],
+    [
+      "continuing to work on his research paper in the library",
+      120
+    ],
+    [
+      "having lunch at Hobbs Cafe",
+      60
+    ],
+    [
+      "continuing to work on his research paper in the library",
+      180
+    ],
+    [
+      "taking a break and unwinding by reading a book or exploring articles related to social justice",
+      60
+    ],
+    [
+      "having dinner at Hobbs Cafe",
+      60
+    ],
+    [
+      "spending time relaxing or socializing with friends",
+      180
+    ],
+    [
+      "continuing to relax or socialize with friends",
+      120
+    ],
+    [
+      "getting ready for bed and reflecting on his day",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Oak Hill College:hallway:<random>",
+  "act_start_time": "February 13, 2026, 12:44:00",
+  "act_duration": 18,
+  "act_description": "continuing to work on his research paper in the library (conversing about Carlos Gomez and Klaus Mueller discussing their respective creative projects, with Carlos working on a poetry collection about nature and Klaus focused on a research paper about gentrification, and exploring the idea of collaborating to blend their works together.)",
+  "act_pronunciatio": "\ud83d\udcdd\ud83c\udf31",
+  "act_event": [
+    "Klaus Mueller",
+    "converse",
+    "Carlos Gomez"
+  ],
+  "act_obj_description": "being discussed",
+  "act_obj_pronunciatio": "\ud83d\udcac\ud83d\udc65",
+  "act_obj_event": [
+    "<random>",
+    "be",
+    "discussed"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Ayesha Khan": -202,
+    "Wolfgang Schulz": -40,
+    "Isabella Rodriguez": 596,
+    "Carlos Gomez": 704
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": [
+    [
+      121,
+      31
+    ],
+    [
+      122,
+      31
+    ],
+    [
+      123,
+      31
+    ],
+    [
+      124,
+      31
+    ],
+    [
+      124,
+      32
+    ],
+    [
+      124,
+      33
+    ],
+    [
+      124,
+      34
+    ]
+  ]
+}

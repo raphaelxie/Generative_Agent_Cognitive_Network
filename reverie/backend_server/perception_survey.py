@@ -1,10 +1,15 @@
 """
 Perception survey runner for network cognition research.
 
-Runs three instruments on a live ReverieServer without disturbing agent state:
-  1. Micro-tie survey  (CSN batch: does j know k?)
-  2. Centrality ranking (NCN: rank everyone by connectedness)
-  3. Self-position      (NCN: rate own connectedness 1-5)
+Runs instruments on a live ReverieServer without disturbing agent state:
+  1a. Micro-tie (broad)        (CSN batch: connection or relationship)
+  1b. Micro-tie interaction    (CSN batch: direct interaction only)
+  1c. Micro-tie social         (CSN batch: social relationship or bond)
+  1d. Micro-tie group          (CSN batch: same social group or circle)
+  2.  Centrality ranking       (NCN: rank everyone by connectedness)
+  3.  Bridge ranking           (NCN: rank everyone by bridge role)
+  4.  Self-position            (NCN: rate own connectedness 1-5)
+  5.  Community groups         (NCN: partition roster into social clusters)
 
 Snapshots and restores last_accessed on all memory nodes so retrieval
 side-effects are fully reversed after the survey completes.
@@ -30,7 +35,12 @@ from persona.cognitive_modules.retrieve import (
 )
 from persona.prompt_template.run_gpt_prompt import (
     run_gpt_prompt_csn_connection_batch,
+    run_gpt_prompt_csn_interaction_batch,
+    run_gpt_prompt_csn_social_tie_batch,
+    run_gpt_prompt_csn_group_batch,
+    run_gpt_prompt_ncn_bridge_rank,
     run_gpt_prompt_ncn_centrality_rank,
+    run_gpt_prompt_ncn_community_group,
     run_gpt_prompt_ncn_self_position,
 )
 from ground_truth_log import write_ground_truth_csv
@@ -171,7 +181,7 @@ def run_perception_survey(personas, sim_code, step, curr_time,
                           output_dir, wave_id="",
                           recent_window_minutes=480):
     """
-    Run all three perception instruments on a live ReverieServer.
+    Run all five perception instruments on a live ReverieServer.
 
     Snapshots and restores last_accessed so the survey is non-invasive.
     Writes:
@@ -243,7 +253,94 @@ def run_perception_survey(personas, sim_code, step, curr_time,
                             "is_fail_safe":  is_fs,
                         })
 
-                # ── 2. centrality ranking + 3. self-position ────────────
+                # ── 1b. micro_tie_interaction ────────────────────────────
+                for j in persona_names:
+                    list_k = [k for k in persona_names if k != j]
+                    focal = f"interactions or conversations involving {j}"
+                    statements, diag = _retrieve_with_diagnostics(
+                        persona, focal, query_target_person=j)
+                    _write_diag(diag_file, respondent, diag)
+                    n_retrieval_calls += 1
+
+                    values, meta = run_gpt_prompt_csn_interaction_batch(
+                        persona, statements, j, list_k
+                    )
+                    is_fs = "1" if meta[0] is None else "0"
+                    if len(values) != len(list_k):
+                        values = [None] * len(list_k)
+                        is_fs = "1"
+                    for k, val in zip(list_k, values):
+                        rows.append({
+                            "wave_id":       wave_id,
+                            "step":          step,
+                            "sim_time":      sim_time_str,
+                            "respondent":    respondent,
+                            "question_type": "micro_tie_interaction",
+                            "target_j":      j,
+                            "target":        k,
+                            "value":         "" if val is None else str(val),
+                            "is_fail_safe":  is_fs,
+                        })
+
+                # ── 1c. micro_tie_social ─────────────────────────────────
+                for j in persona_names:
+                    list_k = [k for k in persona_names if k != j]
+                    focal = f"social relationship or personal connection with {j}"
+                    statements, diag = _retrieve_with_diagnostics(
+                        persona, focal, query_target_person=j)
+                    _write_diag(diag_file, respondent, diag)
+                    n_retrieval_calls += 1
+
+                    values, meta = run_gpt_prompt_csn_social_tie_batch(
+                        persona, statements, j, list_k
+                    )
+                    is_fs = "1" if meta[0] is None else "0"
+                    if len(values) != len(list_k):
+                        values = [None] * len(list_k)
+                        is_fs = "1"
+                    for k, val in zip(list_k, values):
+                        rows.append({
+                            "wave_id":       wave_id,
+                            "step":          step,
+                            "sim_time":      sim_time_str,
+                            "respondent":    respondent,
+                            "question_type": "micro_tie_social",
+                            "target_j":      j,
+                            "target":        k,
+                            "value":         "" if val is None else str(val),
+                            "is_fail_safe":  is_fs,
+                        })
+
+                # ── 1d. micro_tie_group ──────────────────────────────────
+                for j in persona_names:
+                    list_k = [k for k in persona_names if k != j]
+                    focal = f"social group or circle involving {j}"
+                    statements, diag = _retrieve_with_diagnostics(
+                        persona, focal, query_target_person=j)
+                    _write_diag(diag_file, respondent, diag)
+                    n_retrieval_calls += 1
+
+                    values, meta = run_gpt_prompt_csn_group_batch(
+                        persona, statements, j, list_k
+                    )
+                    is_fs = "1" if meta[0] is None else "0"
+                    if len(values) != len(list_k):
+                        values = [None] * len(list_k)
+                        is_fs = "1"
+                    for k, val in zip(list_k, values):
+                        rows.append({
+                            "wave_id":       wave_id,
+                            "step":          step,
+                            "sim_time":      sim_time_str,
+                            "respondent":    respondent,
+                            "question_type": "micro_tie_group",
+                            "target_j":      j,
+                            "target":        k,
+                            "value":         "" if val is None else str(val),
+                            "is_fail_safe":  is_fs,
+                        })
+
+                # ── 2. centrality + 3. bridge + 4. self-position ────────
                 focal_social = ("social connections and interactions "
                                 "in the community")
                 social_statements, social_diag = _retrieve_with_diagnostics(
@@ -268,6 +365,23 @@ def run_perception_survey(personas, sim_code, step, curr_time,
                         "is_fail_safe":  rank_fs,
                     })
 
+                bridge_list, bridge_meta = run_gpt_prompt_ncn_bridge_rank(
+                    persona, social_statements, persona_names
+                )
+                bridge_fs = "1" if bridge_meta[0] is None else "0"
+                for rank_pos, target_name in enumerate(bridge_list, start=1):
+                    rows.append({
+                        "wave_id":       wave_id,
+                        "step":          step,
+                        "sim_time":      sim_time_str,
+                        "respondent":    respondent,
+                        "question_type": "bridge_rank",
+                        "target_j":      "",
+                        "target":        target_name,
+                        "value":         str(rank_pos),
+                        "is_fail_safe":  bridge_fs,
+                    })
+
                 pos_val, pos_meta = run_gpt_prompt_ncn_self_position(
                     persona, social_statements, other_names
                 )
@@ -282,6 +396,36 @@ def run_perception_survey(personas, sim_code, step, curr_time,
                     "target":        "",
                     "value":         str(pos_val),
                     "is_fail_safe":  pos_fs,
+                })
+
+                # ── 5. community group perception ────────────────────────
+                groups, cg_meta = run_gpt_prompt_ncn_community_group(
+                    persona, social_statements, persona_names
+                )
+                cg_fs = "1" if cg_meta[0] is None else "0"
+                for group_idx, group_members in enumerate(groups, start=1):
+                    for member_name in group_members:
+                        rows.append({
+                            "wave_id":       wave_id,
+                            "step":          step,
+                            "sim_time":      sim_time_str,
+                            "respondent":    respondent,
+                            "question_type": "community_group",
+                            "target_j":      "",
+                            "target":        member_name,
+                            "value":         str(group_idx),
+                            "is_fail_safe":  cg_fs,
+                        })
+                rows.append({
+                    "wave_id":       wave_id,
+                    "step":          step,
+                    "sim_time":      sim_time_str,
+                    "respondent":    respondent,
+                    "question_type": "community_group_n_groups",
+                    "target_j":      "",
+                    "target":        "",
+                    "value":         str(len(groups)),
+                    "is_fail_safe":  cg_fs,
                 })
 
     finally:
@@ -301,13 +445,22 @@ def run_perception_survey(personas, sim_code, step, curr_time,
                            gt_dir, recent_window_minutes=recent_window_minutes,
                            wave_id=wave_id)
 
-    n_micro = sum(1 for r in rows if r["question_type"] == "micro_tie")
-    n_rank  = sum(1 for r in rows if r["question_type"] == "centrality_rank")
-    n_self  = sum(1 for r in rows if r["question_type"] == "self_position")
-    n_fs    = sum(1 for r in rows if r["is_fail_safe"] == "1")
+    n_micro        = sum(1 for r in rows if r["question_type"] == "micro_tie")
+    n_micro_inter  = sum(1 for r in rows if r["question_type"] == "micro_tie_interaction")
+    n_micro_social = sum(1 for r in rows if r["question_type"] == "micro_tie_social")
+    n_micro_group  = sum(1 for r in rows if r["question_type"] == "micro_tie_group")
+    n_rank   = sum(1 for r in rows if r["question_type"] == "centrality_rank")
+    n_bridge = sum(1 for r in rows if r["question_type"] == "bridge_rank")
+    n_self   = sum(1 for r in rows if r["question_type"] == "self_position")
+    n_cg     = sum(1 for r in rows if r["question_type"] == "community_group")
+    n_cg_n   = sum(1 for r in rows if r["question_type"] == "community_group_n_groups")
+    n_fs     = sum(1 for r in rows if r["is_fail_safe"] == "1")
     print(f"  Survey complete: {len(rows)} rows "
-          f"(micro_tie={n_micro}, centrality_rank={n_rank}, "
-          f"self_position={n_self}, fail_safe={n_fs})")
+          f"(micro_tie={n_micro}, micro_tie_interaction={n_micro_inter}, "
+          f"micro_tie_social={n_micro_social}, micro_tie_group={n_micro_group}, "
+          f"centrality_rank={n_rank}, "
+          f"bridge_rank={n_bridge}, self_position={n_self}, "
+          f"community_group={n_cg}, fail_safe={n_fs})")
     print(f"  Wrote {survey_path}")
     print(f"  Wrote {diag_path} ({n_retrieval_calls} retrieval calls)")
 
@@ -315,18 +468,24 @@ def run_perception_survey(personas, sim_code, step, curr_time,
     meta_path = os.path.join(output_dir, f"perception_survey_{wave_id}_meta.json")
     with open(meta_path, "w", encoding="utf-8") as f:
         json.dump({
-            "wave_id":                   wave_id,
-            "step":                      step,
-            "sim_time":                  sim_time_str,
-            "sim_code":                  sim_code,
-            "n_personas":                n,
-            "persona_names":             persona_names,
-            "n_rows":                    len(rows),
-            "n_micro_tie":               n_micro,
-            "n_centrality_rank":         n_rank,
-            "n_self_position":           n_self,
-            "n_fail_safe":               n_fs,
-            "n_retrieval_calls":         n_retrieval_calls,
+            "wave_id":                    wave_id,
+            "step":                       step,
+            "sim_time":                   sim_time_str,
+            "sim_code":                   sim_code,
+            "n_personas":                 n,
+            "persona_names":              persona_names,
+            "n_rows":                     len(rows),
+            "n_micro_tie":                n_micro,
+            "n_micro_tie_interaction":    n_micro_inter,
+            "n_micro_tie_social":         n_micro_social,
+            "n_micro_tie_group":          n_micro_group,
+            "n_centrality_rank":          n_rank,
+            "n_bridge_rank":              n_bridge,
+            "n_self_position":            n_self,
+            "n_community_group":          n_cg,
+            "n_community_group_n_groups": n_cg_n,
+            "n_fail_safe":                n_fs,
+            "n_retrieval_calls":          n_retrieval_calls,
             "retrieval_diagnostics_path": os.path.basename(diag_path),
         }, f, indent=2)
 

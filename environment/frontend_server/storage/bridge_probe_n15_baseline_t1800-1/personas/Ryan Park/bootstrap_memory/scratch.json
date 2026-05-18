@@ -1,0 +1,251 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2026, 12:59:50",
+  "curr_tile": [
+    66,
+    19
+  ],
+  "daily_plan_req": "",
+  "name": "Ryan Park",
+  "first_name": "Ryan",
+  "last_name": "Park",
+  "age": 29,
+  "innate": "analytical, pragmatic, driven",
+  "learned": "Ryan Park is a software engineer who loves to solve problems. He is constantly looking for ways to improve existing systems.",
+  "currently": "Ryan Park is working on a project to create a new mobile app. He is also reading up on the latest technologies to stay ahead of the curve.",
+  "lifestyle": "Ryan Park goes to bed around 1am, awakes up around 9am, eats dinner around 5pm.",
+  "living_area": "the Ville:Ryan Park's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 192,
+  "importance_ele_n": 30,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "wake up and complete the morning routine at 9:00 am",
+    "work on the mobile app project from 9:30 am to 1:00 pm",
+    "take a lunch break from 1:00 pm to 2:00 pm",
+    "continue working on the mobile app and explore the latest technologies from 2:00 pm to 5:00 pm",
+    "have dinner at 5:00 pm",
+    "spend time relaxing or engaging in a hobby from 5:30 pm to 7:00 pm",
+    "read up on technology trends and new programming languages from 7:00 pm to 9:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine (waking up and turning off his alarm)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (stretching in bed)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (getting out of bed)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (brushing his teeth)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (washing his face)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (taking a shower)",
+      10
+    ],
+    [
+      "waking up and completing his morning routine (drying off and getting dressed)",
+      10
+    ],
+    [
+      "waking up and completing his morning routine (making coffee)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (preparing breakfast)",
+      10
+    ],
+    [
+      "waking up and completing his morning routine (eating breakfast)",
+      15
+    ],
+    [
+      "waking up and completing his morning routine (cleaning up the kitchen after breakfast)",
+      10
+    ],
+    [
+      "waking up and completing his morning routine (checking his phone for messages and notifications)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (reviewing his to-do list for the day)",
+      10
+    ],
+    [
+      "waking up and completing his morning routine (gathering materials for his mobile app project)",
+      10
+    ],
+    [
+      "waking up and completing his morning routine (setting up his workspace)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (on the way to taking a moment to meditate or focus before starting work)",
+      0
+    ],
+    [
+      "waking up and completing his morning routine (conversing about Ryan Park and Carlos Gomez discussing their creative projects, with Carlos sharing insights about his poetry collection focused on nature and emotions, while Ryan talks about developing a productivity app.)",
+      5
+    ],
+    [
+      "working on the mobile app project (1) Ryan is reviewing the project requirements and specifications)",
+      15
+    ],
+    [
+      "working on the mobile app project (researching the latest technologies and frameworks relevant to the app)",
+      20
+    ],
+    [
+      "working on the mobile app project (on the way to UI) design)",
+      0
+    ],
+    [
+      "working on the mobile app project (conversing about Ryan Park and Giorgio Rossi discussing Giorgio's research on the Fibonacci sequence and how its visual patterns can inspire new features for Ryan's mobile app, with plans to meet later that week to collaborate.)",
+      18
+    ],
+    [
+      "working on the mobile app project (on the way to setting up the development environment and tools)",
+      0
+    ],
+    [
+      "working on the mobile app project (conversing about Arthur Burton and Ryan Park discussing innovative ideas for Arthur's cocktail inspired by Hailey's novel characters and Ryan's mobile app project incorporating Fibonacci sequence design elements.)",
+      21
+    ],
+    [
+      "working on the mobile app project (writing the initial code for the app's core functionality)",
+      30
+    ],
+    [
+      "working on the mobile app project (testing the initial code for bugs and issues)",
+      15
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Ryan is sleeping",
+      294
+    ],
+    [
+      "asleep",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Ryan is sleeping",
+      120
+    ],
+    [
+      "relaxing or engaging in a hobby",
+      60
+    ],
+    [
+      "reading up on technology trends and new programming languages",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Ryan is sleeping",
+      60
+    ],
+    [
+      "asleep",
+      60
+    ],
+    [
+      "sleeping",
+      7
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      120
+    ],
+    [
+      "working on the mobile app project",
+      120
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Ryan is sleeping",
+      300
+    ],
+    [
+      "asleep",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Ryan is sleeping",
+      120
+    ],
+    [
+      "relaxing or engaging in a hobby",
+      60
+    ],
+    [
+      "reading up on technology trends and new programming languages",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Ryan is sleeping",
+      60
+    ],
+    [
+      "asleep",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Ryan Park's apartment:main room:bed",
+  "act_start_time": "February 13, 2026, 12:12:00",
+  "act_duration": 294,
+  "act_description": "[Friday February 13 -- 00:00 AM] Activity: Ryan is sleeping",
+  "act_pronunciatio": "\ud83d\ude34\ud83d\udecf\ufe0f",
+  "act_event": [
+    "Ryan Park",
+    "sleep",
+    "activity"
+  ],
+  "act_obj_description": "occupied by Ryan Park, being used for sleeping",
+  "act_obj_pronunciatio": "\ud83d\ude34\ud83d\udecf\ufe0f",
+  "act_obj_event": [
+    "bed",
+    "occupy",
+    "Ryan Park"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Carlos Gomez": -244,
+    "Giorgio Rossi": -34,
+    "Arthur Burton": 116
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

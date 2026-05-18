@@ -1,0 +1,367 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2026, 14:39:50",
+  "curr_tile": [
+    36,
+    30
+  ],
+  "daily_plan_req": "",
+  "name": "Latoya Williams",
+  "first_name": "Latoya",
+  "last_name": "Williams",
+  "age": 25,
+  "innate": "organized, logical, attentive",
+  "learned": "Latoya Williams is a digital photographer who has a keen eye for details. She is very organized and analytical when it comes to her art.",
+  "currently": "Latoya Williams is creating a series of photography inspired by her travels. She mostly works from the artists' co-living space. Latoya is also curious about who will be running for the local mayor election next month and that is a central topic in her conversations with others.",
+  "lifestyle": "Latoya Williams goes to bed around 10pm, awakes up around 6am, eats dinner around 17:30pm.",
+  "living_area": "the Ville:artist's co-living space:Latoya Williams's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 250,
+  "importance_ele_n": 0,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "start working on photography edits and project planning from 8:30 am to 11:30 am",
+    "have a light lunch and review local mayor candidates from 12:00 pm to 1:00 pm",
+    "attend an afternoon photography workshop at the co-living space from 1:30 pm to 3:30 pm",
+    "continue working on her photography series from 4:00 pm to 5:30 pm",
+    "have dinner at 5:30 pm",
+    "engage in discussions about the mayoral election with fellow residents from 6:30 pm to 7:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "working on photography edits and project planning (reviewing the photos she took during her recent travels)",
+      15
+    ],
+    [
+      "working on photography edits and project planning (selecting the best photos for editing)",
+      15
+    ],
+    [
+      "working on photography edits and project planning (on the way to organizing the selected photos into folders based on themes)",
+      0
+    ],
+    [
+      "working on photography edits and project planning (conversing about Rajiv Patel and Latoya Williams discussing their upcoming art projects, promotional strategies, and the possibility of collaborating on a combined event to showcase their work.)",
+      17
+    ],
+    [
+      "working on photography edits and project planning (opening the selected photos in her editing software)",
+      5
+    ],
+    [
+      "working on photography edits and project planning (adjusting the brightness and contrast of the first photo)",
+      10
+    ],
+    [
+      "working on photography edits and project planning (saving the edited photo and preparing to edit the next one)",
+      5
+    ],
+    [
+      "continuing to work on photography edits and project planning (continuing to edit photos from her recent trip)",
+      30
+    ],
+    [
+      "continuing to work on photography edits and project planning (selecting the best photos for her project)",
+      20
+    ],
+    [
+      "continuing to work on photography edits and project planning (organizing the selected photos into folders)",
+      15
+    ],
+    [
+      "continuing to work on photography edits and project planning (writing notes on the themes and concepts for her project)",
+      20
+    ],
+    [
+      "continuing to work on photography edits and project planning (on the way to creating a timeline for her project completion)",
+      0
+    ],
+    [
+      "continuing to work on photography edits and project planning (conversing about Hailey Johnson and Latoya Williams discussing their respective creative projects, brainstorming ways to combine their works for an event focused on community and collaboration, and planning to involve other artists while also strategizing on promotion.)",
+      17
+    ],
+    [
+      "continuing to work on photography edits and project planning (on the way to reviewing her project plan and making adjustments)",
+      11
+    ],
+    [
+      "continuing to work on photography edits and project planning (conversing about Latoya Williams and Abigail Chen discussing their creative projects and planning a collaboration that combines Abigail's animation with Latoya's photography.)",
+      9
+    ],
+    [
+      "reviewing local mayor candidates and having a light lunch (reviewing the list of local mayor candidates)",
+      15
+    ],
+    [
+      "reviewing local mayor candidates and having a light lunch (researching each candidate's background and policies)",
+      20
+    ],
+    [
+      "reviewing local mayor candidates and having a light lunch (taking notes on key points about each candidate)",
+      10
+    ],
+    [
+      "reviewing local mayor candidates and having a light lunch (preparing a light lunch (e.g., salad or sandwich))",
+      10
+    ],
+    [
+      "reviewing local mayor candidates and having a light lunch (eating her light lunch while reviewing her notes)",
+      5
+    ],
+    [
+      "continuing to review local mayor candidates and having a light lunch (continuing to read articles about the local mayor candidates)",
+      15
+    ],
+    [
+      "continuing to review local mayor candidates and having a light lunch (taking notes on key points about each candidate)",
+      15
+    ],
+    [
+      "continuing to review local mayor candidates and having a light lunch (comparing the candidates' platforms and policies)",
+      15
+    ],
+    [
+      "continuing to review local mayor candidates and having a light lunch (summarizing her findings in a document)",
+      10
+    ],
+    [
+      "continuing to review local mayor candidates and having a light lunch (preparing her light lunch)",
+      5
+    ],
+    [
+      "attending an afternoon photography workshop at the co-living space (setting up her camera and equipment)",
+      10
+    ],
+    [
+      "attending an afternoon photography workshop at the co-living space (introducing herself to other participants)",
+      5
+    ],
+    [
+      "attending an afternoon photography workshop at the co-living space (listening to the workshop instructor's introduction)",
+      10
+    ],
+    [
+      "attending an afternoon photography workshop at the co-living space (on the way to taking notes on photography techniques)",
+      0
+    ],
+    [
+      "attending an afternoon photography workshop at the co-living space (conversing about Abigail Chen and Latoya Williams discussing their collaboration on an animation project that blends animation and photography, focusing on interactive storytelling, immersive experiences, and themes of self-discovery and connection.)",
+      20
+    ],
+    [
+      "attending an afternoon photography workshop at the co-living space (participating in a group discussion about photography styles)",
+      10
+    ],
+    [
+      "attending an afternoon photography workshop at the co-living space (practicing a new photography technique demonstrated by the instructor)",
+      15
+    ],
+    [
+      "continuing to work on her photography series (reviewing her previous photographs for inspiration)",
+      15
+    ],
+    [
+      "continuing to work on her photography series (selecting the best images to edit)",
+      20
+    ],
+    [
+      "continuing to work on her photography series (editing the selected photographs using software)",
+      45
+    ],
+    [
+      "continuing to work on her photography series (adjusting the color balance and contrast of the images)",
+      30
+    ],
+    [
+      "continuing to work on her photography series (taking a short break to stretch and refresh)",
+      10
+    ],
+    [
+      "continuing to work on her photography series (writing captions and descriptions for the edited photographs)",
+      20
+    ],
+    [
+      "continuing to work on her photography series (organizing the edited photographs into folders by theme)",
+      25
+    ],
+    [
+      "continuing to work on her photography series (preparing a presentation of her photography series for future sharing)",
+      10
+    ],
+    [
+      "continuing to work on her photography series (saving and backing up her work to an external drive)",
+      5
+    ],
+    [
+      "engaging in discussions about the mayoral election with fellow residents",
+      120
+    ],
+    [
+      "continuing to engage in discussions about the mayoral election with fellow residents",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Latoya is sleeping",
+      180
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "working on photography edits and project planning",
+      60
+    ],
+    [
+      "continuing to work on photography edits and project planning",
+      120
+    ],
+    [
+      "reviewing local mayor candidates and having a light lunch",
+      60
+    ],
+    [
+      "continuing to review local mayor candidates and having a light lunch",
+      60
+    ],
+    [
+      "attending an afternoon photography workshop at the co-living space",
+      60
+    ],
+    [
+      "continuing to work on her photography series",
+      180
+    ],
+    [
+      "engaging in discussions about the mayoral election with fellow residents",
+      120
+    ],
+    [
+      "continuing to engage in discussions about the mayoral election with fellow residents",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Latoya is sleeping",
+      180
+    ]
+  ],
+  "act_address": "<persona> Abigail Chen",
+  "act_start_time": "February 13, 2026, 14:23:10",
+  "act_duration": 20,
+  "act_description": "conversing about Abigail Chen and Latoya Williams discussing their collaboration on an animation project that blends animation and photography, focusing on interactive storytelling, immersive experiences, and themes of self-discovery and connection.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Latoya Williams",
+    "chat with",
+    "Abigail Chen"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Abigail Chen",
+  "chat": [
+    [
+      "Abigail Chen",
+      "Hey Latoya! I just finished some revisions on my animation project. How's the photography workshop going? I'm really excited about our collaboration and would love to hear your thoughts on blending our styles!"
+    ],
+    [
+      "Latoya Williams",
+      "Hey Abigail! The workshop is going really well, I'm learning some new techniques that I think could complement your animation perfectly. I love the idea of blending our styles! Have you thought about how we can incorporate some interactive elements? I think it could really enhance the storytelling."
+    ],
+    [
+      "Abigail Chen",
+      "That's a great point! I was actually thinking we could create some moments in the animation where the audience can make choices that affect the storyline. Maybe we can brainstorm some specific ideas together? I\u2019d love to hear what techniques you learned in the workshop that could tie into that!"
+    ],
+    [
+      "Latoya Williams",
+      "Absolutely! I think incorporating choice-based moments could really engage the audience. One technique I learned today involves using contrasting colors and lighting to guide attention, which could be effective in highlighting those decision points. Let\u2019s brainstorm some scenarios where the audience can choose different paths based on the visuals we create."
+    ],
+    [
+      "Abigail Chen",
+      "That sounds intriguing! I love the idea of using color and lighting to draw attention to those key moments. Let's think about some specific scenarios we could use, maybe something that ties into the themes of our individual styles? I\u2019m sure we can come up with something really unique together!"
+    ],
+    [
+      "Latoya Williams",
+      "I agree! We could explore themes like adventure and exploration, maybe even integrate some of my travel photography as a backdrop for the scenarios. What do you think about having the audience choose between different locations or experiences? It could really enhance the immersive aspect of the animation!"
+    ],
+    [
+      "Abigail Chen",
+      "I love that idea! Using your travel photography as a backdrop would really enhance the immersive experience. We could even have the audience choose between different adventures that relate to the locations. Let\u2019s sketch out some ideas for those scenarios and see how we can blend them with the animation."
+    ],
+    [
+      "Latoya Williams",
+      "Great! Let\u2019s brainstorm some specific locations and experiences that we can feature. I was thinking we could include places like a bustling market or a serene beach, where the audience can choose what they want to explore. I can share some photos from those places to help visualize it. What do you think?"
+    ],
+    [
+      "Abigail Chen",
+      "Those locations sound perfect! A bustling market could provide so many vibrant visuals, and the serene beach would offer a nice contrast. I can't wait to see your photos! Let's also think about how we can guide the audience's choices in those settings. Maybe we can create different paths based on their selections? This is going to be so much fun!"
+    ],
+    [
+      "Latoya Williams",
+      "Absolutely! We could design the animation to have branching paths where the audience can experience different aspects of the market or beach based on their choices. I can also pull together some of my favorite shots from those locations to share in our next meeting. When do you want to schedule another brainstorming session?"
+    ],
+    [
+      "Abigail Chen",
+      "I think we should schedule our next brainstorming session for early next week, maybe Monday or Tuesday? That way we can have some time to gather our thoughts and visuals. I'm excited to see your photos and dive deeper into how we can make the audience's experience really engaging!"
+    ],
+    [
+      "Latoya Williams",
+      "Monday works for me! How about we meet in the common room at 2 PM? That way we can have plenty of time to brainstorm and I'll have my photos ready to share. I'm really looking forward to it!"
+    ],
+    [
+      "Abigail Chen",
+      "Perfect! I\u2019ll see you on Monday at 2 PM in the common room. I\u2019m really looking forward to seeing your photos and brainstorming together! Let\u2019s make this collaboration something special."
+    ],
+    [
+      "Latoya Williams",
+      "Awesome! I\u2019ll start gathering my favorite landscape photos to share with you. Also, I\u2019d love to hear more about what you\u2019ve been working on with your animation. Are there any specific themes or styles you\u2019re focusing on right now?"
+    ],
+    [
+      "Abigail Chen",
+      "I'm currently focusing on themes of self-discovery and connection, trying to incorporate vibrant colors and fluid motion to reflect emotions. I think it could be interesting to tie those themes into our collaboration, maybe showing how different experiences can lead to personal growth. What do you think?"
+    ],
+    [
+      "Latoya Williams",
+      "I love that idea! Integrating themes of self-discovery and connection could really deepen the audience's experience. We can explore how each location can represent a different aspect of that journey. I\u2019m excited to see how we can merge our styles to reflect those emotions visually!"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Rajiv Patel": -1018,
+    "Hailey Johnson": -304,
+    "Abigail Chen": 800
+  },
+  "chatting_end_time": "February 13, 2026, 14:44:00",
+  "act_path_set": true,
+  "planned_path": []
+}

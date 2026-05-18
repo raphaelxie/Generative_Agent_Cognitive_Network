@@ -2749,6 +2749,170 @@ def run_gpt_prompt_csn_connection_batch(persona, statements, person_j, list_pers
   return [None] * expected_len, [None, prompt, gpt_param, prompt_input, fail_safe]
 
 
+def run_gpt_prompt_csn_interaction_batch(persona, statements, person_j, list_person_k, test_input=None, verbose=False):
+  """
+  CSN survey batch: for one person_j, answer whether they directly interacted with each person in list_person_k.
+  Returns a list of 0, 1, or None (same order as list_person_k).
+  """
+  def create_prompt_input(persona, statements, person_j, list_person_k, test_input=None):
+    if test_input:
+      return test_input
+    names_str = ", ".join(list_person_k)
+    return [statements, persona.scratch.name, person_j, names_str]
+
+  def __batch_clean_up(gpt_response, prompt=""):
+    parts = [p.strip().lower() for p in gpt_response.split(",")]
+    result = []
+    for p in parts:
+      if p in ("0", "no") or (p.startswith("0") and not p.startswith("null")):
+        result.append(0)
+      elif p in ("1", "yes") or p.startswith("1"):
+        result.append(1)
+      else:
+        result.append(None)
+    return result
+
+  expected_len = len(list_person_k)
+
+  def __batch_validate(gpt_response, prompt=""):
+    try:
+      parts = [p.strip().lower() for p in gpt_response.split(",")]
+      if len(parts) != expected_len:
+        return False
+      for p in parts:
+        if p not in ("0", "1", "null", "no", "yes", "unsure", "unknown", ""):
+          if not (p.startswith("0") or p.startswith("1")):
+            return False
+      return True
+    except Exception:
+      return False
+
+  gpt_param = {"engine": DEFAULT_CHAT_MODEL, "max_tokens": 120,
+               "temperature": 0, "top_p": 1, "stream": False,
+               "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
+  prompt_template = "persona/prompt_template/v3_ChatGPT/csn_interaction_batch_v1.txt"
+  prompt_input = create_prompt_input(persona, statements, person_j, list_person_k, test_input)
+  prompt = generate_prompt(prompt_input, prompt_template)
+  example_output = "0, 1, null, 0"
+  special_instruction = "The output must be exactly " + str(expected_len) + " values separated by commas. Each value is 0, 1, or null."
+  fail_safe = ",".join(["null"] * expected_len)
+  output = ChatGPT_safe_generate_response(prompt, example_output, special_instruction, 3, fail_safe,
+                                          __batch_validate, __batch_clean_up, True)
+  if output is not False:
+    return output, [output, prompt, gpt_param, prompt_input, fail_safe]
+  return [None] * expected_len, [None, prompt, gpt_param, prompt_input, fail_safe]
+
+
+def run_gpt_prompt_csn_social_tie_batch(persona, statements, person_j, list_person_k, test_input=None, verbose=False):
+  """
+  CSN survey batch: for one person_j, answer whether they have a social relationship or personal connection
+  with each person in list_person_k.
+  Returns a list of 0, 1, or None (same order as list_person_k).
+  """
+  def create_prompt_input(persona, statements, person_j, list_person_k, test_input=None):
+    if test_input:
+      return test_input
+    names_str = ", ".join(list_person_k)
+    return [statements, persona.scratch.name, person_j, names_str]
+
+  def __batch_clean_up(gpt_response, prompt=""):
+    parts = [p.strip().lower() for p in gpt_response.split(",")]
+    result = []
+    for p in parts:
+      if p in ("0", "no") or (p.startswith("0") and not p.startswith("null")):
+        result.append(0)
+      elif p in ("1", "yes") or p.startswith("1"):
+        result.append(1)
+      else:
+        result.append(None)
+    return result
+
+  expected_len = len(list_person_k)
+
+  def __batch_validate(gpt_response, prompt=""):
+    try:
+      parts = [p.strip().lower() for p in gpt_response.split(",")]
+      if len(parts) != expected_len:
+        return False
+      for p in parts:
+        if p not in ("0", "1", "null", "no", "yes", "unsure", "unknown", ""):
+          if not (p.startswith("0") or p.startswith("1")):
+            return False
+      return True
+    except Exception:
+      return False
+
+  gpt_param = {"engine": DEFAULT_CHAT_MODEL, "max_tokens": 120,
+               "temperature": 0, "top_p": 1, "stream": False,
+               "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
+  prompt_template = "persona/prompt_template/v3_ChatGPT/csn_social_tie_batch_v1.txt"
+  prompt_input = create_prompt_input(persona, statements, person_j, list_person_k, test_input)
+  prompt = generate_prompt(prompt_input, prompt_template)
+  example_output = "0, 1, null, 0"
+  special_instruction = "The output must be exactly " + str(expected_len) + " values separated by commas. Each value is 0, 1, or null."
+  fail_safe = ",".join(["null"] * expected_len)
+  output = ChatGPT_safe_generate_response(prompt, example_output, special_instruction, 3, fail_safe,
+                                          __batch_validate, __batch_clean_up, True)
+  if output is not False:
+    return output, [output, prompt, gpt_param, prompt_input, fail_safe]
+  return [None] * expected_len, [None, prompt, gpt_param, prompt_input, fail_safe]
+
+
+def run_gpt_prompt_csn_group_batch(persona, statements, person_j, list_person_k, test_input=None, verbose=False):
+  """
+  CSN survey batch: for one person_j, answer whether they and each person in list_person_k belong
+  to the same social group or circle.
+  Returns a list of 0, 1, or None (same order as list_person_k).
+  """
+  def create_prompt_input(persona, statements, person_j, list_person_k, test_input=None):
+    if test_input:
+      return test_input
+    names_str = ", ".join(list_person_k)
+    return [statements, persona.scratch.name, person_j, names_str]
+
+  def __batch_clean_up(gpt_response, prompt=""):
+    parts = [p.strip().lower() for p in gpt_response.split(",")]
+    result = []
+    for p in parts:
+      if p in ("0", "no") or (p.startswith("0") and not p.startswith("null")):
+        result.append(0)
+      elif p in ("1", "yes") or p.startswith("1"):
+        result.append(1)
+      else:
+        result.append(None)
+    return result
+
+  expected_len = len(list_person_k)
+
+  def __batch_validate(gpt_response, prompt=""):
+    try:
+      parts = [p.strip().lower() for p in gpt_response.split(",")]
+      if len(parts) != expected_len:
+        return False
+      for p in parts:
+        if p not in ("0", "1", "null", "no", "yes", "unsure", "unknown", ""):
+          if not (p.startswith("0") or p.startswith("1")):
+            return False
+      return True
+    except Exception:
+      return False
+
+  gpt_param = {"engine": DEFAULT_CHAT_MODEL, "max_tokens": 120,
+               "temperature": 0, "top_p": 1, "stream": False,
+               "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
+  prompt_template = "persona/prompt_template/v3_ChatGPT/csn_group_batch_v1.txt"
+  prompt_input = create_prompt_input(persona, statements, person_j, list_person_k, test_input)
+  prompt = generate_prompt(prompt_input, prompt_template)
+  example_output = "0, 1, null, 0"
+  special_instruction = "The output must be exactly " + str(expected_len) + " values separated by commas. Each value is 0, 1, or null."
+  fail_safe = ",".join(["null"] * expected_len)
+  output = ChatGPT_safe_generate_response(prompt, example_output, special_instruction, 3, fail_safe,
+                                          __batch_validate, __batch_clean_up, True)
+  if output is not False:
+    return output, [output, prompt, gpt_param, prompt_input, fail_safe]
+  return [None] * expected_len, [None, prompt, gpt_param, prompt_input, fail_safe]
+
+
 def run_gpt_prompt_generate_next_convo_line(persona, interlocutor_desc, prev_convo, retrieved_summary, test_input=None, verbose=False): 
   def create_prompt_input(persona, interlocutor_desc, prev_convo, retrieved_summary, test_input=None): 
     prompt_input = [persona.scratch.name, 
@@ -3175,9 +3339,67 @@ def run_gpt_prompt_ncn_centrality_rank(persona, statements, roster_names,
   prompt_template = "persona/prompt_template/v3_ChatGPT/ncn_centrality_rank_v1.txt"
   prompt_input = create_prompt_input(persona, statements, roster_names, test_input)
   prompt = generate_prompt(prompt_input, prompt_template)
-  example_output = "\\n".join(f"{i+1}. {n}" for i, n in enumerate(roster_names))
+  example_output = "\n".join(f"{i+1}. {n}" for i, n in enumerate(roster_names))
   special_instruction = ("The output must be exactly " + str(expected_n)
                          + " names as a numbered list, one per line, from most to least connected.")
+  fail_safe = list(roster_names)
+  output = ChatGPT_safe_generate_response(prompt, example_output, special_instruction,
+                                          3, fail_safe, __func_validate, __func_clean_up, True)
+  if output is not False:
+    return output, [output, prompt, gpt_param, prompt_input, fail_safe]
+  return fail_safe, [None, prompt, gpt_param, prompt_input, fail_safe]
+
+
+def run_gpt_prompt_ncn_bridge_rank(persona, statements, roster_names,
+                                   test_input=None, verbose=False):
+  """
+  NCN survey: rank the full roster (including respondent) from strongest to
+  weakest perceived bridge between otherwise separate people or groups.
+  Returns a list of names in rank order (strongest bridge first).
+  """
+  expected_n = len(roster_names)
+  roster_set_lower = {n.lower(): n for n in roster_names}
+
+  def create_prompt_input(persona, statements, roster_names, test_input=None):
+    if test_input:
+      return test_input
+    numbered = "\n".join(f"{i+1}. {n}" for i, n in enumerate(roster_names))
+    return [statements, persona.scratch.name, numbered, str(len(roster_names))]
+
+  def __func_clean_up(gpt_response, prompt=""):
+    lines = [l.strip() for l in gpt_response.strip().split("\n") if l.strip()]
+    names = []
+    for line in lines:
+      cleaned = re.sub(r"^\d+[\.\)\-:]\s*", "", line).strip()
+      if cleaned:
+        names.append(cleaned)
+    resolved = []
+    for name in names:
+      match = roster_set_lower.get(name.lower())
+      if match:
+        resolved.append(match)
+    return resolved
+
+  def __func_validate(gpt_response, prompt=""):
+    try:
+      parsed = __func_clean_up(gpt_response, prompt)
+      if len(parsed) != expected_n:
+        return False
+      if len(set(n.lower() for n in parsed)) != expected_n:
+        return False
+      return True
+    except Exception:
+      return False
+
+  gpt_param = {"engine": DEFAULT_CHAT_MODEL, "max_tokens": 300,
+               "temperature": 0, "top_p": 1, "stream": False,
+               "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
+  prompt_template = "persona/prompt_template/v3_ChatGPT/ncn_bridge_rank_v1.txt"
+  prompt_input = create_prompt_input(persona, statements, roster_names, test_input)
+  prompt = generate_prompt(prompt_input, prompt_template)
+  example_output = "\n".join(f"{i+1}. {n}" for i, n in enumerate(roster_names))
+  special_instruction = ("The output must be exactly " + str(expected_n)
+                         + " names as a numbered list, one per line, from strongest to weakest bridge.")
   fail_safe = list(roster_names)
   output = ChatGPT_safe_generate_response(prompt, example_output, special_instruction,
                                           3, fail_safe, __func_validate, __func_clean_up, True)
@@ -3221,6 +3443,83 @@ def run_gpt_prompt_ncn_self_position(persona, statements, other_names,
   example_output = "3"
   special_instruction = "The output must be a single integer from 1 to 5."
   fail_safe = 3
+  output = ChatGPT_safe_generate_response(prompt, example_output, special_instruction,
+                                          3, fail_safe, __func_validate, __func_clean_up, True)
+  if output is not False:
+    return output, [output, prompt, gpt_param, prompt_input, fail_safe]
+  return fail_safe, [None, prompt, gpt_param, prompt_input, fail_safe]
+
+
+def run_gpt_prompt_ncn_community_group(persona, statements, roster_names,
+                                       test_input=None, verbose=False):
+  """
+  NCN survey: partition the full roster into social groups/clusters based on
+  the respondent's memories. The agent decides how many groups there are.
+  Returns a list of lists: each inner list is a group of names (canonical
+  spelling from roster_names).
+  """
+  expected_n = len(roster_names)
+  roster_set_lower = {n.lower(): n for n in roster_names}
+
+  def create_prompt_input(persona, statements, roster_names, test_input=None):
+    if test_input:
+      return test_input
+    numbered = "\n".join(f"{i+1}. {n}" for i, n in enumerate(roster_names))
+    return [statements, persona.scratch.name, numbered, str(len(roster_names))]
+
+  def __func_clean_up(gpt_response, prompt=""):
+    groups = []
+    for line in gpt_response.strip().split("\n"):
+      line = line.strip()
+      if not line:
+        continue
+      m = re.match(r"^\d+\s*[:.\-\)]\s*(.+)", line)
+      if not m:
+        continue
+      raw_names = m.group(1).split(",")
+      resolved = []
+      for raw in raw_names:
+        raw = raw.strip()
+        if not raw:
+          continue
+        canonical = roster_set_lower.get(raw.lower())
+        if canonical:
+          resolved.append(canonical)
+      if resolved:
+        groups.append(resolved)
+    return groups
+
+  def __func_validate(gpt_response, prompt=""):
+    try:
+      parsed = __func_clean_up(gpt_response, prompt)
+      if not parsed:
+        return False
+      flat = [name for group in parsed for name in group]
+      if len(flat) != expected_n:
+        return False
+      if len(set(n.lower() for n in flat)) != expected_n:
+        return False
+      return True
+    except Exception:
+      return False
+
+  gpt_param = {"engine": DEFAULT_CHAT_MODEL, "max_tokens": 400,
+               "temperature": 0, "top_p": 1, "stream": False,
+               "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
+  prompt_template = "persona/prompt_template/v3_ChatGPT/ncn_community_group_v1.txt"
+  prompt_input = create_prompt_input(persona, statements, roster_names, test_input)
+  prompt = generate_prompt(prompt_input, prompt_template)
+  mid = expected_n // 2
+  group_a = roster_names[:mid]
+  group_b = roster_names[mid:]
+  example_output = (f"1: {', '.join(group_a)}\n2: {', '.join(group_b)}"
+                    if group_b else f"1: {', '.join(group_a)}")
+  special_instruction = (
+    "Output one or more groups as a numbered list. Each line: group number, "
+    "colon, then full names separated by commas. Every person must appear in "
+    "exactly one group. No commentary."
+  )
+  fail_safe = [list(roster_names)]
   output = ChatGPT_safe_generate_response(prompt, example_output, special_instruction,
                                           3, fail_safe, __func_validate, __func_clean_up, True)
   if output is not False:

@@ -1,0 +1,345 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2026, 12:59:50",
+  "curr_tile": [
+    73,
+    31
+  ],
+  "daily_plan_req": "Wolfgang Schulz goes for a run at the part in the morning, studies during the day, and exercises at his room at night ",
+  "name": "Wolfgang Schulz",
+  "first_name": "Wolfgang",
+  "last_name": "Schulz",
+  "age": 21,
+  "innate": "Hardworking, passionate, dedicated",
+  "learned": "Wolfgang Schulz is a student at Oak Hill College studying chemistry and a student athlete. He is very dedicated to both his academics and his sport.",
+  "currently": "Wolfgang Schulz is training for his next competition and studying for his exams. He is also looking for ways to make his studies more efficient.",
+  "lifestyle": "Wolfgang Schulz goes to bed around 9pm, awakes up around 5am, eats dinner around 6pm.",
+  "living_area": "the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 123,
+  "importance_ele_n": 43,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "go for a run at the park from 5:30 am to 6:15 am",
+    "take a quick shower and eat breakfast from 6:15 am to 6:45 am",
+    "study for chemistry exams from 7:00 am to 10:00 am",
+    "attend classes from 10:30 am to 1:00 pm",
+    "have lunch with friends from 1:00 pm to 1:30 pm",
+    "continue studying from 1:30 pm to 3:30 pm, focusing on problem sets and practice exams",
+    "take a break to relax and recharge from 3:30 pm to 4:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "studying for chemistry exams (1) Wolfgang is gathering his study materials (textbooks, notes, and stationery))",
+      5
+    ],
+    [
+      "studying for chemistry exams (on the way to reviewing the syllabus to identify key topics for the exam)",
+      0
+    ],
+    [
+      "studying for chemistry exams (conversing about Ayesha Khan and Wolfgang Schulz discussing their academic preparations, with Ayesha working on her senior thesis about Shakespeare's language and Wolfgang studying for chemistry exams, while sharing study tips and offering support to each other.)",
+      11
+    ],
+    [
+      "studying for chemistry exams (reading through his chemistry textbook on the first key topic)",
+      15
+    ],
+    [
+      "studying for chemistry exams (taking notes on important concepts from the textbook)",
+      10
+    ],
+    [
+      "studying for chemistry exams (solving practice problems related to the first key topic)",
+      10
+    ],
+    [
+      "studying for chemistry exams (reviewing his notes and practice problems to reinforce learning)",
+      5
+    ],
+    [
+      "studying for chemistry exams (on the way to preparing a summary sheet of key formulas and concepts)",
+      0
+    ],
+    [
+      "studying for chemistry exams (conversing about Wolfgang Schulz and Mei Lin discussing study strategies and resources for Wolfgang's upcoming chemistry exam, including tips for staying focused and motivated.)",
+      15
+    ],
+    [
+      "attending classes (attending his chemistry lecture)",
+      30
+    ],
+    [
+      "attending classes (on the way to taking notes during the lecture)",
+      0
+    ],
+    [
+      "attending classes (conversing about Klaus Mueller and Wolfgang Schulz discussing their respective academic challenges, including Klaus's research paper on gentrification and Wolfgang's chemistry exam, while sharing study techniques and strategies to stay motivated.)",
+      21
+    ],
+    [
+      "attending classes (participating in class discussions)",
+      15
+    ],
+    [
+      "attending classes (reviewing the lecture material)",
+      15
+    ],
+    [
+      "attending classes (asking questions to clarify concepts)",
+      10
+    ],
+    [
+      "attending classes (preparing for the next class)",
+      9
+    ],
+    [
+      "having lunch with friends (on the way to having lunch with friends)",
+      0
+    ],
+    [
+      "having lunch with friends (conversing about Ayesha Khan and Wolfgang Schulz discussing their studies, focusing on Shakespeare's ethical dilemmas in 'Hamlet' and 'Macbeth,' while also sharing study strategies and planning a meeting to brainstorm ideas for Ayesha's thesis.)",
+      10
+    ],
+    [
+      "having lunch with friends (discussing their classes and upcoming exams)",
+      10
+    ],
+    [
+      "having lunch with friends (sharing tips on study techniques)",
+      10
+    ],
+    [
+      "having lunch with friends (enjoying a light-hearted conversation about sports)",
+      10
+    ],
+    [
+      "having lunch with friends (ordering dessert for the table)",
+      5
+    ],
+    [
+      "having lunch with friends (taking a group photo with friends)",
+      5
+    ],
+    [
+      "having lunch with friends (finishing his meal and chatting)",
+      10
+    ],
+    [
+      "continuing to study for chemistry exams, focusing on problem sets and practice exams (on the way to reviewing his class notes)",
+      0
+    ],
+    [
+      "continuing to study for chemistry exams, focusing on problem sets and practice exams (conversing about Carlos Gomez and Wolfgang Schulz discussing their respective projects, with Carlos sharing updates on his poetry collection and collaboration with Klaus, while Wolfgang talks about balancing his studies and training for competitions, ultimately planning to brainstorm ideas together.)",
+      18
+    ],
+    [
+      "continuing to study for chemistry exams, focusing on problem sets and practice exams (identifying key topics for the problem sets)",
+      10
+    ],
+    [
+      "continuing to study for chemistry exams, focusing on problem sets and practice exams (selecting practice exams to work on)",
+      10
+    ],
+    [
+      "continuing to study for chemistry exams, focusing on problem sets and practice exams (solving the first problem set)",
+      20
+    ],
+    [
+      "continuing to study for chemistry exams, focusing on problem sets and practice exams (checking his answers for the first problem set)",
+      10
+    ],
+    [
+      "continuing to study for chemistry exams, focusing on problem sets and practice exams (solving the second problem set)",
+      20
+    ],
+    [
+      "continuing to study for chemistry exams, focusing on problem sets and practice exams (checking his answers for the second problem set)",
+      10
+    ],
+    [
+      "continuing to study for chemistry exams, focusing on problem sets and practice exams (reviewing the practice exam questions)",
+      15
+    ],
+    [
+      "continuing to study for chemistry exams, focusing on problem sets and practice exams (solving a few selected practice exam questions)",
+      10
+    ],
+    [
+      "taking a break to relax and recharge",
+      57
+    ],
+    [
+      "continuing to study for chemistry exams, focusing on problem sets and practice exams",
+      240
+    ],
+    [
+      "exercising in his room with a workout routine",
+      180
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Wolfgang is sleeping",
+      60
+    ],
+    [
+      "sleeping",
+      9
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "studying for chemistry exams",
+      60
+    ],
+    [
+      "attending classes",
+      120
+    ],
+    [
+      "having lunch with friends",
+      60
+    ],
+    [
+      "continuing to study for chemistry exams, focusing on problem sets and practice exams",
+      120
+    ],
+    [
+      "taking a break to relax and recharge",
+      60
+    ],
+    [
+      "continuing to study for chemistry exams, focusing on problem sets and practice exams",
+      240
+    ],
+    [
+      "exercising in his room with a workout routine",
+      180
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Wolfgang is sleeping",
+      60
+    ]
+  ],
+  "act_address": "<persona> Carlos Gomez",
+  "act_start_time": "February 13, 2026, 12:44:50",
+  "act_duration": 18,
+  "act_description": "conversing about Carlos Gomez and Wolfgang Schulz discussing their respective projects, with Carlos sharing updates on his poetry collection and collaboration with Klaus, while Wolfgang talks about balancing his studies and training for competitions, ultimately planning to brainstorm ideas together.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Wolfgang Schulz",
+    "chat with",
+    "Carlos Gomez"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Carlos Gomez",
+  "chat": [
+    [
+      "Carlos Gomez",
+      "Hey Wolfgang! I noticed you were having lunch with some friends. How's everything going with your current projects? Any exciting updates?"
+    ],
+    [
+      "Wolfgang Schulz",
+      "Hey Carlos! Things are going pretty well. I've been focused on studying for my chemistry exam and training for my next competition. How's your poetry collection coming along? I heard you were thinking about collaborating with Klaus."
+    ],
+    [
+      "Carlos Gomez",
+      "It's going well! I've been exploring themes in nature and I'm really excited about the potential collaboration with Klaus. We're looking at how gentrification impacts local neighborhoods, which could add an interesting layer to my poetry. How do you balance your studies and training? Any tips for staying focused?"
+    ],
+    [
+      "Wolfgang Schulz",
+      "It sounds like a fascinating project! Balancing studies and training can be challenging, but I try to stick to a strict schedule. I usually start my day with a run, then dedicate specific blocks of time for studying and training. I also find it helpful to set small goals for each session. What themes are you focusing on in your poetry?"
+    ],
+    [
+      "Carlos Gomez",
+      "I'm focusing on the beauty of the natural world, like the changing seasons and the emotions they evoke. I want to capture the connection we have with nature and how it reflects our inner feelings. It's a bit of a departure from my usual style, but I'm enjoying the challenge. Do you find inspiration for your competitions in your studies or is it more about the training itself?"
+    ],
+    [
+      "Wolfgang Schulz",
+      "I find that my studies do inspire my training in a way. The discipline I develop while studying helps me stay focused during my workouts, and sometimes the problem-solving skills I use in chemistry translate to the strategies I employ in competitions. It's all about finding that balance, right? By the way, have you thought about how you'll incorporate your collaboration with Klaus into your poetry collection?"
+    ],
+    [
+      "Carlos Gomez",
+      "Absolutely! I'm thinking of weaving in some narrative elements that highlight specific neighborhoods affected by gentrification. It could be a powerful way to show how nature and community intersect. I'd love to hear your thoughts on that\u2014maybe there's a way to connect it to your studies in chemistry and the competition mindset."
+    ],
+    [
+      "Wolfgang Schulz",
+      "That sounds like a powerful approach, Carlos! I think incorporating personal narratives can really resonate with readers. Maybe you could explore how the natural environment affects the community's identity, just like how our training shapes our competitive mindset. I'd love to brainstorm some ideas with you if you're interested!"
+    ],
+    [
+      "Carlos Gomez",
+      "I would really appreciate that, Wolfgang! Your perspective on how the environment shapes identity is intriguing, and it could add depth to my poetry. Let's set a time to brainstorm together. When are you free?"
+    ],
+    [
+      "Wolfgang Schulz",
+      "I'm usually free in the evenings after my training, around 7 PM. Does that work for you? We can meet up and throw around some ideas!"
+    ],
+    [
+      "Carlos Gomez",
+      "7 PM works for me! Let's meet at that cafe we like. I'm looking forward to bouncing around ideas with you!"
+    ],
+    [
+      "Wolfgang Schulz",
+      "Great! I'll see you at the cafe then. I'm excited to see how we can connect those themes! Let me know if you have any specific ideas in mind before we meet."
+    ],
+    [
+      "Carlos Gomez",
+      "Absolutely! I'll think of some specific ideas to share before our meeting. I'm really looking forward to exploring how we can blend our perspectives. See you at 7 PM!"
+    ],
+    [
+      "Wolfgang Schulz",
+      "Sounds good, Carlos! I'm looking forward to it. I'll also jot down some ideas from my studies that might tie in with your themes. See you later!"
+    ],
+    [
+      "Carlos Gomez",
+      "Great! I'll also review some of my poetry drafts to see how I can incorporate our discussion. It's going to be an enriching collaboration. By the way, do you have any favorite poems or poets that inspire you? I'd love to hear who influences your approach to your own work."
+    ],
+    [
+      "Wolfgang Schulz",
+      "That's a great question, Carlos! I really admire the works of poets like Mary Oliver and Pablo Neruda. Their ability to capture the essence of nature and human emotion really resonates with me. I often find inspiration in their imagery and themes. How about you? Are there any poets that particularly influence your writing?"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Ayesha Khan": 464,
+    "Mei Lin": -232,
+    "Klaus Mueller": -40,
+    "Carlos Gomez": 800
+  },
+  "chatting_end_time": "February 13, 2026, 13:03:00",
+  "act_path_set": true,
+  "planned_path": []
+}

@@ -1,0 +1,247 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2026, 14:39:50",
+  "curr_tile": [
+    87,
+    21
+  ],
+  "daily_plan_req": "",
+  "name": "Giorgio Rossi",
+  "first_name": "Giorgio",
+  "last_name": "Rossi",
+  "age": 41,
+  "innate": "analytical, logical, eccentric",
+  "learned": "Giorgio Rossi is a mathematician who loves to solve challenging problems. He is always looking for ways to apply his analytical skills.",
+  "currently": "Giorgio Rossi is working on a research project to explore mathematical patterns in nature. He is also taking classes to stay up to date on new mathematical theories. Giorgio is also curious about who will be running for the local mayor election next month and he talks about it a lot with others.",
+  "lifestyle": "Giorgio Rossi goes to bed around midnight, awakes up around 7am, eats dinner around 4pm.",
+  "living_area": "the Ville:Giorgio Rossi's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 55,
+  "importance_ele_n": 94,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "have breakfast at 8:30 am",
+    "work on his research project from 9:00 am to 12:00 pm",
+    "take a break and go for a walk in nature from 12:00 pm to 1:00 pm",
+    "have lunch at 1:30 pm",
+    "attend an online mathematics lecture from 2:00 pm to 4:00 pm",
+    "eat dinner at 4:00 pm",
+    "spend some time discussing the local mayor election with friends from 5:00 pm to 6:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "working on his research project (analyzing previous research papers related to mathematical patterns in nature)",
+      30
+    ],
+    [
+      "working on his research project (on the way to identifying key mathematical concepts to explore further)",
+      0
+    ],
+    [
+      "working on his research project (conversing about Isabella Rodriguez and Giorgio Rossi discussing plans for a Valentine's Day party at Isabella's cafe, including setting up activities, bringing desserts, and collaborating on ideas to make the event special.)",
+      14
+    ],
+    [
+      "working on his research project (formulating hypotheses based on his analysis)",
+      30
+    ],
+    [
+      "working on his research project (gathering data from various sources to support his hypotheses)",
+      30
+    ],
+    [
+      "working on his research project (on the way to taking a short break to refresh his mind)",
+      0
+    ],
+    [
+      "working on his research project (conversing about Ryan Park and Giorgio Rossi discussing Giorgio's research on the Fibonacci sequence and how its visual patterns can inspire new features for Ryan's mobile app, with plans to meet later that week to collaborate.)",
+      18
+    ],
+    [
+      "working on his research project (organizing the data he has collected)",
+      30
+    ],
+    [
+      "working on his research project (drafting the outline for his research paper)",
+      20
+    ],
+    [
+      "taking a break and going for a walk in nature",
+      52
+    ],
+    [
+      "having lunch (on the way to preparing his lunch)",
+      0
+    ],
+    [
+      "having lunch (conversing about Giorgio Rossi and Carlos Gomez discussing their creative projects, with Carlos sharing insights from his poetry workshop focused on nature, while Giorgio talks about his research on the Fibonacci sequence and its application in an app, leading to plans for collaboration.)",
+      15
+    ],
+    [
+      "having lunch (setting the table)",
+      5
+    ],
+    [
+      "having lunch (enjoying his meal)",
+      20
+    ],
+    [
+      "having lunch (on the way to cleaning up after lunch)",
+      0
+    ],
+    [
+      "having lunch (conversing about Isabella Rodriguez and Giorgio Rossi discussing plans and ideas for a Valentine's Day party, focusing on trivia activities, themes, and prizes to engage participants.)",
+      17
+    ],
+    [
+      "having lunch (putting away leftovers)",
+      5
+    ],
+    [
+      "having lunch (washing the dishes)",
+      5
+    ],
+    [
+      "attending an online mathematics lecture (logging into the online lecture platform)",
+      5
+    ],
+    [
+      "attending an online mathematics lecture (checking his audio and video settings)",
+      5
+    ],
+    [
+      "attending an online mathematics lecture (reviewing the lecture agenda and materials provided)",
+      10
+    ],
+    [
+      "attending an online mathematics lecture (taking notes on key concepts being discussed)",
+      15
+    ],
+    [
+      "attending an online mathematics lecture (participating in a live Q&A session with the lecturer)",
+      10
+    ],
+    [
+      "attending an online mathematics lecture (engaging in a discussion with other attendees in the chat)",
+      5
+    ],
+    [
+      "attending an online mathematics lecture (summarizing the main points of the lecture in his notes)",
+      5
+    ],
+    [
+      "attending an online mathematics lecture (logging out of the online lecture platform)",
+      5
+    ],
+    [
+      "discussing the local mayor election with friends",
+      53
+    ],
+    [
+      "eating dinner",
+      60
+    ],
+    [
+      "discussing the local mayor election with friends",
+      180
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Giorgio is sleeping",
+      240
+    ],
+    [
+      "sleeping",
+      16
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "working on his research project",
+      180
+    ],
+    [
+      "taking a break and going for a walk in nature",
+      60
+    ],
+    [
+      "having lunch",
+      60
+    ],
+    [
+      "attending an online mathematics lecture",
+      60
+    ],
+    [
+      "discussing the local mayor election with friends",
+      60
+    ],
+    [
+      "eating dinner",
+      60
+    ],
+    [
+      "discussing the local mayor election with friends",
+      180
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Giorgio is sleeping",
+      240
+    ]
+  ],
+  "act_address": "the Ville:Giorgio Rossi's apartment:main room:desk",
+  "act_start_time": "February 13, 2026, 14:39:00",
+  "act_duration": 5,
+  "act_description": "attending an online mathematics lecture (engaging in a discussion with other attendees in the chat)",
+  "act_pronunciatio": "\ud83d\udcac\ud83d\udc65",
+  "act_event": [
+    "Giorgio Rossi",
+    "engage",
+    "discussion"
+  ],
+  "act_obj_description": "cluttered with books, notebooks, and a laptop",
+  "act_obj_pronunciatio": "\ud83d\udcda\ud83d\udcbb",
+  "act_obj_event": [
+    "desk",
+    "desk",
+    "is"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Isabella Rodriguez": 422,
+    "Ryan Park": -634,
+    "Carlos Gomez": -58
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

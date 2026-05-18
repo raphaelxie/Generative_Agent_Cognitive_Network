@@ -1,0 +1,43 @@
+# Academic publication style for network cognition figures
+# Targets: single-column (3.5 in) and double-column (7 in) layouts
+# Serif/sans-serif neutral; grayscale-safe color cycle via code
+
+font.family:            sans-serif
+font.size:              9
+
+axes.labelsize:         10
+xtick.labelsize:        8
+ytick.labelsize:        8
+axes.titlesize:         11
+axes.titlepad:          5
+
+axes.spines.top:        False
+axes.spines.right:      False
+axes.grid:              False
+axes.linewidth:         0.8
+
+xtick.major.width:      0.8
+ytick.major.width:      0.8
+xtick.major.size:       3.5
+ytick.major.size:       3.5
+xtick.direction:        out
+ytick.direction:        out
+
+lines.linewidth:        1.5
+lines.markersize:       4
+patch.linewidth:        0.5
+
+legend.frameon:         False
+legend.fontsize:        8
+legend.borderpad:       0.4
+legend.handlelength:    1.5
+legend.handletextpad:   0.4
+legend.labelspacing:    0.3
+
+figure.dpi:             150
+savefig.dpi:            300
+savefig.bbox:           tight
+savefig.pad_inches:     0.05
+
+axes.xmargin:           0.05
+axes.ymargin:           0.05

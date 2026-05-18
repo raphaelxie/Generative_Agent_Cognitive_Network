@@ -1,0 +1,19 @@
+csn_group_batch_v1.txt
+
+Variables: 
+!<INPUT 0>! -- Statements (relevant memory)
+!<INPUT 1>! -- respondent agent name
+!<INPUT 2>! -- person_j (alter)
+!<INPUT 3>! -- comma-separated list of person_k names in order
+
+<commentblockmarker>###</commentblockmarker>
+Statements (your knowledge):
+!<INPUT 0>!
+
+You are !<INPUT 1>!. For each person in the list below, answer whether !<INPUT 2>! and that person belong to the same social group or circle (e.g. they are part of the same friend group, share the same social circle, or regularly spend time with the same people).
+
+List of people (in order): !<INPUT 3>!
+
+Give your answers as a single line: exactly one value per person, in the same order as the list, separated by commas. Each value must be: 0 (not in the same group), 1 (yes, same group or circle), or null (unsure).
+
+Your answer (comma-separated, same order as list):

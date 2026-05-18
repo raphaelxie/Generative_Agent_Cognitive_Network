@@ -1,0 +1,20 @@
+ncn_community_group_v1.txt
+
+Variables:
+!<INPUT 0>! -- Statements (relevant memory)
+!<INPUT 1>! -- respondent agent name
+!<INPUT 2>! -- numbered roster (e.g. "1. Alice\n2. Bob\n3. Carol")
+!<INPUT 3>! -- count of people in roster
+
+<commentblockmarker>###</commentblockmarker>
+Statements (your knowledge):
+!<INPUT 0>!
+
+You are !<INPUT 1>!. Based on everything you know, divide the following !<INPUT 3>! people into groups of people who tend to interact with each other, form a social circle, or belong together socially. You decide how many groups there are.
+
+People:
+!<INPUT 2>!
+
+Output the groups as a numbered list. Each group line should start with the group number followed by a colon, then the full names separated by commas. Every person must appear in exactly one group. Do not add commentary.
+
+Groups:

@@ -1,0 +1,22 @@
+ncn_bridge_rank_v1.txt
+
+Variables:
+!<INPUT 0>! -- Statements (relevant memory)
+!<INPUT 1>! -- respondent agent name
+!<INPUT 2>! -- numbered roster including respondent (e.g. "1. Alice\n2. Bob\n3. Carol")
+!<INPUT 3>! -- count of people in roster
+
+<commentblockmarker>###</commentblockmarker>
+Statements (your knowledge):
+!<INPUT 0>!
+
+You are !<INPUT 1>!. Based on everything you know, rank the following !<INPUT 3>! people from MOST likely to connect otherwise separate people or groups to LEAST likely to do so.
+
+A person is a bridge if they help link different parts of the community: for example, they talk with people who do not otherwise talk much, connect different friend groups, or pass information between separate social circles. This is different from simply knowing many people.
+
+People to rank:
+!<INPUT 2>!
+
+Output exactly !<INPUT 3>! names as a numbered list, from strongest bridge to weakest bridge. Use the exact full names provided. Do not add commentary.
+
+Your ranking:

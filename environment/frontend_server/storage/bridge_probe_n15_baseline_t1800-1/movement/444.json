@@ -1,0 +1,524 @@
+{
+  "persona": {
+    "Latoya Williams": {
+      "movement": [
+        16,
+        20
+      ],
+      "pronunciatio": "\ud83d\udcf8\u2708\ufe0f",
+      "description": "working on photography edits and project planning (reviewing the photos she took during her recent travels) @ the Ville:artist's co-living space:Latoya Williams's room:desk",
+      "chat": null
+    },
+    "Rajiv Patel": {
+      "movement": [
+        29,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Rajiv Patel and Hailey Johnson discussing their breakfast preferences, cooking experiences, and their creative projects, including Hailey's novel about artists and Rajiv's upcoming solo art show. @ <persona> Hailey Johnson",
+      "chat": [
+        [
+          "Rajiv Patel",
+          "Good morning, Hailey! How's your breakfast coming along? I hope you\u2019re enjoying it as much as I am with my coffee."
+        ],
+        [
+          "Hailey Johnson",
+          "Good morning, Rajiv! It\u2019s coming along nicely, thanks! I\u2019m trying out a new recipe today. How's your coffee? It looks like the perfect way to start the day."
+        ],
+        [
+          "Rajiv Patel",
+          "It really is! I love the aroma. What recipe are you trying out? I'm always looking for new breakfast ideas."
+        ],
+        [
+          "Hailey Johnson",
+          "I'm making a savory oatmeal with spinach and poached eggs. It's a bit different, but I think it could be really tasty! Do you have any favorite breakfast recipes you could share?"
+        ],
+        [
+          "Rajiv Patel",
+          "That sounds delicious! I usually make a simple avocado toast with a sprinkle of salt and pepper, maybe topped with a poached egg as well. It\u2019s quick and satisfying. Have you been cooking a lot lately?"
+        ],
+        [
+          "Hailey Johnson",
+          "Yes, I have! I've been experimenting with different recipes since I have some more time lately. Cooking has been a fun way to unwind. Do you enjoy cooking often?"
+        ],
+        [
+          "Rajiv Patel",
+          "I do enjoy cooking sometimes, especially when I have a bit more time. It\u2019s nice to experiment with flavors. What\u2019s been your favorite recipe so far?"
+        ],
+        [
+          "Hailey Johnson",
+          "I recently tried a Thai green curry that turned out really well! The flavors were amazing. I love how cooking can transport you to different places. Do you have a favorite cuisine that you like to cook?"
+        ],
+        [
+          "Rajiv Patel",
+          "That Thai green curry sounds incredible! I really enjoy cooking Italian food, especially pasta dishes. There's something comforting about making a good marinara sauce from scratch. Do you have any other cuisines you're interested in trying?"
+        ],
+        [
+          "Hailey Johnson",
+          "I'm really interested in trying out some Mediterranean recipes next! I love the freshness of those flavors. Have you ever cooked any Mediterranean dishes?"
+        ],
+        [
+          "Rajiv Patel",
+          "I have! I\u2019ve made some Greek salads and a simple tzatziki sauce. They\u2019re refreshing and perfect for warm days. I\u2019d love to hear about any Mediterranean dishes you end up trying. What\u2019s the first one you\u2019re thinking of making?"
+        ],
+        [
+          "Hailey Johnson",
+          "I'm thinking about starting with a classic hummus! It's such a versatile dish and can be paired with so many things. I\u2019ll definitely keep you updated on my culinary adventures! Do you have any tips for making the perfect hummus?"
+        ],
+        [
+          "Rajiv Patel",
+          "Absolutely! For the perfect hummus, I recommend using good quality tahini and adding a splash of lemon juice for brightness. Also, blending it until it's super smooth makes a big difference. Let me know how it turns out! Do you have any plans for the rest of the day after breakfast?"
+        ],
+        [
+          "Hailey Johnson",
+          "Thanks for the tips, Rajiv! I\u2019ll definitely keep those in mind. After breakfast, I plan to dedicate some time to writing my novel. I'm really excited about it! How about you? Any plans for the day?"
+        ],
+        [
+          "Rajiv Patel",
+          "That sounds fantastic! Writing a novel must be such a rewarding creative process. After breakfast, I\u2019ll be heading back to my studio to work on my paintings for my solo show. I\u2019m really excited about it, but it\u2019s a bit nerve-wracking too. If you ever want to chat about your writing or need a fresh perspective, I\u2019m here! What\u2019s your novel about?"
+        ],
+        [
+          "Hailey Johnson",
+          "Thanks, Rajiv! I really appreciate that. My novel is about a group of artists living in a co-living space, navigating their creative journeys and personal relationships. It's been fun to explore their dynamics and how they inspire each other. What about your paintings? What themes are you exploring for your solo show?"
+        ]
+      ]
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        27
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Abigail Chen and Francisco Lopez discussing their creative projects, specifically Abigail's animation project and Francisco's web series, while planning to brainstorm ideas together after Francisco's morning jog. @ <persona> Francisco Lopez",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Hey Francisco! How's your morning jog going? I'm just taking a break from my animation project. What about you?"
+        ],
+        [
+          "Francisco Lopez",
+          "It's going great! Just finished tying my shoelaces and I'm about to head out. How's the animation project coming along? Any exciting ideas?"
+        ],
+        [
+          "Abigail Chen",
+          "It's going well! I'm really diving into the client requirements right now and trying to brainstorm some interactive elements. I'm excited about the potential to combine animation with technology. What about you? Any plans after your jog?"
+        ],
+        [
+          "Francisco Lopez",
+          "That sounds really interesting! I love the idea of combining animation with tech. After my jog, I'm planning to work on the script for my web series. I'm hoping to add some humor to it today. Maybe I can get some inspiration from your project! Do you have any tips for brainstorming creative ideas?"
+        ],
+        [
+          "Abigail Chen",
+          "I'd love to share some tips! One technique I find really helpful is to create mind maps to visually organize my ideas. Sometimes, just sketching out random concepts can lead to unexpected connections. Have you ever tried that? And I'd be happy to bounce some ideas around with you for your web series as well!"
+        ],
+        [
+          "Francisco Lopez",
+          "That's a great idea! I haven't tried mind mapping yet, but I think it could really help me organize my thoughts for the script. I'd love to bounce some ideas around with you! What kind of interactive elements are you thinking about for your animation?"
+        ],
+        [
+          "Abigail Chen",
+          "I'm considering incorporating some user-triggered animations that respond to viewer choices. It could really enhance the storytelling aspect! What type of humor are you thinking of for your web series? Maybe we can find a way to blend our ideas."
+        ],
+        [
+          "Francisco Lopez",
+          "I love that concept of user-triggered animations! For my web series, I'm thinking of incorporating situational comedy and character-driven humor. Maybe we can create some funny scenarios together that blend both our projects! What do you think?"
+        ],
+        [
+          "Abigail Chen",
+          "That sounds like a fantastic idea! I love the idea of blending our projects together. We could come up with some funny scenarios that incorporate both the interactive elements of my animation and the situational comedy of your web series. How about we brainstorm some specific scenes together after your jog?"
+        ],
+        [
+          "Francisco Lopez",
+          "That sounds perfect! I'm really excited to brainstorm with you. Let's find a time after my jog to sit down and get creative together. How about I grab a quick snack after my run, and then we can meet up?"
+        ],
+        [
+          "Abigail Chen",
+          "That sounds great! Just let me know when you're back, and we can dive into some brainstorming. I'm looking forward to it!"
+        ],
+        [
+          "Francisco Lopez",
+          "Awesome! I'll be back in about half an hour. Let\u2019s meet in the common area. I can\u2019t wait to see what we come up with!"
+        ],
+        [
+          "Abigail Chen",
+          "Sounds good! I'll be here working on my project until then. Looking forward to our brainstorming session! See you soon!"
+        ],
+        [
+          "Francisco Lopez",
+          "Great! I\u2019ll see you in the common area soon. Good luck with your project while I\u2019m out!"
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Francisco! Enjoy your jog, and I\u2019ll be here working on my ideas. See you soon!"
+        ]
+      ]
+    },
+    "Francisco Lopez": {
+      "movement": [
+        38,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Abigail Chen and Francisco Lopez discussing their creative projects, specifically Abigail's animation project and Francisco's web series, while planning to brainstorm ideas together after Francisco's morning jog. @ <persona> Abigail Chen",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Hey Francisco! How's your morning jog going? I'm just taking a break from my animation project. What about you?"
+        ],
+        [
+          "Francisco Lopez",
+          "It's going great! Just finished tying my shoelaces and I'm about to head out. How's the animation project coming along? Any exciting ideas?"
+        ],
+        [
+          "Abigail Chen",
+          "It's going well! I'm really diving into the client requirements right now and trying to brainstorm some interactive elements. I'm excited about the potential to combine animation with technology. What about you? Any plans after your jog?"
+        ],
+        [
+          "Francisco Lopez",
+          "That sounds really interesting! I love the idea of combining animation with tech. After my jog, I'm planning to work on the script for my web series. I'm hoping to add some humor to it today. Maybe I can get some inspiration from your project! Do you have any tips for brainstorming creative ideas?"
+        ],
+        [
+          "Abigail Chen",
+          "I'd love to share some tips! One technique I find really helpful is to create mind maps to visually organize my ideas. Sometimes, just sketching out random concepts can lead to unexpected connections. Have you ever tried that? And I'd be happy to bounce some ideas around with you for your web series as well!"
+        ],
+        [
+          "Francisco Lopez",
+          "That's a great idea! I haven't tried mind mapping yet, but I think it could really help me organize my thoughts for the script. I'd love to bounce some ideas around with you! What kind of interactive elements are you thinking about for your animation?"
+        ],
+        [
+          "Abigail Chen",
+          "I'm considering incorporating some user-triggered animations that respond to viewer choices. It could really enhance the storytelling aspect! What type of humor are you thinking of for your web series? Maybe we can find a way to blend our ideas."
+        ],
+        [
+          "Francisco Lopez",
+          "I love that concept of user-triggered animations! For my web series, I'm thinking of incorporating situational comedy and character-driven humor. Maybe we can create some funny scenarios together that blend both our projects! What do you think?"
+        ],
+        [
+          "Abigail Chen",
+          "That sounds like a fantastic idea! I love the idea of blending our projects together. We could come up with some funny scenarios that incorporate both the interactive elements of my animation and the situational comedy of your web series. How about we brainstorm some specific scenes together after your jog?"
+        ],
+        [
+          "Francisco Lopez",
+          "That sounds perfect! I'm really excited to brainstorm with you. Let's find a time after my jog to sit down and get creative together. How about I grab a quick snack after my run, and then we can meet up?"
+        ],
+        [
+          "Abigail Chen",
+          "That sounds great! Just let me know when you're back, and we can dive into some brainstorming. I'm looking forward to it!"
+        ],
+        [
+          "Francisco Lopez",
+          "Awesome! I'll be back in about half an hour. Let\u2019s meet in the common area. I can\u2019t wait to see what we come up with!"
+        ],
+        [
+          "Abigail Chen",
+          "Sounds good! I'll be here working on my project until then. Looking forward to our brainstorming session! See you soon!"
+        ],
+        [
+          "Francisco Lopez",
+          "Great! I\u2019ll see you in the common area soon. Good luck with your project while I\u2019m out!"
+        ],
+        [
+          "Abigail Chen",
+          "Thanks, Francisco! Enjoy your jog, and I\u2019ll be here working on my ideas. See you soon!"
+        ]
+      ]
+    },
+    "Hailey Johnson": {
+      "movement": [
+        29,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Rajiv Patel and Hailey Johnson discussing their breakfast preferences, cooking experiences, and their creative projects, including Hailey's novel about artists and Rajiv's upcoming solo art show. @ <persona> Rajiv Patel",
+      "chat": [
+        [
+          "Rajiv Patel",
+          "Good morning, Hailey! How's your breakfast coming along? I hope you\u2019re enjoying it as much as I am with my coffee."
+        ],
+        [
+          "Hailey Johnson",
+          "Good morning, Rajiv! It\u2019s coming along nicely, thanks! I\u2019m trying out a new recipe today. How's your coffee? It looks like the perfect way to start the day."
+        ],
+        [
+          "Rajiv Patel",
+          "It really is! I love the aroma. What recipe are you trying out? I'm always looking for new breakfast ideas."
+        ],
+        [
+          "Hailey Johnson",
+          "I'm making a savory oatmeal with spinach and poached eggs. It's a bit different, but I think it could be really tasty! Do you have any favorite breakfast recipes you could share?"
+        ],
+        [
+          "Rajiv Patel",
+          "That sounds delicious! I usually make a simple avocado toast with a sprinkle of salt and pepper, maybe topped with a poached egg as well. It\u2019s quick and satisfying. Have you been cooking a lot lately?"
+        ],
+        [
+          "Hailey Johnson",
+          "Yes, I have! I've been experimenting with different recipes since I have some more time lately. Cooking has been a fun way to unwind. Do you enjoy cooking often?"
+        ],
+        [
+          "Rajiv Patel",
+          "I do enjoy cooking sometimes, especially when I have a bit more time. It\u2019s nice to experiment with flavors. What\u2019s been your favorite recipe so far?"
+        ],
+        [
+          "Hailey Johnson",
+          "I recently tried a Thai green curry that turned out really well! The flavors were amazing. I love how cooking can transport you to different places. Do you have a favorite cuisine that you like to cook?"
+        ],
+        [
+          "Rajiv Patel",
+          "That Thai green curry sounds incredible! I really enjoy cooking Italian food, especially pasta dishes. There's something comforting about making a good marinara sauce from scratch. Do you have any other cuisines you're interested in trying?"
+        ],
+        [
+          "Hailey Johnson",
+          "I'm really interested in trying out some Mediterranean recipes next! I love the freshness of those flavors. Have you ever cooked any Mediterranean dishes?"
+        ],
+        [
+          "Rajiv Patel",
+          "I have! I\u2019ve made some Greek salads and a simple tzatziki sauce. They\u2019re refreshing and perfect for warm days. I\u2019d love to hear about any Mediterranean dishes you end up trying. What\u2019s the first one you\u2019re thinking of making?"
+        ],
+        [
+          "Hailey Johnson",
+          "I'm thinking about starting with a classic hummus! It's such a versatile dish and can be paired with so many things. I\u2019ll definitely keep you updated on my culinary adventures! Do you have any tips for making the perfect hummus?"
+        ],
+        [
+          "Rajiv Patel",
+          "Absolutely! For the perfect hummus, I recommend using good quality tahini and adding a splash of lemon juice for brightness. Also, blending it until it's super smooth makes a big difference. Let me know how it turns out! Do you have any plans for the rest of the day after breakfast?"
+        ],
+        [
+          "Hailey Johnson",
+          "Thanks for the tips, Rajiv! I\u2019ll definitely keep those in mind. After breakfast, I plan to dedicate some time to writing my novel. I'm really excited about it! How about you? Any plans for the day?"
+        ],
+        [
+          "Rajiv Patel",
+          "That sounds fantastic! Writing a novel must be such a rewarding creative process. After breakfast, I\u2019ll be heading back to my studio to work on my paintings for my solo show. I\u2019m really excited about it, but it\u2019s a bit nerve-wracking too. If you ever want to chat about your writing or need a fresh perspective, I\u2019m here! What\u2019s your novel about?"
+        ],
+        [
+          "Hailey Johnson",
+          "Thanks, Rajiv! I really appreciate that. My novel is about a group of artists living in a co-living space, navigating their creative journeys and personal relationships. It's been fun to explore their dynamics and how they inspire each other. What about your paintings? What themes are you exploring for your solo show?"
+        ]
+      ]
+    },
+    "Arthur Burton": {
+      "movement": [
+        54,
+        17
+      ],
+      "pronunciatio": "\ud83c\udf78\ud83d\udcbb",
+      "description": "researching mixology and experimenting with cocktail recipes (researching different mixology techniques online) @ the Ville:Arthur Burton's apartment:main room:desk",
+      "chat": null
+    },
+    "Ryan Park": {
+      "movement": [
+        68,
+        22
+      ],
+      "pronunciatio": "\ud83e\udd5e\ud83c\udf73",
+      "description": "waking up and completing his morning routine (eating breakfast) @ the Ville:Ryan Park's apartment:main room:kitchen sink",
+      "chat": null
+    },
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Isabella Rodriguez and Giorgio Rossi discussing plans for a Valentine's Day party at Isabella's cafe, including setting up activities, bringing desserts, and collaborating on ideas to make the event special. @ <persona> Giorgio Rossi",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hey Giorgio! It's great to see you here. How's your research going? Are you finding any interesting patterns?"
+        ],
+        [
+          "Giorgio Rossi",
+          "Hi Isabella! It's going quite well, actually. I've been analyzing some fascinating papers on Fibonacci sequences in nature. It's amazing how these patterns can be found in everything from sunflowers to shells. How about you? How's business at the cafe?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Business is great! We're gearing up for a Valentine's Day party tomorrow, and I'm really excited about it. We're expecting a good turnout. If you\u2019re free, you should come by and join us!"
+        ],
+        [
+          "Giorgio Rossi",
+          "That sounds like a lot of fun! I would love to come by and celebrate with you all. What time does the party start?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "The party starts at 5 PM and goes until 7 PM. We're going to have some fun activities and delicious treats. I hope to see you there!"
+        ],
+        [
+          "Giorgio Rossi",
+          "That sounds wonderful! I'll definitely make sure to stop by after my discussion with friends. Is there anything specific I can bring or help with?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's so kind of you to offer! If you could bring some desserts or snacks, that would be amazing. But no pressure! Just having you there would be great. I'm looking forward to it!"
+        ],
+        [
+          "Giorgio Rossi",
+          "I can definitely bring some desserts! I'll see what I can pick up before I come. I'm really looking forward to it. It sounds like a great way to celebrate Valentine's Day."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That would be perfect! Thank you so much, Giorgio. I'm sure everyone will love your desserts. By the way, if you have any ideas for fun activities or themes for the party, I\u2019d love to hear them!"
+        ],
+        [
+          "Giorgio Rossi",
+          "I'd be happy to brainstorm some ideas! Maybe we could have a trivia game about love and relationships, or even a small competition for the best Valentine's Day-themed dessert. What do you think? And if you need any help setting things up, just let me know!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Those are fantastic ideas, Giorgio! I love the trivia game concept\u2014it's a great way to engage everyone. And a competition for the best dessert would definitely add some fun! I\u2019d appreciate any help with setting things up, especially since I want everything to be perfect for our guests. Let's chat more about it tomorrow before the party!"
+        ],
+        [
+          "Giorgio Rossi",
+          "Absolutely, Isabella! I\u2019ll be there early to help with the setup. Just let me know what time works for you. I\u2019m excited to make this party a success!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks, Giorgio! How about we meet at the cafe around 3 PM? That way we can get everything set up in time. I'm really looking forward to working together to make this party special!"
+        ],
+        [
+          "Giorgio Rossi",
+          "3 PM works perfectly for me! I\u2019ll see you then, and I can\u2019t wait to help set up. Let\u2019s make it a great party!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great! I really appreciate your help, Giorgio. It\u2019s going to be a fun day! If you think of any other activity ideas, feel free to share them. See you at 3 PM!"
+        ],
+        [
+          "Giorgio Rossi",
+          "I'll definitely think of some more ideas before tomorrow! I\u2019m really looking forward to seeing how everything turns out. If anything comes to mind, I\u2019ll let you know. See you at 3 PM!"
+        ]
+      ]
+    },
+    "Giorgio Rossi": {
+      "movement": [
+        75,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Isabella Rodriguez and Giorgio Rossi discussing plans for a Valentine's Day party at Isabella's cafe, including setting up activities, bringing desserts, and collaborating on ideas to make the event special. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hey Giorgio! It's great to see you here. How's your research going? Are you finding any interesting patterns?"
+        ],
+        [
+          "Giorgio Rossi",
+          "Hi Isabella! It's going quite well, actually. I've been analyzing some fascinating papers on Fibonacci sequences in nature. It's amazing how these patterns can be found in everything from sunflowers to shells. How about you? How's business at the cafe?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Business is great! We're gearing up for a Valentine's Day party tomorrow, and I'm really excited about it. We're expecting a good turnout. If you\u2019re free, you should come by and join us!"
+        ],
+        [
+          "Giorgio Rossi",
+          "That sounds like a lot of fun! I would love to come by and celebrate with you all. What time does the party start?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "The party starts at 5 PM and goes until 7 PM. We're going to have some fun activities and delicious treats. I hope to see you there!"
+        ],
+        [
+          "Giorgio Rossi",
+          "That sounds wonderful! I'll definitely make sure to stop by after my discussion with friends. Is there anything specific I can bring or help with?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's so kind of you to offer! If you could bring some desserts or snacks, that would be amazing. But no pressure! Just having you there would be great. I'm looking forward to it!"
+        ],
+        [
+          "Giorgio Rossi",
+          "I can definitely bring some desserts! I'll see what I can pick up before I come. I'm really looking forward to it. It sounds like a great way to celebrate Valentine's Day."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That would be perfect! Thank you so much, Giorgio. I'm sure everyone will love your desserts. By the way, if you have any ideas for fun activities or themes for the party, I\u2019d love to hear them!"
+        ],
+        [
+          "Giorgio Rossi",
+          "I'd be happy to brainstorm some ideas! Maybe we could have a trivia game about love and relationships, or even a small competition for the best Valentine's Day-themed dessert. What do you think? And if you need any help setting things up, just let me know!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Those are fantastic ideas, Giorgio! I love the trivia game concept\u2014it's a great way to engage everyone. And a competition for the best dessert would definitely add some fun! I\u2019d appreciate any help with setting things up, especially since I want everything to be perfect for our guests. Let's chat more about it tomorrow before the party!"
+        ],
+        [
+          "Giorgio Rossi",
+          "Absolutely, Isabella! I\u2019ll be there early to help with the setup. Just let me know what time works for you. I\u2019m excited to make this party a success!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Thanks, Giorgio! How about we meet at the cafe around 3 PM? That way we can get everything set up in time. I'm really looking forward to working together to make this party special!"
+        ],
+        [
+          "Giorgio Rossi",
+          "3 PM works perfectly for me! I\u2019ll see you then, and I can\u2019t wait to help set up. Let\u2019s make it a great party!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great! I really appreciate your help, Giorgio. It\u2019s going to be a fun day! If you think of any other activity ideas, feel free to share them. See you at 3 PM!"
+        ],
+        [
+          "Giorgio Rossi",
+          "I'll definitely think of some more ideas before tomorrow! I\u2019m really looking forward to seeing how everything turns out. If anything comes to mind, I\u2019ll let you know. See you at 3 PM!"
+        ]
+      ]
+    },
+    "Carlos Gomez": {
+      "movement": [
+        94,
+        21
+      ],
+      "pronunciatio": "\ud83d\udca1\ud83d\udcd6",
+      "description": "working on his poetry collection (working on brainstorming themes for his poetry collection) @ the Ville:Carlos Gomez's apartment:main room:desk",
+      "chat": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        127,
+        46
+      ],
+      "pronunciatio": "\ud83d\udecf\ufe0f\ud83d\udecc",
+      "description": "heading to the library at Oak Hill College to begin his research (making his bed) @ the Ville:Dorm for Oak Hill College:Klaus Mueller's room:bed",
+      "chat": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude34\ud83d\udecc",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null
+    },
+    "Ayesha Khan": {
+      "movement": [
+        115,
+        51
+      ],
+      "pronunciatio": "\ud83d\udc57\ud83d\udc56",
+      "description": "preparing to head to the library (getting dressed) @ the Ville:Dorm for Oak Hill College:Ayesha Khan's room:closet",
+      "chat": null
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        116,
+        51
+      ],
+      "pronunciatio": "\ud83c\udf93\ud83d\udcda",
+      "description": "studying for chemistry exams (conversing about Ayesha Khan and Wolfgang Schulz discussing their academic preparations, with Ayesha working on her senior thesis about Shakespeare's language and Wolfgang studying for chemistry exams, while sharing study tips and offering support to each other.) @ the Ville:Oak Hill College:library:library table",
+      "chat": null
+    },
+    "Mei Lin": {
+      "movement": [
+        108,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcda\u270d\ufe0f",
+      "description": "preparing for teaching at Oak Hill College (preparing her lecture notes) @ the Ville:Oak Hill College:classroom:classroom podium",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2026, 09:14:00"
+  }
+}

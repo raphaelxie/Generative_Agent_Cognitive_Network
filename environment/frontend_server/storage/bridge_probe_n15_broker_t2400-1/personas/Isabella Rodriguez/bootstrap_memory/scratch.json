@@ -1,0 +1,298 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2026, 14:39:50",
+  "curr_tile": [
+    78,
+    18
+  ],
+  "daily_plan_req": "Isabella Rodriguez opens Hobbs Cafe at 8am everyday, and stands at the counter until 8pm, at which point she closes the cafe.",
+  "name": "Isabella Rodriguez",
+  "first_name": "Isabella",
+  "last_name": "Rodriguez",
+  "age": 34,
+  "innate": "friendly, outgoing, hospitable",
+  "learned": "Isabella Rodriguez is a cafe owner of Hobbs Cafe who loves to make people feel welcome. She is always looking for ways to make the cafe a place where people can come to relax and enjoy themselves.",
+  "currently": "Isabella Rodriguez is planning on having a Valentine's Day party at Hobbs Cafe with her customers on February 14th, 2023 at 5pm. She is gathering party material, and is telling everyone to join the party at Hobbs Cafe on *February 14th, 2023, from 5pm to 7pm*.",
+  "lifestyle": "Isabella Rodriguez goes to bed around 11pm, awakes up around 6am.",
+  "living_area": "the Ville:Isabella Rodriguez's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 213,
+  "importance_ele_n": 17,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "open Hobbs Cafe at 8:00 am and manage daily operations until closing",
+    "set up for the Valentine's Day party from 3:00 pm to 5:00 pm",
+    "host the Valentine's Day party from 5:00 pm to 7:00 pm",
+    "clean up after the party from 7:00 pm to 8:00 pm",
+    "unwind and relax at home from 8:00 pm to 10:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "managing daily operations at Hobbs Cafe, serving customers and ensuring everything runs smoothly (checking inventory for supplies)",
+      30
+    ],
+    [
+      "managing daily operations at Hobbs Cafe, serving customers and ensuring everything runs smoothly (on the way to preparing the coffee machines and equipment)",
+      0
+    ],
+    [
+      "managing daily operations at Hobbs Cafe, serving customers and ensuring everything runs smoothly (conversing about Isabella Rodriguez and Giorgio Rossi discussing plans for a Valentine's Day party at Isabella's cafe, including setting up activities, bringing desserts, and collaborating on ideas to make the event special.)",
+      14
+    ],
+    [
+      "managing daily operations at Hobbs Cafe, serving customers and ensuring everything runs smoothly (setting up the display for pastries and snacks)",
+      20
+    ],
+    [
+      "managing daily operations at Hobbs Cafe, serving customers and ensuring everything runs smoothly (opening the cafe for customers)",
+      5
+    ],
+    [
+      "managing daily operations at Hobbs Cafe, serving customers and ensuring everything runs smoothly (greeting the first customers of the day)",
+      10
+    ],
+    [
+      "managing daily operations at Hobbs Cafe, serving customers and ensuring everything runs smoothly (taking customer orders)",
+      30
+    ],
+    [
+      "managing daily operations at Hobbs Cafe, serving customers and ensuring everything runs smoothly (preparing drinks and food for customers)",
+      30
+    ],
+    [
+      "managing daily operations at Hobbs Cafe, serving customers and ensuring everything runs smoothly (on the way to serving drinks and food to customers)",
+      0
+    ],
+    [
+      "managing daily operations at Hobbs Cafe, serving customers and ensuring everything runs smoothly (conversing about Isabella Rodriguez and Carlos Gomez discussing Carlos's poetry collection, a Valentine's Day party at the cafe, dessert ideas, and planning activities and trivia for the event.)",
+      16
+    ],
+    [
+      "managing daily operations at Hobbs Cafe, serving customers and ensuring everything runs smoothly (cleaning tables and the counter area)",
+      15
+    ],
+    [
+      "managing daily operations at Hobbs Cafe, serving customers and ensuring everything runs smoothly (checking on customers to ensure satisfaction)",
+      15
+    ],
+    [
+      "managing daily operations at Hobbs Cafe, serving customers and ensuring everything runs smoothly (taking more customer orders)",
+      30
+    ],
+    [
+      "managing daily operations at Hobbs Cafe, serving customers and ensuring everything runs smoothly (on the way to preparing additional drinks and food)",
+      0
+    ],
+    [
+      "managing daily operations at Hobbs Cafe, serving customers and ensuring everything runs smoothly (conversing about Isabella Rodriguez and Klaus Mueller discussing the upcoming Valentine's Day party, including activities, decorations, and brainstorming ideas.)",
+      12
+    ],
+    [
+      "managing daily operations at Hobbs Cafe, serving customers and ensuring everything runs smoothly (serving the new orders to customers)",
+      30
+    ],
+    [
+      "managing daily operations at Hobbs Cafe, serving customers and ensuring everything runs smoothly (restocking supplies as needed)",
+      20
+    ],
+    [
+      "managing daily operations at Hobbs Cafe, serving customers and ensuring everything runs smoothly (on the way to managing the cash register and processing payments)",
+      0
+    ],
+    [
+      "managing daily operations at Hobbs Cafe, serving customers and ensuring everything runs smoothly (conversing about Isabella Rodriguez and Giorgio Rossi discussing plans and ideas for a Valentine's Day party, focusing on trivia activities, themes, and prizes to engage participants.)",
+      17
+    ],
+    [
+      "managing daily operations at Hobbs Cafe, serving customers and ensuring everything runs smoothly (checking in with staff to ensure smooth operations)",
+      15
+    ],
+    [
+      "managing daily operations at Hobbs Cafe, serving customers and ensuring everything runs smoothly (addressing any customer concerns or feedback)",
+      10
+    ],
+    [
+      "managing daily operations at Hobbs Cafe, serving customers and ensuring everything runs smoothly (preparing to close the cafe for the day)",
+      5
+    ],
+    [
+      "setting up for the Valentine's Day party at Hobbs Cafe (gathering decorations for the party)",
+      15
+    ],
+    [
+      "setting up for the Valentine's Day party at Hobbs Cafe (arranging tables and chairs for the party)",
+      20
+    ],
+    [
+      "setting up for the Valentine's Day party at Hobbs Cafe (setting up a photo booth area)",
+      15
+    ],
+    [
+      "setting up for the Valentine's Day party at Hobbs Cafe (preparing party favors for guests)",
+      20
+    ],
+    [
+      "setting up for the Valentine's Day party at Hobbs Cafe (organizing the food and drink stations)",
+      20
+    ],
+    [
+      "setting up for the Valentine's Day party at Hobbs Cafe (creating a playlist for the party)",
+      15
+    ],
+    [
+      "setting up for the Valentine's Day party at Hobbs Cafe (doing a final check of the decorations)",
+      10
+    ],
+    [
+      "setting up for the Valentine's Day party at Hobbs Cafe (reviewing the setup and making last-minute adjustments)",
+      5
+    ],
+    [
+      "continuing to set up for the Valentine's Day party at Hobbs Cafe",
+      120
+    ],
+    [
+      "cleaning up after the Valentine's Day party at Hobbs Cafe",
+      60
+    ],
+    [
+      "unwinding and relaxing at home",
+      180
+    ],
+    [
+      "sleeping",
+      60
+    ],
+    [
+      "sleeping",
+      1
+    ],
+    [
+      "sleeping",
+      14
+    ],
+    [
+      "sleeping",
+      18
+    ],
+    [
+      "sleeping",
+      3
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "managing daily operations at Hobbs Cafe, serving customers and ensuring everything runs smoothly",
+      360
+    ],
+    [
+      "setting up for the Valentine's Day party at Hobbs Cafe",
+      120
+    ],
+    [
+      "continuing to set up for the Valentine's Day party at Hobbs Cafe",
+      120
+    ],
+    [
+      "cleaning up after the Valentine's Day party at Hobbs Cafe",
+      60
+    ],
+    [
+      "unwinding and relaxing at home",
+      180
+    ],
+    [
+      "sleeping",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Hobbs Cafe:cafe:cafe customer seating",
+  "act_start_time": "February 13, 2026, 14:39:00",
+  "act_duration": 20,
+  "act_description": "setting up for the Valentine's Day party at Hobbs Cafe (arranging tables and chairs for the party)",
+  "act_pronunciatio": "\ud83e\ude91\ud83c\udf89",
+  "act_event": [
+    "Isabella Rodriguez",
+    "arrange",
+    "tables and chairs"
+  ],
+  "act_obj_description": "being arranged for a Valentine's Day party",
+  "act_obj_pronunciatio": "\u2764\ufe0f\ud83c\udf89",
+  "act_obj_event": [
+    "cafe customer seating",
+    "be",
+    "arranged for a Valentine's Day party"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Giorgio Rossi": 422,
+    "Carlos Gomez": -358,
+    "Klaus Mueller": -4
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": [
+    [
+      77,
+      19
+    ],
+    [
+      76,
+      19
+    ],
+    [
+      75,
+      19
+    ],
+    [
+      75,
+      20
+    ],
+    [
+      75,
+      21
+    ],
+    [
+      76,
+      21
+    ],
+    [
+      77,
+      21
+    ],
+    [
+      78,
+      21
+    ]
+  ]
+}

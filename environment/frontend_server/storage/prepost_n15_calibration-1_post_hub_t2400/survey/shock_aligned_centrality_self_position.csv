@@ -1,0 +1,4 @@
+survey_dir,treatment_type,target_agent,shock_step,alignment_status,pre_wave,pre_step,post_wave,post_step,phase,wave_id,step,actual_top_degree_agent,actual_top_degree,centrality_mean_abs_rank_error,centrality_actual_top_mean_perceived_rank,centrality_top1_hit_rate,centrality_top3_hit_rate,centrality_fail_safe_rows,self_position_mean_value,self_position_mean_abs_rank_error,self_position_fail_safe_rows
+prepost_n15_calibration-1_post_hub_t2400,hub_removal,Hailey Johnson,1800,ok,1800,1800,t2400,2400,pre,1800,1800,Carlos Gomez,6,3.840000,5.133333,0.066667,0.333333,0,4.666667,3.600000,0
+prepost_n15_calibration-1_post_hub_t2400,hub_removal,Hailey Johnson,1800,ok,1800,1800,t2400,2400,post,t2400,2400,Carlos Gomez,7,3.591111,4.533333,0.133333,0.400000,0,4.733333,2.666667,0
+prepost_n15_calibration-1_post_hub_t2400,hub_removal,Hailey Johnson,1800,ok,1800,1800,t2400,2400,delta,,,,1,-0.248889,-0.600000,0.066667,0.066667,0,0.066667,-0.933333,0
