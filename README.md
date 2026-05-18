@@ -1,117 +1,143 @@
 # Generative Agents for Network Cognition Experiments
 
-This repository extends the Generative Agents simulation environment to study network cognition: whether agents form coherent perceptions of social structure, and whether those perceptions update after network shocks.
+This repository extends the Generative Agents simulation environment to study network cognition: whether agents form coherent perceptions of social structure at multiple levels of resolution, and whether those perceptions update after structural shocks. The project implements a diagnostic instrument that administers structured perception surveys to a live n=15 Smallville simulation, records retrieval diagnostics non-invasively, computes ground truth from the observed interaction graph, and compares pre- and post-shock perception responses to identify whether agents encode changes in network position.
 
 
-## Research Goal
+## Perception Instruments
 
-We study whether agents can infer:
-- micro-level ties: who knows or interacts with whom
-- centrality: who is socially central
-- brokerage: who bridges parts of the network
-- self-position: how agents perceive their own connectedness
-The current priority is measurement and identification, not longer simulations.
+Eight question types are administered per survey wave. The four micro-tie instruments (CSN batch) ask each respondent about every ordered pair in the roster; the four network-level instruments (NCN) ask each respondent once about the full roster.
 
-## Current Status
-Implemented:
-- n=15 preflight simulation state
-- structured perception survey
-- micro-tie survey
-- centrality ranking survey
-- self-position survey
-- ground-truth interaction graph export
-- retrieval diagnostics
-- hub-removal and broker-removal shock probes
-- micro-tie analysis with precision, recall, FPR, FNR, pair accuracy
-- preflight verification script
+| Instrument | `question_type` | Prompt file | What it measures |
+|---|---|---|---|
+| Micro-tie (broad) | `micro_tie` | `csn_connection_batch_v1.txt` | Perceived pairwise connection or relationship |
+| Micro-tie (interaction) | `micro_tie_interaction` | `csn_interaction_batch_v1.txt` | Perceived direct interaction or joint activity |
+| Micro-tie (social) | `micro_tie_social` | `csn_social_tie_batch_v1.txt` | Perceived social relationship or personal bond |
+| Micro-tie (group) | `micro_tie_group` | `csn_group_batch_v1.txt` | Perceived group or social circle co-membership |
+| Centrality ranking | `centrality_rank` | `ncn_centrality_rank_v1.txt` | Perceived ordering of roster by social connectedness |
+| Bridge ranking | `bridge_rank` | `ncn_bridge_rank_v1.txt` | Perceived ordering of roster by brokerage role |
+| Community groups | `community_group` | `ncn_community_group_v1.txt` | Perceived partition of roster into social clusters |
+| Self-position | `self_position` | `ncn_self_position_v1.txt` | Perceived own connectedness on a 1-5 scale |
 
-Current validated preflight:
-- simulation: `preflight_the_ville_n15-1`
-- step: 600
-- status: preflight pass
-- main artifact folder: `environment/frontend_server/storage/preflight_the_ville_n15-1/survey`
+Prompt files are located in `reverie/backend_server/persona/prompt_template/v3_ChatGPT/`.
 
-## Current Measurement Outputs
-Survey outputs:
-- `perception_survey_pre.csv`
-- `perception_survey_pre_meta.json`
-- `retrieval_diagnostics_pre.jsonl`
+The survey runner (`perception_survey.py`) snapshots and restores `last_accessed` timestamps on all memory nodes so retrieval side-effects are fully reversed after each wave. A per-wave retrieval diagnostics JSONL records scores and mention flags for every memory node retrieved during the survey.
 
-Ground truth:
-- `ground_truth/ground_truth_chats_<step>.csv`
-- `ground_truth/ground_truth_edges_<step>.csv`
 
-Analysis:
-- `analysis_micro_tie_metrics.csv`
-- `analysis_micro_tie_metrics_README.md`
+## Ground Truth Layers
 
-Shock logs:
+Each survey wave generates matching ground truth files. Analysis is scored against up to three truth layers per wave.
+
+| Layer | Source file | Definition |
+|---|---|---|
+| `observed_interaction` | `ground_truth/ground_truth_edges_{step}.csv` | Cumulative interaction graph built from observed chats; `tie_cumulative == 1` for any pair that conversed by that step |
+| `background_social_tie` | `ground_truth/background_social_edges.csv` | Conservative pre-existing social ties seeded at simulation start; does not change during the run |
+| `background_or_interaction` | Derived (union) | Positive if a pair is positive in either of the above layers; the least construct-mismatched reference for broad perceived ties |
+| `ground_truth_communities` | `ground_truth/ground_truth_communities_{step}.csv` | Louvain community partition (`networkx`, seed=42, weighted by `count_cumulative`) on the cumulative observed interaction graph |
+
+Betweenness centrality for the bridge rank truth is computed from the same cumulative observed interaction graph using normalized betweenness (via `ground_truth_log.agent_betweenness`).
+
+
+## Structural Shocks
+
+Two shock treatments are implemented as soft isolation:
+
+- **Hub removal** (`shock isolate-hub`): targets the agent with the highest degree in the cumulative observed interaction graph (Hailey Johnson in calibration runs). The agent remains present in the world but is blocked from initiating new conversations.
+- **Broker removal** (`shock isolate-broker`): targets the agent with the highest betweenness centrality in the same graph (Carlos Gomez in calibration runs). Isolation mechanism is identical.
+
+Soft isolation means the shocked agent does not disappear from the roster, so perception survey questions still include them as a target. This preserves the ability to detect whether other agents update their perception of the isolated agent's role. Shock events are logged to `shock_log.jsonl` with the agent name, degree, betweenness, and step.
+
+
+## Analysis Pipeline
+
+All scripts below are analysis-only (no LLM calls, no state mutation).
+
+**`reverie/backend_server/analyze_survey.py`**  
+Primary analysis driver. Reads `perception_survey_*.csv` and ground truth edge files; outputs:
+- `analysis_micro_tie_metrics.csv` — per-respondent confusion matrix (TP/FP/FN/TN, precision, recall, FPR, FNR, pair accuracy) against `observed_interaction`
+- `analysis_micro_tie_metrics_by_truth.csv` — same metrics scored against all three truth layers
+- `analysis_micro_tie_by_construct.csv` — 3×3 cross-scoring matrix (each separated micro-tie construct × each truth layer)
+- `analysis_bridge_rank_metrics.csv` — bridge top-1 hit rate, top-3 hit rate, and mean absolute rank error vs. betweenness ground truth
+- `analysis_community_group_metrics.csv` — NMI and ARI vs. Louvain ground-truth partition per respondent
+
+Usage: `python analyze_survey.py <survey_dir>`
+
+**`reverie/backend_server/survey_network_summary.py`**  
+Cross-checkpoint network diagnostics. Reads ground truth edge/chat CSVs across all waves; outputs `network_summary_over_time.csv` with one row per checkpoint (density, clustering, modularity, diameter, top-degree agent, top-betweenness agent, etc.).
+
+Usage: `python survey_network_summary.py <survey_dir>`
+
+**`reverie/backend_server/shock_prepost_audit.py`**  
+Shock-aligned pre/post comparison. Reads existing survey outputs, aligns the nearest pre- and post-shock waves around `shock_log.jsonl`, and writes `shock_aligned_evidence_note.md` with per-instrument perception deltas and ground truth changes for the shocked agent.
+
+Usage: `python shock_prepost_audit.py <survey_dir>`
+
+**`reverie/backend_server/figures/generate_figures.py`**  
+Publication-quality figure pipeline. Accepts one or more survey directories; outputs PDF and PNG for five figures:
+
+| Figure | File stem | Content |
+|---|---|---|
+| 1 | `fig1_network_structure` | Ground truth network structure over time |
+| 2 | `fig2_micro_tie_accuracy` | Micro-tie precision/recall by truth layer |
+| 3 | `fig3_centrality_bridge` | Centrality and bridge rank accuracy |
+| 4 | `fig4_shock_delta_summary` | Pre/post perception deltas aligned to shock |
+| 5 | `fig5_retrieval_diagnostics` | Retrieval score distributions |
+
+Usage: `python figures/generate_figures.py <survey_dir> [<survey_dir2> ...] [--output-dir DIR]`
+
+
+## Key Outputs per Run
+
+Each completed run under `environment/frontend_server/storage/<run>/survey/` contains:
+
+**Survey waves** (one set per `survey <wave_id>` call):
+- `perception_survey_{wave_id}.csv` — all instrument responses
+- `perception_survey_{wave_id}_meta.json` — row counts, fail-safe rates, retrieval call count
+- `retrieval_diagnostics_{wave_id}.jsonl` — per-node retrieval scores and mention flags
+
+**Ground truth** (written by `perception_survey.py` at each wave):
+- `ground_truth/ground_truth_chats_{step}.csv`
+- `ground_truth/ground_truth_edges_{step}.csv`
+- `ground_truth/background_social_edges.csv`
+- `ground_truth/ground_truth_communities_{step}.csv` (written by `analyze_survey.py`)
+
+**Analysis** (written by `analyze_survey.py`):
+- `analysis_micro_tie_metrics.csv` + `_README.md`
+- `analysis_micro_tie_metrics_by_truth.csv` + `_README.md`
+- `analysis_micro_tie_by_construct.csv` + `_README.md`
+- `analysis_bridge_rank_metrics.csv` + `_README.md`
+- `analysis_community_group_metrics.csv` + `_README.md`
+- `network_summary_over_time.csv`
+
+**Shock and audit**:
 - `shock_log.jsonl`
+- `shock_aligned_evidence_note.md`
+
+**Figures** (written by `generate_figures.py`):
+- `figures/fig{1..5}_*.{pdf,png}`
 
 
-## Current Project Description
-The current codebase runs a short-horizon n=15 Smallville simulation and performs a preflight measurement pass at step 600. The current preflight loads `preflight_the_ville_n15-1`, runs a perception survey, writes ground-truth network files, records retrieval diagnostics, runs hub/broker shock probes, analyzes micro-tie perception, and verifies whether artifacts are complete enough for a full pilot.
+## Experimental Runs
 
-## Upstream Attribution
+Completed runs are stored under `environment/frontend_server/storage/`.
 
-This project builds on the research paper titled "[Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442)." It contains the core simulation module for generative agents—computational agents that simulate believable human behaviors—and their game environment.
+| Run | Treatment | Steps | Notes |
+|---|---|---|---|
+| `prepost_n15_calibration-1` | Baseline | 0–1800 | Calibrated n=15 state; pre-shock survey reference |
+| `prepost_n15_calibration-1_post_hub_t2400` | Hub removal | 1800–2400 | Hailey Johnson isolated (highest degree) |
+| `prepost_n15_calibration-1_post_broker_t2400` | Broker removal | 1800–2400 | Carlos Gomez isolated (highest betweenness) |
+| `bridge_probe_n15_baseline_t1800-1` | None | 0–1800 | Bridge perception baseline; no shock |
+| `bridge_probe_n15_broker_t2400-1` | Broker probe | 0–2400 | Bridge perception following broker removal |
+| `formal_n15_full_instruments-1` | Hub removal | 1800–3000 | Full instrument verification run |
 
-## Implementation added
 
-A structured perception survey has been implemented. It currently measures:
+## Setup and Running
 
-- `micro_tie`: whether agents perceive pairwise ties.
-- `centrality_rank`: how agents rank everyone by connectedness.
-- `self_position`: how agents rate their own connectedness.
+### Step 1. Generate utils.py
 
-Ground truth is generated for the observed interaction graph. The current preflight writes:
+In `reverie/backend_server/`, create `utils.py`:
 
-- `ground_truth_chats_600.csv`
-- `ground_truth_edges_600.csv`
-
-Micro-tie analysis has been improved beyond a single accuracy number. `analysis_micro_tie_metrics.csv` now reports:
-
-- undirected-pair accuracy,
-- true positives,
-- false positives,
-- false negatives,
-- true negatives,
-- precision,
-- recall,
-- false-positive rate,
-- false-negative rate,
-- fail-safe counts.
-
-Retrieval diagnostics are implemented. `retrieval_diagnostics_pre.jsonl` records retrieval calls with:
-
-- number of candidates,
-- number returned,
-- node type,
-- recency score,
-- relevance score,
-- importance score,
-- final score,
-- whether retrieved content mentions the queried person,
-- whether retrieved content is self-focused.
-
-Hub and broker shocks have been explicitly separated. `shock isolate-hub` selects by degree, while `shock isolate-broker` selects by betweenness. The shock log records both `hub_removal` and `broker_removal`, along with degree and betweenness values.
-
-A preflight verifier exists. `verify_preflight_n15.py` checks that the core artifacts exist, that retrieval diagnostics have the expected number of lines, that ground truth has 105 pairs, that hub and broker shocks were logged, and that fail-safe rate is below threshold.
-
-Below are the steps for setting up the simulation environment on your local machine and for replaying the simulation as a demo animation.
-
-##    Setting Up the Environment
-
-To set up your environment, you will need to generate a `utils.py` file that contains your OpenAI API key and download the necessary packages.
-
-### Step 1. Generate Utils File
-
-In the `reverie/backend_server` folder (where `reverie.py` is located), create a new file titled `utils.py` and copy and paste the content below into the file:
-
-```
-# Copy and paste your OpenAI API Key
-openai_api_key = "<Your OpenAI API>"
-# Put your name
+```python
+openai_api_key = "<Your OpenAI API Key>"
 key_owner = "<Name>"
 
 maze_assets_loc = "../../environment/frontend_server/static_dirs/assets"
@@ -122,145 +148,127 @@ fs_storage = "../../environment/frontend_server/storage"
 fs_temp_storage = "../../environment/frontend_server/temp_storage"
 
 collision_block_id = "32125"
-
-# Verbose 
 debug = True
 ```
 
-Replace `<Your OpenAI API>` with your OpenAI API key, and `<name>` with your name.
-
-### Step 2. Install requirements.txt
-
-Install everything listed in the `requirements.txt` file (I strongly recommend first setting up a virtualenv as usual). A note on Python version: we tested our environment on Python 3.9.12. 
-
-##    Running a Simulation
-
-To run a new simulation, you will need to concurrently start two servers: the environment server and the agent simulation server.
-
-### Step 1. Starting the Environment Server
-
-Again, the environment is implemented as a Django project, and as such, you will need to start the Django server. To do this, first navigate to `environment/frontend_server` (this is where `manage.py` is located) in your command line. Then run the following command:
+### Step 2. Install dependencies
 
 ```
+pip install -r requirements.txt
+```
+
+Python 3.9.12 is recommended. `networkx` is required for Louvain community detection in `analyze_survey.py`.
+
+### Step 3. Start the environment server
+
+```
+cd environment/frontend_server
 python manage.py runserver
 ```
 
-Then, on your favorite browser, go to [http://localhost:8000/](http://localhost:8000/). If you see a message that says, "Your environment server is up and running," your server is running properly. Ensure that the environment server continues to run while you are running the simulation, so keep this command-line tab open! (Note: I recommend using either Chrome or Safari. Firefox might produce some frontend glitches, although it should not interfere with the actual simulation.)
+Confirm the server is running at [http://localhost:8000/](http://localhost:8000/).
 
-### Step 2. Starting the Simulation Server
-
-Open up another command line (the one you used in Step 1 should still be running the environment server, so leave that as it is). Navigate to `reverie/backend_server` and run `reverie.py`.
+### Step 4. Start the simulation server
 
 ```
+cd reverie/backend_server
 python reverie.py
 ```
 
-This will start the simulation server. A command-line prompt will appear, asking the following: "Enter the name of the forked simulation: ". To start a 3-agent simulation with Isabella Rodriguez, Maria Lopez, and Klaus Mueller, type the following:
+When prompted for the base simulation, use:
 
 ```
-base_the_ville_isabella_maria_klaus
+base_the_ville_n15
 ```
 
-The prompt will then ask, "Enter the name of the new simulation: ". Type any name to denote your current simulation (e.g., just "test-simulation" will do for now).
+Enter a name for the new simulation, then run steps with `run <step-count>`.
+
+### Running a Survey
+
+At the "Enter option:" prompt, issue:
 
 ```
-test-simulation
+survey <wave_id>
 ```
 
-Keep the simulator server running. At this stage, it will display the following prompt: "Enter option: "
+For example, `survey pre` collects a full eight-instrument wave and writes all output files to the run's `survey/` directory. Survey wave identifiers are arbitrary strings; the convention in these experiments is `pre`, `post`, or `t{step}`.
 
-### Step 3. Running and Saving the Simulation
+### Running Analysis
 
-On your browser, navigate to [http://localhost:8000/simulator_home](http://localhost:8000/simulator_home). You should see the map of Smallville, along with a list of active agents on the map. You can move around the map using your keyboard arrows. Please keep this tab open. To run the simulation, type the following command in your simulation server in response to the prompt, "Enter option":
+From the project root, after one or more survey waves have been collected:
 
-```
-run <step-count>
-```
+```bash
+# Primary analysis (micro-tie, bridge rank, community group metrics)
+python reverie/backend_server/analyze_survey.py \
+  environment/frontend_server/storage/<run>/survey
 
-Note that you will want to replace `<step-count>` above with an integer indicating the number of game steps you want to simulate. For instance, if you want to simulate 100 game steps, you should input `run 100`. One game step represents 10 seconds in the game.
+# Cross-checkpoint network summary
+python reverie/backend_server/survey_network_summary.py \
+  environment/frontend_server/storage/<run>/survey
 
-Your simulation should be running, and you will see the agents moving on the map in your browser. Once the simulation finishes running, the "Enter option" prompt will re-appear. At this point, you can simulate more steps by re-entering the run command with your desired game steps, exit the simulation without saving by typing `exit`, or save and exit by typing `fin`.
+# Shock-aligned pre/post audit
+python reverie/backend_server/shock_prepost_audit.py \
+  environment/frontend_server/storage/<run>/survey
 
-The saved simulation can be accessed the next time you run the simulation server by providing the name of your simulation as the forked simulation. This will allow you to restart your simulation from the point where you left off.
-
-### Step 4. Replaying a Simulation
-
-You can replay a simulation that you have already run simply by having your environment server running and navigating to the following address in your browser: `http://localhost:8000/replay/<simulation-name>/<starting-time-step>`. Please make sure to replace `<simulation-name>` with the name of the simulation you want to replay, and `<starting-time-step>` with the integer time-step from which you wish to start the replay.
-
-For instance, by visiting the following link, you will initiate a pre-simulated example, starting at time-step 1:  
-[http://localhost:8000/replay/July1_the_ville_isabella_maria_klaus-step-3-20/1/](http://localhost:8000/replay/July1_the_ville_isabella_maria_klaus-step-3-20/1/)
-
-### Step 5. Demoing a Simulation
-
-You may have noticed that all character sprites in the replay look identical. We would like to clarify that the replay function is primarily intended for debugging purposes and does not prioritize optimizing the size of the simulation folder or the visuals. To properly demonstrate a simulation with appropriate character sprites, you will need to compress the simulation first. To do this, open the `compress_sim_storage.py` file located in the `reverie` directory using a text editor. Then, execute the `compress` function with the name of the target simulation as its input. By doing so, the simulation file will be compressed, making it ready for demonstration.
-
-To start the demo, go to the following address on your browser: `http://localhost:8000/demo/<simulation-name>/<starting-time-step>/<simulation-speed>`. Note that `<simulation-name>` and `<starting-time-step>` denote the same things as mentioned above. `<simulation-speed>` can be set to control the demo speed, where 1 is the slowest, and 5 is the fastest. For instance, visiting the following link will start a pre-simulated example, beginning at time-step 1, with a medium demo speed:  
-[http://localhost:8000/demo/July1_the_ville_isabella_maria_klaus-step-3-20/1/3/](http://localhost:8000/demo/July1_the_ville_isabella_maria_klaus-step-3-20/1/3/)
-
-### Tips
-
-We've noticed that OpenAI's API can hang when it reaches the hourly rate limit. When this happens, you may need to restart your simulation. For now, we recommend saving your simulation often as you progress to ensure that you lose as little of the simulation as possible when you do need to stop and rerun it. Running these simulations, at least as of early 2023, could be somewhat costly, especially when there are many agents in the environment.
-
-##    Simulation Storage Location
-
-All simulations that you save will be located in `environment/frontend_server/storage`, and all compressed demos will be located in `environment/frontend_server/compressed_storage`. 
-
-##    Customization
-
-There are two ways to optionally customize your simulations. 
-
-### Author and Load Agent History
-
-First is to initialize agents with unique history at the start of the simulation. To do this, you would want to 1) start your simulation using one of the base simulations, and 2) author and load agent history. More specifically, here are the steps:
-
-#### Step 1. Starting Up a Base Simulation
-
-There are two base simulations included in the repository: `base_the_ville_n25` with 25 agents, and `base_the_ville_isabella_maria_klaus` with 3 agents. Load one of the base simulations by following the steps until step 2 above. 
-
-#### Step 2. Loading a History File
-
-Then, when prompted with "Enter option: ", you should load the agent history by responding with the following command:
-
-```
-call -- load history the_ville/<history_file_name>.csv
+# Figure generation
+python reverie/backend_server/figures/generate_figures.py \
+  environment/frontend_server/storage/<run>/survey \
+  --output-dir environment/frontend_server/storage/<run>/survey/figures
 ```
 
-Note that you will need to replace `<history_file_name>` with the name of an existing history file. There are two history files included in the repo as examples: `agent_history_init_n25.csv` for `base_the_ville_n25` and `agent_history_init_n3.csv` for `base_the_ville_isabella_maria_klaus`. These files include semicolon-separated lists of memory records for each of the agents—loading them will insert the memory records into the agents' memory stream.
 
-#### Step 3. Further Customization
+## Project Structure
 
-To customize the initialization by authoring your own history file, place your file in the following folder: `environment/frontend_server/static_dirs/assets/the_ville`. The column format for your custom history file will have to match the example history files included. Therefore, we recommend starting the process by copying and pasting the ones that are already in the repository.
+```
+generative_agents-main/
+├── analysis/
+│   └── network_from_nodes.py        helper for network construction
+├── environment/
+│   └── frontend_server/
+│       ├── manage.py                Django entry point
+│       ├── static_dirs/             map assets and agent history files
+│       └── storage/                 one folder per saved simulation run
+├── reverie/
+│   ├── compress_sim_storage.py
+│   └── backend_server/
+│       ├── reverie.py               simulation loop and survey/shock commands
+│       ├── perception_survey.py     eight-instrument survey runner
+│       ├── analyze_survey.py        post-hoc metric computation
+│       ├── survey_network_summary.py network diagnostics over time
+│       ├── shock_prepost_audit.py   shock-aligned pre/post comparison
+│       ├── ground_truth_log.py      ground truth CSV writers
+│       ├── background_social_truth.py background tie seeding
+│       ├── run_formal_protocol.py   formal experiment automation
+│       ├── verify_instruments.py    instrument output verification
+│       ├── figures/
+│       │   └── generate_figures.py  publication figure pipeline
+│       └── persona/
+│           └── prompt_template/v3_ChatGPT/  instrument prompt files
+├── requirements.txt
+└── README.md
+```
 
-### Create New Base Simulations
 
-For a more involved customization, you will need to author your own base simulation files. The most straightforward approach would be to copy and paste an existing base simulation folder, renaming and editing it according to your requirements. This process will be simpler if you decide to keep the agent names unchanged. However, if you wish to change their names or increase the number of agents that the Smallville map can accommodate, you might need to directly edit the map using the [Tiled](https://www.mapeditor.org/) map editor.
+## Upstream Attribution
 
-##    Authors and Citation
+This project builds on the research paper "[Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442)." It contains the core simulation module for generative agents—computational agents that simulate believable human behaviors—and their game environment.
 
 **Authors:** Joon Sung Park, Joseph C. O'Brien, Carrie J. Cai, Meredith Ringel Morris, Percy Liang, Michael S. Bernstein
 
-Please cite our paper if you use the code or data in this repository. 
+Please cite the upstream paper if you use the simulation infrastructure:
 
 ```
-@inproceedings{Park2023GenerativeAgents,  
-author = {Park, Joon Sung and O'Brien, Joseph C. and Cai, Carrie J. and Morris, Meredith Ringel and Liang, Percy and Bernstein, Michael S.},  
-title = {Generative Agents: Interactive Simulacra of Human Behavior},  
-year = {2023},  
-publisher = {Association for Computing Machinery},  
-address = {New York, NY, USA},  
-booktitle = {In the 36th Annual ACM Symposium on User Interface Software and Technology (UIST '23)},  
-keywords = {Human-AI interaction, agents, generative AI, large language models},  
-location = {San Francisco, CA, USA},  
-series = {UIST '23}
+@inproceedings{Park2023GenerativeAgents,
+  author    = {Park, Joon Sung and O'Brien, Joseph C. and Cai, Carrie J. and Morris, Meredith Ringel and Liang, Percy and Bernstein, Michael S.},
+  title     = {Generative Agents: Interactive Simulacra of Human Behavior},
+  year      = {2023},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  booktitle = {In the 36th Annual ACM Symposium on User Interface Software and Technology (UIST '23)},
+  keywords  = {Human-AI interaction, agents, generative AI, large language models},
+  location  = {San Francisco, CA, USA},
+  series    = {UIST '23}
 }
 ```
 
-##    Acknowledgements
-
-We encourage you to support the following three amazing artists who have designed the game assets for this project, especially if you are planning to use the assets included here for your own project: 
-
-- Background art: [PixyMoon (@_PixyMoon)](https://twitter.com/_PixyMoon_)
-- Furniture/interior design: [LimeZu (@lime_px)](https://twitter.com/lime_px)
-- Character design: [ぴぽ (@pipohi)](https://twitter.com/pipohi)
-
-In addition, we thank Lindsay Popowski, Philip Guo, Michael Terry, and the Center for Advanced Study in the Behavioral Sciences (CASBS) community for their insights, discussions, and support. Lastly, all locations featured in Smallville are inspired by real-world locations that Joon has frequented as an undergraduate and graduate student---he thanks everyone there for feeding and supporting him all these years.
+Game asset credits: background art by [PixyMoon (@_PixyMoon)](https://twitter.com/_PixyMoon_), furniture/interior design by [LimeZu (@lime_px)](https://twitter.com/lime_px), character design by [ぴぽ (@pipohi)](https://twitter.com/pipohi).

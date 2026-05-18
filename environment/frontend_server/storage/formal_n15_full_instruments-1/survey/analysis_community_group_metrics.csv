@@ -1,0 +1,17 @@
+wave_id,step,truth_definition,respondent,n_perceived_groups,n_actual_groups,nmi,ari,n_agents_placed,n_expected,n_fail_safe
+verify_all,1800,observed_interaction_louvain_communities,Abigail Chen,3,4,0.408134,0.176471,15,15,0
+verify_all,1800,observed_interaction_louvain_communities,Arthur Burton,3,4,0.516923,0.289522,15,15,0
+verify_all,1800,observed_interaction_louvain_communities,Ayesha Khan,2,4,0.298376,0.050503,15,15,0
+verify_all,1800,observed_interaction_louvain_communities,Carlos Gomez,2,4,0.201284,0.041721,15,15,0
+verify_all,1800,observed_interaction_louvain_communities,Francisco Lopez,1,4,0.000000,0.000000,15,15,15
+verify_all,1800,observed_interaction_louvain_communities,Giorgio Rossi,1,4,0.000000,0.000000,15,15,15
+verify_all,1800,observed_interaction_louvain_communities,Hailey Johnson,1,4,0.000000,0.000000,15,15,15
+verify_all,1800,observed_interaction_louvain_communities,Isabella Rodriguez,2,4,0.167100,-0.028495,15,15,0
+verify_all,1800,observed_interaction_louvain_communities,Klaus Mueller,3,4,0.510500,0.364630,15,15,0
+verify_all,1800,observed_interaction_louvain_communities,Latoya Williams,1,4,0.000000,0.000000,15,15,15
+verify_all,1800,observed_interaction_louvain_communities,Maria Lopez,3,4,0.226410,-0.011893,15,15,0
+verify_all,1800,observed_interaction_louvain_communities,Mei Lin,2,4,0.217429,-0.034901,15,15,0
+verify_all,1800,observed_interaction_louvain_communities,Rajiv Patel,2,4,0.456055,0.345503,15,15,0
+verify_all,1800,observed_interaction_louvain_communities,Ryan Park,1,4,0.000000,0.000000,15,15,15
+verify_all,1800,observed_interaction_louvain_communities,Wolfgang Schulz,3,4,0.349758,0.086569,15,15,0
+verify_all,1800,observed_interaction_louvain_communities,__overall__,2.000000,4,0.223465,0.085309,15.000000,15,75

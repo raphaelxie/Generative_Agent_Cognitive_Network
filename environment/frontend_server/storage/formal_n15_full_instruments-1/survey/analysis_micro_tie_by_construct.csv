@@ -1,0 +1,61 @@
+wave_id,step,construct,truth_layer,respondent,precision,recall,fpr,fnr,pair_accuracy,n_pairs,n_fail_safe
+t600,600,micro_tie_interaction,observed_interaction,__overall__,,,,,,0,0
+t600,600,micro_tie_social,observed_interaction,__overall__,,,,,,0,0
+t600,600,micro_tie_group,observed_interaction,__overall__,,,,,,0,0
+t1200,1200,micro_tie_interaction,observed_interaction,__overall__,,,,,,0,0
+t1200,1200,micro_tie_social,observed_interaction,__overall__,,,,,,0,0
+t1200,1200,micro_tie_group,observed_interaction,__overall__,,,,,,0,0
+1800,1800,micro_tie_interaction,observed_interaction,__overall__,,,,,,0,0
+1800,1800,micro_tie_social,observed_interaction,__overall__,,,,,,0,0
+1800,1800,micro_tie_group,observed_interaction,__overall__,,,,,,0,0
+debug_test,1800,micro_tie_interaction,observed_interaction,__overall__,,,,,,0,0
+debug_test,1800,micro_tie_social,observed_interaction,__overall__,,,,,,0,0
+debug_test,1800,micro_tie_group,observed_interaction,__overall__,,,,,,0,0
+verify_all,1800,micro_tie_interaction,observed_interaction,Abigail Chen,0.200000,0.440000,0.550000,0.560000,0.447619,105,0
+verify_all,1800,micro_tie_interaction,observed_interaction,Arthur Burton,0.240000,0.480000,0.475000,0.520000,0.514286,105,0
+verify_all,1800,micro_tie_interaction,observed_interaction,Ayesha Khan,0.163265,0.320000,0.512500,0.680000,0.447619,105,0
+verify_all,1800,micro_tie_interaction,observed_interaction,Carlos Gomez,0.289855,0.800000,0.612500,0.200000,0.485714,105,0
+verify_all,1800,micro_tie_interaction,observed_interaction,Francisco Lopez,0.207547,0.440000,0.525000,0.560000,0.466667,105,0
+verify_all,1800,micro_tie_interaction,observed_interaction,Giorgio Rossi,0.244898,0.480000,0.462500,0.520000,0.523810,105,0
+verify_all,1800,micro_tie_interaction,observed_interaction,Hailey Johnson,0.253968,0.640000,0.587500,0.360000,0.466667,105,0
+verify_all,1800,micro_tie_interaction,observed_interaction,Isabella Rodriguez,0.250000,0.440000,0.412500,0.560000,0.552381,105,14
+verify_all,1800,micro_tie_interaction,observed_interaction,Klaus Mueller,0.230769,0.600000,0.625000,0.400000,0.428571,105,0
+verify_all,1800,micro_tie_interaction,observed_interaction,Latoya Williams,0.292683,0.480000,0.362500,0.520000,0.600000,105,0
+verify_all,1800,micro_tie_interaction,observed_interaction,Maria Lopez,0.066667,0.043478,0.197183,0.956522,0.617021,94,56
+verify_all,1800,micro_tie_interaction,observed_interaction,Mei Lin,0.162162,0.240000,0.387500,0.760000,0.523810,105,0
+verify_all,1800,micro_tie_interaction,observed_interaction,Rajiv Patel,0.211538,0.440000,0.512500,0.560000,0.476190,105,0
+verify_all,1800,micro_tie_interaction,observed_interaction,Ryan Park,0.326923,0.680000,0.437500,0.320000,0.590476,105,0
+verify_all,1800,micro_tie_interaction,observed_interaction,Wolfgang Schulz,0.200000,0.440000,0.550000,0.560000,0.447619,105,0
+verify_all,1800,micro_tie_interaction,observed_interaction,__overall__,0.232310,0.466488,0.482788,0.533512,0.505115,1564,70
+verify_all,1800,micro_tie_social,observed_interaction,Abigail Chen,0.200000,0.440000,0.550000,0.560000,0.447619,105,0
+verify_all,1800,micro_tie_social,observed_interaction,Arthur Burton,0.222222,0.480000,0.525000,0.520000,0.476190,105,0
+verify_all,1800,micro_tie_social,observed_interaction,Ayesha Khan,0.163636,0.360000,0.575000,0.640000,0.409524,105,0
+verify_all,1800,micro_tie_social,observed_interaction,Carlos Gomez,0.236842,0.720000,0.725000,0.280000,0.380952,105,0
+verify_all,1800,micro_tie_social,observed_interaction,Francisco Lopez,0.174603,0.440000,0.650000,0.560000,0.371429,105,0
+verify_all,1800,micro_tie_social,observed_interaction,Giorgio Rossi,0.230769,0.480000,0.500000,0.520000,0.495238,105,0
+verify_all,1800,micro_tie_social,observed_interaction,Hailey Johnson,0.242857,0.680000,0.662500,0.320000,0.419048,105,0
+verify_all,1800,micro_tie_social,observed_interaction,Isabella Rodriguez,0.244898,0.480000,0.462500,0.520000,0.523810,105,0
+verify_all,1800,micro_tie_social,observed_interaction,Klaus Mueller,0.191781,0.560000,0.737500,0.440000,0.333333,105,0
+verify_all,1800,micro_tie_social,observed_interaction,Latoya Williams,0.216667,0.520000,0.587500,0.480000,0.438095,105,0
+verify_all,1800,micro_tie_social,observed_interaction,Maria Lopez,0.137931,0.160000,0.312500,0.840000,0.561905,105,0
+verify_all,1800,micro_tie_social,observed_interaction,Mei Lin,0.159091,0.280000,0.462500,0.720000,0.476190,105,0
+verify_all,1800,micro_tie_social,observed_interaction,Rajiv Patel,0.186441,0.440000,0.600000,0.560000,0.409524,105,0
+verify_all,1800,micro_tie_social,observed_interaction,Ryan Park,0.298246,0.680000,0.500000,0.320000,0.542857,105,0
+verify_all,1800,micro_tie_social,observed_interaction,Wolfgang Schulz,0.192982,0.440000,0.575000,0.560000,0.428571,105,0
+verify_all,1800,micro_tie_social,observed_interaction,__overall__,0.209848,0.477333,0.561667,0.522667,0.447619,1575,0
+verify_all,1800,micro_tie_group,observed_interaction,Abigail Chen,0.200000,0.440000,0.550000,0.560000,0.447619,105,0
+verify_all,1800,micro_tie_group,observed_interaction,Arthur Burton,0.226415,0.480000,0.512500,0.520000,0.485714,105,0
+verify_all,1800,micro_tie_group,observed_interaction,Ayesha Khan,0.189655,0.440000,0.587500,0.560000,0.419048,105,0
+verify_all,1800,micro_tie_group,observed_interaction,Carlos Gomez,0.267606,0.760000,0.650000,0.240000,0.447619,105,0
+verify_all,1800,micro_tie_group,observed_interaction,Francisco Lopez,0.196429,0.440000,0.576923,0.560000,0.427184,103,0
+verify_all,1800,micro_tie_group,observed_interaction,Giorgio Rossi,0.236364,0.520000,0.525000,0.480000,0.485714,105,0
+verify_all,1800,micro_tie_group,observed_interaction,Hailey Johnson,0.233333,0.560000,0.582278,0.440000,0.451923,104,0
+verify_all,1800,micro_tie_group,observed_interaction,Isabella Rodriguez,0.276596,0.520000,0.425000,0.480000,0.561905,105,0
+verify_all,1800,micro_tie_group,observed_interaction,Klaus Mueller,0.214286,0.600000,0.687500,0.400000,0.380952,105,0
+verify_all,1800,micro_tie_group,observed_interaction,Latoya Williams,0.203704,0.440000,0.537500,0.560000,0.457143,105,0
+verify_all,1800,micro_tie_group,observed_interaction,Maria Lopez,0.093750,0.125000,0.371795,0.875000,0.509804,102,0
+verify_all,1800,micro_tie_group,observed_interaction,Mei Lin,0.186047,0.320000,0.437500,0.680000,0.504762,105,0
+verify_all,1800,micro_tie_group,observed_interaction,Rajiv Patel,0.203704,0.440000,0.537500,0.560000,0.457143,105,0
+verify_all,1800,micro_tie_group,observed_interaction,Ryan Park,0.294118,0.600000,0.467532,0.400000,0.549020,102,0
+verify_all,1800,micro_tie_group,observed_interaction,Wolfgang Schulz,0.218182,0.480000,0.537500,0.520000,0.466667,105,0
+verify_all,1800,micro_tie_group,observed_interaction,__overall__,0.219902,0.478610,0.532718,0.521390,0.469987,1566,0

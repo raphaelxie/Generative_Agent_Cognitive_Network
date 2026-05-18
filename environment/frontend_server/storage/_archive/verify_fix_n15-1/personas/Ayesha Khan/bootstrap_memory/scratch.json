@@ -1,0 +1,325 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2026, 09:39:50",
+  "curr_tile": [
+    113,
+    37
+  ],
+  "daily_plan_req": "Ayesha Khan goes to the library at Oak Hill College to take classes from 10am to 2pm, and then spends her days studying at the library.",
+  "name": "Ayesha Khan",
+  "first_name": "Ayesha",
+  "last_name": "Khan",
+  "age": 20,
+  "innate": "curious, determined, independent",
+  "learned": "Ayesha Khan is a college student who loves to explore literature. She is curious and determined to understand the nuances of each work.",
+  "currently": "Ayesha Khan is researching for her senior thesis on the use of language in Shakespeare\u2019s plays. She is also taking classes to learn more about writing.",
+  "lifestyle": "Ayesha Khan goes to bed around 10pm, awakes up around 6am, eats dinner around 5pm.",
+  "living_area": "the Ville:Dorm for Oak Hill College:Ayesha Khan's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 204,
+  "importance_ele_n": 26,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "attend classes at the library from 10:00 am to 2:00 pm",
+    "have lunch at 12:00 pm",
+    "spend time studying for her senior thesis from 2:30 pm to 5:00 pm",
+    "eat dinner at 5:00 pm",
+    "take a short break to relax from 5:30 pm to 6:00 pm",
+    "continue studying and researching on Shakespeare\u2019s plays from 6:00 pm to 8:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "completing her morning routine",
+      60
+    ],
+    [
+      "preparing for her day and getting ready to head to the library (getting dressed)",
+      15
+    ],
+    [
+      "preparing for her day and getting ready to head to the library (on the way to brushing her teeth)",
+      0
+    ],
+    [
+      "preparing for her day and getting ready to head to the library (conversing about Ayesha Khan and Wolfgang Schulz discussing their academic interests, specifically Ayesha's thesis on Shakespeare's language and Wolfgang's chemistry lecture, while exchanging study tips and planning a study session together.)",
+      16
+    ],
+    [
+      "preparing for her day and getting ready to head to the library (doing her hair)",
+      10
+    ],
+    [
+      "preparing for her day and getting ready to head to the library (preparing breakfast)",
+      10
+    ],
+    [
+      "preparing for her day and getting ready to head to the library (eating breakfast)",
+      15
+    ],
+    [
+      "preparing for her day and getting ready to head to the library (packing her bag with books and supplies)",
+      5
+    ],
+    [
+      "attending her classes at the library (attending her literature class)",
+      15
+    ],
+    [
+      "attending her classes at the library (taking notes on the lecture)",
+      15
+    ],
+    [
+      "attending her classes at the library (participating in class discussions)",
+      10
+    ],
+    [
+      "attending her classes at the library (reviewing her notes from the lecture)",
+      9
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Ayesha is sleeping",
+      60
+    ],
+    [
+      "having lunch",
+      60
+    ],
+    [
+      "studying for her senior thesis on Shakespeare\u2019s plays",
+      180
+    ],
+    [
+      "continuing to study for her senior thesis on Shakespeare\u2019s plays",
+      60
+    ],
+    [
+      "eating dinner",
+      60
+    ],
+    [
+      "continuing to study and research on Shakespeare\u2019s plays",
+      60
+    ],
+    [
+      "taking a break to relax and unwind after a productive day of studying",
+      60
+    ],
+    [
+      "continuing to study and research on Shakespeare\u2019s plays",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Ayesha is sleeping",
+      60
+    ],
+    [
+      "reading a book or writing notes for her thesis",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Ayesha is sleeping",
+      60
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "completing her morning routine",
+      60
+    ],
+    [
+      "preparing for her day and getting ready to head to the library",
+      60
+    ],
+    [
+      "attending her classes at the library",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Ayesha is sleeping",
+      60
+    ],
+    [
+      "having lunch",
+      60
+    ],
+    [
+      "studying for her senior thesis on Shakespeare\u2019s plays",
+      180
+    ],
+    [
+      "continuing to study for her senior thesis on Shakespeare\u2019s plays",
+      60
+    ],
+    [
+      "eating dinner",
+      60
+    ],
+    [
+      "continuing to study and research on Shakespeare\u2019s plays",
+      60
+    ],
+    [
+      "taking a break to relax and unwind after a productive day of studying",
+      60
+    ],
+    [
+      "continuing to study and research on Shakespeare\u2019s plays",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Ayesha is sleeping",
+      60
+    ],
+    [
+      "reading a book or writing notes for her thesis",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Ayesha is sleeping",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Dorm for Oak Hill College:Ayesha Khan's room:desk",
+  "act_start_time": "February 13, 2026, 09:35:00",
+  "act_duration": 10,
+  "act_description": "preparing for her day and getting ready to head to the library (doing her hair)",
+  "act_pronunciatio": "\ud83d\udc87\u200d\u2640",
+  "act_event": [
+    "Ayesha Khan",
+    "do",
+    "hair"
+  ],
+  "act_obj_description": "cluttered with hair products and accessories",
+  "act_obj_pronunciatio": "\ud83d\udc87\u200d\u2640",
+  "act_obj_event": [
+    "desk",
+    "be",
+    "cluttered with hair products and accessories"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Wolfgang Schulz": 674
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": [
+    [
+      115,
+      37
+    ],
+    [
+      116,
+      37
+    ],
+    [
+      116,
+      38
+    ],
+    [
+      116,
+      39
+    ],
+    [
+      116,
+      40
+    ],
+    [
+      116,
+      41
+    ],
+    [
+      116,
+      42
+    ],
+    [
+      116,
+      43
+    ],
+    [
+      116,
+      44
+    ],
+    [
+      116,
+      45
+    ],
+    [
+      117,
+      45
+    ],
+    [
+      117,
+      46
+    ],
+    [
+      117,
+      47
+    ],
+    [
+      117,
+      48
+    ],
+    [
+      117,
+      49
+    ],
+    [
+      117,
+      50
+    ],
+    [
+      117,
+      51
+    ],
+    [
+      117,
+      52
+    ],
+    [
+      117,
+      53
+    ],
+    [
+      117,
+      54
+    ],
+    [
+      117,
+      55
+    ],
+    [
+      117,
+      56
+    ],
+    [
+      117,
+      57
+    ],
+    [
+      118,
+      57
+    ]
+  ]
+}

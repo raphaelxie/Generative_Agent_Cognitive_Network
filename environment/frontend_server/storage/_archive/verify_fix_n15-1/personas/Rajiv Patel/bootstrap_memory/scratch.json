@@ -1,0 +1,216 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2026, 09:39:50",
+  "curr_tile": [
+    25,
+    22
+  ],
+  "daily_plan_req": "",
+  "name": "Rajiv Patel",
+  "first_name": "Rajiv",
+  "last_name": "Patel",
+  "age": 27,
+  "innate": "patient, reliable, cheerful",
+  "learned": "Rajiv Patel is a painter who wants live quietly and paint while enjoying his everyday life.",
+  "currently": "Rajiv Patel is preparing for his first solo show. He mostly works from the artists' co-living space. Also, he recently got into playing the guitar.",
+  "lifestyle": "Rajiv Patel goes to bed around midnight, awakes up around 9am, eats dinner around 5pm.",
+  "living_area": "the Ville:artist's co-living space:Rajiv Patel's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 190,
+  "importance_ele_n": 25,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "painting in his studio (setting up his painting area)",
+      10
+    ],
+    [
+      "painting in his studio (selecting the colors he wants to use for his painting)",
+      10
+    ],
+    [
+      "painting in his studio (sketching the outline of his painting on the canvas)",
+      15
+    ],
+    [
+      "painting in his studio (applying the base layer of paint to the canvas)",
+      15
+    ],
+    [
+      "painting in his studio (adding details and textures to the painting)",
+      10
+    ],
+    [
+      "continuing to paint in his studio, focusing on his upcoming solo show (continuing to paint the background of his canvas)",
+      15
+    ],
+    [
+      "continuing to paint in his studio, focusing on his upcoming solo show (mixing new colors for the foreground elements)",
+      10
+    ],
+    [
+      "continuing to paint in his studio, focusing on his upcoming solo show (sketching the main subject on the canvas)",
+      15
+    ],
+    [
+      "continuing to paint in his studio, focusing on his upcoming solo show (painting the main subject with the base colors)",
+      15
+    ],
+    [
+      "continuing to paint in his studio, focusing on his upcoming solo show (adding details to the main subject)",
+      5
+    ],
+    [
+      "continuing to paint in his studio, preparing for his solo show",
+      60
+    ],
+    [
+      "taking a break for lunch and reflecting on his painting progress",
+      60
+    ],
+    [
+      "having lunch and enjoying some quiet time to recharge",
+      60
+    ],
+    [
+      "continuing to paint in his studio, focusing on the details for his solo show",
+      60
+    ],
+    [
+      "continuing to paint in his studio, adding final touches to his artwork for the solo show",
+      60
+    ],
+    [
+      "continuing to paint in his studio, reviewing his work and making adjustments as needed",
+      60
+    ],
+    [
+      "having dinner and unwinding after a productive day of painting",
+      60
+    ],
+    [
+      "continuing to paint in his studio, preparing for his upcoming solo show",
+      60
+    ],
+    [
+      "relaxing and playing guitar in the common area of the co-living space",
+      60
+    ],
+    [
+      "continuing to play guitar and enjoying the evening with fellow artists in the co-living space",
+      180
+    ],
+    [
+      "winding down for the night, reflecting on his day and preparing for bed",
+      60
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "painting in his studio",
+      60
+    ],
+    [
+      "continuing to paint in his studio, focusing on his upcoming solo show",
+      60
+    ],
+    [
+      "continuing to paint in his studio, preparing for his solo show",
+      60
+    ],
+    [
+      "taking a break for lunch and reflecting on his painting progress",
+      60
+    ],
+    [
+      "having lunch and enjoying some quiet time to recharge",
+      60
+    ],
+    [
+      "continuing to paint in his studio, focusing on the details for his solo show",
+      60
+    ],
+    [
+      "continuing to paint in his studio, adding final touches to his artwork for the solo show",
+      60
+    ],
+    [
+      "continuing to paint in his studio, reviewing his work and making adjustments as needed",
+      60
+    ],
+    [
+      "having dinner and unwinding after a productive day of painting",
+      60
+    ],
+    [
+      "continuing to paint in his studio, preparing for his upcoming solo show",
+      60
+    ],
+    [
+      "relaxing and playing guitar in the common area of the co-living space",
+      60
+    ],
+    [
+      "continuing to play guitar and enjoying the evening with fellow artists in the co-living space",
+      180
+    ],
+    [
+      "winding down for the night, reflecting on his day and preparing for bed",
+      60
+    ]
+  ],
+  "act_address": "the Ville:artist's co-living space:Rajiv Patel's room:easel",
+  "act_start_time": "February 13, 2026, 09:35:00",
+  "act_duration": 15,
+  "act_description": "painting in his studio (applying the base layer of paint to the canvas)",
+  "act_pronunciatio": "\ud83c\udfa8\ud83d\udd8c\ufe0f",
+  "act_event": [
+    "Rajiv Patel",
+    "apply",
+    "base layer of paint"
+  ],
+  "act_obj_description": "holding a canvas upright",
+  "act_obj_pronunciatio": "\ud83d\uddbc\ufe0f\u270b",
+  "act_obj_event": [
+    "easel",
+    "hold",
+    "canvas"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {},
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

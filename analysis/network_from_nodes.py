@@ -1,6 +1,3 @@
-# Author: CHATGPT,
-# CREATED BY: RAPHAEL XIE
-
 import argparse
 import json
 import re

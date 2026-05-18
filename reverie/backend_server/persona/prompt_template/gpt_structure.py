@@ -13,11 +13,31 @@ NOTE (migration patch):
 """
 
 import json
+import signal
 import time
 import os
 import hashlib
 
 from openai import OpenAI
+
+
+class _HardTimeout(Exception):
+    pass
+
+
+def _hard_timeout_handler(signum, frame):
+    raise _HardTimeout("API call exceeded hard timeout")
+
+
+def _with_hard_timeout(func, hard_seconds=90):
+    """Call func() with a SIGALRM-based hard deadline (Unix only)."""
+    old_handler = signal.signal(signal.SIGALRM, _hard_timeout_handler)
+    signal.alarm(hard_seconds)
+    try:
+        return func()
+    finally:
+        signal.alarm(0)
+        signal.signal(signal.SIGALRM, old_handler)
 
 # Keep utils import if other code relies on it.
 # (If utils.py defines other constants/helpers used elsewhere, leave this.)
@@ -58,6 +78,11 @@ def _dbg2483ef(message, data, hypothesis_id):
 # Reads API key from environment variable. You already verified this works:
 #   export OPENAI_API_KEY="..."
 _api_key = os.environ.get("OPENAI_API_KEY", None)
+_base_url = os.environ.get("OPENAI_BASE_URL", None)
+
+# Separate embedding provider (falls back to chat key/default OpenAI endpoint)
+_embed_api_key  = os.environ.get("OPENAI_EMBED_API_KEY", _api_key)
+_embed_base_url = os.environ.get("OPENAI_EMBED_BASE_URL", None)
 
 # Default model can be overridden:
 #   export OPENAI_MODEL="gpt-5-mini"  (or any model available to your account)
@@ -67,16 +92,28 @@ DEFAULT_CHAT_MODEL = os.environ.get("OPENAI_MODEL", "gpt-5-mini")
 DEFAULT_EMBED_MODEL = os.environ.get("OPENAI_EMBED_MODEL", "text-embedding-3-small")
 
 # Bound OpenAI calls so a bad connection or half-closed socket cannot hang a run forever.
-DEFAULT_OPENAI_TIMEOUT = float(os.environ.get("OPENAI_TIMEOUT_SECONDS", "45"))
-DEFAULT_OPENAI_MAX_RETRIES = int(os.environ.get("OPENAI_MAX_RETRIES", "1"))
+DEFAULT_OPENAI_TIMEOUT = float(os.environ.get("OPENAI_TIMEOUT_SECONDS", "60"))
+DEFAULT_OPENAI_MAX_RETRIES = int(os.environ.get("OPENAI_MAX_RETRIES", "3"))
 
-# Rebuild client with bounded timeout/retry behavior. The earlier client construction is
-# retained above for historical context, but all calls below use this configured client.
-client = OpenAI(
+# Chat client (points to DeepSeek when OPENAI_BASE_URL is set)
+_chat_kwargs = dict(
     api_key=_api_key,
     timeout=DEFAULT_OPENAI_TIMEOUT,
     max_retries=DEFAULT_OPENAI_MAX_RETRIES,
 )
+if _base_url:
+    _chat_kwargs["base_url"] = _base_url
+client = OpenAI(**_chat_kwargs)
+
+# Embedding client (points to OpenAI unless OPENAI_EMBED_BASE_URL overrides)
+_embed_kwargs = dict(
+    api_key=_embed_api_key,
+    timeout=DEFAULT_OPENAI_TIMEOUT,
+    max_retries=DEFAULT_OPENAI_MAX_RETRIES,
+)
+if _embed_base_url:
+    _embed_kwargs["base_url"] = _embed_base_url
+embed_client = OpenAI(**_embed_kwargs)
 
 
 def temp_sleep(seconds: float = 0.1):
@@ -115,7 +152,9 @@ def _chat(prompt: str, model: str = None, temperature: float = 0.7, max_tokens: 
         )
         if stop:
             api_kwargs["stop"] = stop
-        resp = client.chat.completions.create(**api_kwargs)
+        resp = _with_hard_timeout(
+            lambda: client.chat.completions.create(**api_kwargs),
+            hard_seconds=90)
     except Exception as e:
         # #region agent log
         _dbg2483ef("chat_request_exception", {
@@ -188,6 +227,16 @@ def ChatGPT_request(prompt: str) -> str:
         return "ChatGPT ERROR"
 
 
+def _strip_code_fences(text):
+    """Strip markdown code fences (```json ... ```) from LLM responses."""
+    import re as _re
+    text = text.strip()
+    m = _re.match(r'^```(?:json)?\s*\n?(.*?)\n?\s*```$', text, _re.DOTALL)
+    if m:
+        return m.group(1).strip()
+    return text
+
+
 def GPT4_safe_generate_response(prompt,
                                 example_output,
                                 special_instruction,
@@ -208,6 +257,7 @@ def GPT4_safe_generate_response(prompt,
     for i in range(repeat):
         try:
             curr_gpt_response = GPT4_request(prompt).strip()
+            curr_gpt_response = _strip_code_fences(curr_gpt_response)
             end_index = curr_gpt_response.rfind('}') + 1
             curr_gpt_response = curr_gpt_response[:end_index]
             curr_gpt_response = json.loads(curr_gpt_response)["output"]
@@ -246,6 +296,7 @@ def ChatGPT_safe_generate_response(prompt,
     for i in range(repeat):
         try:
             curr_gpt_response = ChatGPT_request(prompt).strip()
+            curr_gpt_response = _strip_code_fences(curr_gpt_response)
             end_index = curr_gpt_response.rfind('}') + 1
             curr_gpt_response = curr_gpt_response[:end_index]
             curr_gpt_response = json.loads(curr_gpt_response)["output"]
@@ -382,10 +433,9 @@ def get_embedding(text: str, model: str = None):
     }, "EMBED-A")
     # #endregion
     try:
-        resp = client.embeddings.create(
-            model=used_model,
-            input=text
-        )
+        resp = _with_hard_timeout(
+            lambda: embed_client.embeddings.create(model=used_model, input=text),
+            hard_seconds=90)
     except Exception as e:
         # #region agent log
         _dbg2483ef("embedding_request_exception", {
@@ -439,7 +489,7 @@ if __name__ == '__main__':
     }
 
     curr_input = ["driving to a friend's house"]
-    prompt_lib_file = "prompt_template/test_prompt_July5.txt"
+    prompt_lib_file = "v1/test_prompt_July5.txt"
     prompt = generate_prompt(curr_input, prompt_lib_file)
 
     def __func_validate(gpt_response, prompt=None):

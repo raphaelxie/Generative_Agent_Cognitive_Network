@@ -1,0 +1,200 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2026, 09:39:50",
+  "curr_tile": [
+    76,
+    33
+  ],
+  "daily_plan_req": "Isabella Rodriguez opens Hobbs Cafe at 8am everyday, and stands at the counter until 8pm, at which point she closes the cafe.",
+  "name": "Isabella Rodriguez",
+  "first_name": "Isabella",
+  "last_name": "Rodriguez",
+  "age": 34,
+  "innate": "friendly, outgoing, hospitable",
+  "learned": "Isabella Rodriguez is a cafe owner of Hobbs Cafe who loves to make people feel welcome. She is always looking for ways to make the cafe a place where people can come to relax and enjoy themselves.",
+  "currently": "Isabella Rodriguez is planning on having a Valentine's Day party at Hobbs Cafe with her customers on February 14th, 2023 at 5pm. She is gathering party material, and is telling everyone to join the party at Hobbs Cafe on *February 14th, 2023, from 5pm to 7pm*.",
+  "lifestyle": "Isabella Rodriguez goes to bed around 11pm, awakes up around 6am.",
+  "living_area": "the Ville:Isabella Rodriguez's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 160,
+  "importance_ele_n": 48,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "open Hobbs Cafe at 8:00 am",
+    "prepare for the Valentine's Day party by gathering decorations and party materials from 9:00 am to 11:00 am",
+    "serve customers and manage the cafe from 11:00 am to 4:00 pm",
+    "take a quick break for lunch at 4:00 pm",
+    "continue serving customers and finalizing party details from 4:30 pm to 7:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "gathering decorations and party materials for the Valentine's Day party (gathering a list of decoration ideas)",
+      15
+    ],
+    [
+      "gathering decorations and party materials for the Valentine's Day party (shopping for balloons)",
+      20
+    ],
+    [
+      "gathering decorations and party materials for the Valentine's Day party (on the way to selecting tablecloths and napkins)",
+      0
+    ],
+    [
+      "gathering decorations and party materials for the Valentine's Day party (conversing about Isabella Rodriguez and Mei Lin discussing party planning tips for a Valentine's Day party at a cafe, including decorations, snacks, and games.)",
+      7
+    ],
+    [
+      "gathering decorations and party materials for the Valentine's Day party (purchasing heart-shaped decorations)",
+      15
+    ],
+    [
+      "gathering decorations and party materials for the Valentine's Day party (picking up party favors for guests)",
+      15
+    ],
+    [
+      "gathering decorations and party materials for the Valentine's Day party (gathering supplies for a photo booth)",
+      20
+    ],
+    [
+      "gathering decorations and party materials for the Valentine's Day party (organizing the decorations at the cafe)",
+      15
+    ],
+    [
+      "gathering decorations and party materials for the Valentine's Day party (creating a checklist for the party setup)",
+      5
+    ],
+    [
+      "serving customers and managing the cafe",
+      300
+    ],
+    [
+      "taking a quick break for lunch",
+      60
+    ],
+    [
+      "continuing to serve customers and finalizing party details",
+      180
+    ],
+    [
+      "closing Hobbs Cafe for the day and preparing to head home",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Isabella is sleeping",
+      180
+    ],
+    [
+      "sleeping",
+      8
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "gathering decorations and party materials for the Valentine's Day party",
+      120
+    ],
+    [
+      "serving customers and managing the cafe",
+      300
+    ],
+    [
+      "taking a quick break for lunch",
+      60
+    ],
+    [
+      "continuing to serve customers and finalizing party details",
+      180
+    ],
+    [
+      "closing Hobbs Cafe for the day and preparing to head home",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Isabella is sleeping",
+      180
+    ]
+  ],
+  "act_address": "the Ville:Hobbs Cafe:cafe:cafe customer seating",
+  "act_start_time": "February 13, 2026, 09:35:00",
+  "act_duration": 7,
+  "act_description": "gathering decorations and party materials for the Valentine's Day party (conversing about Isabella Rodriguez and Mei Lin discussing party planning tips for a Valentine's Day party at a cafe, including decorations, snacks, and games.)",
+  "act_pronunciatio": "\ud83d\udcac\u2764\ufe0f",
+  "act_event": [
+    "Isabella Rodriguez",
+    "converse",
+    "party planning tips"
+  ],
+  "act_obj_description": "occupied with customers discussing party planning",
+  "act_obj_pronunciatio": "\ud83c\udf89\ud83d\udde3\ufe0f",
+  "act_obj_event": [
+    "cafe customer seating",
+    "be",
+    "occupied with customers discussing party planning"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Mei Lin": 770
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": [
+    [
+      76,
+      31
+    ],
+    [
+      76,
+      30
+    ],
+    [
+      76,
+      29
+    ],
+    [
+      76,
+      28
+    ],
+    [
+      76,
+      27
+    ],
+    [
+      76,
+      26
+    ],
+    [
+      76,
+      25
+    ]
+  ]
+}

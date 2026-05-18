@@ -1,0 +1,200 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2026, 08:00:00",
+  "curr_tile": [
+    36,
+    18
+  ],
+  "daily_plan_req": "",
+  "name": "Abigail Chen",
+  "first_name": "Abigail",
+  "last_name": "Chen",
+  "age": 25,
+  "innate": "open-minded, curious, determined",
+  "learned": "Abigail Chen is a digital artist and animator who loves to explore how technology can be used to express ideas. She is always looking for new ways to combine art and technology.",
+  "currently": "Abigail Chen is working on an animation project for a client. She is also experimenting with different tools and techniques to create interactive art.",
+  "lifestyle": "Abigail Chen goes to bed around midnight, awakes up around 8am, eats dinner around 6pm.",
+  "living_area": "the Ville:artist's co-living space:Abigail Chen's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 246,
+  "importance_ele_n": 4,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "start working on the animation project for the client at 9:00 am",
+    "have a lunch break at 12:00 pm",
+    "continue working on the animation until 3:00 pm",
+    "take a break and experiment with different tools and techniques for interactive art from 3:00 pm to 5:00 pm",
+    "wrap up the day's work and review progress from 5:00 pm to 6:00 pm",
+    "have dinner at 6:00 pm",
+    "from 7:00 pm to 9:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Abigail is working on her animation project, focusing on character design and storyboarding.\n\n[Friday February 13 -- 01:00 AM] Activity: Abigail continues to refine her character",
+      180
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Abigail is working on her animation project, focusing on character design and storyboarding.\n[Friday February 13 -- 01:00 AM] Activity: Abigail continues to refine her character",
+      240
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Abigail is working on her animation project, focusing on character design and storyboarding.\n\n[Friday February 13 -- 01:00 AM] Activity: Abigail continues to refine her character",
+      60
+    ],
+    [
+      "waking up and completing her morning routine.\n\n[Friday February 13 -- 09:00 AM] Activity: Abigail is starting to work on the animation project for her client, focusing on developing the storyline and keyframes.\n\n[Friday February 13",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Abigail is working on her animation project, focusing on character design and storyboarding.\n\n[Friday February 13 -- 01:00 AM] Activity: Abigail continues to refine her character (1) Abigail is gathering reference images for character design)",
+      10
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Abigail is working on her animation project, focusing on character design and storyboarding.\n\n[Friday February 13 -- 01:00 AM] Activity: Abigail continues to refine her character (sketching initial character concepts)",
+      15
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Abigail is working on her animation project, focusing on character design and storyboarding.\n\n[Friday February 13 -- 01:00 AM] Activity: Abigail continues to refine her character (selecting the best character sketches to develop further)",
+      10
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Abigail is working on her animation project, focusing on character design and storyboarding.\n\n[Friday February 13 -- 01:00 AM] Activity: Abigail continues to refine her character (refining the chosen character design)",
+      15
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Abigail is working on her animation project, focusing on character design and storyboarding.\n\n[Friday February 13 -- 01:00 AM] Activity: Abigail continues to refine her character (creating a color palette for the character)",
+      10
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Abigail is working on her animation project, focusing on character design and storyboarding.\n[Friday February 13 -- 01:00 AM] Activity: Abigail continues to refine her character",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Abigail is working on her animation project, focusing on character design and storyboarding.\n\n[Friday February 13 -- 01:00 AM] Activity: Abigail continues to refine her character",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Abigail is working on her animation project, focusing on character design and storyboarding.\n[Friday February 13 -- 01:00 AM] Activity: Abigail continues to refine her character",
+      60
+    ],
+    [
+      "Here's the completed hourly schedule for Abigail Chen on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Abigail is working on her animation project, focusing on character design and storyboarding.\n\n[Friday February 13",
+      60
+    ],
+    [
+      "Here\u2019s the completed hourly schedule for Abigail Chen on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Abigail is working on her animation project, focusing on character design and storyboarding.\n\n[Friday February",
+      180
+    ],
+    [
+      "Here's the completed hourly schedule for Abigail Chen on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Abigail is working on her animation project, focusing on character design and storyboarding.\n\n[Friday February 13",
+      60
+    ],
+    [
+      "Here\u2019s the completed hourly schedule for Abigail Chen on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Abigail is working on her animation project, focusing on character design and storyboarding.\n\n[Friday February",
+      360
+    ],
+    [
+      "sleeping",
+      0
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Abigail is working on her animation project, focusing on character design and storyboarding.\n\n[Friday February 13 -- 01:00 AM] Activity: Abigail continues to refine her character",
+      180
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Abigail is working on her animation project, focusing on character design and storyboarding.\n[Friday February 13 -- 01:00 AM] Activity: Abigail continues to refine her character",
+      240
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Abigail is working on her animation project, focusing on character design and storyboarding.\n\n[Friday February 13 -- 01:00 AM] Activity: Abigail continues to refine her character",
+      60
+    ],
+    [
+      "waking up and completing her morning routine.\n\n[Friday February 13 -- 09:00 AM] Activity: Abigail is starting to work on the animation project for her client, focusing on developing the storyline and keyframes.\n\n[Friday February 13",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Abigail is working on her animation project, focusing on character design and storyboarding.\n\n[Friday February 13 -- 01:00 AM] Activity: Abigail continues to refine her character",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Abigail is working on her animation project, focusing on character design and storyboarding.\n[Friday February 13 -- 01:00 AM] Activity: Abigail continues to refine her character",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Abigail is working on her animation project, focusing on character design and storyboarding.\n\n[Friday February 13 -- 01:00 AM] Activity: Abigail continues to refine her character",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Abigail is working on her animation project, focusing on character design and storyboarding.\n[Friday February 13 -- 01:00 AM] Activity: Abigail continues to refine her character",
+      60
+    ],
+    [
+      "Here's the completed hourly schedule for Abigail Chen on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Abigail is working on her animation project, focusing on character design and storyboarding.\n\n[Friday February 13",
+      60
+    ],
+    [
+      "Here\u2019s the completed hourly schedule for Abigail Chen on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Abigail is working on her animation project, focusing on character design and storyboarding.\n\n[Friday February",
+      180
+    ],
+    [
+      "Here's the completed hourly schedule for Abigail Chen on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Abigail is working on her animation project, focusing on character design and storyboarding.\n\n[Friday February 13",
+      60
+    ],
+    [
+      "Here\u2019s the completed hourly schedule for Abigail Chen on Friday, February 13:\n\n[Friday February 13 -- 00:00 AM] Activity: Abigail is working on her animation project, focusing on character design and storyboarding.\n\n[Friday February",
+      360
+    ]
+  ],
+  "act_address": "the Ville:artist's co-living space:Abigail Chen's room:desk",
+  "act_start_time": "February 13, 2026, 08:00:00",
+  "act_duration": 60,
+  "act_description": "waking up and completing her morning routine.\n\n[Friday February 13 -- 09:00 AM] Activity: Abigail is starting to work on the animation project for her client, focusing on developing the storyline and keyframes.\n\n[Friday February 13",
+  "act_pronunciatio": "\u2600\ufe0f\ud83c\udfa8",
+  "act_event": [
+    "Abigail Chen",
+    "start",
+    "animation project"
+  ],
+  "act_obj_description": "in use with papers and materials for animation project",
+  "act_obj_pronunciatio": "\ud83d\udcc4\ud83c\udfa8",
+  "act_obj_event": [
+    "desk",
+    "is in use with",
+    "papers and materials for animation project"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {},
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": [
+    [
+      36,
+      20
+    ],
+    [
+      36,
+      21
+    ],
+    [
+      36,
+      22
+    ]
+  ]
+}

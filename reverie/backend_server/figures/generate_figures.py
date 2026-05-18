@@ -95,8 +95,14 @@ def _shock_step(survey_dir: Path) -> Optional[int]:
     if not p.exists():
         return None
     try:
-        line = p.read_text().splitlines()[0].strip()
-        return int(json.loads(line)["step"])
+        lines = [l.strip() for l in p.read_text().splitlines() if l.strip()]
+        if not lines:
+            return None
+        for line in lines:
+            obj = json.loads(line)
+            if obj.get("command", "").startswith("shock_isolate"):
+                return int(obj["step"])
+        return None
     except Exception as exc:
         print(f"  [warn] shock_log.jsonl: {exc}", file=sys.stderr)
         return None
@@ -122,9 +128,14 @@ def load_run(survey_dir: Path) -> dict:
         p = d / "shock_log.jsonl"
         if p.exists():
             try:
-                label = json.loads(p.read_text().splitlines()[0]).get(
-                    "treatment_type"
-                )
+                for _line in p.read_text().splitlines():
+                    _line = _line.strip()
+                    if not _line:
+                        continue
+                    obj = json.loads(_line)
+                    if obj.get("command", "").startswith("shock_isolate"):
+                        label = obj.get("treatment_type")
+                        break
             except Exception:
                 pass
     if label is None:
@@ -190,7 +201,18 @@ def _fval(df_slice: pd.DataFrame, col: str, default: float = 0.0) -> float:
     """Safely extract a scalar float from the first row of a column."""
     if col in df_slice.columns and not df_slice.empty:
         v = df_slice[col].iloc[0]
-        return float(v) if not pd.isna(v) else default
+        if isinstance(v, str):
+            v = v.strip()
+            if v == "":
+                return default
+            try:
+                return float(v)
+            except (ValueError, TypeError):
+                return default
+        try:
+            return float(v) if not pd.isna(v) else default
+        except (ValueError, TypeError):
+            return default
     return default
 
 
@@ -695,8 +717,8 @@ def fig5_retrieval_diagnostics(runs: list[dict], outdir: Path) -> list[str]:
             ax = ax_row[ai]
             if col not in df.columns:
                 continue
-            pv = float(pre[col].iloc[0])
-            ptv = float(post[col].iloc[0])
+            pv = _fval(pre, col)
+            ptv = _fval(post, col)
 
             ax.bar(
                 0 + off,

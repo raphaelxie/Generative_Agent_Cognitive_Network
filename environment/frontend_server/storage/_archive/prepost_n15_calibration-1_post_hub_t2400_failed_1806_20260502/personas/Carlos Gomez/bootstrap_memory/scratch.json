@@ -1,0 +1,339 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2026, 13:00:50",
+  "curr_tile": [
+    72,
+    31
+  ],
+  "daily_plan_req": "",
+  "name": "Carlos Gomez",
+  "first_name": "Carlos",
+  "last_name": "Gomez",
+  "age": 32,
+  "innate": "loud, rude, toxic",
+  "learned": "Carlos Gomez is a poet who loves to explore his inner thoughts and feelings. He is always looking for new ways to express himself.",
+  "currently": "Carlos Gomez is working on a collection of poetry that explores the beauty of the natural world. He is also attending creative writing workshops to hone his skills.",
+  "lifestyle": "Carlos Gomez goes to bed around 10pm, awakes up around 7am, eats dinner around 5pm.",
+  "living_area": "the Ville:Carlos Gomez's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 106,
+  "importance_ele_n": 47,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "work on poetry collection from 8:30 am to 11:00 am",
+    "attend creative writing workshop from 11:30 am to 1:00 pm",
+    "have lunch from 1:15 pm to 2:00 pm",
+    "go for a walk in nature for inspiration from 2:30 pm to 3:30 pm",
+    "write in journal from 4:00 pm to 5:00 pm",
+    "have dinner at 5:00 pm",
+    "read poetry from 6:00 pm to 7:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "working on his poetry collection (working on brainstorming themes for his poetry collection)",
+      20
+    ],
+    [
+      "working on his poetry collection (writing rough drafts of poems based on the themes)",
+      30
+    ],
+    [
+      "working on his poetry collection (revising the rough drafts to improve the language and imagery)",
+      30
+    ],
+    [
+      "working on his poetry collection (on the way to reading his poems aloud to check for flow and rhythm)",
+      0
+    ],
+    [
+      "working on his poetry collection (conversing about Ryan Park and Carlos Gomez discussing their creative projects, with Carlos sharing insights about his poetry collection focused on nature and emotions, while Ryan talks about developing a productivity app.)",
+      13
+    ],
+    [
+      "working on his poetry collection (taking a short break to clear his mind)",
+      25
+    ],
+    [
+      "attending a creative writing workshop (on the way to attending the workshop introduction)",
+      0
+    ],
+    [
+      "attending a creative writing workshop (conversing about Hailey Johnson and Carlos Gomez conversing about their respective writing projects, including Hailey's novel about a group of artists and Carlos's poetry collection inspired by nature, while sharing insights on themes, plot twists, character development, and their creative processes.)",
+      10
+    ],
+    [
+      "attending a creative writing workshop (participating in a group discussion about poetry)",
+      15
+    ],
+    [
+      "attending a creative writing workshop (on the way to sharing his own poetry with the group)",
+      0
+    ],
+    [
+      "attending a creative writing workshop (conversing about Isabella Rodriguez and Carlos Gomez discussing Carlos's poetry collection, a Valentine's Day party at the cafe, dessert ideas, and planning activities and trivia for the event.)",
+      16
+    ],
+    [
+      "attending a creative writing workshop (receiving feedback from peers on his work)",
+      10
+    ],
+    [
+      "attending a creative writing workshop (taking notes on the feedback received)",
+      5
+    ],
+    [
+      "attending a creative writing workshop (engaging in a writing exercise prompted by the instructor)",
+      10
+    ],
+    [
+      "having lunch (on the way to preparing his lunch)",
+      0
+    ],
+    [
+      "having lunch (conversing about Giorgio Rossi and Carlos Gomez discussing their creative projects, with Carlos sharing insights from his poetry workshop focused on nature, while Giorgio talks about his research on the Fibonacci sequence and its application in an app, leading to plans for collaboration.)",
+      15
+    ],
+    [
+      "having lunch (setting the table)",
+      5
+    ],
+    [
+      "having lunch (sitting down to eat)",
+      5
+    ],
+    [
+      "having lunch (on the way to eating his lunch)",
+      0
+    ],
+    [
+      "having lunch (conversing about Carlos Gomez and Klaus Mueller discussing their respective creative projects, with Carlos working on a poetry collection about nature and Klaus focused on a research paper about gentrification, and exploring the idea of collaborating to blend their works together.)",
+      18
+    ],
+    [
+      "having lunch (on the way to reflecting on his poetry while eating)",
+      0
+    ],
+    [
+      "having lunch (conversing about Carlos Gomez and Wolfgang Schulz discussing their respective projects, with Carlos sharing updates on his poetry collection and collaboration with Klaus, while Wolfgang talks about balancing his studies and training for competitions, ultimately planning to brainstorm ideas together.)",
+      18
+    ],
+    [
+      "having lunch (finishing his lunch)",
+      10
+    ],
+    [
+      "having lunch (cleaning up the table)",
+      10
+    ],
+    [
+      "having lunch (washing the dishes)",
+      15
+    ],
+    [
+      "having lunch (drying the dishes)",
+      10
+    ],
+    [
+      "having lunch (putting the dishes away)",
+      5
+    ],
+    [
+      "having lunch (taking a moment to relax before his walk)",
+      5
+    ],
+    [
+      "going for a walk in nature for inspiration",
+      46
+    ],
+    [
+      "writing in his journal",
+      120
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "reading poetry",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Carlos is sleeping",
+      240
+    ],
+    [
+      "sleeping",
+      60
+    ],
+    [
+      "sleeping",
+      2
+    ],
+    [
+      "sleeping",
+      12
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "working on his poetry collection",
+      120
+    ],
+    [
+      "attending a creative writing workshop",
+      60
+    ],
+    [
+      "having lunch",
+      120
+    ],
+    [
+      "going for a walk in nature for inspiration",
+      60
+    ],
+    [
+      "writing in his journal",
+      120
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "reading poetry",
+      60
+    ],
+    [
+      "[Friday February 13 -- 00:00 AM] Activity: Carlos is sleeping",
+      240
+    ],
+    [
+      "sleeping",
+      60
+    ]
+  ],
+  "act_address": "<persona> Wolfgang Schulz",
+  "act_start_time": "February 13, 2026, 12:45:00",
+  "act_duration": 18,
+  "act_description": "conversing about Carlos Gomez and Wolfgang Schulz discussing their respective projects, with Carlos sharing updates on his poetry collection and collaboration with Klaus, while Wolfgang talks about balancing his studies and training for competitions, ultimately planning to brainstorm ideas together.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Carlos Gomez",
+    "chat with",
+    "Wolfgang Schulz"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Wolfgang Schulz",
+  "chat": [
+    [
+      "Carlos Gomez",
+      "Hey Wolfgang! I noticed you were having lunch with some friends. How's everything going with your current projects? Any exciting updates?"
+    ],
+    [
+      "Wolfgang Schulz",
+      "Hey Carlos! Things are going pretty well. I've been focused on studying for my chemistry exam and training for my next competition. How's your poetry collection coming along? I heard you were thinking about collaborating with Klaus."
+    ],
+    [
+      "Carlos Gomez",
+      "It's going well! I've been exploring themes in nature and I'm really excited about the potential collaboration with Klaus. We're looking at how gentrification impacts local neighborhoods, which could add an interesting layer to my poetry. How do you balance your studies and training? Any tips for staying focused?"
+    ],
+    [
+      "Wolfgang Schulz",
+      "It sounds like a fascinating project! Balancing studies and training can be challenging, but I try to stick to a strict schedule. I usually start my day with a run, then dedicate specific blocks of time for studying and training. I also find it helpful to set small goals for each session. What themes are you focusing on in your poetry?"
+    ],
+    [
+      "Carlos Gomez",
+      "I'm focusing on the beauty of the natural world, like the changing seasons and the emotions they evoke. I want to capture the connection we have with nature and how it reflects our inner feelings. It's a bit of a departure from my usual style, but I'm enjoying the challenge. Do you find inspiration for your competitions in your studies or is it more about the training itself?"
+    ],
+    [
+      "Wolfgang Schulz",
+      "I find that my studies do inspire my training in a way. The discipline I develop while studying helps me stay focused during my workouts, and sometimes the problem-solving skills I use in chemistry translate to the strategies I employ in competitions. It's all about finding that balance, right? By the way, have you thought about how you'll incorporate your collaboration with Klaus into your poetry collection?"
+    ],
+    [
+      "Carlos Gomez",
+      "Absolutely! I'm thinking of weaving in some narrative elements that highlight specific neighborhoods affected by gentrification. It could be a powerful way to show how nature and community intersect. I'd love to hear your thoughts on that\u2014maybe there's a way to connect it to your studies in chemistry and the competition mindset."
+    ],
+    [
+      "Wolfgang Schulz",
+      "That sounds like a powerful approach, Carlos! I think incorporating personal narratives can really resonate with readers. Maybe you could explore how the natural environment affects the community's identity, just like how our training shapes our competitive mindset. I'd love to brainstorm some ideas with you if you're interested!"
+    ],
+    [
+      "Carlos Gomez",
+      "I would really appreciate that, Wolfgang! Your perspective on how the environment shapes identity is intriguing, and it could add depth to my poetry. Let's set a time to brainstorm together. When are you free?"
+    ],
+    [
+      "Wolfgang Schulz",
+      "I'm usually free in the evenings after my training, around 7 PM. Does that work for you? We can meet up and throw around some ideas!"
+    ],
+    [
+      "Carlos Gomez",
+      "7 PM works for me! Let's meet at that cafe we like. I'm looking forward to bouncing around ideas with you!"
+    ],
+    [
+      "Wolfgang Schulz",
+      "Great! I'll see you at the cafe then. I'm excited to see how we can connect those themes! Let me know if you have any specific ideas in mind before we meet."
+    ],
+    [
+      "Carlos Gomez",
+      "Absolutely! I'll think of some specific ideas to share before our meeting. I'm really looking forward to exploring how we can blend our perspectives. See you at 7 PM!"
+    ],
+    [
+      "Wolfgang Schulz",
+      "Sounds good, Carlos! I'm looking forward to it. I'll also jot down some ideas from my studies that might tie in with your themes. See you later!"
+    ],
+    [
+      "Carlos Gomez",
+      "Great! I'll also review some of my poetry drafts to see how I can incorporate our discussion. It's going to be an enriching collaboration. By the way, do you have any favorite poems or poets that inspire you? I'd love to hear who influences your approach to your own work."
+    ],
+    [
+      "Wolfgang Schulz",
+      "That's a great question, Carlos! I really admire the works of poets like Mary Oliver and Pablo Neruda. Their ability to capture the essence of nature and human emotion really resonates with me. I often find inspiration in their imagery and themes. How about you? Are there any poets that particularly influence your writing?"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Ryan Park": -250,
+    "Hailey Johnson": 110,
+    "Isabella Rodriguez": 236,
+    "Giorgio Rossi": 536,
+    "Klaus Mueller": 698,
+    "Wolfgang Schulz": 800
+  },
+  "chatting_end_time": "February 13, 2026, 13:03:00",
+  "act_path_set": true,
+  "planned_path": []
+}

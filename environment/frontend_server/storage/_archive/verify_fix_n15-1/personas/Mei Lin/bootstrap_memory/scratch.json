@@ -1,0 +1,311 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2026, 09:39:50",
+  "curr_tile": [
+    79,
+    37
+  ],
+  "daily_plan_req": "Mei Lin goes to Oak Hill college to teach starting 10 am, teaches until 2pm, and returns home to work.",
+  "name": "Mei Lin",
+  "first_name": "Mei",
+  "last_name": "Lin",
+  "age": 44,
+  "innate": "nurturing, kind, patient",
+  "learned": "Mei Lin is a college professor and a mom who loves to help people reach their goals. She is always looking for ways to support her students and her family.",
+  "currently": "Mei Lin is living with her husband, John Lin, and son, Eddy Lin, and is teaching a course on philosophy and working on her research paper. She also is helping her two kids with their schoolwork.",
+  "lifestyle": "Mei Lin goes to bed around 11pm, awakes up around 7am, eats dinner around 5pm.",
+  "living_area": "the Ville:Lin family's house:Mei and John Lin's bedroom",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 181,
+  "importance_ele_n": 38,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "have breakfast with the family at 8:30 am",
+    "leave for Oak Hill College by 9:15 am",
+    "teach her philosophy class from 10:00 am to 2:00 pm",
+    "have lunch at a nearby caf\u00e9 with colleagues at 12:30 pm",
+    "return home by 2:30 pm and check in on Eddy's schoolwork",
+    "dedicate some quiet time for herself from 3:00 pm to 4:00 pm to work on her research paper",
+    "help Eddy with his homework from 4:00 pm to 5:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "leaving for Oak Hill College (getting dressed for the day)",
+      15
+    ],
+    [
+      "leaving for Oak Hill College (preparing breakfast for herself and her family)",
+      10
+    ],
+    [
+      "leaving for Oak Hill College (eating breakfast)",
+      10
+    ],
+    [
+      "leaving for Oak Hill College (on the way to packing her bag with teaching materials and her research paper)",
+      0
+    ],
+    [
+      "leaving for Oak Hill College (conversing about Isabella Rodriguez and Mei Lin discussing party planning tips for a Valentine's Day party at a cafe, including decorations, snacks, and games.)",
+      7
+    ],
+    [
+      "leaving for Oak Hill College (on the way to checking in with her husband, John, and son, Eddy, to see if they need anything)",
+      0
+    ],
+    [
+      "leaving for Oak Hill College (conversing about Klaus Mueller and Mei Lin discussing plans for a Valentine's Day party, including themes, decorations, snacks, activities, and guest lists.)",
+      16
+    ],
+    [
+      "leaving for Oak Hill College (reviewing her lesson plan for the philosophy class)",
+      10
+    ],
+    [
+      "teaching her philosophy class at Oak Hill College (preparing her lecture materials)",
+      15
+    ],
+    [
+      "teaching her philosophy class at Oak Hill College (greeting her students as they enter the classroom)",
+      5
+    ],
+    [
+      "teaching her philosophy class at Oak Hill College (starting the class with an introduction to the day's topic)",
+      10
+    ],
+    [
+      "teaching her philosophy class at Oak Hill College (presenting the main concepts of the lecture)",
+      20
+    ],
+    [
+      "teaching her philosophy class at Oak Hill College (facilitating a class discussion on the topic)",
+      15
+    ],
+    [
+      "teaching her philosophy class at Oak Hill College (answering student questions and providing clarification)",
+      15
+    ],
+    [
+      "teaching her philosophy class at Oak Hill College (assigning a group activity related to the lecture)",
+      10
+    ],
+    [
+      "teaching her philosophy class at Oak Hill College (monitoring group discussions and providing guidance)",
+      15
+    ],
+    [
+      "teaching her philosophy class at Oak Hill College (summarizing the key points of the lecture)",
+      10
+    ],
+    [
+      "teaching her philosophy class at Oak Hill College (dismissing the class and reminding students of upcoming assignments)",
+      5
+    ],
+    [
+      "having lunch at a nearby caf\u00e9 with colleagues",
+      49
+    ],
+    [
+      "helping her students with their assignments during office hours at Oak Hill College",
+      60
+    ],
+    [
+      "continuing to help her students with their assignments during office hours at Oak Hill College",
+      60
+    ],
+    [
+      "dedicating some quiet time for herself to work on her research paper",
+      60
+    ],
+    [
+      "helping Eddy with his homework",
+      60
+    ],
+    [
+      "having dinner with her family",
+      60
+    ],
+    [
+      "spending quality time with her family",
+      240
+    ],
+    [
+      "relaxing and reading a book before bedtime",
+      60
+    ],
+    [
+      "preparing for bed and reflecting on her day before sleeping",
+      60
+    ],
+    [
+      "sleeping",
+      3
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "leaving for Oak Hill College",
+      60
+    ],
+    [
+      "teaching her philosophy class at Oak Hill College",
+      120
+    ],
+    [
+      "having lunch at a nearby caf\u00e9 with colleagues",
+      60
+    ],
+    [
+      "helping her students with their assignments during office hours at Oak Hill College",
+      60
+    ],
+    [
+      "continuing to help her students with their assignments during office hours at Oak Hill College",
+      60
+    ],
+    [
+      "dedicating some quiet time for herself to work on her research paper",
+      60
+    ],
+    [
+      "helping Eddy with his homework",
+      60
+    ],
+    [
+      "having dinner with her family",
+      60
+    ],
+    [
+      "spending quality time with her family",
+      240
+    ],
+    [
+      "relaxing and reading a book before bedtime",
+      60
+    ],
+    [
+      "preparing for bed and reflecting on her day before sleeping",
+      60
+    ]
+  ],
+  "act_address": "<persona> Klaus Mueller",
+  "act_start_time": "February 13, 2026, 09:37:20",
+  "act_duration": 16,
+  "act_description": "conversing about Klaus Mueller and Mei Lin discussing plans for a Valentine's Day party, including themes, decorations, snacks, activities, and guest lists.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Mei Lin",
+    "chat with",
+    "Klaus Mueller"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Klaus Mueller",
+  "chat": [
+    [
+      "Klaus Mueller",
+      "Hey Mei Lin! I overheard you talking about planning a Valentine's Day party. That sounds really fun! Do you have any themes or ideas for decorations yet?"
+    ],
+    [
+      "Mei Lin",
+      "Hi Klaus! Yes, I'm really excited about it. I'm thinking of a romantic theme with lots of heart decorations and maybe some fairy lights. I'm also planning to have fun games and a photo booth with props. What do you think? Do you have any suggestions?"
+    ],
+    [
+      "Klaus Mueller",
+      "I love the idea of a romantic theme! The fairy lights will definitely add a nice touch. For games, maybe you could include a quiz about couples in popular movies? It could be a lot of fun! And I think a photo booth is a great idea; props always make it more entertaining! What kind of snacks are you thinking about?"
+    ],
+    [
+      "Mei Lin",
+      "I'm planning to have some heart-shaped cookies and chocolate-covered strawberries as treats. I think they'll be a hit! What do you think? Any other snack ideas that might fit the theme?"
+    ],
+    [
+      "Klaus Mueller",
+      "Those snacks sound amazing! You could also consider adding some pink lemonade or maybe a cheese platter to balance the sweets. It could add a nice touch to the party! Are you thinking of inviting many people?"
+    ],
+    [
+      "Mei Lin",
+      "That's a great idea! Pink lemonade would be perfect, and a cheese platter would definitely balance out the sweetness. I'm thinking of inviting a mix of friends and colleagues; maybe around 20 people. What do you think about the guest list?"
+    ],
+    [
+      "Klaus Mueller",
+      "That sounds like a good number! A mix of friends and colleagues will definitely make it more fun. Have you thought about how you'll organize the seating or any activities during the party?"
+    ],
+    [
+      "Mei Lin",
+      "I haven't decided on the seating yet, but I think I might arrange it to encourage mingling. As for activities, I was considering some fun games, maybe a couple's trivia or a dance-off! What do you think would work best to keep everyone engaged?"
+    ],
+    [
+      "Klaus Mueller",
+      "I think a couple's trivia sounds like a great idea! It can spark some fun conversations. A dance-off could also be a hit, especially if you have some upbeat music. Just make sure to have a space cleared for that! Do you have a specific playlist in mind?"
+    ],
+    [
+      "Mei Lin",
+      "Great suggestions, Klaus! I haven't put together a playlist yet, but I was thinking of including some classic love songs along with some popular upbeat tracks. Do you have any favorite songs that you think would fit the vibe?"
+    ],
+    [
+      "Klaus Mueller",
+      "I love classic love songs! Maybe you could include 'At Last' by Etta James and 'Can\u2019t Help Falling in Love' by Elvis Presley. For upbeat tracks, 'Uptown Funk' by Bruno Mars always gets people moving! Do you think you'll have a mix of genres?"
+    ],
+    [
+      "Mei Lin",
+      "Those are fantastic suggestions, Klaus! I\u2019ll definitely add those to my playlist. A mix of genres sounds perfect to keep everyone entertained. I\u2019ll also consider adding some fun dance tracks to get the energy up. Thanks for all your help! By the way, do you think you might want to come to the party?"
+    ],
+    [
+      "Klaus Mueller",
+      "I would love to come to the party! Just let me know the details and what I can bring. It sounds like it\u2019s going to be a great time!"
+    ],
+    [
+      "Mei Lin",
+      "I'm so glad to hear that, Klaus! I\u2019ll keep you updated with the details as we get closer to the date. Maybe you could bring some of those delicious cheese platter items we talked about? It would be a great addition!"
+    ],
+    [
+      "Klaus Mueller",
+      "Absolutely, I can bring a cheese platter! I\u2019ll start looking for some good options. I'm really looking forward to the party! Just let me know if you need any more help with planning."
+    ],
+    [
+      "Mei Lin",
+      "Thanks, Klaus! I really appreciate your help. I'll definitely reach out if I need more ideas. Can\u2019t wait to see you at the party!"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Isabella Rodriguez": 770,
+    "Klaus Mueller": 800
+  },
+  "chatting_end_time": "February 13, 2026, 09:54:00",
+  "act_path_set": true,
+  "planned_path": []
+}

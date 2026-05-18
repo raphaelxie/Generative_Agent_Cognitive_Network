@@ -3473,13 +3473,18 @@ def run_gpt_prompt_ncn_community_group(persona, statements, roster_names,
       line = line.strip()
       if not line:
         continue
-      m = re.match(r"^\d+\s*[:.\-\)]\s*(.+)", line)
+      m = re.match(
+          r"^(?:group\s*)?\d+\s*[:.\-\)]\s*(.+)",
+          line, re.IGNORECASE)
+      if not m:
+        m = re.match(r"^[-*]\s*(.+)", line)
       if not m:
         continue
       raw_names = m.group(1).split(",")
       resolved = []
       for raw in raw_names:
-        raw = raw.strip()
+        raw = re.sub(r"^\d+\.\s*", "", raw.strip())
+        raw = raw.strip().rstrip(".")
         if not raw:
           continue
         canonical = roster_set_lower.get(raw.lower())
@@ -3503,7 +3508,7 @@ def run_gpt_prompt_ncn_community_group(persona, statements, roster_names,
     except Exception:
       return False
 
-  gpt_param = {"engine": DEFAULT_CHAT_MODEL, "max_tokens": 400,
+  gpt_param = {"engine": DEFAULT_CHAT_MODEL, "max_tokens": 600,
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   prompt_template = "persona/prompt_template/v3_ChatGPT/ncn_community_group_v1.txt"
@@ -3521,7 +3526,7 @@ def run_gpt_prompt_ncn_community_group(persona, statements, roster_names,
   )
   fail_safe = [list(roster_names)]
   output = ChatGPT_safe_generate_response(prompt, example_output, special_instruction,
-                                          3, fail_safe, __func_validate, __func_clean_up, True)
+                                          5, fail_safe, __func_validate, __func_clean_up, True)
   if output is not False:
     return output, [output, prompt, gpt_param, prompt_input, fail_safe]
   return fail_safe, [None, prompt, gpt_param, prompt_input, fail_safe]
