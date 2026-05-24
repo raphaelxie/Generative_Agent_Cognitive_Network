@@ -121,9 +121,26 @@ def run_gpt_prompt_daily_plan(persona,
     return cr
 
   def __func_validate(gpt_response, prompt=""):
-    try: __func_clean_up(gpt_response, prompt="")
-    except: 
+    try:
+      cleaned = __func_clean_up(gpt_response, prompt="")
+    except Exception as _e:
+      # #region agent log
+      try:
+        import json as _j, os as _oo, time as _tt
+        _dp = _oo.path.normpath(_oo.path.join(_oo.path.dirname(_oo.path.abspath(__file__)), "../../../../.cursor/debug-16657c.log"))
+        _oo.makedirs(_oo.path.dirname(_dp), exist_ok=True)
+        open(_dp, "a").write(_j.dumps({"sessionId":"16657c","runId":"run2","hypothesisId":"H-A","location":"run_gpt_prompt.py:daily_plan:validate","message":"clean_up_crashed","data":{"error":str(_e)[:200],"response_prefix":gpt_response[:150]},"timestamp":int(_tt.time()*1000)})+"\n")
+      except: pass
+      # #endregion
       return False
+    # #region agent log
+    try:
+      import json as _j, os as _oo, time as _tt
+      _dp = _oo.path.normpath(_oo.path.join(_oo.path.dirname(_oo.path.abspath(__file__)), "../../../../.cursor/debug-16657c.log"))
+      _oo.makedirs(_oo.path.dirname(_dp), exist_ok=True)
+      open(_dp, "a").write(_j.dumps({"sessionId":"16657c","runId":"run2","hypothesisId":"H-A","location":"run_gpt_prompt.py:daily_plan:validate","message":"validate_passed","data":{"cleaned_count":len(cleaned),"cleaned":cleaned,"response_prefix":gpt_response[:300]},"timestamp":int(_tt.time()*1000)})+"\n")
+    except: pass
+    # #endregion
     return True
 
   def get_fail_safe(): 
@@ -148,8 +165,19 @@ def run_gpt_prompt_daily_plan(persona,
 
   output = safe_generate_response(prompt, gpt_param, 5, fail_safe,
                                    __func_validate, __func_clean_up)
-  output = ([f"wake up and complete the morning routine at {wake_up_hour}:00 am"]
-              + output)
+  # #region agent log
+  try:
+    import json as _j, os as _oo, time as _tt
+    _dp = _oo.path.normpath(_oo.path.join(_oo.path.dirname(_oo.path.abspath(__file__)), "../../../../.cursor/debug-16657c.log"))
+    open(_dp, "a").write(_j.dumps({"sessionId":"16657c","runId":"run2","hypothesisId":"H-A","location":"run_gpt_prompt.py:daily_plan:after_sgr","message":"safe_generate_result","data":{"output":output,"output_len":len(output) if isinstance(output,list) else -1},"timestamp":int(_tt.time()*1000)})+"\n")
+  except: pass
+  # #endregion
+  wake_up_item = f"wake up and complete the morning routine at {wake_up_hour}:00 am"
+  # Deepseek includes item 1 (wake-up) in its response — don't prepend a duplicate
+  if not output or not output[0].lower().startswith("wake up"):
+    output = [wake_up_item] + output
+  else:
+    output[0] = wake_up_item  # normalise capitalisation
 
   if debug or verbose: 
     print_run_prompts(prompt_template, persona, gpt_param, 
@@ -217,9 +245,21 @@ def run_gpt_prompt_generate_hourly_schedule(persona,
     return prompt_input
 
   def __func_clean_up(gpt_response, prompt=""):
-    cr = gpt_response.strip()
-    if "\n" in cr:
-      cr = cr.split("\n")[0].strip()
+    full = gpt_response.strip()
+    # Take only the first line (deepseek sometimes returns multi-line)
+    if "\n" in full:
+      full = full.split("\n")[0].strip()
+    # Deepseek echoes the full format line: "[date -- time] Activity: text"
+    # or "[date -- time] Activity: Name is text" — strip the prefix.
+    if " Activity: " in full:
+      if " is " in full:
+        # "[...] Activity: Latoya is waking up..." → "waking up..."
+        cr = full.rsplit(" is ", 1)[-1].strip()
+      else:
+        # "[...] Activity: Waking up..." → "Waking up..."
+        cr = full.split(" Activity: ", 1)[-1].strip()
+    else:
+      cr = full
     if cr and cr[-1] == ".":
       cr = cr[:-1]
     return cr
@@ -229,10 +269,30 @@ def run_gpt_prompt_generate_hourly_schedule(persona,
       cr = __func_clean_up(gpt_response, prompt="")
     except:
       return False
-    if not cr or len(cr) > 120:
+    # #region agent log
+    try:
+      import json as _j, os as _oo, time as _tt
+      _dp = _oo.path.normpath(_oo.path.join(_oo.path.dirname(_oo.path.abspath(__file__)), "../../../../.cursor/debug-16657c.log"))
+      _oo.makedirs(_oo.path.dirname(_dp), exist_ok=True)
+      open(_dp, "a").write(_j.dumps({"sessionId":"16657c","runId":"post-fix","hypothesisId":"H-C","location":"run_gpt_prompt.py:hourly_schedule:validate","message":"hourly_raw_vs_cleaned","data":{"raw_prefix":gpt_response[:120],"cleaned":cr,"hour":curr_hour_str},"timestamp":int(_tt.time()*1000)})+"\n")
+    except: pass
+    # #endregion
+    if not cr or len(cr) < 3 or len(cr) > 150:
+      return False
+    # Reject responses that still look like a format echo
+    if cr.startswith("["):
       return False
     low = cr.lower()
-    if "here's" in low or "here is" in low or "schedule" in low or "```" in cr:
+    if "```" in cr:
+      return False
+    if "schedule" in low or "here is" in low or "here's" in low:
+      return False
+    if cr.startswith("-") or cr.startswith("*"):
+      return False
+    if ":" in cr and any(cr.startswith(h) for h in
+        ["0","1","2","3","4","5","6","7","8","9"]):
+      return False
+    if "we need" in low or "let's" in low or "but " in low or "note:" in low:
       return False
     return True
 
@@ -274,7 +334,7 @@ def run_gpt_prompt_generate_hourly_schedule(persona,
   # # ChatGPT Plugin ===========================================================
 
 
-  gpt_param = {"engine": DEFAULT_CHAT_MODEL, "max_tokens": 50, 
+  gpt_param = {"engine": DEFAULT_CHAT_MODEL, "max_tokens": 512, 
                "temperature": 0.5, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": ["\n"]}
   prompt_template = "persona/prompt_template/v2/generate_hourly_schedule_v2.txt"

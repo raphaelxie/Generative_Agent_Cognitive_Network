@@ -1,0 +1,402 @@
+{
+  "persona": {
+    "Latoya Williams": {
+      "movement": [
+        39,
+        29
+      ],
+      "pronunciatio": "\ud83c\udfa8\ud83d\udcac",
+      "description": "having lunch with fellow artists, discussing the upcoming local mayor election (engaging in small talk with fellow artists) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null
+    },
+    "Rajiv Patel": {
+      "movement": [
+        38,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Rajiv Patel and Hailey Johnson discussing funny moments to include in their web series, brainstorming ideas, and planning a collaborative session with their housemates and Abigail for animated segments. @ <persona> Hailey Johnson",
+      "chat": [
+        [
+          "Rajiv Patel",
+          "Hey Hailey! I was just practicing my guitar. How's your lunch going? Have you thought more about the funny moments we could include in our web series?"
+        ],
+        [
+          "Hailey Johnson",
+          "Hey Rajiv! My lunch is great, thanks for asking! I've been thinking about the flour fight and karaoke night we talked about. Those would be hilarious to include. Do you have any funny stories from your own co-living experiences that we could add?"
+        ],
+        [
+          "Rajiv Patel",
+          "Oh, definitely! I remember one time when I accidentally spilled paint all over the communal kitchen while trying to clean my brushes. Everyone thought it was a new art installation! We laughed so hard. I can definitely share more about it. What do you think?"
+        ],
+        [
+          "Hailey Johnson",
+          "That sounds like a perfect story to include! I love how art can lead to such unexpected moments. We should definitely share that during our brainstorming session. Do you want to write it down together?"
+        ],
+        [
+          "Rajiv Patel",
+          "Sure! Let's jot it down. Maybe we can brainstorm some more stories after lunch too. I feel like there are so many funny things that have happened around here!"
+        ],
+        [
+          "Hailey Johnson",
+          "Absolutely! I can't wait to hear more of your stories. Let's finish lunch and then we can brainstorm some more together. Maybe we can also involve our housemates in this session to get their funny experiences too!"
+        ],
+        [
+          "Rajiv Patel",
+          "That sounds like a great idea! I'll make sure to ask everyone about their funny moments. I think it could really add to our web series. Do you have a specific time in mind for our brainstorming session?"
+        ],
+        [
+          "Hailey Johnson",
+          "I was thinking maybe we could do the brainstorming session this weekend? How does Saturday afternoon sound to you?"
+        ],
+        [
+          "Rajiv Patel",
+          "Saturday afternoon works perfectly for me! What time were you thinking, maybe around 2 PM?"
+        ],
+        [
+          "Hailey Johnson",
+          "2 PM sounds great! I'll send a message to everyone to see if they can join us. I'm really excited to gather all the stories and make our web series even more fun!"
+        ],
+        [
+          "Rajiv Patel",
+          "Awesome! I can't wait to see what everyone else comes up with too. Let's make it a fun session! By the way, have you thought about any other segments we could add to the web series?"
+        ],
+        [
+          "Hailey Johnson",
+          "Yes, I've been thinking about incorporating some animated segments, maybe to illustrate the funny stories we gather. I spoke with Abigail about it, and she had some great ideas! What do you think about adding that to our web series?"
+        ],
+        [
+          "Rajiv Patel",
+          "I love that idea! Animated segments would add a fun visual element to our stories. It's great that Abigail is on board too. Maybe we can brainstorm together with her on how to best illustrate some of the funniest moments. What do you think?"
+        ],
+        [
+          "Hailey Johnson",
+          "Absolutely! I think collaborating with Abigail will bring a whole new dimension to our web series. Let's reach out to her after lunch to see when she's available to join our brainstorming session. I'm really excited to see how we can bring these stories to life!"
+        ],
+        [
+          "Rajiv Patel",
+          "Sounds like a plan! I'm really looking forward to this collaboration. Let's finish up lunch and then we can reach out to Abigail. I can't wait to get started!"
+        ],
+        [
+          "Hailey Johnson",
+          "Great! I'll wrap up my lunch quickly, and then we can message Abigail. I really think her animated segments will make our web series stand out!"
+        ]
+      ]
+    },
+    "Abigail Chen": {
+      "movement": [
+        58,
+        25
+      ],
+      "pronunciatio": "\ud83d\udda5\ufe0f\ud83c\udfa8",
+      "description": "experimenting with different tools and techniques for interactive art (exploring new software options for interactive art) @ the Ville:The Rose and Crown Pub:pub:microphone",
+      "chat": null
+    },
+    "Francisco Lopez": {
+      "movement": [
+        36,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcdd\u2705",
+      "description": "taking a lunch break and reviewing his morning work on the web series (making notes on what worked well in the scenes) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null
+    },
+    "Hailey Johnson": {
+      "movement": [
+        38,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Rajiv Patel and Hailey Johnson discussing funny moments to include in their web series, brainstorming ideas, and planning a collaborative session with their housemates and Abigail for animated segments. @ <persona> Rajiv Patel",
+      "chat": [
+        [
+          "Rajiv Patel",
+          "Hey Hailey! I was just practicing my guitar. How's your lunch going? Have you thought more about the funny moments we could include in our web series?"
+        ],
+        [
+          "Hailey Johnson",
+          "Hey Rajiv! My lunch is great, thanks for asking! I've been thinking about the flour fight and karaoke night we talked about. Those would be hilarious to include. Do you have any funny stories from your own co-living experiences that we could add?"
+        ],
+        [
+          "Rajiv Patel",
+          "Oh, definitely! I remember one time when I accidentally spilled paint all over the communal kitchen while trying to clean my brushes. Everyone thought it was a new art installation! We laughed so hard. I can definitely share more about it. What do you think?"
+        ],
+        [
+          "Hailey Johnson",
+          "That sounds like a perfect story to include! I love how art can lead to such unexpected moments. We should definitely share that during our brainstorming session. Do you want to write it down together?"
+        ],
+        [
+          "Rajiv Patel",
+          "Sure! Let's jot it down. Maybe we can brainstorm some more stories after lunch too. I feel like there are so many funny things that have happened around here!"
+        ],
+        [
+          "Hailey Johnson",
+          "Absolutely! I can't wait to hear more of your stories. Let's finish lunch and then we can brainstorm some more together. Maybe we can also involve our housemates in this session to get their funny experiences too!"
+        ],
+        [
+          "Rajiv Patel",
+          "That sounds like a great idea! I'll make sure to ask everyone about their funny moments. I think it could really add to our web series. Do you have a specific time in mind for our brainstorming session?"
+        ],
+        [
+          "Hailey Johnson",
+          "I was thinking maybe we could do the brainstorming session this weekend? How does Saturday afternoon sound to you?"
+        ],
+        [
+          "Rajiv Patel",
+          "Saturday afternoon works perfectly for me! What time were you thinking, maybe around 2 PM?"
+        ],
+        [
+          "Hailey Johnson",
+          "2 PM sounds great! I'll send a message to everyone to see if they can join us. I'm really excited to gather all the stories and make our web series even more fun!"
+        ],
+        [
+          "Rajiv Patel",
+          "Awesome! I can't wait to see what everyone else comes up with too. Let's make it a fun session! By the way, have you thought about any other segments we could add to the web series?"
+        ],
+        [
+          "Hailey Johnson",
+          "Yes, I've been thinking about incorporating some animated segments, maybe to illustrate the funny stories we gather. I spoke with Abigail about it, and she had some great ideas! What do you think about adding that to our web series?"
+        ],
+        [
+          "Rajiv Patel",
+          "I love that idea! Animated segments would add a fun visual element to our stories. It's great that Abigail is on board too. Maybe we can brainstorm together with her on how to best illustrate some of the funniest moments. What do you think?"
+        ],
+        [
+          "Hailey Johnson",
+          "Absolutely! I think collaborating with Abigail will bring a whole new dimension to our web series. Let's reach out to her after lunch to see when she's available to join our brainstorming session. I'm really excited to see how we can bring these stories to life!"
+        ],
+        [
+          "Rajiv Patel",
+          "Sounds like a plan! I'm really looking forward to this collaboration. Let's finish up lunch and then we can reach out to Abigail. I can't wait to get started!"
+        ],
+        [
+          "Hailey Johnson",
+          "Great! I'll wrap up my lunch quickly, and then we can message Abigail. I really think her animated segments will make our web series stand out!"
+        ]
+      ]
+    },
+    "Arthur Burton": {
+      "movement": [
+        59,
+        52
+      ],
+      "pronunciatio": "\ud83d\uded2\ud83c\udf79",
+      "description": "running errands or shopping for bar supplies (browsing the aisles for mixers and garnishes) @ the Ville:Harvey Oak Supply Store:supply store:supply store product shelf",
+      "chat": null
+    },
+    "Ryan Park": {
+      "movement": [
+        66,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcf1\ud83d\udda5\ufe0f",
+      "description": "continuing to work on the mobile app project (testing the app on a simulator) @ the Ville:Ryan Park's apartment:main room:computer desk",
+      "chat": null
+    },
+    "Isabella Rodriguez": {
+      "movement": [
+        75,
+        14
+      ],
+      "pronunciatio": "\ud83c\udf71\ud83e\udd57",
+      "description": "having a quick lunch (preparing her lunch) @ the Ville:Isabella Rodriguez's apartment:main room:refrigerator",
+      "chat": null
+    },
+    "Giorgio Rossi": {
+      "movement": [
+        89,
+        20
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f\ud83d\ude0b",
+      "description": "having lunch (enjoying his meal) @ the Ville:Giorgio Rossi's apartment:main room:cooking area",
+      "chat": null
+    },
+    "Carlos Gomez": {
+      "movement": [
+        74,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83c\udf89",
+      "description": "reviewing his poetry collection and making notes for improvement (conversing about Carlos Gomez and Maria Lopez discussing their collaborative efforts on a physics project related to quantum mechanics and creative ideas for Valentine's Day party decorations, incorporating Fibonacci themes and Shakespeare quotes.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        89,
+        32
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller and Maria Lopez discussing their collaboration on decorations and activities for the upcoming Valentine's Day party, incorporating themes from quantum mechanics, Fibonacci patterns, and quotes from 'Macbeth'. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hey Maria! It's great to see you here at Hobbs Cafe. How's your physics project on quantum mechanics going? I heard you were also working on some creative ideas for the Valentine's Day party decorations. I'd love to hear more about that!"
+        ],
+        [
+          "Maria Lopez",
+          "Hey Klaus! It's going well, thanks for asking! I'm really excited about combining quantum mechanics with some creative themes for the Valentine's Day party. I was thinking of using Fibonacci patterns in the decorations and incorporating some quotes from 'Macbeth' for a unique touch. What about you? How's your work on Ayesha's thesis going?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds amazing! I love the idea of combining Fibonacci patterns with 'Macbeth' quotes. Ayesha and I are actually collaborating on the decorations too, so I\u2019d be interested to see how we can incorporate both of our ideas. Speaking of which, have you decided on any specific quotes from 'Macbeth' yet?"
+        ],
+        [
+          "Maria Lopez",
+          "I have a few quotes in mind that really capture the themes of ambition and fate. One that stands out is 'Fair is foul, and foul is fair.' I think it could tie in nicely with the Fibonacci patterns. Do you have any specific ideas for decorations that might complement that quote?"
+        ],
+        [
+          "Klaus Mueller",
+          "That's a great quote! It really encapsulates the duality of ambition in 'Macbeth.' I was thinking we could use some swirling designs that mimic the Fibonacci spiral around the quote to create a visual impact. Maybe we could also add some contrasting colors to represent 'fair' and 'foul.' What do you think?"
+        ],
+        [
+          "Maria Lopez",
+          "I love that idea! The swirling designs with contrasting colors would really enhance the visual impact of the quote. Maybe we can brainstorm some more ideas together? We need to make sure everything feels cohesive. Also, have you thought about how we could incorporate some interactive elements into the decorations?"
+        ],
+        [
+          "Klaus Mueller",
+          "That's a great point! We could consider adding some interactive elements like a small station where guests can write their own interpretations of the quote or maybe even a spot for them to create their own Fibonacci-inspired designs. What do you think would work best?"
+        ],
+        [
+          "Maria Lopez",
+          "I think both ideas sound fantastic! A station for guests to write their own interpretations could really encourage creativity and engagement. We could also provide materials for them to create their Fibonacci designs, perhaps with some guidance on how to get started. It could make for some memorable interactions! Do you have any ideas on what materials we might need for that?"
+        ],
+        [
+          "Klaus Mueller",
+          "I think we could use some colorful paper, markers, and maybe some templates for the Fibonacci designs. We should also consider getting some boards or easels to display the quotes prominently. Do you have any other materials in mind that we might need?"
+        ],
+        [
+          "Maria Lopez",
+          "Those materials sound perfect! We could also include some glitter or stickers to make the designs pop. And maybe some string lights to create a warm atmosphere around the decorations. Do you think we should set a time to meet up and brainstorm further?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds like a great plan! Let's set a time to meet up and brainstorm further. How about we meet at Hobbs Cafe tomorrow at 2:30 PM? We can go over everything and finalize our ideas."
+        ],
+        [
+          "Maria Lopez",
+          "Tomorrow at 2:30 PM sounds perfect! I\u2019m looking forward to it. I'll bring some of my notes and ideas along. It'll be fun to brainstorm together and make sure everything is ready for the party. See you then!"
+        ],
+        [
+          "Klaus Mueller",
+          "Awesome! I'm excited to see what you bring. I think our combined ideas will really make the decorations stand out. By the way, do you have any other plans for the Valentine's Day party besides the decorations?"
+        ],
+        [
+          "Maria Lopez",
+          "Yes, besides the decorations, I've been thinking about some fun activities we could do during the party. Maybe a poetry reading or a game that ties into the themes we're working with? What do you think?"
+        ],
+        [
+          "Klaus Mueller",
+          "I love the idea of a poetry reading! It could really bring the themes to life. We could even invite some of our classmates to share their own poems or reflections related to 'Macbeth' or the Fibonacci concept. A game sounds fun too\u2014maybe something that encourages people to think about the themes of ambition and fate? I'm sure we can come up with something creative together!"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds like a great idea! A poetry reading with classmates could definitely add a special touch to the party, and I love the idea of tying in a game that brings out those themes. Maybe we could brainstorm some specific games together tomorrow? I\u2019m really excited about our collaboration!"
+        ]
+      ]
+    },
+    "Maria Lopez": {
+      "movement": [
+        92,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller and Maria Lopez discussing their collaboration on decorations and activities for the upcoming Valentine's Day party, incorporating themes from quantum mechanics, Fibonacci patterns, and quotes from 'Macbeth'. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hey Maria! It's great to see you here at Hobbs Cafe. How's your physics project on quantum mechanics going? I heard you were also working on some creative ideas for the Valentine's Day party decorations. I'd love to hear more about that!"
+        ],
+        [
+          "Maria Lopez",
+          "Hey Klaus! It's going well, thanks for asking! I'm really excited about combining quantum mechanics with some creative themes for the Valentine's Day party. I was thinking of using Fibonacci patterns in the decorations and incorporating some quotes from 'Macbeth' for a unique touch. What about you? How's your work on Ayesha's thesis going?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds amazing! I love the idea of combining Fibonacci patterns with 'Macbeth' quotes. Ayesha and I are actually collaborating on the decorations too, so I\u2019d be interested to see how we can incorporate both of our ideas. Speaking of which, have you decided on any specific quotes from 'Macbeth' yet?"
+        ],
+        [
+          "Maria Lopez",
+          "I have a few quotes in mind that really capture the themes of ambition and fate. One that stands out is 'Fair is foul, and foul is fair.' I think it could tie in nicely with the Fibonacci patterns. Do you have any specific ideas for decorations that might complement that quote?"
+        ],
+        [
+          "Klaus Mueller",
+          "That's a great quote! It really encapsulates the duality of ambition in 'Macbeth.' I was thinking we could use some swirling designs that mimic the Fibonacci spiral around the quote to create a visual impact. Maybe we could also add some contrasting colors to represent 'fair' and 'foul.' What do you think?"
+        ],
+        [
+          "Maria Lopez",
+          "I love that idea! The swirling designs with contrasting colors would really enhance the visual impact of the quote. Maybe we can brainstorm some more ideas together? We need to make sure everything feels cohesive. Also, have you thought about how we could incorporate some interactive elements into the decorations?"
+        ],
+        [
+          "Klaus Mueller",
+          "That's a great point! We could consider adding some interactive elements like a small station where guests can write their own interpretations of the quote or maybe even a spot for them to create their own Fibonacci-inspired designs. What do you think would work best?"
+        ],
+        [
+          "Maria Lopez",
+          "I think both ideas sound fantastic! A station for guests to write their own interpretations could really encourage creativity and engagement. We could also provide materials for them to create their Fibonacci designs, perhaps with some guidance on how to get started. It could make for some memorable interactions! Do you have any ideas on what materials we might need for that?"
+        ],
+        [
+          "Klaus Mueller",
+          "I think we could use some colorful paper, markers, and maybe some templates for the Fibonacci designs. We should also consider getting some boards or easels to display the quotes prominently. Do you have any other materials in mind that we might need?"
+        ],
+        [
+          "Maria Lopez",
+          "Those materials sound perfect! We could also include some glitter or stickers to make the designs pop. And maybe some string lights to create a warm atmosphere around the decorations. Do you think we should set a time to meet up and brainstorm further?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds like a great plan! Let's set a time to meet up and brainstorm further. How about we meet at Hobbs Cafe tomorrow at 2:30 PM? We can go over everything and finalize our ideas."
+        ],
+        [
+          "Maria Lopez",
+          "Tomorrow at 2:30 PM sounds perfect! I\u2019m looking forward to it. I'll bring some of my notes and ideas along. It'll be fun to brainstorm together and make sure everything is ready for the party. See you then!"
+        ],
+        [
+          "Klaus Mueller",
+          "Awesome! I'm excited to see what you bring. I think our combined ideas will really make the decorations stand out. By the way, do you have any other plans for the Valentine's Day party besides the decorations?"
+        ],
+        [
+          "Maria Lopez",
+          "Yes, besides the decorations, I've been thinking about some fun activities we could do during the party. Maybe a poetry reading or a game that ties into the themes we're working with? What do you think?"
+        ],
+        [
+          "Klaus Mueller",
+          "I love the idea of a poetry reading! It could really bring the themes to life. We could even invite some of our classmates to share their own poems or reflections related to 'Macbeth' or the Fibonacci concept. A game sounds fun too\u2014maybe something that encourages people to think about the themes of ambition and fate? I'm sure we can come up with something creative together!"
+        ],
+        [
+          "Maria Lopez",
+          "That sounds like a great idea! A poetry reading with classmates could definitely add a special touch to the party, and I love the idea of tying in a game that brings out those themes. Maybe we could brainstorm some specific games together tomorrow? I\u2019m really excited about our collaboration!"
+        ]
+      ]
+    },
+    "Ayesha Khan": {
+      "movement": [
+        113,
+        28
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f\u2764",
+      "description": "continuing her literature class at Oak Hill College (conversing about Klaus Mueller and Ayesha Khan discussing Ayesha's thesis on 'Macbeth,' preparations for a Valentine's Day party, and collaborating on decorations and themes for the event.) @ the Ville:Oak Hill College:classroom:classroom podium",
+      "chat": null
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        123,
+        46
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f\ud83e\udd57",
+      "description": "having lunch @ the Ville:Dorm for Oak Hill College:kitchen:cooking area",
+      "chat": null
+    },
+    "Mei Lin": {
+      "movement": [
+        113,
+        31
+      ],
+      "pronunciatio": "\ud83d\udcda\ud83d\udcdd",
+      "description": "teaching her philosophy course at Oak Hill College (reviewing her notes and materials for the next lecture) @ the Ville:Oak Hill College:classroom:classroom podium",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2026, 12:29:00"
+  }
+}

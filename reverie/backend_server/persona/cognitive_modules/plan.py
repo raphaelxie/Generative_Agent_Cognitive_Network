@@ -97,6 +97,14 @@ def generate_hourly_schedule(persona, wake_up_hour):
   n_m1_activity = []
   diversity_repeat_count = 3
   for i in range(diversity_repeat_count): 
+    # #region agent log
+    try:
+      import json as _j, os as _oo, time as _tt
+      _dp = _oo.path.normpath(_oo.path.join(_oo.path.dirname(_oo.path.abspath(__file__)), "../../../../.cursor/debug-16657c.log"))
+      _oo.makedirs(_oo.path.dirname(_dp), exist_ok=True)
+      open(_dp, "a").write(_j.dumps({"sessionId":"16657c","runId":"run2","hypothesisId":"H-B","location":"plan.py:generate_hourly_schedule","message":"diversity_iteration","data":{"iteration":i,"wake_up_hour":wake_up_hour,"unique_activities":len(set(n_m1_activity)),"daily_req":getattr(getattr(persona,'scratch',None),'daily_req',None)},"timestamp":int(_tt.time()*1000)})+"\n")
+    except: pass
+    # #endregion
     n_m1_activity_set = set(n_m1_activity)
     if len(n_m1_activity_set) < 5: 
       n_m1_activity = []

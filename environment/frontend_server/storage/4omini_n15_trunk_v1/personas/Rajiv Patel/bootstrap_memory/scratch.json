@@ -1,0 +1,336 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2026, 14:39:50",
+  "curr_tile": [
+    26,
+    22
+  ],
+  "daily_plan_req": "",
+  "name": "Rajiv Patel",
+  "first_name": "Rajiv",
+  "last_name": "Patel",
+  "age": 27,
+  "innate": "patient, reliable, cheerful",
+  "learned": "Rajiv Patel is a painter who wants live quietly and paint while enjoying his everyday life.",
+  "currently": "Rajiv Patel is preparing for his first solo show. He mostly works from the artists' co-living space. Also, he recently got into playing the guitar.",
+  "lifestyle": "Rajiv Patel goes to bed around midnight, awakes up around 9am, eats dinner around 5pm.",
+  "living_area": "the Ville:artist's co-living space:Rajiv Patel's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 106,
+  "importance_ele_n": 44,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "have breakfast and enjoy a cup of coffee while listening to music from 9:30 am to 10:00 am",
+    "spend the morning working on his paintings from 10:00 am to 12:00 pm",
+    "take a break and practice playing the guitar for an hour from 12:00 pm to 1:00 pm",
+    "have lunch at 1:00 pm",
+    "return to painting from 2:00 pm to 4:30 pm",
+    "take a short break and take a walk in the park for fresh air from 4:30 pm to 5:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "enjoying breakfast and a cup of coffee while listening to music (preparing his breakfast)",
+      15
+    ],
+    [
+      "enjoying breakfast and a cup of coffee while listening to music (on the way to brewing a cup of coffee)",
+      0
+    ],
+    [
+      "enjoying breakfast and a cup of coffee while listening to music (conversing about Rajiv Patel and Francisco Lopez discussing themes and humorous experiences related to communal living and creativity for Francisco's web series.)",
+      22
+    ],
+    [
+      "enjoying breakfast and a cup of coffee while listening to music (setting the table for breakfast)",
+      5
+    ],
+    [
+      "enjoying breakfast and a cup of coffee while listening to music (enjoying his breakfast)",
+      20
+    ],
+    [
+      "enjoying breakfast and a cup of coffee while listening to music (on the way to sipping his coffee while listening to music)",
+      0
+    ],
+    [
+      "enjoying breakfast and a cup of coffee while listening to music (conversing about Rajiv Patel and Hailey Johnson discussing the planning of a web series about co-living, including funny experiences to include and organizing a gathering to share more stories.)",
+      15
+    ],
+    [
+      "enjoying breakfast and a cup of coffee while listening to music (finishing his breakfast)",
+      5
+    ],
+    [
+      "working on his paintings (on the way to setting up his painting area)",
+      0
+    ],
+    [
+      "working on his paintings (conversing about Abigail Chen and Rajiv Patel discussing their creative projects, with Rajiv sharing ideas for a web series featuring funny co-living experiences and Abigail recounting humorous moments from her animation work.)",
+      17
+    ],
+    [
+      "working on his paintings (selecting the colors he wants to use)",
+      10
+    ],
+    [
+      "working on his paintings (on the way to sketching the outline of his painting on the canvas)",
+      0
+    ],
+    [
+      "working on his paintings (conversing about Rajiv Patel and Latoya Williams discussing fun themes and ideas for a dance-off in Latoya's web series, including a mini-competition, prizes, and decoration concepts.)",
+      19
+    ],
+    [
+      "working on his paintings (applying the base layer of paint)",
+      3
+    ],
+    [
+      "continuing to work on his paintings (continuing to work on his paintings)",
+      49
+    ],
+    [
+      "taking a break and practicing playing the guitar (tuning his guitar)",
+      5
+    ],
+    [
+      "taking a break and practicing playing the guitar (warming up with finger exercises)",
+      10
+    ],
+    [
+      "taking a break and practicing playing the guitar (practicing basic chords)",
+      10
+    ],
+    [
+      "taking a break and practicing playing the guitar (on the way to playing along with a backing track)",
+      0
+    ],
+    [
+      "taking a break and practicing playing the guitar (conversing about Rajiv Patel and Hailey Johnson discussing funny moments to include in their web series, brainstorming ideas, and planning a collaborative session with their housemates and Abigail for animated segments.)",
+      14
+    ],
+    [
+      "taking a break and practicing playing the guitar (on the way to trying to learn a new song)",
+      0
+    ],
+    [
+      "taking a break and practicing playing the guitar (conversing about Rajiv Patel and Francisco Lopez discussing ideas for incorporating funny moments from their lives, including chaotic cooking experiences and housemates' quirks, into their web series, and planning a meeting with Abigail to collaborate on animated segments.)",
+      19
+    ],
+    [
+      "taking a break and practicing playing the guitar (on the way to reviewing the song he just learned)",
+      0
+    ],
+    [
+      "taking a break and practicing playing the guitar (conversing about Rajiv Patel and Abigail Chen discussing their collaboration on a web series project that combines interactive art techniques and music, focusing on themes of everyday life in a co-living space.)",
+      14
+    ],
+    [
+      "having lunch (preparing his lunch)",
+      15
+    ],
+    [
+      "having lunch (on the way to setting the table)",
+      0
+    ],
+    [
+      "having lunch (conversing about Rajiv Patel and Klaus Mueller discussing their upcoming collaboration, merging Rajiv's guitar music with Klaus's poetry for an interactive web series.)",
+      15
+    ],
+    [
+      "having lunch (on the way to serving the food)",
+      0
+    ],
+    [
+      "having lunch (conversing about Rajiv Patel and Latoya Williams discussing ideas for an exciting dance-off event, including themes, prizes, decorations, music playlists, and interactive elements like a costume contest and dance-off showdown.)",
+      19
+    ],
+    [
+      "having lunch (sitting down to eat)",
+      5
+    ],
+    [
+      "having lunch (enjoying his meal)",
+      18
+    ],
+    [
+      "continuing to work on his paintings (setting up his painting area)",
+      10
+    ],
+    [
+      "continuing to work on his paintings (selecting the colors he wants to use)",
+      10
+    ],
+    [
+      "continuing to work on his paintings (sketching the outline of his painting on the canvas)",
+      15
+    ],
+    [
+      "continuing to work on his paintings (applying the base layer of paint)",
+      1
+    ],
+    [
+      "continuing to work on his paintings (adding details to the painting)",
+      10
+    ],
+    [
+      "taking a break and enjoying a walk in the park for fresh air (taking a moment to stretch his legs)",
+      5
+    ],
+    [
+      "taking a break and enjoying a walk in the park for fresh air (walking towards the park entrance)",
+      5
+    ],
+    [
+      "taking a break and enjoying a walk in the park for fresh air (entering the park and taking in the scenery)",
+      5
+    ],
+    [
+      "taking a break and enjoying a walk in the park for fresh air (finding a nice spot to sit and relax)",
+      5
+    ],
+    [
+      "taking a break and enjoying a walk in the park for fresh air (taking a few deep breaths to enjoy the fresh air)",
+      5
+    ],
+    [
+      "taking a break and enjoying a walk in the park for fresh air (observing the people and nature around him)",
+      5
+    ],
+    [
+      "taking a break and enjoying a walk in the park for fresh air (pulling out his sketchbook to do some quick sketches)",
+      10
+    ],
+    [
+      "taking a break and enjoying a walk in the park for fresh air (sketching a tree he finds interesting)",
+      10
+    ],
+    [
+      "taking a break and enjoying a walk in the park for fresh air (closing his sketchbook and reflecting on his paintings)",
+      5
+    ],
+    [
+      "taking a break and enjoying a walk in the park for fresh air (getting up and walking back towards the co-living space)",
+      5
+    ],
+    [
+      "continuing to work on his paintings",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "continuing to work on his paintings",
+      300
+    ],
+    [
+      "preparing for bed and reflecting on his day",
+      60
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "enjoying breakfast and a cup of coffee while listening to music",
+      60
+    ],
+    [
+      "working on his paintings",
+      60
+    ],
+    [
+      "continuing to work on his paintings",
+      60
+    ],
+    [
+      "taking a break and practicing playing the guitar",
+      60
+    ],
+    [
+      "having lunch",
+      60
+    ],
+    [
+      "continuing to work on his paintings",
+      60
+    ],
+    [
+      "taking a break and enjoying a walk in the park for fresh air",
+      60
+    ],
+    [
+      "continuing to work on his paintings",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "continuing to work on his paintings",
+      300
+    ],
+    [
+      "preparing for bed and reflecting on his day",
+      60
+    ]
+  ],
+  "act_address": "the Ville:artist's co-living space:Rajiv Patel's room:easel",
+  "act_start_time": "February 13, 2026, 14:30:00",
+  "act_duration": 10,
+  "act_description": "continuing to work on his paintings (setting up his painting area)",
+  "act_pronunciatio": "\ud83c\udfa8\ud83d\udd8c\ufe0f",
+  "act_event": [
+    "Rajiv Patel",
+    "set up",
+    "painting area"
+  ],
+  "act_obj_description": "set up for painting",
+  "act_obj_pronunciatio": "\ud83c\udfa8\ud83d\udd8c\ufe0f",
+  "act_obj_event": [
+    "easel",
+    "set up",
+    "painting"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Francisco Lopez": 140,
+    "Hailey Johnson": 20,
+    "Abigail Chen": 230,
+    "Latoya Williams": 518,
+    "Klaus Mueller": 374
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

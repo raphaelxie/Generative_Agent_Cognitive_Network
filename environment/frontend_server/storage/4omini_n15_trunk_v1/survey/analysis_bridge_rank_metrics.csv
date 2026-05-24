@@ -1,0 +1,49 @@
+wave_id,step,truth_definition,respondent,actual_top_broker,actual_top_betweenness,perceived_rank_of_actual_top_broker,bridge_top1_hit,bridge_top3_hit,bridge_mean_abs_rank_error,n_ranked,n_expected,n_fail_safe
+t600,600,observed_interaction_cumulative_betweenness_rank,Abigail Chen,Francisco Lopez,0.010989,9,0,0,3.333333,15,15,0
+t600,600,observed_interaction_cumulative_betweenness_rank,Arthur Burton,Francisco Lopez,0.010989,5,0,0,0.533333,15,15,0
+t600,600,observed_interaction_cumulative_betweenness_rank,Ayesha Khan,Francisco Lopez,0.010989,10,0,0,3.866667,15,15,0
+t600,600,observed_interaction_cumulative_betweenness_rank,Carlos Gomez,Francisco Lopez,0.010989,5,0,0,1.333333,15,15,0
+t600,600,observed_interaction_cumulative_betweenness_rank,Francisco Lopez,Francisco Lopez,0.010989,1,1,1,2.000000,15,15,0
+t600,600,observed_interaction_cumulative_betweenness_rank,Giorgio Rossi,Francisco Lopez,0.010989,7,0,0,2.666667,15,15,0
+t600,600,observed_interaction_cumulative_betweenness_rank,Hailey Johnson,Francisco Lopez,0.010989,1,1,1,1.466667,15,15,0
+t600,600,observed_interaction_cumulative_betweenness_rank,Isabella Rodriguez,Francisco Lopez,0.010989,5,0,0,2.533333,15,15,0
+t600,600,observed_interaction_cumulative_betweenness_rank,Klaus Mueller,Francisco Lopez,0.010989,12,0,0,3.466667,15,15,0
+t600,600,observed_interaction_cumulative_betweenness_rank,Latoya Williams,Francisco Lopez,0.010989,6,0,0,3.200000,15,15,0
+t600,600,observed_interaction_cumulative_betweenness_rank,Maria Lopez,Francisco Lopez,0.010989,6,0,0,3.200000,15,15,0
+t600,600,observed_interaction_cumulative_betweenness_rank,Mei Lin,Francisco Lopez,0.010989,6,0,0,2.266667,15,15,0
+t600,600,observed_interaction_cumulative_betweenness_rank,Rajiv Patel,Francisco Lopez,0.010989,1,1,1,2.266667,15,15,0
+t600,600,observed_interaction_cumulative_betweenness_rank,Ryan Park,Francisco Lopez,0.010989,5,0,0,2.800000,15,15,0
+t600,600,observed_interaction_cumulative_betweenness_rank,Wolfgang Schulz,Francisco Lopez,0.010989,10,0,0,2.400000,15,15,0
+t600,600,observed_interaction_cumulative_betweenness_rank,__overall__,Francisco Lopez,0.010989,5.933333,0.200000,0.200000,2.488889,15.000000,15,0
+t1800,1800,observed_interaction_cumulative_betweenness_rank,Abigail Chen,Carlos Gomez,0.486447,6,0,0,4.533333,15,15,0
+t1800,1800,observed_interaction_cumulative_betweenness_rank,Arthur Burton,Carlos Gomez,0.486447,1,1,1,2.800000,15,15,0
+t1800,1800,observed_interaction_cumulative_betweenness_rank,Ayesha Khan,Carlos Gomez,0.486447,7,0,0,3.333333,15,15,0
+t1800,1800,observed_interaction_cumulative_betweenness_rank,Carlos Gomez,Carlos Gomez,0.486447,1,1,1,1.866667,15,15,0
+t1800,1800,observed_interaction_cumulative_betweenness_rank,Francisco Lopez,Carlos Gomez,0.486447,7,0,0,6.133333,15,15,0
+t1800,1800,observed_interaction_cumulative_betweenness_rank,Giorgio Rossi,Carlos Gomez,0.486447,1,1,1,2.133333,15,15,0
+t1800,1800,observed_interaction_cumulative_betweenness_rank,Hailey Johnson,Carlos Gomez,0.486447,7,0,0,4.933333,15,15,0
+t1800,1800,observed_interaction_cumulative_betweenness_rank,Isabella Rodriguez,Carlos Gomez,0.486447,3,0,1,2.533333,15,15,0
+t1800,1800,observed_interaction_cumulative_betweenness_rank,Klaus Mueller,Carlos Gomez,0.486447,3,0,1,2.000000,15,15,0
+t1800,1800,observed_interaction_cumulative_betweenness_rank,Latoya Williams,Carlos Gomez,0.486447,7,0,0,5.200000,15,15,0
+t1800,1800,observed_interaction_cumulative_betweenness_rank,Maria Lopez,Carlos Gomez,0.486447,2,0,1,2.933333,15,15,0
+t1800,1800,observed_interaction_cumulative_betweenness_rank,Mei Lin,Carlos Gomez,0.486447,3,0,1,2.933333,15,15,0
+t1800,1800,observed_interaction_cumulative_betweenness_rank,Rajiv Patel,Carlos Gomez,0.486447,7,0,0,5.733333,15,15,0
+t1800,1800,observed_interaction_cumulative_betweenness_rank,Ryan Park,Carlos Gomez,0.486447,3,0,1,3.733333,15,15,0
+t1800,1800,observed_interaction_cumulative_betweenness_rank,Wolfgang Schulz,Carlos Gomez,0.486447,8,0,0,4.133333,15,15,0
+t1800,1800,observed_interaction_cumulative_betweenness_rank,__overall__,Carlos Gomez,0.486447,4.400000,0.200000,0.533333,3.662222,15.000000,15,0
+t2400,2400,observed_interaction_cumulative_betweenness_rank,Abigail Chen,Carlos Gomez,0.304029,7,0,0,4.933333,15,15,0
+t2400,2400,observed_interaction_cumulative_betweenness_rank,Arthur Burton,Carlos Gomez,0.304029,3,0,1,2.933333,15,15,0
+t2400,2400,observed_interaction_cumulative_betweenness_rank,Ayesha Khan,Carlos Gomez,0.304029,6,0,0,3.733333,15,15,0
+t2400,2400,observed_interaction_cumulative_betweenness_rank,Carlos Gomez,Carlos Gomez,0.304029,1,1,1,2.400000,15,15,0
+t2400,2400,observed_interaction_cumulative_betweenness_rank,Francisco Lopez,Carlos Gomez,0.304029,6,0,0,4.533333,15,15,0
+t2400,2400,observed_interaction_cumulative_betweenness_rank,Giorgio Rossi,Carlos Gomez,0.304029,2,0,1,3.066667,15,15,0
+t2400,2400,observed_interaction_cumulative_betweenness_rank,Hailey Johnson,Carlos Gomez,0.304029,8,0,0,4.266667,15,15,0
+t2400,2400,observed_interaction_cumulative_betweenness_rank,Isabella Rodriguez,Carlos Gomez,0.304029,3,0,1,3.066667,15,15,0
+t2400,2400,observed_interaction_cumulative_betweenness_rank,Klaus Mueller,Carlos Gomez,0.304029,2,0,1,3.333333,15,15,0
+t2400,2400,observed_interaction_cumulative_betweenness_rank,Latoya Williams,Carlos Gomez,0.304029,7,0,0,4.400000,15,15,0
+t2400,2400,observed_interaction_cumulative_betweenness_rank,Maria Lopez,Carlos Gomez,0.304029,2,0,1,3.733333,15,15,0
+t2400,2400,observed_interaction_cumulative_betweenness_rank,Mei Lin,Carlos Gomez,0.304029,4,0,0,3.866667,15,15,0
+t2400,2400,observed_interaction_cumulative_betweenness_rank,Rajiv Patel,Carlos Gomez,0.304029,6,0,0,3.866667,15,15,0
+t2400,2400,observed_interaction_cumulative_betweenness_rank,Ryan Park,Carlos Gomez,0.304029,2,0,1,3.333333,15,15,0
+t2400,2400,observed_interaction_cumulative_betweenness_rank,Wolfgang Schulz,Carlos Gomez,0.304029,9,0,0,4.266667,15,15,0
+t2400,2400,observed_interaction_cumulative_betweenness_rank,__overall__,Carlos Gomez,0.304029,4.533333,0.066667,0.466667,3.715556,15.000000,15,0

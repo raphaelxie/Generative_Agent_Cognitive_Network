@@ -1,0 +1,410 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2026, 14:39:50",
+  "curr_tile": [
+    76,
+    22
+  ],
+  "daily_plan_req": "Isabella Rodriguez opens Hobbs Cafe at 8am everyday, and stands at the counter until 8pm, at which point she closes the cafe.",
+  "name": "Isabella Rodriguez",
+  "first_name": "Isabella",
+  "last_name": "Rodriguez",
+  "age": 34,
+  "innate": "friendly, outgoing, hospitable",
+  "learned": "Isabella Rodriguez is a cafe owner of Hobbs Cafe who loves to make people feel welcome. She is always looking for ways to make the cafe a place where people can come to relax and enjoy themselves.",
+  "currently": "Isabella Rodriguez is planning on having a Valentine's Day party at Hobbs Cafe with her customers on February 14th, 2023 at 5pm. She is gathering party material, and is telling everyone to join the party at Hobbs Cafe on *February 14th, 2023, from 5pm to 7pm*.",
+  "lifestyle": "Isabella Rodriguez goes to bed around 11pm, awakes up around 6am.",
+  "living_area": "the Ville:Isabella Rodriguez's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 99,
+  "importance_ele_n": 70,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 6:00 am",
+    "open Hobbs Cafe at 8:00 am",
+    "prepare and set up the cafe for the Valentine's Day party throughout the morning and afternoon",
+    "have a quick lunch at 12:00 pm",
+    "continue preparing for the party and finalize decorations from 1:00 pm to 3:00 pm",
+    "check and organize supplies from 3:00 pm to 4:00 pm",
+    "take a short break and have a light snack from 4:00 pm to 4:30 pm",
+    "ensure everything is ready for the party and greet early guests from 4:30 pm to 5:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "sleeping",
+      60
+    ],
+    [
+      "opening Hobbs Cafe for the day",
+      60
+    ],
+    [
+      "preparing the cafe for the Valentine's Day party, arranging decorations and setting up tables (arranging the tables for the party)",
+      15
+    ],
+    [
+      "preparing the cafe for the Valentine's Day party, arranging decorations and setting up tables (selecting and hanging Valentine's Day decorations)",
+      15
+    ],
+    [
+      "preparing the cafe for the Valentine's Day party, arranging decorations and setting up tables (setting up a photo booth area with props)",
+      10
+    ],
+    [
+      "preparing the cafe for the Valentine's Day party, arranging decorations and setting up tables (arranging chairs around the tables)",
+      10
+    ],
+    [
+      "preparing the cafe for the Valentine's Day party, arranging decorations and setting up tables (on the way to placing table centerpieces on each table)",
+      0
+    ],
+    [
+      "preparing the cafe for the Valentine's Day party, arranging decorations and setting up tables (conversing about Isabella and Giorgio discussing preparations for a Valentine's Day party, including decorations, activities, and snacks.)",
+      18
+    ],
+    [
+      "continuing to prepare the cafe for the Valentine's Day party, focusing on decorations and ambiance (continuing to arrange heart-shaped balloons around the cafe)",
+      15
+    ],
+    [
+      "continuing to prepare the cafe for the Valentine's Day party, focusing on decorations and ambiance (setting up a photo booth area with props for guests)",
+      15
+    ],
+    [
+      "continuing to prepare the cafe for the Valentine's Day party, focusing on decorations and ambiance (placing candles on tables to create a romantic atmosphere)",
+      10
+    ],
+    [
+      "continuing to prepare the cafe for the Valentine's Day party, focusing on decorations and ambiance (playing soft romantic music to enhance the ambiance)",
+      5
+    ],
+    [
+      "continuing to prepare the cafe for the Valentine's Day party, focusing on decorations and ambiance (arranging fresh flowers on tables for decoration)",
+      7
+    ],
+    [
+      "continuing to prepare the cafe for the Valentine's Day party, finalizing decorations and setting the mood for the event (continuing to arrange the heart-shaped balloons around the cafe)",
+      15
+    ],
+    [
+      "continuing to prepare the cafe for the Valentine's Day party, finalizing decorations and setting the mood for the event (on the way to setting up the Valentine's Day-themed tablecloths on the tables)",
+      0
+    ],
+    [
+      "continuing to prepare the cafe for the Valentine's Day party, finalizing decorations and setting the mood for the event (conversing about Isabella Rodriguez and Maria Lopez discussing preparations for a Valentine's Day party, including crafting activities and Maria offering her help with decorations.)",
+      14
+    ],
+    [
+      "continuing to prepare the cafe for the Valentine's Day party, finalizing decorations and setting the mood for the event (on the way to placing candles on each table for a romantic ambiance)",
+      0
+    ],
+    [
+      "continuing to prepare the cafe for the Valentine's Day party, finalizing decorations and setting the mood for the event (conversing about Ayesha Khan and Isabella Rodriguez discussing preparations for a Valentine's Day party, including decorations, crafting activities, and potential guest activities.)",
+      17
+    ],
+    [
+      "continuing to prepare the cafe for the Valentine's Day party, finalizing decorations and setting the mood for the event (on the way to hanging up Valentine's Day banners and decorations on the walls)",
+      0
+    ],
+    [
+      "continuing to prepare the cafe for the Valentine's Day party, finalizing decorations and setting the mood for the event (conversing about Isabella Rodriguez and Carlos Gomez discussing ideas for decorations and activities for a Valentine's Day party, including Fibonacci-inspired decorations, poetry prompts, and a collaborative poem setup.)",
+      19
+    ],
+    [
+      "continuing to prepare the cafe for the Valentine's Day party, finalizing decorations and setting the mood for the event (selecting a playlist of romantic music to play during the party)",
+      10
+    ],
+    [
+      "continuing to prepare the cafe for the Valentine's Day party, finalizing decorations and setting the mood for the event (testing the sound system to ensure the music plays well)",
+      5
+    ],
+    [
+      "having a quick lunch (preparing her lunch)",
+      10
+    ],
+    [
+      "having a quick lunch (setting the table for lunch)",
+      5
+    ],
+    [
+      "having a quick lunch (enjoying her lunch)",
+      20
+    ],
+    [
+      "having a quick lunch (cleaning up after lunch)",
+      5
+    ],
+    [
+      "continuing to prepare for the Valentine's Day party, focusing on final touches and ensuring everything is in place (continuing to decorate the cafe for the Valentine's Day party)",
+      15
+    ],
+    [
+      "continuing to prepare for the Valentine's Day party, focusing on final touches and ensuring everything is in place (arranging tables and chairs for the party layout)",
+      15
+    ],
+    [
+      "continuing to prepare for the Valentine's Day party, focusing on final touches and ensuring everything is in place (setting up a designated area for party games and activities)",
+      10
+    ],
+    [
+      "continuing to prepare for the Valentine's Day party, focusing on final touches and ensuring everything is in place (preparing a playlist of romantic music for the event)",
+      10
+    ],
+    [
+      "continuing to prepare for the Valentine's Day party, focusing on final touches and ensuring everything is in place (checking the lighting and ambiance to ensure a cozy atmosphere)",
+      10
+    ],
+    [
+      "continuing to prepare for the Valentine's Day party, checking supplies and making sure everything is organized (on the way to checking the inventory of decorations)",
+      0
+    ],
+    [
+      "continuing to prepare for the Valentine's Day party, checking supplies and making sure everything is organized (conversing about Ryan Park and Isabella Rodriguez discussing the preparations for a Valentine's Day party, including decorations, activities, and potential help with the setup.)",
+      14
+    ],
+    [
+      "continuing to prepare for the Valentine's Day party, checking supplies and making sure everything is organized (organizing the decorations by type)",
+      15
+    ],
+    [
+      "continuing to prepare for the Valentine's Day party, checking supplies and making sure everything is organized (on the way to checking the inventory of food supplies)",
+      0
+    ],
+    [
+      "continuing to prepare for the Valentine's Day party, checking supplies and making sure everything is organized (conversing about Isabella Rodriguez and Maria Lopez discussing ideas for Valentine's Day party decorations, including Fibonacci patterns and quotes from 'Macbeth', and planning to check their inventory for supplies.)",
+      17
+    ],
+    [
+      "continuing to prepare for the Valentine's Day party, checking supplies and making sure everything is organized (making a list of any missing food items)",
+      10
+    ],
+    [
+      "continuing to prepare for the Valentine's Day party, checking supplies and making sure everything is organized (placing an order for missing food items)",
+      15
+    ],
+    [
+      "continuing to prepare for the Valentine's Day party, checking supplies and making sure everything is organized (checking the inventory of drinks)",
+      10
+    ],
+    [
+      "continuing to prepare for the Valentine's Day party, checking supplies and making sure everything is organized (organizing the drinks by type)",
+      15
+    ],
+    [
+      "continuing to prepare for the Valentine's Day party, checking supplies and making sure everything is organized (preparing the seating arrangement for the party)",
+      15
+    ],
+    [
+      "continuing to prepare for the Valentine's Day party, checking supplies and making sure everything is organized (reviewing the party schedule and timeline)",
+      10
+    ],
+    [
+      "continuing to check and organize supplies for the Valentine's Day party",
+      58
+    ],
+    [
+      "continuing to prepare for the Valentine's Day party, doing last-minute checks and ensuring everything is perfect for the guests",
+      60
+    ],
+    [
+      "continuing to prepare for the Valentine's Day party, making final adjustments and checking in with staff",
+      60
+    ],
+    [
+      "sleeping",
+      60
+    ],
+    [
+      "closing Hobbs Cafe for the day",
+      60
+    ],
+    [
+      "sleeping",
+      180
+    ],
+    [
+      "sleeping",
+      1
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "sleeping",
+      60
+    ],
+    [
+      "opening Hobbs Cafe for the day",
+      60
+    ],
+    [
+      "preparing the cafe for the Valentine's Day party, arranging decorations and setting up tables",
+      60
+    ],
+    [
+      "continuing to prepare the cafe for the Valentine's Day party, focusing on decorations and ambiance",
+      60
+    ],
+    [
+      "continuing to prepare the cafe for the Valentine's Day party, finalizing decorations and setting the mood for the event",
+      60
+    ],
+    [
+      "having a quick lunch",
+      60
+    ],
+    [
+      "continuing to prepare for the Valentine's Day party, focusing on final touches and ensuring everything is in place",
+      60
+    ],
+    [
+      "continuing to prepare for the Valentine's Day party, checking supplies and making sure everything is organized",
+      120
+    ],
+    [
+      "continuing to check and organize supplies for the Valentine's Day party",
+      60
+    ],
+    [
+      "continuing to prepare for the Valentine's Day party, doing last-minute checks and ensuring everything is perfect for the guests",
+      60
+    ],
+    [
+      "continuing to prepare for the Valentine's Day party, making final adjustments and checking in with staff",
+      60
+    ],
+    [
+      "sleeping",
+      60
+    ],
+    [
+      "closing Hobbs Cafe for the day",
+      60
+    ],
+    [
+      "sleeping",
+      180
+    ]
+  ],
+  "act_address": "<persona> Maria Lopez",
+  "act_start_time": "February 13, 2026, 14:23:30",
+  "act_duration": 17,
+  "act_description": "conversing about Isabella Rodriguez and Maria Lopez discussing ideas for Valentine's Day party decorations, including Fibonacci patterns and quotes from 'Macbeth', and planning to check their inventory for supplies.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Isabella Rodriguez",
+    "chat with",
+    "Maria Lopez"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Maria Lopez",
+  "chat": [
+    [
+      "Isabella Rodriguez",
+      "Hey Maria! Thanks for being here. How's your physics homework going? I could really use your help with some decorations for the Valentine's Day party. Do you have any ideas?"
+    ],
+    [
+      "Maria Lopez",
+      "Hey Isabella! My physics homework is going well, thanks for asking! I'd love to help with the decorations. How about we incorporate some Fibonacci patterns into the designs? We could also add some quotes from 'Macbeth' to give it a unique touch. What do you think?"
+    ],
+    [
+      "Isabella Rodriguez",
+      "I love those ideas, Maria! Fibonacci patterns would look really cool, and adding quotes from 'Macbeth' will definitely make it special. We can use them as part of the decorations and maybe even for some activities during the party. Do you have any specific quotes in mind?"
+    ],
+    [
+      "Maria Lopez",
+      "I was thinking we could use the quote 'Out, out brief candle!' as a centerpiece for one of the decoration pieces, and maybe we can incorporate some smaller quotes on the tables or in the crafting activities. What do you think? Any other quotes you like that we could use?"
+    ],
+    [
+      "Isabella Rodriguez",
+      "Those quotes are perfect, especially 'Out, out brief candle!' It really resonates with the theme of love and loss. Maybe we can add some quotes about love too, like 'Love looks not with the eyes, but with the mind.' We could make some cute signs for the tables! What do you think?"
+    ],
+    [
+      "Maria Lopez",
+      "That sounds like a great idea! I love the quote 'Love looks not with the eyes, but with the mind.' We can definitely make some signs for the tables with those quotes. Should we also think about how to display the Fibonacci patterns? Maybe we could use them as borders around the signs or in the table centerpieces?"
+    ],
+    [
+      "Isabella Rodriguez",
+      "That's a fantastic idea, Maria! Using Fibonacci patterns as borders will add a nice touch to the signs and centerpieces. We could even create some crafting activities where guests can make their own Fibonacci-inspired decorations! What do you think about that?"
+    ],
+    [
+      "Maria Lopez",
+      "I love that idea! Creating crafting activities where guests can make their own Fibonacci-inspired decorations would be super fun and interactive. We should also think about the materials we need for that. Do you have any supplies already, or should we make a list of what to get?"
+    ],
+    [
+      "Isabella Rodriguez",
+      "I have some supplies like glitter, stickers, and paper, but we might need more geometric shapes and maybe some additional craft supplies. Let's make a list together! We can also check the cafe inventory to see what we have. How does that sound?"
+    ],
+    [
+      "Maria Lopez",
+      "That sounds perfect! Let's start by checking what we have in the cafe inventory. Then we can make a list of any additional supplies we need. I'm excited to see what we can come up with!"
+    ],
+    [
+      "Isabella Rodriguez",
+      "Great! Let's check the inventory first. We can see what we have and then list out anything we need for the decorations and crafting activities. I'll grab the inventory sheet. Do you want to help me look through the supplies?"
+    ],
+    [
+      "Maria Lopez",
+      "Sure, I\u2019d love to help look through the supplies! Let\u2019s see what we can find in the inventory that we can use for the decorations and crafting activities."
+    ],
+    [
+      "Isabella Rodriguez",
+      "Awesome! Let's start looking through the supplies now. I'm sure we can find some really great materials to work with. After that, we can make our list of what we still need for the party."
+    ],
+    [
+      "Maria Lopez",
+      "Great! Let's check the first shelf and see if we can find any geometric shapes or other decorations we can use. I'm really looking forward to making this party special!"
+    ],
+    [
+      "Isabella Rodriguez",
+      "Perfect! Let's see what we can find on this shelf first. I hope we have some fun geometric shapes in here. If we don't, we can always add them to our shopping list! Ready?"
+    ],
+    [
+      "Maria Lopez",
+      "Absolutely! I'm ready. Let's see what treasures we can find on this shelf! I can't wait to get started on the decorations."
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Giorgio Rossi": -862,
+    "Maria Lopez": 800,
+    "Ayesha Khan": -256,
+    "Carlos Gomez": -142,
+    "Ryan Park": 608
+  },
+  "chatting_end_time": "February 13, 2026, 14:41:00",
+  "act_path_set": true,
+  "planned_path": []
+}

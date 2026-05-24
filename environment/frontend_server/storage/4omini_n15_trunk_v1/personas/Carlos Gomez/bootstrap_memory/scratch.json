@@ -1,0 +1,367 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2026, 14:39:50",
+  "curr_tile": [
+    61,
+    25
+  ],
+  "daily_plan_req": "",
+  "name": "Carlos Gomez",
+  "first_name": "Carlos",
+  "last_name": "Gomez",
+  "age": 32,
+  "innate": "loud, rude, toxic",
+  "learned": "Carlos Gomez is a poet who loves to explore his inner thoughts and feelings. He is always looking for new ways to express himself.",
+  "currently": "Carlos Gomez is working on a collection of poetry that explores the beauty of the natural world. He is also attending creative writing workshops to hone his skills.",
+  "lifestyle": "Carlos Gomez goes to bed around 10pm, awakes up around 7am, eats dinner around 5pm.",
+  "living_area": "the Ville:Carlos Gomez's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 211,
+  "importance_ele_n": 10,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "have breakfast at 8:30 am",
+    "spend an hour reviewing and editing his poetry collection from 9:00 am to 10:00 am",
+    "attend a creative writing workshop from 10:30 am to 12:00 pm",
+    "take a break and have a light lunch at 12:30 pm",
+    "go for a nature walk from 1:00 pm to 2:00 pm for inspiration",
+    "spend the afternoon writing new poetry from 2:30 pm to 4:30 pm",
+    "prepare and eat dinner around 5:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "reviewing and editing his poetry collection (reviewing the first poem in his collection)",
+      10
+    ],
+    [
+      "reviewing and editing his poetry collection (making notes on areas for improvement in the first poem)",
+      10
+    ],
+    [
+      "reviewing and editing his poetry collection (revising the first poem based on his notes)",
+      10
+    ],
+    [
+      "reviewing and editing his poetry collection (reading the second poem in his collection)",
+      10
+    ],
+    [
+      "reviewing and editing his poetry collection (making notes on areas for improvement in the second poem)",
+      10
+    ],
+    [
+      "reviewing and editing his poetry collection (revising the second poem based on his notes)",
+      10
+    ],
+    [
+      "attending a creative writing workshop (attending the workshop introduction)",
+      10
+    ],
+    [
+      "attending a creative writing workshop (on the way to participating in a group discussion about poetry)",
+      0
+    ],
+    [
+      "attending a creative writing workshop (conversing about Carlos Gomez and Klaus Mueller discussing their respective research and creative projects, with Klaus sharing insights on gentrification case studies and Carlos expressing interest in connecting poetry with real-world social issues.)",
+      15
+    ],
+    [
+      "attending a creative writing workshop (sharing one of his poems with the group)",
+      10
+    ],
+    [
+      "attending a creative writing workshop (on the way to receiving feedback from peers)",
+      0
+    ],
+    [
+      "attending a creative writing workshop (conversing about Giorgio Rossi and Carlos Gomez discussing the integration of mathematical patterns, specifically the Fibonacci sequence, into a Valentine's Day party through cocktails, decorations, and poetry that reflect themes of growth, balance, and social issues like gentrification.)",
+      22
+    ],
+    [
+      "attending a creative writing workshop (on the way to taking notes on the feedback received)",
+      0
+    ],
+    [
+      "attending a creative writing workshop (conversing about Carlos Gomez and Arthur Burton discussing ideas for incorporating the Fibonacci sequence into cocktail presentations and decorations for their upcoming Valentine's Day party, including layered cocktails, poetry snippets, geometric shapes, and a potential signature cocktail.)",
+      18
+    ],
+    [
+      "attending a creative writing workshop (on the way to discussing techniques for improving his poetry)",
+      0
+    ],
+    [
+      "attending a creative writing workshop (conversing about Abigail Chen and Carlos Gomez discussing creative ideas for a Valentine's Day party and animation segments for a web series, including themes, sound effects, and music choices.)",
+      18
+    ],
+    [
+      "reviewing his poetry collection and making notes for improvement (reviewing the first poem in his collection)",
+      15
+    ],
+    [
+      "reviewing his poetry collection and making notes for improvement (on the way to making notes on the first poem's themes and imagery)",
+      0
+    ],
+    [
+      "reviewing his poetry collection and making notes for improvement (conversing about Isabella Rodriguez and Carlos Gomez discussing ideas for decorations and activities for a Valentine's Day party, including Fibonacci-inspired decorations, poetry prompts, and a collaborative poem setup.)",
+      19
+    ],
+    [
+      "reviewing his poetry collection and making notes for improvement (on the way to reading the second poem in his collection)",
+      0
+    ],
+    [
+      "reviewing his poetry collection and making notes for improvement (conversing about Carlos Gomez and Maria Lopez discussing their collaborative efforts on a physics project related to quantum mechanics and creative ideas for Valentine's Day party decorations, incorporating Fibonacci themes and Shakespeare quotes.)",
+      21
+    ],
+    [
+      "reviewing his poetry collection and making notes for improvement (making notes on the second poem's structure and flow)",
+      5
+    ],
+    [
+      "taking a break and having a light lunch (preparing a light lunch)",
+      15
+    ],
+    [
+      "taking a break and having a light lunch (setting the table for lunch)",
+      5
+    ],
+    [
+      "taking a break and having a light lunch (on the way to eating his lunch)",
+      0
+    ],
+    [
+      "taking a break and having a light lunch (conversing about Carlos Gomez and Klaus Mueller discussing the integration of gentrification themes into Carlos's poetry collection and the collaborative decorations for an upcoming Valentine's Day party, focusing on Fibonacci patterns and poetry prompts.)",
+      21
+    ],
+    [
+      "going for a nature walk to find inspiration for his poetry (1) Carlos is gathering his notebook and pen for the walk)",
+      5
+    ],
+    [
+      "going for a nature walk to find inspiration for his poetry (putting on comfortable shoes and clothing suitable for walking)",
+      5
+    ],
+    [
+      "going for a nature walk to find inspiration for his poetry (stepping outside and taking a moment to breathe in the fresh air)",
+      5
+    ],
+    [
+      "going for a nature walk to find inspiration for his poetry (walking to a nearby park or nature area)",
+      10
+    ],
+    [
+      "going for a nature walk to find inspiration for his poetry (observing the surroundings and taking note of interesting sights)",
+      10
+    ],
+    [
+      "going for a nature walk to find inspiration for his poetry (listening to the sounds of nature, such as birds chirping and leaves rustling)",
+      5
+    ],
+    [
+      "going for a nature walk to find inspiration for his poetry (finding a quiet spot to sit and reflect on his thoughts)",
+      5
+    ],
+    [
+      "going for a nature walk to find inspiration for his poetry (jotting down initial ideas and inspirations in his notebook)",
+      1
+    ],
+    [
+      "writing new poetry for his collection (brainstorming themes for his poetry)",
+      10
+    ],
+    [
+      "writing new poetry for his collection (freewriting ideas related to the chosen themes)",
+      15
+    ],
+    [
+      "writing new poetry for his collection (on the way to selecting the best lines from his freewriting)",
+      0
+    ],
+    [
+      "writing new poetry for his collection (conversing about Ryan Park and Carlos Gomez discussing the integration of themes of growth and balance into Carlos's poetry and Ryan's mobile app project, including the potential for collaboration on a platform for user-generated content and community engagement.)",
+      25
+    ],
+    [
+      "writing new poetry for his collection (organizing the selected lines into a rough structure)",
+      10
+    ],
+    [
+      "writing new poetry for his collection (refining the language and imagery in his poem)",
+      15
+    ],
+    [
+      "spending the afternoon writing new poetry for his collection (1) Carlos is finding a quiet space to write)",
+      5
+    ],
+    [
+      "spending the afternoon writing new poetry for his collection (gathering his writing materials (notebook, pen, laptop))",
+      5
+    ],
+    [
+      "spending the afternoon writing new poetry for his collection (reading through his previous poems for inspiration)",
+      10
+    ],
+    [
+      "spending the afternoon writing new poetry for his collection (brainstorming themes for new poems)",
+      10
+    ],
+    [
+      "spending the afternoon writing new poetry for his collection (jotting down ideas and phrases that come to mind)",
+      10
+    ],
+    [
+      "spending the afternoon writing new poetry for his collection (selecting a theme to focus on for the new poem)",
+      5
+    ],
+    [
+      "spending the afternoon writing new poetry for his collection (outlining the structure of the new poem)",
+      15
+    ],
+    [
+      "preparing and eating dinner",
+      120
+    ],
+    [
+      "spending time relaxing and reflecting on his day",
+      60
+    ],
+    [
+      "relaxing and reflecting on his day",
+      60
+    ],
+    [
+      "spending the evening revising and polishing his poetry collection",
+      60
+    ],
+    [
+      "relaxing and enjoying some leisure time, possibly reading or listening to music",
+      60
+    ],
+    [
+      "relaxing and preparing for bed",
+      60
+    ],
+    [
+      "sleeping",
+      60
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "reviewing and editing his poetry collection",
+      60
+    ],
+    [
+      "attending a creative writing workshop",
+      60
+    ],
+    [
+      "reviewing his poetry collection and making notes for improvement",
+      60
+    ],
+    [
+      "taking a break and having a light lunch",
+      60
+    ],
+    [
+      "going for a nature walk to find inspiration for his poetry",
+      60
+    ],
+    [
+      "writing new poetry for his collection",
+      60
+    ],
+    [
+      "spending the afternoon writing new poetry for his collection",
+      60
+    ],
+    [
+      "preparing and eating dinner",
+      120
+    ],
+    [
+      "spending time relaxing and reflecting on his day",
+      60
+    ],
+    [
+      "relaxing and reflecting on his day",
+      60
+    ],
+    [
+      "spending the evening revising and polishing his poetry collection",
+      60
+    ],
+    [
+      "relaxing and enjoying some leisure time, possibly reading or listening to music",
+      60
+    ],
+    [
+      "relaxing and preparing for bed",
+      60
+    ],
+    [
+      "sleeping",
+      60
+    ]
+  ],
+  "act_address": "the Ville:The Rose and Crown Pub:pub:microphone",
+  "act_start_time": "February 13, 2026, 14:35:00",
+  "act_duration": 25,
+  "act_description": "writing new poetry for his collection (conversing about Ryan Park and Carlos Gomez discussing the integration of themes of growth and balance into Carlos's poetry and Ryan's mobile app project, including the potential for collaboration on a platform for user-generated content and community engagement.)",
+  "act_pronunciatio": "\ud83d\udde3\ufe0f\ud83e\udd1d",
+  "act_event": [
+    "Carlos Gomez",
+    "converse",
+    "Ryan Park"
+  ],
+  "act_obj_description": "being used for recording",
+  "act_obj_pronunciatio": "\ud83c\udfa4\ud83d\udcfd\ufe0f",
+  "act_obj_event": [
+    "microphone",
+    "use",
+    "recording"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Klaus Mueller": 254,
+    "Giorgio Rossi": -562,
+    "Arthur Burton": -448,
+    "Abigail Chen": -334,
+    "Isabella Rodriguez": -142,
+    "Maria Lopez": -10,
+    "Ryan Park": 770
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

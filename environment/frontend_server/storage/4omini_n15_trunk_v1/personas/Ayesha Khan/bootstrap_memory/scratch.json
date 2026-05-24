@@ -1,0 +1,316 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2026, 14:39:50",
+  "curr_tile": [
+    123,
+    25
+  ],
+  "daily_plan_req": "Ayesha Khan goes to the library at Oak Hill College to take classes from 10am to 2pm, and then spends her days studying at the library.",
+  "name": "Ayesha Khan",
+  "first_name": "Ayesha",
+  "last_name": "Khan",
+  "age": 20,
+  "innate": "curious, determined, independent",
+  "learned": "Ayesha Khan is a college student who loves to explore literature. She is curious and determined to understand the nuances of each work.",
+  "currently": "Ayesha Khan is researching for her senior thesis on the use of language in Shakespeare\u2019s plays. She is also taking classes to learn more about writing.",
+  "lifestyle": "Ayesha Khan goes to bed around 10pm, awakes up around 6am, eats dinner around 5pm.",
+  "living_area": "the Ville:Dorm for Oak Hill College:Ayesha Khan's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 217,
+  "importance_ele_n": 10,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "have breakfast from 8:00 am to 8:30 am",
+    "head to the library by 9:30 am to attend classes from 10:00 am to 2:00 pm",
+    "have lunch at 12:00 pm",
+    "continue studying at the library from 2:00 pm to 5:00 pm",
+    "have dinner at 5:00 pm",
+    "return to the library from 6:00 pm to 8:00 pm for additional studying and research for her thesis"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "completing her morning routine",
+      60
+    ],
+    [
+      "having breakfast (preparing her breakfast)",
+      15
+    ],
+    [
+      "having breakfast (on the way to cooking her eggs)",
+      0
+    ],
+    [
+      "having breakfast (conversing about Maria Lopez and Ayesha Khan discussing their breakfast, thesis research on Shakespeare, study plans at Hobbs Cafe, and offering each other support with their academic work.)",
+      10
+    ],
+    [
+      "having breakfast (toasting her bread)",
+      5
+    ],
+    [
+      "having breakfast (setting the table)",
+      5
+    ],
+    [
+      "having breakfast (pouring herself a glass of juice)",
+      5
+    ],
+    [
+      "having breakfast (sitting down to eat)",
+      5
+    ],
+    [
+      "having breakfast (enjoying her breakfast)",
+      15
+    ],
+    [
+      "attending her literature class at Oak Hill College (taking her seat in the classroom)",
+      5
+    ],
+    [
+      "attending her literature class at Oak Hill College (reviewing her notes from the previous class)",
+      10
+    ],
+    [
+      "attending her literature class at Oak Hill College (on the way to listening to the professor's introduction to the day's topic)",
+      0
+    ],
+    [
+      "attending her literature class at Oak Hill College (conversing about Ayesha Khan and Wolfgang Schulz discussing their class notes and brainstorming ideas to merge the themes of transformation and ambition from Shakespeare's works with concepts in chemistry for their upcoming projects.)",
+      20
+    ],
+    [
+      "attending her literature class at Oak Hill College (participating in a class discussion about the assigned reading)",
+      10
+    ],
+    [
+      "attending her literature class at Oak Hill College (taking notes on key points made by the professor)",
+      10
+    ],
+    [
+      "attending her literature class at Oak Hill College (on the way to working on a group activity related to the day's lesson)",
+      0
+    ],
+    [
+      "attending her literature class at Oak Hill College (conversing about Ayesha Khan and Mei Lin discussing their insights on the themes of ambition and ethical decision-making in Shakespeare's works, particularly 'Macbeth', and planning to meet at Hobbs Cafe to exchange their findings.)",
+      17
+    ],
+    [
+      "attending her literature class at Oak Hill College (asking questions to clarify her understanding of the material)",
+      5
+    ],
+    [
+      "continuing her literature class at Oak Hill College (taking notes on the lecture)",
+      20
+    ],
+    [
+      "continuing her literature class at Oak Hill College (on the way to participating in class discussions)",
+      0
+    ],
+    [
+      "continuing her literature class at Oak Hill College (conversing about Ayesha Khan and Isabella Rodriguez discussing preparations for a Valentine's Day party, including decorations, crafting activities, and potential guest activities.)",
+      17
+    ],
+    [
+      "continuing her literature class at Oak Hill College (on the way to reading excerpts from Shakespeare's plays)",
+      0
+    ],
+    [
+      "continuing her literature class at Oak Hill College (conversing about Maria Lopez and Ayesha Khan discussing Ayesha's thesis on Shakespeare's 'Macbeth', Maria's physics project on quantum mechanics, and preparations for a Valentine's Day party, including activities and decorations.)",
+      18
+    ],
+    [
+      "continuing her literature class at Oak Hill College (on the way to asking questions about the material)",
+      0
+    ],
+    [
+      "continuing her literature class at Oak Hill College (conversing about Klaus Mueller and Ayesha Khan discussing Ayesha's thesis on 'Macbeth,' preparations for a Valentine's Day party, and collaborating on decorations and themes for the event.)",
+      17
+    ],
+    [
+      "continuing her literature class at Oak Hill College (reviewing her notes from the lecture)",
+      5
+    ],
+    [
+      "having lunch (preparing her lunch)",
+      15
+    ],
+    [
+      "having lunch (setting the table)",
+      5
+    ],
+    [
+      "having lunch (on the way to enjoying her meal)",
+      0
+    ],
+    [
+      "having lunch (conversing about Ayesha Khan and Wolfgang Schulz discussing how to connect themes of transformation and ambition in Shakespeare's 'Macbeth' to Wolfgang's chemistry project, planning to analyze specific scenes and quotes while collaborating on their presentation.)",
+      17
+    ],
+    [
+      "having lunch (taking a moment to relax and reflect on her morning class)",
+      10
+    ],
+    [
+      "studying at the library for her thesis on Shakespeare's plays",
+      48
+    ],
+    [
+      "continuing to study at the library for her thesis on Shakespeare's plays (1) Ayesha is reviewing her notes from the morning class)",
+      15
+    ],
+    [
+      "continuing to study at the library for her thesis on Shakespeare's plays (reading a specific Shakespeare play for analysis)",
+      30
+    ],
+    [
+      "continuing to study at the library for her thesis on Shakespeare's plays (taking notes on key themes and language use in the play)",
+      30
+    ],
+    [
+      "continuing to study at the library for her thesis on Shakespeare's plays (discussing her findings with a fellow student)",
+      15
+    ],
+    [
+      "continuing to study at the library for her thesis on Shakespeare's plays (researching scholarly articles related to her thesis topic)",
+      30
+    ],
+    [
+      "continuing to study at the library for her thesis on Shakespeare's plays (summarizing the key points from the articles she found)",
+      30
+    ],
+    [
+      "continuing to study at the library for her thesis on Shakespeare's plays (outlining her thesis argument based on her research)",
+      15
+    ],
+    [
+      "continuing to study at the library for her thesis on Shakespeare's plays (drafting the introduction for her thesis)",
+      10
+    ],
+    [
+      "continuing to study at the library for her thesis on Shakespeare's plays (organizing her materials and notes for the next study session)",
+      5
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "continuing to study at the library for her thesis on Shakespeare's plays",
+      180
+    ],
+    [
+      "relaxing and unwinding after a long day of studying",
+      60
+    ],
+    [
+      "relaxing and preparing for bed",
+      60
+    ],
+    [
+      "sleeping",
+      60
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "completing her morning routine",
+      60
+    ],
+    [
+      "having breakfast",
+      60
+    ],
+    [
+      "attending her literature class at Oak Hill College",
+      60
+    ],
+    [
+      "continuing her literature class at Oak Hill College",
+      60
+    ],
+    [
+      "having lunch",
+      60
+    ],
+    [
+      "studying at the library for her thesis on Shakespeare's plays",
+      60
+    ],
+    [
+      "continuing to study at the library for her thesis on Shakespeare's plays",
+      180
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "continuing to study at the library for her thesis on Shakespeare's plays",
+      180
+    ],
+    [
+      "relaxing and unwinding after a long day of studying",
+      60
+    ],
+    [
+      "relaxing and preparing for bed",
+      60
+    ],
+    [
+      "sleeping",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Oak Hill College:library:bookshelf",
+  "act_start_time": "February 13, 2026, 14:27:00",
+  "act_duration": 30,
+  "act_description": "continuing to study at the library for her thesis on Shakespeare's plays (reading a specific Shakespeare play for analysis)",
+  "act_pronunciatio": "\ud83d\udcd6\ud83c\udfad",
+  "act_event": [
+    "Ayesha Khan",
+    "read",
+    "Shakespeare play"
+  ],
+  "act_obj_description": "holding a collection of Shakespeare's plays",
+  "act_obj_pronunciatio": "\ud83d\udcda\ud83c\udfad",
+  "act_obj_event": [
+    "bookshelf",
+    "hold",
+    "collection of Shakespeare's plays"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Maria Lopez": -136,
+    "Wolfgang Schulz": 242,
+    "Mei Lin": -460,
+    "Isabella Rodriguez": -256,
+    "Klaus Mueller": -4
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

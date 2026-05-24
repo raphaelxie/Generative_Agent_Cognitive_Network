@@ -1,0 +1,354 @@
+{
+  "persona": {
+    "Latoya Williams": {
+      "movement": [
+        16,
+        18
+      ],
+      "pronunciatio": "\ud83d\ude34\ud83d\udecc",
+      "description": "sleeping @ the Ville:artist's co-living space:Latoya Williams's room:bed",
+      "chat": null
+    },
+    "Rajiv Patel": {
+      "movement": [
+        35,
+        30
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f\ud83d\ude02",
+      "description": "enjoying breakfast and a cup of coffee while listening to music (conversing about Rajiv Patel and Francisco Lopez discussing themes and humorous experiences related to communal living and creativity for Francisco's web series.) @ the Ville:artist's co-living space:common room:common room sofa",
+      "chat": null
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        22
+      ],
+      "pronunciatio": "\u270f\ufe0f\ud83c\udfa8",
+      "description": "working on her animation project for the client (sketching initial concepts for the animation) @ the Ville:artist's co-living space:Abigail Chen's room:desk",
+      "chat": null
+    },
+    "Francisco Lopez": {
+      "movement": [
+        38,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Francisco Lopez and Hailey Johnson brainstorming ideas for a web series about co-living spaces, sharing funny experiences like a flour fight and karaoke night, and planning to involve their housemates in the filming. @ <persona> Hailey Johnson",
+      "chat": [
+        [
+          "Francisco Lopez",
+          "Hey Hailey! I was just brainstorming some ideas for my web series about co-living spaces. Do you have any funny or memorable experiences from living here that you think could add some humor to it?"
+        ],
+        [
+          "Hailey Johnson",
+          "Oh, definitely! There was this one time when we all tried to cook a meal together, and it turned into a complete disaster! Someone accidentally spilled flour everywhere, and we ended up having a flour fight instead of dinner. It was hilarious! I think that could make a fun scene for your web series."
+        ],
+        [
+          "Francisco Lopez",
+          "That sounds amazing! A flour fight would definitely bring some laughs. Did anyone end up covered in flour the most? I can already picture the chaos! Any other moments come to mind?"
+        ],
+        [
+          "Hailey Johnson",
+          "Oh, absolutely! I think it was actually Rajiv who got the brunt of it, he was trying to be the voice of reason while we were all throwing flour around. It was like a scene from a comedy movie! Another time, we had a karaoke night that turned into a battle of the bands. Everyone was so into it that we ended up singing duets and solos that had nothing to do with the original songs. It was pure chaos but so much fun! I think both of those moments could definitely add to the humor in your series."
+        ],
+        [
+          "Francisco Lopez",
+          "Those stories are gold! I love the idea of incorporating both the flour fight and the karaoke chaos. It really captures the essence of living in a co-living space. Do you think you\u2019d want to be a part of the series? Maybe we can even recreate some of those moments!"
+        ],
+        [
+          "Hailey Johnson",
+          "I would love to be a part of the series! Recreating those moments sounds like a blast. We could even invite everyone to join in on the fun. I'm sure Rajiv would get a kick out of it too! What do you have in mind for how we could film those scenes?"
+        ],
+        [
+          "Francisco Lopez",
+          "I think for the flour fight scene, we could set up some cameras in the kitchen and just let the chaos unfold! Maybe we could even have a slow-motion shot of Rajiv getting hit with flour. For the karaoke night, we could get some props and have a mini stage in the living room, inviting everyone to join in. What do you think? Any other ideas on how we could make it even more fun?"
+        ],
+        [
+          "Hailey Johnson",
+          "I love those ideas! The slow-motion shot of Rajiv would definitely be a highlight. We could also add some funny commentary or interviews with everyone after the flour fight to capture their reactions. For the karaoke night, how about we create a themed playlist? We could even have silly costumes to make it even more entertaining! What do you think?"
+        ],
+        [
+          "Francisco Lopez",
+          "Those are fantastic ideas, Hailey! The commentary and interviews would add such a fun layer to the flour fight scene. And a themed playlist with costumes for karaoke night sounds like a blast! Let's start planning it out and maybe even set a date for filming. I can't wait to get everyone involved! What do you think about reaching out to Rajiv to see if he has any other funny moments we could include?"
+        ],
+        [
+          "Hailey Johnson",
+          "That's a great idea! Rajiv always has a funny story up his sleeve. I can reach out to him and see what he remembers. Plus, it would be fun to get everyone else\u2019s input too. Maybe we can have a brainstorming session with the whole group to gather more ideas and plan the filming date!"
+        ],
+        [
+          "Francisco Lopez",
+          "That sounds perfect, Hailey! A brainstorming session with the whole group would definitely spark more hilarious ideas. Let's aim to get everyone together this weekend. I\u2019m really excited to see what Rajiv comes up with too. Thanks for reaching out to him! Let\u2019s keep the momentum going!"
+        ],
+        [
+          "Hailey Johnson",
+          "Absolutely! I'll text Rajiv and see what funny moments he can share. And I'll also send out a message to everyone to see when they're free for the brainstorming session. Let's make this happen! I can't wait to see what everyone comes up with!"
+        ],
+        [
+          "Francisco Lopez",
+          "Awesome! I'm looking forward to hearing what Rajiv says. Let\u2019s make sure we include everyone's input. I really think this could turn into something special and hilarious! Just let me know when you hear back from him, and we can start setting everything up."
+        ],
+        [
+          "Hailey Johnson",
+          "Sounds good! I\u2019ll keep you updated on what Rajiv says and when I hear back from everyone. I\u2019m really excited to see how this all comes together!"
+        ],
+        [
+          "Francisco Lopez",
+          "Great! I can\u2019t wait to see what everyone comes up with. Let\u2019s touch base later today to finalize details for the brainstorming session. Thanks for being so proactive, Hailey! You\u2019re the best!"
+        ],
+        [
+          "Hailey Johnson",
+          "Absolutely, Francisco! I\u2019ll reach out to Rajiv right now and see if he has any funny stories to share. Once I have everyone's availability, I'll message you so we can finalize the brainstorming session details. I\u2019m really looking forward to this!"
+        ]
+      ]
+    },
+    "Hailey Johnson": {
+      "movement": [
+        38,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Francisco Lopez and Hailey Johnson brainstorming ideas for a web series about co-living spaces, sharing funny experiences like a flour fight and karaoke night, and planning to involve their housemates in the filming. @ <persona> Francisco Lopez",
+      "chat": [
+        [
+          "Francisco Lopez",
+          "Hey Hailey! I was just brainstorming some ideas for my web series about co-living spaces. Do you have any funny or memorable experiences from living here that you think could add some humor to it?"
+        ],
+        [
+          "Hailey Johnson",
+          "Oh, definitely! There was this one time when we all tried to cook a meal together, and it turned into a complete disaster! Someone accidentally spilled flour everywhere, and we ended up having a flour fight instead of dinner. It was hilarious! I think that could make a fun scene for your web series."
+        ],
+        [
+          "Francisco Lopez",
+          "That sounds amazing! A flour fight would definitely bring some laughs. Did anyone end up covered in flour the most? I can already picture the chaos! Any other moments come to mind?"
+        ],
+        [
+          "Hailey Johnson",
+          "Oh, absolutely! I think it was actually Rajiv who got the brunt of it, he was trying to be the voice of reason while we were all throwing flour around. It was like a scene from a comedy movie! Another time, we had a karaoke night that turned into a battle of the bands. Everyone was so into it that we ended up singing duets and solos that had nothing to do with the original songs. It was pure chaos but so much fun! I think both of those moments could definitely add to the humor in your series."
+        ],
+        [
+          "Francisco Lopez",
+          "Those stories are gold! I love the idea of incorporating both the flour fight and the karaoke chaos. It really captures the essence of living in a co-living space. Do you think you\u2019d want to be a part of the series? Maybe we can even recreate some of those moments!"
+        ],
+        [
+          "Hailey Johnson",
+          "I would love to be a part of the series! Recreating those moments sounds like a blast. We could even invite everyone to join in on the fun. I'm sure Rajiv would get a kick out of it too! What do you have in mind for how we could film those scenes?"
+        ],
+        [
+          "Francisco Lopez",
+          "I think for the flour fight scene, we could set up some cameras in the kitchen and just let the chaos unfold! Maybe we could even have a slow-motion shot of Rajiv getting hit with flour. For the karaoke night, we could get some props and have a mini stage in the living room, inviting everyone to join in. What do you think? Any other ideas on how we could make it even more fun?"
+        ],
+        [
+          "Hailey Johnson",
+          "I love those ideas! The slow-motion shot of Rajiv would definitely be a highlight. We could also add some funny commentary or interviews with everyone after the flour fight to capture their reactions. For the karaoke night, how about we create a themed playlist? We could even have silly costumes to make it even more entertaining! What do you think?"
+        ],
+        [
+          "Francisco Lopez",
+          "Those are fantastic ideas, Hailey! The commentary and interviews would add such a fun layer to the flour fight scene. And a themed playlist with costumes for karaoke night sounds like a blast! Let's start planning it out and maybe even set a date for filming. I can't wait to get everyone involved! What do you think about reaching out to Rajiv to see if he has any other funny moments we could include?"
+        ],
+        [
+          "Hailey Johnson",
+          "That's a great idea! Rajiv always has a funny story up his sleeve. I can reach out to him and see what he remembers. Plus, it would be fun to get everyone else\u2019s input too. Maybe we can have a brainstorming session with the whole group to gather more ideas and plan the filming date!"
+        ],
+        [
+          "Francisco Lopez",
+          "That sounds perfect, Hailey! A brainstorming session with the whole group would definitely spark more hilarious ideas. Let's aim to get everyone together this weekend. I\u2019m really excited to see what Rajiv comes up with too. Thanks for reaching out to him! Let\u2019s keep the momentum going!"
+        ],
+        [
+          "Hailey Johnson",
+          "Absolutely! I'll text Rajiv and see what funny moments he can share. And I'll also send out a message to everyone to see when they're free for the brainstorming session. Let's make this happen! I can't wait to see what everyone comes up with!"
+        ],
+        [
+          "Francisco Lopez",
+          "Awesome! I'm looking forward to hearing what Rajiv says. Let\u2019s make sure we include everyone's input. I really think this could turn into something special and hilarious! Just let me know when you hear back from him, and we can start setting everything up."
+        ],
+        [
+          "Hailey Johnson",
+          "Sounds good! I\u2019ll keep you updated on what Rajiv says and when I hear back from everyone. I\u2019m really excited to see how this all comes together!"
+        ],
+        [
+          "Francisco Lopez",
+          "Great! I can\u2019t wait to see what everyone comes up with. Let\u2019s touch base later today to finalize details for the brainstorming session. Thanks for being so proactive, Hailey! You\u2019re the best!"
+        ],
+        [
+          "Hailey Johnson",
+          "Absolutely, Francisco! I\u2019ll reach out to Rajiv right now and see if he has any funny stories to share. Once I have everyone's availability, I'll message you so we can finalize the brainstorming session details. I\u2019m really looking forward to this!"
+        ]
+      ]
+    },
+    "Arthur Burton": {
+      "movement": [
+        54,
+        17
+      ],
+      "pronunciatio": "\ud83c\udf79\ud83d\udcf9",
+      "description": "reviewing and learning new mixology techniques (watching mixology tutorial videos) @ the Ville:Arthur Burton's apartment:main room:desk",
+      "chat": null
+    },
+    "Ryan Park": {
+      "movement": [
+        66,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcf1\ud83d\udd0d",
+      "description": "working on the mobile app project (researching best practices for mobile app development) @ the Ville:Ryan Park's apartment:main room:computer desk",
+      "chat": null
+    },
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcf8\ud83c\udf89",
+      "description": "preparing the cafe for the Valentine's Day party, arranging decorations and setting up tables (setting up a photo booth area with props) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null
+    },
+    "Giorgio Rossi": {
+      "movement": [
+        80,
+        31
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Giorgio Rossi and Mei Lin conversing about their respective academic pursuits, with Mei sharing her enjoyment of teaching philosophy and Giorgio discussing his research on mathematical patterns in nature, while also planning to meet for coffee to further discuss their interests. @ <persona> Mei Lin",
+      "chat": [
+        [
+          "Giorgio Rossi",
+          "Good morning, Mei Lin! I see you're heading out to Oak Hill College. How's your semester going so far? Any interesting classes?"
+        ],
+        [
+          "Mei Lin",
+          "Good morning, Giorgio! The semester has been going well, thank you! I'm really enjoying teaching my philosophy course this term. We\u2019ve been diving into some fascinating discussions about ethics and morality. How about you? How is your research coming along?"
+        ],
+        [
+          "Giorgio Rossi",
+          "That's great to hear! I'm really excited about my research on mathematical patterns in nature. I've been gathering a lot of literature and resources lately. It's fascinating how math appears in so many natural phenomena. Do you think there are philosophical implications to the patterns we see in nature?"
+        ],
+        [
+          "Mei Lin",
+          "Absolutely, Giorgio! I think the patterns in nature can lead to profound philosophical questions about existence and our understanding of the universe. For instance, the Fibonacci sequence and its occurrences in nature raise questions about the relationship between math and the natural world. It's a topic that could bridge our fields in interesting ways! I'd love to hear more about your findings when you have time."
+        ],
+        [
+          "Giorgio Rossi",
+          "That's a fascinating point, Mei Lin! I've been looking into the Fibonacci sequence myself and how it manifests in things like flower petals and spiral shells. I'd love to share my findings with you over coffee sometime. When are you free?"
+        ],
+        [
+          "Mei Lin",
+          "That sounds wonderful, Giorgio! I'd love to discuss your findings over coffee. How about we plan for next week? I can check my schedule and get back to you with a time that works for both of us."
+        ],
+        [
+          "Giorgio Rossi",
+          "That sounds perfect, Mei Lin! Just let me know when you find a time that works for you. I'm looking forward to our discussion! In the meantime, if you come across any interesting philosophical perspectives related to math, I'd love to hear about those too."
+        ],
+        [
+          "Mei Lin",
+          "Definitely, Giorgio! I'll keep an eye out for any interesting philosophical perspectives on math. I always find it enriching when our fields intersect. Now, I really need to finish getting ready to head to campus. I'll reach out soon about that coffee!"
+        ],
+        [
+          "Giorgio Rossi",
+          "Sounds good, Mei Lin! Safe travels to campus, and I'll be here if you need anything. Looking forward to our coffee chat next week!"
+        ],
+        [
+          "Mei Lin",
+          "Thank you, Giorgio! I really appreciate it. I'll talk to you soon, and good luck with your research in the meantime!"
+        ]
+      ]
+    },
+    "Carlos Gomez": {
+      "movement": [
+        94,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcd6\u270d\ufe0f",
+      "description": "reviewing and editing his poetry collection (reading the second poem in his collection) @ the Ville:Carlos Gomez's apartment:main room:desk",
+      "chat": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        120,
+        33
+      ],
+      "pronunciatio": "\ud83d\udeaa\ud83c\udfc3\u200d",
+      "description": "heading to the library at Oak Hill College (heading out of his apartment) @ the Ville:Oak Hill College:hallway:<random>",
+      "chat": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        120,
+        45
+      ],
+      "pronunciatio": "\ud83e\udd50\u2615",
+      "description": "having breakfast and preparing for the day (having breakfast) @ the Ville:Dorm for Oak Hill College:kitchen:toaster",
+      "chat": null
+    },
+    "Ayesha Khan": {
+      "movement": [
+        123,
+        45
+      ],
+      "pronunciatio": "\ud83e\udd64\ud83c\udf4a",
+      "description": "having breakfast (pouring herself a glass of juice) @ the Ville:Dorm for Oak Hill College:kitchen:refrigerator",
+      "chat": null
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        112,
+        25
+      ],
+      "pronunciatio": "\ud83d\udc68\u200d\ud83c\udfeb",
+      "description": "attending classes (attending his chemistry lecture) @ the Ville:Oak Hill College:classroom:classroom student seating",
+      "chat": null
+    },
+    "Mei Lin": {
+      "movement": [
+        80,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Giorgio Rossi and Mei Lin conversing about their respective academic pursuits, with Mei sharing her enjoyment of teaching philosophy and Giorgio discussing his research on mathematical patterns in nature, while also planning to meet for coffee to further discuss their interests. @ <persona> Giorgio Rossi",
+      "chat": [
+        [
+          "Giorgio Rossi",
+          "Good morning, Mei Lin! I see you're heading out to Oak Hill College. How's your semester going so far? Any interesting classes?"
+        ],
+        [
+          "Mei Lin",
+          "Good morning, Giorgio! The semester has been going well, thank you! I'm really enjoying teaching my philosophy course this term. We\u2019ve been diving into some fascinating discussions about ethics and morality. How about you? How is your research coming along?"
+        ],
+        [
+          "Giorgio Rossi",
+          "That's great to hear! I'm really excited about my research on mathematical patterns in nature. I've been gathering a lot of literature and resources lately. It's fascinating how math appears in so many natural phenomena. Do you think there are philosophical implications to the patterns we see in nature?"
+        ],
+        [
+          "Mei Lin",
+          "Absolutely, Giorgio! I think the patterns in nature can lead to profound philosophical questions about existence and our understanding of the universe. For instance, the Fibonacci sequence and its occurrences in nature raise questions about the relationship between math and the natural world. It's a topic that could bridge our fields in interesting ways! I'd love to hear more about your findings when you have time."
+        ],
+        [
+          "Giorgio Rossi",
+          "That's a fascinating point, Mei Lin! I've been looking into the Fibonacci sequence myself and how it manifests in things like flower petals and spiral shells. I'd love to share my findings with you over coffee sometime. When are you free?"
+        ],
+        [
+          "Mei Lin",
+          "That sounds wonderful, Giorgio! I'd love to discuss your findings over coffee. How about we plan for next week? I can check my schedule and get back to you with a time that works for both of us."
+        ],
+        [
+          "Giorgio Rossi",
+          "That sounds perfect, Mei Lin! Just let me know when you find a time that works for you. I'm looking forward to our discussion! In the meantime, if you come across any interesting philosophical perspectives related to math, I'd love to hear about those too."
+        ],
+        [
+          "Mei Lin",
+          "Definitely, Giorgio! I'll keep an eye out for any interesting philosophical perspectives on math. I always find it enriching when our fields intersect. Now, I really need to finish getting ready to head to campus. I'll reach out soon about that coffee!"
+        ],
+        [
+          "Giorgio Rossi",
+          "Sounds good, Mei Lin! Safe travels to campus, and I'll be here if you need anything. Looking forward to our coffee chat next week!"
+        ],
+        [
+          "Mei Lin",
+          "Thank you, Giorgio! I really appreciate it. I'll talk to you soon, and good luck with your research in the meantime!"
+        ]
+      ]
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2026, 09:39:50"
+  }
+}

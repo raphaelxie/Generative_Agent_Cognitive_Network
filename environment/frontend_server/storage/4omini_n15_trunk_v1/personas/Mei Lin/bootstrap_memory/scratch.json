@@ -1,0 +1,541 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2026, 14:39:50",
+  "curr_tile": [
+    109,
+    31
+  ],
+  "daily_plan_req": "Mei Lin goes to Oak Hill college to teach starting 10 am, teaches until 2pm, and returns home to work.",
+  "name": "Mei Lin",
+  "first_name": "Mei",
+  "last_name": "Lin",
+  "age": 44,
+  "innate": "nurturing, kind, patient",
+  "learned": "Mei Lin is a college professor and a mom who loves to help people reach their goals. She is always looking for ways to support her students and her family.",
+  "currently": "Mei Lin is living with her husband, John Lin, and son, Eddy Lin, and is teaching a course on philosophy and working on her research paper. She also is helping her two kids with their schoolwork.",
+  "lifestyle": "Mei Lin goes to bed around 11pm, awakes up around 7am, eats dinner around 5pm.",
+  "living_area": "the Ville:Lin family's house:Mei and John Lin's bedroom",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 212,
+  "importance_ele_n": 11,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "have breakfast with her family at 8:15 am",
+    "leave for Oak Hill College by 9:00 am",
+    "teach her philosophy course from 10:00 am to 2:00 pm",
+    "have a brief meeting with a colleague after class until 2:30 pm",
+    "return home by 3:00 pm",
+    "help Eddy and his sibling with homework from 3:30 pm to 4:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "leaving for Oak Hill College (getting dressed for the day)",
+      15
+    ],
+    [
+      "leaving for Oak Hill College (preparing breakfast for herself and her family)",
+      10
+    ],
+    [
+      "leaving for Oak Hill College (eating breakfast)",
+      10
+    ],
+    [
+      "leaving for Oak Hill College (on the way to packing her bag with teaching materials and her laptop)",
+      0
+    ],
+    [
+      "leaving for Oak Hill College (conversing about Giorgio Rossi and Mei Lin conversing about their respective academic pursuits, with Mei sharing her enjoyment of teaching philosophy and Giorgio discussing his research on mathematical patterns in nature, while also planning to meet for coffee to further discuss their interests.)",
+      11
+    ],
+    [
+      "leaving for Oak Hill College (checking in with her husband, John, and son, Eddy, to see if they need anything)",
+      15
+    ],
+    [
+      "teaching her philosophy course at Oak Hill College (on the way to preparing her lecture materials)",
+      0
+    ],
+    [
+      "teaching her philosophy course at Oak Hill College (conversing about Klaus Mueller and Mei Lin discussing their respective research topics, including ethics and technology in Mei's philosophy class and gentrification in Klaus's research paper, and planning to meet for coffee to exchange insights.)",
+      8
+    ],
+    [
+      "teaching her philosophy course at Oak Hill College (setting up the classroom)",
+      10
+    ],
+    [
+      "teaching her philosophy course at Oak Hill College (greeting her students as they arrive)",
+      5
+    ],
+    [
+      "teaching her philosophy course at Oak Hill College (starting the class with an introduction to the day's topic)",
+      10
+    ],
+    [
+      "teaching her philosophy course at Oak Hill College (on the way to presenting the main concepts of the lecture)",
+      0
+    ],
+    [
+      "teaching her philosophy course at Oak Hill College (conversing about Mei Lin and Wolfgang Schulz discussing the themes of transformation and ambition in literature and science, particularly how Wolfgang plans to relate these themes in his chemistry project using examples from Shakespeare's works.)",
+      24
+    ],
+    [
+      "teaching her philosophy course at Oak Hill College (on the way to facilitating a class discussion on the topic)",
+      0
+    ],
+    [
+      "teaching her philosophy course at Oak Hill College (conversing about Ayesha Khan and Mei Lin discussing their insights on the themes of ambition and ethical decision-making in Shakespeare's works, particularly 'Macbeth', and planning to meet at Hobbs Cafe to exchange their findings.)",
+      17
+    ],
+    [
+      "teaching her philosophy course at Oak Hill College (answering student questions)",
+      15
+    ],
+    [
+      "teaching her philosophy course at Oak Hill College (on the way to assigning reading materials for the next class)",
+      0
+    ],
+    [
+      "teaching her philosophy course at Oak Hill College (conversing about Mei Lin and Maria Lopez discussing their studies in philosophy and physics, with Mei Lin sharing insights on her philosophy course focused on 'Macbeth,' while Maria seeks advice for her upcoming quantum mechanics project.)",
+      18
+    ],
+    [
+      "teaching her philosophy course at Oak Hill College (summarizing the key points of the lecture)",
+      10
+    ],
+    [
+      "teaching her philosophy course at Oak Hill College (collecting feedback from students about the lecture)",
+      10
+    ],
+    [
+      "teaching her philosophy course at Oak Hill College (wrapping up the class and thanking her students)",
+      5
+    ],
+    [
+      "teaching her philosophy course at Oak Hill College (cleaning up the classroom after the lecture)",
+      10
+    ],
+    [
+      "teaching her philosophy course at Oak Hill College (heading to her office to prepare for the next class)",
+      5
+    ],
+    [
+      "teaching her philosophy course at Oak Hill College (reviewing her notes and materials for the next lecture)",
+      15
+    ],
+    [
+      "teaching her philosophy course at Oak Hill College (packing her bag with teaching materials)",
+      5
+    ],
+    [
+      "teaching her philosophy course at Oak Hill College (leaving her office to meet with students for homework help)",
+      4
+    ],
+    [
+      "helping her students with their homework (helping a student with their essay outline)",
+      20
+    ],
+    [
+      "helping her students with their homework (reviewing another student's math problems)",
+      20
+    ],
+    [
+      "helping her students with their homework (providing feedback on a group project)",
+      20
+    ],
+    [
+      "helping her students with their homework (answering questions about the upcoming exam)",
+      15
+    ],
+    [
+      "helping her students with their homework (discussing study strategies with a student)",
+      10
+    ],
+    [
+      "helping her students with their homework (helping a student with a philosophy concept)",
+      15
+    ],
+    [
+      "helping her students with their homework (wrapping up her session with the students)",
+      5
+    ],
+    [
+      "helping her students with their homework (organizing her notes and materials for the next session)",
+      7
+    ],
+    [
+      "returning home from Oak Hill College (1) Mei is gathering her belongings and materials from her office)",
+      5
+    ],
+    [
+      "returning home from Oak Hill College (saying goodbye to her colleagues)",
+      5
+    ],
+    [
+      "returning home from Oak Hill College (walking to her car in the parking lot)",
+      5
+    ],
+    [
+      "returning home from Oak Hill College (getting into her car and buckling her seatbelt)",
+      5
+    ],
+    [
+      "returning home from Oak Hill College (starting the car and checking her mirrors)",
+      5
+    ],
+    [
+      "returning home from Oak Hill College (driving out of the parking lot)",
+      5
+    ],
+    [
+      "returning home from Oak Hill College (navigating through traffic on her way home)",
+      10
+    ],
+    [
+      "returning home from Oak Hill College (listening to a podcast or music during her drive)",
+      10
+    ],
+    [
+      "returning home from Oak Hill College (approaching her neighborhood)",
+      5
+    ],
+    [
+      "returning home from Oak Hill College (parking her car in the driveway)",
+      5
+    ],
+    [
+      "helping Eddy and his sibling with homework",
+      60
+    ],
+    [
+      "having dinner with her family",
+      60
+    ],
+    [
+      "helping her kids with their homework",
+      120
+    ],
+    [
+      "sleeping",
+      240
+    ],
+    [
+      "sleeping",
+      7
+    ],
+    [
+      "sleeping",
+      6
+    ],
+    [
+      "sleeping",
+      3
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "leaving for Oak Hill College",
+      60
+    ],
+    [
+      "teaching her philosophy course at Oak Hill College",
+      180
+    ],
+    [
+      "helping her students with their homework",
+      120
+    ],
+    [
+      "returning home from Oak Hill College",
+      60
+    ],
+    [
+      "helping Eddy and his sibling with homework",
+      60
+    ],
+    [
+      "having dinner with her family",
+      60
+    ],
+    [
+      "helping her kids with their homework",
+      120
+    ],
+    [
+      "sleeping",
+      240
+    ]
+  ],
+  "act_address": "the Ville:Lin family's house:common room:shelf",
+  "act_start_time": "February 13, 2026, 14:37:00",
+  "act_duration": 7,
+  "act_description": "helping her students with their homework (organizing her notes and materials for the next session)",
+  "act_pronunciatio": "\ud83d\uddc2\ufe0f\ud83d\udcdd",
+  "act_event": [
+    "Mei Lin",
+    "organize",
+    "notes and materials"
+  ],
+  "act_obj_description": "being organized",
+  "act_obj_pronunciatio": "\ud83d\udcc5\u2705",
+  "act_obj_event": [
+    "shelf",
+    "be",
+    "organized"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Giorgio Rossi": -982,
+    "Klaus Mueller": -898,
+    "Wolfgang Schulz": -562,
+    "Ayesha Khan": -460,
+    "Maria Lopez": -250
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": [
+    [
+      108,
+      32
+    ],
+    [
+      107,
+      32
+    ],
+    [
+      106,
+      32
+    ],
+    [
+      105,
+      32
+    ],
+    [
+      104,
+      32
+    ],
+    [
+      103,
+      32
+    ],
+    [
+      102,
+      32
+    ],
+    [
+      101,
+      32
+    ],
+    [
+      100,
+      32
+    ],
+    [
+      99,
+      32
+    ],
+    [
+      98,
+      32
+    ],
+    [
+      98,
+      33
+    ],
+    [
+      98,
+      34
+    ],
+    [
+      98,
+      35
+    ],
+    [
+      98,
+      36
+    ],
+    [
+      98,
+      37
+    ],
+    [
+      98,
+      38
+    ],
+    [
+      98,
+      39
+    ],
+    [
+      98,
+      40
+    ],
+    [
+      98,
+      41
+    ],
+    [
+      98,
+      42
+    ],
+    [
+      98,
+      43
+    ],
+    [
+      98,
+      44
+    ],
+    [
+      98,
+      45
+    ],
+    [
+      98,
+      46
+    ],
+    [
+      98,
+      47
+    ],
+    [
+      98,
+      48
+    ],
+    [
+      98,
+      49
+    ],
+    [
+      98,
+      50
+    ],
+    [
+      98,
+      51
+    ],
+    [
+      98,
+      52
+    ],
+    [
+      98,
+      53
+    ],
+    [
+      98,
+      54
+    ],
+    [
+      98,
+      55
+    ],
+    [
+      97,
+      55
+    ],
+    [
+      96,
+      55
+    ],
+    [
+      95,
+      55
+    ],
+    [
+      95,
+      56
+    ],
+    [
+      94,
+      56
+    ],
+    [
+      93,
+      56
+    ],
+    [
+      92,
+      56
+    ],
+    [
+      91,
+      56
+    ],
+    [
+      91,
+      57
+    ],
+    [
+      91,
+      58
+    ],
+    [
+      91,
+      59
+    ],
+    [
+      91,
+      60
+    ],
+    [
+      91,
+      61
+    ],
+    [
+      91,
+      62
+    ],
+    [
+      91,
+      63
+    ],
+    [
+      91,
+      64
+    ],
+    [
+      91,
+      65
+    ],
+    [
+      90,
+      65
+    ],
+    [
+      89,
+      65
+    ]
+  ]
+}

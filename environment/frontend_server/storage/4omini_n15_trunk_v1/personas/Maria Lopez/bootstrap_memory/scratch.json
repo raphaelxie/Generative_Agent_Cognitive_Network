@@ -1,0 +1,407 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2026, 14:39:50",
+  "curr_tile": [
+    75,
+    22
+  ],
+  "daily_plan_req": "Maria Lopez spends at least 6 hours a day Twitch streaming or gaming.",
+  "name": "Maria Lopez",
+  "first_name": "Maria",
+  "last_name": "Lopez",
+  "age": 21,
+  "innate": "energetic, enthusiastic, inquisitive",
+  "learned": "Maria Lopez is a student at Oak Hill College studying physics and a part time Twitch game streamer who loves to connect with people and explore new ideas.",
+  "currently": "Maria Lopez is working on her physics degree and streaming games on Twitch to make some extra money. She visits Hobbs Cafe for studying and eating just about everyday.",
+  "lifestyle": "Maria Lopez goes to bed around midnight, awakes up around 10am, eats dinner around 7pm.",
+  "living_area": "the Ville:Dorm for Oak Hill College:Maria Lopez's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 208,
+  "importance_ele_n": 18,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "have breakfast and prepare for the day by 10:00 am",
+    "head to Hobbs Cafe to study physics from 10:30 am to 1:30 pm",
+    "have lunch at 1:30 pm",
+    "return to Hobbs Cafe for more studying or work on assignments from 2:00 pm to 4:00 pm",
+    "start streaming on Twitch from 4:30 pm to 7:00 pm",
+    "eat dinner at 7:00 pm",
+    "resume streaming from 8:00 pm to 11:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "having breakfast and preparing for the day (having breakfast)",
+      30
+    ],
+    [
+      "having breakfast and preparing for the day (on the way to washing her dishes)",
+      0
+    ],
+    [
+      "having breakfast and preparing for the day (conversing about Maria Lopez and Ayesha Khan discussing their breakfast, thesis research on Shakespeare, study plans at Hobbs Cafe, and offering each other support with their academic work.)",
+      10
+    ],
+    [
+      "having breakfast and preparing for the day (taking a shower)",
+      15
+    ],
+    [
+      "having breakfast and preparing for the day (getting dressed)",
+      10
+    ],
+    [
+      "having breakfast and preparing for the day (doing her hair)",
+      10
+    ],
+    [
+      "having breakfast and preparing for the day (applying makeup)",
+      10
+    ],
+    [
+      "having breakfast and preparing for the day (packing her bag for Hobbs Cafe)",
+      10
+    ],
+    [
+      "having breakfast and preparing for the day (checking her Twitch streaming schedule)",
+      5
+    ],
+    [
+      "having breakfast and preparing for the day (reviewing her physics notes)",
+      15
+    ],
+    [
+      "having breakfast and preparing for the day (grabbing her keys and heading out)",
+      5
+    ],
+    [
+      "studying physics at Hobbs Cafe (gathering her study materials)",
+      5
+    ],
+    [
+      "studying physics at Hobbs Cafe (finding a comfortable spot to sit)",
+      5
+    ],
+    [
+      "studying physics at Hobbs Cafe (setting up her laptop and books on the table)",
+      5
+    ],
+    [
+      "studying physics at Hobbs Cafe (on the way to reviewing her notes from the last class)",
+      0
+    ],
+    [
+      "studying physics at Hobbs Cafe (conversing about Isabella Rodriguez and Maria Lopez discussing preparations for a Valentine's Day party, including crafting activities and Maria offering her help with decorations.)",
+      14
+    ],
+    [
+      "studying physics at Hobbs Cafe (on the way to reading the assigned textbook chapter)",
+      0
+    ],
+    [
+      "studying physics at Hobbs Cafe (conversing about Mei Lin and Maria Lopez discussing their studies in philosophy and physics, with Mei Lin sharing insights on her philosophy course focused on 'Macbeth,' while Maria seeks advice for her upcoming quantum mechanics project.)",
+      18
+    ],
+    [
+      "studying physics at Hobbs Cafe (on the way to taking notes on key concepts from the chapter)",
+      0
+    ],
+    [
+      "studying physics at Hobbs Cafe (conversing about Maria Lopez and Ayesha Khan discussing Ayesha's thesis on Shakespeare's 'Macbeth', Maria's physics project on quantum mechanics, and preparations for a Valentine's Day party, including activities and decorations.)",
+      18
+    ],
+    [
+      "studying physics at Hobbs Cafe (working on practice problems related to the chapter)",
+      10
+    ],
+    [
+      "having lunch (on the way to ordering her lunch)",
+      0
+    ],
+    [
+      "having lunch (conversing about Carlos Gomez and Maria Lopez discussing their collaborative efforts on a physics project related to quantum mechanics and creative ideas for Valentine's Day party decorations, incorporating Fibonacci themes and Shakespeare quotes.)",
+      21
+    ],
+    [
+      "having lunch (on the way to waiting for her food to be prepared)",
+      0
+    ],
+    [
+      "having lunch (conversing about Klaus Mueller and Maria Lopez discussing their collaboration on decorations and activities for the upcoming Valentine's Day party, incorporating themes from quantum mechanics, Fibonacci patterns, and quotes from 'Macbeth'.)",
+      20
+    ],
+    [
+      "having lunch (receiving her food from the counter)",
+      5
+    ],
+    [
+      "having lunch (finding a table to sit at)",
+      5
+    ],
+    [
+      "having lunch (setting up her lunch on the table)",
+      5
+    ],
+    [
+      "having lunch (on the way to taking a moment to check her phone for messages)",
+      0
+    ],
+    [
+      "having lunch (conversing about Maria Lopez and Wolfgang Schulz discussing Wolfgang's project on 'Macbeth' with chemistry themes and ideas for presentations, as well as Maria's physics presentation and Valentine's Day party decorations inspired by the play.)",
+      23
+    ],
+    [
+      "having lunch (starting to eat her lunch)",
+      10
+    ],
+    [
+      "having lunch (enjoying her meal and chatting with a friend who joins her)",
+      5
+    ],
+    [
+      "having lunch at Hobbs Cafe (ordering her lunch)",
+      10
+    ],
+    [
+      "having lunch at Hobbs Cafe (waiting for her food to be prepared)",
+      5
+    ],
+    [
+      "having lunch at Hobbs Cafe (receiving her food from the counter)",
+      5
+    ],
+    [
+      "having lunch at Hobbs Cafe (finding a table to sit at)",
+      5
+    ],
+    [
+      "having lunch at Hobbs Cafe (setting up her laptop and study materials on the table)",
+      4
+    ],
+    [
+      "continuing to study physics at Hobbs Cafe (continuing her physics homework)",
+      30
+    ],
+    [
+      "continuing to study physics at Hobbs Cafe (on the way to reviewing her class notes)",
+      0
+    ],
+    [
+      "continuing to study physics at Hobbs Cafe (conversing about Isabella Rodriguez and Maria Lopez discussing ideas for Valentine's Day party decorations, including Fibonacci patterns and quotes from 'Macbeth', and planning to check their inventory for supplies.)",
+      17
+    ],
+    [
+      "continuing to study physics at Hobbs Cafe (working on practice problems)",
+      30
+    ],
+    [
+      "continuing to study physics at Hobbs Cafe (taking a short break)",
+      10
+    ],
+    [
+      "continuing to study physics at Hobbs Cafe (discussing concepts with a study partner)",
+      30
+    ],
+    [
+      "continuing to study physics at Hobbs Cafe (watching a physics tutorial video)",
+      30
+    ],
+    [
+      "continuing to study physics at Hobbs Cafe (summarizing key concepts in her notebook)",
+      30
+    ],
+    [
+      "continuing to study physics at Hobbs Cafe (preparing questions for her professor)",
+      15
+    ],
+    [
+      "continuing to study physics at Hobbs Cafe (reviewing her practice problems and solutions)",
+      17
+    ],
+    [
+      "continuing to stream on Twitch",
+      60
+    ],
+    [
+      "eating dinner",
+      60
+    ],
+    [
+      "resuming her Twitch stream",
+      60
+    ],
+    [
+      "continuing her Twitch stream",
+      120
+    ],
+    [
+      "winding down and preparing for bed",
+      60
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "having breakfast and preparing for the day",
+      120
+    ],
+    [
+      "studying physics at Hobbs Cafe",
+      60
+    ],
+    [
+      "having lunch",
+      60
+    ],
+    [
+      "having lunch at Hobbs Cafe",
+      60
+    ],
+    [
+      "continuing to study physics at Hobbs Cafe",
+      240
+    ],
+    [
+      "continuing to stream on Twitch",
+      60
+    ],
+    [
+      "eating dinner",
+      60
+    ],
+    [
+      "resuming her Twitch stream",
+      60
+    ],
+    [
+      "continuing her Twitch stream",
+      120
+    ],
+    [
+      "winding down and preparing for bed",
+      60
+    ]
+  ],
+  "act_address": "<persona> Isabella Rodriguez",
+  "act_start_time": "February 13, 2026, 14:23:20",
+  "act_duration": 17,
+  "act_description": "conversing about Isabella Rodriguez and Maria Lopez discussing ideas for Valentine's Day party decorations, including Fibonacci patterns and quotes from 'Macbeth', and planning to check their inventory for supplies.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Maria Lopez",
+    "chat with",
+    "Isabella Rodriguez"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Isabella Rodriguez",
+  "chat": [
+    [
+      "Isabella Rodriguez",
+      "Hey Maria! Thanks for being here. How's your physics homework going? I could really use your help with some decorations for the Valentine's Day party. Do you have any ideas?"
+    ],
+    [
+      "Maria Lopez",
+      "Hey Isabella! My physics homework is going well, thanks for asking! I'd love to help with the decorations. How about we incorporate some Fibonacci patterns into the designs? We could also add some quotes from 'Macbeth' to give it a unique touch. What do you think?"
+    ],
+    [
+      "Isabella Rodriguez",
+      "I love those ideas, Maria! Fibonacci patterns would look really cool, and adding quotes from 'Macbeth' will definitely make it special. We can use them as part of the decorations and maybe even for some activities during the party. Do you have any specific quotes in mind?"
+    ],
+    [
+      "Maria Lopez",
+      "I was thinking we could use the quote 'Out, out brief candle!' as a centerpiece for one of the decoration pieces, and maybe we can incorporate some smaller quotes on the tables or in the crafting activities. What do you think? Any other quotes you like that we could use?"
+    ],
+    [
+      "Isabella Rodriguez",
+      "Those quotes are perfect, especially 'Out, out brief candle!' It really resonates with the theme of love and loss. Maybe we can add some quotes about love too, like 'Love looks not with the eyes, but with the mind.' We could make some cute signs for the tables! What do you think?"
+    ],
+    [
+      "Maria Lopez",
+      "That sounds like a great idea! I love the quote 'Love looks not with the eyes, but with the mind.' We can definitely make some signs for the tables with those quotes. Should we also think about how to display the Fibonacci patterns? Maybe we could use them as borders around the signs or in the table centerpieces?"
+    ],
+    [
+      "Isabella Rodriguez",
+      "That's a fantastic idea, Maria! Using Fibonacci patterns as borders will add a nice touch to the signs and centerpieces. We could even create some crafting activities where guests can make their own Fibonacci-inspired decorations! What do you think about that?"
+    ],
+    [
+      "Maria Lopez",
+      "I love that idea! Creating crafting activities where guests can make their own Fibonacci-inspired decorations would be super fun and interactive. We should also think about the materials we need for that. Do you have any supplies already, or should we make a list of what to get?"
+    ],
+    [
+      "Isabella Rodriguez",
+      "I have some supplies like glitter, stickers, and paper, but we might need more geometric shapes and maybe some additional craft supplies. Let's make a list together! We can also check the cafe inventory to see what we have. How does that sound?"
+    ],
+    [
+      "Maria Lopez",
+      "That sounds perfect! Let's start by checking what we have in the cafe inventory. Then we can make a list of any additional supplies we need. I'm excited to see what we can come up with!"
+    ],
+    [
+      "Isabella Rodriguez",
+      "Great! Let's check the inventory first. We can see what we have and then list out anything we need for the decorations and crafting activities. I'll grab the inventory sheet. Do you want to help me look through the supplies?"
+    ],
+    [
+      "Maria Lopez",
+      "Sure, I\u2019d love to help look through the supplies! Let\u2019s see what we can find in the inventory that we can use for the decorations and crafting activities."
+    ],
+    [
+      "Isabella Rodriguez",
+      "Awesome! Let's start looking through the supplies now. I'm sure we can find some really great materials to work with. After that, we can make our list of what we still need for the party."
+    ],
+    [
+      "Maria Lopez",
+      "Great! Let's check the first shelf and see if we can find any geometric shapes or other decorations we can use. I'm really looking forward to making this party special!"
+    ],
+    [
+      "Isabella Rodriguez",
+      "Perfect! Let's see what we can find on this shelf first. I hope we have some fun geometric shapes in here. If we don't, we can always add them to our shopping list! Ready?"
+    ],
+    [
+      "Maria Lopez",
+      "Absolutely! I'm ready. Let's see what treasures we can find on this shelf! I can't wait to get started on the decorations."
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Ayesha Khan": -136,
+    "Isabella Rodriguez": 800,
+    "Mei Lin": -250,
+    "Carlos Gomez": -10,
+    "Klaus Mueller": 122,
+    "Wolfgang Schulz": 380
+  },
+  "chatting_end_time": "February 13, 2026, 14:41:00",
+  "act_path_set": true,
+  "planned_path": []
+}

@@ -1,0 +1,303 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2026, 14:39:50",
+  "curr_tile": [
+    36,
+    30
+  ],
+  "daily_plan_req": "",
+  "name": "Hailey Johnson",
+  "first_name": "Hailey",
+  "last_name": "Johnson",
+  "age": 30,
+  "innate": "imaginative, energetic, resourceful",
+  "learned": "Hailey Johnson is a writer who is always looking for new ways to tell stories. She loves to immerse herself in different cultures and explore their literature.",
+  "currently": "Hailey Johnson is writing a novel about a group of artists living in a co-living space. She is also planning to start a podcast.",
+  "lifestyle": "Hailey Johnson goes to bed around 2am, awakes up around 10am, eats dinner around 6pm.",
+  "living_area": "the Ville:artist's co-living space:Hailey Johnson's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 250,
+  "importance_ele_n": 0,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "dedicate time to writing her novel from 11:00 am to 2:00 pm",
+    "take a lunch break at 2:00 pm",
+    "spend time researching cultural aspects for her podcast from 3:00 pm to 5:00 pm",
+    "attend a local art exhibit for inspiration from 5:30 pm to 7:00 pm",
+    "have dinner at 7:00 pm",
+    "engage in podcast planning and note-taking from 8:00 pm to 10:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "completing her morning routine and enjoying a light breakfast (preparing a light breakfast)",
+      15
+    ],
+    [
+      "completing her morning routine and enjoying a light breakfast (enjoying her breakfast at the dining table)",
+      15
+    ],
+    [
+      "completing her morning routine and enjoying a light breakfast (on the way to washing her dishes after breakfast)",
+      0
+    ],
+    [
+      "completing her morning routine and enjoying a light breakfast (conversing about Francisco Lopez and Hailey Johnson brainstorming ideas for a web series about co-living spaces, sharing funny experiences like a flour fight and karaoke night, and planning to involve their housemates in the filming.)",
+      20
+    ],
+    [
+      "completing her morning routine and enjoying a light breakfast (on the way to brushing her teeth)",
+      0
+    ],
+    [
+      "completing her morning routine and enjoying a light breakfast (conversing about Rajiv Patel and Hailey Johnson discussing the planning of a web series about co-living, including funny experiences to include and organizing a gathering to share more stories.)",
+      15
+    ],
+    [
+      "completing her morning routine and enjoying a light breakfast (taking a shower)",
+      15
+    ],
+    [
+      "completing her morning routine and preparing for her writing session (on the way to completing her morning skincare routine)",
+      0
+    ],
+    [
+      "completing her morning routine and preparing for her writing session (conversing about Hailey Johnson and Latoya Williams planning a web series that includes funny co-living experiences and organizing a mini dance-off with their housemates.)",
+      17
+    ],
+    [
+      "completing her morning routine and preparing for her writing session (on the way to brushing her teeth)",
+      0
+    ],
+    [
+      "completing her morning routine and preparing for her writing session (conversing about Hailey Johnson and Abigail Chen discussing Abigail's animation project, sharing funny moments, and brainstorming ideas for incorporating animated segments into Hailey's web series dance-off.)",
+      14
+    ],
+    [
+      "completing her morning routine and preparing for her writing session (taking a shower)",
+      15
+    ],
+    [
+      "completing her morning routine and preparing for her writing session (getting dressed for the day)",
+      10
+    ],
+    [
+      "completing her morning routine and preparing for her writing session (making a cup of coffee)",
+      5
+    ],
+    [
+      "completing her morning routine and preparing for her writing session (enjoying her coffee while reviewing her writing notes)",
+      5
+    ],
+    [
+      "writing her novel",
+      44
+    ],
+    [
+      "taking a lunch break (preparing her lunch)",
+      15
+    ],
+    [
+      "taking a lunch break (on the way to eating her lunch)",
+      0
+    ],
+    [
+      "taking a lunch break (conversing about Rajiv Patel and Hailey Johnson discussing funny moments to include in their web series, brainstorming ideas, and planning a collaborative session with their housemates and Abigail for animated segments.)",
+      14
+    ],
+    [
+      "taking a lunch break (cleaning up after lunch)",
+      10
+    ],
+    [
+      "taking a lunch break (on the way to taking a short walk outside)",
+      0
+    ],
+    [
+      "taking a lunch break (conversing about Latoya Williams and Hailey Johnson brainstorming fun themes, challenges, decorations, and music playlists for their upcoming web series dance-off.)",
+      16
+    ],
+    [
+      "taking a lunch break (listening to a podcast episode)",
+      30
+    ],
+    [
+      "taking a lunch break (on the way to jotting down ideas for her podcast)",
+      0
+    ],
+    [
+      "taking a lunch break (conversing about Abigail Chen and Hailey Johnson brainstorming ideas for animated segments and fun snack themes for their upcoming dance-off project.)",
+      15
+    ],
+    [
+      "taking a lunch break (checking her social media)",
+      10
+    ],
+    [
+      "taking a lunch break (reading a book for inspiration)",
+      20
+    ],
+    [
+      "taking a lunch break (on the way to meditating for relaxation)",
+      0
+    ],
+    [
+      "taking a lunch break (conversing about Francisco Lopez and Hailey Johnson discussing creative ideas to incorporate improv elements, themes, and unique traits of the housemates into their web series' flour fight and karaoke night scenes.)",
+      19
+    ],
+    [
+      "taking a lunch break (reviewing her notes for the podcast)",
+      15
+    ],
+    [
+      "taking a lunch break (preparing to return to writing)",
+      5
+    ],
+    [
+      "researching cultural aspects for her podcast (researching different cultures online)",
+      6
+    ],
+    [
+      "researching cultural aspects for her podcast (taking notes on interesting cultural practices)",
+      15
+    ],
+    [
+      "researching cultural aspects for her podcast (looking for relevant articles and books)",
+      10
+    ],
+    [
+      "researching cultural aspects for her podcast (summarizing key points from her notes)",
+      10
+    ],
+    [
+      "researching cultural aspects for her podcast (organizing her notes into categories)",
+      10
+    ],
+    [
+      "attending a local art exhibit for inspiration",
+      60
+    ],
+    [
+      "engaging in podcast planning and note-taking",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "engaging in podcast planning and note-taking",
+      240
+    ],
+    [
+      "sleeping",
+      60
+    ],
+    [
+      "sleeping",
+      6
+    ],
+    [
+      "sleeping",
+      4
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "completing her morning routine and enjoying a light breakfast",
+      60
+    ],
+    [
+      "completing her morning routine and preparing for her writing session",
+      60
+    ],
+    [
+      "writing her novel",
+      60
+    ],
+    [
+      "taking a lunch break",
+      180
+    ],
+    [
+      "researching cultural aspects for her podcast",
+      60
+    ],
+    [
+      "attending a local art exhibit for inspiration",
+      60
+    ],
+    [
+      "engaging in podcast planning and note-taking",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "engaging in podcast planning and note-taking",
+      240
+    ],
+    [
+      "sleeping",
+      60
+    ]
+  ],
+  "act_address": "the Ville:artist's co-living space:common room:common room table",
+  "act_start_time": "February 13, 2026, 14:31:00",
+  "act_duration": 19,
+  "act_description": "taking a lunch break (conversing about Francisco Lopez and Hailey Johnson discussing creative ideas to incorporate improv elements, themes, and unique traits of the housemates into their web series' flour fight and karaoke night scenes.)",
+  "act_pronunciatio": "\ud83c\udfa4\ud83c\udfad",
+  "act_event": [
+    "Hailey Johnson",
+    "converse",
+    "creative ideas"
+  ],
+  "act_obj_description": "covered with lunch items and notes from discussions",
+  "act_obj_pronunciatio": "\ud83c\udf71\ud83d\udcdd",
+  "act_obj_event": [
+    "common room table",
+    "be covered",
+    "lunch items and notes from discussions"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Francisco Lopez": 746,
+    "Rajiv Patel": 20,
+    "Latoya Williams": 200,
+    "Abigail Chen": 326
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

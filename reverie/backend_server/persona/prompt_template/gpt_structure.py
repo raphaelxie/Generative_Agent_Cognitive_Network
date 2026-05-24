@@ -105,19 +105,33 @@ if _base_url:
     _chat_kwargs["base_url"] = _base_url
 client = OpenAI(**_chat_kwargs)
 
-# Embedding client (points to OpenAI unless OPENAI_EMBED_BASE_URL overrides)
+# Embedding client (OpenAI by default). The SDK also reads OPENAI_BASE_URL from
+# the environment when base_url is omitted, so we must set this explicitly when
+# chat uses a proxy (e.g. DeepSeek) or embeddings would hit the wrong host.
 _embed_kwargs = dict(
     api_key=_embed_api_key,
     timeout=DEFAULT_OPENAI_TIMEOUT,
     max_retries=DEFAULT_OPENAI_MAX_RETRIES,
+    base_url=_embed_base_url or "https://api.openai.com/v1",
 )
-if _embed_base_url:
-    _embed_kwargs["base_url"] = _embed_base_url
 embed_client = OpenAI(**_embed_kwargs)
 
 
 def temp_sleep(seconds: float = 0.1):
     time.sleep(seconds)
+
+
+def _extract_chat_text(message) -> str:
+    """Return assistant text from message.content only.
+
+    Reasoning models (e.g. deepseek-v4-flash) put their chain-of-thought
+    in reasoning_content and the actual answer in content. When
+    max_tokens is too low the entire budget is spent on reasoning and
+    content comes back empty. We intentionally return "" in that case
+    so the caller's retry / fail-safe logic kicks in rather than
+    leaking reasoning fragments into game state.
+    """
+    return (message.content or "").strip()
 
 
 # ----------------------------------------------------------------------------
@@ -167,7 +181,35 @@ def _chat(prompt: str, model: str = None, temperature: float = 0.7, max_tokens: 
         }, "LLM-B")
         # #endregion
         raise
-    text = resp.choices[0].message.content or ""
+    msg = resp.choices[0].message
+    text = _extract_chat_text(msg)
+    finish_reason = getattr(resp.choices[0], "finish_reason", None)
+    # #region agent log
+    if (not (msg.content or "").strip()
+        and "deepseek-v4" in str(used_model).lower()):
+      try:
+        _dbg16657c_path = os.path.normpath(os.path.join(
+            os.path.dirname(os.path.abspath(__file__)),
+            "..", "..", "..", ".cursor", "debug-16657c.log"))
+        os.makedirs(os.path.dirname(_dbg16657c_path), exist_ok=True)
+        with open(_dbg16657c_path, "a", encoding="utf-8") as _df:
+          _df.write(json.dumps({
+            "sessionId": "16657c",
+            "runId": "pre-fix",
+            "hypothesisId": "H-F",
+            "location": "gpt_structure.py:_chat",
+            "message": "reasoning_model_empty_content",
+            "data": {
+              "model": used_model,
+              "finish_reason": finish_reason,
+              "max_tokens": max_tokens,
+              "extracted_chars": len(text),
+            },
+            "timestamp": int(time.time() * 1000),
+          }, default=str) + "\n")
+      except Exception:
+        pass
+    # #endregion
     # #region agent log
     _dbg2483ef("after_chat_request", {
         "model": used_model,
@@ -364,6 +406,13 @@ def GPT_request(prompt, gpt_parameter):
         temperature = gpt_parameter.get("temperature", 0.7)
         max_tokens = gpt_parameter.get("max_tokens", None)
         stop = gpt_parameter.get("stop", None)
+        # Reasoning models (deepseek-v4-*) spend most of max_tokens on
+        # internal chain-of-thought (reasoning_content). The actual answer
+        # in content only appears once reasoning finishes, so small budgets
+        # (15-50) produce empty content every time. 1024 gives enough room
+        # for typical reasoning + a short answer.
+        if max_tokens is not None and "deepseek-v4" in str(model).lower():
+            max_tokens = max(int(max_tokens), 1024)
         return _chat(prompt, model=model, temperature=temperature,
                      max_tokens=max_tokens, stop=stop)
     except Exception as e:

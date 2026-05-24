@@ -55,6 +55,29 @@ def set_global_seed():
 
 set_global_seed()
 
+# #region agent log
+_DEBUG_LOG_16657C = os.path.normpath(os.path.join(
+    os.path.dirname(os.path.abspath(__file__)),
+    "..", "..", ".cursor", "debug-16657c.log"))
+
+def _dbg16657c(message, data, hypothesis_id, run_id="pre-fix"):
+  try:
+    os.makedirs(os.path.dirname(_DEBUG_LOG_16657C), exist_ok=True)
+    payload = {
+      "sessionId": "16657c",
+      "runId": run_id,
+      "hypothesisId": hypothesis_id,
+      "location": "reverie.py",
+      "message": message,
+      "data": data,
+      "timestamp": int(time.time() * 1000),
+    }
+    with open(_DEBUG_LOG_16657C, "a", encoding="utf-8") as _df:
+      _df.write(json.dumps(payload, default=str) + "\n")
+  except Exception:
+    pass
+# #endregion
+
 class ReverieServer: 
   def __init__(self, 
                fork_sim_code,
@@ -72,8 +95,42 @@ class ReverieServer:
     # load the existing simulation without copying (for post-simulation analysis).
     self.sim_code = sim_code
     sim_folder = f"{fs_storage}/{self.sim_code}"
+    sim_folder_exists = os.path.isdir(sim_folder)
+    # #region agent log
+    _dbg16657c("reverie_init_paths", {
+      "fork_sim_code": fork_sim_code,
+      "sim_code": sim_code,
+      "will_copy": fork_sim_code != sim_code,
+      "sim_folder": sim_folder,
+      "sim_folder_exists": sim_folder_exists,
+      "fork_folder_exists": os.path.isdir(fork_folder),
+    }, "H-A")
+    # #endregion
     if fork_sim_code != sim_code:
+      if sim_folder_exists:
+        # #region agent log
+        _dbg16657c("fork_blocked_existing_sim_folder", {
+          "sim_code": sim_code,
+          "fork_sim_code": fork_sim_code,
+          "step_hint": "use same name for both prompts to resume",
+        }, "H-B")
+        # #endregion
+        raise FileExistsError(
+          f"Simulation folder already exists: {sim_folder}\n"
+          f"You previously started '{sim_code}' (step may be incomplete).\n"
+          f"To RESUME that run, enter the SAME name for both prompts:\n"
+          f"  forked simulation: {sim_code}\n"
+          f"  new simulation:    {sim_code}\n"
+          f"To start fresh, delete the folder or pick a new simulation name.\n"
+          f"To re-fork from '{fork_sim_code}', delete '{sim_code}' first.")
       copyanything(fork_folder, sim_folder)
+    else:
+      # #region agent log
+      _dbg16657c("resume_existing_sim", {
+        "sim_code": sim_code,
+        "sim_folder_exists": sim_folder_exists,
+      }, "H-C")
+      # #endregion
 
     with open(f"{sim_folder}/reverie/meta.json") as json_file:  
       reverie_meta = json.load(json_file)
@@ -111,6 +168,20 @@ class ReverieServer:
     # literally translates to the number of moves our personas made in terms
     # of the number of tiles. 
     self.step = reverie_meta['step']
+    # #region agent log
+    _move_dir = f"{sim_folder}/movement"
+    _dbg16657c("reverie_loaded_meta", {
+      "sim_code": sim_code,
+      "step": self.step,
+      "movement_dir_exists": os.path.isdir(_move_dir),
+      "movement_files": (sorted(os.listdir(_move_dir))
+                         if os.path.isdir(_move_dir) else []),
+      "env_files": sorted([
+        f for f in os.listdir(f"{sim_folder}/environment")
+        if f.endswith(".json")
+      ]) if os.path.isdir(f"{sim_folder}/environment") else [],
+    }, "H-D")
+    # #endregion
 
     # SETTING UP PERSONAS IN REVERIE
     # <personas> is a dictionary that takes the persona's full name as its 

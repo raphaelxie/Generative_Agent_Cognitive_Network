@@ -1,0 +1,476 @@
+{
+  "persona": {
+    "Latoya Williams": {
+      "movement": [
+        16,
+        18
+      ],
+      "pronunciatio": "\ud83d\ude34\ud83d\udecc",
+      "description": "sleeping @ the Ville:artist's co-living space:Latoya Williams's room:bed",
+      "chat": null
+    },
+    "Rajiv Patel": {
+      "movement": [
+        36,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Rajiv Patel and Hailey Johnson discussing the planning of a web series about co-living, including funny experiences to include and organizing a gathering to share more stories. @ <persona> Hailey Johnson",
+      "chat": [
+        [
+          "Rajiv Patel",
+          "Hey Hailey, I just heard you and Francisco are working on that web series about co-living. It sounds like a lot of fun! What funny experiences have you two come up with so far?"
+        ],
+        [
+          "Hailey Johnson",
+          "Hey Rajiv! Yeah, we're really excited about it. So far, we've thought about recreating that hilarious flour fight we had last month and the karaoke night where everyone lost their voices! Do you have any funny stories from living here that we could include?"
+        ],
+        [
+          "Rajiv Patel",
+          "Absolutely! I remember the time I spilled paint everywhere while trying to create a new piece. It turned into a colorful mess, and the cat ended up with paw prints all over the floor! I think that could make a great scene."
+        ],
+        [
+          "Hailey Johnson",
+          "That sounds hilarious! We definitely need to include that. The cat's colorful paw prints could add a fun visual element. Do you remember any other funny moments, or should we focus on that one for now?"
+        ],
+        [
+          "Rajiv Patel",
+          "I can think of a couple more! There was that time the dog stole my sandwich right off the table, and everyone just burst out laughing. And then there was the burnt toast incident during breakfast when Francisco tried to impress everyone with his cooking skills! What do you think? Should we add those too?"
+        ],
+        [
+          "Hailey Johnson",
+          "Those are perfect! I love the idea of including the dog stealing your sandwich and Francisco's cooking adventure. They really capture the fun chaos of co-living. Let's definitely add those scenes! Should we brainstorm a time to get everyone together to share their stories?"
+        ],
+        [
+          "Rajiv Patel",
+          "Absolutely! I think it would be great to get everyone involved and hear their stories. How about we set up a time this weekend to gather everyone? Maybe we can even do it over a meal for some inspiration!"
+        ],
+        [
+          "Hailey Johnson",
+          "That sounds like a great idea, Rajiv! Let's aim for Saturday afternoon. I can prepare some snacks, and we can all share our stories. I'll reach out to everyone to see what time works best. How does that sound?"
+        ],
+        [
+          "Rajiv Patel",
+          "That sounds perfect! I'm really looking forward to it. Let me know if you need any help with preparations. I can bring some drinks or something else to share."
+        ],
+        [
+          "Hailey Johnson",
+          "Thanks, Rajiv! I appreciate the offer. I'll definitely let you know if I need help. I'll start reaching out to everyone now and keep you updated on the plans for Saturday. It's going to be so much fun!"
+        ],
+        [
+          "Rajiv Patel",
+          "Great! I'm excited to hear everyone's stories. It'll be a nice break from painting too. By the way, have you thought about what kind of snacks you'll be making for Saturday?"
+        ],
+        [
+          "Hailey Johnson",
+          "I'm thinking of making some finger foods, maybe mini sandwiches and some fruit platters. What do you think? If you have any suggestions, I'd love to hear them!"
+        ],
+        [
+          "Rajiv Patel",
+          "Those snacks sound delicious! Mini sandwiches and fruit platters will be a hit. I was also thinking maybe we could add some chips and dip to the mix, just to have something crunchy. What do you think?"
+        ],
+        [
+          "Hailey Johnson",
+          "Chips and dip sound like a great addition! It'll add some nice variety. I love the idea of having a little crunch with our snacks. Let's plan on that! I'm really excited for Saturday!"
+        ],
+        [
+          "Rajiv Patel",
+          "Awesome! I can't wait for Saturday. It'll be great to take a break and have some fun together. By the way, have you thought about how we might film the stories? Do you have any ideas?"
+        ],
+        [
+          "Hailey Johnson",
+          "I was thinking we could set up a camera in the living room and just let everyone share their stories in a casual way. We could even add some fun props to make it more entertaining! What do you think?"
+        ]
+      ]
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        22
+      ],
+      "pronunciatio": "\ud83c\udfa8\ud83d\udcd6",
+      "description": "working on her animation project for the client (creating a storyboard for the animation) @ the Ville:artist's co-living space:Abigail Chen's room:desk",
+      "chat": null
+    },
+    "Francisco Lopez": {
+      "movement": [
+        39,
+        28
+      ],
+      "pronunciatio": "\ud83d\udca1\ud83d\ude02",
+      "description": "brainstorming ideas for his web series about life in a co-living space (conversing about Francisco Lopez and Hailey Johnson brainstorming ideas for a web series about co-living spaces, sharing funny experiences like a flour fight and karaoke night, and planning to involve their housemates in the filming.) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null
+    },
+    "Hailey Johnson": {
+      "movement": [
+        36,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Rajiv Patel and Hailey Johnson discussing the planning of a web series about co-living, including funny experiences to include and organizing a gathering to share more stories. @ <persona> Rajiv Patel",
+      "chat": [
+        [
+          "Rajiv Patel",
+          "Hey Hailey, I just heard you and Francisco are working on that web series about co-living. It sounds like a lot of fun! What funny experiences have you two come up with so far?"
+        ],
+        [
+          "Hailey Johnson",
+          "Hey Rajiv! Yeah, we're really excited about it. So far, we've thought about recreating that hilarious flour fight we had last month and the karaoke night where everyone lost their voices! Do you have any funny stories from living here that we could include?"
+        ],
+        [
+          "Rajiv Patel",
+          "Absolutely! I remember the time I spilled paint everywhere while trying to create a new piece. It turned into a colorful mess, and the cat ended up with paw prints all over the floor! I think that could make a great scene."
+        ],
+        [
+          "Hailey Johnson",
+          "That sounds hilarious! We definitely need to include that. The cat's colorful paw prints could add a fun visual element. Do you remember any other funny moments, or should we focus on that one for now?"
+        ],
+        [
+          "Rajiv Patel",
+          "I can think of a couple more! There was that time the dog stole my sandwich right off the table, and everyone just burst out laughing. And then there was the burnt toast incident during breakfast when Francisco tried to impress everyone with his cooking skills! What do you think? Should we add those too?"
+        ],
+        [
+          "Hailey Johnson",
+          "Those are perfect! I love the idea of including the dog stealing your sandwich and Francisco's cooking adventure. They really capture the fun chaos of co-living. Let's definitely add those scenes! Should we brainstorm a time to get everyone together to share their stories?"
+        ],
+        [
+          "Rajiv Patel",
+          "Absolutely! I think it would be great to get everyone involved and hear their stories. How about we set up a time this weekend to gather everyone? Maybe we can even do it over a meal for some inspiration!"
+        ],
+        [
+          "Hailey Johnson",
+          "That sounds like a great idea, Rajiv! Let's aim for Saturday afternoon. I can prepare some snacks, and we can all share our stories. I'll reach out to everyone to see what time works best. How does that sound?"
+        ],
+        [
+          "Rajiv Patel",
+          "That sounds perfect! I'm really looking forward to it. Let me know if you need any help with preparations. I can bring some drinks or something else to share."
+        ],
+        [
+          "Hailey Johnson",
+          "Thanks, Rajiv! I appreciate the offer. I'll definitely let you know if I need help. I'll start reaching out to everyone now and keep you updated on the plans for Saturday. It's going to be so much fun!"
+        ],
+        [
+          "Rajiv Patel",
+          "Great! I'm excited to hear everyone's stories. It'll be a nice break from painting too. By the way, have you thought about what kind of snacks you'll be making for Saturday?"
+        ],
+        [
+          "Hailey Johnson",
+          "I'm thinking of making some finger foods, maybe mini sandwiches and some fruit platters. What do you think? If you have any suggestions, I'd love to hear them!"
+        ],
+        [
+          "Rajiv Patel",
+          "Those snacks sound delicious! Mini sandwiches and fruit platters will be a hit. I was also thinking maybe we could add some chips and dip to the mix, just to have something crunchy. What do you think?"
+        ],
+        [
+          "Hailey Johnson",
+          "Chips and dip sound like a great addition! It'll add some nice variety. I love the idea of having a little crunch with our snacks. Let's plan on that! I'm really excited for Saturday!"
+        ],
+        [
+          "Rajiv Patel",
+          "Awesome! I can't wait for Saturday. It'll be great to take a break and have some fun together. By the way, have you thought about how we might film the stories? Do you have any ideas?"
+        ],
+        [
+          "Hailey Johnson",
+          "I was thinking we could set up a camera in the living room and just let everyone share their stories in a casual way. We could even add some fun props to make it more entertaining! What do you think?"
+        ]
+      ]
+    },
+    "Arthur Burton": {
+      "movement": [
+        54,
+        17
+      ],
+      "pronunciatio": "\ud83c\udf79\ud83d\udcf9",
+      "description": "reviewing and learning new mixology techniques (watching mixology tutorial videos) @ the Ville:Arthur Burton's apartment:main room:desk",
+      "chat": null
+    },
+    "Ryan Park": {
+      "movement": [
+        66,
+        24
+      ],
+      "pronunciatio": "\ud83d\udee0\ufe0f\ud83d\udcbb",
+      "description": "working on the mobile app project (setting up the development environment and tools) @ the Ville:Ryan Park's apartment:main room:computer desk",
+      "chat": null
+    },
+    "Isabella Rodriguez": {
+      "movement": [
+        76,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Isabella and Giorgio discussing preparations for a Valentine's Day party, including decorations, activities, and snacks. @ <persona> Giorgio Rossi",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hey Giorgio! I see you're deep into your research on mathematical patterns. That sounds fascinating! How has it been going? And by the way, I\u2019m getting everything ready for the Valentine's Day party tomorrow. Are you planning to join us?"
+        ],
+        [
+          "Giorgio Rossi",
+          "Hi Isabella! Thanks for asking. It's been going well\u2014I'm currently exploring some interesting patterns related to the Fibonacci sequence in nature. As for the Valentine's Day party, I\u2019d love to join! What can I bring to help out?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's great to hear about your research! The Fibonacci sequence is such a beautiful concept. As for the party, just bring your wonderful self! But if you'd like to contribute, maybe some snacks or drinks would be perfect. We're going to have a lot of fun with games and decorations. I'm excited to see you there!"
+        ],
+        [
+          "Giorgio Rossi",
+          "Sounds like a plan, Isabella! I'll bring some snacks for the party. I'm really looking forward to it\u2014Valentine's Day celebrations are always fun! Are you doing anything special for the decorations?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Yes, I'm planning to hang up some hearts and fairy lights to create a cozy atmosphere. I also set up a photo booth area with some fun props! It'll be a great way for everyone to capture memories from the night. Do you have any favorite decorations or themes you like for Valentine's Day?"
+        ],
+        [
+          "Giorgio Rossi",
+          "I love the idea of a photo booth! It sounds like a fun way to capture the moments. I usually enjoy simple decorations, maybe some flowers or even mathematical themes could be interesting. What do you think about incorporating some geometry into the decor? It could be a unique twist for the party!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's a creative idea, Giorgio! Incorporating geometric shapes could add a unique touch to the decor. I could use some of the shapes for the photo booth backdrop. Maybe we could even have a small corner dedicated to that theme! What specific geometric shapes do you think would work well?"
+        ],
+        [
+          "Giorgio Rossi",
+          "I think using shapes like triangles, circles, and hexagons could work really well! They\u2019re visually appealing and can be arranged in interesting patterns. We could even use some colored paper to make it pop! What do you think about that?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I love that idea, Giorgio! Triangles, circles, and hexagons would look fantastic. I could definitely add some colored paper to make it more vibrant. Let's brainstorm some designs together! Do you have any specific colors in mind?"
+        ],
+        [
+          "Giorgio Rossi",
+          "I was thinking maybe a mix of red, pink, and gold could be festive for Valentine's Day. Those colors could really complement the geometric shapes and create a warm atmosphere. What do you think?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I think those colors are perfect, Giorgio! Red, pink, and gold will definitely create a warm and festive vibe. Let's go ahead and plan out some designs with those colors. I can't wait to see how it all comes together. Do you have any other ideas for activities or games we can include during the party?"
+        ],
+        [
+          "Giorgio Rossi",
+          "I have a couple of ideas for activities! We could have a trivia game focused on love and math\u2014like fun facts about famous mathematicians or romantic math quotes. Another idea is a DIY craft station where people can create their own geometric decorations. What do you think about those?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Those are fantastic ideas, Giorgio! A trivia game about love and math sounds like a fun way to engage everyone, and the DIY craft station would be a hit too. We could have all the supplies ready for people to get creative. Let's make sure to include some geometric shapes for the crafts. Do you want to help me set up that area tomorrow before the party starts?"
+        ],
+        [
+          "Giorgio Rossi",
+          "Absolutely, I\u2019d love to help set up the DIY craft station! Just let me know what time you need me there, and I\u2019ll be sure to bring some supplies along too."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great! How about we meet at the cafe around 3:30 pm tomorrow? That way, we can set everything up before the party starts at 5 pm. I really appreciate your help, Giorgio! Let\u2019s make this party unforgettable!"
+        ],
+        [
+          "Giorgio Rossi",
+          "Sounds good, Isabella! I'll be there at 3:30 pm tomorrow with some supplies. I'm looking forward to making the party unforgettable! Let me know if you need anything else in the meantime."
+        ]
+      ]
+    },
+    "Giorgio Rossi": {
+      "movement": [
+        76,
+        26
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Isabella and Giorgio discussing preparations for a Valentine's Day party, including decorations, activities, and snacks. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hey Giorgio! I see you're deep into your research on mathematical patterns. That sounds fascinating! How has it been going? And by the way, I\u2019m getting everything ready for the Valentine's Day party tomorrow. Are you planning to join us?"
+        ],
+        [
+          "Giorgio Rossi",
+          "Hi Isabella! Thanks for asking. It's been going well\u2014I'm currently exploring some interesting patterns related to the Fibonacci sequence in nature. As for the Valentine's Day party, I\u2019d love to join! What can I bring to help out?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's great to hear about your research! The Fibonacci sequence is such a beautiful concept. As for the party, just bring your wonderful self! But if you'd like to contribute, maybe some snacks or drinks would be perfect. We're going to have a lot of fun with games and decorations. I'm excited to see you there!"
+        ],
+        [
+          "Giorgio Rossi",
+          "Sounds like a plan, Isabella! I'll bring some snacks for the party. I'm really looking forward to it\u2014Valentine's Day celebrations are always fun! Are you doing anything special for the decorations?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Yes, I'm planning to hang up some hearts and fairy lights to create a cozy atmosphere. I also set up a photo booth area with some fun props! It'll be a great way for everyone to capture memories from the night. Do you have any favorite decorations or themes you like for Valentine's Day?"
+        ],
+        [
+          "Giorgio Rossi",
+          "I love the idea of a photo booth! It sounds like a fun way to capture the moments. I usually enjoy simple decorations, maybe some flowers or even mathematical themes could be interesting. What do you think about incorporating some geometry into the decor? It could be a unique twist for the party!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's a creative idea, Giorgio! Incorporating geometric shapes could add a unique touch to the decor. I could use some of the shapes for the photo booth backdrop. Maybe we could even have a small corner dedicated to that theme! What specific geometric shapes do you think would work well?"
+        ],
+        [
+          "Giorgio Rossi",
+          "I think using shapes like triangles, circles, and hexagons could work really well! They\u2019re visually appealing and can be arranged in interesting patterns. We could even use some colored paper to make it pop! What do you think about that?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I love that idea, Giorgio! Triangles, circles, and hexagons would look fantastic. I could definitely add some colored paper to make it more vibrant. Let's brainstorm some designs together! Do you have any specific colors in mind?"
+        ],
+        [
+          "Giorgio Rossi",
+          "I was thinking maybe a mix of red, pink, and gold could be festive for Valentine's Day. Those colors could really complement the geometric shapes and create a warm atmosphere. What do you think?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I think those colors are perfect, Giorgio! Red, pink, and gold will definitely create a warm and festive vibe. Let's go ahead and plan out some designs with those colors. I can't wait to see how it all comes together. Do you have any other ideas for activities or games we can include during the party?"
+        ],
+        [
+          "Giorgio Rossi",
+          "I have a couple of ideas for activities! We could have a trivia game focused on love and math\u2014like fun facts about famous mathematicians or romantic math quotes. Another idea is a DIY craft station where people can create their own geometric decorations. What do you think about those?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Those are fantastic ideas, Giorgio! A trivia game about love and math sounds like a fun way to engage everyone, and the DIY craft station would be a hit too. We could have all the supplies ready for people to get creative. Let's make sure to include some geometric shapes for the crafts. Do you want to help me set up that area tomorrow before the party starts?"
+        ],
+        [
+          "Giorgio Rossi",
+          "Absolutely, I\u2019d love to help set up the DIY craft station! Just let me know what time you need me there, and I\u2019ll be sure to bring some supplies along too."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Great! How about we meet at the cafe around 3:30 pm tomorrow? That way, we can set everything up before the party starts at 5 pm. I really appreciate your help, Giorgio! Let\u2019s make this party unforgettable!"
+        ],
+        [
+          "Giorgio Rossi",
+          "Sounds good, Isabella! I'll be there at 3:30 pm tomorrow with some supplies. I'm looking forward to making the party unforgettable! Let me know if you need anything else in the meantime."
+        ]
+      ]
+    },
+    "Carlos Gomez": {
+      "movement": [
+        94,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udd0d",
+      "description": "reviewing and editing his poetry collection (making notes on areas for improvement in the second poem) @ the Ville:Carlos Gomez's apartment:main room:desk",
+      "chat": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        114,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller and Mei Lin discussing their respective research topics, including ethics and technology in Mei's philosophy class and gentrification in Klaus's research paper, and planning to meet for coffee to exchange insights. @ <persona> Mei Lin",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hey Mei! I overheard you talking about Giorgio's research on mathematical patterns. That sounds fascinating! How's your philosophy class going? I\u2019d love to hear more about what you\u2019re teaching."
+        ],
+        [
+          "Mei Lin",
+          "Hi Klaus! It's going really well, thank you! Right now, we're diving into the relationship between ethics and technology, which has sparked some great discussions. I'm also finding parallels with Giorgio's work on patterns in nature. What about you? What are you currently working on?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds really interesting! I'm currently focused on my research paper about the effects of gentrification in low-income communities. It's been quite an eye-opener. I'd love to hear how your class discussions are going, especially any unique perspectives you've encountered."
+        ],
+        [
+          "Mei Lin",
+          "Absolutely! We've had some great debates on how technology can both help and hinder ethical decision-making. For instance, we discussed the implications of AI in healthcare and its impact on patient privacy. I'd love to share some of the students' insights with you! How about we grab coffee next week and chat more about it?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds great! I\u2019d love to hear those insights. How about we meet at Hobbs Cafe next Wednesday? I can share some of my findings on gentrification too!"
+        ],
+        [
+          "Mei Lin",
+          "Wednesday works for me! What time were you thinking? I can adjust my schedule to fit yours."
+        ],
+        [
+          "Klaus Mueller",
+          "How about 2 PM? That should give us plenty of time to discuss everything. I'm looking forward to it!"
+        ],
+        [
+          "Mei Lin",
+          "2 PM works perfectly for me! I'm excited to exchange ideas and hear about your findings. See you then!"
+        ],
+        [
+          "Klaus Mueller",
+          "Awesome! I\u2019ll make sure to bring some notes on gentrification. It\u2019ll be great to see how our topics intersect. Have a fantastic day, Mei!"
+        ]
+      ]
+    },
+    "Maria Lopez": {
+      "movement": [
+        131,
+        57
+      ],
+      "pronunciatio": "\ud83d\udebf\ud83e\uddfc",
+      "description": "having breakfast and preparing for the day (taking a shower) @ the Ville:Dorm for Oak Hill College:woman's bathroom:shower",
+      "chat": null
+    },
+    "Ayesha Khan": {
+      "movement": [
+        123,
+        47
+      ],
+      "pronunciatio": "\ud83e\udd5e\u2615",
+      "description": "having breakfast (enjoying her breakfast) @ the Ville:Dorm for Oak Hill College:kitchen:cooking area",
+      "chat": null
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        112,
+        25
+      ],
+      "pronunciatio": "\ud83d\udc68\u200d\ud83c\udfeb",
+      "description": "attending classes (attending his chemistry lecture) @ the Ville:Oak Hill College:classroom:classroom student seating",
+      "chat": null
+    },
+    "Mei Lin": {
+      "movement": [
+        115,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller and Mei Lin discussing their respective research topics, including ethics and technology in Mei's philosophy class and gentrification in Klaus's research paper, and planning to meet for coffee to exchange insights. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hey Mei! I overheard you talking about Giorgio's research on mathematical patterns. That sounds fascinating! How's your philosophy class going? I\u2019d love to hear more about what you\u2019re teaching."
+        ],
+        [
+          "Mei Lin",
+          "Hi Klaus! It's going really well, thank you! Right now, we're diving into the relationship between ethics and technology, which has sparked some great discussions. I'm also finding parallels with Giorgio's work on patterns in nature. What about you? What are you currently working on?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds really interesting! I'm currently focused on my research paper about the effects of gentrification in low-income communities. It's been quite an eye-opener. I'd love to hear how your class discussions are going, especially any unique perspectives you've encountered."
+        ],
+        [
+          "Mei Lin",
+          "Absolutely! We've had some great debates on how technology can both help and hinder ethical decision-making. For instance, we discussed the implications of AI in healthcare and its impact on patient privacy. I'd love to share some of the students' insights with you! How about we grab coffee next week and chat more about it?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds great! I\u2019d love to hear those insights. How about we meet at Hobbs Cafe next Wednesday? I can share some of my findings on gentrification too!"
+        ],
+        [
+          "Mei Lin",
+          "Wednesday works for me! What time were you thinking? I can adjust my schedule to fit yours."
+        ],
+        [
+          "Klaus Mueller",
+          "How about 2 PM? That should give us plenty of time to discuss everything. I'm looking forward to it!"
+        ],
+        [
+          "Mei Lin",
+          "2 PM works perfectly for me! I'm excited to exchange ideas and hear about your findings. See you then!"
+        ],
+        [
+          "Klaus Mueller",
+          "Awesome! I\u2019ll make sure to bring some notes on gentrification. It\u2019ll be great to see how our topics intersect. Have a fantastic day, Mei!"
+        ]
+      ]
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2026, 09:49:30"
+  }
+}
