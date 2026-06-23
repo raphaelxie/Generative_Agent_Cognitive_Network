@@ -1,0 +1,312 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 12:59:50",
+  "curr_tile": [
+    39,
+    30
+  ],
+  "daily_plan_req": "",
+  "name": "Rajiv Patel",
+  "first_name": "Rajiv",
+  "last_name": "Patel",
+  "age": 27,
+  "innate": "patient, reliable, cheerful",
+  "learned": "Rajiv Patel is a painter who wants live quietly and paint while enjoying his everyday life.",
+  "currently": "Rajiv Patel is preparing for his first solo show. He mostly works from the artists' co-living space. Also, he recently got into playing the guitar.",
+  "lifestyle": "Rajiv Patel goes to bed around midnight, awakes up around 9am, eats dinner around 5pm.",
+  "living_area": "the Ville:artist's co-living space:Rajiv Patel's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 209,
+  "importance_ele_n": 12,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "complete a painting session from 9:00 am to 12:00 pm",
+    "have lunch and take a short break from 12:00 pm to 1:00 pm",
+    "practice guitar from 1:00 pm to 2:00 pm",
+    "return to painting from 2:00 pm to 5:00 pm",
+    "have dinner at 5:00 pm",
+    "take a leisurely walk or do some light exercise from 6:00 pm to 7:00 pm",
+    "spend time reviewing and preparing for the solo show from 7:00 pm to 9:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "painting in his studio (setting up his painting area)",
+      10
+    ],
+    [
+      "painting in his studio (selecting the colors he wants to use)",
+      10
+    ],
+    [
+      "painting in his studio (sketching the outline of his painting on the canvas)",
+      15
+    ],
+    [
+      "painting in his studio (applying the base layer of paint)",
+      15
+    ],
+    [
+      "painting in his studio (adding details to the painting)",
+      10
+    ],
+    [
+      "continuing to paint in his studio (continuing to paint the background of his canvas)",
+      30
+    ],
+    [
+      "continuing to paint in his studio (mixing colors on his palette for the foreground elements)",
+      15
+    ],
+    [
+      "continuing to paint in his studio (sketching the main subject of the painting on the canvas)",
+      20
+    ],
+    [
+      "continuing to paint in his studio (painting the main subject with the base colors)",
+      25
+    ],
+    [
+      "continuing to paint in his studio (adding details to the main subject)",
+      20
+    ],
+    [
+      "continuing to paint in his studio (stepping back to assess the overall composition of the painting)",
+      10
+    ],
+    [
+      "taking a lunch break and relaxing (preparing a simple lunch)",
+      15
+    ],
+    [
+      "taking a lunch break and relaxing (on the way to eating his lunch)",
+      0
+    ],
+    [
+      "taking a lunch break and relaxing (conversing about Rajiv Patel and Francisco Lopez discussing their artistic projects, the possibility of collaborating on a piece that combines visual art and storytelling focused on community and connection, and planning to meet up to brainstorm ideas.)",
+      14
+    ],
+    [
+      "taking a lunch break and relaxing (on the way to cleaning up after lunch)",
+      0
+    ],
+    [
+      "taking a lunch break and relaxing (conversing about Rajiv Patel and Carlos Gomez discussing their collaboration on a Valentine's Day cocktail called 'Fibonacci Fizz' inspired by the Fibonacci sequence, and how Rajiv can incorporate this concept into his upcoming solo art show.)",
+      17
+    ],
+    [
+      "taking a lunch break and relaxing (taking a moment to relax and enjoy the view from the window)",
+      10
+    ],
+    [
+      "taking a lunch break and relaxing (on the way to mentally planning his next painting session)",
+      0
+    ],
+    [
+      "taking a lunch break and relaxing (conversing about Rajiv Patel and Abigail Chen discussing their creative projects, with Rajiv focusing on a cocktail inspired by the Fibonacci sequence and Abigail incorporating interactive elements into her animation project related to local businesses.)",
+      15
+    ],
+    [
+      "practicing guitar (tuning his guitar)",
+      5
+    ],
+    [
+      "practicing guitar (warming up with finger exercises)",
+      10
+    ],
+    [
+      "practicing guitar (practicing basic chords)",
+      10
+    ],
+    [
+      "practicing guitar (working on strumming patterns)",
+      10
+    ],
+    [
+      "practicing guitar (practicing a simple song)",
+      15
+    ],
+    [
+      "practicing guitar (reviewing the song and making adjustments)",
+      10
+    ],
+    [
+      "continuing to paint in his studio",
+      173
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "taking a leisurely walk or doing some light exercise",
+      60
+    ],
+    [
+      "reviewing and preparing for his solo show",
+      60
+    ],
+    [
+      "continuing to review and prepare for his solo show",
+      180
+    ],
+    [
+      "relaxing and winding down for the day before bed",
+      60
+    ],
+    [
+      "sleeping",
+      6
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "painting in his studio",
+      60
+    ],
+    [
+      "continuing to paint in his studio",
+      120
+    ],
+    [
+      "taking a lunch break and relaxing",
+      60
+    ],
+    [
+      "practicing guitar",
+      60
+    ],
+    [
+      "continuing to paint in his studio",
+      180
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "taking a leisurely walk or doing some light exercise",
+      60
+    ],
+    [
+      "reviewing and preparing for his solo show",
+      60
+    ],
+    [
+      "continuing to review and prepare for his solo show",
+      180
+    ],
+    [
+      "relaxing and winding down for the day before bed",
+      60
+    ]
+  ],
+  "act_address": "<persona> Abigail Chen",
+  "act_start_time": "February 13, 2023, 12:47:00",
+  "act_duration": 15,
+  "act_description": "conversing about Rajiv Patel and Abigail Chen discussing their creative projects, with Rajiv focusing on a cocktail inspired by the Fibonacci sequence and Abigail incorporating interactive elements into her animation project related to local businesses.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Rajiv Patel",
+    "chat with",
+    "Abigail Chen"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Abigail Chen",
+  "chat": [
+    [
+      "Rajiv Patel",
+      "Hey Abigail! I saw you experimenting with that interactive art tool. It looks really interesting! How's it going? Any cool ideas coming up?"
+    ],
+    [
+      "Abigail Chen",
+      "Thanks, Rajiv! I'm really enjoying it. I'm trying to figure out how to incorporate some interactive elements into my animation project, especially related to local issues like supporting small businesses. How's your cocktail project going? That Fibonacci Fizz sounds intriguing!"
+    ],
+    [
+      "Rajiv Patel",
+      "It's going well! I'm excited about how the Fibonacci sequence can inspire the visuals for the art show. I think blending art with cocktails could create a unique experience. Do you have any thoughts on how I could tie in the community aspect with the cocktail theme?"
+    ],
+    [
+      "Abigail Chen",
+      "That's a great idea, Rajiv! You could feature local ingredients in the cocktail and maybe even highlight stories of the small businesses that supply them. It would really connect the drink to the community. Have you thought about showcasing any specific local vendors?"
+    ],
+    [
+      "Rajiv Patel",
+      "That's a fantastic idea! I haven't pinpointed any specific vendors yet, but I love the thought of featuring local ingredients. I\u2019ll definitely look into it. Do you have any recommendations for local businesses I should reach out to?"
+    ],
+    [
+      "Abigail Chen",
+      "I can think of a few! There's a great local farm that supplies organic produce, and a small distillery that makes unique spirits. I could send you their info if you\u2019d like! And I\u2019d love to hear more about how you plan to incorporate the Fibonacci theme into your visuals."
+    ],
+    [
+      "Rajiv Patel",
+      "That sounds perfect! I would love to get the info for those businesses. As for the Fibonacci theme, I\u2019m thinking of using spirals and patterns in my paintings, maybe even incorporating some visual elements that mimic the sequence itself. It could create a really dynamic look. What do you think?"
+    ],
+    [
+      "Abigail Chen",
+      "I think that's a brilliant approach! Using spirals and patterns will definitely add a unique flair to your paintings. I can visualize the dynamic look you're aiming for. Have you considered how you'll display the cocktail alongside the artwork? It could be a fun interactive experience for the audience!"
+    ],
+    [
+      "Rajiv Patel",
+      "I really like that idea! Displaying the cocktail alongside the artwork could encourage interaction and make the event feel more immersive. Maybe I could set up a small tasting station near the paintings? What do you think would be the best way to present it?"
+    ],
+    [
+      "Abigail Chen",
+      "Setting up a tasting station sounds like a fantastic idea! You could create a small menu that explains the connection between each cocktail and the artwork. Maybe even have a little storytelling element where you share the inspiration behind the drink and the art. It would really enrich the audience's experience. What do you think?"
+    ],
+    [
+      "Rajiv Patel",
+      "That's a wonderful idea, Abigail! I love the thought of adding a storytelling element to connect the cocktail and the artwork. It would really enhance the experience for everyone. I appreciate your insights! Let's definitely keep brainstorming together as the show approaches. How about I reach out to you later this week to discuss further?"
+    ],
+    [
+      "Abigail Chen",
+      "Absolutely, Rajiv! I'm looking forward to hearing more about your ideas. Let\u2019s definitely keep the conversation going and see how we can support each other\u2019s projects. Just send me a message whenever you\u2019re ready to chat more!"
+    ],
+    [
+      "Rajiv Patel",
+      "Thanks, Abigail! I really appreciate your help. I\u2019ll reach out later this week, and I\u2019m excited to see how our projects can come together. Enjoy the rest of your lunch!"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Francisco Lopez": 560,
+    "Carlos Gomez": 698,
+    "Abigail Chen": 800
+  },
+  "chatting_end_time": "February 13, 2023, 13:02:00",
+  "act_path_set": true,
+  "planned_path": []
+}

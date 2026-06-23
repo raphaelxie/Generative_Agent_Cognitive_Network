@@ -1,0 +1,366 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 12:59:50",
+  "curr_tile": [
+    47,
+    48
+  ],
+  "daily_plan_req": "Sam Moore likes to talk a walk around Johnson Park, and sit at Hobbs cafe reading.",
+  "name": "Sam Moore",
+  "first_name": "Sam",
+  "last_name": "Moore",
+  "age": 65,
+  "innate": "wise, resourceful, humorous",
+  "learned": "Sam Moore is a retired navy officer who loves to share stories from his time in the military. He is always full of interesting stories and advice.",
+  "currently": "Sam Moore lives with his wife of 40 years, Jennifer Moore, and spends his free time tending the park and is an avid reader. Sam is planning on running for local mayor in the upcoming election and he is telling is neighbors about it",
+  "lifestyle": "Sam Moore goes to bed around 9pm, awakes up around 5am, eats dinner around 5pm.",
+  "living_area": "the Ville:Moore family's house:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 240,
+  "importance_ele_n": 2,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "go for a walk around Johnson Park from 8:15 am to 9:00 am",
+    "visit Hobbs Cafe for breakfast and reading from 9:15 am to 10:30 am",
+    "attend a community meeting regarding the upcoming mayoral election from 11:00 am to 12:30 pm",
+    "have lunch with Jennifer at home at 1:00 pm",
+    "spend some time reading in the afternoon from 2:00 pm to 4:00 pm",
+    "work on his mayoral campaign materials from 4:15 pm to 5:00 pm",
+    "have dinner with Jennifer at 5:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine (waking up and stretching)",
+      10
+    ],
+    [
+      "waking up and completing his morning routine (on the way to brushing his teeth)",
+      0
+    ],
+    [
+      "waking up and completing his morning routine (conversing about Jennifer and Sam discussing her art exhibition, his mayoral campaign, and planning to have breakfast together while brainstorming ideas.)",
+      16
+    ],
+    [
+      "waking up and completing his morning routine (washing his face)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (on the way to taking a shower)",
+      0
+    ],
+    [
+      "waking up and completing his morning routine (conversing about Isabella Rodriguez and Sam Moore discussing their plans for breakfast on Thursday to brainstorm ideas for Jennifer's art exhibition and also sharing thoughts on how to make the Valentine's Day party at the cafe a special event.)",
+      9
+    ],
+    [
+      "waking up and completing his morning routine (drying off and getting dressed)",
+      10
+    ],
+    [
+      "waking up and completing his morning routine (combing his hair)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (preparing breakfast)",
+      15
+    ],
+    [
+      "waking up and completing his morning routine (eating breakfast)",
+      15
+    ],
+    [
+      "waking up and completing his morning routine (cleaning up the kitchen after breakfast)",
+      10
+    ],
+    [
+      "waking up and completing his morning routine (checking his calendar for the day)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (gathering materials for the community meeting)",
+      10
+    ],
+    [
+      "waking up and completing his morning routine (putting on his shoes)",
+      4
+    ],
+    [
+      "visiting Hobbs Cafe for breakfast and reading (ordering his breakfast at Hobbs Cafe)",
+      10
+    ],
+    [
+      "visiting Hobbs Cafe for breakfast and reading (finding a cozy spot to sit and read)",
+      5
+    ],
+    [
+      "visiting Hobbs Cafe for breakfast and reading (unpacking his book and getting comfortable)",
+      5
+    ],
+    [
+      "visiting Hobbs Cafe for breakfast and reading (enjoying his breakfast while reading)",
+      20
+    ],
+    [
+      "visiting Hobbs Cafe for breakfast and reading (taking a moment to reflect on what he has read)",
+      5
+    ],
+    [
+      "visiting Hobbs Cafe for breakfast and reading (on the way to jotting down notes or thoughts about the book)",
+      0
+    ],
+    [
+      "visiting Hobbs Cafe for breakfast and reading (conversing about Sam Moore and Giorgio Rossi discussing their collaboration for Valentine's Day decorations inspired by mathematical patterns in nature, particularly the Fibonacci sequence, and planning to include flowers and eco-friendly materials.)",
+      21
+    ],
+    [
+      "visiting Hobbs Cafe for breakfast and reading (on the way to finishing up his breakfast and preparing to leave)",
+      0
+    ],
+    [
+      "visiting Hobbs Cafe for breakfast and reading (conversing about Isabella Rodriguez and Sam Moore discussing ideas for decorations, quotes, flower arrangements, and live music for an upcoming Valentine's Day party.)",
+      18
+    ],
+    [
+      "attending a community meeting regarding the upcoming mayoral election (attending the community meeting) (at the community meeting location and checks in)",
+      5
+    ],
+    [
+      "attending a community meeting regarding the upcoming mayoral election (attending the community meeting) (a seat and settles in, greeting neighbors)",
+      5
+    ],
+    [
+      "attending a community meeting regarding the upcoming mayoral election (attending the community meeting) (to the opening remarks from the meeting organizer)",
+      10
+    ],
+    [
+      "attending a community meeting regarding the upcoming mayoral election (on the way to notes on key points discussed during the meeting)",
+      0
+    ],
+    [
+      "attending a community meeting regarding the upcoming mayoral election (conversing about Eddy Lin and Sam Moore discussing plans for a Valentine's Day party, including music choices, decorations, and quotes to enhance the romantic atmosphere.)",
+      17
+    ],
+    [
+      "attending a community meeting regarding the upcoming mayoral election (attending the community meeting) (in a discussion about community issues)",
+      10
+    ],
+    [
+      "attending a community meeting regarding the upcoming mayoral election (attending the community meeting) (his vision for the mayoral campaign with attendees)",
+      7
+    ],
+    [
+      "having lunch with Jennifer at home (preparing the lunch ingredients)",
+      15
+    ],
+    [
+      "having lunch with Jennifer at home (on the way to cooking the main dish)",
+      0
+    ],
+    [
+      "having lunch with Jennifer at home (conversing about Sam and Jennifer discussing plans for a Valentine's Day party and an art exhibition, focusing on incorporating Jennifer's watercolor designs, quotes, live music, and interactive activities to create a memorable celebration.)",
+      20
+    ],
+    [
+      "having lunch with Jennifer at home (on the way to setting the dining table)",
+      0
+    ],
+    [
+      "having lunch with Jennifer at home (conversing about Adam Smith and Sam Moore discussing a Valentine's Day party and art exhibition, focusing on incorporating local artists, interactive activities, and involving local schools to enhance community engagement.)",
+      20
+    ],
+    [
+      "having lunch with Jennifer at home (preparing a side dish or salad)",
+      15
+    ],
+    [
+      "having lunch with Jennifer at home (plating the food)",
+      10
+    ],
+    [
+      "having lunch with Jennifer at home (calling Jennifer to the table)",
+      5
+    ],
+    [
+      "having lunch with Jennifer at home (sitting down to eat)",
+      24
+    ],
+    [
+      "reading in the afternoon",
+      53
+    ],
+    [
+      "working on his mayoral campaign materials",
+      120
+    ],
+    [
+      "having dinner with Jennifer at home",
+      60
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future",
+      240
+    ],
+    [
+      "getting ready for bed and reflecting on his day",
+      120
+    ],
+    [
+      "sleeping",
+      6
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      120
+    ],
+    [
+      "visiting Hobbs Cafe for breakfast and reading",
+      60
+    ],
+    [
+      "attending a community meeting regarding the upcoming mayoral election",
+      60
+    ],
+    [
+      "having lunch with Jennifer at home",
+      120
+    ],
+    [
+      "reading in the afternoon",
+      60
+    ],
+    [
+      "working on his mayoral campaign materials",
+      120
+    ],
+    [
+      "having dinner with Jennifer at home",
+      60
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future",
+      240
+    ],
+    [
+      "getting ready for bed and reflecting on his day",
+      120
+    ]
+  ],
+  "act_address": "<persona> Adam Smith",
+  "act_start_time": "February 13, 2023, 12:39:10",
+  "act_duration": 20,
+  "act_description": "conversing about Adam Smith and Sam Moore discussing a Valentine's Day party and art exhibition, focusing on incorporating local artists, interactive activities, and involving local schools to enhance community engagement.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Sam Moore",
+    "chat with",
+    "Adam Smith"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Adam Smith",
+  "chat": [
+    [
+      "Adam Smith",
+      "Hey Sam, I couldn't help but overhear you and Jennifer discussing the Valentine's Day party and art exhibition. It sounds like a wonderful event! How do you think the local community will respond to the interactive activities you're planning?"
+    ],
+    [
+      "Sam Moore",
+      "Thanks, Adam! I believe the community will really appreciate the interactive activities. We're aiming to create a space where everyone can engage and connect, especially with Jennifer's beautiful watercolor designs on display. What are your thoughts on incorporating creativity into community events like this?"
+    ],
+    [
+      "Adam Smith",
+      "I think creativity plays a crucial role in bringing people together and fostering a sense of belonging. Perhaps you could also include some local artists in the event to showcase their work and get the community more involved. Have you thought about that?"
+    ],
+    [
+      "Sam Moore",
+      "That's a fantastic idea, Adam! Including local artists would not only enhance the exhibition but also strengthen our community ties. I\u2019ll definitely consider reaching out to them. Do you have any specific artists in mind that you think would be a good fit for the event?"
+    ],
+    [
+      "Adam Smith",
+      "I have a few local artists in mind who have unique styles that could complement Jennifer's work beautifully. For instance, there's Emily Chen, who does stunning landscape paintings, and Marco Rivera, known for his vibrant street art. I can introduce you to them if you're interested. What do you think?"
+    ],
+    [
+      "Sam Moore",
+      "That sounds great, Adam! I would love to meet Emily and Marco. Their styles seem like they would really complement Jennifer's work. Let's set up a time for the introductions. I appreciate your help with this!"
+    ],
+    [
+      "Adam Smith",
+      "I'm glad you're on board with that! How about we schedule a meeting this week to discuss the details and plan the introductions? I'm excited to see how this collaboration shapes up."
+    ],
+    [
+      "Sam Moore",
+      "That sounds perfect, Adam! I'm available Thursday afternoon. Does that work for you? I can also bring Jennifer along to discuss how we can integrate their styles into the exhibition. I'm really looking forward to this collaboration!"
+    ],
+    [
+      "Adam Smith",
+      "Thursday afternoon works for me! Let\u2019s meet at my place around 3 PM. I\u2019ll make sure to have some refreshments ready. I\u2019m looking forward to hearing Jennifer's ideas as well!"
+    ],
+    [
+      "Sam Moore",
+      "Great! I'll confirm with Jennifer and make sure she can join us. I'm excited to see how our ideas come together. Also, if you have any preliminary thoughts on how we can blend their styles with the interactive activities, I'd love to hear them."
+    ],
+    [
+      "Adam Smith",
+      "Absolutely, Sam! I think we could create some interactive stations where attendees can contribute their own artistic touches alongside the featured artists' works. Maybe we could set up a collaborative mural or a community art project that ties into the theme of love and connection. What do you think about that idea?"
+    ],
+    [
+      "Sam Moore",
+      "I love that idea, Adam! A collaborative mural would be a fantastic way to engage everyone and make them feel part of the celebration. We could incorporate quotes about love and nature, maybe even some of Jennifer's watercolor designs as inspiration for the mural. I'm excited to see how this all comes together! Do you think we should involve the local schools as well to get students involved in the project?"
+    ],
+    [
+      "Adam Smith",
+      "Involving local schools sounds like a brilliant idea! It would be a great way to inspire the younger generation and bring a fresh perspective to the project. We could even organize some workshops for the students to contribute their ideas for the mural. What do you think about reaching out to the art teachers to see if they want to collaborate?"
+    ],
+    [
+      "Sam Moore",
+      "That's a fantastic idea, Adam! I\u2019ll reach out to the art teachers and see if they\u2019d be interested in collaborating. It would be wonderful to get the students involved and see what creative ideas they can bring to the table. I'm really excited about how this project is shaping up!"
+    ],
+    [
+      "Adam Smith",
+      "That's great to hear, Sam! I'm looking forward to seeing what the students come up with. Once you have a chance to speak with the art teachers, let\u2019s regroup and discuss how we can integrate their ideas into the mural. It's going to be such a fun and collaborative event! Also, if you need any help drafting the outreach message to the schools, feel free to ask."
+    ],
+    [
+      "Sam Moore",
+      "Thanks for the offer, Adam! I might take you up on that. I\u2019ll make sure to keep you updated after I reach out to the art teachers. I\u2019m really looking forward to our meeting on Thursday and bringing this vision to life. Is there anything else you think we should consider for the event?"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Jennifer Moore": 674,
+    "Isabella Rodriguez": 176,
+    "Giorgio Rossi": 68,
+    "Eddy Lin": 386,
+    "Adam Smith": 800
+  },
+  "chatting_end_time": "February 13, 2023, 13:00:00",
+  "act_path_set": true,
+  "planned_path": []
+}

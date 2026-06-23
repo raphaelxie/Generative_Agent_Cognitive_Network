@@ -526,6 +526,18 @@ class ReverieServer:
           }, "HANDOFF-A")
           # #endregion
 
+          # #region agent log
+          _dbg_sleeping = sum(1 for n, info in movements["persona"].items() if "sleeping" in info.get("description", "").lower())
+          _dbg_chatting = sum(1 for n, info in movements["persona"].items() if info.get("chat") is not None)
+          if self.step % 50 == 0 or _dbg_chatting > 0:
+            try:
+              _dbg_log_1bfb38 = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", ".cursor", "debug-1bfb38.log"))
+              os.makedirs(os.path.dirname(_dbg_log_1bfb38), exist_ok=True)
+              with open(_dbg_log_1bfb38, "a", encoding="utf-8") as _df:
+                _df.write(json.dumps({"sessionId":"1bfb38","runId":"verify-fix","hypothesisId":"H-A","location":"reverie.py:start_server","message":"step_summary","data":{"step":self.step,"curr_time":str(self.curr_time),"sleeping":_dbg_sleeping,"awake":len(self.personas)-_dbg_sleeping,"chatting":_dbg_chatting,"total":len(self.personas)},"timestamp":int(time.time()*1000)}) + "\n")
+            except Exception: pass
+          # #endregion
+
           # After this cycle, the world takes one step forward, and the 
           # current time moves by <sec_per_step> amount. 
           self.step += 1

@@ -990,6 +990,15 @@ def plan(persona, maze, personas, new_day, retrieved):
   #         c) False
   if focused_event: 
     reaction_mode = _should_react(persona, focused_event, personas)
+    # #region agent log
+    try:
+      import json as _j, os as _oo, time as _tt
+      _dp = _oo.path.normpath(_oo.path.join(_oo.path.dirname(_oo.path.abspath(__file__)), "../../../../.cursor/debug-1bfb38.log"))
+      _oo.makedirs(_oo.path.dirname(_dp), exist_ok=True)
+      _fe_subj = focused_event["curr_event"].subject if focused_event else None
+      open(_dp, "a").write(_j.dumps({"sessionId":"1bfb38","runId":"verify-fix","hypothesisId":"H-B","location":"plan.py:plan","message":"reaction_decision","data":{"persona":persona.scratch.name,"focused_subject":str(_fe_subj),"reaction_mode":str(reaction_mode),"curr_time":str(persona.scratch.curr_time)},"timestamp":int(_tt.time()*1000)})+"\n")
+    except: pass
+    # #endregion
     if reaction_mode: 
       # If we do want to chat, then we generate conversation 
       if reaction_mode[:9] == "chat with":

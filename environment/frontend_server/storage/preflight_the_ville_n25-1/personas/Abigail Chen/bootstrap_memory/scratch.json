@@ -1,0 +1,325 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 12:59:50",
+  "curr_tile": [
+    40,
+    30
+  ],
+  "daily_plan_req": "",
+  "name": "Abigail Chen",
+  "first_name": "Abigail",
+  "last_name": "Chen",
+  "age": 25,
+  "innate": "open-minded, curious, determined",
+  "learned": "Abigail Chen is a digital artist and animator who loves to explore how technology can be used to express ideas. She is always looking for new ways to combine art and technology.",
+  "currently": "Abigail Chen is working on an animation project for a client. She is also experimenting with different tools and techniques to create interactive art.",
+  "lifestyle": "Abigail Chen goes to bed around midnight, awakes up around 8am, eats dinner around 6pm.",
+  "living_area": "the Ville:artist's co-living space:Abigail Chen's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 197,
+  "importance_ele_n": 18,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "work on the animation project from 9:00 am to 12:00 pm",
+    "take a lunch break and experiment with an interactive art tool from 12:00 pm to 1:30 pm",
+    "continue working on the animation project from 1:30 pm to 4:00 pm",
+    "take a brief break to clear her mind and take a walk from 4:00 pm to 4:30 pm",
+    "return to finish up the day\u2019s tasks on the project from 4:30 pm to 6:00 pm",
+    "have dinner at 6:00 pm",
+    "relax and unwind by watching a show or reading from 7:00 pm to 8:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "working on the animation project (1) Abigail is setting up her workspace and organizing her tools)",
+      5
+    ],
+    [
+      "working on the animation project (reviewing the project brief and client requirements)",
+      10
+    ],
+    [
+      "working on the animation project (sketching out initial concepts for the animation)",
+      15
+    ],
+    [
+      "working on the animation project (selecting the color palette and style for the animation)",
+      10
+    ],
+    [
+      "working on the animation project (on the way to creating the storyboard for the animation)",
+      0
+    ],
+    [
+      "working on the animation project (conversing about Abigail Chen and Francisco Lopez discussing their creative projects, with Francisco sharing his web series about life in a co-living space and Abigail talking about her animation project, leading to plans for a collaborative coffee meeting with Latoya to brainstorm ideas.)",
+      12
+    ],
+    [
+      "working on the animation project (on the way to preparing to save her work and organize files)",
+      0
+    ],
+    [
+      "working on the animation project (conversing about Abigail Chen and Adam Smith discussing her animation project and how to incorporate local issues, particularly Maria Lopez's initiatives for small businesses, into their collaboration.)",
+      22
+    ],
+    [
+      "continuing to work on the animation project (continuing to refine the animation storyboard)",
+      20
+    ],
+    [
+      "continuing to work on the animation project (on the way to creating character designs for the animation)",
+      0
+    ],
+    [
+      "continuing to work on the animation project (conversing about Abigail Chen and Latoya Williams discussing Abigail's animation project incorporating local issues and Maria Lopez's initiatives for small businesses, as well as brainstorming ideas and sharing photography.)",
+      17
+    ],
+    [
+      "continuing to work on the animation project (animating the first scene of the project)",
+      30
+    ],
+    [
+      "continuing to work on the animation project (reviewing the animation for any inconsistencies)",
+      20
+    ],
+    [
+      "continuing to work on the animation project (making adjustments based on her review)",
+      15
+    ],
+    [
+      "continuing to work on the animation project (saving her work and preparing to take a break)",
+      5
+    ],
+    [
+      "taking a lunch break and experimenting with an interactive art tool",
+      43
+    ],
+    [
+      "continuing to take a lunch break and experimenting with an interactive art tool (on the way to taking a break from her animation project)",
+      0
+    ],
+    [
+      "continuing to take a lunch break and experimenting with an interactive art tool (conversing about Abigail Chen and Francisco Lopez discussing their upcoming coffee meeting with Latoya to brainstorm ideas for their animation project and web series, focusing on incorporating local business stories and visual representation techniques.)",
+      19
+    ],
+    [
+      "continuing to take a lunch break and experimenting with an interactive art tool (on the way to preparing her lunch)",
+      0
+    ],
+    [
+      "continuing to take a lunch break and experimenting with an interactive art tool (conversing about Rajiv Patel and Abigail Chen discussing their creative projects, with Rajiv focusing on a cocktail inspired by the Fibonacci sequence and Abigail incorporating interactive elements into her animation project related to local businesses.)",
+      15
+    ],
+    [
+      "continuing to take a lunch break and experimenting with an interactive art tool (eating her lunch)",
+      15
+    ],
+    [
+      "continuing to take a lunch break and experimenting with an interactive art tool (cleaning up after lunch)",
+      5
+    ],
+    [
+      "continuing to take a lunch break and experimenting with an interactive art tool (setting up her workspace for experimenting with the interactive art tool)",
+      20
+    ],
+    [
+      "continuing to work on the animation project",
+      106
+    ],
+    [
+      "taking a brief break to clear her mind and take a walk",
+      60
+    ],
+    [
+      "finishing up the day's tasks on the animation project",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing and unwinding by watching a show or reading",
+      60
+    ],
+    [
+      "watching a show or reading",
+      60
+    ],
+    [
+      "continuing to relax and unwind by watching a show or reading",
+      120
+    ],
+    [
+      "preparing for bed and winding down for the night",
+      60
+    ],
+    [
+      "sleeping",
+      3
+    ],
+    [
+      "sleeping",
+      13
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "working on the animation project",
+      60
+    ],
+    [
+      "continuing to work on the animation project",
+      120
+    ],
+    [
+      "taking a lunch break and experimenting with an interactive art tool",
+      60
+    ],
+    [
+      "continuing to take a lunch break and experimenting with an interactive art tool",
+      60
+    ],
+    [
+      "continuing to work on the animation project",
+      120
+    ],
+    [
+      "taking a brief break to clear her mind and take a walk",
+      60
+    ],
+    [
+      "finishing up the day's tasks on the animation project",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing and unwinding by watching a show or reading",
+      60
+    ],
+    [
+      "watching a show or reading",
+      60
+    ],
+    [
+      "continuing to relax and unwind by watching a show or reading",
+      120
+    ],
+    [
+      "preparing for bed and winding down for the night",
+      60
+    ]
+  ],
+  "act_address": "<persona> Rajiv Patel",
+  "act_start_time": "February 13, 2023, 12:46:50",
+  "act_duration": 15,
+  "act_description": "conversing about Rajiv Patel and Abigail Chen discussing their creative projects, with Rajiv focusing on a cocktail inspired by the Fibonacci sequence and Abigail incorporating interactive elements into her animation project related to local businesses.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Abigail Chen",
+    "chat with",
+    "Rajiv Patel"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Rajiv Patel",
+  "chat": [
+    [
+      "Rajiv Patel",
+      "Hey Abigail! I saw you experimenting with that interactive art tool. It looks really interesting! How's it going? Any cool ideas coming up?"
+    ],
+    [
+      "Abigail Chen",
+      "Thanks, Rajiv! I'm really enjoying it. I'm trying to figure out how to incorporate some interactive elements into my animation project, especially related to local issues like supporting small businesses. How's your cocktail project going? That Fibonacci Fizz sounds intriguing!"
+    ],
+    [
+      "Rajiv Patel",
+      "It's going well! I'm excited about how the Fibonacci sequence can inspire the visuals for the art show. I think blending art with cocktails could create a unique experience. Do you have any thoughts on how I could tie in the community aspect with the cocktail theme?"
+    ],
+    [
+      "Abigail Chen",
+      "That's a great idea, Rajiv! You could feature local ingredients in the cocktail and maybe even highlight stories of the small businesses that supply them. It would really connect the drink to the community. Have you thought about showcasing any specific local vendors?"
+    ],
+    [
+      "Rajiv Patel",
+      "That's a fantastic idea! I haven't pinpointed any specific vendors yet, but I love the thought of featuring local ingredients. I\u2019ll definitely look into it. Do you have any recommendations for local businesses I should reach out to?"
+    ],
+    [
+      "Abigail Chen",
+      "I can think of a few! There's a great local farm that supplies organic produce, and a small distillery that makes unique spirits. I could send you their info if you\u2019d like! And I\u2019d love to hear more about how you plan to incorporate the Fibonacci theme into your visuals."
+    ],
+    [
+      "Rajiv Patel",
+      "That sounds perfect! I would love to get the info for those businesses. As for the Fibonacci theme, I\u2019m thinking of using spirals and patterns in my paintings, maybe even incorporating some visual elements that mimic the sequence itself. It could create a really dynamic look. What do you think?"
+    ],
+    [
+      "Abigail Chen",
+      "I think that's a brilliant approach! Using spirals and patterns will definitely add a unique flair to your paintings. I can visualize the dynamic look you're aiming for. Have you considered how you'll display the cocktail alongside the artwork? It could be a fun interactive experience for the audience!"
+    ],
+    [
+      "Rajiv Patel",
+      "I really like that idea! Displaying the cocktail alongside the artwork could encourage interaction and make the event feel more immersive. Maybe I could set up a small tasting station near the paintings? What do you think would be the best way to present it?"
+    ],
+    [
+      "Abigail Chen",
+      "Setting up a tasting station sounds like a fantastic idea! You could create a small menu that explains the connection between each cocktail and the artwork. Maybe even have a little storytelling element where you share the inspiration behind the drink and the art. It would really enrich the audience's experience. What do you think?"
+    ],
+    [
+      "Rajiv Patel",
+      "That's a wonderful idea, Abigail! I love the thought of adding a storytelling element to connect the cocktail and the artwork. It would really enhance the experience for everyone. I appreciate your insights! Let's definitely keep brainstorming together as the show approaches. How about I reach out to you later this week to discuss further?"
+    ],
+    [
+      "Abigail Chen",
+      "Absolutely, Rajiv! I'm looking forward to hearing more about your ideas. Let\u2019s definitely keep the conversation going and see how we can support each other\u2019s projects. Just send me a message whenever you\u2019re ready to chat more!"
+    ],
+    [
+      "Rajiv Patel",
+      "Thanks, Abigail! I really appreciate your help. I\u2019ll reach out later this week, and I\u2019m excited to see how our projects can come together. Enjoy the rest of your lunch!"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Francisco Lopez": 686,
+    "Adam Smith": -214,
+    "Latoya Williams": 2,
+    "Rajiv Patel": 800
+  },
+  "chatting_end_time": "February 13, 2023, 13:02:00",
+  "act_path_set": true,
+  "planned_path": []
+}

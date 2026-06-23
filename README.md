@@ -128,9 +128,21 @@ Completed runs are stored under `environment/frontend_server/storage/`.
 | `bridge_probe_n15_baseline_t1800-1` | None | 0–1800 | Bridge perception baseline; no shock |
 | `bridge_probe_n15_broker_t2400-1` | Broker probe | 0–2400 | Bridge perception following broker removal |
 | `formal_n15_full_instruments-1` | Hub removal | 1800–3000 | Full instrument verification run |
+| `preflight_the_ville_n25-1` | Baseline (n=25) | 0–1800 | n=25 ground-truth layer setup; see `PREFLIGHT_N25.md` in run folder |
 
 
-## Setup and Running
+### n=25 pre-flight
+
+From `reverie/backend_server/`:
+
+```bash
+python run_preflight_n25.py          # headless: burn-in + survey + all 3 truth layers
+python bootstrap_n25_ground_truth_layers.py preflight_the_ville_n25-1  # layers 1–2 only
+python verify_preflight_n25.py ../../environment/frontend_server/storage/preflight_the_ville_n25-1/survey
+```
+
+Background social truth uses `agent_history_init_n25.csv` (25 agents, 300 dyads).
+
 
 ### Step 1. Generate utils.py
 
