@@ -1,0 +1,294 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_tile": [
+    76,
+    46
+  ],
+  "daily_plan_req": "",
+  "name": "Ryan Park",
+  "first_name": "Ryan",
+  "last_name": "Park",
+  "age": 29,
+  "innate": "analytical, pragmatic, driven",
+  "learned": "Ryan Park is a software engineer who loves to solve problems. He is constantly looking for ways to improve existing systems.",
+  "currently": "Ryan Park is working on a project to create a new mobile app. He is also reading up on the latest technologies to stay ahead of the curve.",
+  "lifestyle": "Ryan Park goes to bed around 1am, awakes up around 9am, eats dinner around 5pm.",
+  "living_area": "the Ville:Ryan Park's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 185,
+  "importance_ele_n": 28,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "work on the mobile app project from 9:00 am to 12:00 pm",
+    "have lunch and take a short break from 12:00 pm to 1:00 pm",
+    "continue working on the mobile app from 1:00 pm to 4:00 pm",
+    "read up on the latest technologies from 4:00 pm to 5:00 pm",
+    "have dinner at 5:00 pm",
+    "take some time to relax and unwind from 5:30 pm to 7:00 pm",
+    "engage in personal projects or side work from 7:00 pm to 9:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "working on the mobile app project (1) Ryan is reviewing the project requirements and specifications)",
+      15
+    ],
+    [
+      "working on the mobile app project (researching the latest technologies and frameworks relevant to the app)",
+      30
+    ],
+    [
+      "working on the mobile app project (on the way to UI) design)",
+      0
+    ],
+    [
+      "working on the mobile app project (conversing about Ryan Park and Tom Moreno discussing Maria Lopez's initiatives to support local businesses in the upcoming mayoral election, focusing on the potential impact of workshops and community engagement.)",
+      21
+    ],
+    [
+      "working on the mobile app project (setting up the development environment and tools)",
+      15
+    ],
+    [
+      "working on the mobile app project (writing the initial code for the app's core functionality)",
+      30
+    ],
+    [
+      "working on the mobile app project (testing the initial code to ensure it works as intended)",
+      15
+    ],
+    [
+      "working on the mobile app project (debugging any issues found during testing)",
+      30
+    ],
+    [
+      "working on the mobile app project (on the way to documenting the code and writing comments for clarity)",
+      0
+    ],
+    [
+      "working on the mobile app project (conversing about Ryan Park and John Lin discussing plans for a spring festival cocktail workshop, including promotion strategies, tech integration, and community involvement.)",
+      14
+    ],
+    [
+      "working on the mobile app project (preparing a summary of progress made on the project)",
+      5
+    ],
+    [
+      "having lunch and taking a short break (preparing his lunch)",
+      11
+    ],
+    [
+      "having lunch and taking a short break (eating his lunch)",
+      20
+    ],
+    [
+      "having lunch and taking a short break (cleaning up after lunch)",
+      10
+    ],
+    [
+      "having lunch and taking a short break (taking a short walk around his apartment)",
+      10
+    ],
+    [
+      "having lunch and taking a short break (relaxing and listening to music)",
+      5
+    ],
+    [
+      "continuing to work on the mobile app project (continuing to code the mobile app features)",
+      30
+    ],
+    [
+      "continuing to work on the mobile app project (reviewing the code for errors)",
+      20
+    ],
+    [
+      "continuing to work on the mobile app project (debugging the app)",
+      30
+    ],
+    [
+      "continuing to work on the mobile app project (testing the app on different devices)",
+      30
+    ],
+    [
+      "continuing to work on the mobile app project (on the way to on the way to gathering feedback from test users)",
+      0
+    ],
+    [
+      "continuing to work on the mobile app project (conversing about Giorgio Rossi and Ryan Park discussing app testing, integrating Fibonacci patterns into the app, brainstorming wireframes and marketing strategies, and planning a launch event featuring local artists.)",
+      19
+    ],
+    [
+      "continuing to work on the mobile app project (on the way to conversing about Adam Smith and Ryan Park discussing the mobile app project, integrating local artists and community engagement themes, and collaborating on outreach to feature local talent in the app.)",
+      0
+    ],
+    [
+      "continuing to work on the mobile app project (conversing about Arthur Burton and Ryan Park conversing about integrating local artists into events at The Rose and Crown, planning a local artist night, and creating a signature cocktail called 'Fibonacci Fizz' for Valentine's Day.)",
+      18
+    ],
+    [
+      "continuing to work on the mobile app project (on the way to analyzing the feedback and making notes)",
+      0
+    ],
+    [
+      "continuing to work on the mobile app project (conversing about Ryan Park and Hailey Johnson discussing the integration of local artists into a mobile app project, brainstorming ideas for community engagement features, and planning a meeting to collaborate on promoting the artists.)",
+      17
+    ],
+    [
+      "continuing to work on the mobile app project (implementing changes based on feedback)",
+      26
+    ],
+    [
+      "reading up on the latest technologies",
+      41
+    ],
+    [
+      "having dinner (preparing the ingredients for dinner)",
+      15
+    ],
+    [
+      "having dinner (cooking the main dish)",
+      20
+    ],
+    [
+      "having dinner (setting the table)",
+      5
+    ],
+    [
+      "having dinner (cooking a side dish)",
+      10
+    ],
+    [
+      "having dinner (plating the food)",
+      5
+    ],
+    [
+      "having dinner (sitting down to eat)",
+      5
+    ],
+    [
+      "relaxing and unwinding",
+      60
+    ],
+    [
+      "engaging in personal projects or side work",
+      180
+    ],
+    [
+      "working on personal projects or side work",
+      60
+    ],
+    [
+      "engaging in personal projects or side work",
+      60
+    ],
+    [
+      "sleeping",
+      9
+    ],
+    [
+      "sleeping",
+      6
+    ],
+    [
+      "sleeping",
+      3
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "working on the mobile app project",
+      180
+    ],
+    [
+      "having lunch and taking a short break",
+      60
+    ],
+    [
+      "continuing to work on the mobile app project",
+      180
+    ],
+    [
+      "reading up on the latest technologies",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing and unwinding",
+      60
+    ],
+    [
+      "engaging in personal projects or side work",
+      180
+    ],
+    [
+      "working on personal projects or side work",
+      60
+    ],
+    [
+      "engaging in personal projects or side work",
+      60
+    ]
+  ],
+  "act_address": "the Ville:The Willows Market and Pharmacy:store:pharmacy store shelf",
+  "act_start_time": "February 13, 2023, 16:11:00",
+  "act_duration": 41,
+  "act_description": "reading up on the latest technologies",
+  "act_pronunciatio": "\ud83d\udcd6\ud83d\udcbb",
+  "act_event": [
+    "Ryan Park",
+    "read",
+    "latest technologies"
+  ],
+  "act_obj_description": "well-stocked with medication and health products",
+  "act_obj_pronunciatio": "\ud83d\udc8a\ud83e\ude7a",
+  "act_obj_event": [
+    "pharmacy store shelf",
+    "be",
+    "well-stocked with medication and health products"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Tom Moreno": -1522,
+    "John Lin": -946,
+    "Adam Smith": 158,
+    "Giorgio Rossi": 278,
+    "Arthur Burton": 386,
+    "Hailey Johnson": 488
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

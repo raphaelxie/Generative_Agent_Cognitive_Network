@@ -1,0 +1,321 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 13:24:50",
+  "curr_tile": [
+    89,
+    46
+  ],
+  "daily_plan_req": "Mei Lin goes to Oak Hill college to teach starting 10 am, teaches until 2pm, and returns home to work.",
+  "name": "Mei Lin",
+  "first_name": "Mei",
+  "last_name": "Lin",
+  "age": 44,
+  "innate": "nurturing, kind, patient",
+  "learned": "Mei Lin is a college professor and a mom who loves to help people reach their goals. She is always looking for ways to support her students and her family.",
+  "currently": "Mei Lin is living with her husband, John Lin, and son, Eddy Lin, and is teaching a course on philosophy and working on her research paper. She also is helping her two kids with their schoolwork.",
+  "lifestyle": "Mei Lin goes to bed around 11pm, awakes up around 7am, eats dinner around 5pm.",
+  "living_area": "the Ville:Lin family's house:Mei and John Lin's bedroom",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 223,
+  "importance_ele_n": 9,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "head to Oak Hill College for her philosophy class at 9:00 am",
+    "teach her class from 10:00 am to 2:00 pm",
+    "have lunch from 2:30 pm to 3:00 pm",
+    "work on her research paper from 3:00 pm to 5:00 pm",
+    "prepare and have dinner with her family at 5:00 pm",
+    "help Eddy and her other child with homework from 6:00 pm to 7:30 pm",
+    "spend some quality time with her family from 7:30 pm to 8:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "completing her morning routine",
+      60
+    ],
+    [
+      "heading to Oak Hill College for her philosophy class (on the way to on the way to getting dressed for the day)",
+      0
+    ],
+    [
+      "heading to Oak Hill College for her philosophy class (conversing about Mei Lin and Eddy Lin discussing their plans for the day, including their classes in philosophy and music theory, and their excitement to share insights during lunch.)",
+      13
+    ],
+    [
+      "heading to Oak Hill College for her philosophy class (conversing about John Lin and Mei Lin discussing their busy day, including Mei's philosophy class and John's work at the pharmacy, while also planning to share insights about local mayoral candidates and catching up on family stories during lunch.)",
+      14
+    ],
+    [
+      "heading to Oak Hill College for her philosophy class (preparing her teaching materials and notes)",
+      15
+    ],
+    [
+      "heading to Oak Hill College for her philosophy class (having a quick breakfast)",
+      10
+    ],
+    [
+      "heading to Oak Hill College for her philosophy class (packing her bag with her materials)",
+      5
+    ],
+    [
+      "heading to Oak Hill College for her philosophy class (on the way to checking her schedule and ensuring she has everything she needs)",
+      0
+    ],
+    [
+      "heading to Oak Hill College for her philosophy class (conversing about Isabella Rodriguez and Mei Lin discussing Valentine\u2019s Day party planning at the cafe, including creative decorations inspired by the Fibonacci sequence and sharing favorite quotes.)",
+      9
+    ],
+    [
+      "teaching her philosophy class at Oak Hill College (preparing her lecture materials)",
+      15
+    ],
+    [
+      "teaching her philosophy class at Oak Hill College (on the way to greeting her students as they enter the classroom)",
+      0
+    ],
+    [
+      "teaching her philosophy class at Oak Hill College (conversing about Ayesha Khan and Mei Lin discussing the planning of a Valentine\u2019s Day party, focusing on using the Fibonacci sequence for decorations and selecting quotes about nature and creativity.)",
+      15
+    ],
+    [
+      "teaching her philosophy class at Oak Hill College (starting the class with an introduction to the day's topic)",
+      10
+    ],
+    [
+      "teaching her philosophy class at Oak Hill College (on the way to presenting the main concepts of the lecture)",
+      0
+    ],
+    [
+      "teaching her philosophy class at Oak Hill College (conversing about Mei Lin and Eddy Lin discussing their classes on music theory and philosophy, exploring connections between ethical theories and musical examples, and planning to analyze pieces that reflect moral dilemmas and cultural perspectives during their lunch meeting.)",
+      16
+    ],
+    [
+      "teaching her philosophy class at Oak Hill College (facilitating a class discussion on the topic)",
+      15
+    ],
+    [
+      "teaching her philosophy class at Oak Hill College (answering student questions and providing clarification)",
+      15
+    ],
+    [
+      "teaching her philosophy class at Oak Hill College (assigning a group activity related to the lecture)",
+      10
+    ],
+    [
+      "teaching her philosophy class at Oak Hill College (monitoring group discussions and providing guidance)",
+      14
+    ],
+    [
+      "having lunch (preparing her lunch)",
+      15
+    ],
+    [
+      "having lunch (setting the table for lunch)",
+      5
+    ],
+    [
+      "having lunch (serving the food onto her plate)",
+      5
+    ],
+    [
+      "having lunch (sitting down to eat)",
+      5
+    ],
+    [
+      "having lunch (enjoying her meal)",
+      20
+    ],
+    [
+      "having lunch (on the way to on the way to cleaning up her plate after eating)",
+      0
+    ],
+    [
+      "having lunch (conversing about John and Mei Lin discussing their plans for dinner, insights on mayoral candidates, Eddy's school project on music and emotions, and how to incorporate family activities related to music and ethics.)",
+      16
+    ],
+    [
+      "having lunch (conversing about Mei Lin and Tom Moreno discussing preparations for the Valentine's Day event at The Willow Market, including decoration ideas and themes.)",
+      14
+    ],
+    [
+      "having lunch (washing the dishes)",
+      5
+    ],
+    [
+      "helping students with their assignments and providing guidance during office hours (1) Mei is setting up her office for office hours)",
+      5
+    ],
+    [
+      "helping students with their assignments and providing guidance during office hours (checking her email for any student inquiries)",
+      5
+    ],
+    [
+      "helping students with their assignments and providing guidance during office hours (reviewing the assignments submitted by students)",
+      10
+    ],
+    [
+      "helping students with their assignments and providing guidance during office hours (preparing a list of common questions and topics to discuss)",
+      10
+    ],
+    [
+      "helping students with their assignments and providing guidance during office hours (welcoming the first student to her office)",
+      5
+    ],
+    [
+      "helping students with their assignments and providing guidance during office hours (discussing the student's assignment and providing feedback)",
+      15
+    ],
+    [
+      "helping students with their assignments and providing guidance during office hours (answering the student's questions about the course material)",
+      10
+    ],
+    [
+      "helping students with their assignments and providing guidance during office hours (summarizing the key points discussed with the student)",
+      5
+    ],
+    [
+      "helping students with their assignments and providing guidance during office hours (saying goodbye to the first student and preparing for the next one)",
+      5
+    ],
+    [
+      "helping students with their assignments and providing guidance during office hours (welcoming the second student to her office)",
+      5
+    ],
+    [
+      "helping students with their assignments and providing guidance during office hours (discussing the second student's assignment and providing feedback)",
+      15
+    ],
+    [
+      "helping students with their assignments and providing guidance during office hours (answering the second student's questions about the course material)",
+      9
+    ],
+    [
+      "helping students with their assignments and providing guidance during office hours (discussing the third student's assignment and providing feedback)",
+      5
+    ],
+    [
+      "working on her research paper",
+      111
+    ],
+    [
+      "preparing and having dinner with her family",
+      60
+    ],
+    [
+      "helping Eddy and her other child with homework",
+      60
+    ],
+    [
+      "spending quality time with her family",
+      180
+    ],
+    [
+      "relaxing and unwinding after a long day",
+      60
+    ],
+    [
+      "relaxing and unwinding after a long day before going to bed",
+      60
+    ],
+    [
+      "sleeping",
+      4
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "completing her morning routine",
+      60
+    ],
+    [
+      "heading to Oak Hill College for her philosophy class",
+      60
+    ],
+    [
+      "teaching her philosophy class at Oak Hill College",
+      120
+    ],
+    [
+      "having lunch",
+      60
+    ],
+    [
+      "helping students with their assignments and providing guidance during office hours",
+      120
+    ],
+    [
+      "working on her research paper",
+      120
+    ],
+    [
+      "preparing and having dinner with her family",
+      60
+    ],
+    [
+      "helping Eddy and her other child with homework",
+      60
+    ],
+    [
+      "spending quality time with her family",
+      180
+    ],
+    [
+      "relaxing and unwinding after a long day",
+      60
+    ],
+    [
+      "relaxing and unwinding after a long day before going to bed",
+      60
+    ]
+  ],
+  "act_address": "the Ville:The Willows Market and Pharmacy:store:grocery store counter",
+  "act_start_time": "February 13, 2023, 13:15:00",
+  "act_duration": 14,
+  "act_description": "having lunch (conversing about Mei Lin and Tom Moreno discussing preparations for the Valentine's Day event at The Willow Market, including decoration ideas and themes.)",
+  "act_pronunciatio": "\ud83d\udcac\u2764\ufe0f",
+  "act_event": [
+    "Mei Lin",
+    "converse",
+    "preparations for the Valentine's Day event"
+  ],
+  "act_obj_description": "in use, covered with lunch items and conversation notes about Valentine's Day preparations",
+  "act_obj_pronunciatio": "\ud83c\udf74\ud83d\udc8c",
+  "act_obj_event": [
+    "grocery store counter",
+    "is",
+    "in use"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "John Lin": 644,
+    "Eddy Lin": -70,
+    "Isabella Rodriguez": -406,
+    "Ayesha Khan": -268,
+    "Tom Moreno": 542
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

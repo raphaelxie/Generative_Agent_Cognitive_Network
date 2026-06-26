@@ -1,0 +1,258 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 13:24:50",
+  "curr_tile": [
+    38,
+    26
+  ],
+  "daily_plan_req": "",
+  "name": "Hailey Johnson",
+  "first_name": "Hailey",
+  "last_name": "Johnson",
+  "age": 30,
+  "innate": "imaginative, energetic, resourceful",
+  "learned": "Hailey Johnson is a writer who is always looking for new ways to tell stories. She loves to immerse herself in different cultures and explore their literature.",
+  "currently": "Hailey Johnson is writing a novel about a group of artists living in a co-living space. She is also planning to start a podcast.",
+  "lifestyle": "Hailey Johnson goes to bed around 2am, awakes up around 10am, eats dinner around 6pm.",
+  "living_area": "the Ville:artist's co-living space:Hailey Johnson's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 138,
+  "importance_ele_n": 36,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "have breakfast and enjoy a cup of coffee while reading about different cultures and their literature at 10:30 am",
+    "dedicate time to brainstorming ideas for her novel from 11:30 am to 1:00 pm",
+    "take a short break to go for a walk and get inspired by her surroundings from 1:00 pm to 2:00 pm",
+    "write for her novel from 2:30 pm to 5:30 pm",
+    "have dinner at 6:00 pm",
+    "spend time researching potential guests and topics for her podcast from 7:00 pm to 9:00 pm",
+    "record a podcast episode from 9:30 pm to 11:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "sleeping",
+      240
+    ],
+    [
+      "brainstorming ideas for her novel",
+      60
+    ],
+    [
+      "taking a short break to go for a walk and get inspired by her surroundings (on the way to putting on her walking shoes)",
+      0
+    ],
+    [
+      "taking a short break to go for a walk and get inspired by her surroundings (conversing about Rajiv Patel and Hailey Johnson exchanging ideas about their artistic projects, with Rajiv discussing his cocktail inspired by the Fibonacci sequence and Hailey exploring character development in her novel about creativity in shared living spaces.)",
+      25
+    ],
+    [
+      "taking a short break to go for a walk and get inspired by her surroundings (taking a moment to breathe in the fresh air)",
+      5
+    ],
+    [
+      "taking a short break to go for a walk and get inspired by her surroundings (walking down the street, observing her surroundings)",
+      10
+    ],
+    [
+      "taking a short break to go for a walk and get inspired by her surroundings (noticing interesting architecture and jotting down ideas)",
+      10
+    ],
+    [
+      "taking a short break to go for a walk and get inspired by her surroundings (sitting on a bench to reflect on her thoughts)",
+      5
+    ],
+    [
+      "taking a short break to go for a walk and get inspired by her surroundings (writing down inspiration and ideas that come to her)",
+      5
+    ],
+    [
+      "writing for her novel",
+      60
+    ],
+    [
+      "sleeping",
+      120
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "spending time researching potential guests and topics for her podcast",
+      60
+    ],
+    [
+      "spending time reflecting on her day and journaling her thoughts",
+      60
+    ],
+    [
+      "recording a podcast episode",
+      60
+    ],
+    [
+      "sleeping",
+      120
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "sleeping",
+      240
+    ],
+    [
+      "brainstorming ideas for her novel",
+      60
+    ],
+    [
+      "taking a short break to go for a walk and get inspired by her surroundings",
+      60
+    ],
+    [
+      "writing for her novel",
+      60
+    ],
+    [
+      "sleeping",
+      120
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "spending time researching potential guests and topics for her podcast",
+      60
+    ],
+    [
+      "spending time reflecting on her day and journaling her thoughts",
+      60
+    ],
+    [
+      "recording a podcast episode",
+      60
+    ],
+    [
+      "sleeping",
+      120
+    ]
+  ],
+  "act_address": "<persona> Rajiv Patel",
+  "act_start_time": "February 13, 2023, 13:02:20",
+  "act_duration": 25,
+  "act_description": "conversing about Rajiv Patel and Hailey Johnson exchanging ideas about their artistic projects, with Rajiv discussing his cocktail inspired by the Fibonacci sequence and Hailey exploring character development in her novel about creativity in shared living spaces.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Hailey Johnson",
+    "chat with",
+    "Rajiv Patel"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Rajiv Patel",
+  "chat": [
+    [
+      "Rajiv Patel",
+      "Hey Hailey! I see you're deep in thought. What are you brainstorming for your novel? I'm really curious about your ideas!"
+    ],
+    [
+      "Hailey Johnson",
+      "Hi Rajiv! I'm actually exploring the dynamics of creativity in a shared living space. It's fascinating how different artists inspire one another. What about you? How\u2019s that cocktail project coming along?"
+    ],
+    [
+      "Rajiv Patel",
+      "It's going really well! I'm working on a cocktail called 'Fibonacci Fizz' that incorporates the Fibonacci sequence. I'm also thinking about how to blend it with my upcoming solo art show. I think it could be a unique way to connect with the audience. Do you get inspiration from the artists around you for your novel?"
+    ],
+    [
+      "Hailey Johnson",
+      "Absolutely! The way everyone approaches their craft brings so many fresh perspectives. I love how your cocktail project ties in with your art. It sounds like an engaging way to draw people in. Have you thought about how you'll present that at your show?"
+    ],
+    [
+      "Rajiv Patel",
+      "Yes, I'm planning to create a visual representation of the Fibonacci sequence in my artwork, and I want to serve the 'Fibonacci Fizz' cocktail during the show to enhance the experience. I think it could really create a thematic connection. What about you? Do you have any specific scenes or characters in mind for your novel that are inspired by the artists here?"
+    ],
+    [
+      "Hailey Johnson",
+      "Yes, I have a couple of characters that are inspired by the artists here. One is a painter who uses her emotions as a canvas, and another is a musician who's struggling to find his voice amidst the chaos of the co-living space. I think they both reflect the unique challenges and triumphs of creativity. I'm excited to weave their stories together. Do you have any particular elements in your artwork that reflect your experiences in this space?"
+    ],
+    [
+      "Rajiv Patel",
+      "That's really interesting! I think my artwork reflects the serene moments I've found in this space, like the quiet times when I'm painting late at night. I want to convey that sense of tranquility and connection to nature in my pieces. It\u2019s fascinating how our environments shape our creativity, isn't it? I'd love to hear more about how you plan to develop those characters!"
+    ],
+    [
+      "Hailey Johnson",
+      "Absolutely! I want to delve into their backgrounds and explore how their past experiences influence their current work. For the painter, I\u2019m thinking of a backstory that involves a pivotal moment that drives her to express herself through her art. As for the musician, I want to highlight his journey of self-discovery amidst the noise of communal living. It would be great to hear your thoughts on how to make their stories resonate more with readers. What elements do you think are key to connecting with an audience?"
+    ],
+    [
+      "Rajiv Patel",
+      "I think relatable emotions and authentic experiences are key to connecting with an audience. If readers can see themselves in your characters\u2019 struggles and triumphs, it makes the story more impactful. Maybe you could include moments where the characters interact with their environment, showcasing how it influences their creativity. What do you think?"
+    ],
+    [
+      "Hailey Johnson",
+      "That's a great idea, Rajiv! I love the thought of incorporating their interactions with the environment to deepen their stories. Maybe I could have the painter find inspiration in the changing light of the sunset or the musician compose a piece while listening to the sounds of the co-living space. Your insights are really helping me shape their journeys. Do you have any other suggestions for crafting those emotional moments?"
+    ],
+    [
+      "Rajiv Patel",
+      "I think you could also explore their personal conflicts and aspirations. Maybe the painter struggles with self-doubt, which could be reflected in her artwork, while the musician could have a moment of breakthrough that resonates with his journey. Those internal battles can create a powerful connection for readers. What do you think?"
+    ],
+    [
+      "Hailey Johnson",
+      "I completely agree, Rajiv! Exploring their internal conflicts will definitely add depth to their stories. I can see how the painter's self-doubt could manifest in her art, and I love the idea of the musician having a breakthrough moment. It's those raw, emotional experiences that resonate with people. I'm really grateful for your insights; they\u2019re helping me refine my narrative. Have you considered any specific techniques or styles that might enhance those emotional scenes in your artwork?"
+    ],
+    [
+      "Rajiv Patel",
+      "Absolutely! I think using vibrant colors to convey emotions can be really effective. For instance, using warmer tones during moments of joy and cooler shades during times of struggle can create a powerful visual narrative. I\u2019ve also been experimenting with textures to add depth to my pieces, making them more tactile and engaging. What about you? Have you thought about how your writing style could reflect the emotions of your characters?"
+    ],
+    [
+      "Hailey Johnson",
+      "That's a fantastic approach, Rajiv! I\u2019ve been thinking about using lyrical prose to convey the emotions of my characters. I want the readers to feel the highs and lows alongside them. Maybe I could also incorporate poetic elements when describing pivotal moments in their journeys. What do you think about blending different styles to enhance emotional depth?"
+    ],
+    [
+      "Rajiv Patel",
+      "I think blending different styles can definitely enhance emotional depth! Using lyrical prose alongside poetic elements could create a beautiful rhythm in your writing. It might help to draw the readers in even more. Have you considered any specific scenes where you might want to experiment with that style?"
+    ],
+    [
+      "Hailey Johnson",
+      "I have a few scenes in mind where I\u2019d like to experiment with that style. For instance, I envision a moment where the painter stands before her canvas, lost in thought, and the description of her emotions could flow like a poem. I also want to capture the musician's moment of clarity when he finally hears the melody he's been searching for. What do you think about those scenes? Do you have any ideas for how I could enhance them further?"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Rajiv Patel": 800
+  },
+  "chatting_end_time": "February 13, 2023, 13:28:00",
+  "act_path_set": true,
+  "planned_path": []
+}

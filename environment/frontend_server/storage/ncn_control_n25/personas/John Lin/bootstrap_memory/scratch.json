@@ -1,0 +1,447 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 13:24:50",
+  "curr_tile": [
+    76,
+    25
+  ],
+  "daily_plan_req": "John Lin goes to the Willow Market and Pharmacy around 9am to open the pharmacy counter. He stands behind the counter until 5pm and returns home.",
+  "name": "John Lin",
+  "first_name": "John",
+  "last_name": "Lin",
+  "age": 45,
+  "innate": "patient, kind, organized",
+  "learned": "John Lin is a pharmacy shop keeper at the Willow Market and Pharmacy who loves to help people. He is always looking for ways to make the process of getting medication easier for his customers.",
+  "currently": "John Lin is living with his wife, Mei Lin, and son, Eddy Lin, and is shop keeping a pharmacy at the Willow Market and Pharmacy. He is also taking online classes to stay up to date on new medications and treatments. John is also curious about who will be running for the local mayor election next month and he is asking everyone he meets about who will be running in the election.",
+  "lifestyle": "John Lin goes to bed around 10pm, awakes up around 6am, eats dinner around 5pm.",
+  "living_area": "the Ville:Lin family's house:Mei and John Lin's bedroom",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 196,
+  "importance_ele_n": 16,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 6:00 am",
+    "open the pharmacy counter at 9:00 am",
+    "stand behind the counter and assist customers until 5:00 pm",
+    "return home and have dinner with his family at 5:30 pm",
+    "spend time with his wife and son from 6:00 pm to 7:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "completing his morning routine and having breakfast with his family",
+      60
+    ],
+    [
+      "getting ready for the day and preparing to leave for the pharmacy",
+      60
+    ],
+    [
+      "opening the pharmacy counter at Willow Market and Pharmacy (on the way to on the way to checking the pharmacy inventory)",
+      0
+    ],
+    [
+      "opening the pharmacy counter at Willow Market and Pharmacy (conversing about Eddy Lin and John Lin discussing their plans for the day, including Eddy's classes at Oak Hill College and John's interest in gathering information about local mayoral candidates while also planning to share their findings during lunch.)",
+      12
+    ],
+    [
+      "opening the pharmacy counter at Willow Market and Pharmacy (conversing about John Lin and Mei Lin discussing their busy day, including Mei's philosophy class and John's work at the pharmacy, while also planning to share insights about local mayoral candidates and catching up on family stories during lunch.)",
+      14
+    ],
+    [
+      "opening the pharmacy counter at Willow Market and Pharmacy (organizing the medication shelves)",
+      15
+    ],
+    [
+      "opening the pharmacy counter at Willow Market and Pharmacy (setting up the cash register)",
+      10
+    ],
+    [
+      "opening the pharmacy counter at Willow Market and Pharmacy (reviewing the schedule for the day)",
+      5
+    ],
+    [
+      "opening the pharmacy counter at Willow Market and Pharmacy (checking for any special orders or deliveries)",
+      10
+    ],
+    [
+      "opening the pharmacy counter at Willow Market and Pharmacy (preparing the pharmacy counter for customers)",
+      5
+    ],
+    [
+      "assisting customers at the pharmacy (on the way to assisting a customer with their prescription)",
+      0
+    ],
+    [
+      "assisting customers at the pharmacy (conversing about John Lin and Tom Moreno discussing Maria Lopez's initiatives to support local businesses and their potential impact, as well as the types of workshops that may be offered, their goals for attending, and the importance of networking with other business owners.)",
+      17
+    ],
+    [
+      "assisting customers at the pharmacy (answering a customer's question about medication side effects)",
+      10
+    ],
+    [
+      "assisting customers at the pharmacy (on the way to restocking shelves with over-the-counter medications)",
+      0
+    ],
+    [
+      "assisting customers at the pharmacy (conversing about Adam Smith and John Lin discussing ideas for workshops and events to benefit local entrepreneurs, including gathering input from local business owners and structuring the workshops effectively.)",
+      18
+    ],
+    [
+      "assisting customers at the pharmacy (on the way to processing a return for a customer)",
+      0
+    ],
+    [
+      "assisting customers at the pharmacy (conversing about John Lin and Arthur Burton discussing plans for a spring festival cocktail workshop that highlights local produce, engages the community, and involves local farmers and musicians.)",
+      20
+    ],
+    [
+      "assisting customers at the pharmacy (on the way to helping a customer find a specific product)",
+      0
+    ],
+    [
+      "assisting customers at the pharmacy (conversing about Ryan Park and John Lin discussing plans for a spring festival cocktail workshop, including promotion strategies, tech integration, and community involvement.)",
+      14
+    ],
+    [
+      "assisting customers at the pharmacy (taking a short break to hydrate)",
+      5
+    ],
+    [
+      "assisting customers at the pharmacy (assisting a customer with insurance questions)",
+      15
+    ],
+    [
+      "assisting customers at the pharmacy (preparing a medication for a customer)",
+      15
+    ],
+    [
+      "assisting customers at the pharmacy (checking inventory levels for prescription medications)",
+      10
+    ],
+    [
+      "assisting customers at the pharmacy (answering a phone call from a customer)",
+      5
+    ],
+    [
+      "assisting customers at the pharmacy (on the way to providing advice on cold and flu remedies to a customer)",
+      0
+    ],
+    [
+      "assisting customers at the pharmacy (conversing about John Lin offering to help Isabella Rodriguez with decorations and preparations for a Valentine's Day party, including choosing flowers and setting up lights.)",
+      11
+    ],
+    [
+      "assisting customers at the pharmacy (assisting a customer with a complicated prescription)",
+      20
+    ],
+    [
+      "assisting customers at the pharmacy (on the way to taking a moment to organize the counter area)",
+      0
+    ],
+    [
+      "assisting customers at the pharmacy (conversing about John and Mei Lin discussing their plans for dinner, insights on mayoral candidates, Eddy's school project on music and emotions, and how to incorporate family activities related to music and ethics.)",
+      16
+    ],
+    [
+      "assisting customers at the pharmacy (on the way to helping a customer with a medication refill)",
+      0
+    ],
+    [
+      "assisting customers at the pharmacy (conversing about Jane Moreno and John Lin discussing their dinner plans, local mayoral candidates, and agreeing to meet at a caf\u00e9 to share insights after grocery shopping.)",
+      8
+    ],
+    [
+      "assisting customers at the pharmacy (on the way to discussing new medications with a customer)",
+      0
+    ],
+    [
+      "assisting customers at the pharmacy (conversing about Sam Moore and John Lin discussing community engagement strategies and initiatives for Sam's mayoral campaign, including involving local businesses and leveraging social media.)",
+      19
+    ],
+    [
+      "assisting customers at the pharmacy (checking the expiration dates on products)",
+      10
+    ],
+    [
+      "assisting customers at the pharmacy (assisting a customer with a payment issue)",
+      10
+    ],
+    [
+      "assisting customers at the pharmacy (providing information about local health services to a customer)",
+      10
+    ],
+    [
+      "assisting customers at the pharmacy (taking a lunch break)",
+      30
+    ],
+    [
+      "assisting customers at the pharmacy (helping a customer with a special order request)",
+      15
+    ],
+    [
+      "assisting customers at the pharmacy (answering another phone call from a customer)",
+      5
+    ],
+    [
+      "assisting customers at the pharmacy (assisting a customer with a medication interaction question)",
+      10
+    ],
+    [
+      "assisting customers at the pharmacy (preparing a medication for a customer)",
+      15
+    ],
+    [
+      "assisting customers at the pharmacy (discussing health tips with a regular customer)",
+      10
+    ],
+    [
+      "assisting customers at the pharmacy (checking the pharmacy's email for any urgent messages)",
+      5
+    ],
+    [
+      "assisting customers at the pharmacy (assisting a customer with a complaint)",
+      10
+    ],
+    [
+      "assisting customers at the pharmacy (providing a customer with information about a new health product)",
+      10
+    ],
+    [
+      "assisting customers at the pharmacy (taking a moment to tidy up the waiting area)",
+      5
+    ],
+    [
+      "assisting customers at the pharmacy (helping a customer with a medication delivery request)",
+      10
+    ],
+    [
+      "assisting customers at the pharmacy (answering a question about vitamins and supplements)",
+      10
+    ],
+    [
+      "assisting customers at the pharmacy (assisting a customer with a prescription transfer)",
+      15
+    ],
+    [
+      "assisting customers at the pharmacy (checking in with a colleague about inventory)",
+      5
+    ],
+    [
+      "assisting customers at the pharmacy (providing a customer with information about allergy medications)",
+      10
+    ],
+    [
+      "assisting customers at the pharmacy (assisting a customer with a health insurance inquiry)",
+      10
+    ],
+    [
+      "assisting customers at the pharmacy (preparing a medication for a customer)",
+      3
+    ],
+    [
+      "assisting customers at the pharmacy (discussing a new treatment option with a customer)",
+      1
+    ],
+    [
+      "assisting customers at the pharmacy (finalizing the day's sales report)",
+      4
+    ],
+    [
+      "having dinner with his family",
+      48
+    ],
+    [
+      "spending time with his wife and son",
+      120
+    ],
+    [
+      "spending time with his family, engaging in activities they enjoy together",
+      120
+    ],
+    [
+      "relaxing and preparing for bed",
+      60
+    ],
+    [
+      "finishing up his day and preparing for bed",
+      60
+    ],
+    [
+      "sleeping",
+      1
+    ],
+    [
+      "sleeping",
+      2
+    ],
+    [
+      "sleeping",
+      2
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "completing his morning routine and having breakfast with his family",
+      60
+    ],
+    [
+      "getting ready for the day and preparing to leave for the pharmacy",
+      60
+    ],
+    [
+      "opening the pharmacy counter at Willow Market and Pharmacy",
+      60
+    ],
+    [
+      "assisting customers at the pharmacy",
+      420
+    ],
+    [
+      "having dinner with his family",
+      60
+    ],
+    [
+      "spending time with his wife and son",
+      120
+    ],
+    [
+      "spending time with his family, engaging in activities they enjoy together",
+      120
+    ],
+    [
+      "relaxing and preparing for bed",
+      60
+    ],
+    [
+      "finishing up his day and preparing for bed",
+      60
+    ]
+  ],
+  "act_address": "<persona> Sam Moore",
+  "act_start_time": "February 13, 2023, 13:13:40",
+  "act_duration": 19,
+  "act_description": "conversing about Sam Moore and John Lin discussing community engagement strategies and initiatives for Sam's mayoral campaign, including involving local businesses and leveraging social media.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "John Lin",
+    "chat with",
+    "Sam Moore"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Sam Moore",
+  "chat": [
+    [
+      "Sam Moore",
+      "Hey John, it's great to see you! I was just thinking about our local mayoral candidates and how important it is to engage the community in these discussions. Have you had a chance to consider who you might support in the upcoming election?"
+    ],
+    [
+      "John Lin",
+      "Hi Sam! Yes, I think it's crucial to support candidates who prioritize local businesses and community engagement. I've been following Maria Lopez's initiatives closely. What are your thoughts on her plans?"
+    ],
+    [
+      "Sam Moore",
+      "I appreciate Maria Lopez's focus on local businesses as well. I've been discussing my own plans for community engagement as part of my campaign, and I'd love to hear your thoughts on what initiatives you think would resonate with the residents."
+    ],
+    [
+      "John Lin",
+      "I think initiatives that promote local events, support for small businesses, and opportunities for residents to share their ideas would really resonate. Perhaps organizing community forums or workshops could help gather feedback and strengthen engagement. What do you have in mind for your campaign?"
+    ],
+    [
+      "Sam Moore",
+      "I completely agree, John. I\u2019m planning to host community forums where residents can voice their concerns and ideas directly. I also want to incorporate local artists and schools into our events to foster creativity and connection. Do you have any suggestions for specific topics we should cover in those forums?"
+    ],
+    [
+      "John Lin",
+      "That sounds like a great approach, Sam! I think it would be beneficial to cover topics like local business support, arts and culture initiatives, and perhaps even community safety. Engaging residents on these issues could spark some valuable discussions. Have you considered partnering with local businesses for these forums?"
+    ],
+    [
+      "Sam Moore",
+      "That's a fantastic idea, John! Partnering with local businesses could not only bring more people in but also help us showcase what they have to offer. I\u2019ll definitely look into that. Maybe we can even invite some local business owners to share their experiences and insights during the forums. What do you think?"
+    ],
+    [
+      "John Lin",
+      "I think inviting local business owners would be an excellent way to foster collaboration and provide real-life examples of the challenges and successes they face. It would encourage more people to engage in the conversation and feel connected to the community. I'm looking forward to seeing how your plans develop, Sam!"
+    ],
+    [
+      "Sam Moore",
+      "Thanks, John! I appreciate your insights. I\u2019ll definitely consider those topics and the idea of involving local business owners in the forums. I\u2019d love to keep you updated on my campaign progress and maybe even get your input on specific initiatives as they develop. Do you have any other thoughts on how we can enhance community engagement?"
+    ],
+    [
+      "John Lin",
+      "I think we should also explore ways to leverage social media to reach a wider audience and keep residents informed about upcoming events and initiatives. Engaging them online could help sustain the conversation beyond the forums. What do you think about incorporating that into your campaign strategy?"
+    ],
+    [
+      "Sam Moore",
+      "That's a great point, John! Leveraging social media could really help us reach more people and keep the community engaged even after our forums. I\u2019m thinking about creating a dedicated campaign page where residents can share their thoughts and stay updated on events. Do you have any recommendations for platforms or strategies that work well?"
+    ],
+    [
+      "John Lin",
+      "I think Facebook and Instagram are great platforms to engage with the community. You could also consider hosting live Q&A sessions on social media to directly address residents' questions and concerns. That could really personalize the campaign. I'd be happy to help brainstorm more ideas if you want!"
+    ],
+    [
+      "Sam Moore",
+      "I appreciate your offer to help, John! Let's definitely brainstorm more ideas together. I think those live Q&A sessions could really make a difference. How about we set up a time to meet again and discuss it further? I\u2019d love to hear more of your thoughts and any additional suggestions you might have."
+    ],
+    [
+      "John Lin",
+      "Absolutely, Sam! I\u2019d love to meet again and continue brainstorming. How about we set a date for later this week? I can bring some more ideas and we can discuss how to implement them effectively."
+    ],
+    [
+      "Sam Moore",
+      "That sounds perfect, John! How about we meet on Thursday morning at Hobbs Cafe? We can grab some coffee and really dive into those ideas. Let me know if that works for you!"
+    ],
+    [
+      "John Lin",
+      "Thursday morning works for me! I'm looking forward to it, Sam. Let\u2019s meet around 9 AM? I\u2019ll bring my notes, and we can really dig into the details."
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Mei Lin": 644,
+    "Eddy Lin": -892,
+    "Tom Moreno": -274,
+    "Adam Smith": -118,
+    "Arthur Burton": 8,
+    "Ryan Park": 104,
+    "Isabella Rodriguez": 446,
+    "Jane Moreno": 698,
+    "Sam Moore": 800
+  },
+  "chatting_end_time": "February 13, 2023, 13:33:00",
+  "act_path_set": true,
+  "planned_path": []
+}

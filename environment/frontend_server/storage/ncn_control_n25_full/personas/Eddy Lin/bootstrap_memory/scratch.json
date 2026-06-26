@@ -1,0 +1,459 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_tile": [
+    79,
+    48
+  ],
+  "daily_plan_req": "Eddy Lin goes to Oak Hill College to take classes starting 10am. In the afternoon, he likes to go to Hobbs Cafe to eat and study.",
+  "name": "Eddy Lin",
+  "first_name": "Eddy",
+  "last_name": "Lin",
+  "age": 19,
+  "innate": "curious, analytical, musical",
+  "learned": "Eddy Lin is a student at Oak Hill College studying music theory and composition. He loves to explore different musical styles and is always looking for ways to expand his knowledge.",
+  "currently": "Eddy Lin is working on a composition project for his college class. He is also taking classes to learn more about music theory.",
+  "lifestyle": "Eddy Lin goes to bed around 11pm, awakes up around 7amam, eats dinner around 5pm.",
+  "living_area": "the Ville:Lin family's house:Eddy Lin's bedroom",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 175,
+  "importance_ele_n": 33,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "go to classes at Oak Hill College from 10:00 am to 12:00 pm",
+    "have lunch at Hobbs Cafe at 12:30 pm",
+    "study and work on his composition project at Hobbs Cafe from 1:00 pm to 4:30 pm",
+    "head back home and eat dinner at 5:00 pm",
+    "spend some time relaxing or practicing music from 6:00 pm to 7:30 pm",
+    "work on additional music theory assignments from 7:30 pm to 9:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "completing his morning routine",
+      60
+    ],
+    [
+      "getting ready for college (on the way to on the way to getting dressed)",
+      0
+    ],
+    [
+      "getting ready for college (conversing about Eddy Lin and John Lin discussing their plans for the day, including Eddy's classes at Oak Hill College and John's interest in gathering information about local mayoral candidates while also planning to share their findings during lunch.)",
+      12
+    ],
+    [
+      "getting ready for college (conversing about Mei Lin and Eddy Lin discussing their plans for the day, including their classes in philosophy and music theory, and their excitement to share insights during lunch.)",
+      13
+    ],
+    [
+      "getting ready for college (brushing his teeth)",
+      5
+    ],
+    [
+      "getting ready for college (combing his hair)",
+      5
+    ],
+    [
+      "getting ready for college (packing his backpack with notebooks and supplies)",
+      10
+    ],
+    [
+      "getting ready for college (preparing a quick breakfast)",
+      10
+    ],
+    [
+      "getting ready for college (eating his breakfast)",
+      10
+    ],
+    [
+      "getting ready for college (checking his schedule for the day)",
+      5
+    ],
+    [
+      "attending classes at Oak Hill College (attending his first class on music theory)",
+      30
+    ],
+    [
+      "attending classes at Oak Hill College (on the way to taking notes during the lecture)",
+      0
+    ],
+    [
+      "attending classes at Oak Hill College (conversing about Carlos Gomez and Eddy Lin discussing their shared interests in poetry and music, exploring themes of nature and growth, and planning a collaboration that incorporates the Fibonacci sequence into their respective art forms.)",
+      20
+    ],
+    [
+      "attending classes at Oak Hill College (on the way to participating in class discussions)",
+      0
+    ],
+    [
+      "attending classes at Oak Hill College (conversing about Mei Lin and Eddy Lin discussing their classes on music theory and philosophy, exploring connections between ethical theories and musical examples, and planning to analyze pieces that reflect moral dilemmas and cultural perspectives during their lunch meeting.)",
+      16
+    ],
+    [
+      "attending classes at Oak Hill College (reviewing the assigned reading materials)",
+      15
+    ],
+    [
+      "attending classes at Oak Hill College (on the way to attending his second class on composition techniques)",
+      0
+    ],
+    [
+      "attending classes at Oak Hill College (conversing about Isabella Rodriguez and Eddy Lin discussing plans for a Valentine's Day party, including decorations, music choices, quotes, treats, drinks, and overall space setup.)",
+      18
+    ],
+    [
+      "having lunch at Hobbs Cafe (on the way to having lunch at Hobbs Caf)",
+      0
+    ],
+    [
+      "having lunch at Hobbs Cafe (on the way to conversing about Eddy Lin and Sam Moore discussing plans for a Valentine's Day party, including music choices, decorations, and quotes to enhance the romantic atmosphere.)",
+      17
+    ],
+    [
+      "having lunch at Hobbs Cafe (conversing about Giorgio Rossi and Eddy Lin discussing ideas for decorations and interactive elements for their upcoming Valentine's Day party, focusing on the Fibonacci sequence and nature.)",
+      16
+    ],
+    [
+      "studying and working on his composition project at Hobbs Cafe (1) Eddy is finding a suitable table at Hobbs Cafe)",
+      5
+    ],
+    [
+      "studying and working on his composition project at Hobbs Cafe (setting up his laptop and materials on the table)",
+      5
+    ],
+    [
+      "studying and working on his composition project at Hobbs Cafe (reviewing his notes from class)",
+      10
+    ],
+    [
+      "studying and working on his composition project at Hobbs Cafe (on the way to brainstorming ideas for his composition project)",
+      0
+    ],
+    [
+      "studying and working on his composition project at Hobbs Cafe (conversing about Ayesha Khan and Eddy Lin discussing Ayesha's Valentine's Day party planning, incorporating the Fibonacci sequence in decorations and interactive art, while Eddy provides creative ideas and quotes related to nature and inspiration.)",
+      17
+    ],
+    [
+      "studying and working on his composition project at Hobbs Cafe (on the way to sketching out a rough outline of his composition)",
+      0
+    ],
+    [
+      "studying and working on his composition project at Hobbs Cafe (conversing about Francisco Lopez and Eddy Lin discussing their respective creative projects, including Eddy's composition incorporating the Fibonacci sequence and Francisco's web series featuring a co-living space, while planning a collaborative Valentine's Day party with interactive music and decorations.)",
+      17
+    ],
+    [
+      "studying and working on his composition project at Hobbs Cafe (listening to reference tracks for inspiration)",
+      10
+    ],
+    [
+      "studying and working on his composition project at Hobbs Cafe (writing down musical ideas and motifs)",
+      10
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (on the way to working on the outline of his composition)",
+      0
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (conversing about Jennifer Moore and Eddy Lin collaborating on integrating art and music for an interactive Valentine's Day party, discussing ideas such as motion sensors, QR codes, quotes about art and love, a collaborative mural, and live painting.)",
+      23
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (on the way to researching different musical styles for inspiration)",
+      0
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (conversing about Jane Moreno and Eddy Lin discussing Eddy's interactive Valentine's Day party project, including themes, quotes, and the involvement of local artists.)",
+      19
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (drafting the main theme of his composition)",
+      30
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (on the way to experimenting with chord progressions)",
+      0
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (conversing about Eddy Lin and Mei Lin discussing their upcoming lunch meeting to analyze ethical theories in music, focusing on pieces like Beethoven's 'Eroica' Symphony and John Adams' 'Nixon in China', while also considering contemporary works, audience interpretation, and the influence of these pieces on modern composers.)",
+      18
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (on the way to taking a short break to refresh his mind)",
+      0
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (conversing about Giorgio Rossi and Eddy Lin discussing their plans for the Valentine's Day party decorations and music, incorporating themes of the Fibonacci sequence, interactive elements, and collaboration with other team members.)",
+      17
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (on the way to listening to reference tracks for ideas)",
+      0
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (conversing about Eddy Lin and Isabella Rodriguez discussing the preparations for a Valentine's Day party, including decorations, music, flower arrangements, and quotes about love.)",
+      17
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (jotting down notes on what he likes from the reference tracks)",
+      10
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (revising the main theme based on his notes)",
+      20
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (on the way to creating a rough draft of the first section of his composition)",
+      0
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (conversing about Eddy Lin and John Lin discussing John\u2019s work at the pharmacy, local mayoral candidates and their initiatives, Eddy's composition project, and plans for family night including dessert options.)",
+      12
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (on the way to saving his work and organizing his files)",
+      0
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (conversing about Eddy Lin and Klaus Mueller discussing their upcoming Valentine's Day party, focusing on incorporating local art and community engagement while exploring the impact of gentrification on artists.)",
+      19
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (packing up his materials to prepare to leave the cafe)",
+      5
+    ],
+    [
+      "having dinner at home",
+      21
+    ],
+    [
+      "relaxing or practicing music (setting up his music space)",
+      10
+    ],
+    [
+      "relaxing or practicing music (warming up on the piano)",
+      10
+    ],
+    [
+      "relaxing or practicing music (practicing scales)",
+      10
+    ],
+    [
+      "relaxing or practicing music (working on a new piece he is composing)",
+      15
+    ],
+    [
+      "relaxing or practicing music (taking a short break to stretch)",
+      5
+    ],
+    [
+      "relaxing or practicing music (reviewing his composition notes)",
+      10
+    ],
+    [
+      "working on additional music theory assignments",
+      60
+    ],
+    [
+      "relaxing or practicing music",
+      60
+    ],
+    [
+      "working on additional music theory assignments",
+      60
+    ],
+    [
+      "finishing up his assignments and preparing for bed",
+      60
+    ],
+    [
+      "preparing for bed and reflecting on his day",
+      60
+    ],
+    [
+      "sleeping",
+      2
+    ],
+    [
+      "sleeping",
+      14
+    ],
+    [
+      "sleeping",
+      38
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "completing his morning routine",
+      60
+    ],
+    [
+      "getting ready for college",
+      60
+    ],
+    [
+      "attending classes at Oak Hill College",
+      120
+    ],
+    [
+      "having lunch at Hobbs Cafe",
+      60
+    ],
+    [
+      "studying and working on his composition project at Hobbs Cafe",
+      60
+    ],
+    [
+      "working on his composition project at Hobbs Cafe",
+      180
+    ],
+    [
+      "having dinner at home",
+      60
+    ],
+    [
+      "relaxing or practicing music",
+      60
+    ],
+    [
+      "working on additional music theory assignments",
+      60
+    ],
+    [
+      "relaxing or practicing music",
+      60
+    ],
+    [
+      "working on additional music theory assignments",
+      60
+    ],
+    [
+      "finishing up his assignments and preparing for bed",
+      60
+    ],
+    [
+      "preparing for bed and reflecting on his day",
+      60
+    ]
+  ],
+  "act_address": "<persona> Klaus Mueller",
+  "act_start_time": "February 13, 2023, 16:17:30",
+  "act_duration": 19,
+  "act_description": "conversing about Eddy Lin and Klaus Mueller discussing their upcoming Valentine's Day party, focusing on incorporating local art and community engagement while exploring the impact of gentrification on artists.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Eddy Lin",
+    "chat with",
+    "Klaus Mueller"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Klaus Mueller",
+  "chat": [
+    [
+      "Eddy Lin",
+      "Hey Klaus! How's the paper on gentrification coming along? I\u2019ve been thinking about how it relates to our projects, especially with the upcoming Valentine's Day party and the local art scene."
+    ],
+    [
+      "Klaus Mueller",
+      "Hey Eddy! It's coming along well, thanks for asking. I'm exploring how gentrification impacts local artists and their ability to express themselves in their communities. I think it could tie nicely into our Valentine's Day party theme. What ideas do you have in mind for the event, especially regarding how we can incorporate local art?"
+    ],
+    [
+      "Eddy Lin",
+      "I was thinking we could feature some local artists' work at the party, maybe even have a space for live painting or interactive art installations. It could really showcase the community's talent and highlight the impact of gentrification on those artists. What do you think?"
+    ],
+    [
+      "Klaus Mueller",
+      "I love that idea! Featuring local artists and incorporating live painting could create a vibrant atmosphere. We could also encourage attendees to engage with the art and share their thoughts on how gentrification affects the local scene. Maybe we could even set up a discussion panel or a space for people to share their stories. What do you think?"
+    ],
+    [
+      "Eddy Lin",
+      "That's a great idea! A discussion panel could really encourage dialogue and make the event more meaningful. We could invite some local artists and community leaders to share their experiences. I could also create a musical piece that reflects the themes we discuss, enhancing the overall atmosphere. What do you think about that?"
+    ],
+    [
+      "Klaus Mueller",
+      "That sounds fantastic, Eddy! A musical piece that resonates with the themes of gentrification would add so much depth to the event. We should definitely brainstorm some specific ideas for both the discussion panel and your composition. I can help with reaching out to local artists and community leaders to see if they'd be interested in participating. When do you want to meet to plan this out further?"
+    ],
+    [
+      "Eddy Lin",
+      "How about we meet tomorrow after classes at Hobbs Cafe? We can brainstorm some ideas for the panel and discuss the composition in more detail. Does that work for you?"
+    ],
+    [
+      "Klaus Mueller",
+      "Sounds good! Let's meet at Hobbs Cafe tomorrow after classes. I'm looking forward to brainstorming together and making this event impactful!"
+    ],
+    [
+      "Eddy Lin",
+      "Great! I\u2019ll bring my notes and some ideas for the composition. It\u2019ll be exciting to see how we can blend art, music, and meaningful discussions. See you tomorrow!"
+    ],
+    [
+      "Klaus Mueller",
+      "I can't wait to see what you come up with for the composition! Also, let me know if there's anything specific you want me to look into regarding local artists or community leaders before our meeting. We can make this event really special!"
+    ],
+    [
+      "Eddy Lin",
+      "Thanks, Klaus! I appreciate your offer to look into local artists. I\u2019ll also think of a few specific themes for my composition that tie into the discussions we want to have at the event. See you tomorrow at Hobbs Cafe!"
+    ],
+    [
+      "Klaus Mueller",
+      "Sounds like a plan, Eddy! I\u2019ll make sure to gather some information on local artists and community leaders tonight. I\u2019m excited about how everything is shaping up for the party. See you tomorrow!"
+    ],
+    [
+      "Eddy Lin",
+      "Thanks again for your help, Klaus! I think we\u2019re onto something really special here. By the way, do you have any thoughts on how we can get the community more involved leading up to the event? Maybe a social media campaign or something?"
+    ],
+    [
+      "Klaus Mueller",
+      "That's a great idea, Eddy! A social media campaign could really help generate excitement and encourage community involvement. We could create a hashtag for the event and share sneak peeks of the artists and the discussions we plan to have. Maybe we could even have a contest where people can share their own stories or artwork related to gentrification. What do you think?"
+    ],
+    [
+      "Eddy Lin",
+      "I love the idea of a contest! It would really encourage people to engage with the theme and share their own experiences. Let's brainstorm some details during our meeting tomorrow. I think building a strong online presence will definitely help get more people involved. I'm looking forward to seeing what you find out about local artists too!"
+    ],
+    [
+      "Klaus Mueller",
+      "Absolutely! I'll look into potential local artists and community leaders tonight and share my findings tomorrow. This event has the potential to be really impactful! Let\u2019s make sure we touch base about everything during our meeting. See you at Hobbs Cafe!"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Mei Lin": 236,
+    "John Lin": 758,
+    "Carlos Gomez": -1246,
+    "Isabella Rodriguez": 494,
+    "Sam Moore": -814,
+    "Giorgio Rossi": 386,
+    "Ayesha Khan": -442,
+    "Francisco Lopez": -322,
+    "Jennifer Moore": -76,
+    "Jane Moreno": 44,
+    "Klaus Mueller": 800
+  },
+  "chatting_end_time": "February 13, 2023, 16:37:00",
+  "act_path_set": true,
+  "planned_path": []
+}

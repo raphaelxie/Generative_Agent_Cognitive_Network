@@ -1,0 +1,348 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 13:24:50",
+  "curr_tile": [
+    65,
+    47
+  ],
+  "daily_plan_req": "",
+  "name": "Jennifer Moore",
+  "first_name": "Jennifer",
+  "last_name": "Moore",
+  "age": 68,
+  "innate": "wise, experienced, warm",
+  "learned": "Jennifer Moore is a watercolor painter who has been painting for over fifty years. She is wise and experienced, and her work is full of warmth.",
+  "currently": "Jennifer Moore lives with her husband of 40 years, Sam Moore, and is preparing for an exhibition of her work. She is also mentoring younger artists to help them find their own creative voice.",
+  "lifestyle": "Jennifer Moore goes to bed around 9pm, awakes up around 5am, eats dinner around 5pm.",
+  "living_area": "the Ville:Moore family's house:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 49,
+  "importance_ele_n": 71,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 5:00 am",
+    "have a light breakfast around 6:00 am",
+    "work on her watercolor paintings for her upcoming exhibition from 7:00 am to 10:00 am",
+    "take a short break and enjoy a cup of tea from 10:00 am to 10:30 am",
+    "hold a mentoring session with younger artists via video call from 10:30 am to 12:00 pm",
+    "have a healthy lunch around 12:00 pm",
+    "spend time working on more paintings from 1:00 pm to 3:00 pm",
+    "take an afternoon walk for inspiration from 3:00 pm to 4:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      300
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "having a light breakfast",
+      60
+    ],
+    [
+      "working on her watercolor paintings for her upcoming exhibition",
+      60
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (on the way to continuing to work on her watercolor paintings for her upcoming exhibition) (continuing to work on her watercolor paintings for her upcoming exhibition)",
+      120
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (conversing about Jennifer and Sam discussing her art exhibition, his mayoral campaign, and planning to have breakfast together while brainstorming ideas.)",
+      16
+    ],
+    [
+      "taking a short break and enjoying a cup of tea",
+      60
+    ],
+    [
+      "holding a mentoring session with younger artists via video call (setting up her workspace for the video call)",
+      10
+    ],
+    [
+      "holding a mentoring session with younger artists via video call (checking her video and audio settings to ensure everything is working properly)",
+      5
+    ],
+    [
+      "holding a mentoring session with younger artists via video call (welcoming the younger artists as they join the video call)",
+      5
+    ],
+    [
+      "holding a mentoring session with younger artists via video call (introducing herself and sharing her background in watercolor painting)",
+      5
+    ],
+    [
+      "holding a mentoring session with younger artists via video call (asking each artist to introduce themselves and share their current projects)",
+      10
+    ],
+    [
+      "holding a mentoring session with younger artists via video call (providing feedback on the artists' projects and offering constructive criticism)",
+      15
+    ],
+    [
+      "holding a mentoring session with younger artists via video call (discussing techniques and tips for watercolor painting with the artists)",
+      10
+    ],
+    [
+      "having a healthy lunch (preparing the ingredients for her lunch)",
+      15
+    ],
+    [
+      "having a healthy lunch (on the way to chopping vegetables for her salad)",
+      0
+    ],
+    [
+      "having a healthy lunch (conversing about Sam and Jennifer discussing plans for a Valentine's Day party and an art exhibition, focusing on incorporating Jennifer's watercolor designs, quotes, live music, and interactive activities to create a memorable celebration.)",
+      20
+    ],
+    [
+      "having a healthy lunch (on the way to cooking a piece of grilled chicken)",
+      0
+    ],
+    [
+      "having a healthy lunch (conversing about Francisco Lopez and Jennifer Moore discussing plans for a Valentine's Day party and collaboration on an animation project.)",
+      11
+    ],
+    [
+      "having a healthy lunch (mixing the salad dressing)",
+      5
+    ],
+    [
+      "having a healthy lunch (assembling the salad with the chopped vegetables and grilled chicken)",
+      10
+    ],
+    [
+      "having a healthy lunch (on the way to setting the table for lunch)",
+      0
+    ],
+    [
+      "having a healthy lunch (conversing about Jennifer Moore planning her Valentine's Day party and art exhibition while Carmen Ortiz offers support, ideas, and potential musician contacts.)",
+      15
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (setting up her painting area)",
+      10
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (selecting the colors she wants to use for her painting)",
+      10
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (sketching the outline of her painting on the canvas)",
+      15
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (mixing the paint to achieve the desired shades)",
+      10
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (applying the first layer of paint to the canvas)",
+      20
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (allowing the first layer to dry while she cleans her brushes)",
+      10
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (adding details to the painting with a smaller brush)",
+      20
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (stepping back to assess her work and make adjustments)",
+      10
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (adding final touches to enhance the painting)",
+      10
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (cleaning up her painting area and putting away supplies)",
+      5
+    ],
+    [
+      "taking an afternoon walk for inspiration",
+      60
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition",
+      60
+    ],
+    [
+      "having dinner with her husband, Sam",
+      60
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition",
+      300
+    ],
+    [
+      "preparing for bed and reflecting on her day",
+      60
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      300
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "having a light breakfast",
+      60
+    ],
+    [
+      "working on her watercolor paintings for her upcoming exhibition",
+      60
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition",
+      120
+    ],
+    [
+      "taking a short break and enjoying a cup of tea",
+      60
+    ],
+    [
+      "holding a mentoring session with younger artists via video call",
+      60
+    ],
+    [
+      "having a healthy lunch",
+      60
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition",
+      120
+    ],
+    [
+      "taking an afternoon walk for inspiration",
+      60
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition",
+      60
+    ],
+    [
+      "having dinner with her husband, Sam",
+      60
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition",
+      300
+    ],
+    [
+      "preparing for bed and reflecting on her day",
+      60
+    ]
+  ],
+  "act_address": "<persona> Carmen Ortiz",
+  "act_start_time": "February 13, 2023, 13:12:40",
+  "act_duration": 15,
+  "act_description": "conversing about Jennifer Moore planning her Valentine's Day party and art exhibition while Carmen Ortiz offers support, ideas, and potential musician contacts.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Jennifer Moore",
+    "chat with",
+    "Carmen Ortiz"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Carmen Ortiz",
+  "chat": [
+    [
+      "Carmen Ortiz",
+      "Hey Jennifer, that salad looks delicious! How's your day going so far?"
+    ],
+    [
+      "Jennifer Moore",
+      "Thanks, Carmen! It's really good. I'm just taking a break from preparing for my exhibition and planning the Valentine's Day party. How about you? How's everything going with the store?"
+    ],
+    [
+      "Carmen Ortiz",
+      "It's going well! We're busy today with a lot of customers coming in. I'm excited to hear more about your exhibition and the Valentine's Day party! Do you have any fun ideas for it?"
+    ],
+    [
+      "Jennifer Moore",
+      "I'm glad to hear the store is busy! For the Valentine's Day party, I'm thinking of incorporating my watercolor designs into the decorations, along with some quotes about art and love. I'd love to have live music and maybe some interactive activities too. What do you think? Any suggestions?"
+    ],
+    [
+      "Carmen Ortiz",
+      "That sounds fantastic! I love the idea of using your watercolor designs for the decorations. Live music would definitely set a great mood. Maybe you could have a small art corner where guests can try their hand at painting or something similar? It could be a fun activity for everyone!"
+    ],
+    [
+      "Jennifer Moore",
+      "I love that idea, Carmen! An art corner where guests can try painting sounds like a great way to engage everyone and make the event memorable. I'll definitely consider that. Do you have any recommendations for local musicians who might be interested in performing?"
+    ],
+    [
+      "Carmen Ortiz",
+      "I know a couple of local musicians who might be perfect for your event! I can send you their contact information later. Are you looking for any specific genre of music?"
+    ],
+    [
+      "Jennifer Moore",
+      "That would be great, thank you! I'm open to different genres, but I think something upbeat and joyful would really fit the theme of the party. I appreciate your help with this, Carmen!"
+    ],
+    [
+      "Carmen Ortiz",
+      "I'm glad you liked the idea! I'll make sure to send you that contact information later. Also, if you need any supplies for the party, feel free to let me know! I can help you with that too."
+    ],
+    [
+      "Jennifer Moore",
+      "Thank you so much, Carmen! I really appreciate your support. I'll definitely reach out if I need any supplies. I'm looking forward to seeing those musician contacts you mentioned! Do you have any other ideas for the party or suggestions on how to make it more engaging?"
+    ],
+    [
+      "Carmen Ortiz",
+      "I was also thinking you could have a little photo booth area with fun props related to Valentine's Day and art. It would be a great way for guests to capture memories from the event! What do you think?"
+    ],
+    [
+      "Jennifer Moore",
+      "That's a wonderful idea, Carmen! A photo booth with fun props would definitely add a fun element to the party and create lasting memories for everyone. I\u2019ll look into that as well. Thank you for all your great suggestions! I'm feeling even more excited about the event now. Let\u2019s keep in touch as I finalize the plans!"
+    ],
+    [
+      "Carmen Ortiz",
+      "I'm so glad to hear you're feeling excited about the event, Jennifer! It sounds like it's going to be amazing. Just let me know if you need any more ideas or help as you finalize everything. I'm here for you!"
+    ],
+    [
+      "Jennifer Moore",
+      "I will definitely keep you updated as I finalize everything! I really appreciate your support, Carmen. It means a lot to me. Let me know if you have any other ideas as well!"
+    ],
+    [
+      "Carmen Ortiz",
+      "Absolutely, Jennifer! I\u2019ll keep brainstorming and if anything else comes to mind, I\u2019ll let you know. I can\u2019t wait to see how everything comes together for your party! Just remember, I'm always here if you need any help."
+    ],
+    [
+      "Jennifer Moore",
+      "Thank you again, Carmen! I really appreciate all your ideas and support. I\u2019ll be in touch soon with updates, and I hope to see you at the party!"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Sam Moore": 524,
+    "Francisco Lopez": 608,
+    "Carmen Ortiz": 800
+  },
+  "chatting_end_time": "February 13, 2023, 13:28:00",
+  "act_path_set": true,
+  "planned_path": []
+}

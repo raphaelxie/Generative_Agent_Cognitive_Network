@@ -1,0 +1,334 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_tile": [
+    33,
+    46
+  ],
+  "daily_plan_req": "",
+  "name": "Abigail Chen",
+  "first_name": "Abigail",
+  "last_name": "Chen",
+  "age": 25,
+  "innate": "open-minded, curious, determined",
+  "learned": "Abigail Chen is a digital artist and animator who loves to explore how technology can be used to express ideas. She is always looking for new ways to combine art and technology.",
+  "currently": "Abigail Chen is working on an animation project for a client. She is also experimenting with different tools and techniques to create interactive art.",
+  "lifestyle": "Abigail Chen goes to bed around midnight, awakes up around 8am, eats dinner around 6pm.",
+  "living_area": "the Ville:artist's co-living space:Abigail Chen's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 178,
+  "importance_ele_n": 27,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "work on the animation project from 9:00 am to 12:00 pm",
+    "take a lunch break and experiment with an interactive art tool from 12:00 pm to 1:30 pm",
+    "continue working on the animation project from 1:30 pm to 4:00 pm",
+    "take a brief break to clear her mind and take a walk from 4:00 pm to 4:30 pm",
+    "return to finish up the day\u2019s tasks on the project from 4:30 pm to 6:00 pm",
+    "have dinner at 6:00 pm",
+    "relax and unwind by watching a show or reading from 7:00 pm to 8:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "working on the animation project (1) Abigail is setting up her workspace and organizing her tools)",
+      5
+    ],
+    [
+      "working on the animation project (reviewing the project brief and client requirements)",
+      10
+    ],
+    [
+      "working on the animation project (sketching out initial concepts for the animation)",
+      15
+    ],
+    [
+      "working on the animation project (selecting the color palette and style for the animation)",
+      10
+    ],
+    [
+      "working on the animation project (on the way to creating the storyboard for the animation)",
+      0
+    ],
+    [
+      "working on the animation project (conversing about Abigail Chen and Francisco Lopez discussing their creative projects, with Francisco sharing his web series about life in a co-living space and Abigail talking about her animation project, leading to plans for a collaborative coffee meeting with Latoya to brainstorm ideas.)",
+      12
+    ],
+    [
+      "working on the animation project (on the way to preparing to save her work and organize files)",
+      0
+    ],
+    [
+      "working on the animation project (conversing about Abigail Chen and Adam Smith discussing her animation project and how to incorporate local issues, particularly Maria Lopez's initiatives for small businesses, into their collaboration.)",
+      22
+    ],
+    [
+      "continuing to work on the animation project (continuing to refine the animation storyboard)",
+      20
+    ],
+    [
+      "continuing to work on the animation project (on the way to creating character designs for the animation)",
+      0
+    ],
+    [
+      "continuing to work on the animation project (conversing about Abigail Chen and Latoya Williams discussing Abigail's animation project incorporating local issues and Maria Lopez's initiatives for small businesses, as well as brainstorming ideas and sharing photography.)",
+      17
+    ],
+    [
+      "continuing to work on the animation project (animating the first scene of the project)",
+      30
+    ],
+    [
+      "continuing to work on the animation project (reviewing the animation for any inconsistencies)",
+      20
+    ],
+    [
+      "continuing to work on the animation project (making adjustments based on her review)",
+      15
+    ],
+    [
+      "continuing to work on the animation project (saving her work and preparing to take a break)",
+      5
+    ],
+    [
+      "taking a lunch break and experimenting with an interactive art tool",
+      43
+    ],
+    [
+      "continuing to take a lunch break and experimenting with an interactive art tool (on the way to taking a break from her animation project)",
+      0
+    ],
+    [
+      "continuing to take a lunch break and experimenting with an interactive art tool (conversing about Abigail Chen and Francisco Lopez discussing their upcoming coffee meeting with Latoya to brainstorm ideas for their animation project and web series, focusing on incorporating local business stories and visual representation techniques.)",
+      19
+    ],
+    [
+      "continuing to take a lunch break and experimenting with an interactive art tool (on the way to preparing her lunch)",
+      0
+    ],
+    [
+      "continuing to take a lunch break and experimenting with an interactive art tool (conversing about Rajiv Patel and Abigail Chen discussing their creative projects, with Rajiv focusing on a cocktail inspired by the Fibonacci sequence and Abigail incorporating interactive elements into her animation project related to local businesses.)",
+      15
+    ],
+    [
+      "continuing to take a lunch break and experimenting with an interactive art tool (eating her lunch)",
+      15
+    ],
+    [
+      "continuing to take a lunch break and experimenting with an interactive art tool (on the way to cleaning up after lunch)",
+      0
+    ],
+    [
+      "continuing to take a lunch break and experimenting with an interactive art tool (conversing about Latoya Williams and Abigail Chen discussing Abigail's interactive art tool for her animation project, featuring local businesses, storytelling techniques, and brainstorming ideas for their collaboration.)",
+      16
+    ],
+    [
+      "continuing to take a lunch break and experimenting with an interactive art tool (setting up her workspace for experimenting with the interactive art tool)",
+      20
+    ],
+    [
+      "continuing to work on the animation project (on the way to continuing to refine the animation storyboard)",
+      0
+    ],
+    [
+      "continuing to work on the animation project (conversing about Abigail Chen and Hailey Johnson discussing their creative projects, specifically Abigail's interactive art tool that incorporates local stories and businesses, and Hailey's novel about artists in a co-living space, while brainstorming collaboration ideas for a promotional campaign featuring local artists and businesses.)",
+      19
+    ],
+    [
+      "continuing to work on the animation project (on the way to creating character designs for the animation)",
+      0
+    ],
+    [
+      "continuing to work on the animation project (conversing about Jennifer Moore and Abigail Chen discussing their upcoming collaborative mural and animation project that highlights local businesses and community stories, while incorporating themes of art, love, resilience, and creativity for an exhibition and a Valentine's Day party.)",
+      22
+    ],
+    [
+      "continuing to work on the animation project (animating the first scene of the project)",
+      30
+    ],
+    [
+      "continuing to work on the animation project (on the way to reviewing the animation for any inconsistencies)",
+      0
+    ],
+    [
+      "continuing to work on the animation project (conversing about Abigail Chen and Francisco Lopez discussing how to incorporate local business stories into their projects, including potential interviews with business owners, visual styles for storytelling, specific businesses to feature, and interview questions for artisans.)",
+      18
+    ],
+    [
+      "continuing to work on the animation project (making adjustments to the animation based on her review)",
+      16
+    ],
+    [
+      "taking a brief break to clear her mind and take a walk",
+      41
+    ],
+    [
+      "finishing up the day's tasks on the animation project (reviewing the animation project requirements)",
+      10
+    ],
+    [
+      "finishing up the day's tasks on the animation project (checking the animation timeline for any missing frames)",
+      10
+    ],
+    [
+      "finishing up the day's tasks on the animation project (making adjustments to the animation based on client feedback)",
+      15
+    ],
+    [
+      "finishing up the day's tasks on the animation project (adding sound effects to the animation)",
+      10
+    ],
+    [
+      "finishing up the day's tasks on the animation project (reviewing the sound effects to ensure they fit the animation)",
+      5
+    ],
+    [
+      "finishing up the day's tasks on the animation project (exporting the animation project for final review)",
+      10
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing and unwinding by watching a show or reading",
+      60
+    ],
+    [
+      "watching a show or reading",
+      60
+    ],
+    [
+      "continuing to relax and unwind by watching a show or reading",
+      120
+    ],
+    [
+      "preparing for bed and winding down for the night",
+      60
+    ],
+    [
+      "sleeping",
+      3
+    ],
+    [
+      "sleeping",
+      13
+    ],
+    [
+      "sleeping",
+      1
+    ],
+    [
+      "sleeping",
+      8
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "working on the animation project",
+      60
+    ],
+    [
+      "continuing to work on the animation project",
+      120
+    ],
+    [
+      "taking a lunch break and experimenting with an interactive art tool",
+      60
+    ],
+    [
+      "continuing to take a lunch break and experimenting with an interactive art tool",
+      60
+    ],
+    [
+      "continuing to work on the animation project",
+      120
+    ],
+    [
+      "taking a brief break to clear her mind and take a walk",
+      60
+    ],
+    [
+      "finishing up the day's tasks on the animation project",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing and unwinding by watching a show or reading",
+      60
+    ],
+    [
+      "watching a show or reading",
+      60
+    ],
+    [
+      "continuing to relax and unwind by watching a show or reading",
+      120
+    ],
+    [
+      "preparing for bed and winding down for the night",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Johnson Park:park:park garden",
+  "act_start_time": "February 13, 2023, 15:59:00",
+  "act_duration": 41,
+  "act_description": "taking a brief break to clear her mind and take a walk",
+  "act_pronunciatio": "\ud83d\udeb6\u200d\u2640",
+  "act_event": [
+    "Abigail Chen",
+    "take",
+    "brief break"
+  ],
+  "act_obj_description": "peacefully blooming with vibrant flowers and lush greenery",
+  "act_obj_pronunciatio": "\ud83c\udf38\ud83c\udf3f",
+  "act_obj_event": [
+    "park garden",
+    "bloom",
+    "vibrant flowers and lush greenery"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Francisco Lopez": 398,
+    "Adam Smith": -1414,
+    "Latoya Williams": -172,
+    "Rajiv Patel": -388,
+    "Hailey Johnson": 38,
+    "Jennifer Moore": 224
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

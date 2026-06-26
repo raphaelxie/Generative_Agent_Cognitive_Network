@@ -43,7 +43,7 @@ import sys
 from collections import defaultdict
 
 _ORIG_CWD = os.getcwd()
-from ground_truth_log import agent_betweenness
+from ground_truth_log import agent_betweenness, agent_betweenness_for_field
 os.chdir(_ORIG_CWD)
 
 try:
@@ -190,6 +190,14 @@ def build_interaction_truth_labels(edge_rows):
     }
 
 
+def build_interaction_recent_truth_labels(edge_rows):
+    """Return {frozenset({a, b}): 0/1} using windowed recent interaction labels."""
+    return {
+        frozenset({r["node_a"], r["node_b"]}): int(r.get("tie_recent", 0))
+        for r in edge_rows
+    }
+
+
 def build_background_truth_labels(background_rows):
     """Return {frozenset({a, b}): 0/1} using background social-tie labels."""
     return {
@@ -324,6 +332,15 @@ def compute_micro_tie_confusion_by_truth(survey_rows, edge_rows,
             "observed_interaction",
             interaction_truth_file,
         ))
+
+        recent_labels = build_interaction_recent_truth_labels(edge_rows)
+        recent_records = compute_micro_tie_confusion_for_truth(
+            survey_rows, recent_labels, wave_id, step)
+        records.extend(add_truth_metadata(
+            recent_records,
+            "observed_interaction_recent",
+            interaction_truth_file,
+        ))
     else:
         interaction_labels = {}
 
@@ -365,6 +382,8 @@ def compute_micro_tie_by_construct(survey_rows, edge_rows, background_rows,
     truth_layers = {}
     if edge_rows:
         truth_layers["observed_interaction"] = build_interaction_truth_labels(edge_rows)
+        truth_layers["observed_interaction_recent"] = (
+            build_interaction_recent_truth_labels(edge_rows))
     if background_rows:
         truth_layers["background_social_tie"] = build_background_truth_labels(background_rows)
     if "observed_interaction" in truth_layers and "background_social_tie" in truth_layers:
@@ -399,18 +418,21 @@ def compute_micro_tie_by_construct(survey_rows, edge_rows, background_rows,
     return records
 
 
-def observed_betweenness_ranking(edge_rows):
-    """Return observed-interaction cumulative betweenness ranking."""
+def observed_betweenness_ranking(edge_rows, count_field="count_cumulative"):
+    """Return observed-interaction betweenness ranking for the given count field."""
     if not edge_rows:
         return [], {}
-    bc = agent_betweenness(edge_rows)
+    bc = agent_betweenness_for_field(edge_rows, count_field)
     ordered = sorted(bc.keys(), key=lambda n: (-bc[n], n))
     return ordered, bc
 
 
-def compute_bridge_rank_metrics(survey_rows, edge_rows, wave_id, step):
-    """Score bridge_rank rows against cumulative observed betweenness rank."""
-    actual_order, bc = observed_betweenness_ranking(edge_rows)
+def compute_bridge_rank_metrics(survey_rows, edge_rows, wave_id, step,
+                                count_field="count_cumulative",
+                                truth_definition=(
+                                    "observed_interaction_cumulative_betweenness_rank")):
+    """Score bridge_rank rows against observed betweenness rank."""
+    actual_order, bc = observed_betweenness_ranking(edge_rows, count_field)
     if not actual_order:
         return []
     actual_rank = {name: i + 1 for i, name in enumerate(actual_order)}
@@ -449,7 +471,7 @@ def compute_bridge_rank_metrics(survey_rows, edge_rows, wave_id, step):
         rec = {
             "wave_id": wave_id,
             "step": step,
-            "truth_definition": "observed_interaction_cumulative_betweenness_rank",
+            "truth_definition": truth_definition,
             "respondent": respondent,
             "actual_top_broker": actual_top,
             "actual_top_betweenness": actual_top_bc,
@@ -477,7 +499,7 @@ def compute_bridge_rank_metrics(survey_rows, edge_rows, wave_id, step):
         overall = {
             "wave_id": wave_id,
             "step": step,
-            "truth_definition": "observed_interaction_cumulative_betweenness_rank",
+            "truth_definition": truth_definition,
             "respondent": "__overall__",
             "actual_top_broker": actual_top,
             "actual_top_betweenness": actual_top_bc,
@@ -506,10 +528,12 @@ def _fmt_ratio(v):
 
 # ── ground-truth community detection (Louvain via networkx) ───────────
 
-def compute_gt_communities(edge_rows):
-    """Louvain community detection on the cumulative observed-interaction graph.
+def compute_gt_communities(edge_rows, tie_field="tie_cumulative",
+                           count_field="count_cumulative",
+                           truth_definition="observed_interaction_louvain_communities"):
+    """Louvain community detection on the observed-interaction graph.
 
-    Uses `tie_cumulative == 1` edges weighted by `count_cumulative`.
+    Uses edges where tie_field == 1, weighted by count_field.
     Returns (community_map, modularity, n_communities) where
     community_map = {agent_name: community_id (1-indexed)}.
     Returns ({}, None, 0) when networkx is unavailable or graph is empty.
@@ -521,9 +545,9 @@ def compute_gt_communities(edge_rows):
     for r in edge_rows:
         all_nodes.add(r["node_a"])
         all_nodes.add(r["node_b"])
-        if int(r.get("tie_cumulative", 0)) == 1:
+        if int(r.get(tie_field, 0)) == 1:
             G.add_edge(r["node_a"], r["node_b"],
-                       weight=max(1, int(r.get("count_cumulative", 1))))
+                       weight=max(1, int(r.get(count_field, 1))))
     G.add_nodes_from(all_nodes)
     if G.number_of_nodes() == 0:
         return {}, None, 0
@@ -541,7 +565,9 @@ def compute_gt_communities(edge_rows):
 
 
 def write_gt_communities_csv(community_map, modularity, n_communities,
-                              step, gt_dir):
+                              step, gt_dir,
+                              truth_definition=(
+                                  "observed_interaction_louvain_communities")):
     """Write ground_truth_communities_{step}.csv and a sidecar meta JSON."""
     if not community_map:
         return None
@@ -559,7 +585,7 @@ def write_gt_communities_csv(community_map, modularity, n_communities,
             "step":           step,
             "n_communities":  n_communities,
             "modularity":     modularity,
-            "truth_definition": "observed_interaction_louvain_communities",
+            "truth_definition": truth_definition,
         }, f, indent=2)
     return csv_path
 
@@ -642,7 +668,11 @@ COMMUNITY_GROUP_METRICS_COLUMNS = [
 ]
 
 
-def compute_community_group_metrics(survey_rows, edge_rows, wave_id, step):
+def compute_community_group_metrics(survey_rows, edge_rows, wave_id, step,
+                                    tie_field="tie_cumulative",
+                                    count_field="count_cumulative",
+                                    truth_definition=(
+                                        "observed_interaction_louvain_communities")):
     """Score community_group rows against Louvain ground-truth communities.
 
     Returns a list of per-respondent dicts plus one __overall__ row.
@@ -650,7 +680,9 @@ def compute_community_group_metrics(survey_rows, edge_rows, wave_id, step):
     """
     if not _HAS_NX or not edge_rows:
         return []
-    community_map, modularity, n_actual = compute_gt_communities(edge_rows)
+    community_map, modularity, n_actual = compute_gt_communities(
+        edge_rows, tie_field=tie_field, count_field=count_field,
+        truth_definition=truth_definition)
     if not community_map:
         return []
 
@@ -700,7 +732,7 @@ def compute_community_group_metrics(survey_rows, edge_rows, wave_id, step):
         rec = {
             "wave_id":          wave_id,
             "step":             step,
-            "truth_definition": "observed_interaction_louvain_communities",
+            "truth_definition": truth_definition,
             "respondent":       respondent,
             "n_perceived_groups": n_perceived,
             "n_actual_groups":  n_actual,
@@ -723,7 +755,7 @@ def compute_community_group_metrics(survey_rows, edge_rows, wave_id, step):
         records.append({
             "wave_id":          wave_id,
             "step":             step,
-            "truth_definition": "observed_interaction_louvain_communities",
+            "truth_definition": truth_definition,
             "respondent":       "__overall__",
             "n_perceived_groups": _mean_or_none(summary_n_perceived),
             "n_actual_groups":  n_actual,
@@ -1536,6 +1568,13 @@ def main():
         if bridge_records:
             all_bridge_rank_records.extend(bridge_records)
 
+        bridge_recent = compute_bridge_rank_metrics(
+            survey_rows, edge_rows, wave_id, step,
+            count_field="count_recent",
+            truth_definition="observed_interaction_recent_betweenness_rank")
+        if bridge_recent:
+            all_bridge_rank_records.extend(bridge_recent)
+
         # Community group perception metrics + ground-truth CSV
         if edge_rows and _HAS_NX:
             gt_dir = os.path.join(survey_dir, "ground_truth")
@@ -1549,6 +1588,14 @@ def main():
             survey_rows, edge_rows, wave_id, step)
         if community_records:
             all_community_group_records.extend(community_records)
+
+        community_recent = compute_community_group_metrics(
+            survey_rows, edge_rows, wave_id, step,
+            tie_field="tie_recent",
+            count_field="count_recent",
+            truth_definition="observed_interaction_recent_louvain_communities")
+        if community_recent:
+            all_community_group_records.extend(community_recent)
 
         loaded.append((wave_id, survey_rows, edge_rows))
 

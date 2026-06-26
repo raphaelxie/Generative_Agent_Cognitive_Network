@@ -1,0 +1,388 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_tile": [
+    118,
+    30
+  ],
+  "daily_plan_req": "Ayesha Khan goes to the library at Oak Hill College to take classes from 10am to 2pm, and then spends her days studying at the library.",
+  "name": "Ayesha Khan",
+  "first_name": "Ayesha",
+  "last_name": "Khan",
+  "age": 20,
+  "innate": "curious, determined, independent",
+  "learned": "Ayesha Khan is a college student who loves to explore literature. She is curious and determined to understand the nuances of each work.",
+  "currently": "Ayesha Khan is researching for her senior thesis on the use of language in Shakespeare\u2019s plays. She is also taking classes to learn more about writing.",
+  "lifestyle": "Ayesha Khan goes to bed around 10pm, awakes up around 6am, eats dinner around 5pm.",
+  "living_area": "the Ville:Dorm for Oak Hill College:Ayesha Khan's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 82,
+  "importance_ele_n": 54,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "have breakfast at 8:30 am",
+    "attend classes at the library from 10:00 am to 2:00 pm",
+    "take a lunch break at 12:00 pm",
+    "study for her thesis at the library from 2:30 pm to 5:00 pm",
+    "have dinner at 5:00 pm",
+    "continue studying or writing on her thesis from 5:30 pm to 8:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "completing her morning routine",
+      60
+    ],
+    [
+      "having breakfast (preparing her breakfast)",
+      15
+    ],
+    [
+      "having breakfast (on the way to cooking her breakfast)",
+      0
+    ],
+    [
+      "having breakfast (conversing about Klaus Mueller and Ayesha Khan discussing gentrification research and its intersection with literature, including recommendations for books and plans to meet later in the week.)",
+      15
+    ],
+    [
+      "having breakfast (setting the table for breakfast)",
+      5
+    ],
+    [
+      "having breakfast (sitting down to eat her breakfast)",
+      5
+    ],
+    [
+      "having breakfast (enjoying her breakfast)",
+      15
+    ],
+    [
+      "having breakfast (cleaning up the table after breakfast)",
+      5
+    ],
+    [
+      "attending classes at the library (attending her literature class) (attending her literature class) (attending her literature class) (attending her literature class) (attending her literature class) (attending her literature class)",
+      60
+    ],
+    [
+      "studying for her thesis at the library (on the way to 1) Ayesha is gathering her research materials and notes)",
+      0
+    ],
+    [
+      "studying for her thesis at the library (conversing about Ayesha Khan and Mei Lin discussing the planning of a Valentine\u2019s Day party, focusing on using the Fibonacci sequence for decorations and selecting quotes about nature and creativity.)",
+      15
+    ],
+    [
+      "studying for her thesis at the library (reviewing her thesis outline)",
+      10
+    ],
+    [
+      "studying for her thesis at the library (reading selected passages from Shakespeare\u2019s plays)",
+      15
+    ],
+    [
+      "studying for her thesis at the library (on the way to taking notes on language use in the passages)",
+      0
+    ],
+    [
+      "studying for her thesis at the library (conversing about Klaus Mueller and Ayesha Khan discussing their research on gentrification through literature, exploring connections between Shakespeare's works and contemporary texts, and planning a meeting to analyze various literary pieces related to their thesis.)",
+      21
+    ],
+    [
+      "studying for her thesis at the library (summarizing her findings from the notes)",
+      5
+    ],
+    [
+      "taking a lunch break (taking a moment to relax and step away from her studies)",
+      5
+    ],
+    [
+      "taking a lunch break (deciding what to eat for lunch)",
+      5
+    ],
+    [
+      "taking a lunch break (gathering her belongings to head to the cafeteria)",
+      5
+    ],
+    [
+      "taking a lunch break (walking to the cafeteria)",
+      5
+    ],
+    [
+      "taking a lunch break (waiting in line to order her food)",
+      5
+    ],
+    [
+      "taking a lunch break (ordering her lunch)",
+      5
+    ],
+    [
+      "taking a lunch break (picking up her food and drink)",
+      5
+    ],
+    [
+      "taking a lunch break (on the way to finding a table to sit at)",
+      0
+    ],
+    [
+      "taking a lunch break (conversing about Ayesha Khan and Eddy Lin discussing Ayesha's Valentine's Day party planning, incorporating the Fibonacci sequence in decorations and interactive art, while Eddy provides creative ideas and quotes related to nature and inspiration.)",
+      17
+    ],
+    [
+      "taking a lunch break (unpacking her lunch and setting it up on the table)",
+      5
+    ],
+    [
+      "taking a lunch break (on the way to enjoying her lunch while scrolling through her phone)",
+      0
+    ],
+    [
+      "taking a lunch break (conversing about Ayesha Khan and Tom Moreno discussing Ayesha's party planning, incorporating the Fibonacci sequence into decorations and an art station, while sharing ideas and quotes related to nature and creativity.)",
+      16
+    ],
+    [
+      "studying for her thesis at the library (reading relevant literature on Shakespeare\u2019s plays)",
+      30
+    ],
+    [
+      "studying for her thesis at the library (taking notes on key themes and language use)",
+      30
+    ],
+    [
+      "studying for her thesis at the library (on the way to organizing her notes into categories)",
+      0
+    ],
+    [
+      "studying for her thesis at the library (conversing about Ayesha Khan and Klaus Mueller discussing their research on gentrification, exploring connections between literature, particularly Shakespeare's plays and contemporary texts, and planning a meeting to brainstorm ideas and share resources.)",
+      20
+    ],
+    [
+      "studying for her thesis at the library (reviewing her thesis outline)",
+      30
+    ],
+    [
+      "studying for her thesis at the library (drafting sections of her thesis)",
+      30
+    ],
+    [
+      "studying for her thesis at the library (discussing her ideas with a study partner)",
+      30
+    ],
+    [
+      "studying for her thesis at the library (on the way to revising her draft based on feedback)",
+      0
+    ],
+    [
+      "studying for her thesis at the library (conversing about Ayesha Khan and Mei Lin discussing their research for Klaus\u2019s paper and planning a Valentine's Day party with nature-themed quotes, decorations, and interactive activities.)",
+      20
+    ],
+    [
+      "having dinner (preparing her dinner)",
+      15
+    ],
+    [
+      "having dinner (setting the table)",
+      5
+    ],
+    [
+      "having dinner (serving her dinner)",
+      5
+    ],
+    [
+      "having dinner (sitting down to eat)",
+      5
+    ],
+    [
+      "having dinner (enjoying her meal)",
+      20
+    ],
+    [
+      "having dinner (finishing her meal)",
+      5
+    ],
+    [
+      "having dinner (clearing the table)",
+      5
+    ],
+    [
+      "continuing to study for her thesis at the library",
+      60
+    ],
+    [
+      "continuing to study or write on her thesis at the library",
+      120
+    ],
+    [
+      "relaxing and unwinding after a long day of studying",
+      60
+    ],
+    [
+      "relaxing and preparing for bed",
+      120
+    ],
+    [
+      "sleeping",
+      10
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "completing her morning routine",
+      60
+    ],
+    [
+      "having breakfast",
+      60
+    ],
+    [
+      "attending classes at the library",
+      60
+    ],
+    [
+      "studying for her thesis at the library",
+      60
+    ],
+    [
+      "taking a lunch break",
+      60
+    ],
+    [
+      "studying for her thesis at the library",
+      240
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "continuing to study for her thesis at the library",
+      60
+    ],
+    [
+      "continuing to study or write on her thesis at the library",
+      120
+    ],
+    [
+      "relaxing and unwinding after a long day of studying",
+      60
+    ],
+    [
+      "relaxing and preparing for bed",
+      120
+    ]
+  ],
+  "act_address": "<persona> Mei Lin",
+  "act_start_time": "February 13, 2023, 16:04:30",
+  "act_duration": 20,
+  "act_description": "conversing about Ayesha Khan and Mei Lin discussing their research for Klaus\u2019s paper and planning a Valentine's Day party with nature-themed quotes, decorations, and interactive activities.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Ayesha Khan",
+    "chat with",
+    "Mei Lin"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Mei Lin",
+  "chat": [
+    [
+      "Ayesha Khan",
+      "Hey Mei! I just wanted to check in on your research for Klaus\u2019s paper. How\u2019s it going? I'm also excited about our Valentine's Day party planning. Have you thought about any quotes or ideas for decorations yet?"
+    ],
+    [
+      "Mei Lin",
+      "Hi Ayesha! Thanks for checking in! My research is coming along, but I\u2019m still finalizing some details with Klaus. As for the Valentine's Day party, I\u2019ve been thinking about using quotes that reflect nature and creativity, perhaps something that ties in with the Fibonacci sequence. Do you have any specific ideas or favorites?"
+    ],
+    [
+      "Ayesha Khan",
+      "I love that idea! One quote that comes to mind is from Albert Einstein: 'Look deep into nature, and then you will understand everything better.' It really captures the essence of nature's beauty. Do you think we could incorporate that into our decorations?"
+    ],
+    [
+      "Mei Lin",
+      "That's a beautiful quote, Ayesha! I think it would fit perfectly with our theme. We could create some wall art featuring it, maybe using natural elements to frame it. What do you think about that approach? Also, are there any other quotes we should consider?"
+    ],
+    [
+      "Ayesha Khan",
+      "I think framing it with natural elements sounds amazing! We could also consider another quote by John Muir: 'In every walk with nature, one receives far more than he seeks.' It aligns well with the theme and could inspire creativity in our decorations. What do you think?"
+    ],
+    [
+      "Mei Lin",
+      "I love the John Muir quote as well! It really encapsulates the spirit of our theme. We could use it alongside the Einstein quote in different areas of the venue to create a cohesive look. Maybe we can even design some interactive elements around these quotes! Do you have any thoughts on that?"
+    ],
+    [
+      "Ayesha Khan",
+      "I love the idea of designing interactive elements around the quotes! We could set up a space where guests can share their own thoughts about nature and creativity, maybe even create a collaborative art piece. What do you think about that?"
+    ],
+    [
+      "Mei Lin",
+      "That sounds like a fantastic idea, Ayesha! A collaborative art piece would really engage everyone and bring our theme to life. We could provide different materials for guests to use and let their creativity flow. Should we brainstorm some specific activities we could include?"
+    ],
+    [
+      "Ayesha Khan",
+      "Absolutely! We could have a station for painting or drawing inspired by nature, and maybe another for creating small nature-themed crafts. We could even have a spot where guests can write their thoughts on sticky notes and place them on a board. What do you think about that?"
+    ],
+    [
+      "Mei Lin",
+      "Those are all wonderful ideas, Ayesha! I especially love the idea of a station for painting or drawing inspired by nature. It would be a great way to express creativity. Let's jot down a list of materials we might need for each station and maybe even think about how we can promote this collaborative aspect to our guests. Do you have any thoughts on that?"
+    ],
+    [
+      "Ayesha Khan",
+      "That sounds great! For the painting station, we could use watercolor paints, canvases, and brushes. For the craft station, maybe we could gather some natural materials like twigs, leaves, and flowers for decoration. As for promoting the collaborative aspect, we could create a fun social media post inviting guests to share their own nature-inspired creations. What do you think?"
+    ],
+    [
+      "Mei Lin",
+      "I love the idea of using natural materials for the craft station! It will really tie everything together. And promoting it on social media sounds like a fantastic way to engage our guests. We should also think about creating a hashtag for the event so that we can easily share everyone's contributions. What do you think?"
+    ],
+    [
+      "Ayesha Khan",
+      "Creating a unique hashtag is a great idea! How about something like #NatureInspiredValentine? It could really capture the essence of our theme. I\u2019m excited to see what everyone creates! Is there anything else we should discuss for the party?"
+    ],
+    [
+      "Mei Lin",
+      "I love the hashtag #NatureInspiredValentine! It's catchy and perfectly fits our theme. One more thing we might want to consider is how we'll set up the space for the event. Do you have any ideas on the layout or any other logistical details we should address?"
+    ],
+    [
+      "Ayesha Khan",
+      "That's a good point, Mei! For the layout, we could have the painting and craft stations on one side and the interactive quote wall on the other. This way, it encourages movement and interaction. I think we should also leave some space for seating where guests can relax and discuss their creations. What do you think?"
+    ],
+    [
+      "Mei Lin",
+      "I think that sounds like a great layout, Ayesha! Having a seating area for guests to relax and discuss their creations is a thoughtful touch. We should also consider how we\u2019ll decorate the space to enhance the overall atmosphere. Maybe we could incorporate some natural elements in the decor to tie everything together? What do you think?"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Klaus Mueller": 182,
+    "Mei Lin": 800,
+    "Eddy Lin": -442,
+    "Tom Moreno": -322
+  },
+  "chatting_end_time": "February 13, 2023, 16:25:00",
+  "act_path_set": true,
+  "planned_path": []
+}

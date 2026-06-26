@@ -1,0 +1,327 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_tile": [
+    118,
+    57
+  ],
+  "daily_plan_req": "Ayesha Khan goes to the library at Oak Hill College to take classes from 10am to 2pm, and then spends her days studying at the library.",
+  "name": "Ayesha Khan",
+  "first_name": "Ayesha",
+  "last_name": "Khan",
+  "age": 20,
+  "innate": "curious, determined, independent",
+  "learned": "Ayesha Khan is a college student who loves to explore literature. She is curious and determined to understand the nuances of each work.",
+  "currently": "Ayesha Khan is researching for her senior thesis on the use of language in Shakespeare\u2019s plays. She is also taking classes to learn more about writing.",
+  "lifestyle": "Ayesha Khan goes to bed around 10pm, awakes up around 6am, eats dinner around 5pm.",
+  "living_area": "the Ville:Dorm for Oak Hill College:Ayesha Khan's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 71,
+  "importance_ele_n": 55,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "have breakfast at 8:30 am",
+    "attend classes at the library from 10:00 am to 2:00 pm",
+    "take a lunch break at 12:00 pm",
+    "study for her thesis at the library from 2:30 pm to 5:00 pm",
+    "have dinner at 5:00 pm",
+    "continue studying or writing on her thesis from 5:30 pm to 8:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "completing her morning routine",
+      60
+    ],
+    [
+      "having breakfast (preparing her breakfast)",
+      15
+    ],
+    [
+      "having breakfast (on the way to cooking her breakfast)",
+      0
+    ],
+    [
+      "having breakfast (conversing about Klaus Mueller and Ayesha Khan discussing gentrification research and its intersection with literature, including recommendations for books and plans to meet later in the week.)",
+      15
+    ],
+    [
+      "having breakfast (setting the table for breakfast)",
+      5
+    ],
+    [
+      "having breakfast (sitting down to eat her breakfast)",
+      5
+    ],
+    [
+      "having breakfast (enjoying her breakfast)",
+      15
+    ],
+    [
+      "having breakfast (cleaning up the table after breakfast)",
+      5
+    ],
+    [
+      "attending classes at the library (attending her literature class) (attending her literature class) (attending her literature class) (attending her literature class) (attending her literature class) (attending her literature class)",
+      60
+    ],
+    [
+      "studying for her thesis at the library (on the way to 1) Ayesha is gathering her research materials and notes)",
+      0
+    ],
+    [
+      "studying for her thesis at the library (conversing about Ayesha Khan and Mei Lin discussing the planning of a Valentine\u2019s Day party, focusing on using the Fibonacci sequence for decorations and selecting quotes about nature and creativity.)",
+      15
+    ],
+    [
+      "studying for her thesis at the library (reviewing her thesis outline)",
+      10
+    ],
+    [
+      "studying for her thesis at the library (reading selected passages from Shakespeare\u2019s plays)",
+      15
+    ],
+    [
+      "studying for her thesis at the library (on the way to taking notes on language use in the passages)",
+      0
+    ],
+    [
+      "studying for her thesis at the library (conversing about Klaus Mueller and Ayesha Khan discussing their research on gentrification through literature, exploring connections between Shakespeare's works and contemporary texts, and planning a meeting to analyze various literary pieces related to their thesis.)",
+      21
+    ],
+    [
+      "studying for her thesis at the library (summarizing her findings from the notes)",
+      5
+    ],
+    [
+      "taking a lunch break (taking a moment to relax and step away from her studies)",
+      5
+    ],
+    [
+      "taking a lunch break (deciding what to eat for lunch)",
+      5
+    ],
+    [
+      "taking a lunch break (gathering her belongings to head to the cafeteria)",
+      5
+    ],
+    [
+      "taking a lunch break (walking to the cafeteria)",
+      5
+    ],
+    [
+      "taking a lunch break (waiting in line to order her food)",
+      5
+    ],
+    [
+      "taking a lunch break (ordering her lunch)",
+      5
+    ],
+    [
+      "taking a lunch break (picking up her food and drink)",
+      5
+    ],
+    [
+      "taking a lunch break (on the way to finding a table to sit at)",
+      0
+    ],
+    [
+      "taking a lunch break (conversing about Ayesha Khan and Eddy Lin discussing Ayesha's Valentine's Day party planning, incorporating the Fibonacci sequence in decorations and interactive art, while Eddy provides creative ideas and quotes related to nature and inspiration.)",
+      17
+    ],
+    [
+      "taking a lunch break (unpacking her lunch and setting it up on the table)",
+      5
+    ],
+    [
+      "taking a lunch break (on the way to enjoying her lunch while scrolling through her phone)",
+      0
+    ],
+    [
+      "taking a lunch break (conversing about Ayesha Khan and Tom Moreno discussing Ayesha's party planning, incorporating the Fibonacci sequence into decorations and an art station, while sharing ideas and quotes related to nature and creativity.)",
+      16
+    ],
+    [
+      "studying for her thesis at the library (reading relevant literature on Shakespeare\u2019s plays)",
+      30
+    ],
+    [
+      "studying for her thesis at the library (taking notes on key themes and language use)",
+      30
+    ],
+    [
+      "studying for her thesis at the library (on the way to organizing her notes into categories)",
+      0
+    ],
+    [
+      "studying for her thesis at the library (conversing about Ayesha Khan and Klaus Mueller discussing their gentrification paper, exploring connections between Shakespeare's themes and contemporary literature, planning to analyze specific texts, and strategizing how to present their findings with visual aids.)",
+      18
+    ],
+    [
+      "studying for her thesis at the library (reviewing her thesis outline)",
+      30
+    ],
+    [
+      "studying for her thesis at the library (drafting sections of her thesis)",
+      30
+    ],
+    [
+      "studying for her thesis at the library (on the way to discussing her ideas with a study partner)",
+      0
+    ],
+    [
+      "studying for her thesis at the library (conversing about Ayesha Khan and Mei Lin discussing their Valentine's Day party planning, focusing on unique Fibonacci-themed decorations, color schemes, and centerpieces while also exchanging ideas for their respective academic projects.)",
+      18
+    ],
+    [
+      "studying for her thesis at the library (revising her draft based on feedback)",
+      41
+    ],
+    [
+      "having dinner (preparing her dinner)",
+      15
+    ],
+    [
+      "having dinner (setting the table)",
+      5
+    ],
+    [
+      "having dinner (serving her dinner)",
+      5
+    ],
+    [
+      "having dinner (sitting down to eat)",
+      5
+    ],
+    [
+      "having dinner (enjoying her meal)",
+      20
+    ],
+    [
+      "having dinner (finishing her meal)",
+      5
+    ],
+    [
+      "having dinner (clearing the table)",
+      5
+    ],
+    [
+      "continuing to study for her thesis at the library",
+      60
+    ],
+    [
+      "continuing to study or write on her thesis at the library",
+      120
+    ],
+    [
+      "relaxing and unwinding after a long day of studying",
+      60
+    ],
+    [
+      "relaxing and preparing for bed",
+      120
+    ],
+    [
+      "sleeping",
+      12
+    ],
+    [
+      "sleeping",
+      12
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "completing her morning routine",
+      60
+    ],
+    [
+      "having breakfast",
+      60
+    ],
+    [
+      "attending classes at the library",
+      60
+    ],
+    [
+      "studying for her thesis at the library",
+      60
+    ],
+    [
+      "taking a lunch break",
+      60
+    ],
+    [
+      "studying for her thesis at the library",
+      240
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "continuing to study for her thesis at the library",
+      60
+    ],
+    [
+      "continuing to study or write on her thesis at the library",
+      120
+    ],
+    [
+      "relaxing and unwinding after a long day of studying",
+      60
+    ],
+    [
+      "relaxing and preparing for bed",
+      120
+    ]
+  ],
+  "act_address": "the Ville:Dorm for Oak Hill College:Ayesha Khan's room:desk",
+  "act_start_time": "February 13, 2023, 16:03:00",
+  "act_duration": 41,
+  "act_description": "studying for her thesis at the library (revising her draft based on feedback)",
+  "act_pronunciatio": "\ud83d\udcdd\ud83d\udd0d",
+  "act_event": [
+    "Ayesha Khan",
+    "revise",
+    "draft"
+  ],
+  "act_obj_description": "cluttered with notes and books",
+  "act_obj_pronunciatio": "\ud83d\udcda\ud83d\udcdd",
+  "act_obj_event": [
+    "desk",
+    "is",
+    "cluttered with notes and books"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Klaus Mueller": 170,
+    "Mei Lin": 590,
+    "Eddy Lin": -442,
+    "Tom Moreno": -322
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

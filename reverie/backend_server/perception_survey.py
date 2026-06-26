@@ -44,6 +44,7 @@ from persona.prompt_template.run_gpt_prompt import (
     run_gpt_prompt_ncn_self_position,
 )
 from ground_truth_log import write_ground_truth_csv
+from persona.prompt_template.gpt_structure import DEFAULT_CHAT_MODEL
 
 DT_FMT = "%Y-%m-%d %H:%M:%S"
 
@@ -487,6 +488,8 @@ def run_perception_survey(personas, sim_code, step, curr_time,
             "n_fail_safe":                n_fs,
             "n_retrieval_calls":          n_retrieval_calls,
             "retrieval_diagnostics_path": os.path.basename(diag_path),
+            "openai_model":               DEFAULT_CHAT_MODEL,
+            "recent_window_minutes":      recent_window_minutes,
         }, f, indent=2)
 
     return survey_path

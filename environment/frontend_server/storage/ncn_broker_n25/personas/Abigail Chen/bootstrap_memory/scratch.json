@@ -1,0 +1,353 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 13:24:50",
+  "curr_tile": [
+    40,
+    25
+  ],
+  "daily_plan_req": "",
+  "name": "Abigail Chen",
+  "first_name": "Abigail",
+  "last_name": "Chen",
+  "age": 25,
+  "innate": "open-minded, curious, determined",
+  "learned": "Abigail Chen is a digital artist and animator who loves to explore how technology can be used to express ideas. She is always looking for new ways to combine art and technology.",
+  "currently": "Abigail Chen is working on an animation project for a client. She is also experimenting with different tools and techniques to create interactive art.",
+  "lifestyle": "Abigail Chen goes to bed around midnight, awakes up around 8am, eats dinner around 6pm.",
+  "living_area": "the Ville:artist's co-living space:Abigail Chen's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 100,
+  "importance_ele_n": 44,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "work on the animation project from 9:00 am to 12:00 pm",
+    "take a lunch break and experiment with an interactive art tool from 12:00 pm to 1:30 pm",
+    "continue working on the animation project from 1:30 pm to 4:00 pm",
+    "take a brief break to clear her mind and take a walk from 4:00 pm to 4:30 pm",
+    "return to finish up the day\u2019s tasks on the project from 4:30 pm to 6:00 pm",
+    "have dinner at 6:00 pm",
+    "relax and unwind by watching a show or reading from 7:00 pm to 8:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "working on the animation project (1) Abigail is setting up her workspace and organizing her tools)",
+      5
+    ],
+    [
+      "working on the animation project (reviewing the project brief and client requirements)",
+      10
+    ],
+    [
+      "working on the animation project (sketching out initial concepts for the animation)",
+      15
+    ],
+    [
+      "working on the animation project (selecting the color palette and style for the animation)",
+      10
+    ],
+    [
+      "working on the animation project (on the way to creating the storyboard for the animation)",
+      0
+    ],
+    [
+      "working on the animation project (conversing about Abigail Chen and Francisco Lopez discussing their creative projects, with Francisco sharing his web series about life in a co-living space and Abigail talking about her animation project, leading to plans for a collaborative coffee meeting with Latoya to brainstorm ideas.)",
+      12
+    ],
+    [
+      "working on the animation project (on the way to preparing to save her work and organize files)",
+      0
+    ],
+    [
+      "working on the animation project (conversing about Abigail Chen and Adam Smith discussing her animation project and how to incorporate local issues, particularly Maria Lopez's initiatives for small businesses, into their collaboration.)",
+      22
+    ],
+    [
+      "continuing to work on the animation project (continuing to refine the animation storyboard)",
+      20
+    ],
+    [
+      "continuing to work on the animation project (on the way to creating character designs for the animation)",
+      0
+    ],
+    [
+      "continuing to work on the animation project (conversing about Abigail Chen and Latoya Williams discussing Abigail's animation project incorporating local issues and Maria Lopez's initiatives for small businesses, as well as brainstorming ideas and sharing photography.)",
+      17
+    ],
+    [
+      "continuing to work on the animation project (animating the first scene of the project)",
+      30
+    ],
+    [
+      "continuing to work on the animation project (reviewing the animation for any inconsistencies)",
+      20
+    ],
+    [
+      "continuing to work on the animation project (making adjustments based on her review)",
+      15
+    ],
+    [
+      "continuing to work on the animation project (saving her work and preparing to take a break)",
+      5
+    ],
+    [
+      "taking a lunch break and experimenting with an interactive art tool",
+      43
+    ],
+    [
+      "continuing to take a lunch break and experimenting with an interactive art tool (on the way to taking a break from her animation project)",
+      0
+    ],
+    [
+      "continuing to take a lunch break and experimenting with an interactive art tool (conversing about Abigail Chen and Francisco Lopez discussing their upcoming coffee meeting with Latoya to brainstorm ideas for their animation project and web series, focusing on incorporating local business stories and visual representation techniques.)",
+      19
+    ],
+    [
+      "continuing to take a lunch break and experimenting with an interactive art tool (on the way to preparing her lunch)",
+      0
+    ],
+    [
+      "continuing to take a lunch break and experimenting with an interactive art tool (conversing about Rajiv Patel and Abigail Chen discussing their creative projects, with Rajiv focusing on a cocktail inspired by the Fibonacci sequence and Abigail incorporating interactive elements into her animation project related to local businesses.)",
+      15
+    ],
+    [
+      "continuing to take a lunch break and experimenting with an interactive art tool (eating her lunch)",
+      15
+    ],
+    [
+      "continuing to take a lunch break and experimenting with an interactive art tool (on the way to cleaning up after lunch)",
+      0
+    ],
+    [
+      "continuing to take a lunch break and experimenting with an interactive art tool (conversing about Latoya Williams and Abigail Chen discussing the integration of an interactive art tool into Abigail's animation project, brainstorming questions for local business interviews, and exploring visual representation ideas for the stories.)",
+      19
+    ],
+    [
+      "continuing to take a lunch break and experimenting with an interactive art tool (setting up her workspace for experimenting with the interactive art tool)",
+      20
+    ],
+    [
+      "continuing to work on the animation project (continuing to refine the animation storyboard)",
+      20
+    ],
+    [
+      "continuing to work on the animation project (creating character designs for the animation)",
+      30
+    ],
+    [
+      "continuing to work on the animation project (animating the first scene of the project)",
+      30
+    ],
+    [
+      "continuing to work on the animation project (reviewing the animation for timing and flow)",
+      26
+    ],
+    [
+      "taking a brief break to clear her mind and take a walk",
+      46
+    ],
+    [
+      "finishing up the day's tasks on the animation project",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing and unwinding by watching a show or reading",
+      60
+    ],
+    [
+      "watching a show or reading",
+      60
+    ],
+    [
+      "continuing to relax and unwind by watching a show or reading",
+      120
+    ],
+    [
+      "preparing for bed and winding down for the night",
+      60
+    ],
+    [
+      "sleeping",
+      3
+    ],
+    [
+      "sleeping",
+      13
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "working on the animation project",
+      60
+    ],
+    [
+      "continuing to work on the animation project",
+      120
+    ],
+    [
+      "taking a lunch break and experimenting with an interactive art tool",
+      60
+    ],
+    [
+      "continuing to take a lunch break and experimenting with an interactive art tool",
+      60
+    ],
+    [
+      "continuing to work on the animation project",
+      120
+    ],
+    [
+      "taking a brief break to clear her mind and take a walk",
+      60
+    ],
+    [
+      "finishing up the day's tasks on the animation project",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing and unwinding by watching a show or reading",
+      60
+    ],
+    [
+      "watching a show or reading",
+      60
+    ],
+    [
+      "continuing to relax and unwind by watching a show or reading",
+      120
+    ],
+    [
+      "preparing for bed and winding down for the night",
+      60
+    ]
+  ],
+  "act_address": "<persona> Latoya Williams",
+  "act_start_time": "February 13, 2023, 13:21:20",
+  "act_duration": 19,
+  "act_description": "conversing about Latoya Williams and Abigail Chen discussing the integration of an interactive art tool into Abigail's animation project, brainstorming questions for local business interviews, and exploring visual representation ideas for the stories.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Abigail Chen",
+    "chat with",
+    "Latoya Williams"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Latoya Williams",
+  "chat": [
+    [
+      "Latoya Williams",
+      "Hey Abigail, I noticed you were experimenting with that interactive art tool. How's it going? Do you think it could be useful for your animation project?"
+    ],
+    [
+      "Abigail Chen",
+      "Hey Latoya! It's going really well, actually. I'm finding some interesting ways to integrate it into my animation project, especially for the interactive elements. I think it could really enhance how viewers engage with the local issues we're highlighting. What do you think about incorporating some interactive features into our storytelling?"
+    ],
+    [
+      "Latoya Williams",
+      "That sounds like a fantastic idea! Interactive elements could make the stories more impactful. Do you have any specific features in mind that you want to try out?"
+    ],
+    [
+      "Abigail Chen",
+      "I was thinking about incorporating clickable elements that allow viewers to explore different stories behind local businesses or perhaps even short interviews with the owners. It could add a personal touch and encourage more interaction. What do you think?"
+    ],
+    [
+      "Latoya Williams",
+      "I love that idea! Clickable elements could really draw people in and make them feel connected to the stories. Maybe we could brainstorm some specific questions to ask the business owners for the interviews? I think that could add even more depth to the project."
+    ],
+    [
+      "Abigail Chen",
+      "Absolutely! We could think about questions that touch on their experiences, challenges, and what makes their business unique. It would be great to capture their personal stories. Do you have any specific questions in mind that we should consider?"
+    ],
+    [
+      "Latoya Williams",
+      "I think we could ask about their inspiration for starting their business and how they connect with the community. Also, it might be interesting to know what challenges they faced during the pandemic. What do you think?"
+    ],
+    [
+      "Abigail Chen",
+      "Those are great questions, Latoya! I especially like the one about their inspiration and how they connect with the community. It might also be worth asking them about any support they received from local initiatives, like Maria Lopez's efforts. That could tie in beautifully with our project. Should we jot down a few more questions while we\u2019re at it?"
+    ],
+    [
+      "Latoya Williams",
+      "Yes, let's definitely jot down a few more questions! Maybe we could ask them about how they adapted their business strategies during tough times. That could provide some valuable insights. What do you think?"
+    ],
+    [
+      "Abigail Chen",
+      "That's a great addition, Latoya! Understanding how they adapted could really resonate with our audience. Let's write down all of these questions so we can refine them later. I'm excited to see how these interviews can enrich our project!"
+    ],
+    [
+      "Latoya Williams",
+      "Great! I\u2019ll grab a notebook so we can start jotting these down. Maybe we can also think about how to visually represent their stories alongside the interviews. I\u2019m really looking forward to seeing this all come together! Do you want to take the lead on drafting the questions, or should we brainstorm together?"
+    ],
+    [
+      "Abigail Chen",
+      "Let's brainstorm together! I think we can come up with a variety of questions that cover different angles. Maybe we can start with your ideas and then build from there. I\u2019m really excited to see how we can bring these stories to life visually as well!"
+    ],
+    [
+      "Latoya Williams",
+      "Awesome! Let\u2019s start with your thoughts on the first few questions, and then I can add some of my ideas. I really want to make sure we capture the essence of their experiences. Also, maybe we can think about how to visually represent their stories alongside the interviews. Do you have any ideas on that yet?"
+    ],
+    [
+      "Abigail Chen",
+      "I have a few ideas on how we could visually represent their stories! Maybe we could use animated graphics to highlight key moments from their interviews, or even create a split-screen effect where we show their business in action alongside their personal stories. What do you think about that?"
+    ],
+    [
+      "Latoya Williams",
+      "I really love the idea of using animated graphics! A split-screen effect sounds particularly engaging, as it would allow viewers to see the business in action while hearing the personal stories. We could also consider using some of my photography to complement the visuals. What do you think about integrating some images from my travels to give a broader context to their stories?"
+    ],
+    [
+      "Abigail Chen",
+      "That's a fantastic idea, Latoya! Integrating your photography would add so much depth and context to the stories. We could use your images as backdrops or even as part of the animated graphics to create a richer visual experience. Let's brainstorm how we can combine those elements effectively!"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Francisco Lopez": 536,
+    "Adam Smith": -364,
+    "Latoya Williams": 800,
+    "Rajiv Patel": 662
+  },
+  "chatting_end_time": "February 13, 2023, 13:41:00",
+  "act_path_set": true,
+  "planned_path": []
+}

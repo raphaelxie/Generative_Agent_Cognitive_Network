@@ -1,0 +1,402 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_tile": [
+    36,
+    27
+  ],
+  "daily_plan_req": "",
+  "name": "Rajiv Patel",
+  "first_name": "Rajiv",
+  "last_name": "Patel",
+  "age": 27,
+  "innate": "patient, reliable, cheerful",
+  "learned": "Rajiv Patel is a painter who wants live quietly and paint while enjoying his everyday life.",
+  "currently": "Rajiv Patel is preparing for his first solo show. He mostly works from the artists' co-living space. Also, he recently got into playing the guitar.",
+  "lifestyle": "Rajiv Patel goes to bed around midnight, awakes up around 9am, eats dinner around 5pm.",
+  "living_area": "the Ville:artist's co-living space:Rajiv Patel's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 111,
+  "importance_ele_n": 39,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "complete a painting session from 9:00 am to 12:00 pm",
+    "have lunch and take a short break from 12:00 pm to 1:00 pm",
+    "practice guitar from 1:00 pm to 2:00 pm",
+    "return to painting from 2:00 pm to 5:00 pm",
+    "have dinner at 5:00 pm",
+    "take a leisurely walk or do some light exercise from 6:00 pm to 7:00 pm",
+    "spend time reviewing and preparing for the solo show from 7:00 pm to 9:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "painting in his studio (setting up his painting area)",
+      10
+    ],
+    [
+      "painting in his studio (selecting the colors he wants to use)",
+      10
+    ],
+    [
+      "painting in his studio (sketching the outline of his painting on the canvas)",
+      15
+    ],
+    [
+      "painting in his studio (applying the base layer of paint)",
+      15
+    ],
+    [
+      "painting in his studio (adding details to the painting)",
+      10
+    ],
+    [
+      "continuing to paint in his studio (continuing to paint the background of his canvas)",
+      30
+    ],
+    [
+      "continuing to paint in his studio (mixing colors on his palette for the foreground elements)",
+      15
+    ],
+    [
+      "continuing to paint in his studio (sketching the main subject of the painting on the canvas)",
+      20
+    ],
+    [
+      "continuing to paint in his studio (painting the main subject with the base colors)",
+      25
+    ],
+    [
+      "continuing to paint in his studio (adding details to the main subject)",
+      20
+    ],
+    [
+      "continuing to paint in his studio (stepping back to assess the overall composition of the painting)",
+      10
+    ],
+    [
+      "taking a lunch break and relaxing (preparing a simple lunch)",
+      15
+    ],
+    [
+      "taking a lunch break and relaxing (on the way to eating his lunch)",
+      0
+    ],
+    [
+      "taking a lunch break and relaxing (conversing about Rajiv Patel and Francisco Lopez discussing their artistic projects, the possibility of collaborating on a piece that combines visual art and storytelling focused on community and connection, and planning to meet up to brainstorm ideas.)",
+      14
+    ],
+    [
+      "taking a lunch break and relaxing (on the way to cleaning up after lunch)",
+      0
+    ],
+    [
+      "taking a lunch break and relaxing (conversing about Rajiv Patel and Carlos Gomez discussing their collaboration on a Valentine's Day cocktail called 'Fibonacci Fizz' inspired by the Fibonacci sequence, and how Rajiv can incorporate this concept into his upcoming solo art show.)",
+      17
+    ],
+    [
+      "taking a lunch break and relaxing (taking a moment to relax and enjoy the view from the window)",
+      10
+    ],
+    [
+      "taking a lunch break and relaxing (on the way to mentally planning his next painting session)",
+      0
+    ],
+    [
+      "taking a lunch break and relaxing (conversing about Rajiv Patel and Abigail Chen discussing their creative projects, with Rajiv focusing on a cocktail inspired by the Fibonacci sequence and Abigail incorporating interactive elements into her animation project related to local businesses.)",
+      15
+    ],
+    [
+      "practicing guitar (on the way to tuning his guitar)",
+      0
+    ],
+    [
+      "practicing guitar (conversing about Hailey Johnson's novel about a group of artists in a co-living space and Rajiv Patel's project inspired by the Fibonacci sequence, discussing their creative processes, potential collaborative ideas, and ways to engage their audiences interactively.)",
+      29
+    ],
+    [
+      "practicing guitar (warming up with finger exercises)",
+      10
+    ],
+    [
+      "practicing guitar (practicing basic chords)",
+      10
+    ],
+    [
+      "practicing guitar (working on strumming patterns)",
+      10
+    ],
+    [
+      "practicing guitar (on the way to practicing a simple song)",
+      0
+    ],
+    [
+      "practicing guitar (conversing about Rajiv Patel and Latoya Williams discussing their creative projects, with Rajiv seeking inspiration from Latoya's photography for his music, and planning a collaborative meeting to brainstorm ideas related to community and connection.)",
+      11
+    ],
+    [
+      "practicing guitar (reviewing the song and making adjustments)",
+      10
+    ],
+    [
+      "continuing to paint in his studio (continuing to paint on his current canvas)",
+      30
+    ],
+    [
+      "continuing to paint in his studio (stepping back to assess his work and make adjustments)",
+      10
+    ],
+    [
+      "continuing to paint in his studio (mixing new colors on his palette)",
+      10
+    ],
+    [
+      "continuing to paint in his studio (applying the new colors to the canvas)",
+      20
+    ],
+    [
+      "continuing to paint in his studio (cleaning his brushes and tools)",
+      10
+    ],
+    [
+      "continuing to paint in his studio (on the way to taking a short break to stretch and relax)",
+      0
+    ],
+    [
+      "continuing to paint in his studio (conversing about Rajiv Patel and Abigail Chen discussing their creative projects, specifically a cocktail inspired by the Fibonacci sequence and an animation incorporating interactive elements, while planning a tasting session to brainstorm ideas together.)",
+      15
+    ],
+    [
+      "continuing to paint in his studio (on the way to reviewing his painting from different angles)",
+      0
+    ],
+    [
+      "continuing to paint in his studio (conversing about Hailey Johnson and Rajiv Patel discussing ideas for Rajiv's art project that integrates interactive elements and visually represents the Fibonacci sequence, focusing on themes of growth and community while brainstorming prompts for audience engagement.)",
+      20
+    ],
+    [
+      "continuing to paint in his studio (adding final details to the painting)",
+      20
+    ],
+    [
+      "continuing to paint in his studio (signing his painting)",
+      5
+    ],
+    [
+      "continuing to paint in his studio (taking a moment to reflect on his work and plan for the next session)",
+      5
+    ],
+    [
+      "continuing to paint in his studio (organizing his studio space, putting away supplies)",
+      4
+    ],
+    [
+      "having dinner (preparing the ingredients for dinner)",
+      15
+    ],
+    [
+      "having dinner (cooking the main dish)",
+      20
+    ],
+    [
+      "having dinner (setting the table)",
+      5
+    ],
+    [
+      "having dinner (plating the food)",
+      5
+    ],
+    [
+      "having dinner (pouring a drink)",
+      5
+    ],
+    [
+      "having dinner (sitting down to eat)",
+      10
+    ],
+    [
+      "taking a leisurely walk or doing some light exercise",
+      60
+    ],
+    [
+      "reviewing and preparing for his solo show",
+      60
+    ],
+    [
+      "continuing to review and prepare for his solo show",
+      180
+    ],
+    [
+      "relaxing and winding down for the day before bed",
+      60
+    ],
+    [
+      "sleeping",
+      6
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "painting in his studio",
+      60
+    ],
+    [
+      "continuing to paint in his studio",
+      120
+    ],
+    [
+      "taking a lunch break and relaxing",
+      60
+    ],
+    [
+      "practicing guitar",
+      60
+    ],
+    [
+      "continuing to paint in his studio",
+      180
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "taking a leisurely walk or doing some light exercise",
+      60
+    ],
+    [
+      "reviewing and preparing for his solo show",
+      60
+    ],
+    [
+      "continuing to review and prepare for his solo show",
+      180
+    ],
+    [
+      "relaxing and winding down for the day before bed",
+      60
+    ]
+  ],
+  "act_address": "<persona> Hailey Johnson",
+  "act_start_time": "February 13, 2023, 16:01:20",
+  "act_duration": 20,
+  "act_description": "conversing about Hailey Johnson and Rajiv Patel discussing ideas for Rajiv's art project that integrates interactive elements and visually represents the Fibonacci sequence, focusing on themes of growth and community while brainstorming prompts for audience engagement.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Rajiv Patel",
+    "chat with",
+    "Hailey Johnson"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Hailey Johnson",
+  "chat": [
+    [
+      "Hailey Johnson",
+      "Hey Rajiv! I was just thinking about our last conversation. Your idea of integrating interactive elements into your project sounds amazing! Have you thought about how you might visually represent the Fibonacci sequence in your art?"
+    ],
+    [
+      "Rajiv Patel",
+      "Thanks, Hailey! I appreciate your enthusiasm. I was thinking of using spirals and patterns that mirror the Fibonacci sequence, maybe incorporating some natural elements like leaves or flowers to symbolize growth. What do you think? I\u2019d love to hear your thoughts on how I could make it more interactive as well."
+    ],
+    [
+      "Hailey Johnson",
+      "I love the idea of using natural elements! Maybe you could invite people to add their own interpretations of growth through a collaborative art piece? It might create a deeper connection to the Fibonacci sequence. Also, have you considered how you'll display these interactive elements? That could really engage your audience more effectively."
+    ],
+    [
+      "Rajiv Patel",
+      "That's a fantastic idea! I could set up a space where viewers can use natural materials or colors to create their own interpretations of growth. I think it would really enhance the experience. As for displaying the interactive elements, I'm considering using a large canvas or a series of panels where people can contribute. What do you think about that approach?"
+    ],
+    [
+      "Hailey Johnson",
+      "I think a large canvas or series of panels sounds like a great idea! It would really invite collaboration and allow for a dynamic display of everyone's contributions. You could even document the process to share later, which might inspire others to get involved. Have you thought about any specific themes or prompts to guide people's contributions?"
+    ],
+    [
+      "Rajiv Patel",
+      "That's a great point! I was thinking of using themes like 'growth' and 'community' to encourage people to share their own stories and experiences. Maybe I could also provide some prompts related to the Fibonacci sequence, like asking them to reflect on moments in their lives that felt like a natural progression or a series of steps. What do you think would resonate with people?"
+    ],
+    [
+      "Hailey Johnson",
+      "I think those themes will resonate well! People love sharing their personal stories, especially when they can relate them to something universal like growth. You could even consider having a few examples or stories to start the conversation flowing. It might help break the ice and encourage more contributions. And speaking of collaboration, I\u2019d love to brainstorm some prompts with you if you\u2019re interested!"
+    ],
+    [
+      "Rajiv Patel",
+      "That sounds great, Hailey! I\u2019d love your help brainstorming some prompts. It would be amazing to have a diverse range of ideas to really engage the audience. Maybe we could even set a time to work on this together soon?"
+    ],
+    [
+      "Hailey Johnson",
+      "Absolutely! I'd love to collaborate on that. How about we set a time later this week to brainstorm? We can bounce ideas off each other and come up with some engaging prompts that really connect with people."
+    ],
+    [
+      "Rajiv Patel",
+      "That sounds perfect! How about we meet on Wednesday afternoon? I can bring some of my sketches, and we can brainstorm together. I'm really excited to see what we come up with!"
+    ],
+    [
+      "Hailey Johnson",
+      "Wednesday afternoon works for me! I\u2019m looking forward to seeing your sketches and bouncing ideas around. Should we meet in the common room or your studio?"
+    ],
+    [
+      "Rajiv Patel",
+      "Let's meet in the common room; it's a nice space for brainstorming. I can set up some of my sketches there too. Can't wait to see what we come up with together!"
+    ],
+    [
+      "Hailey Johnson",
+      "Sounds like a plan! I\u2019ll bring some of my notes and ideas as well. It\u2019ll be great to collaborate and see how our projects can intertwine. Let's make it an inspiring session!"
+    ],
+    [
+      "Rajiv Patel",
+      "I'm really looking forward to it, Hailey! Collaborating with you will definitely bring some fresh perspectives to our projects. Let\u2019s make sure to share our ideas openly. Is there anything specific you\u2019d like to focus on during our brainstorming session?"
+    ],
+    [
+      "Hailey Johnson",
+      "I think it would be great to focus on creating prompts that not only inspire creativity but also encourage personal reflection. We can brainstorm how to make them engaging and relatable. I\u2019d love to hear any ideas you have in mind as well! Also, maybe we could think of ways to incorporate some visual elements into the prompts to enhance the experience even more."
+    ],
+    [
+      "Rajiv Patel",
+      "That sounds like a great direction, Hailey! I love the idea of incorporating visual elements into the prompts. We could create some simple illustrations or examples to accompany them, which might spark more creativity. I\u2019ll think about a few visuals that align with the themes we discussed. Is there a particular style or medium you prefer for the visuals? I feel like that could really enhance the overall experience!"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Francisco Lopez": -640,
+    "Carlos Gomez": -502,
+    "Abigail Chen": 686,
+    "Hailey Johnson": 800,
+    "Latoya Williams": 80
+  },
+  "chatting_end_time": "February 13, 2023, 16:22:00",
+  "act_path_set": true,
+  "planned_path": []
+}

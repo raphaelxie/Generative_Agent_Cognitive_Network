@@ -1,0 +1,391 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 13:49:50",
+  "curr_tile": [
+    35,
+    26
+  ],
+  "daily_plan_req": "",
+  "name": "Francisco Lopez",
+  "first_name": "Francisco",
+  "last_name": "Lopez",
+  "age": 23,
+  "innate": "outgoing, friendly, honest",
+  "learned": "Francisco Lopez is an actor and comedian who loves to entertain others. They are always looking for new ways to make people laugh.",
+  "currently": "Francisco Lopez is working on a web series about life in a co-living space. They are also exploring improvisational comedy classes.",
+  "lifestyle": "Francisco Lopez goes to bed around 11pm, awakes up around 7am, eats dinner around 6pm.",
+  "living_area": "the Ville:artist's co-living space:Francisco Lopez's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 233,
+  "importance_ele_n": 3,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "go for a run or workout from 8:30 am to 9:00 am",
+    "have breakfast and plan the day from 9:15 am to 10:00 am",
+    "work on the web series script from 10:15 am to 12:00 pm",
+    "take a break and have a snack from 12:00 pm to 12:30 pm",
+    "continue working on the web series from 12:30 pm to 2:30 pm",
+    "have lunch and relax from 2:30 pm to 3:30 pm",
+    "attend improvisational comedy class from 4:00 pm to 6:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "having breakfast and planning the day (having a glass of water)",
+      5
+    ],
+    [
+      "having breakfast and planning the day (on the way to preparing a healthy breakfast)",
+      0
+    ],
+    [
+      "having breakfast and planning the day (conversing about Latoya Williams and Francisco Lopez discussing their plans for the day, including photography and script writing, and arranging to meet for coffee to share experiences and creative work.)",
+      18
+    ],
+    [
+      "having breakfast and planning the day (cooking the breakfast)",
+      15
+    ],
+    [
+      "having breakfast and planning the day (on the way to setting the table for breakfast)",
+      0
+    ],
+    [
+      "having breakfast and planning the day (conversing about Abigail Chen and Francisco Lopez discussing their creative projects, with Francisco sharing his web series about life in a co-living space and Abigail talking about her animation project, leading to plans for a collaborative coffee meeting with Latoya to brainstorm ideas.)",
+      12
+    ],
+    [
+      "having breakfast and planning the day (sitting down to eat breakfast)",
+      10
+    ],
+    [
+      "having breakfast and planning the day (enjoying his breakfast)",
+      10
+    ],
+    [
+      "having breakfast and planning the day (cleaning up the table after breakfast)",
+      5
+    ],
+    [
+      "working on the web series script (brainstorming ideas for the web series script)",
+      20
+    ],
+    [
+      "working on the web series script (outlining the main plot points)",
+      20
+    ],
+    [
+      "working on the web series script (developing character profiles)",
+      20
+    ],
+    [
+      "working on the web series script (writing the first draft of the script)",
+      30
+    ],
+    [
+      "working on the web series script (taking a short break to recharge)",
+      10
+    ],
+    [
+      "working on the web series script (on the way to reviewing the first draft)",
+      0
+    ],
+    [
+      "working on the web series script (conversing about Latoya Williams and Francisco Lopez discussing their creative projects, including a web series about co-living and incorporating local business interviews and community issues into their work.)",
+      5
+    ],
+    [
+      "taking a break and having a snack (deciding what snack to have)",
+      5
+    ],
+    [
+      "taking a break and having a snack (going to the kitchen to get the snack)",
+      5
+    ],
+    [
+      "taking a break and having a snack (on the way to opening the pantry or fridge to find the snack)",
+      0
+    ],
+    [
+      "taking a break and having a snack (conversing about Rajiv Patel and Francisco Lopez discussing their artistic projects, the possibility of collaborating on a piece that combines visual art and storytelling focused on community and connection, and planning to meet up to brainstorm ideas.)",
+      14
+    ],
+    [
+      "taking a break and having a snack (on the way to e.g., cutting fruit, heating something up))",
+      0
+    ],
+    [
+      "taking a break and having a snack (conversing about Abigail Chen and Francisco Lopez discussing their upcoming coffee meeting with Latoya to brainstorm ideas for their animation project and web series, focusing on incorporating local business stories and visual representation techniques.)",
+      19
+    ],
+    [
+      "taking a break and having a snack (on the way to pouring a drink to have with the snack)",
+      0
+    ],
+    [
+      "taking a break and having a snack (conversing about Francisco Lopez and Jennifer Moore discussing plans for a Valentine's Day party and collaboration on an animation project.)",
+      11
+    ],
+    [
+      "taking a break and having a snack (setting the table or finding a comfortable spot to eat)",
+      5
+    ],
+    [
+      "taking a break and having a snack (on the way to sitting down to enjoy the snack)",
+      0
+    ],
+    [
+      "taking a break and having a snack (conversing about Francisco Lopez and Eddy Lin discussing their respective creative projects, including Eddy's composition incorporating the Fibonacci sequence and Francisco's web series featuring a co-living space, while planning a collaborative Valentine's Day party with interactive music and decorations.)",
+      17
+    ],
+    [
+      "taking a break and having a snack (eating the snack while watching a short video or listening to music)",
+      15
+    ],
+    [
+      "taking a break and having a snack (cleaning up after the snack (e.g., putting dishes away, wiping the table))",
+      5
+    ],
+    [
+      "having lunch and relaxing (on the way to preparing his lunch)",
+      0
+    ],
+    [
+      "having lunch and relaxing (conversing about Hailey Johnson and Francisco Lopez collaborating on their creative projects, exploring themes of collaboration and artistic processes, and brainstorming ideas for scenes to intertwine their works.)",
+      21
+    ],
+    [
+      "having lunch and relaxing (setting the table for lunch)",
+      5
+    ],
+    [
+      "having lunch and relaxing (enjoying his lunch)",
+      4
+    ],
+    [
+      "continuing to work on the web series script (brainstorming ideas for the web series script)",
+      15
+    ],
+    [
+      "continuing to work on the web series script (outlining the main plot points)",
+      15
+    ],
+    [
+      "continuing to work on the web series script (developing character profiles)",
+      10
+    ],
+    [
+      "continuing to work on the web series script (writing the first draft of the script)",
+      14
+    ],
+    [
+      "having a break and relaxing",
+      60
+    ],
+    [
+      "attending improvisational comedy class",
+      60
+    ],
+    [
+      "continuing to attend improvisational comedy class",
+      120
+    ],
+    [
+      "having dinner and unwinding after a long day",
+      60
+    ],
+    [
+      "winding down, perhaps watching a show or reading a book",
+      60
+    ],
+    [
+      "relaxing, perhaps reviewing notes from the day or brainstorming ideas for future projects",
+      60
+    ],
+    [
+      "relaxing, perhaps reflecting on the day or engaging in a light activity before bedtime",
+      60
+    ],
+    [
+      "sleeping",
+      60
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "having breakfast and planning the day",
+      60
+    ],
+    [
+      "working on the web series script",
+      120
+    ],
+    [
+      "taking a break and having a snack",
+      60
+    ],
+    [
+      "having lunch and relaxing",
+      60
+    ],
+    [
+      "continuing to work on the web series script",
+      60
+    ],
+    [
+      "having a break and relaxing",
+      60
+    ],
+    [
+      "attending improvisational comedy class",
+      60
+    ],
+    [
+      "continuing to attend improvisational comedy class",
+      120
+    ],
+    [
+      "having dinner and unwinding after a long day",
+      60
+    ],
+    [
+      "winding down, perhaps watching a show or reading a book",
+      60
+    ],
+    [
+      "relaxing, perhaps reviewing notes from the day or brainstorming ideas for future projects",
+      60
+    ],
+    [
+      "relaxing, perhaps reflecting on the day or engaging in a light activity before bedtime",
+      60
+    ],
+    [
+      "sleeping",
+      60
+    ]
+  ],
+  "act_address": "<persona> Hailey Johnson",
+  "act_start_time": "February 13, 2023, 13:32:10",
+  "act_duration": 21,
+  "act_description": "conversing about Hailey Johnson and Francisco Lopez collaborating on their creative projects, exploring themes of collaboration and artistic processes, and brainstorming ideas for scenes to intertwine their works.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Francisco Lopez",
+    "chat with",
+    "Hailey Johnson"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Hailey Johnson",
+  "chat": [
+    [
+      "Hailey Johnson",
+      "Hey Francisco! I see you're taking a break. I was just brainstorming some ideas for my novel about artists in a co-living space. Have you thought any more about your web series? I think it could tie in nicely with what I'm working on."
+    ],
+    [
+      "Francisco Lopez",
+      "Hey Hailey! Yeah, I've been developing the script and working on character profiles. I think there's definitely potential for our projects to intersect. What specific themes are you exploring in your novel? Maybe we can brainstorm some ideas together!"
+    ],
+    [
+      "Hailey Johnson",
+      "I'm focusing on themes of collaboration and the different creative processes artists go through when living and working together. I think it would be interesting to explore how their interactions shape their art. What elements do you think would work well in your web series to highlight that?"
+    ],
+    [
+      "Francisco Lopez",
+      "I love that idea! I was thinking of incorporating some real-life interactions and interviews with local artists, showcasing how they influence each other's work. Maybe we could include some scenes that mirror the dynamics you\u2019re exploring in your novel? What do you think about that?"
+    ],
+    [
+      "Hailey Johnson",
+      "That sounds like a fantastic idea, Francisco! Showcasing real-life interactions would add depth to both our projects. Maybe we could even collaborate on a scene or two where your characters and mine intersect in the co-living space? I think that would really highlight the collaborative spirit we're both aiming for."
+    ],
+    [
+      "Francisco Lopez",
+      "That sounds like a great plan, Hailey! I think having our characters interact would really showcase the synergy between different artistic processes. Let's sketch out some ideas for those scenes and see how we can integrate them into both of our projects. When are you free to meet up and brainstorm more?"
+    ],
+    [
+      "Hailey Johnson",
+      "I'm usually free in the afternoons! How about we meet up tomorrow around 3 PM? We can go over our ideas in detail and maybe even outline some specific scenes. I\u2019m excited to see how our creative worlds can intertwine!"
+    ],
+    [
+      "Francisco Lopez",
+      "Tomorrow at 3 PM works perfectly for me! I\u2019m really looking forward to diving into our ideas and seeing how we can blend our projects together. Let\u2019s meet in the common room, and I\u2019ll bring some snacks too!"
+    ],
+    [
+      "Hailey Johnson",
+      "Awesome! I can't wait to see what we come up with. Thanks for bringing snacks, it always makes brainstorming more fun! By the way, do you have any specific ideas for the scenes we might create together?"
+    ],
+    [
+      "Francisco Lopez",
+      "I have a couple of ideas in mind! One scene could involve a spontaneous art jam session in the common area, where both our characters come together to create something unique. Another could be a moment of conflict where differing artistic visions clash, leading to some interesting dialogue. What do you think about those concepts? Do you have any scenes in mind that you'd like to explore?"
+    ],
+    [
+      "Hailey Johnson",
+      "I love those ideas! The art jam session sounds like a perfect way to showcase collaboration, and the conflict could really bring some tension to the story. I was also thinking about a scene where one of the characters creates a piece inspired by the others, demonstrating how their interactions influence each other's work. What do you think about that? And do you have a specific vibe in mind for the art jam session?"
+    ],
+    [
+      "Francisco Lopez",
+      "I think that scene where one character gets inspired by the others would be a great addition! It really highlights how artistic communities influence creativity. For the art jam session, I envision a vibrant, chaotic atmosphere with lots of laughter and spontaneous ideas flowing. Maybe we can set it in the common room with all our characters bringing different materials to work with. How does that sound?"
+    ],
+    [
+      "Hailey Johnson",
+      "That sounds perfect, Francisco! I can already picture the energy in the room. Let's also make sure to include some music to set the vibe. I think it could really enhance the creativity of the scene. Do you have any particular music in mind for that moment?"
+    ],
+    [
+      "Francisco Lopez",
+      "I think some upbeat acoustic music would work well to keep the energy high! Something that encourages creativity and fun, maybe a mix of indie and folk sounds. What do you think? Also, do you have any other elements you\u2019d like to include in the scene?"
+    ],
+    [
+      "Hailey Johnson",
+      "That sounds like a great choice! I love indie and folk music for setting a creative atmosphere. Maybe we can also incorporate some visual elements, like colorful decorations or art supplies scattered around to enhance the scene's vibrancy. I'm thinking we could have a few easels set up and some paint splatters for added chaos. What do you think?"
+    ],
+    [
+      "Francisco Lopez",
+      "I love that idea! The colorful decorations and paint splatters will definitely add to the chaotic energy of the art jam session. It sounds like we're crafting a really fun scene together! Let\u2019s make sure to write down all these details tomorrow when we meet. Is there anything else you want to brainstorm before then?"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Latoya Williams": 170,
+    "Abigail Chen": 386,
+    "Rajiv Patel": 260,
+    "Jennifer Moore": 458,
+    "Eddy Lin": 578,
+    "Hailey Johnson": 800
+  },
+  "chatting_end_time": "February 13, 2023, 13:54:00",
+  "act_path_set": true,
+  "planned_path": []
+}

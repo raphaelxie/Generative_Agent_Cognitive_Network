@@ -15,6 +15,8 @@ You are !<INPUT 1>!. Based on everything you know, divide the following !<INPUT 
 People:
 !<INPUT 2>!
 
-Output the groups as a numbered list. Each group line should start with the group number followed by a colon, then the full names separated by commas. Every person must appear in exactly one group. Do not add commentary.
+Output ALL groups on ONE line. Separate groups with semicolons. Each group: group number, colon, then full names separated by commas. Every person must appear in exactly one group. Do not add commentary.
+
+Example format: 1: Alice, Bob; 2: Carol, Dave
 
 Groups:

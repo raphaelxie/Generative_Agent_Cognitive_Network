@@ -1,0 +1,325 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_tile": [
+    26,
+    22
+  ],
+  "daily_plan_req": "",
+  "name": "Rajiv Patel",
+  "first_name": "Rajiv",
+  "last_name": "Patel",
+  "age": 27,
+  "innate": "patient, reliable, cheerful",
+  "learned": "Rajiv Patel is a painter who wants live quietly and paint while enjoying his everyday life.",
+  "currently": "Rajiv Patel is preparing for his first solo show. He mostly works from the artists' co-living space. Also, he recently got into playing the guitar.",
+  "lifestyle": "Rajiv Patel goes to bed around midnight, awakes up around 9am, eats dinner around 5pm.",
+  "living_area": "the Ville:artist's co-living space:Rajiv Patel's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 53,
+  "importance_ele_n": 58,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "complete a painting session from 9:00 am to 12:00 pm",
+    "have lunch and take a short break from 12:00 pm to 1:00 pm",
+    "practice guitar from 1:00 pm to 2:00 pm",
+    "return to painting from 2:00 pm to 5:00 pm",
+    "have dinner at 5:00 pm",
+    "take a leisurely walk or do some light exercise from 6:00 pm to 7:00 pm",
+    "spend time reviewing and preparing for the solo show from 7:00 pm to 9:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "painting in his studio (setting up his painting area)",
+      10
+    ],
+    [
+      "painting in his studio (selecting the colors he wants to use)",
+      10
+    ],
+    [
+      "painting in his studio (sketching the outline of his painting on the canvas)",
+      15
+    ],
+    [
+      "painting in his studio (applying the base layer of paint)",
+      15
+    ],
+    [
+      "painting in his studio (adding details to the painting)",
+      10
+    ],
+    [
+      "continuing to paint in his studio (continuing to paint the background of his canvas)",
+      30
+    ],
+    [
+      "continuing to paint in his studio (mixing colors on his palette for the foreground elements)",
+      15
+    ],
+    [
+      "continuing to paint in his studio (sketching the main subject of the painting on the canvas)",
+      20
+    ],
+    [
+      "continuing to paint in his studio (painting the main subject with the base colors)",
+      25
+    ],
+    [
+      "continuing to paint in his studio (adding details to the main subject)",
+      20
+    ],
+    [
+      "continuing to paint in his studio (stepping back to assess the overall composition of the painting)",
+      10
+    ],
+    [
+      "taking a lunch break and relaxing (preparing a simple lunch)",
+      15
+    ],
+    [
+      "taking a lunch break and relaxing (on the way to eating his lunch)",
+      0
+    ],
+    [
+      "taking a lunch break and relaxing (conversing about Rajiv Patel and Francisco Lopez discussing their artistic projects, the possibility of collaborating on a piece that combines visual art and storytelling focused on community and connection, and planning to meet up to brainstorm ideas.)",
+      14
+    ],
+    [
+      "taking a lunch break and relaxing (on the way to cleaning up after lunch)",
+      0
+    ],
+    [
+      "taking a lunch break and relaxing (conversing about Rajiv Patel and Carlos Gomez discussing their collaboration on a Valentine's Day cocktail called 'Fibonacci Fizz' inspired by the Fibonacci sequence, and how Rajiv can incorporate this concept into his upcoming solo art show.)",
+      17
+    ],
+    [
+      "taking a lunch break and relaxing (taking a moment to relax and enjoy the view from the window)",
+      10
+    ],
+    [
+      "taking a lunch break and relaxing (on the way to mentally planning his next painting session)",
+      0
+    ],
+    [
+      "taking a lunch break and relaxing (conversing about Rajiv Patel and Abigail Chen discussing their creative projects, with Rajiv focusing on a cocktail inspired by the Fibonacci sequence and Abigail incorporating interactive elements into her animation project related to local businesses.)",
+      15
+    ],
+    [
+      "practicing guitar (on the way to tuning his guitar)",
+      0
+    ],
+    [
+      "practicing guitar (conversing about Hailey Johnson's novel about a group of artists in a co-living space and Rajiv Patel's project inspired by the Fibonacci sequence, discussing their creative processes, potential collaborative ideas, and ways to engage their audiences interactively.)",
+      29
+    ],
+    [
+      "practicing guitar (warming up with finger exercises)",
+      10
+    ],
+    [
+      "practicing guitar (practicing basic chords)",
+      10
+    ],
+    [
+      "practicing guitar (working on strumming patterns)",
+      10
+    ],
+    [
+      "practicing guitar (on the way to practicing a simple song)",
+      0
+    ],
+    [
+      "practicing guitar (conversing about Jennifer Moore and Rajiv Patel discussing their collaboration for the Valentine's Day party, including incorporating music, art, audience participation, and quotes about art and love.)",
+      21
+    ],
+    [
+      "practicing guitar (on the way to reviewing the song and making adjustments)",
+      0
+    ],
+    [
+      "practicing guitar (conversing about Rajiv Patel and Giorgio Rossi discussing how to incorporate the Fibonacci sequence into their upcoming art show and Valentine's Day party through art, quotes, interactive elements, and engaging activities for guests.)",
+      24
+    ],
+    [
+      "continuing to paint in his studio (on the way to continuing to paint on his current canvas)",
+      0
+    ],
+    [
+      "continuing to paint in his studio (conversing about Rajiv Patel and Ryan Park discussing their collaboration on integrating community engagement features into a mobile app and an art show, including interactive elements and audience participation.)",
+      16
+    ],
+    [
+      "continuing to paint in his studio (stepping back to assess his work and make adjustments)",
+      10
+    ],
+    [
+      "continuing to paint in his studio (on the way to mixing new colors on his palette)",
+      0
+    ],
+    [
+      "continuing to paint in his studio (conversing about Rajiv Patel and Adam Smith discussing the integration of creativity in community engagement through collaborative art projects, including workshops with local schools and interactive elements in Rajiv's upcoming painting show.)",
+      23
+    ],
+    [
+      "continuing to paint in his studio (applying the new colors to the canvas)",
+      20
+    ],
+    [
+      "continuing to paint in his studio (on the way to cleaning his brushes and tools)",
+      0
+    ],
+    [
+      "continuing to paint in his studio (conversing about Latoya Williams and Rajiv Patel discussing the development of Rajiv's painting, including interactive elements, prompts for audience contributions, and promotional strategies for their upcoming show.)",
+      17
+    ],
+    [
+      "continuing to paint in his studio (taking a short break to stretch and relax)",
+      5
+    ],
+    [
+      "continuing to paint in his studio (reviewing his painting and planning the next steps)",
+      15
+    ],
+    [
+      "continuing to paint in his studio (adding final details to the painting)",
+      20
+    ],
+    [
+      "continuing to paint in his studio (signing his painting)",
+      2
+    ],
+    [
+      "having dinner",
+      47
+    ],
+    [
+      "taking a leisurely walk or doing some light exercise",
+      60
+    ],
+    [
+      "reviewing and preparing for his solo show",
+      60
+    ],
+    [
+      "continuing to review and prepare for his solo show",
+      180
+    ],
+    [
+      "relaxing and winding down for the day before bed",
+      60
+    ],
+    [
+      "sleeping",
+      6
+    ],
+    [
+      "sleeping",
+      4
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "painting in his studio",
+      60
+    ],
+    [
+      "continuing to paint in his studio",
+      120
+    ],
+    [
+      "taking a lunch break and relaxing",
+      60
+    ],
+    [
+      "practicing guitar",
+      60
+    ],
+    [
+      "continuing to paint in his studio",
+      180
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "taking a leisurely walk or doing some light exercise",
+      60
+    ],
+    [
+      "reviewing and preparing for his solo show",
+      60
+    ],
+    [
+      "continuing to review and prepare for his solo show",
+      180
+    ],
+    [
+      "relaxing and winding down for the day before bed",
+      60
+    ]
+  ],
+  "act_address": "the Ville:artist's co-living space:Rajiv Patel's room:easel",
+  "act_start_time": "February 13, 2023, 16:02:00",
+  "act_duration": 20,
+  "act_description": "continuing to paint in his studio (applying the new colors to the canvas)",
+  "act_pronunciatio": "\ud83c\udfa8\ud83d\udd8c\ufe0f",
+  "act_event": [
+    "Rajiv Patel",
+    "apply",
+    "new colors"
+  ],
+  "act_obj_description": "holding the canvas steady",
+  "act_obj_pronunciatio": "\ud83d\uddbc\ufe0f\u270b",
+  "act_obj_event": [
+    "easel",
+    "hold",
+    "canvas"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Francisco Lopez": -640,
+    "Carlos Gomez": -502,
+    "Abigail Chen": -388,
+    "Hailey Johnson": -208,
+    "Jennifer Moore": 92,
+    "Giorgio Rossi": 266,
+    "Ryan Park": 374,
+    "Adam Smith": 560,
+    "Latoya Williams": 692
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

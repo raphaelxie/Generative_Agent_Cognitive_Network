@@ -1,0 +1,416 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 13:24:50",
+  "curr_tile": [
+    82,
+    30
+  ],
+  "daily_plan_req": "",
+  "name": "Jane Moreno",
+  "first_name": "Jane",
+  "last_name": "Moreno",
+  "age": 46,
+  "innate": "friendly, helpful, organized",
+  "learned": "Jane Moreno is a housewife who loves to take care of her family. She is always looking for new ways to make life easier and more enjoyable for everyone.",
+  "currently": "Jane Moreno is living with her husband, Tom Moreno, who is a shop keeper at The Willow Market and Pharmacy.",
+  "lifestyle": "Jane Moreno goes to bed around 10pm, awakes up around 6am, eats dinner around 6pm.",
+  "living_area": "the Ville:Moreno family's house:Tom and Jane Moreno's bedroom",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 164,
+  "importance_ele_n": 29,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "prepare breakfast for her family at 8:30 am",
+    "spend some time helping her kids with their schoolwork from 9:00 am to 10:30 am",
+    "do household chores and organizing tasks from 10:30 am to 12:00 pm",
+    "have lunch at 12:00 pm",
+    "go grocery shopping for the week from 1:00 pm to 2:30 pm",
+    "prepare dinner ingredients and start cooking by 3:30 pm",
+    "sit down for dinner with her family at 6:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "helping her kids with their schoolwork (on the way to helping her youngest child with math homework)",
+      0
+    ],
+    [
+      "helping her kids with their schoolwork (conversing about Jane and Tom discussing their busy schedules, concerns about the mayoral election and local businesses, and planning to attend a town hall meeting together.)",
+      14
+    ],
+    [
+      "helping her kids with their schoolwork (reviewing her oldest child's science project)",
+      15
+    ],
+    [
+      "helping her kids with their schoolwork (assisting her youngest child with reading practice)",
+      10
+    ],
+    [
+      "helping her kids with their schoolwork (checking her oldest child's history assignment)",
+      10
+    ],
+    [
+      "helping her kids with their schoolwork (encouraging her kids to ask questions about their work)",
+      5
+    ],
+    [
+      "doing household chores and organizing tasks (doing laundry)",
+      15
+    ],
+    [
+      "doing household chores and organizing tasks (folding and putting away clean clothes)",
+      15
+    ],
+    [
+      "doing household chores and organizing tasks (cleaning the kitchen counters)",
+      10
+    ],
+    [
+      "doing household chores and organizing tasks (washing the dishes)",
+      10
+    ],
+    [
+      "doing household chores and organizing tasks (organizing the pantry)",
+      10
+    ],
+    [
+      "continuing household chores and organizing tasks (continuing to organize the living room)",
+      15
+    ],
+    [
+      "continuing household chores and organizing tasks (dusting the furniture in the living room)",
+      10
+    ],
+    [
+      "continuing household chores and organizing tasks (vacuuming the living room carpet)",
+      10
+    ],
+    [
+      "continuing household chores and organizing tasks (organizing the kids' toys in the play area)",
+      15
+    ],
+    [
+      "continuing household chores and organizing tasks (taking a short break to hydrate)",
+      5
+    ],
+    [
+      "continuing household chores and organizing tasks (putting away the cleaning supplies)",
+      5
+    ],
+    [
+      "having lunch with her family (preparing the lunch table)",
+      10
+    ],
+    [
+      "having lunch with her family (heating up the food)",
+      10
+    ],
+    [
+      "having lunch with her family (serving the food onto plates)",
+      10
+    ],
+    [
+      "having lunch with her family (calling her family to the table)",
+      5
+    ],
+    [
+      "having lunch with her family (sitting down to eat with her family)",
+      5
+    ],
+    [
+      "having lunch with her family (engaging in conversation with her family)",
+      10
+    ],
+    [
+      "having lunch with her family (helping her husband with his meal)",
+      5
+    ],
+    [
+      "having lunch with her family (clearing the table after lunch)",
+      5
+    ],
+    [
+      "grocery shopping for the week (creating a grocery list)",
+      10
+    ],
+    [
+      "grocery shopping for the week (on the way to checking the pantry and fridge for items needed)",
+      0
+    ],
+    [
+      "grocery shopping for the week (conversing about Jane Moreno and John Lin discussing their dinner plans, local mayoral candidates, and agreeing to meet at a caf\u00e9 to share insights after grocery shopping.)",
+      8
+    ],
+    [
+      "grocery shopping for the week (organizing the grocery list by store sections (produce, dairy, etc.))",
+      10
+    ],
+    [
+      "grocery shopping for the week (on the way to gathering reusable shopping bags)",
+      0
+    ],
+    [
+      "grocery shopping for the week (conversing about Klaus Mueller and Jane Moreno discussing local mayoral candidates, their policies on affordable housing and community engagement, and the importance of staying informed and involved in the election process.)",
+      19
+    ],
+    [
+      "grocery shopping for the week (getting her wallet and keys ready)",
+      5
+    ],
+    [
+      "grocery shopping for the week (driving to the grocery store)",
+      10
+    ],
+    [
+      "grocery shopping for the week (parking the car and gathering her bags)",
+      5
+    ],
+    [
+      "grocery shopping for the week (entering the grocery store and grabbing a shopping cart)",
+      5
+    ],
+    [
+      "continuing grocery shopping for the week (checking her grocery list for items needed)",
+      5
+    ],
+    [
+      "continuing grocery shopping for the week (walking to the produce section)",
+      5
+    ],
+    [
+      "continuing grocery shopping for the week (selecting fresh fruits)",
+      10
+    ],
+    [
+      "continuing grocery shopping for the week (selecting fresh vegetables)",
+      10
+    ],
+    [
+      "continuing grocery shopping for the week (walking to the dairy section)",
+      5
+    ],
+    [
+      "continuing grocery shopping for the week (picking up milk and cheese)",
+      10
+    ],
+    [
+      "continuing grocery shopping for the week (walking to the meat section)",
+      5
+    ],
+    [
+      "continuing grocery shopping for the week (selecting chicken and beef)",
+      10
+    ],
+    [
+      "preparing dinner ingredients and starting to cook",
+      46
+    ],
+    [
+      "continuing to prepare dinner and setting the table for her family",
+      60
+    ],
+    [
+      "sitting down for dinner with her family",
+      120
+    ],
+    [
+      "relaxing and spending quality time with her family",
+      60
+    ],
+    [
+      "relaxing and enjoying her evening with her family",
+      120
+    ],
+    [
+      "relaxing and winding down for the night",
+      60
+    ],
+    [
+      "sleeping",
+      60
+    ],
+    [
+      "sleeping",
+      6
+    ],
+    [
+      "sleeping",
+      2
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "helping her kids with their schoolwork",
+      60
+    ],
+    [
+      "doing household chores and organizing tasks",
+      60
+    ],
+    [
+      "continuing household chores and organizing tasks",
+      60
+    ],
+    [
+      "having lunch with her family",
+      60
+    ],
+    [
+      "grocery shopping for the week",
+      60
+    ],
+    [
+      "continuing grocery shopping for the week",
+      60
+    ],
+    [
+      "preparing dinner ingredients and starting to cook",
+      60
+    ],
+    [
+      "continuing to prepare dinner and setting the table for her family",
+      60
+    ],
+    [
+      "sitting down for dinner with her family",
+      120
+    ],
+    [
+      "relaxing and spending quality time with her family",
+      60
+    ],
+    [
+      "relaxing and enjoying her evening with her family",
+      120
+    ],
+    [
+      "relaxing and winding down for the night",
+      60
+    ],
+    [
+      "sleeping",
+      60
+    ]
+  ],
+  "act_address": "<persona> Klaus Mueller",
+  "act_start_time": "February 13, 2023, 13:12:40",
+  "act_duration": 19,
+  "act_description": "conversing about Klaus Mueller and Jane Moreno discussing local mayoral candidates, their policies on affordable housing and community engagement, and the importance of staying informed and involved in the election process.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Jane Moreno",
+    "chat with",
+    "Klaus Mueller"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Klaus Mueller",
+  "chat": [
+    [
+      "Klaus Mueller",
+      "Hey Jane! How's your grocery shopping going? Any interesting finds today?"
+    ],
+    [
+      "Jane Moreno",
+      "Hi Klaus! It's going pretty well. I found some fresh vegetables and a great deal on pasta for dinner. How about you? How's your day going?"
+    ],
+    [
+      "Klaus Mueller",
+      "That's great to hear! I'm just taking a break from writing my paper on gentrification. Have you heard anything about the local mayoral candidates? I could use some insights."
+    ],
+    [
+      "Jane Moreno",
+      "Yes, I've been discussing the candidates with some friends. There are a few that seem to have good ideas for supporting local businesses, which is really important. What are your thoughts on the candidates so far?"
+    ],
+    [
+      "Klaus Mueller",
+      "I think it's crucial to have candidates who prioritize community needs, especially in light of gentrification. I'm particularly interested in how their policies might impact low-income neighborhoods. Have any candidates stood out to you?"
+    ],
+    [
+      "Jane Moreno",
+      "Yes, I've noticed a couple of candidates who are focusing on affordable housing and small business support, which I think is essential for maintaining the community's character. I can share some specific names if you're interested. What aspects of their policies are you most curious about?"
+    ],
+    [
+      "Klaus Mueller",
+      "I'd love to hear the specific names of those candidates. I'm particularly curious about their plans for affordable housing and how they aim to support small businesses without pushing out the existing community members. It's such an important issue right now."
+    ],
+    [
+      "Jane Moreno",
+      "Sure! One candidate I've been looking into is Sarah Thompson. She has a strong focus on affordable housing and has proposed incentives for small businesses to thrive while keeping the community intact. Another candidate, Mark Rivera, emphasizes community engagement in decision-making, which I find promising. What do you think about their approaches?"
+    ],
+    [
+      "Klaus Mueller",
+      "Those sound like promising candidates! I appreciate Sarah Thompson's focus on affordable housing. It's so vital for keeping our neighborhoods accessible. Community engagement from Mark Rivera is also a great sign. It makes me wonder how they plan to involve residents in their decision-making processes. Have you come across any specific initiatives they might propose?"
+    ],
+    [
+      "Jane Moreno",
+      "Yes, Sarah Thompson mentioned plans for town hall meetings to gather community input on her policies, which I think is a great way to ensure everyone's voice is heard. As for Mark Rivera, he suggested creating advisory boards that include residents from different neighborhoods to advise on community projects. What do you think about those ideas? Do you feel they would be effective in your opinion?"
+    ],
+    [
+      "Klaus Mueller",
+      "I think those ideas could be really effective! Town hall meetings would definitely allow for a diverse range of opinions, and having advisory boards could ensure that decisions reflect the community's needs. It's encouraging to see candidates taking these steps. I'll have to look more into their platforms. Thanks for sharing this info, Jane! Do you think you'll be supporting one of them in the upcoming elections?"
+    ],
+    [
+      "Jane Moreno",
+      "I'm still weighing my options, but I'm leaning towards Sarah Thompson for her strong focus on affordable housing. I think it's so important for our community. How about you? Do you have a candidate in mind yet?"
+    ],
+    [
+      "Klaus Mueller",
+      "I'm still researching, but I find Sarah Thompson's emphasis on affordable housing aligns closely with my views. I want to see how the candidates' plans will actually impact the communities affected by gentrification. Maybe we can keep each other updated as we learn more? It's important to stay informed!"
+    ],
+    [
+      "Jane Moreno",
+      "Absolutely, Klaus! I think it would be great to share insights as we learn more about the candidates. Let's keep each other updated, and maybe we can even attend one of those town hall meetings together. It would be interesting to see how these candidates interact with the community."
+    ],
+    [
+      "Klaus Mueller",
+      "That sounds like a great idea, Jane! I\u2019d love to attend a town hall meeting together. Let\u2019s keep an eye on their schedules and plan for it. Also, if you come across any other candidates worth looking into, please let me know!"
+    ],
+    [
+      "Jane Moreno",
+      "Definitely, Klaus! I'll make sure to keep you posted if I find any other candidates worth considering. And let's keep each other in the loop about town hall meeting schedules. It's important we engage with these issues together!"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Tom Moreno": -1066,
+    "John Lin": 698,
+    "Klaus Mueller": 800
+  },
+  "chatting_end_time": "February 13, 2023, 13:32:00",
+  "act_path_set": true,
+  "planned_path": []
+}

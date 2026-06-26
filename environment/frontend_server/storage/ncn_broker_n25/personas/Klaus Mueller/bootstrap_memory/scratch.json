@@ -1,0 +1,328 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 13:24:50",
+  "curr_tile": [
+    80,
+    32
+  ],
+  "daily_plan_req": "Klaus Mueller goes to the library at Oak Hill College early in the morning, spends his days writing, and eats at Hobbs Cafe.",
+  "name": "Klaus Mueller",
+  "first_name": "Klaus",
+  "last_name": "Mueller",
+  "age": 20,
+  "innate": "kind, inquisitive, passionate",
+  "learned": "Klaus Mueller is a student at Oak Hill College studying sociology. He is passionate about social justice and loves to explore different perspectives.",
+  "currently": "Klaus Mueller is writing a research paper on the effects of gentrification in low-income communities.",
+  "lifestyle": "Klaus Mueller goes to bed around 11pm, awakes up around 7am, eats dinner around 5pm.",
+  "living_area": "the Ville:Dorm for Oak Hill College:Klaus Mueller's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 229,
+  "importance_ele_n": 5,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "go to the library at Oak Hill College by 8:30 am",
+    "spend the morning researching and taking notes for the gentrification paper until 12:00 pm",
+    "have lunch at Hobbs Cafe from 12:15 pm to 1:00 pm",
+    "continue writing and working on the paper from 1:15 pm to 4:30 pm",
+    "take a break and relax for a bit, possibly read a book or catch up with friends from 4:30 pm to 5:00 pm",
+    "eat dinner at 5:00 pm",
+    "finish any remaining work on the research paper from 6:00 pm to 9:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "researching and taking notes for the gentrification paper at the library (researching online databases for articles on gentrification)",
+      15
+    ],
+    [
+      "researching and taking notes for the gentrification paper at the library (on the way to selecting relevant articles to read)",
+      0
+    ],
+    [
+      "researching and taking notes for the gentrification paper at the library (conversing about Klaus Mueller and Ayesha Khan discussing gentrification research and its intersection with literature, including recommendations for books and plans to meet later in the week.)",
+      15
+    ],
+    [
+      "researching and taking notes for the gentrification paper at the library (reading the first article and taking notes)",
+      15
+    ],
+    [
+      "researching and taking notes for the gentrification paper at the library (summarizing key points from the first article)",
+      20
+    ],
+    [
+      "continuing to research and take notes for the gentrification paper at the library (continuing to read articles on gentrification)",
+      30
+    ],
+    [
+      "continuing to research and take notes for the gentrification paper at the library (taking detailed notes on key points from the articles)",
+      30
+    ],
+    [
+      "continuing to research and take notes for the gentrification paper at the library (organizing his notes into categories)",
+      20
+    ],
+    [
+      "continuing to research and take notes for the gentrification paper at the library (identifying gaps in his research and making a list of additional sources to find)",
+      15
+    ],
+    [
+      "continuing to research and take notes for the gentrification paper at the library (on the way to reviewing his notes for clarity and completeness)",
+      0
+    ],
+    [
+      "continuing to research and take notes for the gentrification paper at the library (conversing about Klaus Mueller and Ayesha Khan discussing their research on gentrification through literature, exploring connections between Shakespeare's works and contemporary texts, and planning a meeting to analyze various literary pieces related to their thesis.)",
+      20
+    ],
+    [
+      "continuing to research and take notes for the gentrification paper at the library (preparing to pack up his materials and head to lunch)",
+      5
+    ],
+    [
+      "taking a break for lunch at Hobbs Cafe (ordering his lunch)",
+      10
+    ],
+    [
+      "taking a break for lunch at Hobbs Cafe (waiting for his order to be prepared)",
+      5
+    ],
+    [
+      "taking a break for lunch at Hobbs Cafe (picking up his order)",
+      5
+    ],
+    [
+      "taking a break for lunch at Hobbs Cafe (finding a table to sit at)",
+      5
+    ],
+    [
+      "taking a break for lunch at Hobbs Cafe (on the way to setting up his table with his food and drink)",
+      0
+    ],
+    [
+      "taking a break for lunch at Hobbs Cafe (conversing about Giorgio Rossi and Klaus Mueller discussing their collaboration on Valentine's Day decorations that incorporate mathematical patterns, themes of love and community, and eco-friendly materials.)",
+      21
+    ],
+    [
+      "taking a break for lunch at Hobbs Cafe (taking a moment to relax and enjoy the ambiance of the cafe)",
+      5
+    ],
+    [
+      "taking a break for lunch at Hobbs Cafe (eating his lunch)",
+      20
+    ],
+    [
+      "taking a break for lunch at Hobbs Cafe (on the way to finishing his meal and drinking the last of his beverage)",
+      0
+    ],
+    [
+      "taking a break for lunch at Hobbs Cafe (conversing about Klaus Mueller and Jane Moreno discussing local mayoral candidates, their policies on affordable housing and community engagement, and the importance of staying informed and involved in the election process.)",
+      19
+    ],
+    [
+      "continuing to write and work on the gentrification paper at the library (continuing his research on gentrification)",
+      30
+    ],
+    [
+      "continuing to write and work on the gentrification paper at the library (outlining the main arguments for his paper)",
+      30
+    ],
+    [
+      "continuing to write and work on the gentrification paper at the library (writing the introduction section of the paper)",
+      30
+    ],
+    [
+      "continuing to write and work on the gentrification paper at the library (drafting the first body paragraph)",
+      30
+    ],
+    [
+      "continuing to write and work on the gentrification paper at the library (taking a short break to stretch and refresh)",
+      10
+    ],
+    [
+      "continuing to write and work on the gentrification paper at the library (continuing to draft the second body paragraph)",
+      30
+    ],
+    [
+      "continuing to write and work on the gentrification paper at the library (researching additional sources to support his arguments)",
+      30
+    ],
+    [
+      "continuing to write and work on the gentrification paper at the library (drafting the third body paragraph)",
+      16
+    ],
+    [
+      "continuing to write and work on the gentrification paper at the library (reviewing and editing the sections he has written so far)",
+      4
+    ],
+    [
+      "eating dinner at Hobbs Cafe",
+      60
+    ],
+    [
+      "finishing any remaining work on the research paper at the library",
+      60
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends",
+      180
+    ],
+    [
+      "preparing for bed and winding down for the night",
+      120
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "researching and taking notes for the gentrification paper at the library",
+      60
+    ],
+    [
+      "continuing to research and take notes for the gentrification paper at the library",
+      120
+    ],
+    [
+      "taking a break for lunch at Hobbs Cafe",
+      60
+    ],
+    [
+      "continuing to write and work on the gentrification paper at the library",
+      240
+    ],
+    [
+      "eating dinner at Hobbs Cafe",
+      60
+    ],
+    [
+      "finishing any remaining work on the research paper at the library",
+      60
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends",
+      180
+    ],
+    [
+      "preparing for bed and winding down for the night",
+      120
+    ]
+  ],
+  "act_address": "<persona> Jane Moreno",
+  "act_start_time": "February 13, 2023, 13:12:50",
+  "act_duration": 19,
+  "act_description": "conversing about Klaus Mueller and Jane Moreno discussing local mayoral candidates, their policies on affordable housing and community engagement, and the importance of staying informed and involved in the election process.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Klaus Mueller",
+    "chat with",
+    "Jane Moreno"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Jane Moreno",
+  "chat": [
+    [
+      "Klaus Mueller",
+      "Hey Jane! How's your grocery shopping going? Any interesting finds today?"
+    ],
+    [
+      "Jane Moreno",
+      "Hi Klaus! It's going pretty well. I found some fresh vegetables and a great deal on pasta for dinner. How about you? How's your day going?"
+    ],
+    [
+      "Klaus Mueller",
+      "That's great to hear! I'm just taking a break from writing my paper on gentrification. Have you heard anything about the local mayoral candidates? I could use some insights."
+    ],
+    [
+      "Jane Moreno",
+      "Yes, I've been discussing the candidates with some friends. There are a few that seem to have good ideas for supporting local businesses, which is really important. What are your thoughts on the candidates so far?"
+    ],
+    [
+      "Klaus Mueller",
+      "I think it's crucial to have candidates who prioritize community needs, especially in light of gentrification. I'm particularly interested in how their policies might impact low-income neighborhoods. Have any candidates stood out to you?"
+    ],
+    [
+      "Jane Moreno",
+      "Yes, I've noticed a couple of candidates who are focusing on affordable housing and small business support, which I think is essential for maintaining the community's character. I can share some specific names if you're interested. What aspects of their policies are you most curious about?"
+    ],
+    [
+      "Klaus Mueller",
+      "I'd love to hear the specific names of those candidates. I'm particularly curious about their plans for affordable housing and how they aim to support small businesses without pushing out the existing community members. It's such an important issue right now."
+    ],
+    [
+      "Jane Moreno",
+      "Sure! One candidate I've been looking into is Sarah Thompson. She has a strong focus on affordable housing and has proposed incentives for small businesses to thrive while keeping the community intact. Another candidate, Mark Rivera, emphasizes community engagement in decision-making, which I find promising. What do you think about their approaches?"
+    ],
+    [
+      "Klaus Mueller",
+      "Those sound like promising candidates! I appreciate Sarah Thompson's focus on affordable housing. It's so vital for keeping our neighborhoods accessible. Community engagement from Mark Rivera is also a great sign. It makes me wonder how they plan to involve residents in their decision-making processes. Have you come across any specific initiatives they might propose?"
+    ],
+    [
+      "Jane Moreno",
+      "Yes, Sarah Thompson mentioned plans for town hall meetings to gather community input on her policies, which I think is a great way to ensure everyone's voice is heard. As for Mark Rivera, he suggested creating advisory boards that include residents from different neighborhoods to advise on community projects. What do you think about those ideas? Do you feel they would be effective in your opinion?"
+    ],
+    [
+      "Klaus Mueller",
+      "I think those ideas could be really effective! Town hall meetings would definitely allow for a diverse range of opinions, and having advisory boards could ensure that decisions reflect the community's needs. It's encouraging to see candidates taking these steps. I'll have to look more into their platforms. Thanks for sharing this info, Jane! Do you think you'll be supporting one of them in the upcoming elections?"
+    ],
+    [
+      "Jane Moreno",
+      "I'm still weighing my options, but I'm leaning towards Sarah Thompson for her strong focus on affordable housing. I think it's so important for our community. How about you? Do you have a candidate in mind yet?"
+    ],
+    [
+      "Klaus Mueller",
+      "I'm still researching, but I find Sarah Thompson's emphasis on affordable housing aligns closely with my views. I want to see how the candidates' plans will actually impact the communities affected by gentrification. Maybe we can keep each other updated as we learn more? It's important to stay informed!"
+    ],
+    [
+      "Jane Moreno",
+      "Absolutely, Klaus! I think it would be great to share insights as we learn more about the candidates. Let's keep each other updated, and maybe we can even attend one of those town hall meetings together. It would be interesting to see how these candidates interact with the community."
+    ],
+    [
+      "Klaus Mueller",
+      "That sounds like a great idea, Jane! I\u2019d love to attend a town hall meeting together. Let\u2019s keep an eye on their schedules and plan for it. Also, if you come across any other candidates worth looking into, please let me know!"
+    ],
+    [
+      "Jane Moreno",
+      "Definitely, Klaus! I'll make sure to keep you posted if I find any other candidates worth considering. And let's keep each other in the loop about town hall meeting schedules. It's important we engage with these issues together!"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Ayesha Khan": 272,
+    "Giorgio Rossi": 566,
+    "Jane Moreno": 800
+  },
+  "chatting_end_time": "February 13, 2023, 13:32:00",
+  "act_path_set": true,
+  "planned_path": []
+}

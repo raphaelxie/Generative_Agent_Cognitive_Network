@@ -1,0 +1,356 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_tile": [
+    79,
+    49
+  ],
+  "daily_plan_req": "",
+  "name": "Ryan Park",
+  "first_name": "Ryan",
+  "last_name": "Park",
+  "age": 29,
+  "innate": "analytical, pragmatic, driven",
+  "learned": "Ryan Park is a software engineer who loves to solve problems. He is constantly looking for ways to improve existing systems.",
+  "currently": "Ryan Park is working on a project to create a new mobile app. He is also reading up on the latest technologies to stay ahead of the curve.",
+  "lifestyle": "Ryan Park goes to bed around 1am, awakes up around 9am, eats dinner around 5pm.",
+  "living_area": "the Ville:Ryan Park's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 220,
+  "importance_ele_n": 9,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "work on the mobile app project from 9:00 am to 12:00 pm",
+    "have lunch and take a short break from 12:00 pm to 1:00 pm",
+    "continue working on the mobile app from 1:00 pm to 4:00 pm",
+    "read up on the latest technologies from 4:00 pm to 5:00 pm",
+    "have dinner at 5:00 pm",
+    "take some time to relax and unwind from 5:30 pm to 7:00 pm",
+    "engage in personal projects or side work from 7:00 pm to 9:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "working on the mobile app project (1) Ryan is reviewing the project requirements and specifications)",
+      15
+    ],
+    [
+      "working on the mobile app project (researching the latest technologies and frameworks relevant to the app)",
+      30
+    ],
+    [
+      "working on the mobile app project (on the way to UI) design)",
+      0
+    ],
+    [
+      "working on the mobile app project (conversing about Ryan Park and Tom Moreno discussing Maria Lopez's initiatives to support local businesses in the upcoming mayoral election, focusing on the potential impact of workshops and community engagement.)",
+      21
+    ],
+    [
+      "working on the mobile app project (setting up the development environment and tools)",
+      15
+    ],
+    [
+      "working on the mobile app project (writing the initial code for the app's core functionality)",
+      30
+    ],
+    [
+      "working on the mobile app project (testing the initial code to ensure it works as intended)",
+      15
+    ],
+    [
+      "working on the mobile app project (debugging any issues found during testing)",
+      30
+    ],
+    [
+      "working on the mobile app project (on the way to documenting the code and writing comments for clarity)",
+      0
+    ],
+    [
+      "working on the mobile app project (conversing about Ryan Park and John Lin discussing plans for a spring festival cocktail workshop, including promotion strategies, tech integration, and community involvement.)",
+      14
+    ],
+    [
+      "working on the mobile app project (preparing a summary of progress made on the project)",
+      5
+    ],
+    [
+      "having lunch and taking a short break (preparing his lunch)",
+      11
+    ],
+    [
+      "having lunch and taking a short break (eating his lunch)",
+      20
+    ],
+    [
+      "having lunch and taking a short break (cleaning up after lunch)",
+      10
+    ],
+    [
+      "having lunch and taking a short break (taking a short walk around his apartment)",
+      10
+    ],
+    [
+      "having lunch and taking a short break (relaxing and listening to music)",
+      5
+    ],
+    [
+      "continuing to work on the mobile app project (continuing to code the mobile app features)",
+      30
+    ],
+    [
+      "continuing to work on the mobile app project (reviewing the code for errors)",
+      20
+    ],
+    [
+      "continuing to work on the mobile app project (debugging the app)",
+      30
+    ],
+    [
+      "continuing to work on the mobile app project (testing the app on different devices)",
+      30
+    ],
+    [
+      "continuing to work on the mobile app project (on the way to on the way to gathering feedback from test users)",
+      0
+    ],
+    [
+      "continuing to work on the mobile app project (conversing about Ryan Park and Yuriko Yamamoto discussing the progress of their respective projects, including tax compliance workshops and a mobile app, and brainstorming ways to integrate technology to enhance community engagement.)",
+      13
+    ],
+    [
+      "continuing to work on the mobile app project (conversing about Adam Smith and Ryan Park discussing the development of an app focused on enhancing community engagement through features like local event integration, user-generated content, and promotional strategies.)",
+      20
+    ],
+    [
+      "continuing to work on the mobile app project (on the way to on the way to analyzing the feedback and making notes)",
+      0
+    ],
+    [
+      "continuing to work on the mobile app project (conversing about Arthur Burton and Ryan Park discussing collaboration on integrating local event features into an app, specifically promoting a Valentine's Day event with community involvement and user-generated content.)",
+      12
+    ],
+    [
+      "continuing to work on the mobile app project (on the way to conversing about Rajiv Patel and Ryan Park discussing their collaboration on integrating community engagement features into a mobile app and an art show, including interactive elements and audience participation.)",
+      0
+    ],
+    [
+      "continuing to work on the mobile app project (conversing about Hailey Johnson and Ryan Park discussing how to collaborate on an app for a Valentine's Day event by incorporating local stories and features from small businesses to enhance community engagement.)",
+      21
+    ],
+    [
+      "continuing to work on the mobile app project (implementing changes based on feedback)",
+      13
+    ],
+    [
+      "reading up on the latest technologies",
+      47
+    ],
+    [
+      "having dinner (on the way to preparing the ingredients for dinner)",
+      0
+    ],
+    [
+      "having dinner (conversing about Tom Moreno and Ryan Park discussing how to leverage technology to enhance community engagement for local businesses, particularly in relation to upcoming initiatives by Maria Lopez, and planning a meeting to brainstorm app features and potential partnerships.)",
+      16
+    ],
+    [
+      "having dinner (cooking the main dish)",
+      20
+    ],
+    [
+      "having dinner (setting the dining table)",
+      5
+    ],
+    [
+      "having dinner (plating the food)",
+      5
+    ],
+    [
+      "having dinner (pouring a drink)",
+      5
+    ],
+    [
+      "having dinner (sitting down to eat)",
+      15
+    ],
+    [
+      "relaxing and unwinding",
+      54
+    ],
+    [
+      "engaging in personal projects or side work",
+      180
+    ],
+    [
+      "working on personal projects or side work",
+      60
+    ],
+    [
+      "engaging in personal projects or side work",
+      60
+    ],
+    [
+      "sleeping",
+      9
+    ],
+    [
+      "sleeping",
+      4
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "working on the mobile app project",
+      180
+    ],
+    [
+      "having lunch and taking a short break",
+      60
+    ],
+    [
+      "continuing to work on the mobile app project",
+      180
+    ],
+    [
+      "reading up on the latest technologies",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing and unwinding",
+      60
+    ],
+    [
+      "engaging in personal projects or side work",
+      180
+    ],
+    [
+      "working on personal projects or side work",
+      60
+    ],
+    [
+      "engaging in personal projects or side work",
+      60
+    ]
+  ],
+  "act_address": "<persona> Tom Moreno",
+  "act_start_time": "February 13, 2023, 16:10:00",
+  "act_duration": 16,
+  "act_description": "conversing about Tom Moreno and Ryan Park discussing how to leverage technology to enhance community engagement for local businesses, particularly in relation to upcoming initiatives by Maria Lopez, and planning a meeting to brainstorm app features and potential partnerships.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Ryan Park",
+    "chat with",
+    "Tom Moreno"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Tom Moreno",
+  "chat": [
+    [
+      "Tom Moreno",
+      "Hey Ryan, I see you\u2019re diving into the latest tech! Have you come across anything that could help local businesses like ours? I\u2019m really interested in how technology can support our community, especially with the upcoming mayoral election and the initiatives Maria Lopez is proposing."
+    ],
+    [
+      "Ryan Park",
+      "Absolutely, Tom! I've been looking into some mobile app features that could really enhance community engagement, especially with the workshops Maria Lopez is proposing. I think integrating local business promotions and user-generated content could make a big difference. What do you think?"
+    ],
+    [
+      "Tom Moreno",
+      "That sounds promising! I think having a platform where customers can share their experiences and local businesses can promote their events would really foster a sense of community. Maybe we could even host a workshop on how to use the app effectively once it's ready. What other features do you think would be beneficial?"
+    ],
+    [
+      "Ryan Park",
+      "I think we should also consider integrating a calendar feature that highlights upcoming local events and workshops. This could help businesses plan better and increase participation. Plus, a feedback system could allow users to share their thoughts on events and services, making it a more interactive experience. What do you think about that idea?"
+    ],
+    [
+      "Tom Moreno",
+      "I love that idea! A calendar feature would definitely help us stay organized and keep the community informed about what's happening. Plus, the feedback system could provide valuable insights for improving our events. We should start brainstorming how to implement these features and maybe even reach out to Maria Lopez to see if she can help promote it. What do you think?"
+    ],
+    [
+      "Ryan Park",
+      "That's a great idea, Tom! I think reaching out to Maria Lopez could really amplify our efforts. We could also think about including partnerships with local businesses for special promotions or discounts through the app. It would be a win-win for everyone involved! Let's set a time to brainstorm further on this."
+    ],
+    [
+      "Tom Moreno",
+      "Absolutely, Ryan! Let's set a time this week to brainstorm. I can reach out to Sarah from the bakery as well; she might have some great ideas for promotions. How does Wednesday sound for our meeting?"
+    ],
+    [
+      "Ryan Park",
+      "Wednesday works for me! Let\u2019s say around 3 PM? We can go over the ideas and see how to approach Maria Lopez and Sarah for their input. I\u2019ll also jot down some more features we can discuss."
+    ],
+    [
+      "Tom Moreno",
+      "Sounds good, Ryan! I\u2019ll make sure to gather some feedback from our customers about what they\u2019d like to see in the app and bring that to our meeting. I\u2019m excited to see where this goes!"
+    ],
+    [
+      "Ryan Park",
+      "Great! I'll finalize my notes and bring some ideas for local business partnerships as well. Looking forward to our meeting on Wednesday at 3 PM!"
+    ],
+    [
+      "Tom Moreno",
+      "Awesome, Ryan! I\u2019ll also make a list of potential speakers for the workshop and any topics that could be relevant for our local businesses. I think having a clear agenda will help us make the most of our brainstorming session. Anything else you want me to prepare?"
+    ],
+    [
+      "Ryan Park",
+      "That sounds perfect, Tom! I think having a clear agenda will definitely keep us focused. Maybe we could also consider if there are any local success stories we can highlight during the workshop to inspire others. I\u2019ll think of a few examples to bring as well. Is there anything specific you want to discuss during the meeting?"
+    ],
+    [
+      "Tom Moreno",
+      "That\u2019s a great idea, Ryan! Highlighting local success stories could really motivate others and showcase the potential of our community. I\u2019ll make sure to gather some examples as well. Looking forward to our meeting!"
+    ],
+    [
+      "Ryan Park",
+      "Thanks for your input, Tom! I think we\u2019re on the right track. Let\u2019s keep the communication open as we prepare for the meeting. If I come up with any additional ideas before then, I\u2019ll share them with you. See you Wednesday!"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Tom Moreno": 800,
+    "John Lin": -946,
+    "Adam Smith": 194,
+    "Yuriko Yamamoto": 278,
+    "Rajiv Patel": 374,
+    "Arthur Burton": 452,
+    "Hailey Johnson": 578
+  },
+  "chatting_end_time": "February 13, 2023, 16:26:00",
+  "act_path_set": true,
+  "planned_path": []
+}

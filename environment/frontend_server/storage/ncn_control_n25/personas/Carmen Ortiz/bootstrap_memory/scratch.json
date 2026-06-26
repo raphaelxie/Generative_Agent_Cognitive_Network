@@ -1,0 +1,351 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 13:24:50",
+  "curr_tile": [
+    65,
+    46
+  ],
+  "daily_plan_req": "Carmen opens Harvey Oak Supply Store at 8am, stands behind its counter, and closes it at 6pm, at which point, she likes to go to The Rose and Crown Pub to relax",
+  "name": "Carmen Ortiz",
+  "first_name": "Carmen",
+  "last_name": "Ortiz",
+  "age": 33,
+  "innate": "friendly, outgoing, helpful",
+  "learned": "Carmen Ortiz is a shopkeeper at Harvey Oak Supply Store who loves to help people find the supplies they need. She is always looking for ways to make her customers feel welcome.",
+  "currently": "Carmen Ortiz is managing Harvey Oak Supply Store and lives with a housemate, Tamara Taylor. She is also working on expanding her shop online.",
+  "lifestyle": "Carmen Ortiz goes to bed around 11pm, awakes up around 7am, eats dinner around 8pm.",
+  "living_area": "the Ville:Tamara Taylor and Carmen Ortiz's house:Carmen Ortiz's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 58,
+  "importance_ele_n": 68,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "open Harvey Oak Supply Store at 8:00 am",
+    "assist customers and manage the store until 6:00 pm",
+    "close the store and head to The Rose and Crown Pub for some relaxation from 6:15 pm to 8:00 pm",
+    "return home and prepare dinner at 8:00 pm",
+    "enjoy dinner and unwind from 8:00 pm to 9:00 pm",
+    "work on expanding her shop online from 9:00 pm to 10:30 pm",
+    "relax and wind down before bed from 10:30 pm to 11:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "assisting customers and managing the store (on the way to assisting the first customer with finding paint supplies)",
+      0
+    ],
+    [
+      "assisting customers and managing the store (conversing about Tamara Taylor and Carmen Ortiz discussing Tamara's children's book series, including character development, story ideas, and illustration techniques.)",
+      20
+    ],
+    [
+      "assisting customers and managing the store (restocking shelves with paint supplies)",
+      15
+    ],
+    [
+      "assisting customers and managing the store (assisting the second customer with questions about gardening tools)",
+      15
+    ],
+    [
+      "assisting customers and managing the store (checking inventory for gardening tools)",
+      15
+    ],
+    [
+      "assisting customers and managing the store (assisting the third customer with finding cleaning supplies)",
+      15
+    ],
+    [
+      "assisting customers and managing the store (organizing the cleaning supplies section)",
+      15
+    ],
+    [
+      "assisting customers and managing the store (assisting the fourth customer with a return)",
+      15
+    ],
+    [
+      "assisting customers and managing the store (processing the return in the system)",
+      10
+    ],
+    [
+      "assisting customers and managing the store (taking a short break to hydrate and stretch)",
+      5
+    ],
+    [
+      "assisting customers and managing the store (assisting the fifth customer with finding tools for home repairs)",
+      15
+    ],
+    [
+      "assisting customers and managing the store (demonstrating how to use a specific tool to the customer)",
+      15
+    ],
+    [
+      "assisting customers and managing the store (checking the register for cash and change)",
+      10
+    ],
+    [
+      "assisting customers and managing the store (assisting the sixth customer with a large order of supplies)",
+      15
+    ],
+    [
+      "assisting customers and managing the store (preparing the large order for the customer)",
+      5
+    ],
+    [
+      "continuing to assist customers and manage the store (continuing to assist customers and manage the store)",
+      30
+    ],
+    [
+      "continuing to assist customers and manage the store (restocking shelves with supplies)",
+      30
+    ],
+    [
+      "continuing to assist customers and manage the store (checking inventory levels)",
+      30
+    ],
+    [
+      "continuing to assist customers and manage the store (on the way to helping a customer find a specific item)",
+      0
+    ],
+    [
+      "continuing to assist customers and manage the store (conversing about Jennifer Moore planning a Valentine's Day party with art-themed decorations and live music, while Carmen Ortiz offers support and suggestions.)",
+      12
+    ],
+    [
+      "continuing to assist customers and manage the store (processing a customer\u2019s purchase at the register)",
+      10
+    ],
+    [
+      "continuing to assist customers and manage the store (answering a customer\u2019s question about store policies)",
+      5
+    ],
+    [
+      "continuing to assist customers and manage the store (tidying up the store and organizing displays)",
+      30
+    ],
+    [
+      "continuing to assist customers and manage the store (taking a short break to hydrate)",
+      5
+    ],
+    [
+      "continuing to assist customers and manage the store (assisting another customer with their purchase)",
+      15
+    ],
+    [
+      "continuing to assist customers and manage the store (updating the store\u2019s online inventory system)",
+      30
+    ],
+    [
+      "continuing to assist customers and manage the store (preparing a special display for a new product)",
+      30
+    ],
+    [
+      "continuing to assist customers and manage the store (checking in with her housemate Tamara about dinner plans)",
+      5
+    ],
+    [
+      "continuing to assist customers and manage the store (helping a customer return an item)",
+      10
+    ],
+    [
+      "continuing to assist customers and manage the store (taking another short break to stretch)",
+      5
+    ],
+    [
+      "continuing to assist customers and manage the store (assisting a customer with a large order)",
+      15
+    ],
+    [
+      "continuing to assist customers and manage the store (cleaning the counter area)",
+      10
+    ],
+    [
+      "continuing to assist customers and manage the store (checking the store\u2019s social media for customer inquiries)",
+      15
+    ],
+    [
+      "continuing to assist customers and manage the store (preparing for the end-of-day cash register reconciliation)",
+      30
+    ],
+    [
+      "continuing to assist customers and manage the store (finalizing the store\u2019s closing announcements)",
+      5
+    ],
+    [
+      "continuing to assist customers and manage the store (assisting the last few customers before closing)",
+      15
+    ],
+    [
+      "continuing to assist customers and manage the store (counting the cash in the register)",
+      10
+    ],
+    [
+      "continuing to assist customers and manage the store (locking up the store and turning off the lights)",
+      5
+    ],
+    [
+      "continuing to assist customers and manage the store (heading to The Rose and Crown Pub for some relaxation)",
+      5
+    ],
+    [
+      "closing the store and heading to The Rose and Crown Pub for some relaxation",
+      60
+    ],
+    [
+      "relaxing at The Rose and Crown Pub",
+      60
+    ],
+    [
+      "preparing dinner",
+      60
+    ],
+    [
+      "enjoying dinner and unwinding",
+      60
+    ],
+    [
+      "working on expanding her shop online",
+      60
+    ],
+    [
+      "sleeping",
+      60
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "assisting customers and managing the store",
+      180
+    ],
+    [
+      "continuing to assist customers and manage the store",
+      360
+    ],
+    [
+      "closing the store and heading to The Rose and Crown Pub for some relaxation",
+      60
+    ],
+    [
+      "relaxing at The Rose and Crown Pub",
+      60
+    ],
+    [
+      "preparing dinner",
+      60
+    ],
+    [
+      "enjoying dinner and unwinding",
+      60
+    ],
+    [
+      "working on expanding her shop online",
+      60
+    ],
+    [
+      "sleeping",
+      60
+    ]
+  ],
+  "act_address": "<persona> Jennifer Moore",
+  "act_start_time": "February 13, 2023, 13:12:50",
+  "act_duration": 12,
+  "act_description": "conversing about Jennifer Moore planning a Valentine's Day party with art-themed decorations and live music, while Carmen Ortiz offers support and suggestions.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Carmen Ortiz",
+    "chat with",
+    "Jennifer Moore"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Jennifer Moore",
+  "chat": [
+    [
+      "Carmen Ortiz",
+      "Hey Jennifer! That salad looks delicious. How's your day going so far?"
+    ],
+    [
+      "Jennifer Moore",
+      "Thanks, Carmen! It's really good, especially with the grilled chicken. I've been busy preparing for my upcoming exhibition and planning a Valentine's Day party with Sam. How about you? How's everything going at the store?"
+    ],
+    [
+      "Carmen Ortiz",
+      "It's been a busy day, but I'm loving it! I'm working on some exciting online expansions for the store. And how's the planning for the Valentine's Day party going? Any fun ideas?"
+    ],
+    [
+      "Jennifer Moore",
+      "We're planning to incorporate my watercolor designs into the decorations, along with quotes about art and love. I think it will really set a warm atmosphere. We're also thinking about having some live music and interactive activities. Do you have any suggestions or ideas for the party?"
+    ],
+    [
+      "Carmen Ortiz",
+      "Those ideas sound fantastic! I love the thought of incorporating your watercolor designs; that will definitely create a beautiful ambiance. For interactive activities, maybe you could have a small art station where guests can try their hand at painting or creating something simple. It could be a fun way for everyone to get involved! What kind of live music are you thinking about?"
+    ],
+    [
+      "Jennifer Moore",
+      "I love that idea of an art station! It would be a great way to engage everyone. As for live music, I'm thinking about reaching out to some local musicians. Maybe something acoustic to keep it cozy. Do you know any musicians who might be available?"
+    ],
+    [
+      "Carmen Ortiz",
+      "I actually know a couple of local acoustic musicians! I can send you their contact information if you\u2019d like. They would be perfect for creating that cozy atmosphere. Have you thought about what kind of songs you want them to play?"
+    ],
+    [
+      "Jennifer Moore",
+      "That would be wonderful, Carmen! I'd love to get their contact information. As for the songs, I was thinking something romantic and uplifting, maybe some classic love songs mixed with a few original pieces. What do you think would work well?"
+    ],
+    [
+      "Carmen Ortiz",
+      "That sounds perfect! A mix of classic love songs and original pieces would really set the mood. I can also ask around to see if any other local musicians have recommendations. Would you like me to help with that?"
+    ],
+    [
+      "Jennifer Moore",
+      "That would be amazing, Carmen! I really appreciate your help with this. If you could ask around for more recommendations, that would be fantastic. I want to make sure we have the perfect atmosphere for the party. Thank you!"
+    ],
+    [
+      "Carmen Ortiz",
+      "Of course, Jennifer! I'm happy to help. I'll reach out to my musician friends and get back to you with some recommendations. Is there anything else you need assistance with for the party?"
+    ],
+    [
+      "Jennifer Moore",
+      "I think that's all for now, Carmen! If I think of anything else, I'll be sure to reach out. Thanks again for your support! I'm really looking forward to this party."
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Tamara Taylor": -1024,
+    "Jennifer Moore": 800
+  },
+  "chatting_end_time": "February 13, 2023, 13:25:00",
+  "act_path_set": true,
+  "planned_path": []
+}

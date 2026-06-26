@@ -3527,32 +3527,57 @@ def run_gpt_prompt_ncn_community_group(persona, statements, roster_names,
     numbered = "\n".join(f"{i+1}. {n}" for i, n in enumerate(roster_names))
     return [statements, persona.scratch.name, numbered, str(len(roster_names))]
 
+  def _resolve_name(raw):
+    raw = re.sub(r"^\d+\.\s*", "", raw.strip())
+    raw = raw.strip().rstrip(".")
+    if not raw:
+      return None
+    return roster_set_lower.get(raw.lower())
+
+  def _parse_group_chunks(text):
+    """Split response into group chunks (semicolon single-line or multiline)."""
+    text = text.strip()
+    if not text:
+      return []
+    if ";" in text:
+      return [c.strip() for c in text.split(";") if c.strip()]
+    return [ln.strip() for ln in text.split("\n") if ln.strip()]
+
   def __func_clean_up(gpt_response, prompt=""):
     groups = []
-    for line in gpt_response.strip().split("\n"):
-      line = line.strip()
-      if not line:
-        continue
+    for chunk in _parse_group_chunks(gpt_response):
       m = re.match(
           r"^(?:group\s*)?\d+\s*[:.\-\)]\s*(.+)",
-          line, re.IGNORECASE)
+          chunk, re.IGNORECASE)
       if not m:
-        m = re.match(r"^[-*]\s*(.+)", line)
+        m = re.match(r"^[-*]\s*(.+)", chunk)
       if not m:
         continue
-      raw_names = m.group(1).split(",")
       resolved = []
-      for raw in raw_names:
-        raw = re.sub(r"^\d+\.\s*", "", raw.strip())
-        raw = raw.strip().rstrip(".")
-        if not raw:
-          continue
-        canonical = roster_set_lower.get(raw.lower())
+      for raw in m.group(1).split(","):
+        canonical = _resolve_name(raw)
         if canonical:
           resolved.append(canonical)
       if resolved:
         groups.append(resolved)
-    return groups
+
+    placed = set()
+    deduped = []
+    for group in groups:
+      clean = []
+      for name in group:
+        key = name.lower()
+        if key not in placed:
+          placed.add(key)
+          clean.append(name)
+      if clean:
+        deduped.append(clean)
+
+    for name in roster_names:
+      if name.lower() not in placed:
+        deduped.append([name])
+        placed.add(name.lower())
+    return deduped
 
   def __func_validate(gpt_response, prompt=""):
     try:
@@ -3560,11 +3585,8 @@ def run_gpt_prompt_ncn_community_group(persona, statements, roster_names,
       if not parsed:
         return False
       flat = [name for group in parsed for name in group]
-      if len(flat) != expected_n:
-        return False
-      if len(set(n.lower() for n in flat)) != expected_n:
-        return False
-      return True
+      return (len(flat) == expected_n
+              and len(set(n.lower() for n in flat)) == expected_n)
     except Exception:
       return False
 
@@ -3577,12 +3599,13 @@ def run_gpt_prompt_ncn_community_group(persona, statements, roster_names,
   mid = expected_n // 2
   group_a = roster_names[:mid]
   group_b = roster_names[mid:]
-  example_output = (f"1: {', '.join(group_a)}\n2: {', '.join(group_b)}"
-                    if group_b else f"1: {', '.join(group_a)}")
+  example_output = (
+      f"1: {', '.join(group_a)}; 2: {', '.join(group_b)}"
+      if group_b else f"1: {', '.join(group_a)}")
   special_instruction = (
-    "Output one or more groups as a numbered list. Each line: group number, "
-    "colon, then full names separated by commas. Every person must appear in "
-    "exactly one group. No commentary."
+    "Output ALL groups on ONE line separated by semicolons. Each group: "
+    "number, colon, comma-separated full names. Every person exactly once. "
+    "No commentary."
   )
   fail_safe = [list(roster_names)]
   output = ChatGPT_safe_generate_response(prompt, example_output, special_instruction,

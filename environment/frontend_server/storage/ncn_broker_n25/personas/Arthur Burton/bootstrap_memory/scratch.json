@@ -1,0 +1,334 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 13:24:50",
+  "curr_tile": [
+    54,
+    23
+  ],
+  "daily_plan_req": "Arthur Burton opens The Rose and Crown Pub at 5pm everyday, and stands at the counter until 10pm, at which point he closes the bar.",
+  "name": "Arthur Burton",
+  "first_name": "Arthur",
+  "last_name": "Burton",
+  "age": 42,
+  "innate": "friendly, outgoing, generous",
+  "learned": "Arthur Burton is a bartender and bar owner of The Rose and Crown Pub who loves to make people feel welcome. He is always looking for ways to make his customers feel special.",
+  "currently": "Arthur Burton is running a beloved bar in the town that's been around for 10 years. He is also learning more about mixology and create unique cocktails.",
+  "lifestyle": "Arthur Burton goes to bed around midnight, awakes up around 7am, eats dinner around 4pm.",
+  "living_area": "the Ville:Arthur Burton's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 202,
+  "importance_ele_n": 19,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "have breakfast at 8:30 am",
+    "spend time researching mixology techniques and experimenting with new cocktail recipes from 9:00 am to 12:00 pm",
+    "take a break and enjoy a light lunch at 12:30 pm",
+    "prepare and organize the bar for the evening rush from 1:00 pm to 4:00 pm",
+    "have dinner at 4:00 pm",
+    "unwind and relax with a short walk or some light reading from 4:30 pm to 5:00 pm",
+    "open The Rose and Crown Pub at 5:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "researching mixology techniques and experimenting with new cocktail recipes (researching different mixology techniques online)",
+      15
+    ],
+    [
+      "researching mixology techniques and experimenting with new cocktail recipes (taking notes on the techniques he finds interesting)",
+      10
+    ],
+    [
+      "researching mixology techniques and experimenting with new cocktail recipes (selecting a few cocktail recipes to try out)",
+      10
+    ],
+    [
+      "researching mixology techniques and experimenting with new cocktail recipes (gathering the ingredients needed for the selected cocktails)",
+      10
+    ],
+    [
+      "researching mixology techniques and experimenting with new cocktail recipes (on the way to setting up his workspace for mixing cocktails)",
+      0
+    ],
+    [
+      "researching mixology techniques and experimenting with new cocktail recipes (conversing about Latoya Williams and Arthur Burton discussing their creative projects in mixology and photography, sharing ideas about local political events, and exchanging cocktail recipes and flavor preferences.)",
+      19
+    ],
+    [
+      "researching mixology techniques and experimenting with new cocktail recipes (mixing the first cocktail recipe)",
+      10
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes (on the way to continuing to research mixology techniques online)",
+      0
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes (conversing about Arthur Burton and Adam Smith discussing local election candidates, particularly Maria Lopez, and planning to attend her events together while also exploring new cocktail recipes that incorporate local flavors.)",
+      19
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes (taking notes on interesting techniques and recipes)",
+      15
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes (on the way to selecting ingredients for the new cocktail recipes)",
+      0
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes (conversing about Arthur Burton and Tom Moreno discussing collaboration on cocktails incorporating local flavors for an upcoming workshop hosted by Maria Lopez.)",
+      18
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes (on the way to preparing the bar area for experimentation)",
+      0
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes (conversing about John Lin and Arthur Burton discussing plans for a spring festival cocktail workshop that highlights local produce, engages the community, and involves local farmers and musicians.)",
+      20
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes (mixing the first cocktail recipe)",
+      15
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes (tasting the first cocktail and making notes on adjustments)",
+      10
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes (on the way to mixing the second cocktail recipe)",
+      11
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes (conversing about Arthur Burton and Carlos Gomez collaborating on a Valentine's Day cocktail inspired by the Fibonacci sequence, discussing ingredients, presentation, marketing strategies, and ways to engage customers at the event.)",
+      22
+    ],
+    [
+      "having a light lunch",
+      47
+    ],
+    [
+      "preparing and organizing the bar for the evening rush (on the way to cleaning the bar top and surfaces)",
+      0
+    ],
+    [
+      "preparing and organizing the bar for the evening rush (conversing about Adam Smith and Arthur Burton discussing plans for Maria Lopez's campaign updates and organizing a Valentine's Day party and art exhibition that involves local artists, schools, and musicians to enhance community engagement.)",
+      20
+    ],
+    [
+      "preparing and organizing the bar for the evening rush (restocking the liquor shelves)",
+      15
+    ],
+    [
+      "preparing and organizing the bar for the evening rush (checking the inventory of mixers and garnishes)",
+      10
+    ],
+    [
+      "preparing and organizing the bar for the evening rush (preparing cocktail garnishes (e.g., slicing lemons, limes, and herbs))",
+      10
+    ],
+    [
+      "preparing and organizing the bar for the evening rush (organizing glassware and ensuring everything is clean and ready)",
+      10
+    ],
+    [
+      "continuing to prepare and organize the bar for the evening rush",
+      115
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "opening The Rose and Crown Pub",
+      60
+    ],
+    [
+      "unwinding and relaxing with a short walk or some light reading",
+      60
+    ],
+    [
+      "engaging with customers and serving drinks at The Rose and Crown Pub",
+      180
+    ],
+    [
+      "closing The Rose and Crown Pub for the night",
+      60
+    ],
+    [
+      "closing up any remaining tasks at The Rose and Crown Pub before heading home for the night",
+      60
+    ],
+    [
+      "sleeping",
+      11
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "researching mixology techniques and experimenting with new cocktail recipes",
+      60
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes",
+      120
+    ],
+    [
+      "having a light lunch",
+      60
+    ],
+    [
+      "preparing and organizing the bar for the evening rush",
+      60
+    ],
+    [
+      "continuing to prepare and organize the bar for the evening rush",
+      120
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "opening The Rose and Crown Pub",
+      60
+    ],
+    [
+      "unwinding and relaxing with a short walk or some light reading",
+      60
+    ],
+    [
+      "engaging with customers and serving drinks at The Rose and Crown Pub",
+      180
+    ],
+    [
+      "closing The Rose and Crown Pub for the night",
+      60
+    ],
+    [
+      "closing up any remaining tasks at The Rose and Crown Pub before heading home for the night",
+      60
+    ]
+  ],
+  "act_address": "<persona> Adam Smith",
+  "act_start_time": "February 13, 2023, 13:06:50",
+  "act_duration": 20,
+  "act_description": "conversing about Adam Smith and Arthur Burton discussing plans for Maria Lopez's campaign updates and organizing a Valentine's Day party and art exhibition that involves local artists, schools, and musicians to enhance community engagement.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Arthur Burton",
+    "chat with",
+    "Adam Smith"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Adam Smith",
+  "chat": [
+    [
+      "Adam Smith",
+      "Hey Arthur, I was just thinking about our plans to attend Maria Lopez's events. Have you seen any updates on her campaign lately? Also, I\u2019ve been brainstorming some ideas for that Valentine's Day party and art exhibition. I think involving local artists and schools could really enhance community engagement. What do you think?"
+    ],
+    [
+      "Arthur Burton",
+      "I haven't seen any recent updates on Maria Lopez's campaign, but I can check her social media later. I love your idea about involving local artists and schools for the Valentine's Day party and art exhibition! It would really bring the community together. Maybe we can brainstorm some specific activities or artists to invite?"
+    ],
+    [
+      "Adam Smith",
+      "Great! I was thinking we could have some interactive art stations where people can create their own pieces, and maybe even a small performance area for local musicians. Do you have any artists in mind that we could reach out to?"
+    ],
+    [
+      "Arthur Burton",
+      "I think reaching out to some local artists from the community art center could be a great start. We could also consider some high school art students for fresh perspectives. What do you think about including a local musician duo for live performances? It could really set a nice vibe for the event!"
+    ],
+    [
+      "Adam Smith",
+      "I love the idea of including a local musician duo! It would definitely enhance the atmosphere. Let's make a list of potential artists and musicians we can reach out to. Maybe we can finalize our ideas by the end of the week so we can start contacting them. What do you think about setting a time to meet again this week to discuss everything in detail?"
+    ],
+    [
+      "Arthur Burton",
+      "That sounds perfect! How about we meet up on Thursday afternoon? We can go over our list and finalize everything. I\u2019ll also check in with the community art center to see which artists might be available. I'm looking forward to making this event special!"
+    ],
+    [
+      "Adam Smith",
+      "Thursday works for me! Let's say around 3 PM? I'll make sure to prepare my list of artists and musicians to discuss. I'm really excited about this event and think it could be a great opportunity for the community. Also, if you hear back from Maria Lopez's campaign, let me know what you find out!"
+    ],
+    [
+      "Arthur Burton",
+      "Absolutely, I'll keep you updated on any news from Maria Lopez's campaign. I'm really excited about our plans for the Valentine's Day event. I'll see you Thursday at 3 PM!"
+    ],
+    [
+      "Adam Smith",
+      "Thanks, Arthur! I appreciate you checking in with the community art center. I'll also gather some articles about Maria Lopez's initiatives to share during our next meeting. If anything else comes to mind for the Valentine's Day event, feel free to reach out. See you Thursday!"
+    ],
+    [
+      "Arthur Burton",
+      "Sounds good, Adam! I\u2019ll also think of some fun interactive ideas for the art stations. I can\u2019t wait to see what you come up with as well. Let\u2019s make this event memorable for everyone! See you soon!"
+    ],
+    [
+      "Adam Smith",
+      "Perfect! I\u2019ll also think about some interactive elements we could include, like maybe a community mural project where attendees can contribute. Let\u2019s keep the ideas flowing until Thursday!"
+    ],
+    [
+      "Arthur Burton",
+      "I love the idea of a community mural project! That would really encourage participation and creativity. Let\u2019s definitely explore that further. Also, if you need any help with gathering materials or setting up the art stations, just let me know. I\u2019m here to help!"
+    ],
+    [
+      "Adam Smith",
+      "Thanks, Arthur! I really appreciate your willingness to help. I'll start drafting a list of materials we might need for the art stations and the mural project. Also, we should think about ways to promote the event to ensure we get a good turnout. Do you have any ideas on that?"
+    ],
+    [
+      "Arthur Burton",
+      "I think we could use social media to promote the event, maybe create an event page and encourage local artists to share it on their platforms as well. We could also put up flyers around town and reach out to local businesses to see if they\u2019d be willing to help spread the word. What do you think?"
+    ],
+    [
+      "Adam Smith",
+      "Those are great ideas! I especially like the idea of creating an event page and getting local artists involved in sharing it. I\u2019ll draft a flyer design we could use. Let\u2019s also think about some local businesses we could approach for sponsorship or collaboration to increase visibility. Do you have any specific businesses in mind that we could reach out to?"
+    ],
+    [
+      "Arthur Burton",
+      "I think we could reach out to some local cafes and shops that align with the community vibe, like the bakery on Main Street or the bookstore downtown. They might be interested in supporting a local event. We could also consider contacting the local grocery store; they often like to be involved in community activities. What do you think?"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Latoya Williams": -460,
+    "Adam Smith": 800,
+    "Tom Moreno": -124,
+    "John Lin": 8,
+    "Carlos Gomez": 392
+  },
+  "chatting_end_time": "February 13, 2023, 13:27:00",
+  "act_path_set": true,
+  "planned_path": []
+}
