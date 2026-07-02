@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    79,
-    49
+    59,
+    25
   ],
   "daily_plan_req": "",
   "name": "Ryan Park",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 220,
-  "importance_ele_n": 9,
+  "importance_trigger_curr": 76,
+  "importance_ele_n": 54,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 8:00 am",
@@ -167,12 +167,20 @@
       47
     ],
     [
-      "having dinner (on the way to preparing the ingredients for dinner)",
+      "having dinner (on the way to on the way to preparing the ingredients for dinner)",
       0
     ],
     [
-      "having dinner (conversing about Tom Moreno and Ryan Park discussing how to leverage technology to enhance community engagement for local businesses, particularly in relation to upcoming initiatives by Maria Lopez, and planning a meeting to brainstorm app features and potential partnerships.)",
-      16
+      "having dinner (conversing about Ryan Park and Giorgio Rossi discussing plans for a Valentine's Day party that incorporates local stories, poetry, and interactive art elements to engage the community.)",
+      20
+    ],
+    [
+      "having dinner (on the way to conversing about Tom Moreno and Ryan Park discussing how to leverage technology to enhance community engagement for local businesses, particularly in relation to upcoming initiatives by Maria Lopez, and planning a meeting to brainstorm app features and potential partnerships.)",
+      0
+    ],
+    [
+      "having dinner (conversing about Mei Lin and Ryan Park discussing plans for a Valentine's Day party that incorporates local stories, interactive art, and collaboration with local artists.)",
+      20
     ],
     [
       "having dinner (cooking the main dish)",
@@ -192,19 +200,79 @@
     ],
     [
       "having dinner (sitting down to eat)",
-      15
+      11
     ],
     [
       "relaxing and unwinding",
-      54
+      34
     ],
     [
-      "engaging in personal projects or side work",
-      180
+      "engaging in personal projects or side work (on the way to on the way to 1) Ryan is setting up his workspace for the evening)",
+      0
+    ],
+    [
+      "engaging in personal projects or side work (conversing about Sam Moore and Ryan Park discussing their upcoming Valentine's Day party, incorporating technology for community engagement, and planning a meeting with local artists and businesses to brainstorm ideas.)",
+      14
+    ],
+    [
+      "engaging in personal projects or side work (on the way to conversing about Ryan Park and Isabella Rodriguez discussing the details and planning for an upcoming Valentine's Day party, including incorporating local businesses and their products into the event.)",
+      0
+    ],
+    [
+      "engaging in personal projects or side work (conversing about Eddy Lin and Ryan Park discussing ideas for incorporating technology and user-generated content into the Valentine's Day party, including prompts for attendees to share their stories and photos.)",
+      15
+    ],
+    [
+      "engaging in personal projects or side work (on the way to reviewing his project goals and objectives)",
+      0
+    ],
+    [
+      "engaging in personal projects or side work (conversing about Ryan Park and Klaus Mueller discussing plans for a Valentine's Day party, focusing on incorporating local artists, interactive elements, and technology to enhance attendee engagement.)",
+      18
+    ],
+    [
+      "engaging in personal projects or side work (on the way to brainstorming new features for the mobile app)",
+      0
+    ],
+    [
+      "engaging in personal projects or side work (conversing about Arthur Burton and Ryan Park discussing the features of an app for a Valentine's Day event, brainstorming ideas for community engagement, promoting user-generated content, planning a kickoff event for February 17th, and coordinating logistics for their collaboration.)",
+      17
+    ],
+    [
+      "engaging in personal projects or side work (researching the latest technologies relevant to his project)",
+      20
+    ],
+    [
+      "engaging in personal projects or side work (outlining the app's user interface design)",
+      15
+    ],
+    [
+      "engaging in personal projects or side work (sketching wireframes for the app)",
+      20
+    ],
+    [
+      "engaging in personal projects or side work (coding the initial version of a new feature)",
+      30
+    ],
+    [
+      "engaging in personal projects or side work (testing the new feature for bugs and issues)",
+      20
+    ],
+    [
+      "engaging in personal projects or side work (documenting the changes made to the project)",
+      15
+    ],
+    [
+      "engaging in personal projects or side work (reviewing the documentation for clarity and completeness)",
+      10
+    ],
+    [
+      "engaging in personal projects or side work (making adjustments based on the review of the documentation)",
+      4
     ],
     [
       "working on personal projects or side work",
-      60
+      38
     ],
     [
       "engaging in personal projects or side work",
@@ -213,6 +281,10 @@
     [
       "sleeping",
       9
+    ],
+    [
+      "sleeping",
+      4
     ],
     [
       "sleeping",
@@ -265,15 +337,15 @@
       60
     ]
   ],
-  "act_address": "<persona> Tom Moreno",
-  "act_start_time": "February 13, 2023, 16:10:00",
-  "act_duration": 16,
-  "act_description": "conversing about Tom Moreno and Ryan Park discussing how to leverage technology to enhance community engagement for local businesses, particularly in relation to upcoming initiatives by Maria Lopez, and planning a meeting to brainstorm app features and potential partnerships.",
+  "act_address": "<persona> Arthur Burton",
+  "act_start_time": "February 13, 2023, 19:29:40",
+  "act_duration": 17,
+  "act_description": "conversing about Arthur Burton and Ryan Park discussing the features of an app for a Valentine's Day event, brainstorming ideas for community engagement, promoting user-generated content, planning a kickoff event for February 17th, and coordinating logistics for their collaboration.",
   "act_pronunciatio": "\ud83d\udcac",
   "act_event": [
     "Ryan Park",
     "chat with",
-    "Tom Moreno"
+    "Arthur Burton"
   ],
   "act_obj_description": null,
   "act_obj_pronunciatio": null,
@@ -282,75 +354,89 @@
     null,
     null
   ],
-  "chatting_with": "Tom Moreno",
+  "chatting_with": "Arthur Burton",
   "chat": [
     [
-      "Tom Moreno",
-      "Hey Ryan, I see you\u2019re diving into the latest tech! Have you come across anything that could help local businesses like ours? I\u2019m really interested in how technology can support our community, especially with the upcoming mayoral election and the initiatives Maria Lopez is proposing."
+      "Arthur Burton",
+      "Hey Ryan! I was just thinking about our discussion on the Valentine's Day event. Have you made any progress on the app features we talked about? I'm really excited about how we can engage the community and get them involved!"
     ],
     [
       "Ryan Park",
-      "Absolutely, Tom! I've been looking into some mobile app features that could really enhance community engagement, especially with the workshops Maria Lopez is proposing. I think integrating local business promotions and user-generated content could make a big difference. What do you think?"
+      "Hey Arthur! Yes, I've been jotting down some ideas for integrating local events and user-generated content into the app. I think we can create something really engaging for the community, especially with the Valentine's Day event coming up. Let's brainstorm further on how we can bring these features to life!"
     ],
     [
-      "Tom Moreno",
-      "That sounds promising! I think having a platform where customers can share their experiences and local businesses can promote their events would really foster a sense of community. Maybe we could even host a workshop on how to use the app effectively once it's ready. What other features do you think would be beneficial?"
-    ],
-    [
-      "Ryan Park",
-      "I think we should also consider integrating a calendar feature that highlights upcoming local events and workshops. This could help businesses plan better and increase participation. Plus, a feedback system could allow users to share their thoughts on events and services, making it a more interactive experience. What do you think about that idea?"
-    ],
-    [
-      "Tom Moreno",
-      "I love that idea! A calendar feature would definitely help us stay organized and keep the community informed about what's happening. Plus, the feedback system could provide valuable insights for improving our events. We should start brainstorming how to implement these features and maybe even reach out to Maria Lopez to see if she can help promote it. What do you think?"
+      "Arthur Burton",
+      "That's great to hear! I was thinking we could also encourage users to share their experiences and photos from the event through the app. Maybe we could even highlight some of their contributions during the event? What do you think?"
     ],
     [
       "Ryan Park",
-      "That's a great idea, Tom! I think reaching out to Maria Lopez could really amplify our efforts. We could also think about including partnerships with local businesses for special promotions or discounts through the app. It would be a win-win for everyone involved! Let's set a time to brainstorm further on this."
+      "I love that idea! Highlighting user contributions could really enhance the sense of community. We could even create a dedicated section in the app for featured photos and stories. Let's make sure to encourage users to share their content leading up to the event too. What do you think about setting up a hashtag for social media to promote this?"
     ],
     [
-      "Tom Moreno",
-      "Absolutely, Ryan! Let's set a time this week to brainstorm. I can reach out to Sarah from the bakery as well; she might have some great ideas for promotions. How does Wednesday sound for our meeting?"
-    ],
-    [
-      "Ryan Park",
-      "Wednesday works for me! Let\u2019s say around 3 PM? We can go over the ideas and see how to approach Maria Lopez and Sarah for their input. I\u2019ll also jot down some more features we can discuss."
-    ],
-    [
-      "Tom Moreno",
-      "Sounds good, Ryan! I\u2019ll make sure to gather some feedback from our customers about what they\u2019d like to see in the app and bring that to our meeting. I\u2019m excited to see where this goes!"
+      "Arthur Burton",
+      "That's a fantastic idea! A hashtag could really help create buzz and make it easier for everyone to find and share their experiences. Do you have any ideas for what we could use? And should we start promoting it right away?"
     ],
     [
       "Ryan Park",
-      "Great! I'll finalize my notes and bring some ideas for local business partnerships as well. Looking forward to our meeting on Wednesday at 3 PM!"
+      "I think we could go with something catchy like #ValentinesInOurTown or #LoveInTheCommunity. We should definitely start promoting it as soon as possible to build excitement. I can create some graphics for social media to get the ball rolling. What do you think?"
     ],
     [
-      "Tom Moreno",
-      "Awesome, Ryan! I\u2019ll also make a list of potential speakers for the workshop and any topics that could be relevant for our local businesses. I think having a clear agenda will help us make the most of our brainstorming session. Anything else you want me to prepare?"
-    ],
-    [
-      "Ryan Park",
-      "That sounds perfect, Tom! I think having a clear agenda will definitely keep us focused. Maybe we could also consider if there are any local success stories we can highlight during the workshop to inspire others. I\u2019ll think of a few examples to bring as well. Is there anything specific you want to discuss during the meeting?"
-    ],
-    [
-      "Tom Moreno",
-      "That\u2019s a great idea, Ryan! Highlighting local success stories could really motivate others and showcase the potential of our community. I\u2019ll make sure to gather some examples as well. Looking forward to our meeting!"
+      "Arthur Burton",
+      "I love those hashtag ideas! Let's go with #ValentinesInOurTown. If you could create some graphics, that would be awesome. I can start promoting it at the pub too, maybe even put up some flyers. What do you think about planning a little kickoff event to get everyone excited about sharing their stories?"
     ],
     [
       "Ryan Park",
-      "Thanks for your input, Tom! I think we\u2019re on the right track. Let\u2019s keep the communication open as we prepare for the meeting. If I come up with any additional ideas before then, I\u2019ll share them with you. See you Wednesday!"
+      "A kickoff event sounds like a great idea! We could have some fun activities and maybe even a sneak peek of what the app will offer. I can help set up some interactive elements for the event. When are you thinking of having it?"
+    ],
+    [
+      "Arthur Burton",
+      "I was thinking we could have the kickoff event this Friday, February 17th, just a week before Valentine's Day. It would give us enough time to promote it and get people excited. What do you think?"
+    ],
+    [
+      "Ryan Park",
+      "I think that timing works perfectly! A week before Valentine's Day will definitely help us generate excitement. Let\u2019s finalize the details for the kickoff event and start promoting it right away. I\u2019ll work on the interactive elements and graphics this week. Do you want to meet again tomorrow to discuss the logistics?"
+    ],
+    [
+      "Arthur Burton",
+      "Absolutely! Meeting tomorrow sounds great. Let\u2019s finalize everything we need for the kickoff event and make sure we\u2019re both on the same page. What time works for you?"
+    ],
+    [
+      "Ryan Park",
+      "How about we meet at 3 PM tomorrow? That way we can go over all the details and make sure we\u2019re set for the kickoff event."
+    ],
+    [
+      "Arthur Burton",
+      "3 PM works perfectly for me! I\u2019m looking forward to it. Let\u2019s make this kickoff event a great success! If you need anything from me before then, just let me know."
+    ],
+    [
+      "Ryan Park",
+      "Great! I\u2019ll start working on the graphics and interactive elements. Also, I\u2019ll think about some activities we can do at the kickoff event. I\u2019ll see you tomorrow at 3 PM!"
+    ],
+    [
+      "Arthur Burton",
+      "Sounds good, Ryan! I can't wait to see what you come up with. Let's make sure to keep the community involved and excited about everything. See you tomorrow!"
+    ],
+    [
+      "Ryan Park",
+      "Thanks, Arthur! I'll make sure to have some exciting activities and graphics ready for our meeting tomorrow. I'm really looking forward to collaborating on this event and getting the community engaged! See you at 3 PM!"
     ]
   ],
   "chatting_with_buffer": {
-    "Tom Moreno": 800,
-    "John Lin": -946,
-    "Adam Smith": 194,
-    "Yuriko Yamamoto": 278,
-    "Rajiv Patel": 374,
-    "Arthur Burton": 452,
-    "Hailey Johnson": 578
+    "Tom Moreno": -364,
+    "John Lin": -2146,
+    "Adam Smith": -1006,
+    "Yuriko Yamamoto": -922,
+    "Rajiv Patel": -826,
+    "Arthur Burton": 800,
+    "Hailey Johnson": -622,
+    "Giorgio Rossi": -226,
+    "Mei Lin": -94,
+    "Isabella Rodriguez": 416,
+    "Sam Moore": 506,
+    "Eddy Lin": 602,
+    "Klaus Mueller": 716
   },
-  "chatting_end_time": "February 13, 2023, 16:26:00",
+  "chatting_end_time": "February 13, 2023, 19:47:00",
   "act_path_set": true,
   "planned_path": []
 }

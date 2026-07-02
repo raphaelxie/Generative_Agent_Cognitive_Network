@@ -1,0 +1,431 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 17:09:50",
+  "curr_tile": [
+    58,
+    25
+  ],
+  "daily_plan_req": "Arthur Burton opens The Rose and Crown Pub at 5pm everyday, and stands at the counter until 10pm, at which point he closes the bar.",
+  "name": "Arthur Burton",
+  "first_name": "Arthur",
+  "last_name": "Burton",
+  "age": 42,
+  "innate": "friendly, outgoing, generous",
+  "learned": "Arthur Burton is a bartender and bar owner of The Rose and Crown Pub who loves to make people feel welcome. He is always looking for ways to make his customers feel special.",
+  "currently": "Arthur Burton is running a beloved bar in the town that's been around for 10 years. He is also learning more about mixology and create unique cocktails.",
+  "lifestyle": "Arthur Burton goes to bed around midnight, awakes up around 7am, eats dinner around 4pm.",
+  "living_area": "the Ville:Arthur Burton's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 242,
+  "importance_ele_n": 2,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "have breakfast at 8:30 am",
+    "spend time researching mixology techniques and experimenting with new cocktail recipes from 9:00 am to 12:00 pm",
+    "take a break and enjoy a light lunch at 12:30 pm",
+    "prepare and organize the bar for the evening rush from 1:00 pm to 4:00 pm",
+    "have dinner at 4:00 pm",
+    "unwind and relax with a short walk or some light reading from 4:30 pm to 5:00 pm",
+    "open The Rose and Crown Pub at 5:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "researching mixology techniques and experimenting with new cocktail recipes (researching different mixology techniques online)",
+      15
+    ],
+    [
+      "researching mixology techniques and experimenting with new cocktail recipes (taking notes on the techniques he finds interesting)",
+      10
+    ],
+    [
+      "researching mixology techniques and experimenting with new cocktail recipes (selecting a few cocktail recipes to try out)",
+      10
+    ],
+    [
+      "researching mixology techniques and experimenting with new cocktail recipes (gathering the ingredients needed for the selected cocktails)",
+      10
+    ],
+    [
+      "researching mixology techniques and experimenting with new cocktail recipes (on the way to setting up his workspace for mixing cocktails)",
+      0
+    ],
+    [
+      "researching mixology techniques and experimenting with new cocktail recipes (conversing about Latoya Williams and Arthur Burton discussing their creative projects in mixology and photography, sharing ideas about local political events, and exchanging cocktail recipes and flavor preferences.)",
+      19
+    ],
+    [
+      "researching mixology techniques and experimenting with new cocktail recipes (mixing the first cocktail recipe)",
+      10
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes (on the way to continuing to research mixology techniques online)",
+      0
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes (conversing about Arthur Burton and Adam Smith discussing local election candidates, particularly Maria Lopez, and planning to attend her events together while also exploring new cocktail recipes that incorporate local flavors.)",
+      19
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes (taking notes on interesting techniques and recipes)",
+      15
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes (on the way to selecting ingredients for the new cocktail recipes)",
+      0
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes (conversing about Arthur Burton and Tom Moreno discussing collaboration on cocktails incorporating local flavors for an upcoming workshop hosted by Maria Lopez.)",
+      18
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes (on the way to preparing the bar area for experimentation)",
+      0
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes (conversing about John Lin and Arthur Burton discussing plans for a spring festival cocktail workshop that highlights local produce, engages the community, and involves local farmers and musicians.)",
+      20
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes (mixing the first cocktail recipe)",
+      15
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes (tasting the first cocktail and making notes on adjustments)",
+      10
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes (on the way to mixing the second cocktail recipe)",
+      11
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes (conversing about Arthur Burton and Carlos Gomez collaborating on a Valentine's Day cocktail inspired by the Fibonacci sequence, discussing ingredients, presentation, marketing strategies, and ways to engage customers at the event.)",
+      22
+    ],
+    [
+      "having a light lunch",
+      47
+    ],
+    [
+      "preparing and organizing the bar for the evening rush (on the way to cleaning the bar top and surfaces)",
+      0
+    ],
+    [
+      "preparing and organizing the bar for the evening rush (conversing about Adam Smith and Arthur Burton discussing Maria Lopez's local election campaign events, brainstorming cocktail recipes with local flavors, food pairings, and strategies for engaging the audience during a cocktail demo, as well as promoting the event on social media.)",
+      20
+    ],
+    [
+      "preparing and organizing the bar for the evening rush (restocking the liquor shelves)",
+      15
+    ],
+    [
+      "preparing and organizing the bar for the evening rush (on the way to checking the inventory of mixers and garnishes)",
+      0
+    ],
+    [
+      "preparing and organizing the bar for the evening rush (conversing about Arthur Burton and Klaus Mueller discussing their respective community engagement initiatives, including cocktail ideas for an upcoming event and workshops focused on social issues like housing inequality and gentrification.)",
+      15
+    ],
+    [
+      "preparing and organizing the bar for the evening rush (preparing cocktail garnishes (e.g., slicing lemons, limes, and herbs))",
+      10
+    ],
+    [
+      "preparing and organizing the bar for the evening rush (on the way to organizing glassware and ensuring everything is clean and ready)",
+      0
+    ],
+    [
+      "preparing and organizing the bar for the evening rush (conversing about Arthur Burton and Giorgio Rossi discussing ideas for an interactive workshop at the spring festival that incorporates the Fibonacci sequence into art and cocktails, including activities like a mini art station and a contest, while also planning promotional strategies on social media.)",
+      21
+    ],
+    [
+      "continuing to prepare and organize the bar for the evening rush (continuing to clean the bar area)",
+      15
+    ],
+    [
+      "continuing to prepare and organize the bar for the evening rush (restocking the liquor shelves)",
+      20
+    ],
+    [
+      "continuing to prepare and organize the bar for the evening rush (preparing garnishes for cocktails)",
+      15
+    ],
+    [
+      "continuing to prepare and organize the bar for the evening rush (checking the inventory of mixers and supplies)",
+      15
+    ],
+    [
+      "continuing to prepare and organize the bar for the evening rush (on the way to organizing the glassware)",
+      0
+    ],
+    [
+      "continuing to prepare and organize the bar for the evening rush (conversing about Hailey Johnson and Arthur Burton discussing the creation of cocktails inspired by local stories and art pieces for an upcoming exhibition, with plans for a tasting session and collaboration with local farmers.)",
+      22
+    ],
+    [
+      "continuing to prepare and organize the bar for the evening rush (on the way to setting up the bar stools and tables)",
+      0
+    ],
+    [
+      "continuing to prepare and organize the bar for the evening rush (conversing about Jennifer Moore and Arthur Burton discussing ideas for an upcoming exhibition that includes cocktails inspired by local stories and art pieces, planning a tasting session, and collaborating with local farmers.)",
+      2
+    ],
+    [
+      "continuing to prepare and organize the bar for the evening rush (reviewing the cocktail recipes)",
+      5
+    ],
+    [
+      "continuing to prepare and organize the bar for the evening rush (preparing the cash register for the evening)",
+      5
+    ],
+    [
+      "having dinner (preparing his dinner)",
+      15
+    ],
+    [
+      "having dinner (setting the table)",
+      5
+    ],
+    [
+      "having dinner (serving himself dinner)",
+      5
+    ],
+    [
+      "having dinner (sitting down to eat)",
+      5
+    ],
+    [
+      "having dinner (enjoying his meal)",
+      20
+    ],
+    [
+      "having dinner (on the way to cleaning up after dinner)",
+      0
+    ],
+    [
+      "having dinner (conversing about Arthur Burton and Francisco Lopez discussing their collaboration on a web series featuring local businesses and brainstorming ideas for an interactive cocktail tasting event at The Rose and Crown, incorporating local flavors and improv elements.)",
+      18
+    ],
+    [
+      "opening The Rose and Crown Pub (on the way to setting up the bar area)",
+      0
+    ],
+    [
+      "opening The Rose and Crown Pub (conversing about Arthur Burton and Klaus Mueller discussing creative ideas for a cocktail event themed around housing inequality, specifically developing a cocktail called 'Sweet Displacement' using local honey, bitters, and fresh lemon to symbolize community ties and struggles.)",
+      18
+    ],
+    [
+      "opening The Rose and Crown Pub (checking the inventory of drinks and supplies)",
+      10
+    ],
+    [
+      "opening The Rose and Crown Pub (cleaning the bar top and tables)",
+      10
+    ],
+    [
+      "opening The Rose and Crown Pub (preparing the cocktail station)",
+      10
+    ],
+    [
+      "opening The Rose and Crown Pub (arranging the seating area for customers)",
+      2
+    ],
+    [
+      "opening The Rose and Crown Pub (turning on the lights and music)",
+      5
+    ],
+    [
+      "unwinding and relaxing with a short walk or some light reading",
+      57
+    ],
+    [
+      "engaging with customers and serving drinks at The Rose and Crown Pub",
+      180
+    ],
+    [
+      "closing The Rose and Crown Pub for the night",
+      60
+    ],
+    [
+      "closing up any remaining tasks at The Rose and Crown Pub before heading home for the night",
+      60
+    ],
+    [
+      "sleeping",
+      11
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "researching mixology techniques and experimenting with new cocktail recipes",
+      60
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes",
+      120
+    ],
+    [
+      "having a light lunch",
+      60
+    ],
+    [
+      "preparing and organizing the bar for the evening rush",
+      60
+    ],
+    [
+      "continuing to prepare and organize the bar for the evening rush",
+      120
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "opening The Rose and Crown Pub",
+      60
+    ],
+    [
+      "unwinding and relaxing with a short walk or some light reading",
+      60
+    ],
+    [
+      "engaging with customers and serving drinks at The Rose and Crown Pub",
+      180
+    ],
+    [
+      "closing The Rose and Crown Pub for the night",
+      60
+    ],
+    [
+      "closing up any remaining tasks at The Rose and Crown Pub before heading home for the night",
+      60
+    ]
+  ],
+  "act_address": "<persona> Klaus Mueller",
+  "act_start_time": "February 13, 2023, 17:08:20",
+  "act_duration": 18,
+  "act_description": "conversing about Arthur Burton and Klaus Mueller discussing creative ideas for a cocktail event themed around housing inequality, specifically developing a cocktail called 'Sweet Displacement' using local honey, bitters, and fresh lemon to symbolize community ties and struggles.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Arthur Burton",
+    "chat with",
+    "Klaus Mueller"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Klaus Mueller",
+  "chat": [
+    [
+      "Arthur Burton",
+      "Hey Klaus! I was just thinking about our last chat on community engagement initiatives. Have you had any new ideas for the cocktail event we discussed? I really want to incorporate themes of housing inequality into our drinks."
+    ],
+    [
+      "Klaus Mueller",
+      "Hey Arthur! I'm glad you brought that up. I was actually thinking about creating a cocktail that uses local ingredients and tells stories related to housing inequality. Maybe we could also have a name that reflects the theme? What do you think?"
+    ],
+    [
+      "Arthur Burton",
+      "I love that idea! Incorporating local ingredients will definitely make it more meaningful. Do you have any specific stories in mind or an ingredient that could represent the theme well? And I agree, a creative name would really help communicate our message."
+    ],
+    [
+      "Klaus Mueller",
+      "I was thinking about using honey from local beekeepers to symbolize the sweetness of community ties, but also how gentrification can disrupt those connections. As for a name, what do you think about calling it 'Sweet Displacement'? It captures both the local aspect and the story behind it."
+    ],
+    [
+      "Arthur Burton",
+      "That's a brilliant concept, Klaus! 'Sweet Displacement' perfectly encapsulates the message we want to convey. I can already imagine how the honey will enhance the flavor. Do you think we should add any other ingredients to complement it? Maybe something that represents the struggles faced in our community?"
+    ],
+    [
+      "Klaus Mueller",
+      "I was thinking we could add some bitters to represent the challenges and complexities faced by those affected by gentrification. It would give the cocktail a deeper flavor profile, just like the deeper stories of our community. What do you think about that?"
+    ],
+    [
+      "Arthur Burton",
+      "I think adding bitters is a fantastic idea! It really does reflect the complexities of the situation. Maybe we can also include a splash of citrus to brighten it up, representing hope for the future. What do you think about that?"
+    ],
+    [
+      "Klaus Mueller",
+      "I love the idea of adding a splash of citrus! It would definitely balance the flavors and symbolize hope. Maybe we could use something like fresh lemon or lime juice? We could also think about garnishing it with a twist of citrus peel to make it visually appealing. What do you think?"
+    ],
+    [
+      "Arthur Burton",
+      "Using fresh lemon sounds perfect! It will not only enhance the flavor but also give it a vibrant look. I'm excited to see how 'Sweet Displacement' turns out! Once we finalize the recipe, we should start promoting it along with the workshops. Maybe we can tie in some of the stories behind the ingredients too."
+    ],
+    [
+      "Klaus Mueller",
+      "Absolutely! I think sharing the stories behind the ingredients will really engage people and make them think about the issues we're addressing. We could create some informative material to accompany the cocktail at the event. How about we brainstorm some of those stories together next time?"
+    ],
+    [
+      "Arthur Burton",
+      "That sounds great, Klaus! I\u2019d love to brainstorm those stories together. Let\u2019s set a time to meet up before the event. I\u2019m really looking forward to creating something special with 'Sweet Displacement' and making a real impact with our message."
+    ],
+    [
+      "Klaus Mueller",
+      "That sounds perfect, Arthur! How about we meet later this week to brainstorm those stories? I can check my schedule and shoot you a message to confirm. I\u2019m excited about making 'Sweet Displacement' a focal point for our event!"
+    ],
+    [
+      "Arthur Burton",
+      "Sounds good, Klaus! Just let me know when you\u2019re available, and we can dive into those stories. I\u2019m really excited about the impact we can make with 'Sweet Displacement'!"
+    ],
+    [
+      "Klaus Mueller",
+      "Great! I'll look over my schedule and message you soon. I'm really looking forward to our brainstorming session and finalizing everything for the event!"
+    ],
+    [
+      "Arthur Burton",
+      "Awesome, Klaus! I can't wait to see what we create together. Just shoot me a message when you're free, and we can get started on those stories. I'm sure 'Sweet Displacement' will resonate well with our community!"
+    ],
+    [
+      "Klaus Mueller",
+      "I'll check my calendar tonight and get back to you with some times. I'm really excited about this collaboration and can't wait to see how 'Sweet Displacement' evolves!"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Latoya Williams": -1810,
+    "Adam Smith": -538,
+    "Tom Moreno": -1474,
+    "John Lin": -1342,
+    "Carlos Gomez": -958,
+    "Klaus Mueller": 800,
+    "Giorgio Rossi": -208,
+    "Hailey Johnson": 302,
+    "Jennifer Moore": 392,
+    "Francisco Lopez": 776
+  },
+  "chatting_end_time": "February 13, 2023, 17:27:00",
+  "act_path_set": true,
+  "planned_path": []
+}

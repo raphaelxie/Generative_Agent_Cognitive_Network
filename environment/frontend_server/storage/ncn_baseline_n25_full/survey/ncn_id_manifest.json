@@ -1,0 +1,68 @@
+{
+  "design": "identification_v1",
+  "baseline": "ncn_baseline_n25_full",
+  "shock_step": 2100,
+  "target_step": 3300,
+  "n_post": 1200,
+  "recent_window_minutes": 200,
+  "hub_agent": "John Lin",
+  "broker_agent": "Eddy Lin",
+  "openai_model": "gpt-4o-mini",
+  "forks": {
+    "ncn_id_control_r1": {
+      "treatment": "control",
+      "replicate": 1,
+      "step": 3300,
+      "sim_complete": true,
+      "post_survey": true
+    },
+    "ncn_id_control_r2": {
+      "treatment": "control",
+      "replicate": 2,
+      "step": 3300,
+      "sim_complete": true,
+      "post_survey": true
+    },
+    "ncn_id_hub_r1": {
+      "treatment": "hub",
+      "replicate": 1,
+      "step": 3300,
+      "sim_complete": true,
+      "post_survey": true
+    },
+    "ncn_id_hub_r2": {
+      "treatment": "hub",
+      "replicate": 2,
+      "step": 3300,
+      "sim_complete": true,
+      "post_survey": true
+    },
+    "ncn_id_broker_r1": {
+      "treatment": "broker",
+      "replicate": 1,
+      "step": 3300,
+      "sim_complete": true,
+      "post_survey": true
+    },
+    "ncn_id_broker_r2": {
+      "treatment": "broker",
+      "replicate": 2,
+      "step": 3300,
+      "sim_complete": true,
+      "post_survey": true
+    }
+  },
+  "noise_floor": {
+    "k": 5,
+    "completed": [
+      "noise_r01",
+      "noise_r02",
+      "noise_r03",
+      "noise_r04",
+      "noise_r05"
+    ]
+  },
+  "window_1_sim_complete": true,
+  "window_2_surveys_complete": true,
+  "updated_at": "2026-07-01T16:17:09Z"
+}

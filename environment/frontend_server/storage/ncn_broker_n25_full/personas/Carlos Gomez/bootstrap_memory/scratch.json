@@ -2,7 +2,7 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
     94,
     21
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 201,
-  "importance_ele_n": 20,
+  "importance_trigger_curr": 119,
+  "importance_ele_n": 39,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 8:00 am",
@@ -199,16 +199,116 @@
       5
     ],
     [
-      "having dinner",
+      "having dinner (on the way to having dinne)",
       55
     ],
     [
-      "relaxing with some reading or watching TV",
-      180
+      "having dinner (on the way to conversing about Isabella Rodriguez and Carlos Gomez discussing the final preparations and interactive elements for the Valentine's Day party, including decorations, a poetry corner, and a prize for a contest.)",
+      0
+    ],
+    [
+      "having dinner (conversing about Ayesha Khan and Carlos Gomez discussing preparations for a Valentine's Day party, including ideas for a poetry corner, interactive art inspired by the Fibonacci sequence, social media promotion, and a live demonstration led by a local artist.)",
+      20
+    ],
+    [
+      "relaxing with some reading or watching TV (on the way to deciding what to watch or read)",
+      0
+    ],
+    [
+      "relaxing with some reading or watching TV (conversing about Arthur Burton and Carlos Gomez discussing plans for a Valentine's Day cocktail inspired by the Fibonacci sequence, including unique ingredients, visual presentation, marketing strategies, and incorporating local artists into the event.)",
+      21
+    ],
+    [
+      "relaxing with some reading or watching TV (on the way to selecting a book or show)",
+      0
+    ],
+    [
+      "relaxing with some reading or watching TV (conversing about Hailey Johnson and Carlos Gomez discussing plans for their Valentine's Day party, focusing on creating a cocktail called 'Fibonacci Bliss' with local ingredients, incorporating poetry prompts, engaging local artists, and designing a cozy corner for guests.)",
+      20
+    ],
+    [
+      "relaxing with some reading or watching TV (on the way to getting comfortable on the couch)",
+      0
+    ],
+    [
+      "relaxing with some reading or watching TV (conversing about Carlos Gomez and Carmen Ortiz collaborating on decorations and ideas for a Valentine's Day party, including a cocktail called 'Fibonacci Bliss' and incorporating poetry elements.)",
+      11
+    ],
+    [
+      "relaxing with some reading or watching TV (on the way to pouring himself a drink or snack)",
+      0
+    ],
+    [
+      "relaxing with some reading or watching TV (conversing about Yuriko Yamamoto and Carlos Gomez discussing their Valentine's Day plans, including the creation of a cocktail called 'Fibonacci Bliss,' a poetry contest, and how to enhance the party atmosphere with themed refreshments and cozy setups for poetry readings.)",
+      19
+    ],
+    [
+      "relaxing with some reading or watching TV (on the way to settling in and turning on the TV or opening the book)",
+      0
+    ],
+    [
+      "relaxing with some reading or watching TV (conversing about Carlos Gomez and Jennifer Moore discussing the planning for a Valentine's Day party centered around a Fibonacci theme, including decorations, poetry contests, interactive installations, themed refreshments, and promotional strategies.)",
+      25
+    ],
+    [
+      "relaxing with some reading or watching TV (watching the first episode or reading the first chapter)",
+      10
+    ],
+    [
+      "relaxing with some reading or watching TV (taking a moment to reflect on what he just watched or read)",
+      5
+    ],
+    [
+      "relaxing with some reading or watching TV (continuing to watch or read)",
+      15
+    ],
+    [
+      "relaxing with some reading or watching TV (pausing to check his phone or social media)",
+      5
+    ],
+    [
+      "relaxing with some reading or watching TV (resuming his show or book)",
+      10
+    ],
+    [
+      "relaxing with some reading or watching TV (getting lost in the story or content)",
+      20
+    ],
+    [
+      "relaxing with some reading or watching TV (taking a break to stretch or move around)",
+      5
+    ],
+    [
+      "relaxing with some reading or watching TV (returning to his show or book)",
+      10
+    ],
+    [
+      "relaxing with some reading or watching TV (enjoying the climax or key moments of the story)",
+      10
+    ],
+    [
+      "relaxing with some reading or watching TV (considering what to watch or read next)",
+      5
+    ],
+    [
+      "relaxing with some reading or watching TV (choosing another episode or book)",
+      5
+    ],
+    [
+      "relaxing with some reading or watching TV (diving into the next episode or chapter)",
+      4
+    ],
+    [
+      "relaxing with some reading or watching TV (wrapping up his viewing or reading session)",
+      5
+    ],
+    [
+      "relaxing with some reading or watching TV (reflecting on what he learned or felt during the session)",
+      5
     ],
     [
       "sleeping",
-      60
+      39
     ],
     [
       "getting ready for bed",
@@ -278,33 +378,37 @@
     ]
   ],
   "act_address": "the Ville:Carlos Gomez's apartment:main room:desk",
-  "act_start_time": "February 13, 2023, 16:17:00",
-  "act_duration": 15,
-  "act_description": "working on poetry revisions (reviewing the revised poem for flow and coherence)",
-  "act_pronunciatio": "\ud83d\udcd6\u270d\ufe0f",
+  "act_start_time": "February 13, 2023, 19:24:00",
+  "act_duration": 25,
+  "act_description": "relaxing with some reading or watching TV (conversing about Carlos Gomez and Jennifer Moore discussing the planning for a Valentine's Day party centered around a Fibonacci theme, including decorations, poetry contests, interactive installations, themed refreshments, and promotional strategies.)",
+  "act_pronunciatio": "\ud83d\udcac\ud83d\udc96",
   "act_event": [
     "Carlos Gomez",
-    "review",
-    "revised poem"
+    "converse",
+    "planning for a Valentine's Day party"
   ],
-  "act_obj_description": "cluttered with papers and notebooks",
-  "act_obj_pronunciatio": "\ud83d\udcda\ud83d\uddc2\ufe0f",
+  "act_obj_description": "cluttered with planning materials and items related to the Valentine's Day party",
+  "act_obj_pronunciatio": "\u2764\ufe0f\ud83d\udcc5",
   "act_obj_event": [
     "desk",
     "be",
-    "cluttered with papers and notebooks"
+    "cluttered with planning materials and items related to the Valentine's Day party"
   ],
   "chatting_with": null,
   "chat": null,
   "chatting_with_buffer": {
-    "Isabella Rodriguez": -64,
-    "Eddy Lin": -1246,
-    "Giorgio Rossi": -820,
-    "Arthur Burton": -658,
-    "Rajiv Patel": -502,
-    "Sam Moore": -178,
-    "Mei Lin": 140,
-    "Hailey Johnson": 542
+    "Isabella Rodriguez": -148,
+    "Eddy Lin": -2446,
+    "Giorgio Rossi": -2020,
+    "Arthur Burton": 236,
+    "Rajiv Patel": -1702,
+    "Sam Moore": -1378,
+    "Mei Lin": -1060,
+    "Hailey Johnson": 356,
+    "Ayesha Khan": 74,
+    "Carmen Ortiz": 422,
+    "Yuriko Yamamoto": 548,
+    "Jennifer Moore": 704
   },
   "chatting_end_time": null,
   "act_path_set": true,

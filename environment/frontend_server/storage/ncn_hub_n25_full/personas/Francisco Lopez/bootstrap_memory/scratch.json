@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    58,
-    23
+    39,
+    29
   ],
   "daily_plan_req": "",
   "name": "Francisco Lopez",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 250,
-  "importance_ele_n": 0,
+  "importance_trigger_curr": 111,
+  "importance_ele_n": 30,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 8:00 am",
@@ -247,40 +247,136 @@
       5
     ],
     [
-      "attending improvisational comedy class (greeting fellow classmates and the instructor)",
-      5
+      "attending improvisational comedy class (on the way to greeting fellow classmates and the instructor)",
+      0
     ],
     [
-      "attending improvisational comedy class (participating in warm-up exercises)",
-      10
+      "attending improvisational comedy class (conversing about Francisco Lopez and Yuriko Yamamoto discussing local mayoral candidates, their initiatives to support local businesses, and planning a community event that integrates these themes.)",
+      19
+    ],
+    [
+      "attending improvisational comedy class (on the way to participating in warm-up exercises)",
+      0
+    ],
+    [
+      "attending improvisational comedy class (conversing about Francisco Lopez and Sam Moore discussing the planning and promotion of a Valentine's Day party featuring watercolor designs, live music, and interactive elements, and how to involve the community in the process.)",
+      20
     ],
     [
       "attending improvisational comedy class (practicing improvisational games)",
       15
     ],
     [
-      "attending improvisational comedy class (receiving feedback from the instructor)",
-      10
+      "attending improvisational comedy class (on the way to receiving feedback from the instructor)",
+      0
+    ],
+    [
+      "attending improvisational comedy class (conversing about Tom Moreno and Francisco Lopez collaborating to plan a Valentine's Day party, discussing decorations, interactive elements, promoting the event, and reaching out to local artists and businesses.)",
+      16
     ],
     [
       "attending improvisational comedy class (engaging in a group scene activity)",
       6
     ],
     [
-      "continuing to attend improvisational comedy class",
-      111
+      "continuing to attend improvisational comedy class (continuing to practice improvisational exercises)",
+      30
     ],
     [
-      "having dinner and unwinding after a long day",
-      60
+      "continuing to attend improvisational comedy class (on the way to participating in group games to enhance spontaneity)",
+      0
     ],
     [
-      "winding down, perhaps watching a show or reading a book",
-      60
+      "continuing to attend improvisational comedy class (conversing about Rajiv Patel and Francisco Lopez discussing their collaboration on a project that combines visual art and storytelling by featuring the real experiences of residents in a co-living space, particularly focusing on the story of Mia, an artist from Brazil.)",
+      17
+    ],
+    [
+      "continuing to attend improvisational comedy class (receiving feedback from the instructor on his performance)",
+      15
+    ],
+    [
+      "continuing to attend improvisational comedy class (on the way to practicing character development through improvisation)",
+      0
+    ],
+    [
+      "continuing to attend improvisational comedy class (conversing about Francisco Lopez and Abigail Chen discussing how to incorporate local business stories into their animation and web series projects, planning to interview business owners and collaborate on visuals while focusing on themes of resilience and community spirit.)",
+      17
+    ],
+    [
+      "having dinner and unwinding after a long day (heating up leftovers or cooking a quick meal)",
+      15
+    ],
+    [
+      "having dinner and unwinding after a long day (on the way to plating the food)",
+      0
+    ],
+    [
+      "having dinner and unwinding after a long day (conversing about Francisco Lopez and Jennifer Moore discussing their collaborative plans for a Valentine's Day party, including watercolor paintings, animation projects, and engaging interactive elements.)",
+      19
+    ],
+    [
+      "having dinner and unwinding after a long day (on the way to pouring a drink)",
+      0
+    ],
+    [
+      "having dinner and unwinding after a long day (conversing about Latoya Williams and Francisco Lopez discussing their web series project focused on local businesses, brainstorming interview questions, visual representation, and planning their first interview with 'The Cozy Corner Caf\u00e9'.)",
+      17
+    ],
+    [
+      "having dinner and unwinding after a long day (sitting down to eat)",
+      5
+    ],
+    [
+      "having dinner and unwinding after a long day (enjoying his meal while listening to music or a podcast)",
+      15
+    ],
+    [
+      "having dinner and unwinding after a long day (finishing up his meal)",
+      5
+    ],
+    [
+      "having dinner and unwinding after a long day (clearing the table)",
+      5
+    ],
+    [
+      "winding down, perhaps watching a show or reading a book (settling into a comfortable spot on the couch)",
+      5
+    ],
+    [
+      "winding down, perhaps watching a show or reading a book (selecting a show to watch or a book to read)",
+      5
+    ],
+    [
+      "winding down, perhaps watching a show or reading a book (preparing snacks or a drink to enjoy while relaxing)",
+      5
+    ],
+    [
+      "winding down, perhaps watching a show or reading a book (turning on the TV or opening the book)",
+      5
+    ],
+    [
+      "winding down, perhaps watching a show or reading a book (watching the opening credits or reading the first few pages)",
+      5
+    ],
+    [
+      "winding down, perhaps watching a show or reading a book (getting immersed in the show or book)",
+      10
+    ],
+    [
+      "winding down, perhaps watching a show or reading a book (pausing to take notes or jot down thoughts about the show or book)",
+      3
+    ],
+    [
+      "winding down, perhaps watching a show or reading a book (reflecting on the themes or humor presented in the show or book)",
+      5
+    ],
+    [
+      "winding down, perhaps watching a show or reading a book (wrapping up the show or book, preparing to transition to the next activity)",
+      5
     ],
     [
       "relaxing, perhaps reviewing notes from the day or brainstorming ideas for future projects",
-      60
+      46
     ],
     [
       "relaxing, perhaps reflecting on the day or engaging in a light activity before bedtime",
@@ -289,6 +385,10 @@
     [
       "sleeping",
       60
+    ],
+    [
+      "sleeping",
+      1
     ]
   ],
   "f_daily_schedule_hourly_org": [
@@ -353,15 +453,15 @@
       60
     ]
   ],
-  "act_address": "<persona> Giorgio Rossi",
-  "act_start_time": "February 13, 2023, 16:00:40",
-  "act_duration": 19,
-  "act_description": "conversing about Francisco Lopez and Giorgio Rossi discussing the local mayor election candidates and their initiatives to support local businesses, while also collaborating on a web series that highlights the stories and challenges of those businesses.",
+  "act_address": "<persona> Latoya Williams",
+  "act_start_time": "February 13, 2023, 19:26:00",
+  "act_duration": 17,
+  "act_description": "conversing about Latoya Williams and Francisco Lopez discussing their web series project focused on local businesses, brainstorming interview questions, visual representation, and planning their first interview with 'The Cozy Corner Caf\u00e9'.",
   "act_pronunciatio": "\ud83d\udcac",
   "act_event": [
     "Francisco Lopez",
     "chat with",
-    "Giorgio Rossi"
+    "Latoya Williams"
   ],
   "act_obj_description": null,
   "act_obj_pronunciatio": null,
@@ -370,84 +470,87 @@
     null,
     null
   ],
-  "chatting_with": "Giorgio Rossi",
+  "chatting_with": "Latoya Williams",
   "chat": [
     [
-      "Francisco Lopez",
-      "Hey Giorgio! I couldn't help but overhear you discussing the local mayor election. What are your thoughts on the candidates? Any favorites?"
-    ],
-    [
-      "Giorgio Rossi",
-      "Hey Francisco! I've been looking into their initiatives, and I'm particularly interested in how they plan to support local businesses. I think it's crucial for our community's growth. How about you? Do you have a candidate you lean towards?"
+      "Latoya Williams",
+      "Hey Francisco, how was your day? I was just reviewing some of my photography work and thinking about our web series. Have you made any progress on the script?"
     ],
     [
       "Francisco Lopez",
-      "I completely agree! Supporting local businesses is vital. I've been involved in a web series that highlights their stories and challenges. I think it could really shine a light on the importance of community support. Have you seen any specific initiatives from the candidates that excite you?"
+      "Hey Latoya! My day was good, thanks! I\u2019ve been working on some ideas for the script, particularly focusing on incorporating the stories of local businesses. I think it could really add depth to our project. How about we brainstorm some visuals and interviews together?"
     ],
     [
-      "Giorgio Rossi",
-      "I've seen a couple of candidates proposing grants for small businesses and plans to host community events that could really foster engagement. I think initiatives like those could make a big difference. What kind of stories are you highlighting in your web series?"
-    ],
-    [
-      "Francisco Lopez",
-      "In my web series, I'm focusing on the unique experiences of local business owners, sharing their successes and the challenges they face, especially in the current climate. I think it\u2019s important for the community to hear their stories. I'm also planning to include interviews to highlight their perspectives. What are some of the key issues you think the candidates should address to support those businesses?"
-    ],
-    [
-      "Giorgio Rossi",
-      "I think they should focus on reducing bureaucratic hurdles for small businesses and improving access to funding. It would also be great to see more support for local entrepreneurship programs. What do you think would resonate most with the community in your series?"
+      "Latoya Williams",
+      "That sounds like a great idea! I have a few local businesses in mind that we could reach out to for interviews. Maybe we can also think about how to visually represent their stories in a way that connects to the community themes we discussed."
     ],
     [
       "Francisco Lopez",
-      "I think showcasing real stories of resilience and innovation from local business owners will really resonate. People connect with personal narratives, especially when they see how their neighbors are making a difference despite challenges. I\u2019d love to hear your thoughts on what kind of stories would engage the community more effectively."
+      "Absolutely! I love the idea of visually representing their stories. Maybe we could showcase their daily operations or some behind-the-scenes moments? It would really highlight the community connection. We should also think about the types of questions we want to ask in the interviews to get the most authentic responses."
     ],
     [
-      "Giorgio Rossi",
-      "I completely agree! Personal narratives can be very powerful. I think stories about innovative solutions that business owners have come up with, especially in response to challenges, would not only engage the community but also inspire others to think creatively. Have you thought about including any specific business owners in your series?"
-    ],
-    [
-      "Francisco Lopez",
-      "Absolutely! I\u2019ve been considering a few local coffee shop owners and a family-run bakery that has been around for generations. Their stories of adapting to changes in the market could be really compelling. Do you have any specific businesses or owners in mind that you think would be great to feature?"
-    ],
-    [
-      "Giorgio Rossi",
-      "I think featuring a local bookstore owner could add a nice touch too! They've been adapting their business model with events and community engagement. Their story could really highlight the importance of creativity in business. Have you thought about how you'll present these stories in your web series?"
+      "Latoya Williams",
+      "That's a fantastic idea! We could also consider asking them about their experiences during the pandemic and how it shaped their relationship with the community. What do you think?"
     ],
     [
       "Francisco Lopez",
-      "That's a great idea! I'm planning to blend real footage with animated elements to visually represent their stories. It would add a unique flair and really capture the essence of their experiences. Perhaps we could even collaborate on some ideas for the presentation? Your insights on community engagement could be invaluable!"
+      "I think that's a great angle! It would really resonate with viewers and show how resilient our community is. We can also ask them about any support they received from customers or other businesses during that time. Let's make a list of potential questions and businesses to reach out to. When do you want to meet again to discuss this further?"
     ],
     [
-      "Giorgio Rossi",
-      "I would love to collaborate! Combining our ideas could make a really impactful presentation. Maybe I could help brainstorm some interactive elements to engage the audience even further? What do you think?"
-    ],
-    [
-      "Francisco Lopez",
-      "That sounds like a fantastic idea! Interactive elements could really enhance the viewer's experience. Maybe we could include a Q&A session or even some polls during the presentation to get the audience involved. Let's set up a time to brainstorm this further!"
-    ],
-    [
-      "Giorgio Rossi",
-      "Absolutely! I think a Q&A session would be a great way to engage viewers directly. Plus, incorporating polls could provide immediate feedback on what resonates with the audience. How about we meet later this week to brainstorm some specific ideas?"
+      "Latoya Williams",
+      "How about we meet tomorrow afternoon? We can finalize our list of questions and businesses, and maybe even sketch out some visual ideas. I\u2019m really excited about this project!"
     ],
     [
       "Francisco Lopez",
-      "That sounds perfect! How about we meet on Thursday afternoon? We can find a quiet spot to discuss everything in detail. I'll bring some notes on the businesses I want to feature too."
+      "Tomorrow afternoon works perfectly for me! Let's say after 4 PM? I can bring my notes and we can really dive into this. I\u2019m looking forward to brainstorming together!"
     ],
     [
-      "Giorgio Rossi",
-      "Thursday afternoon works for me! Looking forward to diving into the details and sharing ideas. Do you have a specific time in mind?"
+      "Latoya Williams",
+      "Sounds good! I\u2019ll gather some of my favorite photography pieces that highlight community themes and prepare some questions for our interviewees. I can\u2019t wait to see what we come up with together!"
+    ],
+    [
+      "Francisco Lopez",
+      "Great! I\u2019ll prepare some notes on the types of visuals we can use as well. It sounds like we have a solid plan. Let\u2019s meet in the common room, and I can show you some sketches I\u2019ve been working on too. This is going to be awesome!"
+    ],
+    [
+      "Latoya Williams",
+      "Perfect! I\u2019ll see you in the common room tomorrow afternoon after 4 PM. Let\u2019s make this project something special!"
+    ],
+    [
+      "Francisco Lopez",
+      "Absolutely! I can't wait to see your photography pieces and share my sketches. This collaboration is really shaping up to be something special. If you think of any other businesses or themes before our meeting, just shoot me a message. I'm excited to work together!"
+    ],
+    [
+      "Latoya Williams",
+      "Thanks, Francisco! I\u2019ll definitely reach out if I think of any more ideas. By the way, have you given any thought to who we might want to interview first? It would be great to get the ball rolling on that as soon as possible."
+    ],
+    [
+      "Francisco Lopez",
+      "I think we should prioritize interviewing 'The Cozy Corner Caf\u00e9' first. They have such a strong connection with the community and a lot of interesting stories to share. Plus, they were really supportive during the pandemic. What do you think?"
+    ],
+    [
+      "Latoya Williams",
+      "I love that idea! 'The Cozy Corner Caf\u00e9' has always been a favorite spot for many locals. We could ask them about their initiatives during the pandemic and how they\u2019ve adapted since then. Do you think we should also include some questions about their community events or collaborations with other local businesses?"
+    ],
+    [
+      "Francisco Lopez",
+      "Definitely! We should ask them about their community events and any partnerships they\u2019ve formed with other businesses. It would be great to highlight how they\u2019re contributing to the local scene. I\u2019ll jot down those questions as well. Is there anything else you think we should add?"
     ]
   ],
   "chatting_with_buffer": {
-    "Latoya Williams": 194,
-    "Abigail Chen": -514,
-    "Rajiv Patel": -640,
-    "Jennifer Moore": 524,
-    "Eddy Lin": -322,
-    "Hailey Johnson": -76,
-    "Arthur Burton": 650,
-    "Giorgio Rossi": 800
+    "Latoya Williams": 800,
+    "Abigail Chen": 536,
+    "Rajiv Patel": 302,
+    "Jennifer Moore": 716,
+    "Eddy Lin": -1522,
+    "Hailey Johnson": -1276,
+    "Arthur Burton": -550,
+    "Giorgio Rossi": -400,
+    "Yuriko Yamamoto": -262,
+    "Sam Moore": -130,
+    "Tom Moreno": -16
   },
-  "chatting_end_time": "February 13, 2023, 16:20:00",
+  "chatting_end_time": "February 13, 2023, 19:43:00",
   "act_path_set": true,
   "planned_path": []
 }

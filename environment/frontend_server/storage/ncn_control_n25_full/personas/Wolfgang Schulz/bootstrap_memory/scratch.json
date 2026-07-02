@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    107,
-    62
+    119,
+    25
   ],
   "daily_plan_req": "Wolfgang Schulz goes for a run at the part in the morning, studies during the day, and exercises at his room at night ",
   "name": "Wolfgang Schulz",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 240,
-  "importance_ele_n": 8,
+  "importance_trigger_curr": 167,
+  "importance_ele_n": 34,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 8:00 am",
@@ -95,20 +95,96 @@
       60
     ],
     [
-      "having dinner",
-      60
+      "having dinner (preparing the ingredients for dinner)",
+      10
     ],
     [
-      "continuing to study or work on assignments",
-      180
+      "having dinner (on the way to cooking the main dish)",
+      0
+    ],
+    [
+      "having dinner (conversing about Maria Lopez and Wolfgang Schulz discussing dinner plans, sharing cooking tips, and making plans for a pizza night together.)",
+      13
+    ],
+    [
+      "having dinner (on the way to setting the table)",
+      0
+    ],
+    [
+      "having dinner (conversing about Klaus Mueller and Wolfgang Schulz discussing Wolfgang's upcoming pizza night with Maria, including toppings, drinks, side dishes, guest invitations, pizza dough recipes, and potential games or activities to keep everyone entertained.)",
+      18
+    ],
+    [
+      "having dinner (plating the food)",
+      5
+    ],
+    [
+      "having dinner (pouring a drink)",
+      5
+    ],
+    [
+      "having dinner (on the way to sitting down to eat)",
+      0
+    ],
+    [
+      "having dinner (conversing about Abigail Chen and Wolfgang Schulz discussing Wolfgang's upcoming pizza night, including toppings, side dishes, drinks, games, music, and decorations, while also touching on Abigail's animation project.)",
+      17
+    ],
+    [
+      "continuing to study or work on assignments (on the way to reviewing his class notes)",
+      0
+    ],
+    [
+      "continuing to study or work on assignments (conversing about Arthur and Wolfgang discussing Wolfgang's upcoming pizza night plans, including toppings, drinks, sides, desserts, games, and music, as well as Arthur's Valentine's Day tasting event featuring a cocktail and poetry readings.)",
+      16
+    ],
+    [
+      "continuing to study or work on assignments (reading the assigned textbook chapters)",
+      30
+    ],
+    [
+      "continuing to study or work on assignments (on the way to working on a chemistry assignment)",
+      0
+    ],
+    [
+      "continuing to study or work on assignments (conversing about Ayesha Khan and Wolfgang Schulz discussing Wolfgang's upcoming pizza night, including toppings, games, and dessert options, while also collaborating on trivia questions related to Shakespeare's 'The Merchant of Venice' for Ayesha's thesis.)",
+      18
+    ],
+    [
+      "continuing to study or work on assignments (taking a short break)",
+      10
+    ],
+    [
+      "continuing to study or work on assignments (reviewing his chemistry formulas)",
+      20
+    ],
+    [
+      "continuing to study or work on assignments (practicing problems from the textbook)",
+      30
+    ],
+    [
+      "continuing to study or work on assignments (summarizing key concepts in his study guide)",
+      20
+    ],
+    [
+      "continuing to study or work on assignments (organizing his study materials for the next day)",
+      8
     ],
     [
       "exercising in his room",
-      60
+      47
     ],
     [
       "sleeping",
       60
+    ],
+    [
+      "sleeping",
+      7
+    ],
+    [
+      "sleeping",
+      14
     ]
   ],
   "f_daily_schedule_hourly_org": [
@@ -149,27 +225,98 @@
       60
     ]
   ],
-  "act_address": "the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:bed",
-  "act_start_time": "February 13, 2023, 08:00:00",
-  "act_duration": 540,
-  "act_description": "sleeping",
-  "act_pronunciatio": "\ud83d\ude34\ud83d\udca4",
+  "act_address": "<persona> Ayesha Khan",
+  "act_start_time": "February 13, 2023, 19:32:10",
+  "act_duration": 18,
+  "act_description": "conversing about Ayesha Khan and Wolfgang Schulz discussing Wolfgang's upcoming pizza night, including toppings, games, and dessert options, while also collaborating on trivia questions related to Shakespeare's 'The Merchant of Venice' for Ayesha's thesis.",
+  "act_pronunciatio": "\ud83d\udcac",
   "act_event": [
     "Wolfgang Schulz",
-    "is",
-    "sleep"
+    "chat with",
+    "Ayesha Khan"
   ],
-  "act_obj_description": "being used",
-  "act_obj_pronunciatio": "\ud83d\udee0\ufe0f\ud83d\udc64",
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
   "act_obj_event": [
-    "bed",
-    "be",
-    "used"
+    null,
+    null,
+    null
   ],
-  "chatting_with": null,
-  "chat": null,
-  "chatting_with_buffer": {},
-  "chatting_end_time": null,
+  "chatting_with": "Ayesha Khan",
+  "chat": [
+    [
+      "Ayesha Khan",
+      "Hey Wolfgang! I heard you were planning a pizza night. That sounds fun! What toppings are you thinking about? Also, how\u2019s your Valentine's Day tasting event coming along?"
+    ],
+    [
+      "Wolfgang Schulz",
+      "Hey Ayesha! I'm really excited about the pizza night! I'm thinking of classic toppings like pepperoni and mushrooms, but I also want to include some veggie options like bell peppers and olives. As for the Valentine's Day tasting event, I found Arthur's 'Fibonacci Fizz' cocktail idea really intriguing, and I can't wait to see how it all comes together. How's your thesis going? Have you made any progress on it?"
+    ],
+    [
+      "Ayesha Khan",
+      "It's going well, thanks! I've been diving deep into how Shakespeare's language reflects themes of gentrification. I just made some interesting connections with 'The Merchant of Venice' that I can't wait to share. What about you? Any specific games or activities planned for the pizza night?"
+    ],
+    [
+      "Wolfgang Schulz",
+      "That sounds fascinating, Ayesha! I'd love to hear more about your connections with 'The Merchant of Venice.' For the pizza night, I'm planning some fun games like trivia and maybe a movie to go along with it. Do you have any favorite games you think we should include?"
+    ],
+    [
+      "Ayesha Khan",
+      "I'm glad you like the idea! For games, trivia sounds great\u2014maybe we could do a Shakespeare-themed round to tie it in with my thesis! As for 'The Merchant of Venice,' I found that the theme of alienation really resonates with the modern narratives of gentrification. I'd love to explore that more with you if you're interested."
+    ],
+    [
+      "Wolfgang Schulz",
+      "A Shakespeare-themed trivia round sounds like a fantastic idea! I'd love to hear more about your insights on alienation in 'The Merchant of Venice.' Maybe we can brainstorm some questions together? Also, if you have any other ideas for games or activities, I'm all ears!"
+    ],
+    [
+      "Ayesha Khan",
+      "Absolutely, Wolfgang! I'd love to brainstorm some trivia questions together. We could focus on key themes, characters, and quotes from 'The Merchant of Venice.' I can also share some of the literary connections I've been exploring. Do you have any specific topics or aspects of Shakespeare you'd like to include in the trivia?"
+    ],
+    [
+      "Wolfgang Schulz",
+      "That sounds great! I think it would be interesting to include questions about the main characters and their motivations, as well as some famous quotes. We could also touch on the historical context of the play. I'm really looking forward to collaborating with you on this! When do you think we should meet up to start brainstorming?"
+    ],
+    [
+      "Ayesha Khan",
+      "How about we meet later this week? I can bring some of my notes and we can really dig into the trivia questions and share insights. Maybe Wednesday afternoon? Does that work for you?"
+    ],
+    [
+      "Wolfgang Schulz",
+      "Wednesday afternoon works perfectly for me, Ayesha! I'm excited to dive into the trivia questions and hear more about your insights. Let\u2019s aim for around 2 PM? I can meet you in the library if that\u2019s convenient for you."
+    ],
+    [
+      "Ayesha Khan",
+      "2 PM sounds perfect! I\u2019ll see you then with my notes. Looking forward to it! And if you think of any other fun game ideas before Wednesday, feel free to let me know."
+    ],
+    [
+      "Wolfgang Schulz",
+      "Sounds good, Ayesha! I\u2019ll definitely think of some fun game ideas before then. I appreciate you bringing your notes; I\u2019m sure it'll help us create some awesome trivia questions. See you Wednesday!"
+    ],
+    [
+      "Ayesha Khan",
+      "Great! I'm looking forward to it. By the way, if you need any help with your pizza night preparations or want to bounce around ideas for the tasting event, feel free to reach out. I'm happy to help!"
+    ],
+    [
+      "Wolfgang Schulz",
+      "Thanks, Ayesha! I really appreciate it. I might take you up on that offer for some help with the pizza night. I want everything to be perfect! Also, I\u2019ll keep you posted on any new ideas I come up with. See you Wednesday!"
+    ],
+    [
+      "Ayesha Khan",
+      "Awesome! I'm excited to collaborate on both the trivia and the pizza night. By the way, have you thought about any specific drinks or desserts for the pizza night? It might be fun to pair them with the pizzas!"
+    ],
+    [
+      "Wolfgang Schulz",
+      "That's a great idea, Ayesha! I was thinking of keeping it simple with some soft drinks and maybe a couple of craft beers. For dessert, how about some brownies or ice cream? Do you have any suggestions for drinks or desserts that could complement the pizza?"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Maria Lopez": 290,
+    "Klaus Mueller": 404,
+    "Abigail Chen": 584,
+    "Arthur Burton": 680,
+    "Ayesha Khan": 800
+  },
+  "chatting_end_time": "February 13, 2023, 19:51:00",
   "act_path_set": true,
   "planned_path": []
 }

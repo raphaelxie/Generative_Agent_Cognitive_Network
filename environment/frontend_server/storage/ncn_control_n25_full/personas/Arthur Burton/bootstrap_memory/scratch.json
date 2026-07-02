@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    61,
-    23
+    58,
+    25
   ],
   "daily_plan_req": "Arthur Burton opens The Rose and Crown Pub at 5pm everyday, and stands at the counter until 10pm, at which point he closes the bar.",
   "name": "Arthur Burton",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 185,
-  "importance_ele_n": 17,
+  "importance_trigger_curr": 204,
+  "importance_ele_n": 15,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 8:00 am",
@@ -207,12 +207,20 @@
       15
     ],
     [
-      "having dinner (cooking the main dish)",
-      20
+      "having dinner (on the way to cooking the main dish)",
+      0
     ],
     [
-      "having dinner (setting the dining table)",
-      5
+      "having dinner (conversing about Jennifer Moore and Arthur Burton discussing their collaboration for an upcoming Valentine's event, focusing on integrating local stories into artwork and creating a special cocktail that complements those stories.)",
+      15
+    ],
+    [
+      "having dinner (on the way to setting the dining table)",
+      0
+    ],
+    [
+      "having dinner (conversing about Arthur Burton and Giorgio Rossi discussing ideas to incorporate community issues into their Valentine's Day party by collaborating with local artists, creating interactive booths, signature cocktails inspired by community stories, and promoting the event through social media.)",
+      21
     ],
     [
       "having dinner (plating his food)",
@@ -223,24 +231,108 @@
       5
     ],
     [
-      "having dinner (sitting down to eat)",
+      "having dinner (on the way to sitting down to eat)",
+      0
+    ],
+    [
+      "having dinner (conversing about Arthur Burton and Tom Moreno collaborating on a workshop with Maria Lopez, focusing on incorporating local flavors into cocktails and planning a tasting session at The Rose and Crown, including ideas for themes and flavors inspired by Valentine's Day.)",
+      20
+    ],
+    [
+      "opening The Rose and Crown Pub (setting up the bar area)",
+      15
+    ],
+    [
+      "opening The Rose and Crown Pub (on the way to checking the inventory of drinks and supplies)",
+      0
+    ],
+    [
+      "opening The Rose and Crown Pub (conversing about Arthur Burton and Carlos Gomez discussing plans for a Valentine's Day tasting event featuring the 'Fibonacci Fizz' cocktail, incorporating local herbs, poetry readings, special appetizers, and social media promotion.)",
+      21
+    ],
+    [
+      "opening The Rose and Crown Pub (on the way to cleaning the bar top and tables)",
+      0
+    ],
+    [
+      "opening The Rose and Crown Pub (conversing about Abigail Chen and Arthur Burton discussing the integration of the 'Fibonacci Fizz' cocktail into Abigail's animation project, exploring interactive elements, local ingredients, and potential collaborations with local distilleries.)",
+      22
+    ],
+    [
+      "opening The Rose and Crown Pub (arranging the seating area for customers)",
       10
     ],
     [
-      "opening The Rose and Crown Pub",
-      60
+      "opening The Rose and Crown Pub (on the way to turning on the lights and music)",
+      0
     ],
     [
-      "unwinding and relaxing with a short walk or some light reading",
-      60
+      "opening The Rose and Crown Pub (conversing about Carmen Ortiz and Arthur Burton discussing plans for an upcoming community day event to support local artists, businesses, and musicians, coinciding with Jennifer Moore's exhibition.)",
+      19
     ],
     [
-      "engaging with customers and serving drinks at The Rose and Crown Pub",
-      180
+      "unwinding and relaxing with a short walk or some light reading (on the way to unwinding and relaxing with a short walk or some light readin)",
+      0
+    ],
+    [
+      "unwinding and relaxing with a short walk or some light reading (conversing about Arthur and Wolfgang discussing Wolfgang's upcoming pizza night plans, including toppings, drinks, sides, desserts, games, and music, as well as Arthur's Valentine's Day tasting event featuring a cocktail and poetry readings.)",
+      16
+    ],
+    [
+      "engaging with customers and serving drinks at The Rose and Crown Pub (engaging with customers at the bar)",
+      15
+    ],
+    [
+      "engaging with customers and serving drinks at The Rose and Crown Pub (on the way to taking drink orders from customers)",
+      0
+    ],
+    [
+      "engaging with customers and serving drinks at The Rose and Crown Pub (conversing about Arthur Burton and Ryan Park discussing the features of an app for a Valentine's Day event, brainstorming ideas for community engagement, promoting user-generated content, planning a kickoff event for February 17th, and coordinating logistics for their collaboration.)",
+      17
+    ],
+    [
+      "engaging with customers and serving drinks at The Rose and Crown Pub (preparing and serving drinks)",
+      20
+    ],
+    [
+      "engaging with customers and serving drinks at The Rose and Crown Pub (checking in with customers to ensure they are enjoying their drinks)",
+      10
+    ],
+    [
+      "engaging with customers and serving drinks at The Rose and Crown Pub (making small talk and building rapport with regulars)",
+      15
+    ],
+    [
+      "engaging with customers and serving drinks at The Rose and Crown Pub (introducing a new cocktail special to customers)",
+      10
+    ],
+    [
+      "engaging with customers and serving drinks at The Rose and Crown Pub (taking additional drink orders)",
+      10
+    ],
+    [
+      "engaging with customers and serving drinks at The Rose and Crown Pub (preparing and serving the new cocktail special)",
+      15
+    ],
+    [
+      "engaging with customers and serving drinks at The Rose and Crown Pub (cleaning the bar area and wiping down surfaces)",
+      10
+    ],
+    [
+      "engaging with customers and serving drinks at The Rose and Crown Pub (checking on the status of the bar snacks and refilling if necessary)",
+      10
+    ],
+    [
+      "engaging with customers and serving drinks at The Rose and Crown Pub (engaging with a group of customers celebrating a special occasion)",
+      15
+    ],
+    [
+      "engaging with customers and serving drinks at The Rose and Crown Pub (taking a moment to thank customers for their patronage)",
+      8
     ],
     [
       "closing The Rose and Crown Pub for the night",
-      60
+      53
     ],
     [
       "closing up any remaining tasks at The Rose and Crown Pub before heading home for the night",
@@ -305,38 +397,107 @@
       60
     ]
   ],
-  "act_address": "the Ville:The Rose and Crown Pub:pub:bar customer seating",
-  "act_start_time": "February 13, 2023, 16:16:00",
+  "act_address": "<persona> Ryan Park",
+  "act_start_time": "February 13, 2023, 19:29:50",
   "act_duration": 17,
-  "act_description": "continuing to prepare and organize the bar for the evening rush (conversing about Adam Smith and Arthur Burton discussing plans for Maria Lopez's campaign events, focusing on cocktail recipes, food pairings, visual presentation, social media promotion, local influencers, and a theme for the demo.)",
-  "act_pronunciatio": "\ud83c\udf79\ud83d\udcca",
+  "act_description": "conversing about Arthur Burton and Ryan Park discussing the features of an app for a Valentine's Day event, brainstorming ideas for community engagement, promoting user-generated content, planning a kickoff event for February 17th, and coordinating logistics for their collaboration.",
+  "act_pronunciatio": "\ud83d\udcac",
   "act_event": [
     "Arthur Burton",
-    "converse",
-    "plans for Maria Lopez's campaign events"
+    "chat with",
+    "Ryan Park"
   ],
-  "act_obj_description": "being organized and prepared for the evening rush",
-  "act_obj_pronunciatio": "\ud83d\udcc5\ud83d\udd52",
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
   "act_obj_event": [
-    "bar customer seating",
-    "be",
-    "organized and prepared for the evening rush"
+    null,
+    null,
+    null
   ],
-  "chatting_with": null,
-  "chat": null,
+  "chatting_with": "Ryan Park",
+  "chat": [
+    [
+      "Arthur Burton",
+      "Hey Ryan! I was just thinking about our discussion on the Valentine's Day event. Have you made any progress on the app features we talked about? I'm really excited about how we can engage the community and get them involved!"
+    ],
+    [
+      "Ryan Park",
+      "Hey Arthur! Yes, I've been jotting down some ideas for integrating local events and user-generated content into the app. I think we can create something really engaging for the community, especially with the Valentine's Day event coming up. Let's brainstorm further on how we can bring these features to life!"
+    ],
+    [
+      "Arthur Burton",
+      "That's great to hear! I was thinking we could also encourage users to share their experiences and photos from the event through the app. Maybe we could even highlight some of their contributions during the event? What do you think?"
+    ],
+    [
+      "Ryan Park",
+      "I love that idea! Highlighting user contributions could really enhance the sense of community. We could even create a dedicated section in the app for featured photos and stories. Let's make sure to encourage users to share their content leading up to the event too. What do you think about setting up a hashtag for social media to promote this?"
+    ],
+    [
+      "Arthur Burton",
+      "That's a fantastic idea! A hashtag could really help create buzz and make it easier for everyone to find and share their experiences. Do you have any ideas for what we could use? And should we start promoting it right away?"
+    ],
+    [
+      "Ryan Park",
+      "I think we could go with something catchy like #ValentinesInOurTown or #LoveInTheCommunity. We should definitely start promoting it as soon as possible to build excitement. I can create some graphics for social media to get the ball rolling. What do you think?"
+    ],
+    [
+      "Arthur Burton",
+      "I love those hashtag ideas! Let's go with #ValentinesInOurTown. If you could create some graphics, that would be awesome. I can start promoting it at the pub too, maybe even put up some flyers. What do you think about planning a little kickoff event to get everyone excited about sharing their stories?"
+    ],
+    [
+      "Ryan Park",
+      "A kickoff event sounds like a great idea! We could have some fun activities and maybe even a sneak peek of what the app will offer. I can help set up some interactive elements for the event. When are you thinking of having it?"
+    ],
+    [
+      "Arthur Burton",
+      "I was thinking we could have the kickoff event this Friday, February 17th, just a week before Valentine's Day. It would give us enough time to promote it and get people excited. What do you think?"
+    ],
+    [
+      "Ryan Park",
+      "I think that timing works perfectly! A week before Valentine's Day will definitely help us generate excitement. Let\u2019s finalize the details for the kickoff event and start promoting it right away. I\u2019ll work on the interactive elements and graphics this week. Do you want to meet again tomorrow to discuss the logistics?"
+    ],
+    [
+      "Arthur Burton",
+      "Absolutely! Meeting tomorrow sounds great. Let\u2019s finalize everything we need for the kickoff event and make sure we\u2019re both on the same page. What time works for you?"
+    ],
+    [
+      "Ryan Park",
+      "How about we meet at 3 PM tomorrow? That way we can go over all the details and make sure we\u2019re set for the kickoff event."
+    ],
+    [
+      "Arthur Burton",
+      "3 PM works perfectly for me! I\u2019m looking forward to it. Let\u2019s make this kickoff event a great success! If you need anything from me before then, just let me know."
+    ],
+    [
+      "Ryan Park",
+      "Great! I\u2019ll start working on the graphics and interactive elements. Also, I\u2019ll think about some activities we can do at the kickoff event. I\u2019ll see you tomorrow at 3 PM!"
+    ],
+    [
+      "Arthur Burton",
+      "Sounds good, Ryan! I can't wait to see what you come up with. Let's make sure to keep the community involved and excited about everything. See you tomorrow!"
+    ],
+    [
+      "Ryan Park",
+      "Thanks, Arthur! I'll make sure to have some exciting activities and graphics ready for our meeting tomorrow. I'm really looking forward to collaborating on this event and getting the community engaged! See you at 3 PM!"
+    ]
+  ],
   "chatting_with_buffer": {
-    "Latoya Williams": -1510,
-    "Adam Smith": 776,
-    "Tom Moreno": -1174,
-    "John Lin": -1042,
-    "Carlos Gomez": -658,
-    "Klaus Mueller": -124,
-    "Giorgio Rossi": 86,
-    "Hailey Johnson": 296,
-    "Ryan Park": 452,
-    "Francisco Lopez": 668
+    "Latoya Williams": -2710,
+    "Adam Smith": -424,
+    "Tom Moreno": 98,
+    "John Lin": -2242,
+    "Carlos Gomez": 248,
+    "Klaus Mueller": -1324,
+    "Giorgio Rossi": -70,
+    "Hailey Johnson": -904,
+    "Ryan Park": 800,
+    "Francisco Lopez": -532,
+    "Jennifer Moore": -262,
+    "Abigail Chen": 422,
+    "Carmen Ortiz": 578,
+    "Wolfgang Schulz": 680
   },
-  "chatting_end_time": null,
+  "chatting_end_time": "February 13, 2023, 19:47:00",
   "act_path_set": true,
   "planned_path": []
 }

@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    33,
-    46
+    37,
+    30
   ],
   "daily_plan_req": "",
   "name": "Abigail Chen",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 178,
-  "importance_ele_n": 27,
+  "importance_trigger_curr": 152,
+  "importance_ele_n": 23,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 8:00 am",
@@ -187,40 +187,92 @@
       10
     ],
     [
-      "finishing up the day's tasks on the animation project (checking the animation timeline for any missing frames)",
-      10
+      "finishing up the day's tasks on the animation project (on the way to checking the animation timeline for any missing frames)",
+      0
+    ],
+    [
+      "finishing up the day's tasks on the animation project (conversing about Abigail Chen and Hailey Johnson discussing how to integrate local stories and community narratives into Hailey's novel, while planning collaborative brainstorming sessions with local artists and considering interactive elements and visual presentations to enhance their projects.)",
+      21
     ],
     [
       "finishing up the day's tasks on the animation project (making adjustments to the animation based on client feedback)",
       15
     ],
     [
-      "finishing up the day's tasks on the animation project (adding sound effects to the animation)",
-      10
+      "finishing up the day's tasks on the animation project (on the way to adding sound effects to the animation)",
+      0
+    ],
+    [
+      "finishing up the day's tasks on the animation project (conversing about Latoya Williams and Abigail Chen discussing their animation project that incorporates local businesses, specifically focusing on local coffee shops and their stories, while planning a brainstorming session to share ideas and photos.)",
+      14
     ],
     [
       "finishing up the day's tasks on the animation project (reviewing the sound effects to ensure they fit the animation)",
       5
     ],
     [
-      "finishing up the day's tasks on the animation project (exporting the animation project for final review)",
+      "finishing up the day's tasks on the animation project (on the way to exporting the animation project for final review)",
+      0
+    ],
+    [
+      "finishing up the day's tasks on the animation project (conversing about Rajiv Patel and Abigail Chen discussing their respective creative projects, with Rajiv working on a Fibonacci-inspired cocktail and Abigail on an animation project with interactive elements, and planning to collaborate on integrating their ideas.)",
+      13
+    ],
+    [
+      "having dinner (on the way to preparing the ingredients for dinner)",
+      0
+    ],
+    [
+      "having dinner (conversing about Francisco Lopez and Abigail Chen discussing ideas for a project that features local businesses, particularly coffee shops, and planning their upcoming coffee meeting with Latoya to brainstorm further.)",
+      20
+    ],
+    [
+      "having dinner (cooking the main dish)",
+      9
+    ],
+    [
+      "having dinner (on the way to setting the table)",
+      0
+    ],
+    [
+      "having dinner (conversing about Abigail Chen and Arthur Burton discussing the integration of the 'Fibonacci Fizz' cocktail into Abigail's animation project, exploring interactive elements, local ingredients, and potential collaborations with local distilleries.)",
+      22
+    ],
+    [
+      "having dinner (plating the food)",
       10
     ],
     [
-      "having dinner",
-      60
+      "having dinner (on the way to pouring a drink)",
+      0
+    ],
+    [
+      "having dinner (conversing about Abigail Chen and Wolfgang Schulz discussing Wolfgang's upcoming pizza night, including toppings, side dishes, drinks, games, music, and decorations, while also touching on Abigail's animation project.)",
+      17
+    ],
+    [
+      "having dinner (on the way to sitting down to eat)",
+      0
+    ],
+    [
+      "having dinner (conversing about Abigail Chen and Carmen Ortiz discussing plans for a community day event, including featuring local artists, showcasing Abigail's animation with an interactive element, and brainstorming ways to engage the community.)",
+      17
     ],
     [
       "relaxing and unwinding by watching a show or reading",
-      60
+      48
     ],
     [
-      "watching a show or reading",
-      60
+      "watching a show or reading (on the way to watching a show or readin)",
+      0
+    ],
+    [
+      "watching a show or reading (conversing about Abigail Chen and Latoya Williams discussing their animation project, focusing on incorporating local coffee shop stories, interview ideas, visual representation, and highlighting Maria Lopez's initiatives.)",
+      16
     ],
     [
       "continuing to relax and unwind by watching a show or reading",
-      120
+      108
     ],
     [
       "preparing for bed and winding down for the night",
@@ -301,34 +353,102 @@
       60
     ]
   ],
-  "act_address": "the Ville:Johnson Park:park:park garden",
-  "act_start_time": "February 13, 2023, 15:59:00",
-  "act_duration": 41,
-  "act_description": "taking a brief break to clear her mind and take a walk",
-  "act_pronunciatio": "\ud83d\udeb6\u200d\u2640",
+  "act_address": "<persona> Latoya Williams",
+  "act_start_time": "February 13, 2023, 19:39:00",
+  "act_duration": 16,
+  "act_description": "conversing about Abigail Chen and Latoya Williams discussing their animation project, focusing on incorporating local coffee shop stories, interview ideas, visual representation, and highlighting Maria Lopez's initiatives.",
+  "act_pronunciatio": "\ud83d\udcac",
   "act_event": [
     "Abigail Chen",
-    "take",
-    "brief break"
+    "chat with",
+    "Latoya Williams"
   ],
-  "act_obj_description": "peacefully blooming with vibrant flowers and lush greenery",
-  "act_obj_pronunciatio": "\ud83c\udf38\ud83c\udf3f",
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
   "act_obj_event": [
-    "park garden",
-    "bloom",
-    "vibrant flowers and lush greenery"
+    null,
+    null,
+    null
   ],
-  "chatting_with": null,
-  "chat": null,
+  "chatting_with": "Latoya Williams",
+  "chat": [
+    [
+      "Abigail Chen",
+      "Hey Latoya! I was just thinking about our animation project. Have you had any more thoughts on how we can incorporate local coffee shop stories? I feel like they could really add depth to our narrative."
+    ],
+    [
+      "Latoya Williams",
+      "Absolutely, Abigail! I think interviewing the owners and capturing their personal stories could really resonate with the community. We could also take some photos of the shops to visually enhance those narratives. What do you think?"
+    ],
+    [
+      "Abigail Chen",
+      "I love that idea! Capturing their personal stories would definitely add authenticity. Do you think we should come up with some specific questions for the interviews? And maybe we could brainstorm which coffee shops to feature next?"
+    ],
+    [
+      "Latoya Williams",
+      "Yes, coming up with specific questions would be a great idea! We could ask about their inspirations, challenges they face, and what makes their coffee shop unique. As for the coffee shops, I have a few in mind that have great stories to tell. Should we set a time to brainstorm those together?"
+    ],
+    [
+      "Abigail Chen",
+      "That sounds perfect! How about we meet tomorrow afternoon to go over the coffee shops and finalize our interview questions? I can bring some of my notes, too."
+    ],
+    [
+      "Latoya Williams",
+      "Tomorrow afternoon works for me! What time do you have in mind? I can bring my photos and some ideas for the coffee shops we could feature."
+    ],
+    [
+      "Abigail Chen",
+      "How about 2 PM? That should give us enough time to go through everything. I'm excited to see your photos and hear your ideas!"
+    ],
+    [
+      "Latoya Williams",
+      "2 PM works perfectly for me! I'll make sure to bring my photos of the coffee shops and jot down some ideas for our questions. Looking forward to it!"
+    ],
+    [
+      "Abigail Chen",
+      "Great! I\u2019ll see you then. If you think of any other coffee shops or ideas before our meeting, feel free to send them my way! I can't wait to dive into this project with you."
+    ],
+    [
+      "Latoya Williams",
+      "Will do! I\u2019ll keep brainstorming and let you know if I come up with any more ideas. By the way, have you had a chance to think about how we might visually represent some of the stories in the animation? I think that could be a fun aspect to discuss too."
+    ],
+    [
+      "Abigail Chen",
+      "That's a great point, Latoya! I have a few ideas for visual representation, like using mixed media or integrating some of your travel photos as backgrounds. We could also think about animation styles that reflect the vibe of each coffee shop. Let's brainstorm those ideas when we meet tomorrow! What do you think?"
+    ],
+    [
+      "Latoya Williams",
+      "I think integrating my travel photos as backgrounds would really enrich the animation! It could help convey the atmosphere of each coffee shop. I'm excited to see how we can blend different styles together. Let's definitely explore that tomorrow!"
+    ],
+    [
+      "Abigail Chen",
+      "Awesome! I can\u2019t wait to see how we can weave everything together. Also, if you have any thoughts on how to highlight Maria Lopez's initiatives in our project, we should definitely touch on that too. It could tie in nicely with the coffee shop stories!"
+    ],
+    [
+      "Latoya Williams",
+      "Absolutely, highlighting Maria Lopez's initiatives could really enhance our narrative and show how local businesses can thrive with community support. Maybe we could interview her as well? It would be great to get her perspective on supporting small businesses."
+    ],
+    [
+      "Abigail Chen",
+      "I love that idea! Interviewing Maria would definitely add another layer to our project. We can ask her about her initiatives and how they impact the local coffee shops. Let's make sure to include that in our discussion tomorrow!"
+    ],
+    [
+      "Latoya Williams",
+      "Great! I\u2019ll prepare some questions for Maria and we can discuss how to integrate her initiatives with the coffee shop stories. I\u2019m really looking forward to our meeting tomorrow!"
+    ]
+  ],
   "chatting_with_buffer": {
-    "Francisco Lopez": 398,
-    "Adam Smith": -1414,
-    "Latoya Williams": -172,
-    "Rajiv Patel": -388,
-    "Hailey Johnson": 38,
-    "Jennifer Moore": 224
+    "Francisco Lopez": 260,
+    "Adam Smith": -2614,
+    "Latoya Williams": 800,
+    "Rajiv Patel": 134,
+    "Hailey Johnson": -130,
+    "Jennifer Moore": -976,
+    "Arthur Burton": 422,
+    "Wolfgang Schulz": 584,
+    "Carmen Ortiz": 686
   },
-  "chatting_end_time": null,
+  "chatting_end_time": "February 13, 2023, 19:55:00",
   "act_path_set": true,
   "planned_path": []
 }

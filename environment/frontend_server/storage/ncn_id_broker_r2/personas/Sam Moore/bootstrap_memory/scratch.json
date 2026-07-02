@@ -1,0 +1,497 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 17:09:50",
+  "curr_tile": [
+    76,
+    22
+  ],
+  "daily_plan_req": "Sam Moore likes to talk a walk around Johnson Park, and sit at Hobbs cafe reading.",
+  "name": "Sam Moore",
+  "first_name": "Sam",
+  "last_name": "Moore",
+  "age": 65,
+  "innate": "wise, resourceful, humorous",
+  "learned": "Sam Moore is a retired navy officer who loves to share stories from his time in the military. He is always full of interesting stories and advice.",
+  "currently": "Sam Moore lives with his wife of 40 years, Jennifer Moore, and spends his free time tending the park and is an avid reader. Sam is planning on running for local mayor in the upcoming election and he is telling is neighbors about it",
+  "lifestyle": "Sam Moore goes to bed around 9pm, awakes up around 5am, eats dinner around 5pm.",
+  "living_area": "the Ville:Moore family's house:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 205,
+  "importance_ele_n": 20,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "go for a walk around Johnson Park from 8:15 am to 9:00 am",
+    "visit Hobbs Cafe for breakfast and reading from 9:15 am to 10:30 am",
+    "attend a community meeting regarding the upcoming mayoral election from 11:00 am to 12:30 pm",
+    "have lunch with Jennifer at home at 1:00 pm",
+    "spend some time reading in the afternoon from 2:00 pm to 4:00 pm",
+    "work on his mayoral campaign materials from 4:15 pm to 5:00 pm",
+    "have dinner with Jennifer at 5:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine (waking up and stretching)",
+      10
+    ],
+    [
+      "waking up and completing his morning routine (on the way to brushing his teeth)",
+      0
+    ],
+    [
+      "waking up and completing his morning routine (conversing about Jennifer and Sam discussing her art exhibition, his mayoral campaign, and planning to have breakfast together while brainstorming ideas.)",
+      16
+    ],
+    [
+      "waking up and completing his morning routine (washing his face)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (on the way to taking a shower)",
+      0
+    ],
+    [
+      "waking up and completing his morning routine (conversing about Isabella Rodriguez and Sam Moore discussing their plans for breakfast on Thursday to brainstorm ideas for Jennifer's art exhibition and also sharing thoughts on how to make the Valentine's Day party at the cafe a special event.)",
+      9
+    ],
+    [
+      "waking up and completing his morning routine (drying off and getting dressed)",
+      10
+    ],
+    [
+      "waking up and completing his morning routine (combing his hair)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (preparing breakfast)",
+      15
+    ],
+    [
+      "waking up and completing his morning routine (eating breakfast)",
+      15
+    ],
+    [
+      "waking up and completing his morning routine (cleaning up the kitchen after breakfast)",
+      10
+    ],
+    [
+      "waking up and completing his morning routine (checking his calendar for the day)",
+      5
+    ],
+    [
+      "waking up and completing his morning routine (gathering materials for the community meeting)",
+      10
+    ],
+    [
+      "waking up and completing his morning routine (putting on his shoes)",
+      4
+    ],
+    [
+      "visiting Hobbs Cafe for breakfast and reading (ordering his breakfast at Hobbs Cafe)",
+      10
+    ],
+    [
+      "visiting Hobbs Cafe for breakfast and reading (finding a cozy spot to sit and read)",
+      5
+    ],
+    [
+      "visiting Hobbs Cafe for breakfast and reading (unpacking his book and getting comfortable)",
+      5
+    ],
+    [
+      "visiting Hobbs Cafe for breakfast and reading (enjoying his breakfast while reading)",
+      20
+    ],
+    [
+      "visiting Hobbs Cafe for breakfast and reading (taking a moment to reflect on what he has read)",
+      5
+    ],
+    [
+      "visiting Hobbs Cafe for breakfast and reading (on the way to jotting down notes or thoughts about the book)",
+      0
+    ],
+    [
+      "visiting Hobbs Cafe for breakfast and reading (conversing about Sam Moore and Giorgio Rossi discussing their collaboration for Valentine's Day decorations inspired by mathematical patterns in nature, particularly the Fibonacci sequence, and planning to include flowers and eco-friendly materials.)",
+      21
+    ],
+    [
+      "visiting Hobbs Cafe for breakfast and reading (on the way to finishing up his breakfast and preparing to leave)",
+      0
+    ],
+    [
+      "visiting Hobbs Cafe for breakfast and reading (conversing about Isabella Rodriguez and Sam Moore discussing ideas for decorations, quotes, flower arrangements, and live music for an upcoming Valentine's Day party.)",
+      18
+    ],
+    [
+      "attending a community meeting regarding the upcoming mayoral election (attending the community meeting) (at the community meeting location and checks in)",
+      5
+    ],
+    [
+      "attending a community meeting regarding the upcoming mayoral election (attending the community meeting) (a seat and settles in, greeting neighbors)",
+      5
+    ],
+    [
+      "attending a community meeting regarding the upcoming mayoral election (attending the community meeting) (to the opening remarks from the meeting organizer)",
+      10
+    ],
+    [
+      "attending a community meeting regarding the upcoming mayoral election (on the way to notes on key points discussed during the meeting)",
+      0
+    ],
+    [
+      "attending a community meeting regarding the upcoming mayoral election (conversing about Eddy Lin and Sam Moore discussing plans for a Valentine's Day party, including music choices, decorations, and quotes to enhance the romantic atmosphere.)",
+      17
+    ],
+    [
+      "attending a community meeting regarding the upcoming mayoral election (attending the community meeting) (in a discussion about community issues)",
+      10
+    ],
+    [
+      "attending a community meeting regarding the upcoming mayoral election (attending the community meeting) (his vision for the mayoral campaign with attendees)",
+      7
+    ],
+    [
+      "having lunch with Jennifer at home (preparing the lunch ingredients)",
+      15
+    ],
+    [
+      "having lunch with Jennifer at home (on the way to cooking the main dish)",
+      0
+    ],
+    [
+      "having lunch with Jennifer at home (conversing about Sam and Jennifer discussing plans for a Valentine's Day party and an art exhibition, focusing on incorporating Jennifer's watercolor designs, quotes, live music, and interactive activities to create a memorable celebration.)",
+      20
+    ],
+    [
+      "having lunch with Jennifer at home (on the way to setting the dining table)",
+      0
+    ],
+    [
+      "having lunch with Jennifer at home (conversing about Adam Smith and Sam Moore discussing a Valentine's Day party and art exhibition, focusing on incorporating local artists, interactive activities, and involving local schools to enhance community engagement.)",
+      20
+    ],
+    [
+      "having lunch with Jennifer at home (preparing a side dish or salad)",
+      15
+    ],
+    [
+      "having lunch with Jennifer at home (on the way to plating the food)",
+      0
+    ],
+    [
+      "having lunch with Jennifer at home (conversing about Carlos Gomez and Sam Moore discussing ideas for their Valentine's Day party decorations, incorporating the Fibonacci sequence, poetry, interactive elements, and live music.)",
+      16
+    ],
+    [
+      "having lunch with Jennifer at home (calling Jennifer to the table)",
+      5
+    ],
+    [
+      "having lunch with Jennifer at home (on the way to sitting down to eat)",
+      18
+    ],
+    [
+      "having lunch with Jennifer at home (conversing about Sam Moore and Mei Lin discussing the planning and promotion of community engagement workshops focused on local social issues.)",
+      20
+    ],
+    [
+      "reading in the afternoon (on the way to reading in the afternoo)",
+      0
+    ],
+    [
+      "reading in the afternoon (conversing about Isabella Rodriguez and Sam Moore discussing the final preparations for the Valentine's Day party, including live music options, decorations, and flower arrangements.)",
+      15
+    ],
+    [
+      "working on his mayoral campaign materials (working on his campaign message)",
+      30
+    ],
+    [
+      "working on his mayoral campaign materials (designing campaign flyers)",
+      30
+    ],
+    [
+      "working on his mayoral campaign materials (writing a speech for the upcoming town hall meeting)",
+      30
+    ],
+    [
+      "working on his mayoral campaign materials (on the way to reviewing the campaign budget)",
+      0
+    ],
+    [
+      "working on his mayoral campaign materials (conversing about Sam Moore and Adam Smith discussing the incorporation of creative ideas into their Valentine's Day party, including a community mural, involvement of local schools and art teachers, a student competition with prizes, and promotional strategies to engage the community.)",
+      24
+    ],
+    [
+      "working on his mayoral campaign materials (on the way to organizing his campaign materials)",
+      0
+    ],
+    [
+      "working on his mayoral campaign materials (conversing about Sam Moore and Giorgio Rossi discussing creative community engagement strategies for the upcoming mayoral election, incorporating art workshops inspired by the Fibonacci sequence, local artist involvement, and collaboration with local businesses.)",
+      22
+    ],
+    [
+      "working on his mayoral campaign materials (on the way to preparing to print the campaign materials)",
+      0
+    ],
+    [
+      "working on his mayoral campaign materials (conversing about Isabella Rodriguez and Sam Moore discussing the preparations for a Valentine's Day party, including decorations, flower arrangements, a special menu, live music, and a photo booth.)",
+      14
+    ],
+    [
+      "having dinner with Jennifer at home (serving the meal)",
+      5
+    ],
+    [
+      "having dinner with Jennifer at home (on the way to sitting down to eat with Jennifer)",
+      0
+    ],
+    [
+      "having dinner with Jennifer at home (conversing about Ayesha Khan and Sam Moore discussing their respective Valentine's Day party preparations, including unique themes, interactive elements, and music choices.)",
+      20
+    ],
+    [
+      "having dinner with Jennifer at home (sharing stories from his day)",
+      10
+    ],
+    [
+      "having dinner with Jennifer at home (asking Jennifer about her day)",
+      5
+    ],
+    [
+      "having dinner with Jennifer at home (finishing the meal)",
+      5
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (discussing their day)",
+      15
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (sharing stories from his past experiences)",
+      15
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (asking Jennifer about her day)",
+      15
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (listening to Jennifer's thoughts and feelings)",
+      15
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (discussing their plans for the upcoming week)",
+      15
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (brainstorming ideas for their future travels)",
+      15
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (talking about his mayoral campaign and seeking Jennifer's input)",
+      15
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (discussing community issues that matter to them)",
+      15
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (planning a date night for the following week)",
+      15
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (reminiscing about their favorite memories together)",
+      15
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (discussing their family and any updates from relatives)",
+      15
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (talking about their hobbies and interests)",
+      15
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (discussing any upcoming events in the neighborhood)",
+      15
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (sharing his thoughts on local politics and community engagement)",
+      15
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (planning how to involve their friends in community activities)",
+      15
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (wrapping up the conversation and expressing gratitude for their time together)",
+      15
+    ],
+    [
+      "getting ready for bed and reflecting on his day",
+      105
+    ],
+    [
+      "sleeping",
+      6
+    ],
+    [
+      "sleeping",
+      18
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      120
+    ],
+    [
+      "visiting Hobbs Cafe for breakfast and reading",
+      60
+    ],
+    [
+      "attending a community meeting regarding the upcoming mayoral election",
+      60
+    ],
+    [
+      "having lunch with Jennifer at home",
+      120
+    ],
+    [
+      "reading in the afternoon",
+      60
+    ],
+    [
+      "working on his mayoral campaign materials",
+      120
+    ],
+    [
+      "having dinner with Jennifer at home",
+      60
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future",
+      240
+    ],
+    [
+      "getting ready for bed and reflecting on his day",
+      120
+    ]
+  ],
+  "act_address": "<persona> Ayesha Khan",
+  "act_start_time": "February 13, 2023, 17:09:00",
+  "act_duration": 20,
+  "act_description": "conversing about Ayesha Khan and Sam Moore discussing their respective Valentine's Day party preparations, including unique themes, interactive elements, and music choices.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Sam Moore",
+    "chat with",
+    "Ayesha Khan"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Ayesha Khan",
+  "chat": [
+    [
+      "Ayesha Khan",
+      "Hey Sam! I couldn't help but notice you working on your campaign materials. How's everything going with the preparations for the Valentine's Day party? I heard it's going to be quite the event!"
+    ],
+    [
+      "Sam Moore",
+      "Hi Ayesha! Yes, we're really excited about the Valentine's Day party. We're incorporating some unique elements like live music and interactive activities, and I think Jennifer's watercolor designs will add a lovely touch. How about you? Do you have any plans for Valentine's Day?"
+    ],
+    [
+      "Ayesha Khan",
+      "That sounds amazing! I love the idea of live music and interactive activities. I'm actually planning a Valentine's Day party too, and I'm incorporating the Fibonacci sequence into the decorations. It's been a fun challenge! What kind of music do you have in mind for your event?"
+    ],
+    [
+      "Sam Moore",
+      "That sounds like a creative concept! For our party, we're looking at a mix of romantic classics and some upbeat tunes to keep the energy lively. I think it will really enhance the atmosphere. Do you have any specific songs or artists in mind for your Fibonacci-themed decorations?"
+    ],
+    [
+      "Ayesha Khan",
+      "I haven't picked specific songs yet, but I was thinking of incorporating some nature-inspired poetry quotes as part of the decorations. Maybe something by Mary Oliver or Robert Frost. Do you think that would fit well with the vibe you're going for?"
+    ],
+    [
+      "Sam Moore",
+      "I think incorporating poetry quotes from Mary Oliver or Robert Frost would fit perfectly with our vibe! It adds a nice touch of romance and depth. We're also considering some quotes about love and art for our decorations. Have you thought about any interactive elements for your party?"
+    ],
+    [
+      "Ayesha Khan",
+      "Yes, I'm planning to have an interactive art station where guests can create their own art pieces inspired by the Fibonacci sequence. It could be a fun way to engage everyone! What interactive elements are you considering for your event?"
+    ],
+    [
+      "Sam Moore",
+      "That sounds like a fantastic interactive element! We're thinking of having a photo booth where guests can take fun pictures with props that reflect the theme of love and art. It should be a great way to capture memories from the night. I'm really excited about how everything is coming together! Do you have any other ideas for your party?"
+    ],
+    [
+      "Ayesha Khan",
+      "I love the idea of a photo booth! It sounds like a great way to create lasting memories. I'm also considering adding a little corner where guests can write down their favorite quotes about love and nature on leaves or flowers. What do you think?"
+    ],
+    [
+      "Sam Moore",
+      "I think that's a wonderful idea! Having a corner for guests to write down their favorite quotes would not only enhance the atmosphere but also create a beautiful display. It sounds like your party is going to be very engaging! Have you thought about how you'll present those quotes afterwards?"
+    ],
+    [
+      "Ayesha Khan",
+      "I was thinking of creating a beautiful collage with all the quotes displayed together. It could be a nice keepsake for everyone to remember the night. What do you think? Any suggestions on how to make it more visually appealing?"
+    ],
+    [
+      "Sam Moore",
+      "That sounds like a lovely idea! To make it more visually appealing, you could use a large canvas or a decorative board and arrange the quotes in a spiral pattern to echo the Fibonacci sequence. Adding some natural elements like leaves or flowers around the edges could enhance the theme even more. I'm sure it will be a beautiful keepsake! Have you thought about how you'll display it at the party?"
+    ],
+    [
+      "Ayesha Khan",
+      "That's a great suggestion! I love the idea of arranging the quotes in a spiral pattern. I think I\u2019ll definitely incorporate that along with some natural elements. I\u2019m excited to see how it all comes together. By the way, have you faced any challenges with your party planning? It seems like you have a lot on your plate!"
+    ],
+    [
+      "Sam Moore",
+      "We've had a few challenges, especially with coordinating all the different elements and making sure everything aligns with the theme. But with the support from friends like Isabella and Jennifer, we're making progress! How about you? Any hurdles you've encountered in your planning?"
+    ],
+    [
+      "Ayesha Khan",
+      "I can imagine! Coordination can be a challenge. I\u2019ve had to juggle my research and party planning, but I\u2019m managing. I really appreciate all the input from my friends too. What do you think has been the most rewarding part of the planning process for you?"
+    ],
+    [
+      "Sam Moore",
+      "I think the most rewarding part has been collaborating with everyone and seeing all the creative ideas come together. It really brings a sense of community to the event. Plus, hearing everyone's excitement makes it all worthwhile! What about you? What has been the most fulfilling aspect of your planning?"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Jennifer Moore": -826,
+    "Isabella Rodriguez": 752,
+    "Giorgio Rossi": 650,
+    "Eddy Lin": -1114,
+    "Adam Smith": 440,
+    "Carlos Gomez": -478,
+    "Mei Lin": -304,
+    "Ayesha Khan": 800
+  },
+  "chatting_end_time": "February 13, 2023, 17:29:00",
+  "act_path_set": true,
+  "planned_path": []
+}

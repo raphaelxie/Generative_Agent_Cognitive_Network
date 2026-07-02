@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    118,
-    30
+    93,
+    68
   ],
   "daily_plan_req": "Mei Lin goes to Oak Hill college to teach starting 10 am, teaches until 2pm, and returns home to work.",
   "name": "Mei Lin",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 79,
-  "importance_ele_n": 44,
+  "importance_trigger_curr": 99,
+  "importance_ele_n": 47,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 8:00 am",
@@ -259,8 +259,12 @@
       15
     ],
     [
-      "preparing and having dinner with her family (cooking the main dish)",
-      20
+      "preparing and having dinner with her family (on the way to cooking the main dish)",
+      0
+    ],
+    [
+      "preparing and having dinner with her family (conversing about Mei Lin and John Lin discussing dinner plans, including a menu of stir-fried vegetables and chocolate mousse, while also planning to talk about local mayoral candidates and Eddy's research project on music and emotions.)",
+      14
     ],
     [
       "preparing and having dinner with her family (setting the dining table)",
@@ -275,12 +279,96 @@
       5
     ],
     [
-      "helping Eddy and her other child with homework",
-      60
+      "helping Eddy and her other child with homework (helping Eddy with his math homework)",
+      20
     ],
     [
-      "spending quality time with her family",
-      180
+      "helping Eddy and her other child with homework (reviewing Eddy's completed math problems for accuracy)",
+      10
+    ],
+    [
+      "helping Eddy and her other child with homework (explaining a math concept that Eddy finds challenging)",
+      10
+    ],
+    [
+      "helping Eddy and her other child with homework (checking in with her other child about their homework progress)",
+      5
+    ],
+    [
+      "helping Eddy and her other child with homework (helping her other child with their reading assignment)",
+      15
+    ],
+    [
+      "spending quality time with her family (spending time playing board games with her family)",
+      30
+    ],
+    [
+      "spending quality time with her family (preparing snacks for the family)",
+      15
+    ],
+    [
+      "spending quality time with her family (enjoying the snacks together with her family)",
+      15
+    ],
+    [
+      "spending quality time with her family (watching a family movie with her husband and kids) (setting up the living room for the movie)",
+      10
+    ],
+    [
+      "spending quality time with her family (watching a family movie with her husband and kids) (preparing snacks for the family)",
+      10
+    ],
+    [
+      "spending quality time with her family (watching a family movie with her husband and kids) (gathering blankets and pillows for comfort)",
+      5
+    ],
+    [
+      "spending quality time with her family (watching a family movie with her husband and kids) (selecting the movie to watch)",
+      5
+    ],
+    [
+      "spending quality time with her family (watching a family movie with her husband and kids) (calling her family to come to the living room)",
+      5
+    ],
+    [
+      "spending quality time with her family (watching a family movie with her husband and kids) (setting up the movie on the TV)",
+      5
+    ],
+    [
+      "spending quality time with her family (watching a family movie with her husband and kids) (distributing snacks to everyone)",
+      5
+    ],
+    [
+      "spending quality time with her family (watching a family movie with her husband and kids) (dimming the lights for a cozy atmosphere)",
+      5
+    ],
+    [
+      "spending quality time with her family (watching a family movie with her husband and kids) (sitting down with her family to start the movie)",
+      5
+    ],
+    [
+      "spending quality time with her family (watching a family movie with her husband and kids) (enjoying the movie with her family)",
+      5
+    ],
+    [
+      "spending quality time with her family (discussing the movie with her family after watching it)",
+      15
+    ],
+    [
+      "spending quality time with her family (helping her kids with any questions they have about the movie)",
+      15
+    ],
+    [
+      "spending quality time with her family (reading a bedtime story to her children)",
+      15
+    ],
+    [
+      "spending quality time with her family (tucking her kids into bed and saying goodnight)",
+      10
+    ],
+    [
+      "spending quality time with her family (spending a few minutes with John, discussing their day)",
+      5
     ],
     [
       "relaxing and unwinding after a long day",
@@ -345,102 +433,37 @@
       60
     ]
   ],
-  "act_address": "<persona> Ayesha Khan",
-  "act_start_time": "February 13, 2023, 16:05:30",
-  "act_duration": 18,
-  "act_description": "conversing about Ayesha Khan and Mei Lin discussing creative ideas for their Valentine's Day party decorations and activities, focusing on incorporating the Fibonacci sequence and gathering inspiring quotes.",
-  "act_pronunciatio": "\ud83d\udcac",
+  "act_address": "the Ville:Lin family's house:kitchen:refrigerator",
+  "act_start_time": "February 13, 2023, 19:30:00",
+  "act_duration": 15,
+  "act_description": "spending quality time with her family (preparing snacks for the family)",
+  "act_pronunciatio": "\ud83c\udf7f\ud83c\udf4f",
   "act_event": [
     "Mei Lin",
-    "chat with",
-    "Ayesha Khan"
+    "prepare",
+    "snacks"
   ],
-  "act_obj_description": null,
-  "act_obj_pronunciatio": null,
+  "act_obj_description": "actively being opened and closed to retrieve snacks",
+  "act_obj_pronunciatio": "\ud83d\udc5c\ud83c\udf6b",
   "act_obj_event": [
-    null,
-    null,
-    null
+    "refrigerator",
+    "open and close",
+    "snacks"
   ],
-  "chatting_with": "Ayesha Khan",
-  "chat": [
-    [
-      "Ayesha Khan",
-      "Hey Mei! I was just thinking about our Valentine's Day party planning. Have you come up with any more ideas for using the Fibonacci sequence in our decorations? I really want to make it special and unique!"
-    ],
-    [
-      "Mei Lin",
-      "Hi Ayesha! Yes, I've been thinking about it too. I love the idea of using the Fibonacci sequence to create a spiral decoration that could lead to a central focal point, like a beautiful floral arrangement or a display of quotes about nature. What do you think about incorporating some interactive elements where guests can contribute their own quotes or ideas related to the theme?"
-    ],
-    [
-      "Ayesha Khan",
-      "That sounds like a fantastic idea! I love the thought of having a spiral decoration and letting guests share their own quotes. Maybe we could have a section where people can write their thoughts on leaves or petals and attach them to the display. What do you think?"
-    ],
-    [
-      "Mei Lin",
-      "I love that idea! It would really add a personal touch to the decorations. We could even color-code the leaves or petals based on different themes, like nature, love, or creativity. What do you think about that?"
-    ],
-    [
-      "Ayesha Khan",
-      "That's a brilliant idea, Mei! Color-coding the leaves or petals would make it visually appealing and help guests connect their contributions to specific themes. We could also encourage everyone to think about their favorite nature quotes or memories while they write. Should we brainstorm some potential quotes to display as inspiration?"
-    ],
-    [
-      "Mei Lin",
-      "Absolutely! Let's come up with some quotes that resonate with our theme. I was thinking we could include quotes from poets like Mary Oliver or even some famous naturalists. We can mix them with some creative quotes about love and art too. What do you think?"
-    ],
-    [
-      "Ayesha Khan",
-      "I love that approach! Mary Oliver's quotes are always so beautiful and inspiring. We could also find some quotes from Shakespeare that tie into the themes of love and nature. That would be perfect for my thesis as well! Let's compile a list of our favorites and then decide on the best ones to display at the party."
-    ],
-    [
-      "Mei Lin",
-      "Great idea! Shakespeare's quotes would definitely add a classic touch. How about we each gather a few quotes and meet up later this week to share our favorites? We can finalize the list before the party."
-    ],
-    [
-      "Ayesha Khan",
-      "That sounds perfect! I\u2019ll look for some quotes from Shakespeare and Mary Oliver, and maybe even some others that come to mind. Let's set a time to meet up, maybe Wednesday afternoon? I can't wait to see what you find!"
-    ],
-    [
-      "Mei Lin",
-      "Wednesday afternoon works for me! How about we meet at the caf\u00e9 around 2 pm? We can grab some coffee and sort through our quotes together."
-    ],
-    [
-      "Ayesha Khan",
-      "Perfect! I'll see you at the caf\u00e9 on Wednesday at 2 pm. I'm really excited to see what quotes we come up with together! Also, let me know if you have any other ideas for the party in the meantime."
-    ],
-    [
-      "Mei Lin",
-      "I will definitely keep brainstorming! I think we can also consider some fun activities or games related to the Fibonacci theme to engage our guests. I'm looking forward to our meeting on Wednesday! Let's make this party unforgettable!"
-    ],
-    [
-      "Ayesha Khan",
-      "That sounds like a great idea! Fun activities would definitely make the party more engaging. Maybe we could have a little art station where guests can create something inspired by the Fibonacci sequence? I\u2019ll think about that and share more on Wednesday!"
-    ],
-    [
-      "Mei Lin",
-      "I love the idea of an art station! It would be a wonderful way for guests to express their creativity and connect with the theme. Maybe we can provide some materials for them to create their own Fibonacci-inspired art pieces? Let's definitely discuss more about this on Wednesday!"
-    ],
-    [
-      "Ayesha Khan",
-      "That sounds perfect! I\u2019ll start gathering some materials for the art station as well. I\u2019m really looking forward to our meeting on Wednesday. Let\u2019s make sure we have everything planned out to make the party a hit!"
-    ],
-    [
-      "Mei Lin",
-      "I'm really excited about all these ideas coming together! If you think of any specific materials we should gather for the art station, let me know. I can bring some supplies too! Also, I might have a couple of other fun game ideas that I want to run by you when we meet. Can't wait!"
-    ]
-  ],
+  "chatting_with": null,
+  "chat": null,
   "chatting_with_buffer": {
-    "John Lin": -406,
-    "Eddy Lin": -1120,
-    "Isabella Rodriguez": -1456,
-    "Ayesha Khan": 800,
-    "Tom Moreno": -508,
-    "Jane Moreno": -142,
-    "Sam Moore": -4,
-    "Carlos Gomez": 140,
-    "Klaus Mueller": 710
+    "John Lin": -34,
+    "Eddy Lin": -2320,
+    "Isabella Rodriguez": -2656,
+    "Ayesha Khan": -376,
+    "Tom Moreno": -1708,
+    "Jane Moreno": -1342,
+    "Sam Moore": -1204,
+    "Carlos Gomez": -1060,
+    "Klaus Mueller": -490
   },
-  "chatting_end_time": "February 13, 2023, 16:24:00",
+  "chatting_end_time": null,
   "act_path_set": true,
   "planned_path": []
 }

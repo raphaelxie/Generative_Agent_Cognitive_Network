@@ -1,0 +1,485 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 17:09:50",
+  "curr_tile": [
+    60,
+    25
+  ],
+  "daily_plan_req": "",
+  "name": "Francisco Lopez",
+  "first_name": "Francisco",
+  "last_name": "Lopez",
+  "age": 23,
+  "innate": "outgoing, friendly, honest",
+  "learned": "Francisco Lopez is an actor and comedian who loves to entertain others. They are always looking for new ways to make people laugh.",
+  "currently": "Francisco Lopez is working on a web series about life in a co-living space. They are also exploring improvisational comedy classes.",
+  "lifestyle": "Francisco Lopez goes to bed around 11pm, awakes up around 7am, eats dinner around 6pm.",
+  "living_area": "the Ville:artist's co-living space:Francisco Lopez's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 142,
+  "importance_ele_n": 26,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "go for a run or workout from 8:30 am to 9:00 am",
+    "have breakfast and plan the day from 9:15 am to 10:00 am",
+    "work on the web series script from 10:15 am to 12:00 pm",
+    "take a break and have a snack from 12:00 pm to 12:30 pm",
+    "continue working on the web series from 12:30 pm to 2:30 pm",
+    "have lunch and relax from 2:30 pm to 3:30 pm",
+    "attend improvisational comedy class from 4:00 pm to 6:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "having breakfast and planning the day (having a glass of water)",
+      5
+    ],
+    [
+      "having breakfast and planning the day (on the way to preparing a healthy breakfast)",
+      0
+    ],
+    [
+      "having breakfast and planning the day (conversing about Latoya Williams and Francisco Lopez discussing their plans for the day, including photography and script writing, and arranging to meet for coffee to share experiences and creative work.)",
+      18
+    ],
+    [
+      "having breakfast and planning the day (cooking the breakfast)",
+      15
+    ],
+    [
+      "having breakfast and planning the day (on the way to setting the table for breakfast)",
+      0
+    ],
+    [
+      "having breakfast and planning the day (conversing about Abigail Chen and Francisco Lopez discussing their creative projects, with Francisco sharing his web series about life in a co-living space and Abigail talking about her animation project, leading to plans for a collaborative coffee meeting with Latoya to brainstorm ideas.)",
+      12
+    ],
+    [
+      "having breakfast and planning the day (sitting down to eat breakfast)",
+      10
+    ],
+    [
+      "having breakfast and planning the day (enjoying his breakfast)",
+      10
+    ],
+    [
+      "having breakfast and planning the day (cleaning up the table after breakfast)",
+      5
+    ],
+    [
+      "working on the web series script (brainstorming ideas for the web series script)",
+      20
+    ],
+    [
+      "working on the web series script (outlining the main plot points)",
+      20
+    ],
+    [
+      "working on the web series script (developing character profiles)",
+      20
+    ],
+    [
+      "working on the web series script (writing the first draft of the script)",
+      30
+    ],
+    [
+      "working on the web series script (taking a short break to recharge)",
+      10
+    ],
+    [
+      "working on the web series script (on the way to reviewing the first draft)",
+      0
+    ],
+    [
+      "working on the web series script (conversing about Latoya Williams and Francisco Lopez discussing their creative projects, including a web series about co-living and incorporating local business interviews and community issues into their work.)",
+      5
+    ],
+    [
+      "taking a break and having a snack (deciding what snack to have)",
+      5
+    ],
+    [
+      "taking a break and having a snack (going to the kitchen to get the snack)",
+      5
+    ],
+    [
+      "taking a break and having a snack (on the way to opening the pantry or fridge to find the snack)",
+      0
+    ],
+    [
+      "taking a break and having a snack (conversing about Rajiv Patel and Francisco Lopez discussing their artistic projects, the possibility of collaborating on a piece that combines visual art and storytelling focused on community and connection, and planning to meet up to brainstorm ideas.)",
+      14
+    ],
+    [
+      "taking a break and having a snack (on the way to e.g., cutting fruit, heating something up))",
+      0
+    ],
+    [
+      "taking a break and having a snack (conversing about Abigail Chen and Francisco Lopez discussing their upcoming coffee meeting with Latoya to brainstorm ideas for their animation project and web series, focusing on incorporating local business stories and visual representation techniques.)",
+      19
+    ],
+    [
+      "taking a break and having a snack (on the way to pouring a drink to have with the snack)",
+      0
+    ],
+    [
+      "taking a break and having a snack (conversing about Francisco Lopez and Jennifer Moore discussing plans for a Valentine's Day party and collaboration on an animation project.)",
+      11
+    ],
+    [
+      "taking a break and having a snack (setting the table or finding a comfortable spot to eat)",
+      5
+    ],
+    [
+      "taking a break and having a snack (on the way to sitting down to enjoy the snack)",
+      0
+    ],
+    [
+      "taking a break and having a snack (conversing about Francisco Lopez and Eddy Lin discussing their respective creative projects, including Eddy's composition incorporating the Fibonacci sequence and Francisco's web series featuring a co-living space, while planning a collaborative Valentine's Day party with interactive music and decorations.)",
+      17
+    ],
+    [
+      "taking a break and having a snack (eating the snack while watching a short video or listening to music)",
+      15
+    ],
+    [
+      "taking a break and having a snack (cleaning up after the snack (e.g., putting dishes away, wiping the table))",
+      5
+    ],
+    [
+      "having lunch and relaxing (on the way to preparing his lunch)",
+      0
+    ],
+    [
+      "having lunch and relaxing (conversing about Hailey Johnson and Francisco Lopez collaborating on their creative projects, exploring themes of collaboration and artistic processes, and brainstorming ideas for scenes to intertwine their works.)",
+      21
+    ],
+    [
+      "having lunch and relaxing (setting the table for lunch)",
+      5
+    ],
+    [
+      "having lunch and relaxing (enjoying his lunch)",
+      4
+    ],
+    [
+      "continuing to work on the web series script (brainstorming ideas for the web series script)",
+      15
+    ],
+    [
+      "continuing to work on the web series script (on the way to outlining the main plot points)",
+      0
+    ],
+    [
+      "continuing to work on the web series script (conversing about Latoya Williams and Francisco Lopez discussing their ideas for a web series focused on community dynamics, local businesses, and the integration of photography to enhance storytelling.)",
+      17
+    ],
+    [
+      "continuing to work on the web series script (developing character profiles)",
+      10
+    ],
+    [
+      "continuing to work on the web series script (writing the first draft of the script)",
+      14
+    ],
+    [
+      "having a break and relaxing (taking a moment to stretch and relax)",
+      5
+    ],
+    [
+      "having a break and relaxing (grabbing a snack from the kitchen)",
+      5
+    ],
+    [
+      "having a break and relaxing (sitting on the couch and enjoying his snack)",
+      10
+    ],
+    [
+      "having a break and relaxing (scrolling through social media to catch up with friends)",
+      10
+    ],
+    [
+      "having a break and relaxing (watching a short funny video for inspiration)",
+      5
+    ],
+    [
+      "having a break and relaxing (jotting down ideas that come to mind while watching)",
+      10
+    ],
+    [
+      "having a break and relaxing (on the way to listening to music to unwind)",
+      0
+    ],
+    [
+      "having a break and relaxing (conversing about Francisco Lopez and Jennifer Moore discussing ideas and plans for a collaborative mural centered on themes of love, resilience, and creativity for an upcoming Valentine's Day party.)",
+      21
+    ],
+    [
+      "having a break and relaxing (preparing to get ready for his improvisational comedy class)",
+      3
+    ],
+    [
+      "attending improvisational comedy class (arriving at the comedy class venue)",
+      5
+    ],
+    [
+      "attending improvisational comedy class (on the way to greeting fellow classmates and the instructor)",
+      0
+    ],
+    [
+      "attending improvisational comedy class (conversing about Abigail Chen and Francisco Lopez discussing their animation project that incorporates local business stories, including ideas for interviews and questions to ask the owners before their coffee meeting with Latoya.)",
+      18
+    ],
+    [
+      "attending improvisational comedy class (participating in warm-up exercises)",
+      10
+    ],
+    [
+      "attending improvisational comedy class (on the way to practicing improvisational techniques)",
+      0
+    ],
+    [
+      "attending improvisational comedy class (conversing about Francisco Lopez and Tom Moreno discussing collaboration ideas for a web series featuring local business stories and unique cocktails inspired by their community.)",
+      20
+    ],
+    [
+      "attending improvisational comedy class (on the way to engaging in group improvisation games)",
+      0
+    ],
+    [
+      "attending improvisational comedy class (conversing about Francisco Lopez and Adam Smith discussing ideas for a community event that combines creativity and sustainability, featuring local businesses and artists, while also planning marketing strategies and a timeline for collaboration.)",
+      21
+    ],
+    [
+      "attending improvisational comedy class (receiving feedback from the instructor)",
+      4
+    ],
+    [
+      "continuing to attend improvisational comedy class (continuing with warm-up exercises)",
+      10
+    ],
+    [
+      "continuing to attend improvisational comedy class (participating in group improvisation games)",
+      20
+    ],
+    [
+      "continuing to attend improvisational comedy class (practicing character development techniques)",
+      15
+    ],
+    [
+      "continuing to attend improvisational comedy class (receiving feedback from the instructor)",
+      10
+    ],
+    [
+      "continuing to attend improvisational comedy class (collaborating with classmates on scene work)",
+      20
+    ],
+    [
+      "continuing to attend improvisational comedy class (performing short skits in front of the class)",
+      15
+    ],
+    [
+      "continuing to attend improvisational comedy class (discussing performance techniques with peers)",
+      1
+    ],
+    [
+      "having dinner and unwinding after a long day",
+      60
+    ],
+    [
+      "winding down, perhaps watching a show or reading a book",
+      60
+    ],
+    [
+      "relaxing, perhaps reviewing notes from the day or brainstorming ideas for future projects",
+      60
+    ],
+    [
+      "relaxing, perhaps reflecting on the day or engaging in a light activity before bedtime",
+      60
+    ],
+    [
+      "sleeping",
+      60
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "having breakfast and planning the day",
+      60
+    ],
+    [
+      "working on the web series script",
+      120
+    ],
+    [
+      "taking a break and having a snack",
+      60
+    ],
+    [
+      "having lunch and relaxing",
+      60
+    ],
+    [
+      "continuing to work on the web series script",
+      60
+    ],
+    [
+      "having a break and relaxing",
+      60
+    ],
+    [
+      "attending improvisational comedy class",
+      60
+    ],
+    [
+      "continuing to attend improvisational comedy class",
+      120
+    ],
+    [
+      "having dinner and unwinding after a long day",
+      60
+    ],
+    [
+      "winding down, perhaps watching a show or reading a book",
+      60
+    ],
+    [
+      "relaxing, perhaps reviewing notes from the day or brainstorming ideas for future projects",
+      60
+    ],
+    [
+      "relaxing, perhaps reflecting on the day or engaging in a light activity before bedtime",
+      60
+    ],
+    [
+      "sleeping",
+      60
+    ]
+  ],
+  "act_address": "<persona> Adam Smith",
+  "act_start_time": "February 13, 2023, 17:00:10",
+  "act_duration": 21,
+  "act_description": "conversing about Francisco Lopez and Adam Smith discussing ideas for a community event that combines creativity and sustainability, featuring local businesses and artists, while also planning marketing strategies and a timeline for collaboration.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Francisco Lopez",
+    "chat with",
+    "Adam Smith"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Adam Smith",
+  "chat": [
+    [
+      "Francisco Lopez",
+      "Hey Adam! I see you're deep into your book. How's it coming along? I'm really curious about your ideas on creativity and social change. Also, I was thinking about our chat on community engagement\u2014maybe we could brainstorm some ideas together that tie into both our projects?"
+    ],
+    [
+      "Adam Smith",
+      "Hey Francisco! Thanks for asking. I'm really excited about how creativity can influence social change. I'd love to brainstorm some ideas with you! What do you have in mind for tying our projects together? Perhaps we could incorporate some elements from your web series into community events?"
+    ],
+    [
+      "Francisco Lopez",
+      "That sounds great! I was thinking we could feature some local businesses from my web series in a community event, maybe even host a live improv show where we can highlight their stories and products. We could also invite them to share their experiences and connect with the audience. What do you think?"
+    ],
+    [
+      "Adam Smith",
+      "I love that idea! A live improv show featuring local businesses would not only entertain but also create a platform for them to connect with the community. We could also incorporate some interactive elements, like audience participation or even workshops where they can showcase their products. It could be a great way to blend creativity and engagement. What do you think about including some art installations or creative activities to make the event even more vibrant?"
+    ],
+    [
+      "Francisco Lopez",
+      "I love the idea of including art installations and creative activities! We could invite local artists to showcase their work and maybe even have some interactive art sessions where attendees can get involved. It would really emphasize the theme of community and creativity. Let's definitely sketch out some ideas and see how we can make it happen!"
+    ],
+    [
+      "Adam Smith",
+      "Absolutely! We could also consider a theme for the event that resonates with the local community's identity, perhaps focusing on sustainability or celebrating local culture. Let's map out some potential dates and venues too. I'm really looking forward to collaborating on this!"
+    ],
+    [
+      "Francisco Lopez",
+      "I think focusing on sustainability could really resonate with the community! How about we brainstorm some specific ideas for activities and local businesses we want to feature? Also, we should think about potential dates that work for both of us and the venues we have in mind. I'm excited to see how this all comes together!"
+    ],
+    [
+      "Adam Smith",
+      "Great! Let's start by listing some local businesses that align with our sustainability theme. Maybe we can reach out to some that focus on eco-friendly products or practices. As for potential dates, how about we aim for something in early March? We can check availability for venues that align with our vision for the event. What do you think?"
+    ],
+    [
+      "Francisco Lopez",
+      "That sounds perfect! I can think of a few local businesses that focus on sustainability. I'll compile a list and we can discuss which ones to reach out to. Early March works for me\u2014let's aim for a weekend if possible. I\u2019ll also start looking into some venues that fit our concept. This is going to be an amazing collaboration!"
+    ],
+    [
+      "Adam Smith",
+      "Sounds like a plan, Francisco! I'm looking forward to seeing your list of local businesses. Let's also think about how we can promote the event to maximize community involvement. Maybe we could create a social media campaign to generate excitement ahead of time? This could be a great opportunity to highlight both the businesses and the creative aspects of the event."
+    ],
+    [
+      "Francisco Lopez",
+      "Absolutely! A social media campaign sounds like a fantastic idea. We could create engaging content that highlights the businesses and the activities we have planned. I'll start thinking about some catchy hashtags and visuals we can use to capture the community's attention. This is shaping up to be a really exciting project!"
+    ],
+    [
+      "Adam Smith",
+      "That sounds great, Francisco! Once we have a solid plan, we can also think about reaching out to local influencers or community leaders to help spread the word. Their involvement could really boost our visibility. Let\u2019s keep the momentum going and reconvene soon to share our progress!"
+    ],
+    [
+      "Francisco Lopez",
+      "That\u2019s a great idea! Involving local influencers could definitely amplify our reach. I\u2019ll start drafting a plan for the businesses and potential marketing strategies, and we can touch base again soon to refine our ideas. How about we set a time to meet later this week?"
+    ],
+    [
+      "Adam Smith",
+      "That sounds perfect, Francisco! How about we meet on Wednesday after my meeting with John Lin? We can dive deeper into our plans and finalize our list of local businesses. Looking forward to it!"
+    ],
+    [
+      "Francisco Lopez",
+      "Wednesday works for me! What time are you thinking? I'm excited to finalize our plans and see how we can bring this event to life!"
+    ],
+    [
+      "Adam Smith",
+      "How about we aim for around 3 PM? That should give me enough time to wrap up with John. I\u2019m really looking forward to seeing what you\u2019ve come up with!"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Latoya Williams": -124,
+    "Abigail Chen": 560,
+    "Rajiv Patel": -940,
+    "Jennifer Moore": 368,
+    "Eddy Lin": -622,
+    "Hailey Johnson": -376,
+    "Tom Moreno": 740,
+    "Adam Smith": 800
+  },
+  "chatting_end_time": "February 13, 2023, 17:21:00",
+  "act_path_set": true,
+  "planned_path": []
+}

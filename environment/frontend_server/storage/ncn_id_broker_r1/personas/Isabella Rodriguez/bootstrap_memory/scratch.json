@@ -1,0 +1,490 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 17:09:50",
+  "curr_tile": [
+    75,
+    23
+  ],
+  "daily_plan_req": "Isabella Rodriguez opens Hobbs Cafe at 8am everyday, and stands at the counter until 8pm, at which point she closes the cafe.",
+  "name": "Isabella Rodriguez",
+  "first_name": "Isabella",
+  "last_name": "Rodriguez",
+  "age": 34,
+  "innate": "friendly, outgoing, hospitable",
+  "learned": "Isabella Rodriguez is a cafe owner of Hobbs Cafe who loves to make people feel welcome. She is always looking for ways to make the cafe a place where people can come to relax and enjoy themselves.",
+  "currently": "Isabella Rodriguez is planning on having a Valentine's Day party at Hobbs Cafe with her customers on February 14th, 2023 at 5pm. She is gathering party material, and is telling everyone to join the party at Hobbs Cafe on *February 14th, 2023, from 5pm to 7pm*.",
+  "lifestyle": "Isabella Rodriguez goes to bed around 11pm, awakes up around 6am.",
+  "living_area": "the Ville:Isabella Rodriguez's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 125,
+  "importance_ele_n": 48,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 6:00 am",
+    "open Hobbs Cafe at 8:00 am",
+    "serve customers and manage the cafe until closing time at 8:00 pm",
+    "spend time gathering party materials and decorations for the Valentine's Day party",
+    "reach out to customers through social media and in-cafe announcements, inviting them to the party from 5:00 pm to 7:00 pm tomorrow"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "completing her morning routine and preparing for the day ahead",
+      60
+    ],
+    [
+      "opening Hobbs Cafe and preparing for the day\u2019s customers",
+      60
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (on the way to greeting customers as they enter the cafe)",
+      0
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (conversing about Isabella Rodriguez and Sam Moore discussing their plans for breakfast on Thursday to brainstorm ideas for Jennifer's art exhibition and also sharing thoughts on how to make the Valentine's Day party at the cafe a special event.)",
+      9
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (on the way to taking orders from customers at the counter)",
+      0
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (conversing about Isabella Rodriguez and Giorgio Rossi discussing the incorporation of the Fibonacci sequence into decorations for a Valentine's Day party at Isabella's cafe.)",
+      11
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (preparing drinks for customers)",
+      15
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (on the way to serving food to customers at their tables)",
+      0
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (conversing about Isabella and Carlos discussing poetry themes, planning a Valentine's Day party at the cafe, and collaborating on decorations and quotes inspired by the Fibonacci sequence.)",
+      16
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (checking in with customers to ensure they are satisfied with their orders)",
+      5
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (on the way to thanking customers as they finish and leave the cafe)",
+      0
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (conversing about Isabella Rodriguez and Mei Lin discussing Valentine\u2019s Day party planning at the cafe, including creative decorations inspired by the Fibonacci sequence and sharing favorite quotes.)",
+      9
+    ],
+    [
+      "serving customers at Hobbs Cafe and checking in with regulars about the upcoming Valentine's Day party (checking the coffee machine to ensure it's ready for customers)",
+      5
+    ],
+    [
+      "serving customers at Hobbs Cafe and checking in with regulars about the upcoming Valentine's Day party (greeting customers as they enter the cafe)",
+      5
+    ],
+    [
+      "serving customers at Hobbs Cafe and checking in with regulars about the upcoming Valentine's Day party (taking orders from customers at the counter)",
+      10
+    ],
+    [
+      "serving customers at Hobbs Cafe and checking in with regulars about the upcoming Valentine's Day party (preparing drinks and food items for customers)",
+      10
+    ],
+    [
+      "serving customers at Hobbs Cafe and checking in with regulars about the upcoming Valentine's Day party (serving drinks and food to customers at their tables)",
+      10
+    ],
+    [
+      "serving customers at Hobbs Cafe and checking in with regulars about the upcoming Valentine's Day party (checking in with regulars about their plans for Valentine's Day)",
+      10
+    ],
+    [
+      "serving customers at Hobbs Cafe and checking in with regulars about the upcoming Valentine's Day party (discussing the details of the Valentine's Day party with interested customers)",
+      6
+    ],
+    [
+      "serving customers at Hobbs Cafe and discussing the Valentine's Day party details with them (on the way to serving customers at Hobbs Cafe and discussing the Valentine's Day party details with the)",
+      0
+    ],
+    [
+      "serving customers at Hobbs Cafe and discussing the Valentine's Day party details with them (conversing about Isabella Rodriguez and Sam Moore discussing ideas for decorations, quotes, flower arrangements, and live music for an upcoming Valentine's Day party.)",
+      18
+    ],
+    [
+      "gathering party materials and decorations for the Valentine's Day party (on the way to gathering a list of needed decorations)",
+      0
+    ],
+    [
+      "gathering party materials and decorations for the Valentine's Day party (conversing about Isabella Rodriguez and Eddy Lin discussing plans for a Valentine's Day party, including decorations, music choices, quotes, treats, drinks, and overall space setup.)",
+      18
+    ],
+    [
+      "gathering party materials and decorations for the Valentine's Day party (checking inventory for existing decorations)",
+      10
+    ],
+    [
+      "gathering party materials and decorations for the Valentine's Day party (making a shopping list for additional materials)",
+      10
+    ],
+    [
+      "gathering party materials and decorations for the Valentine's Day party (organizing the decorations she already has)",
+      10
+    ],
+    [
+      "gathering party materials and decorations for the Valentine's Day party (on the way to heading to the store to purchase additional decorations)",
+      0
+    ],
+    [
+      "gathering party materials and decorations for the Valentine's Day party (conversing about Isabella Rodriguez and Tom Moreno discussing party preparations for a Valentine's Day event, including decorations, colorful flowers, snacks, and drinks.)",
+      15
+    ],
+    [
+      "gathering party materials and decorations for the Valentine's Day party (on the way to shopping for decorations at the store)",
+      0
+    ],
+    [
+      "gathering party materials and decorations for the Valentine's Day party (conversing about John Lin offering to help Isabella Rodriguez with decorations and preparations for a Valentine's Day party, including choosing flowers and setting up lights.)",
+      11
+    ],
+    [
+      "reaching out to customers through social media and making in-cafe announcements about the Valentine's Day party tomorrow",
+      47
+    ],
+    [
+      "gathering more party materials and finalizing decorations for the Valentine's Day party (on the way to gathering more party materials and finalizing decorations for the Valentine's Day part)",
+      0
+    ],
+    [
+      "gathering more party materials and finalizing decorations for the Valentine's Day party (conversing about Isabella Rodriguez and Giorgio Rossi discussing ideas for their Valentine's Day party decorations, music playlist, quotes, and themed treats inspired by the Fibonacci sequence.)",
+      19
+    ],
+    [
+      "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (on the way to gathering party supplies from storage)",
+      0
+    ],
+    [
+      "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (conversing about Isabella Rodriguez and Carlos Gomez discussing decorations, poetry themes, and interactive elements for their upcoming Valentine's Day party.)",
+      18
+    ],
+    [
+      "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (checking the inventory of snacks and drinks for the party)",
+      20
+    ],
+    [
+      "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (on the way to preparing the snack platters)",
+      0
+    ],
+    [
+      "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (conversing about Isabella Rodriguez and Sam Moore discussing the decorations, music, and overall setup for their upcoming Valentine's Day party, including incorporating quotes from classic love poems and using local musician Eddy Lin for live music.)",
+      17
+    ],
+    [
+      "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (arranging the seating for the party)",
+      20
+    ],
+    [
+      "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (setting up the decorations)",
+      30
+    ],
+    [
+      "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (testing the sound system for music)",
+      15
+    ],
+    [
+      "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (on the way to creating a welcome sign for the party)",
+      0
+    ],
+    [
+      "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (conversing about Isabella Rodriguez and Mei Lin discussing the final preparations for a Valentine's Day party, including research paper collaboration, decoration ideas inspired by the Fibonacci sequence, quote selections, and seating arrangements.)",
+      18
+    ],
+    [
+      "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (on the way to finalizing the playlist for the event)",
+      0
+    ],
+    [
+      "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (conversing about Giorgio Rossi and Isabella Rodriguez discussing ideas for incorporating the Fibonacci sequence into the Valentine's Day party's music playlist, including song selections, thematic quotes about love and nature, and interactive activities for guests to participate in.)",
+      18
+    ],
+    [
+      "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (checking the lighting for the cafe)",
+      10
+    ],
+    [
+      "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (preparing a schedule for the party activities)",
+      15
+    ],
+    [
+      "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (reviewing the guest list and confirming RSVPs)",
+      20
+    ],
+    [
+      "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (on the way to making last-minute adjustments to the decorations)",
+      0
+    ],
+    [
+      "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (conversing about Isabella Rodriguez and Klaus Mueller discussing their Valentine's Day decorations, incorporating the Fibonacci sequence with interactive elements, eco-friendly materials, and engaging displays for their guests.)",
+      16
+    ],
+    [
+      "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (on the way to ensuring all supplies are organized and ready for the party)",
+      0
+    ],
+    [
+      "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (conversing about Isabella Rodriguez and Carlos Gomez discussing their plans for a Valentine's Day party, focusing on decorations inspired by the Fibonacci sequence, interactive elements like a poetry corner, and eco-friendly materials.)",
+      16
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (greeting customers as they enter the cafe)",
+      10
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (taking orders from customers at the counter)",
+      15
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (preparing drinks and food orders for customers)",
+      15
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (serving drinks and food to customers at their tables)",
+      10
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (checking in with customers to ensure they are satisfied with their orders)",
+      5
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (thanking customers as they finish and leave the cafe)",
+      5
+    ],
+    [
+      "closing Hobbs Cafe for the day and preparing to wind down after a busy day",
+      40
+    ],
+    [
+      "relaxing at home after a busy day at Hobbs Cafe, reflecting on the preparations for the Valentine's Day party",
+      60
+    ],
+    [
+      "relaxing at home, enjoying a cup of tea and finalizing her plans for the Valentine's Day party tomorrow",
+      60
+    ],
+    [
+      "relaxing at home, preparing mentally for the Valentine's Day party tomorrow and ensuring she has everything ready for her customers",
+      60
+    ],
+    [
+      "sleeping",
+      1
+    ],
+    [
+      "sleeping",
+      4
+    ],
+    [
+      "sleeping",
+      36
+    ],
+    [
+      "sleeping",
+      40
+    ],
+    [
+      "sleeping",
+      12
+    ],
+    [
+      "sleeping",
+      13
+    ],
+    [
+      "sleeping",
+      2
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "completing her morning routine and preparing for the day ahead",
+      60
+    ],
+    [
+      "opening Hobbs Cafe and preparing for the day\u2019s customers",
+      60
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable",
+      60
+    ],
+    [
+      "serving customers at Hobbs Cafe and checking in with regulars about the upcoming Valentine's Day party",
+      60
+    ],
+    [
+      "serving customers at Hobbs Cafe and discussing the Valentine's Day party details with them",
+      60
+    ],
+    [
+      "gathering party materials and decorations for the Valentine's Day party",
+      60
+    ],
+    [
+      "reaching out to customers through social media and making in-cafe announcements about the Valentine's Day party tomorrow",
+      60
+    ],
+    [
+      "gathering more party materials and finalizing decorations for the Valentine's Day party",
+      60
+    ],
+    [
+      "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event",
+      240
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable",
+      60
+    ],
+    [
+      "closing Hobbs Cafe for the day and preparing to wind down after a busy day",
+      60
+    ],
+    [
+      "relaxing at home after a busy day at Hobbs Cafe, reflecting on the preparations for the Valentine's Day party",
+      60
+    ],
+    [
+      "relaxing at home, enjoying a cup of tea and finalizing her plans for the Valentine's Day party tomorrow",
+      60
+    ],
+    [
+      "relaxing at home, preparing mentally for the Valentine's Day party tomorrow and ensuring she has everything ready for her customers",
+      60
+    ]
+  ],
+  "act_address": "<persona> Carlos Gomez",
+  "act_start_time": "February 13, 2023, 17:09:10",
+  "act_duration": 16,
+  "act_description": "conversing about Isabella Rodriguez and Carlos Gomez discussing their plans for a Valentine's Day party, focusing on decorations inspired by the Fibonacci sequence, interactive elements like a poetry corner, and eco-friendly materials.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Isabella Rodriguez",
+    "chat with",
+    "Carlos Gomez"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Carlos Gomez",
+  "chat": [
+    [
+      "Isabella Rodriguez",
+      "Hey Carlos! I hope you\u2019re enjoying your dinner. I was just thinking about our plans for the Valentine's Day party tomorrow. Have you finalized the decorations inspired by the Fibonacci sequence? I\u2019m so excited to see how everything comes together!"
+    ],
+    [
+      "Carlos Gomez",
+      "Hey Isabella! I\u2019ve been working on the decorations, and I think we\u2019re going to create something really special that captures the beauty of nature and the Fibonacci sequence. I\u2019m excited too! Do you have any last-minute ideas or elements you want to incorporate?"
+    ],
+    [
+      "Isabella Rodriguez",
+      "I was thinking we could add some interactive elements, like a poetry corner where guests can write their own verses inspired by the Fibonacci sequence. What do you think?"
+    ],
+    [
+      "Carlos Gomez",
+      "I love that idea! A poetry corner would really engage our guests and let them express their creativity. We could even provide some prompts related to the Fibonacci sequence to inspire them. Do you think we should set up some materials for them to use?"
+    ],
+    [
+      "Isabella Rodriguez",
+      "Absolutely! I think having some colorful paper, pens, and maybe even a few examples of Fibonacci poetry would be great. We want to make it as inviting as possible. Also, do you think we should have a small prize for the best poem? It could encourage more participation!"
+    ],
+    [
+      "Carlos Gomez",
+      "That sounds like a fantastic idea, Isabella! A small prize could definitely motivate everyone to join in. Maybe we could offer a gift card to the cafe or a book of poetry? What do you think would be the best prize?"
+    ],
+    [
+      "Isabella Rodriguez",
+      "I love the idea of a gift card! It would definitely encourage participation, and it ties in perfectly with our cafe theme. Let's go with that! Should we also think about how to display the poems once they're written? Maybe we can hang them up for everyone to see?"
+    ],
+    [
+      "Carlos Gomez",
+      "That's a great idea! We could create a display area with some string lights to make it really eye-catching. Maybe we can clip the poems to the string with clothespins? It would give it a nice rustic feel. What do you think?"
+    ],
+    [
+      "Isabella Rodriguez",
+      "I love the idea of using string lights and clothespins! It will definitely add a charming touch to the cafe. Let\u2019s make sure to set that up early tomorrow. Do you have everything you need for the decorations? I want to make sure we\u2019re all set before the party starts."
+    ],
+    [
+      "Carlos Gomez",
+      "I think I have most of the decorations ready, but I might need a few more eco-friendly materials. Do you have any suggestions on where I can find some? I want everything to align with our theme. And no, the conversation isn't over; I want to make sure we're all set for tomorrow!"
+    ],
+    [
+      "Isabella Rodriguez",
+      "I can help you look for some eco-friendly materials! There's a craft store nearby that usually has a good selection. Would you like to go there after your dinner, or would you prefer to meet up earlier tomorrow?"
+    ],
+    [
+      "Carlos Gomez",
+      "Let's go after my dinner! I should be done soon. It would be great to pick out some materials together and make sure everything is perfect for the party."
+    ],
+    [
+      "Isabella Rodriguez",
+      "Sounds good! Just let me know when you're done, and we can head over to the craft store together. I'm looking forward to making this party a memorable one!"
+    ],
+    [
+      "Carlos Gomez",
+      "Great! I\u2019ll finish up here and let you know in a bit. I can\u2019t wait to see how everything turns out. This party is going to be amazing!"
+    ],
+    [
+      "Isabella Rodriguez",
+      "Awesome! While we're at the craft store, let's also keep an eye out for some colorful flowers to add a festive touch. I think they would really brighten up the space. Do you have any particular colors in mind?"
+    ],
+    [
+      "Carlos Gomez",
+      "I think vibrant colors like red, pink, and maybe a touch of purple would be perfect for Valentine's Day! They\u2019ll really complement our theme. What do you think?"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Sam Moore": -202,
+    "Giorgio Rossi": 422,
+    "Carlos Gomez": 800,
+    "Mei Lin": 308,
+    "Eddy Lin": -1216,
+    "Tom Moreno": -976,
+    "John Lin": -904,
+    "Klaus Mueller": 794
+  },
+  "chatting_end_time": "February 13, 2023, 17:25:00",
+  "act_path_set": true,
+  "planned_path": []
+}

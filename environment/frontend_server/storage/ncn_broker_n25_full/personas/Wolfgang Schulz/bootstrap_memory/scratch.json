@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
     107,
-    62
+    57
   ],
   "daily_plan_req": "Wolfgang Schulz goes for a run at the part in the morning, studies during the day, and exercises at his room at night ",
   "name": "Wolfgang Schulz",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 240,
-  "importance_ele_n": 8,
+  "importance_trigger_curr": 56,
+  "importance_ele_n": 69,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 8:00 am",
@@ -95,20 +95,92 @@
       60
     ],
     [
-      "having dinner",
-      60
+      "having dinner (preparing the ingredients for dinner)",
+      10
     ],
     [
-      "continuing to study or work on assignments",
-      180
+      "having dinner (on the way to cooking the main dish)",
+      0
+    ],
+    [
+      "having dinner (conversing about Maria Lopez and Wolfgang Schulz discussing their meal choices, Wolfgang's training for a regional track and field competition, weekend plans to stream games together, favorite snacks for gaming, and recommendations for new games.)",
+      13
+    ],
+    [
+      "having dinner (setting the table)",
+      5
+    ],
+    [
+      "having dinner (plating the food)",
+      5
+    ],
+    [
+      "having dinner (on the way to pouring a drink)",
+      0
+    ],
+    [
+      "having dinner (conversing about Francisco Lopez and Wolfgang Schulz discussing snacks for their upcoming gaming session, potential games to play, and brainstorming ideas for a Valentine's Day party they are organizing.)",
+      14
+    ],
+    [
+      "having dinner (sitting down to eat)",
+      15
+    ],
+    [
+      "continuing to study or work on assignments (on the way to continuing to review his class notes)",
+      0
+    ],
+    [
+      "continuing to study or work on assignments (conversing about Ayesha Khan and Wolfgang Schulz planning a Valentine's Day party with poetry themes, interactive art concepts, a trivia game, a mini scavenger hunt focused on famous poets, refreshments, and the idea of a photo booth.)",
+      18
+    ],
+    [
+      "continuing to study or work on assignments (working on a chemistry assignment)",
+      45
+    ],
+    [
+      "continuing to study or work on assignments (taking a short break to stretch and hydrate)",
+      5
+    ],
+    [
+      "continuing to study or work on assignments (reading a textbook chapter related to his assignment)",
+      30
+    ],
+    [
+      "continuing to study or work on assignments (summarizing key concepts from the textbook)",
+      20
+    ],
+    [
+      "continuing to study or work on assignments (working on practice problems related to the chapter)",
+      30
+    ],
+    [
+      "continuing to study or work on assignments (reviewing his answers to the practice problems)",
+      10
+    ],
+    [
+      "continuing to study or work on assignments (organizing his study materials for the next session)",
+      5
+    ],
+    [
+      "continuing to study or work on assignments (setting up his study space for the next day)",
+      5
     ],
     [
       "exercising in his room",
-      60
+      51
     ],
     [
       "sleeping",
       60
+    ],
+    [
+      "sleeping",
+      7
+    ],
+    [
+      "sleeping",
+      12
     ]
   ],
   "f_daily_schedule_hourly_org": [
@@ -149,26 +221,30 @@
       60
     ]
   ],
-  "act_address": "the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:bed",
-  "act_start_time": "February 13, 2023, 08:00:00",
-  "act_duration": 540,
-  "act_description": "sleeping",
-  "act_pronunciatio": "\ud83d\ude34\ud83d\udca4",
+  "act_address": "the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:desk",
+  "act_start_time": "February 13, 2023, 19:25:00",
+  "act_duration": 45,
+  "act_description": "continuing to study or work on assignments (working on a chemistry assignment)",
+  "act_pronunciatio": "\ud83d\udd2c\ud83d\udcda",
   "act_event": [
     "Wolfgang Schulz",
-    "is",
-    "sleep"
+    "work",
+    "chemistry assignment"
   ],
-  "act_obj_description": "being used",
-  "act_obj_pronunciatio": "\ud83d\udee0\ufe0f\ud83d\udc64",
+  "act_obj_description": "being used for studying",
+  "act_obj_pronunciatio": "\ud83d\udcda\ud83d\udd8a\ufe0f",
   "act_obj_event": [
-    "bed",
-    "be",
-    "used"
+    "desk",
+    "be used",
+    "studying"
   ],
   "chatting_with": null,
   "chat": null,
-  "chatting_with_buffer": {},
+  "chatting_with_buffer": {
+    "Maria Lopez": 290,
+    "Francisco Lopez": 446,
+    "Ayesha Khan": 602
+  },
   "chatting_end_time": null,
   "act_path_set": true,
   "planned_path": []

@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    118,
-    30
+    108,
+    34
   ],
   "daily_plan_req": "Ayesha Khan goes to the library at Oak Hill College to take classes from 10am to 2pm, and then spends her days studying at the library.",
   "name": "Ayesha Khan",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 82,
-  "importance_ele_n": 54,
+  "importance_trigger_curr": 19,
+  "importance_ele_n": 74,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 8:00 am",
@@ -210,8 +210,12 @@
       5
     ],
     [
-      "having dinner (enjoying her meal)",
-      20
+      "having dinner (on the way to enjoying her meal)",
+      0
+    ],
+    [
+      "having dinner (conversing about Klaus Mueller and Ayesha Khan discussing the connections between Shakespeare\u2019s themes of displacement and identity in relation to contemporary issues of gentrification, including specific texts and historical context for their research.)",
+      18
     ],
     [
       "having dinner (finishing her meal)",
@@ -222,16 +226,104 @@
       5
     ],
     [
-      "continuing to study for her thesis at the library",
-      60
+      "continuing to study for her thesis at the library (gathering her notes and materials for her thesis)",
+      10
     ],
     [
-      "continuing to study or write on her thesis at the library",
-      120
+      "continuing to study for her thesis at the library (reviewing her thesis outline)",
+      10
     ],
     [
-      "relaxing and unwinding after a long day of studying",
-      60
+      "continuing to study for her thesis at the library (reading relevant Shakespearean texts)",
+      15
+    ],
+    [
+      "continuing to study for her thesis at the library (taking notes on key themes and language use)",
+      15
+    ],
+    [
+      "continuing to study for her thesis at the library (organizing her notes into categories)",
+      10
+    ],
+    [
+      "continuing to study or write on her thesis at the library (1) Ayesha is reviewing her notes from previous classes)",
+      15
+    ],
+    [
+      "continuing to study or write on her thesis at the library (on the way to reading a specific Shakespeare play for analysis)",
+      0
+    ],
+    [
+      "continuing to study or write on her thesis at the library (conversing about Maria Lopez and Ayesha Khan discussing thesis preparation, Twitch streaming ideas, and strategies for promoting a new physics-themed gaming stream.)",
+      15
+    ],
+    [
+      "continuing to study or write on her thesis at the library (on the way to taking notes on key themes and language use in the play)",
+      0
+    ],
+    [
+      "continuing to study or write on her thesis at the library (conversing about Ayesha Khan and Eddy Lin planning a Valentine's Day party with creative decorations and activities inspired by the Fibonacci sequence, including a backdrop, centerpieces, an interactive art station, a mini-gallery, themed snacks and drinks like the 'Fibonacci Fizz' mocktail.)",
+      18
+    ],
+    [
+      "continuing to study or write on her thesis at the library (discussing her findings with a study partner)",
+      15
+    ],
+    [
+      "continuing to study or write on her thesis at the library (outlining the structure of her thesis)",
+      20
+    ],
+    [
+      "continuing to study or write on her thesis at the library (on the way to drafting the introduction of her thesis)",
+      0
+    ],
+    [
+      "continuing to study or write on her thesis at the library (conversing about Klaus Mueller and Ayesha Khan discussing their thesis outline on gentrification, exploring literary connections between contemporary texts and Shakespeare's works, and planning a meeting to brainstorm ideas and potential multimedia elements for their presentation.)",
+      17
+    ],
+    [
+      "continuing to study or write on her thesis at the library (reviewing her draft for clarity and coherence)",
+      5
+    ],
+    [
+      "relaxing and unwinding after a long day of studying (1) Ayesha is finding a comfortable spot in the library to relax)",
+      5
+    ],
+    [
+      "relaxing and unwinding after a long day of studying (taking a few deep breaths to unwind)",
+      5
+    ],
+    [
+      "relaxing and unwinding after a long day of studying (stretching her body to relieve tension)",
+      5
+    ],
+    [
+      "relaxing and unwinding after a long day of studying (sipping on a cup of herbal tea she brought with her)",
+      5
+    ],
+    [
+      "relaxing and unwinding after a long day of studying (listening to calming music on her headphones)",
+      5
+    ],
+    [
+      "relaxing and unwinding after a long day of studying (reading a light novel or magazine for enjoyment)",
+      10
+    ],
+    [
+      "relaxing and unwinding after a long day of studying (jotting down her thoughts in a journal about her day)",
+      10
+    ],
+    [
+      "relaxing and unwinding after a long day of studying (checking her phone for messages from friends)",
+      5
+    ],
+    [
+      "relaxing and unwinding after a long day of studying (watching a short video or clip for entertainment)",
+      5
+    ],
+    [
+      "relaxing and unwinding after a long day of studying (reflecting on her accomplishments for the day)",
+      5
     ],
     [
       "relaxing and preparing for bed",
@@ -240,6 +332,22 @@
     [
       "sleeping",
       10
+    ],
+    [
+      "sleeping",
+      21
+    ],
+    [
+      "sleeping",
+      2
+    ],
+    [
+      "sleeping",
+      5
+    ],
+    [
+      "sleeping",
+      7
     ]
   ],
   "f_daily_schedule_hourly_org": [
@@ -292,15 +400,15 @@
       120
     ]
   ],
-  "act_address": "<persona> Mei Lin",
-  "act_start_time": "February 13, 2023, 16:04:30",
-  "act_duration": 20,
-  "act_description": "conversing about Ayesha Khan and Mei Lin discussing their research for Klaus\u2019s paper and planning a Valentine's Day party with nature-themed quotes, decorations, and interactive activities.",
+  "act_address": "<persona> Klaus Mueller",
+  "act_start_time": "February 13, 2023, 19:33:10",
+  "act_duration": 17,
+  "act_description": "conversing about Klaus Mueller and Ayesha Khan discussing their thesis outline on gentrification, exploring literary connections between contemporary texts and Shakespeare's works, and planning a meeting to brainstorm ideas and potential multimedia elements for their presentation.",
   "act_pronunciatio": "\ud83d\udcac",
   "act_event": [
     "Ayesha Khan",
     "chat with",
-    "Mei Lin"
+    "Klaus Mueller"
   ],
   "act_obj_description": null,
   "act_obj_pronunciatio": null,
@@ -309,80 +417,81 @@
     null,
     null
   ],
-  "chatting_with": "Mei Lin",
+  "chatting_with": "Klaus Mueller",
   "chat": [
     [
-      "Ayesha Khan",
-      "Hey Mei! I just wanted to check in on your research for Klaus\u2019s paper. How\u2019s it going? I'm also excited about our Valentine's Day party planning. Have you thought about any quotes or ideas for decorations yet?"
-    ],
-    [
-      "Mei Lin",
-      "Hi Ayesha! Thanks for checking in! My research is coming along, but I\u2019m still finalizing some details with Klaus. As for the Valentine's Day party, I\u2019ve been thinking about using quotes that reflect nature and creativity, perhaps something that ties in with the Fibonacci sequence. Do you have any specific ideas or favorites?"
+      "Klaus Mueller",
+      "Hey Ayesha! I noticed you were deep into your thesis. How's the outline coming along? Have you thought more about the literary connections we're exploring for our gentrification research?"
     ],
     [
       "Ayesha Khan",
-      "I love that idea! One quote that comes to mind is from Albert Einstein: 'Look deep into nature, and then you will understand everything better.' It really captures the essence of nature's beauty. Do you think we could incorporate that into our decorations?"
+      "Hi Klaus! It's going well, thanks for asking. I've been outlining the main themes, especially around displacement and identity. I think we should definitely incorporate more contemporary texts alongside Shakespeare's works. Have you found any interesting sources or ideas you\u2019d like to discuss?"
     ],
     [
-      "Mei Lin",
-      "That's a beautiful quote, Ayesha! I think it would fit perfectly with our theme. We could create some wall art featuring it, maybe using natural elements to frame it. What do you think about that approach? Also, are there any other quotes we should consider?"
-    ],
-    [
-      "Ayesha Khan",
-      "I think framing it with natural elements sounds amazing! We could also consider another quote by John Muir: 'In every walk with nature, one receives far more than he seeks.' It aligns well with the theme and could inspire creativity in our decorations. What do you think?"
-    ],
-    [
-      "Mei Lin",
-      "I love the John Muir quote as well! It really encapsulates the spirit of our theme. We could use it alongside the Einstein quote in different areas of the venue to create a cohesive look. Maybe we can even design some interactive elements around these quotes! Do you have any thoughts on that?"
+      "Klaus Mueller",
+      "I have! I found some compelling articles on gentrification in urban literature that might complement our analysis. Also, I was thinking we could look into how modern authors reflect Shakespearean themes. Do you have specific contemporary texts in mind that we should include?"
     ],
     [
       "Ayesha Khan",
-      "I love the idea of designing interactive elements around the quotes! We could set up a space where guests can share their own thoughts about nature and creativity, maybe even create a collaborative art piece. What do you think about that?"
+      "That sounds great! I was thinking of including works like 'The Sellout' by Paul Beatty and 'The Brief Wondrous Life of Oscar Wao' by Junot D\u00edaz. Both tackle themes of identity and displacement in unique ways. What do you think?"
     ],
     [
-      "Mei Lin",
-      "That sounds like a fantastic idea, Ayesha! A collaborative art piece would really engage everyone and bring our theme to life. We could provide different materials for guests to use and let their creativity flow. Should we brainstorm some specific activities we could include?"
-    ],
-    [
-      "Ayesha Khan",
-      "Absolutely! We could have a station for painting or drawing inspired by nature, and maybe another for creating small nature-themed crafts. We could even have a spot where guests can write their thoughts on sticky notes and place them on a board. What do you think about that?"
-    ],
-    [
-      "Mei Lin",
-      "Those are all wonderful ideas, Ayesha! I especially love the idea of a station for painting or drawing inspired by nature. It would be a great way to express creativity. Let's jot down a list of materials we might need for each station and maybe even think about how we can promote this collaborative aspect to our guests. Do you have any thoughts on that?"
+      "Klaus Mueller",
+      "I love those choices! 'The Sellout' is particularly insightful about social issues, and 'Oscar Wao' definitely captures that sense of identity struggle. We should also think about how these texts could provide a contrast to Shakespeare\u2019s works. Do you want to set up a time to meet and dive deeper into these ideas?"
     ],
     [
       "Ayesha Khan",
-      "That sounds great! For the painting station, we could use watercolor paints, canvases, and brushes. For the craft station, maybe we could gather some natural materials like twigs, leaves, and flowers for decoration. As for promoting the collaborative aspect, we could create a fun social media post inviting guests to share their own nature-inspired creations. What do you think?"
+      "Absolutely! How about we meet later this week to brainstorm further? I can bring my notes on the themes, and we can see how to weave everything together."
     ],
     [
-      "Mei Lin",
-      "I love the idea of using natural materials for the craft station! It will really tie everything together. And promoting it on social media sounds like a fantastic way to engage our guests. We should also think about creating a hashtag for the event so that we can easily share everyone's contributions. What do you think?"
-    ],
-    [
-      "Ayesha Khan",
-      "Creating a unique hashtag is a great idea! How about something like #NatureInspiredValentine? It could really capture the essence of our theme. I\u2019m excited to see what everyone creates! Is there anything else we should discuss for the party?"
-    ],
-    [
-      "Mei Lin",
-      "I love the hashtag #NatureInspiredValentine! It's catchy and perfectly fits our theme. One more thing we might want to consider is how we'll set up the space for the event. Do you have any ideas on the layout or any other logistical details we should address?"
+      "Klaus Mueller",
+      "That sounds perfect! How about Thursday afternoon? I can gather my notes on 'The Brief Wondrous Life of Oscar Wao' and other sources by then. We can really flesh out our ideas."
     ],
     [
       "Ayesha Khan",
-      "That's a good point, Mei! For the layout, we could have the painting and craft stations on one side and the interactive quote wall on the other. This way, it encourages movement and interaction. I think we should also leave some space for seating where guests can relax and discuss their creations. What do you think?"
+      "Thursday afternoon works for me! Let\u2019s say 2 PM? I\u2019ll bring my notes on 'The Tempest' and 'The Hate U Give' as well. Looking forward to it!"
     ],
     [
-      "Mei Lin",
-      "I think that sounds like a great layout, Ayesha! Having a seating area for guests to relax and discuss their creations is a thoughtful touch. We should also consider how we\u2019ll decorate the space to enhance the overall atmosphere. Maybe we could incorporate some natural elements in the decor to tie everything together? What do you think?"
+      "Klaus Mueller",
+      "Great! I\u2019ll make sure to have everything ready by then. I\u2019m excited to see how we can connect all these themes together. Do you have any other texts in mind that we should consider, or should we focus on these for now?"
+    ],
+    [
+      "Ayesha Khan",
+      "I think we should focus on these for now, but I'm open to any other suggestions that come up as we research. Also, I want to make sure we explore various perspectives on gentrification, so if you find anything else interesting, definitely bring it along! I'm excited to see how we can integrate all these ideas."
+    ],
+    [
+      "Klaus Mueller",
+      "Sounds good! I\u2019ll keep an eye out for more perspectives on gentrification as well. I really want our paper to reflect a diverse range of voices. By the way, have you thought about how we might present our findings? I think it could be really engaging to include some visual elements or maybe even a multimedia approach."
+    ],
+    [
+      "Ayesha Khan",
+      "That's a great idea! I think incorporating visual elements could really enhance our presentation and help convey the themes more effectively. Maybe we could use some examples from the texts to create infographics or even a short video? I'd love to brainstorm some ideas together on that!"
+    ],
+    [
+      "Klaus Mueller",
+      "I love the idea of using infographics or a short video! We could highlight key themes and quotes from the texts to make it really engaging. Maybe we can brainstorm some specific examples during our meeting on Thursday? I'm excited to see what we come up with!"
+    ],
+    [
+      "Ayesha Khan",
+      "Absolutely! I\u2019ll jot down some ideas for the infographics and video examples before our meeting. I can't wait to see how we can bring all of this to life! Thanks for the great discussion, Klaus."
+    ],
+    [
+      "Klaus Mueller",
+      "I'm looking forward to it too! If you come across any additional texts or resources before Thursday, feel free to share them with me. I think it will really enrich our discussion. Also, if you need any help with your thesis outline, just let me know!"
+    ],
+    [
+      "Ayesha Khan",
+      "Thanks, Klaus! I appreciate your offer to help with my thesis outline. If I run into any roadblocks, I'll definitely reach out. In the meantime, I'll keep searching for more texts and ideas, and I look forward to our meeting on Thursday!"
     ]
   ],
   "chatting_with_buffer": {
-    "Klaus Mueller": 182,
-    "Mei Lin": 800,
-    "Eddy Lin": -442,
-    "Tom Moreno": -322
+    "Klaus Mueller": 800,
+    "Mei Lin": -370,
+    "Eddy Lin": 632,
+    "Tom Moreno": -1522,
+    "Maria Lopez": 464
   },
-  "chatting_end_time": "February 13, 2023, 16:25:00",
+  "chatting_end_time": "February 13, 2023, 19:51:00",
   "act_path_set": true,
   "planned_path": []
 }

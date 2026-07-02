@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    39,
-    61
+    74,
+    24
   ],
   "daily_plan_req": "Sam Moore likes to talk a walk around Johnson Park, and sit at Hobbs cafe reading.",
   "name": "Sam Moore",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 161,
-  "importance_ele_n": 50,
+  "importance_trigger_curr": 93,
+  "importance_ele_n": 56,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 8:00 am",
@@ -279,16 +279,28 @@
       15
     ],
     [
-      "spending quality time with Jennifer, discussing their day and planning for the future (asking Jennifer about her day and listening attentively)",
-      15
+      "spending quality time with Jennifer, discussing their day and planning for the future (on the way to asking Jennifer about her day and listening attentively)",
+      0
     ],
     [
-      "spending quality time with Jennifer, discussing their day and planning for the future (sharing a funny story from his past to lighten the mood)",
-      10
+      "spending quality time with Jennifer, discussing their day and planning for the future (conversing about Sam and Jennifer discussing how to incorporate Jennifer's watercolor paintings and interactive art activities, including a collaborative mural and local artist involvement, into their upcoming Valentine's Day party.)",
+      20
     ],
     [
-      "spending quality time with Jennifer, discussing their day and planning for the future (discussing their plans for the upcoming week)",
-      15
+      "spending quality time with Jennifer, discussing their day and planning for the future (on the way to sharing a funny story from his past to lighten the mood)",
+      0
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (conversing about Sam Moore and Adam Smith discussing creative ideas for an upcoming Valentine's Day party, including involving local artists and schools, interactive art activities, live music, and logistics for coordinating the event.)",
+      21
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (on the way to discussing their plans for the upcoming week)",
+      0
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (conversing about Isabella Rodriguez and Sam Moore discussing the final details for their Valentine's Day party, including decorations, music, flowers, quotes, and interactive elements to ensure a memorable event.)",
+      16
     ],
     [
       "spending quality time with Jennifer, discussing their day and planning for the future (suggesting ideas for their next weekend outing)",
@@ -299,20 +311,36 @@
       15
     ],
     [
-      "spending quality time with Jennifer, discussing their day and planning for the future (brainstorming campaign strategies together with Jennifer)",
-      15
+      "spending quality time with Jennifer, discussing their day and planning for the future (on the way to brainstorming campaign strategies together with Jennifer)",
+      0
     ],
     [
-      "spending quality time with Jennifer, discussing their day and planning for the future (discussing community issues that matter to them both)",
-      15
+      "spending quality time with Jennifer, discussing their day and planning for the future (conversing about Sam Moore and Ryan Park discussing their upcoming Valentine's Day party, incorporating technology for community engagement, and planning a meeting with local artists and businesses to brainstorm ideas.)",
+      14
     ],
     [
-      "spending quality time with Jennifer, discussing their day and planning for the future (planning a date night for the following week)",
-      10
+      "spending quality time with Jennifer, discussing their day and planning for the future (on the way to discussing community issues that matter to them both)",
+      0
     ],
     [
-      "spending quality time with Jennifer, discussing their day and planning for the future (reflecting on their 40 years together and sharing what he appreciates about Jennifer)",
-      15
+      "spending quality time with Jennifer, discussing their day and planning for the future (conversing about Klaus Mueller and Sam Moore discussing plans for a Valentine's Day party that involves local artists and includes discussions on gentrification.)",
+      16
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (on the way to planning a date night for the following week)",
+      0
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (conversing about Eddy Lin and Sam Moore discussing plans for a Valentine's Day party, including music options, quotes from Rumi and Pablo Neruda, a romantic garden theme for decorations, and creating a complementary playlist.)",
+      17
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (on the way to reflecting on their 40 years together and sharing what he appreciates about Jennifer)",
+      0
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (conversing about Maria Lopez and Sam Moore planning a Valentine's Day party, discussing incorporating quotes from Rumi and Pablo Neruda into decorations, interactive activities like a love note station, collaborating with local musicians, and creating a romantic garden theme with flowers and fairy lights.)",
+      16
     ],
     [
       "spending quality time with Jennifer, discussing their day and planning for the future (discussing their future goals and dreams as a couple)",
@@ -348,7 +376,7 @@
     ],
     [
       "getting ready for bed and reflecting on his day",
-      120
+      94
     ],
     [
       "sleeping",
@@ -365,6 +393,10 @@
     [
       "sleeping",
       15
+    ],
+    [
+      "sleeping",
+      1
     ]
   ],
   "f_daily_schedule_hourly_org": [
@@ -409,37 +441,105 @@
       120
     ]
   ],
-  "act_address": "the Ville:Moore family's house:main room:cooking area",
-  "act_start_time": "February 13, 2023, 16:16:00",
-  "act_duration": 20,
-  "act_description": "having dinner with Jennifer at home (preparing the meal)",
-  "act_pronunciatio": "\ud83c\udf73\ud83e\udd57",
+  "act_address": "<persona> Maria Lopez",
+  "act_start_time": "February 13, 2023, 19:25:00",
+  "act_duration": 16,
+  "act_description": "conversing about Maria Lopez and Sam Moore planning a Valentine's Day party, discussing incorporating quotes from Rumi and Pablo Neruda into decorations, interactive activities like a love note station, collaborating with local musicians, and creating a romantic garden theme with flowers and fairy lights.",
+  "act_pronunciatio": "\ud83d\udcac",
   "act_event": [
     "Sam Moore",
-    "prepare",
-    "meal"
+    "chat with",
+    "Maria Lopez"
   ],
-  "act_obj_description": "in use with ingredients and utensils out",
-  "act_obj_pronunciatio": "\ud83c\udf73\ud83d\udd2a",
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
   "act_obj_event": [
-    "cooking area",
-    "is in use",
-    "ingredients and utensils"
+    null,
+    null,
+    null
   ],
-  "chatting_with": null,
-  "chat": null,
+  "chatting_with": "Maria Lopez",
+  "chat": [
+    [
+      "Maria Lopez",
+      "Hey Sam! I couldn't help but overhear you discussing the Valentine's Day party. I love the idea of using quotes from Rumi and Pablo Neruda. Have you thought about how we can incorporate those into the decorations?"
+    ],
+    [
+      "Sam Moore",
+      "That's a great point, Maria! I was thinking we could create some decorative signs with the quotes that can be placed around the cafe. Maybe even have a few of them as part of the centerpieces on the tables. What do you think? Any other ideas on how to showcase the quotes?"
+    ],
+    [
+      "Maria Lopez",
+      "I love that idea! We could also have a board where people can write their favorite quotes or even their own love messages. It could be a fun interactive element for the party! What do you think?"
+    ],
+    [
+      "Sam Moore",
+      "That's a fantastic idea, Maria! I love the thought of having a board where guests can share their own quotes and love messages. It would definitely add a personal touch to the party. Do you have any other interactive activities in mind that we could incorporate?"
+    ],
+    [
+      "Maria Lopez",
+      "How about we set up a love note station where guests can write little notes to their loved ones? We could provide some cute stationery and maybe even a few prompts to help inspire them. It could be a great keepsake for the guests!"
+    ],
+    [
+      "Sam Moore",
+      "I love that idea, Maria! A love note station sounds perfect. We could even have a special box for guests to drop their notes in, and maybe read a few aloud during the party. It would definitely create a warm atmosphere. Do you think we should also consider some live music to enhance the vibe?"
+    ],
+    [
+      "Maria Lopez",
+      "Absolutely! Live music would really elevate the ambiance. Maybe we could collaborate with some local musicians? It would be a great way to support our community too. What do you think?"
+    ],
+    [
+      "Sam Moore",
+      "I think collaborating with local musicians is a wonderful idea! It not only supports them but also brings a unique flavor to our party. Do you have any particular musicians in mind, or should we reach out to the local music community to see who might be available?"
+    ],
+    [
+      "Maria Lopez",
+      "I think reaching out to the local music community would be a great approach! We might discover some hidden gems. Plus, we can ask for recommendations from our friends too. Let's brainstorm some names together!"
+    ],
+    [
+      "Sam Moore",
+      "That sounds like a plan, Maria! Let's jot down some names and maybe even create a list of genres we're interested in. I\u2019m sure we can find some talented musicians to make the evening special. How about we meet up later this week to finalize some details?"
+    ],
+    [
+      "Maria Lopez",
+      "That sounds great, Sam! How about we meet on Wednesday afternoon? We can grab a coffee and finalize everything. I\u2019m really excited about this party!"
+    ],
+    [
+      "Sam Moore",
+      "Wednesday afternoon works perfectly for me, Maria! I\u2019ll bring my notes on the musicians we\u2019ve discussed, and we can also brainstorm more ideas for the decorations and interactive activities. Looking forward to it!"
+    ],
+    [
+      "Maria Lopez",
+      "Awesome! I\u2019ll bring some ideas too. I\u2019m really looking forward to making this party unforgettable. See you on Wednesday!"
+    ],
+    [
+      "Sam Moore",
+      "Great! I'm glad we're on the same page. Do you think we should also think about some decorations that reflect the romantic garden theme? Maybe some flowers or fairy lights to create a cozy atmosphere?"
+    ],
+    [
+      "Maria Lopez",
+      "Definitely! We could have some beautiful flower arrangements and string lights to enhance that romantic garden feel. Maybe even some candles for a warm glow? I think those elements would really tie everything together."
+    ],
+    [
+      "Sam Moore",
+      "I love the idea of candles for a warm glow! It will definitely add to the cozy atmosphere we're aiming for. Let's also think about where to place everything\u2014maybe a few arrangements near the music area to create a nice focal point. What do you think?"
+    ]
+  ],
   "chatting_with_buffer": {
-    "Jennifer Moore": -526,
-    "Isabella Rodriguez": 80,
-    "Giorgio Rossi": -1132,
-    "Eddy Lin": -814,
-    "Adam Smith": -400,
-    "Carlos Gomez": -178,
-    "Mei Lin": -4,
-    "Yuriko Yamamoto": 182,
-    "Carmen Ortiz": 416
+    "Jennifer Moore": 2,
+    "Isabella Rodriguez": 302,
+    "Giorgio Rossi": -2332,
+    "Eddy Lin": 710,
+    "Adam Smith": 194,
+    "Carlos Gomez": -1378,
+    "Mei Lin": -1204,
+    "Yuriko Yamamoto": -1018,
+    "Carmen Ortiz": -784,
+    "Ryan Park": 506,
+    "Klaus Mueller": 602,
+    "Maria Lopez": 800
   },
-  "chatting_end_time": null,
+  "chatting_end_time": "February 13, 2023, 19:41:00",
   "act_path_set": true,
   "planned_path": []
 }

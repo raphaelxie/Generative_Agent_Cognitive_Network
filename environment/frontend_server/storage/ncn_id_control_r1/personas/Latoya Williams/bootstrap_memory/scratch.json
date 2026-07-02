@@ -1,0 +1,439 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 17:09:50",
+  "curr_tile": [
+    39,
+    28
+  ],
+  "daily_plan_req": "",
+  "name": "Latoya Williams",
+  "first_name": "Latoya",
+  "last_name": "Williams",
+  "age": 25,
+  "innate": "organized, logical, attentive",
+  "learned": "Latoya Williams is a digital photographer who has a keen eye for details. She is very organized and analytical when it comes to her art.",
+  "currently": "Latoya Williams is creating a series of photography inspired by her travels. She mostly works from the artists' co-living space. Latoya is also curious about who will be running for the local mayor election next month and that is a central topic in her conversations with others.",
+  "lifestyle": "Latoya Williams goes to bed around 10pm, awakes up around 6am, eats dinner around 17:30pm.",
+  "living_area": "the Ville:artist's co-living space:Latoya Williams's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 194,
+  "importance_ele_n": 15,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "have breakfast and review her photography projects from 8:30 am to 9:00 am",
+    "go for a photography walk in her local area from 9:30 am to 11:30 am, focusing on capturing interesting details inspired by her recent travels",
+    "return to the co-living space and edit photos from 11:30 am to 1:00 pm",
+    "take a break for lunch from 1:00 pm to 2:00 pm",
+    "attend a virtual photography workshop from 2:30 pm to 4:00 pm",
+    "spend some time researching candidates for the local mayor election from 4:30 pm to 5:30 pm",
+    "have dinner at 5:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "reviewing her photography projects and having breakfast (reviewing her recent photographs)",
+      15
+    ],
+    [
+      "reviewing her photography projects and having breakfast (on the way to selecting her favorite images for editing)",
+      0
+    ],
+    [
+      "reviewing her photography projects and having breakfast (conversing about Latoya Williams and Francisco Lopez discussing their plans for the day, including photography and script writing, and arranging to meet for coffee to share experiences and creative work.)",
+      18
+    ],
+    [
+      "reviewing her photography projects and having breakfast (making notes on what she wants to improve in her photography)",
+      10
+    ],
+    [
+      "reviewing her photography projects and having breakfast (on the way to preparing her breakfast)",
+      0
+    ],
+    [
+      "reviewing her photography projects and having breakfast (conversing about Latoya Williams and Arthur Burton discussing their creative projects in mixology and photography, sharing ideas about local political events, and exchanging cocktail recipes and flavor preferences.)",
+      19
+    ],
+    [
+      "reviewing her photography projects and having breakfast (eating her breakfast)",
+      15
+    ],
+    [
+      "going for a photography walk in her local area, focusing on capturing interesting details inspired by her recent travels (preparing her camera and equipment)",
+      10
+    ],
+    [
+      "going for a photography walk in her local area, focusing on capturing interesting details inspired by her recent travels (stepping out of her co-living space and heading to her local area)",
+      5
+    ],
+    [
+      "going for a photography walk in her local area, focusing on capturing interesting details inspired by her recent travels (on the way to observing her surroundings for interesting details to capture)",
+      0
+    ],
+    [
+      "going for a photography walk in her local area, focusing on capturing interesting details inspired by her recent travels (conversing about Abigail Chen and Latoya Williams discussing Abigail's animation project incorporating local issues and Maria Lopez's initiatives for small businesses, as well as brainstorming ideas and sharing photography.)",
+      17
+    ],
+    [
+      "going for a photography walk in her local area, focusing on capturing interesting details inspired by her recent travels (taking photos of unique architectural features)",
+      10
+    ],
+    [
+      "going for a photography walk in her local area, focusing on capturing interesting details inspired by her recent travels (capturing images of local flora and fauna)",
+      8
+    ],
+    [
+      "editing photos from her recent photography walk (importing the photos from her camera to her computer)",
+      10
+    ],
+    [
+      "editing photos from her recent photography walk (on the way to selecting the best photos to edit)",
+      0
+    ],
+    [
+      "editing photos from her recent photography walk (conversing about Latoya Williams and Adam Smith discussing their collaboration on projects that incorporate insights from local business owners, photography, and local politics, while preparing for a meeting with Abigail.)",
+      22
+    ],
+    [
+      "editing photos from her recent photography walk (adjusting the brightness and contrast of the selected photos)",
+      15
+    ],
+    [
+      "editing photos from her recent photography walk (on the way to cropping the photos to enhance composition)",
+      0
+    ],
+    [
+      "editing photos from her recent photography walk (conversing about Latoya Williams and Francisco Lopez discussing their creative projects, including a web series about co-living and incorporating local business interviews and community issues into their work.)",
+      16
+    ],
+    [
+      "editing photos from her recent photography walk (applying filters and effects to the photos)",
+      8
+    ],
+    [
+      "taking a break and having lunch (preparing her lunch)",
+      15
+    ],
+    [
+      "taking a break and having lunch (setting the table for lunch)",
+      5
+    ],
+    [
+      "taking a break and having lunch (enjoying her lunch)",
+      20
+    ],
+    [
+      "taking a break and having lunch (cleaning up after lunch)",
+      2
+    ],
+    [
+      "taking a break for lunch (preparing her lunch)",
+      15
+    ],
+    [
+      "taking a break for lunch (setting the table for lunch)",
+      5
+    ],
+    [
+      "taking a break for lunch (enjoying her lunch)",
+      20
+    ],
+    [
+      "taking a break for lunch (on the way to cleaning up after lunch)",
+      0
+    ],
+    [
+      "taking a break for lunch (conversing about Latoya Williams and Abigail Chen discussing Abigail's interactive art tool for her animation project, featuring local businesses, storytelling techniques, and brainstorming ideas for their collaboration.)",
+      16
+    ],
+    [
+      "taking a break for lunch (washing the dishes)",
+      5
+    ],
+    [
+      "taking a break for lunch (wiping down the table)",
+      5
+    ],
+    [
+      "attending a virtual photography workshop (setting up her workspace for the virtual workshop)",
+      5
+    ],
+    [
+      "attending a virtual photography workshop (on the way to logging into the virtual workshop platform)",
+      0
+    ],
+    [
+      "attending a virtual photography workshop (conversing about Latoya Williams and Rajiv Patel discussing how to incorporate music elements into her photography series, including collaboration with musicians and exploring themes of community and connection.)",
+      17
+    ],
+    [
+      "attending a virtual photography workshop (on the way to checking her audio and video settings)",
+      0
+    ],
+    [
+      "attending a virtual photography workshop (conversing about Francisco Lopez and Latoya Williams discussing their virtual photography workshop insights, brainstorming ideas to integrate local musicians and their music into their web series, and planning a meeting to finalize details and techniques.)",
+      17
+    ],
+    [
+      "attending a virtual photography workshop (reviewing the workshop agenda)",
+      5
+    ],
+    [
+      "attending a virtual photography workshop (on the way to introducing herself in the chat)",
+      0
+    ],
+    [
+      "attending a virtual photography workshop (conversing about Hailey Johnson and Latoya Williams discussing the integration of music into Hailey's novel and how Latoya's photography workshop on visual storytelling can enhance their collaborative projects.)",
+      20
+    ],
+    [
+      "attending a virtual photography workshop (listening to the instructor's introduction)",
+      5
+    ],
+    [
+      "attending a virtual photography workshop (taking notes on key points from the presentation)",
+      10
+    ],
+    [
+      "attending a virtual photography workshop (participating in a Q&A session)",
+      10
+    ],
+    [
+      "attending a virtual photography workshop (engaging in a group discussion with other participants)",
+      4
+    ],
+    [
+      "researching candidates for the local mayor election (researching the current candidates for the local mayor election)",
+      20
+    ],
+    [
+      "researching candidates for the local mayor election (reading candidate biographies and platforms)",
+      30
+    ],
+    [
+      "researching candidates for the local mayor election (on the way to taking notes on key points from each candidate)",
+      0
+    ],
+    [
+      "researching candidates for the local mayor election (conversing about Abigail Chen and Latoya Williams discussing how to incorporate insights from mayoral candidates into their animation project, focusing on local businesses and community engagement.)",
+      20
+    ],
+    [
+      "researching candidates for the local mayor election (on the way to comparing candidates' positions on important issues)",
+      0
+    ],
+    [
+      "researching candidates for the local mayor election (conversing about Latoya Williams and Rajiv Patel discussing candidates for the local mayor election and brainstorming ideas for an event that combines art, local businesses, and music to enhance community engagement.)",
+      11
+    ],
+    [
+      "having dinner (preparing the ingredients for dinner)",
+      15
+    ],
+    [
+      "having dinner (on the way to cooking the main dish)",
+      0
+    ],
+    [
+      "having dinner (conversing about Francisco Lopez and Latoya Williams discussing ideas for a Valentine's Day party, including decorations and a photo booth, as well as collaborating on Latoya's photography project featuring local businesses.)",
+      16
+    ],
+    [
+      "having dinner (setting the dining table)",
+      10
+    ],
+    [
+      "having dinner (plating the food)",
+      10
+    ],
+    [
+      "having dinner (pouring a drink)",
+      5
+    ],
+    [
+      "having dinner (sitting down to eat)",
+      30
+    ],
+    [
+      "having dinner (enjoying her meal)",
+      20
+    ],
+    [
+      "relaxing and unwinding after a productive day, possibly reviewing her photography work or enjoying a book",
+      60
+    ],
+    [
+      "relaxing and unwinding after dinner, possibly reviewing her photography work or enjoying a book",
+      120
+    ],
+    [
+      "relaxing and unwinding before bed, possibly reviewing her photography work or enjoying a book",
+      120
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "reviewing her photography projects and having breakfast",
+      60
+    ],
+    [
+      "going for a photography walk in her local area, focusing on capturing interesting details inspired by her recent travels",
+      60
+    ],
+    [
+      "editing photos from her recent photography walk",
+      60
+    ],
+    [
+      "taking a break and having lunch",
+      60
+    ],
+    [
+      "taking a break for lunch",
+      60
+    ],
+    [
+      "attending a virtual photography workshop",
+      60
+    ],
+    [
+      "researching candidates for the local mayor election",
+      120
+    ],
+    [
+      "having dinner",
+      120
+    ],
+    [
+      "relaxing and unwinding after a productive day, possibly reviewing her photography work or enjoying a book",
+      60
+    ],
+    [
+      "relaxing and unwinding after dinner, possibly reviewing her photography work or enjoying a book",
+      120
+    ],
+    [
+      "relaxing and unwinding before bed, possibly reviewing her photography work or enjoying a book",
+      120
+    ]
+  ],
+  "act_address": "<persona> Francisco Lopez",
+  "act_start_time": "February 13, 2023, 17:05:10",
+  "act_duration": 16,
+  "act_description": "conversing about Francisco Lopez and Latoya Williams discussing ideas for a Valentine's Day party, including decorations and a photo booth, as well as collaborating on Latoya's photography project featuring local businesses.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Latoya Williams",
+    "chat with",
+    "Francisco Lopez"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Francisco Lopez",
+  "chat": [
+    [
+      "Francisco Lopez",
+      "Hey Latoya! I just came from my improvisational comedy class, and we were brainstorming ideas for our Valentine's Day party decorations. I was thinking it would be fun to incorporate some animation and live painting. What do you think? How's your dinner going?"
+    ],
+    [
+      "Latoya Williams",
+      "That sounds like a fantastic idea! I love the thought of combining animation and live painting for the decorations. It could really bring the party to life! As for dinner, I'm just getting started with the ingredients. What else did you brainstorm for the party?"
+    ],
+    [
+      "Francisco Lopez",
+      "We also talked about setting up a photo booth with fun props and a backdrop that matches the theme. I think it would be a hit! What do you think about that idea? And have you made any progress on your photography project?"
+    ],
+    [
+      "Latoya Williams",
+      "A photo booth sounds like a great addition! It would definitely add to the fun atmosphere. As for my photography project, I've been focusing on capturing local stories through my travels. I'm thinking of integrating some interviews with local business owners into my series. What do you think about that approach?"
+    ],
+    [
+      "Francisco Lopez",
+      "That sounds like a wonderful approach! Integrating local business stories will really enrich your project. I\u2019d love to help out with interviews if you need a hand. Maybe we could even tie it into our web series somehow? How's your timeline looking for that?"
+    ],
+    [
+      "Latoya Williams",
+      "That would be awesome, Francisco! I appreciate the offer to help with the interviews. I think tying it into our web series could create some really compelling content. I'm aiming to have the project wrapped up in the next few weeks, so we should definitely set a time to discuss how we can collaborate on that. What does your schedule look like?"
+    ],
+    [
+      "Francisco Lopez",
+      "I can carve out some time this week to meet and discuss our collaboration! How about Wednesday afternoon? We can go over the interview questions and brainstorm some ideas together."
+    ],
+    [
+      "Latoya Williams",
+      "Wednesday afternoon works perfectly for me! I\u2019m looking forward to brainstorming together and finalizing the details. Let\u2019s meet in the common room, and I\u2019ll bring my notes on the interview questions. Sound good?"
+    ],
+    [
+      "Francisco Lopez",
+      "Sounds great! I'll bring my notes too. I'm excited to see what ideas we come up with. By the way, have you thought about any specific local businesses you want to feature in the interviews?"
+    ],
+    [
+      "Latoya Williams",
+      "Yes, I've been thinking about a few local caf\u00e9s and maybe some arts and crafts shops. I think their stories would resonate well with our audience. Do you have any suggestions for businesses we should consider?"
+    ],
+    [
+      "Francisco Lopez",
+      "Those sound like great choices! I was also thinking we could look into a local bookstore or maybe a community garden. Their stories could really highlight the unique aspects of our community. What do you think?"
+    ],
+    [
+      "Latoya Williams",
+      "I love those suggestions! A local bookstore would definitely add a nice touch, and a community garden would highlight our commitment to sustainability. Let's make a list of businesses to consider when we meet. I\u2019m really excited about the potential stories we can tell!"
+    ],
+    [
+      "Francisco Lopez",
+      "Great! I\u2019ll start a list of potential local businesses and their contact info so we can reach out to them. I think this is going to be an amazing collaboration! By the way, do you need any help with your dinner? I could lend a hand if you want."
+    ],
+    [
+      "Latoya Williams",
+      "Thank you for the offer, Francisco! I think I\u2019ve got it covered for now, but I\u2019ll definitely let you know if I need help. I\u2019m really looking forward to our meeting on Wednesday to discuss everything in more detail!"
+    ],
+    [
+      "Francisco Lopez",
+      "No problem at all! Just let me know if you change your mind. I\u2019ll see you on Wednesday then. Enjoy your dinner!"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Francisco Lopez": 800,
+    "Arthur Burton": -1810,
+    "Abigail Chen": 506,
+    "Adam Smith": -1204,
+    "Rajiv Patel": 770,
+    "Hailey Johnson": 56
+  },
+  "chatting_end_time": "February 13, 2023, 17:22:00",
+  "act_path_set": true,
+  "planned_path": []
+}

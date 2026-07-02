@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    34,
-    45
+    35,
+    30
   ],
   "daily_plan_req": "",
   "name": "Abigail Chen",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 18,
-  "importance_ele_n": 46,
+  "importance_trigger_curr": 86,
+  "importance_ele_n": 40,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 8:00 am",
@@ -203,28 +203,132 @@
       10
     ],
     [
-      "finishing up the day's tasks on the animation project (exporting the animation in the required format)",
-      10
+      "finishing up the day's tasks on the animation project (on the way to exporting the animation in the required format)",
+      0
+    ],
+    [
+      "finishing up the day's tasks on the animation project (conversing about Hailey Johnson and Abigail Chen discussing the brainstorming of a dinner scene for Hailey's novel, incorporating a comedic cafe owner character, and exploring the integration of local business narratives into Abigail's animation project.)",
+      20
     ],
     [
       "finishing up the day's tasks on the animation project (preparing a presentation for the client, including notes on the animation)",
       5
     ],
     [
-      "having dinner",
-      60
+      "having dinner (preparing the ingredients for dinner)",
+      15
+    ],
+    [
+      "having dinner (on the way to cooking the main dish)",
+      0
+    ],
+    [
+      "having dinner (conversing about Abigail Chen and Rajiv Patel discussing their creative projects, including Rajiv's cocktail inspired by the Fibonacci sequence using local ingredients and Abigail's animation project featuring local businesses with interactive elements.)",
+      12
+    ],
+    [
+      "having dinner (on the way to setting the dining table)",
+      0
+    ],
+    [
+      "having dinner (conversing about Francisco Lopez and Abigail Chen discussing ideas for their animation project and web series that will feature local businesses, including a coffee shop, bakery, and bookstore, while exploring themes of community resilience.)",
+      20
+    ],
+    [
+      "having dinner (plating the food)",
+      5
+    ],
+    [
+      "having dinner (pouring a drink)",
+      5
+    ],
+    [
+      "having dinner (sitting down to eat)",
+      5
     ],
     [
       "relaxing and unwinding by watching a show or reading",
-      60
+      50
     ],
     [
-      "watching a show or reading",
-      60
+      "watching a show or reading (on the way to watching a show or readin)",
+      0
     ],
     [
-      "continuing to relax and unwind by watching a show or reading",
-      120
+      "watching a show or reading (conversing about Abigail Chen and Latoya Williams discussing their collaborative projects, focusing on integrating local business narratives into Abigail's animation and planning a visit to a coffee shop to gather stories and inspiration for their respective works.)",
+      17
+    ],
+    [
+      "continuing to relax and unwind by watching a show or reading (settling into her comfortable spot on the couch)",
+      5
+    ],
+    [
+      "continuing to relax and unwind by watching a show or reading (selecting a show to watch or a book to read)",
+      5
+    ],
+    [
+      "continuing to relax and unwind by watching a show or reading (preparing a snack or drink to enjoy while relaxing)",
+      5
+    ],
+    [
+      "continuing to relax and unwind by watching a show or reading (turning on the TV or opening her book)",
+      5
+    ],
+    [
+      "continuing to relax and unwind by watching a show or reading (getting comfortable with a blanket or pillow)",
+      5
+    ],
+    [
+      "continuing to relax and unwind by watching a show or reading (watching the first episode of the show or reading the first chapter of the book)",
+      10
+    ],
+    [
+      "continuing to relax and unwind by watching a show or reading (taking a moment to reflect on the plot or characters)",
+      5
+    ],
+    [
+      "continuing to relax and unwind by watching a show or reading (continuing to watch the show or read the book)",
+      10
+    ],
+    [
+      "continuing to relax and unwind by watching a show or reading (pausing to check her phone or social media)",
+      5
+    ],
+    [
+      "continuing to relax and unwind by watching a show or reading (resuming the show or book)",
+      10
+    ],
+    [
+      "continuing to relax and unwind by watching a show or reading (enjoying the storyline and getting immersed in the content)",
+      10
+    ],
+    [
+      "continuing to relax and unwind by watching a show or reading (taking a short break to stretch or adjust her seating)",
+      5
+    ],
+    [
+      "continuing to relax and unwind by watching a show or reading (continuing to watch the show or read the book)",
+      10
+    ],
+    [
+      "continuing to relax and unwind by watching a show or reading (discussing the show or book in her mind, thinking about themes or messages)",
+      5
+    ],
+    [
+      "continuing to relax and unwind by watching a show or reading (watching the show or reading the book)",
+      10
+    ],
+    [
+      "continuing to relax and unwind by watching a show or reading (preparing to wrap up her session by noting down any thoughts or ideas)",
+      5
+    ],
+    [
+      "continuing to relax and unwind by watching a show or reading (finishing the episode or chapter)",
+      5
+    ],
+    [
+      "continuing to relax and unwind by watching a show or reading (reflecting on what she watched or read and how it made her feel)",
+      5
     ],
     [
       "preparing for bed and winding down for the night",
@@ -245,6 +349,10 @@
     [
       "sleeping",
       17
+    ],
+    [
+      "sleeping",
+      30
     ]
   ],
   "f_daily_schedule_hourly_org": [
@@ -305,80 +413,35 @@
       60
     ]
   ],
-  "act_address": "<persona> Sam Moore",
-  "act_start_time": "February 13, 2023, 16:11:50",
-  "act_duration": 11,
-  "act_description": "conversing about Abigail Chen and Sam Moore discussing plans for the launch event of a campaign, focusing on incorporating interactive elements like a community mural and promoting local artists, while also exploring collaboration on animations and visuals.",
-  "act_pronunciatio": "\ud83d\udcac",
+  "act_address": "the Ville:artist's co-living space:common room:common room sofa",
+  "act_start_time": "February 13, 2023, 19:08:00",
+  "act_duration": 50,
+  "act_description": "relaxing and unwinding by watching a show or reading",
+  "act_pronunciatio": "\ud83d\udcfa\ud83d\udcd6",
   "act_event": [
     "Abigail Chen",
-    "chat with",
-    "Sam Moore"
+    "relax",
+    "show or reading"
   ],
-  "act_obj_description": null,
-  "act_obj_pronunciatio": null,
+  "act_obj_description": "occupied and comfortable",
+  "act_obj_pronunciatio": "\ud83d\udecb\ufe0f\ud83d\ude0a",
   "act_obj_event": [
-    null,
-    null,
-    null
+    "common room sofa",
+    "is",
+    "occupied"
   ],
-  "chatting_with": "Sam Moore",
-  "chat": [
-    [
-      "Abigail Chen",
-      "Hey Sam! I see you're busy with the campaign materials. How's everything going with the launch event? Are you planning to incorporate any interactive elements into it?"
-    ],
-    [
-      "Sam Moore",
-      "Hi Abigail! Yes, we're definitely looking to incorporate some interactive elements. We're considering a live mural tied to the Fibonacci sequence, which should really engage the community. Plus, we\u2019re planning to feature local artists and have some social media promotion. What do you think about that? Any ideas you might have?"
-    ],
-    [
-      "Abigail Chen",
-      "That sounds like a fantastic idea! Incorporating local artists will definitely add a unique touch. For the interactive mural, maybe you could have community members contribute to it during the event? It could really bring everyone together. Also, if you need any help with promoting it through animation or digital art, I'd be happy to collaborate!"
-    ],
-    [
-      "Sam Moore",
-      "That's a brilliant idea, Abigail! Having community members contribute to the mural would certainly foster a sense of belonging and creativity. And I would love to take you up on the offer for help with the promotion. Your skills in animation and digital art would really enhance our outreach. Let's discuss how we can best collaborate on that!"
-    ],
-    [
-      "Abigail Chen",
-      "Great! I'm excited to brainstorm some ideas with you. Maybe we can create some animations that highlight the local artists involved and promote the event's interactive aspects? Let\u2019s set up a time to meet and discuss the details!"
-    ],
-    [
-      "Sam Moore",
-      "That sounds perfect, Abigail! Highlighting the local artists through animations would definitely attract more attention. How about we meet later this week to brainstorm? I can check my schedule and get back to you with a couple of options."
-    ],
-    [
-      "Abigail Chen",
-      "That works for me! Just let me know when you're available, and we can dive into the details. I'm looking forward to it!"
-    ],
-    [
-      "Sam Moore",
-      "Great! I'll take a look at my schedule and reach out to you later today with some times that work. I'm really looking forward to collaborating on this!"
-    ],
-    [
-      "Abigail Chen",
-      "Awesome! I can't wait to see what we come up with. By the way, if you need any visuals for the campaign materials, feel free to reach out. I\u2019d love to help out wherever I can."
-    ],
-    [
-      "Sam Moore",
-      "Thanks, Abigail! I really appreciate your offer to help with the visuals for the campaign materials. I'll definitely keep that in mind. Let\u2019s stay in touch, and I\u2019ll reach out later today with some times for our brainstorming session. Have a great walk!"
-    ],
-    [
-      "Abigail Chen",
-      "Thanks, Sam! I really appreciate it. Enjoy your work on the campaign materials, and I'm looking forward to our brainstorming session. Talk soon!"
-    ]
-  ],
+  "chatting_with": null,
+  "chat": null,
   "chatting_with_buffer": {
-    "Francisco Lopez": 512,
-    "Adam Smith": -1414,
-    "Latoya Williams": 728,
-    "Rajiv Patel": -388,
-    "Hailey Johnson": 26,
-    "Jennifer Moore": 194,
-    "Sam Moore": 800
+    "Francisco Lopez": 344,
+    "Adam Smith": -2614,
+    "Latoya Williams": 608,
+    "Rajiv Patel": 218,
+    "Hailey Johnson": 20,
+    "Jennifer Moore": -1006,
+    "Sam Moore": -382
   },
-  "chatting_end_time": "February 13, 2023, 16:23:00",
+  "chatting_end_time": null,
   "act_path_set": true,
   "planned_path": []
 }

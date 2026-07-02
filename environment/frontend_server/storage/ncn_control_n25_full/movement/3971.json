@@ -1,0 +1,866 @@
+{
+  "persona": {
+    "Latoya Williams": {
+      "movement": [
+        35,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83e\uddd8\u200d",
+      "description": "relaxing and unwinding after a productive day, possibly reviewing her photography work or enjoying a book @ the Ville:artist's co-living space:common room:common room sofa",
+      "chat": null
+    },
+    "Rajiv Patel": {
+      "movement": [
+        28,
+        48
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Rajiv Patel and Adam Smith discussing ideas for integrating interactive elements into Rajiv's upcoming show, including a feedback wall, art creation stations, promotion strategies, and collaboration with local schools. @ <persona> Adam Smith",
+      "chat": [
+        [
+          "Rajiv Patel",
+          "Hey Adam, I was just thinking about our last conversation regarding the workshops with local schools. I really like the idea of integrating interactive elements into my upcoming show. What do you think about me including a space where attendees can leave their thoughts on community and creativity?"
+        ],
+        [
+          "Adam Smith",
+          "I think that's a fantastic idea, Rajiv! Creating a space for attendees to share their thoughts would not only engage the community but also spark meaningful conversations about creativity. We could even think about incorporating some prompts to guide their reflections. Have you considered how you might want to display their contributions?"
+        ],
+        [
+          "Rajiv Patel",
+          "That's a great suggestion! I was thinking of using a large canvas or a chalkboard where people can write or draw their thoughts. It could really add a visual element to the show. What do you think?"
+        ],
+        [
+          "Adam Smith",
+          "I love that idea! A large canvas or chalkboard would definitely create an interactive focal point for the show. You could even encourage people to come back and add to it throughout the event. Have you thought about how you'll promote this interactive element to attract more attendees?"
+        ],
+        [
+          "Rajiv Patel",
+          "I haven't thought too much about the promotion yet, but I was considering using social media to highlight the interactive aspects of the show. Maybe we could create some teaser posts or even a video showing the setup process. What do you think would work best?"
+        ],
+        [
+          "Adam Smith",
+          "I think social media is a great way to promote the interactive elements! Teaser posts could definitely create excitement. You might also consider reaching out to local influencers or community groups to share the event. A short video showcasing the setup could really give people a taste of what to expect and encourage them to participate. Have you thought about any specific hashtags or messages to use for the campaign?"
+        ],
+        [
+          "Rajiv Patel",
+          "That's a solid idea! I think using hashtags like #CommunityCreativity and #ArtInAction could work well to engage people. I\u2019ll also brainstorm some messages that capture the essence of the show. I really appreciate your input, Adam! Is there anything else you think I should consider as I finalize these plans?"
+        ],
+        [
+          "Adam Smith",
+          "I'm glad to help, Rajiv! One more thing to consider is perhaps collaborating with local schools for some live demonstrations during the show. It could be a great way to get students involved and showcase their creativity in real-time. What do you think?"
+        ],
+        [
+          "Rajiv Patel",
+          "I love that idea! Collaborating with local schools for live demonstrations would definitely bring a vibrant energy to the show and engage the students in a meaningful way. I can reach out to some schools and see if they would be interested. Thank you for all these great suggestions, Adam! I'm feeling more excited about the show now. Do you have any other thoughts or ideas?"
+        ],
+        [
+          "Adam Smith",
+          "I'm thrilled to hear that you're feeling excited about the show! One last thought\u2014have you considered setting up a feedback mechanism after the event? Gathering insights from attendees could help you improve future shows and continue fostering community engagement. I'd love to hear your thoughts on that."
+        ],
+        [
+          "Rajiv Patel",
+          "That's a great idea, Adam! I hadn't thought about collecting feedback after the event. I could set up a simple survey or feedback box for attendees to share their thoughts. It would be really helpful for planning future shows. Thanks again for all your insights! I'm looking forward to making this show a success. Is there anything else you think I should keep in mind?"
+        ],
+        [
+          "Adam Smith",
+          "I'm glad to hear you're considering feedback! It could really enhance your future projects. Also, don't forget to keep the dialogue going with attendees during the event itself. Maybe you could have a few discussion prompts prepared to guide conversations. That could create a really engaging atmosphere. Is there anything specific you're still unsure about?"
+        ],
+        [
+          "Rajiv Patel",
+          "That's a fantastic idea, Adam! I will definitely prepare some discussion prompts to encourage engagement during the event. I'm also thinking about how to balance the interactive elements with the overall flow of the show\u2014do you have any tips on that?"
+        ],
+        [
+          "Adam Smith",
+          "To balance the interactive elements with the flow of the show, I recommend setting specific times for interactive activities, while also allowing for free movement throughout the space. You could create a schedule that highlights when certain activities or discussions will take place, which can help attendees plan their experience. Additionally, make sure there's a clear path for people to navigate between interactive stations and the main displays. This way, everyone can enjoy the art while still participating in the activities. Do you have any specific activities in mind that you want to highlight?"
+        ],
+        [
+          "Rajiv Patel",
+          "I appreciate those tips, Adam! I was thinking of having a few art creation stations where attendees can try their hand at painting or drawing, along with the feedback wall we discussed. I want to make sure there's enough space for everything and that it feels welcoming. What do you think about that idea?"
+        ],
+        [
+          "Adam Smith",
+          "I think having art creation stations is a wonderful addition, Rajiv! It will provide attendees with a hands-on experience and allow them to express their creativity. Just make sure there's enough room for people to move around comfortably, and consider having some guidance or materials ready for those who might feel a bit shy about starting. Have you thought about what types of art supplies you\u2019ll provide?"
+        ]
+      ]
+    },
+    "Abigail Chen": {
+      "movement": [
+        56,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Abigail Chen and Wolfgang Schulz discussing Wolfgang's upcoming pizza night, including toppings, side dishes, drinks, games, music, and decorations, while also touching on Abigail's animation project. @ <persona> Wolfgang Schulz",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Hey Wolfgang! I just overheard you talking about your pizza night with Maria. It sounds like a lot of fun! What toppings are you planning to use?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Hey Abigail! I'm really excited about it! I'm thinking of bringing some classic toppings like pepperoni and mushrooms, but I also want to try something adventurous like arugula or goat cheese after baking. What do you think? Do you have any favorite pizza toppings?"
+        ],
+        [
+          "Abigail Chen",
+          "Those toppings sound delicious! I love the idea of arugula on pizza; it adds such a fresh flavor. Have you thought about any side dishes or drinks to go with it?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "I was thinking of making a simple salad on the side, maybe with some vinaigrette to complement the pizza. As for drinks, I might go with some craft sodas or a light beer. What do you think? Any suggestions?"
+        ],
+        [
+          "Abigail Chen",
+          "Those sound like great options! A simple salad will definitely balance out the flavors of the pizza. I love craft sodas too\u2014maybe you could try pairing a fruity one with the goat cheese? By the way, have you thought about any games or activities to keep everyone entertained during the pizza night?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "That's a great idea! I was thinking of maybe playing some board games or card games. Something fun and interactive. Do you have any favorites that you think would work well for a group?"
+        ],
+        [
+          "Abigail Chen",
+          "I think board games are perfect for a pizza night! I really enjoy games like Codenames or Sushi Go\u2014they're easy to learn and always a hit with groups. Have you played either of those? Also, if you need any more ideas for activities, I can help brainstorm!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "I haven't played Codenames, but I've heard great things about it! Sushi Go sounds fun too\u2014I love how quick and interactive it is. I'll definitely consider those! Thanks for the suggestions! If you want, you could join us for the pizza night; it would be great to have you there."
+        ],
+        [
+          "Abigail Chen",
+          "That sounds awesome! I'd love to join you guys for the pizza night! Just let me know the date and time. If you need any help with the preparations, feel free to reach out!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Great! I'm planning for Saturday at 3 PM. I'll definitely keep you in the loop if I need help with anything. I'm really looking forward to it!"
+        ],
+        [
+          "Abigail Chen",
+          "Perfect! Saturday at 3 PM it is! I can't wait to try your pizza creations. By the way, have you thought about any specific music or playlist for the night? It could really set the vibe!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "I haven't thought about the music yet! I was considering some upbeat playlists, maybe some indie or pop music to keep the energy up. What kind of music do you enjoy? Any recommendations for a good playlist?"
+        ],
+        [
+          "Abigail Chen",
+          "I love indie and pop music! Maybe a mix of some classic hits and newer tracks would be great. I can send you a couple of playlist suggestions if you'd like! It could really help create that fun atmosphere you're going for. Also, are you planning any special decorations for the night?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds like a great idea! I'd love to see your playlist suggestions. As for decorations, I was thinking of keeping it simple with some string lights and maybe a fun table setting. What do you think? Any decoration ideas you have in mind?"
+        ],
+        [
+          "Abigail Chen",
+          "I love the idea of string lights; they always create such a cozy atmosphere! Maybe you could add some colorful tablecloths or themed napkins to match the vibe of the night? I can help you pick those out if you want! And I'll send you those playlist suggestions when I get home."
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds perfect, Abigail! Colorful tablecloths and themed napkins will definitely add to the atmosphere. I appreciate your help with picking those out! I\u2019m looking forward to your playlist suggestions too. It\u2019s going to be a great night! By the way, how's your animation project going? I remember you mentioning something about it."
+        ]
+      ]
+    },
+    "Francisco Lopez": {
+      "movement": [
+        36,
+        28
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83c\udfad",
+      "description": "continuing to attend improvisational comedy class (practicing character development) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null
+    },
+    "Hailey Johnson": {
+      "movement": [
+        41,
+        27
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f\ud83e\udd57",
+      "description": "having dinner @ the Ville:artist's co-living space:kitchen:cooking area",
+      "chat": null
+    },
+    "Arthur Burton": {
+      "movement": [
+        57,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Carmen Ortiz and Arthur Burton discussing plans for an upcoming community day event to support local artists, businesses, and musicians, coinciding with Jennifer Moore's exhibition. @ <persona> Carmen Ortiz",
+      "chat": [
+        [
+          "Carmen Ortiz",
+          "Hey Arthur! I just came from the store, and I\u2019m really excited about Jennifer Moore\u2019s upcoming exhibition. Have you heard about it? I think it\u2019s a great way to highlight community stories and support local businesses. What do you think?"
+        ],
+        [
+          "Arthur Burton",
+          "Absolutely, Carmen! I'm really looking forward to Jennifer's exhibition as well. It\u2019s such a meaningful way to bring our community together. I think it could inspire some great conversations and connections. Are you planning to attend the opening?"
+        ],
+        [
+          "Carmen Ortiz",
+          "Yes, I definitely plan to attend! I'm also working on organizing a community day event at the park where Jennifer can showcase her artwork. I\u2019d love to hear your thoughts on how we can make it engaging for everyone. What do you think?"
+        ],
+        [
+          "Arthur Burton",
+          "That sounds like a wonderful idea, Carmen! We could incorporate some interactive elements, maybe even have local artists share their stories alongside Jennifer\u2019s work. It would be great to have some activities for kids too, to get families involved. What kind of ideas do you have in mind for the event?"
+        ],
+        [
+          "Carmen Ortiz",
+          "I love the idea of having local artists share their stories! For activities, I was thinking about setting up a mini art station for kids where they can create their own artwork inspired by Jennifer's pieces. We could also have a small stage for local musicians to perform, which would really add to the vibe. What do you think?"
+        ],
+        [
+          "Arthur Burton",
+          "That sounds fantastic, Carmen! A mini art station for kids would definitely spark creativity, and live music would add such a lively atmosphere. We could also consider having some local food vendors to provide snacks and drinks. It's all about making it a community celebration, right? Do you have any specific musicians in mind?"
+        ],
+        [
+          "Carmen Ortiz",
+          "I think having local food vendors is a great idea! As for musicians, I was considering reaching out to a couple of local bands that have played at the pub before. They always bring a great energy! Do you have any recommendations for musicians we could invite?"
+        ],
+        [
+          "Arthur Burton",
+          "I think reaching out to those local bands is a great idea! They always get the crowd going. I can also suggest a couple of solo artists I know who would fit the vibe perfectly. We should definitely make sure to create a lineup that\u2019s diverse and engaging. Let's brainstorm together! Any other activities you think would be fun for the community day?"
+        ],
+        [
+          "Carmen Ortiz",
+          "I love the idea of having a diverse lineup! We could also set up some booths for local businesses to showcase their products. It would be a great way to support them while giving the community a chance to discover what we have locally. What do you think about that?"
+        ],
+        [
+          "Arthur Burton",
+          "I think setting up booths for local businesses is a brilliant idea, Carmen! It\u2019ll not only support them but also encourage community members to shop local. We could even have a raffle or giveaway featuring items from these businesses to entice people to stop by. Do you have any specific businesses in mind that you want to invite?"
+        ],
+        [
+          "Carmen Ortiz",
+          "That\u2019s a great idea! I was thinking of inviting some of the local artisans and craft shops from the area. They always have unique products that could attract people. Maybe we could also include some of the food trucks that set up during the farmer's market. What do you think?"
+        ],
+        [
+          "Arthur Burton",
+          "I think inviting local artisans and food trucks is a fantastic idea! It\u2019ll really showcase the variety we have in our community. Let\u2019s make a list of businesses we want to reach out to and see who\u2019s available. I\u2019m excited about this community day event, Carmen! It\u2019s going to be a great way to bring everyone together. Do you want to set up a time to meet and discuss our plans further?"
+        ],
+        [
+          "Carmen Ortiz",
+          "Absolutely, Arthur! I\u2019d love to set up a time to meet and dive deeper into our plans. How about we grab coffee later this week? I can bring a list of businesses I have in mind, and we can brainstorm more ideas together."
+        ],
+        [
+          "Arthur Burton",
+          "That sounds perfect, Carmen! How about Wednesday morning? We can meet at that new coffee shop down the street. I'm looking forward to seeing your list and brainstorming more ideas together!"
+        ],
+        [
+          "Carmen Ortiz",
+          "Wednesday morning works for me! I\u2019ll see you at the coffee shop then. I\u2019m really looking forward to it and can\u2019t wait to see what we come up with together! Thanks for your input, Arthur!"
+        ],
+        [
+          "Arthur Burton",
+          "Great! I\u2019ll see you Wednesday morning at the coffee shop. Let\u2019s make this community day event something special for everyone!"
+        ]
+      ]
+    },
+    "Ryan Park": {
+      "movement": [
+        77,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy Lin and Ryan Park discussing ideas for incorporating technology and user-generated content into the Valentine's Day party, including prompts for attendees to share their stories and photos. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "Eddy Lin",
+          "Hey Ryan, I was just thinking about the Valentine's Day party we're planning. Have you had any new ideas about incorporating technology for community engagement? I'd love to hear your thoughts!"
+        ],
+        [
+          "Ryan Park",
+          "Hey Eddy! I've been thinking about how we can integrate user-generated content into the app for the Valentine's Day party. Maybe we could create a feature where attendees can share their own stories or photos from the event in real-time. What do you think about that?"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds like a fantastic idea, Ryan! It would really enhance the sense of community and make everyone feel more involved. We could even display some of those stories or photos on a screen during the party. Do you think we should brainstorm some prompts for the attendees to share?"
+        ],
+        [
+          "Ryan Park",
+          "That's a great idea, Eddy! We could encourage attendees to share their favorite memories or what love means to them. It could really bring a personal touch to the event. Let's brainstorm some specific prompts together!"
+        ],
+        [
+          "Eddy Lin",
+          "Absolutely! Here are a few ideas: 'Share your favorite love song and why it means so much to you,' or 'Tell us about a memorable Valentine's Day experience you've had.' What do you think? Any other prompts you want to add?"
+        ],
+        [
+          "Ryan Park",
+          "Those are great prompts, Eddy! I also thought we could add one like, 'What\u2019s a unique way you\u2019ve celebrated love in your life?' This could spark some really interesting stories. Do you think we should finalize a list of prompts and then share them with the team?"
+        ],
+        [
+          "Eddy Lin",
+          "Yes, let's finalize the list of prompts and share them with the team! I think it would be great to get everyone's input on it too. Maybe we can set up a quick meeting to discuss everything further?"
+        ],
+        [
+          "Ryan Park",
+          "That sounds like a plan, Eddy! How about we schedule a meeting for tomorrow to go over the prompts and any other ideas we have? Then we can finalize everything before our meeting with Arthur."
+        ],
+        [
+          "Eddy Lin",
+          "Tomorrow works for me! What time do you think would be best for the meeting? I want to make sure we have enough time to cover everything before we meet with Arthur."
+        ],
+        [
+          "Ryan Park",
+          "How about we meet at 2 PM tomorrow? That should give us plenty of time to discuss the prompts and any other ideas we want to include before our meeting with Arthur at 4 PM. Does that work for you?"
+        ],
+        [
+          "Eddy Lin",
+          "2 PM sounds perfect! I'll make sure to have all our ideas ready for the meeting. Looking forward to finalizing everything with you before we meet with Arthur."
+        ],
+        [
+          "Ryan Park",
+          "Great! I'll send out a calendar invite for our meeting at 2 PM. Let's make sure we cover all our ideas so we can present a solid plan to Arthur. I'm excited to see how everything comes together!"
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Ryan! I appreciate you taking the lead on the calendar invite. I\u2019ll start gathering more ideas and examples to share during our meeting. See you at 2 PM!"
+        ],
+        [
+          "Ryan Park",
+          "Sounds good, Eddy! I'm looking forward to seeing what you come up with. Let's make this Valentine's Day party an unforgettable experience for everyone!"
+        ],
+        [
+          "Eddy Lin",
+          "Awesome! I'll brainstorm some more ideas and maybe look into some tech options we can incorporate. If you think of anything else before our meeting, just let me know! See you tomorrow!"
+        ],
+        [
+          "Ryan Park",
+          "Definitely, Eddy! I\u2019ll keep thinking about tech options too. If we can find a way to integrate some interactive elements, it could really enhance the experience. Let's touch base tomorrow at 2 PM and make sure we're both on the same page before the meeting with Arthur!"
+        ]
+      ]
+    },
+    "Isabella Rodriguez": {
+      "movement": [
+        78,
+        21
+      ],
+      "pronunciatio": "\ud83d\udeaa\u2615",
+      "description": "closing Hobbs Cafe for the day and preparing to wind down after a busy day @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null
+    },
+    "Giorgio Rossi": {
+      "movement": [
+        87,
+        21
+      ],
+      "pronunciatio": "\ud83d\udd0d\ud83d\udcf0",
+      "description": "continuing to browse news articles about the election and potential candidates (searching for articles about potential candidates) @ the Ville:Giorgio Rossi's apartment:main room:desk",
+      "chat": null
+    },
+    "Carlos Gomez": {
+      "movement": [
+        94,
+        28
+      ],
+      "pronunciatio": "\ud83c\udfa8\ud83c\udfa4",
+      "description": "relaxing with some reading or watching TV (conversing about how Adam Smith and Carlos Gomez can integrate local artists and musicians into Ayesha's Valentine's Day party, focusing on engaging activities like a poetry wall, art supplies, a local artist's talk, and promoting the event on social media.) @ the Ville:Carlos Gomez's apartment:main room:desk",
+      "chat": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        75,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller and Sam Moore discussing plans for a Valentine's Day party that involves local artists and includes discussions on gentrification. @ <persona> Sam Moore",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hey Sam! I was just at the library finishing up my research paper on gentrification. How's everything going with your Valentine's Day party planning? Have you thought about any ideas for involving local artists yet?"
+        ],
+        [
+          "Sam Moore",
+          "Hi Klaus! It's going well, thanks for asking. I'm really excited about incorporating some local artists into the Valentine's Day party. I was thinking of having a collaborative mural and maybe some interactive art activities. Do you have any suggestions or know any artists who might be interested in participating?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds amazing! I know a few local artists who might be interested. I can reach out to them and see if they\u2019d like to collaborate. Also, have you thought about how you might integrate some discussions on gentrification into the event? It could be a great way to tie in community issues."
+        ],
+        [
+          "Sam Moore",
+          "That's a great idea, Klaus! Integrating discussions on gentrification could really spark some important conversations. Maybe we could have a dedicated section for that during the party? I'd love to hear your thoughts on how we could structure it."
+        ],
+        [
+          "Klaus Mueller",
+          "I think we could have a panel discussion featuring some local community leaders and artists to share their perspectives on gentrification. We could also include some interactive elements, like a Q&A session or a workshop where attendees can share their experiences. What do you think about that?"
+        ],
+        [
+          "Sam Moore",
+          "I love that idea, Klaus! A panel discussion with local leaders and artists would really elevate the event. We could also promote it on social media to draw more attention. Let\u2019s brainstorm some potential speakers and work on the logistics together. I appreciate your help with reaching out to the artists too. This is shaping up to be a fantastic event!"
+        ],
+        [
+          "Klaus Mueller",
+          "Absolutely, I can start reaching out to some artists today. For potential speakers, I think we should consider inviting some local activists who have experience with gentrification, maybe someone from a community organization. Do you have anyone specific in mind?"
+        ],
+        [
+          "Sam Moore",
+          "That's a great suggestion, Klaus! I know of a few local activists who have been really vocal about gentrification. I can reach out to Carmen for her recommendations, and maybe we can also look into connecting with some representatives from community organizations. Let\u2019s compile a list of potential speakers and meet again to finalize everything. Sound good?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds like a solid plan, Sam! I can start reaching out to the artists right away and keep you updated. Let's aim to meet later this week to finalize our list of speakers and any other ideas we come up with. I'm really looking forward to this event!"
+        ],
+        [
+          "Sam Moore",
+          "That sounds perfect, Klaus! I appreciate your enthusiasm and help with this. Let\u2019s touch base later this week to finalize everything. In the meantime, if you come across any artists or speakers, feel free to share their details with me. Looking forward to collaborating on this!"
+        ],
+        [
+          "Klaus Mueller",
+          "Great! I\u2019ll keep my eyes peeled for any local artists and speakers. Also, if you need any help with the logistics or promoting the event, just let me know. I\u2019m here to help!"
+        ],
+        [
+          "Sam Moore",
+          "Thanks, Klaus! I\u2019ll definitely reach out to Carmen and see who she recommends. Let\u2019s aim to meet on Wednesday to discuss everything in detail. I\u2019ll bring my notes on community engagement too. It's going to be a great event!"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, Sam! I\u2019ll see you on Wednesday. I\u2019m excited to see what Carmen suggests and to finalize our plans. Let\u2019s make this event impactful!"
+        ],
+        [
+          "Sam Moore",
+          "Absolutely, Klaus! I'm excited to see what we come up with. If you have any other ideas or questions before our meeting, just shoot me a message. Have a great day!"
+        ]
+      ]
+    },
+    "Maria Lopez": {
+      "movement": [
+        75,
+        31
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f\ud83d\ude0b",
+      "description": "having dinner at Hobbs Cafe (eating her main course) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null
+    },
+    "Ayesha Khan": {
+      "movement": [
+        122,
+        24
+      ],
+      "pronunciatio": "\ud83d\udca1\ud83d\udcdd",
+      "description": "continuing to study for her thesis at the library (brainstorming ideas for her thesis structure) @ the Ville:Oak Hill College:library:library table",
+      "chat": null
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        55,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Abigail Chen and Wolfgang Schulz discussing Wolfgang's upcoming pizza night, including toppings, side dishes, drinks, games, music, and decorations, while also touching on Abigail's animation project. @ <persona> Abigail Chen",
+      "chat": [
+        [
+          "Abigail Chen",
+          "Hey Wolfgang! I just overheard you talking about your pizza night with Maria. It sounds like a lot of fun! What toppings are you planning to use?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Hey Abigail! I'm really excited about it! I'm thinking of bringing some classic toppings like pepperoni and mushrooms, but I also want to try something adventurous like arugula or goat cheese after baking. What do you think? Do you have any favorite pizza toppings?"
+        ],
+        [
+          "Abigail Chen",
+          "Those toppings sound delicious! I love the idea of arugula on pizza; it adds such a fresh flavor. Have you thought about any side dishes or drinks to go with it?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "I was thinking of making a simple salad on the side, maybe with some vinaigrette to complement the pizza. As for drinks, I might go with some craft sodas or a light beer. What do you think? Any suggestions?"
+        ],
+        [
+          "Abigail Chen",
+          "Those sound like great options! A simple salad will definitely balance out the flavors of the pizza. I love craft sodas too\u2014maybe you could try pairing a fruity one with the goat cheese? By the way, have you thought about any games or activities to keep everyone entertained during the pizza night?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "That's a great idea! I was thinking of maybe playing some board games or card games. Something fun and interactive. Do you have any favorites that you think would work well for a group?"
+        ],
+        [
+          "Abigail Chen",
+          "I think board games are perfect for a pizza night! I really enjoy games like Codenames or Sushi Go\u2014they're easy to learn and always a hit with groups. Have you played either of those? Also, if you need any more ideas for activities, I can help brainstorm!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "I haven't played Codenames, but I've heard great things about it! Sushi Go sounds fun too\u2014I love how quick and interactive it is. I'll definitely consider those! Thanks for the suggestions! If you want, you could join us for the pizza night; it would be great to have you there."
+        ],
+        [
+          "Abigail Chen",
+          "That sounds awesome! I'd love to join you guys for the pizza night! Just let me know the date and time. If you need any help with the preparations, feel free to reach out!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "Great! I'm planning for Saturday at 3 PM. I'll definitely keep you in the loop if I need help with anything. I'm really looking forward to it!"
+        ],
+        [
+          "Abigail Chen",
+          "Perfect! Saturday at 3 PM it is! I can't wait to try your pizza creations. By the way, have you thought about any specific music or playlist for the night? It could really set the vibe!"
+        ],
+        [
+          "Wolfgang Schulz",
+          "I haven't thought about the music yet! I was considering some upbeat playlists, maybe some indie or pop music to keep the energy up. What kind of music do you enjoy? Any recommendations for a good playlist?"
+        ],
+        [
+          "Abigail Chen",
+          "I love indie and pop music! Maybe a mix of some classic hits and newer tracks would be great. I can send you a couple of playlist suggestions if you'd like! It could really help create that fun atmosphere you're going for. Also, are you planning any special decorations for the night?"
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds like a great idea! I'd love to see your playlist suggestions. As for decorations, I was thinking of keeping it simple with some string lights and maybe a fun table setting. What do you think? Any decoration ideas you have in mind?"
+        ],
+        [
+          "Abigail Chen",
+          "I love the idea of string lights; they always create such a cozy atmosphere! Maybe you could add some colorful tablecloths or themed napkins to match the vibe of the night? I can help you pick those out if you want! And I'll send you those playlist suggestions when I get home."
+        ],
+        [
+          "Wolfgang Schulz",
+          "That sounds perfect, Abigail! Colorful tablecloths and themed napkins will definitely add to the atmosphere. I appreciate your help with picking those out! I\u2019m looking forward to your playlist suggestions too. It\u2019s going to be a great night! By the way, how's your animation project going? I remember you mentioning something about it."
+        ]
+      ]
+    },
+    "Mei Lin": {
+      "movement": [
+        91,
+        69
+      ],
+      "pronunciatio": "\ud83c\udfe0\ud83d\udc68\u200d",
+      "description": "spending quality time with her family (spending time with her family in the living room) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null
+    },
+    "John Lin": {
+      "movement": [
+        88,
+        69
+      ],
+      "pronunciatio": "\ud83d\uddf3\ufe0f\ud83d\udde3",
+      "description": "spending time with his wife and son (discussing the upcoming mayoral election with Mei) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null
+    },
+    "Eddy Lin": {
+      "movement": [
+        76,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Eddy Lin and Ryan Park discussing ideas for incorporating technology and user-generated content into the Valentine's Day party, including prompts for attendees to share their stories and photos. @ <persona> Ryan Park",
+      "chat": [
+        [
+          "Eddy Lin",
+          "Hey Ryan, I was just thinking about the Valentine's Day party we're planning. Have you had any new ideas about incorporating technology for community engagement? I'd love to hear your thoughts!"
+        ],
+        [
+          "Ryan Park",
+          "Hey Eddy! I've been thinking about how we can integrate user-generated content into the app for the Valentine's Day party. Maybe we could create a feature where attendees can share their own stories or photos from the event in real-time. What do you think about that?"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds like a fantastic idea, Ryan! It would really enhance the sense of community and make everyone feel more involved. We could even display some of those stories or photos on a screen during the party. Do you think we should brainstorm some prompts for the attendees to share?"
+        ],
+        [
+          "Ryan Park",
+          "That's a great idea, Eddy! We could encourage attendees to share their favorite memories or what love means to them. It could really bring a personal touch to the event. Let's brainstorm some specific prompts together!"
+        ],
+        [
+          "Eddy Lin",
+          "Absolutely! Here are a few ideas: 'Share your favorite love song and why it means so much to you,' or 'Tell us about a memorable Valentine's Day experience you've had.' What do you think? Any other prompts you want to add?"
+        ],
+        [
+          "Ryan Park",
+          "Those are great prompts, Eddy! I also thought we could add one like, 'What\u2019s a unique way you\u2019ve celebrated love in your life?' This could spark some really interesting stories. Do you think we should finalize a list of prompts and then share them with the team?"
+        ],
+        [
+          "Eddy Lin",
+          "Yes, let's finalize the list of prompts and share them with the team! I think it would be great to get everyone's input on it too. Maybe we can set up a quick meeting to discuss everything further?"
+        ],
+        [
+          "Ryan Park",
+          "That sounds like a plan, Eddy! How about we schedule a meeting for tomorrow to go over the prompts and any other ideas we have? Then we can finalize everything before our meeting with Arthur."
+        ],
+        [
+          "Eddy Lin",
+          "Tomorrow works for me! What time do you think would be best for the meeting? I want to make sure we have enough time to cover everything before we meet with Arthur."
+        ],
+        [
+          "Ryan Park",
+          "How about we meet at 2 PM tomorrow? That should give us plenty of time to discuss the prompts and any other ideas we want to include before our meeting with Arthur at 4 PM. Does that work for you?"
+        ],
+        [
+          "Eddy Lin",
+          "2 PM sounds perfect! I'll make sure to have all our ideas ready for the meeting. Looking forward to finalizing everything with you before we meet with Arthur."
+        ],
+        [
+          "Ryan Park",
+          "Great! I'll send out a calendar invite for our meeting at 2 PM. Let's make sure we cover all our ideas so we can present a solid plan to Arthur. I'm excited to see how everything comes together!"
+        ],
+        [
+          "Eddy Lin",
+          "Thanks, Ryan! I appreciate you taking the lead on the calendar invite. I\u2019ll start gathering more ideas and examples to share during our meeting. See you at 2 PM!"
+        ],
+        [
+          "Ryan Park",
+          "Sounds good, Eddy! I'm looking forward to seeing what you come up with. Let's make this Valentine's Day party an unforgettable experience for everyone!"
+        ],
+        [
+          "Eddy Lin",
+          "Awesome! I'll brainstorm some more ideas and maybe look into some tech options we can incorporate. If you think of anything else before our meeting, just let me know! See you tomorrow!"
+        ],
+        [
+          "Ryan Park",
+          "Definitely, Eddy! I\u2019ll keep thinking about tech options too. If we can find a way to integrate some interactive elements, it could really enhance the experience. Let's touch base tomorrow at 2 PM and make sure we're both on the same page before the meeting with Arthur!"
+        ]
+      ]
+    },
+    "Tom Moreno": {
+      "movement": [
+        83,
+        36
+      ],
+      "pronunciatio": "\ud83d\udcac\u2764\ufe0f",
+      "description": "closing The Willow Market and Pharmacy for the day (conversing about Maria Lopez and Tom Moreno discussing the planning and decoration ideas for the upcoming Valentine's Day party at The Willow Market, including local flavors in cocktails and incorporating quotes about love and community.) @ the Ville:The Willows Market and Pharmacy:store:grocery store counter",
+      "chat": null
+    },
+    "Jane Moreno": {
+      "movement": [
+        73,
+        69
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f\u2705",
+      "description": "sitting down for dinner with her family (finishing her meal) @ the Ville:Moreno family's house:common room:common room table",
+      "chat": null
+    },
+    "Tamara Taylor": {
+      "movement": [
+        57,
+        66
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f\ud83d\udc68",
+      "description": "having dinner with her housemate, Carmen Ortiz (plating the food) @ the Ville:Tamara Taylor and Carmen Ortiz's house:kitchen:cooking area",
+      "chat": null
+    },
+    "Carmen Ortiz": {
+      "movement": [
+        55,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Carmen Ortiz and Arthur Burton discussing plans for an upcoming community day event to support local artists, businesses, and musicians, coinciding with Jennifer Moore's exhibition. @ <persona> Arthur Burton",
+      "chat": [
+        [
+          "Carmen Ortiz",
+          "Hey Arthur! I just came from the store, and I\u2019m really excited about Jennifer Moore\u2019s upcoming exhibition. Have you heard about it? I think it\u2019s a great way to highlight community stories and support local businesses. What do you think?"
+        ],
+        [
+          "Arthur Burton",
+          "Absolutely, Carmen! I'm really looking forward to Jennifer's exhibition as well. It\u2019s such a meaningful way to bring our community together. I think it could inspire some great conversations and connections. Are you planning to attend the opening?"
+        ],
+        [
+          "Carmen Ortiz",
+          "Yes, I definitely plan to attend! I'm also working on organizing a community day event at the park where Jennifer can showcase her artwork. I\u2019d love to hear your thoughts on how we can make it engaging for everyone. What do you think?"
+        ],
+        [
+          "Arthur Burton",
+          "That sounds like a wonderful idea, Carmen! We could incorporate some interactive elements, maybe even have local artists share their stories alongside Jennifer\u2019s work. It would be great to have some activities for kids too, to get families involved. What kind of ideas do you have in mind for the event?"
+        ],
+        [
+          "Carmen Ortiz",
+          "I love the idea of having local artists share their stories! For activities, I was thinking about setting up a mini art station for kids where they can create their own artwork inspired by Jennifer's pieces. We could also have a small stage for local musicians to perform, which would really add to the vibe. What do you think?"
+        ],
+        [
+          "Arthur Burton",
+          "That sounds fantastic, Carmen! A mini art station for kids would definitely spark creativity, and live music would add such a lively atmosphere. We could also consider having some local food vendors to provide snacks and drinks. It's all about making it a community celebration, right? Do you have any specific musicians in mind?"
+        ],
+        [
+          "Carmen Ortiz",
+          "I think having local food vendors is a great idea! As for musicians, I was considering reaching out to a couple of local bands that have played at the pub before. They always bring a great energy! Do you have any recommendations for musicians we could invite?"
+        ],
+        [
+          "Arthur Burton",
+          "I think reaching out to those local bands is a great idea! They always get the crowd going. I can also suggest a couple of solo artists I know who would fit the vibe perfectly. We should definitely make sure to create a lineup that\u2019s diverse and engaging. Let's brainstorm together! Any other activities you think would be fun for the community day?"
+        ],
+        [
+          "Carmen Ortiz",
+          "I love the idea of having a diverse lineup! We could also set up some booths for local businesses to showcase their products. It would be a great way to support them while giving the community a chance to discover what we have locally. What do you think about that?"
+        ],
+        [
+          "Arthur Burton",
+          "I think setting up booths for local businesses is a brilliant idea, Carmen! It\u2019ll not only support them but also encourage community members to shop local. We could even have a raffle or giveaway featuring items from these businesses to entice people to stop by. Do you have any specific businesses in mind that you want to invite?"
+        ],
+        [
+          "Carmen Ortiz",
+          "That\u2019s a great idea! I was thinking of inviting some of the local artisans and craft shops from the area. They always have unique products that could attract people. Maybe we could also include some of the food trucks that set up during the farmer's market. What do you think?"
+        ],
+        [
+          "Arthur Burton",
+          "I think inviting local artisans and food trucks is a fantastic idea! It\u2019ll really showcase the variety we have in our community. Let\u2019s make a list of businesses we want to reach out to and see who\u2019s available. I\u2019m excited about this community day event, Carmen! It\u2019s going to be a great way to bring everyone together. Do you want to set up a time to meet and discuss our plans further?"
+        ],
+        [
+          "Carmen Ortiz",
+          "Absolutely, Arthur! I\u2019d love to set up a time to meet and dive deeper into our plans. How about we grab coffee later this week? I can bring a list of businesses I have in mind, and we can brainstorm more ideas together."
+        ],
+        [
+          "Arthur Burton",
+          "That sounds perfect, Carmen! How about Wednesday morning? We can meet at that new coffee shop down the street. I'm looking forward to seeing your list and brainstorming more ideas together!"
+        ],
+        [
+          "Carmen Ortiz",
+          "Wednesday morning works for me! I\u2019ll see you at the coffee shop then. I\u2019m really looking forward to it and can\u2019t wait to see what we come up with together! Thanks for your input, Arthur!"
+        ],
+        [
+          "Arthur Burton",
+          "Great! I\u2019ll see you Wednesday morning at the coffee shop. Let\u2019s make this community day event something special for everyone!"
+        ]
+      ]
+    },
+    "Sam Moore": {
+      "movement": [
+        75,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Klaus Mueller and Sam Moore discussing plans for a Valentine's Day party that involves local artists and includes discussions on gentrification. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Klaus Mueller",
+          "Hey Sam! I was just at the library finishing up my research paper on gentrification. How's everything going with your Valentine's Day party planning? Have you thought about any ideas for involving local artists yet?"
+        ],
+        [
+          "Sam Moore",
+          "Hi Klaus! It's going well, thanks for asking. I'm really excited about incorporating some local artists into the Valentine's Day party. I was thinking of having a collaborative mural and maybe some interactive art activities. Do you have any suggestions or know any artists who might be interested in participating?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds amazing! I know a few local artists who might be interested. I can reach out to them and see if they\u2019d like to collaborate. Also, have you thought about how you might integrate some discussions on gentrification into the event? It could be a great way to tie in community issues."
+        ],
+        [
+          "Sam Moore",
+          "That's a great idea, Klaus! Integrating discussions on gentrification could really spark some important conversations. Maybe we could have a dedicated section for that during the party? I'd love to hear your thoughts on how we could structure it."
+        ],
+        [
+          "Klaus Mueller",
+          "I think we could have a panel discussion featuring some local community leaders and artists to share their perspectives on gentrification. We could also include some interactive elements, like a Q&A session or a workshop where attendees can share their experiences. What do you think about that?"
+        ],
+        [
+          "Sam Moore",
+          "I love that idea, Klaus! A panel discussion with local leaders and artists would really elevate the event. We could also promote it on social media to draw more attention. Let\u2019s brainstorm some potential speakers and work on the logistics together. I appreciate your help with reaching out to the artists too. This is shaping up to be a fantastic event!"
+        ],
+        [
+          "Klaus Mueller",
+          "Absolutely, I can start reaching out to some artists today. For potential speakers, I think we should consider inviting some local activists who have experience with gentrification, maybe someone from a community organization. Do you have anyone specific in mind?"
+        ],
+        [
+          "Sam Moore",
+          "That's a great suggestion, Klaus! I know of a few local activists who have been really vocal about gentrification. I can reach out to Carmen for her recommendations, and maybe we can also look into connecting with some representatives from community organizations. Let\u2019s compile a list of potential speakers and meet again to finalize everything. Sound good?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds like a solid plan, Sam! I can start reaching out to the artists right away and keep you updated. Let's aim to meet later this week to finalize our list of speakers and any other ideas we come up with. I'm really looking forward to this event!"
+        ],
+        [
+          "Sam Moore",
+          "That sounds perfect, Klaus! I appreciate your enthusiasm and help with this. Let\u2019s touch base later this week to finalize everything. In the meantime, if you come across any artists or speakers, feel free to share their details with me. Looking forward to collaborating on this!"
+        ],
+        [
+          "Klaus Mueller",
+          "Great! I\u2019ll keep my eyes peeled for any local artists and speakers. Also, if you need any help with the logistics or promoting the event, just let me know. I\u2019m here to help!"
+        ],
+        [
+          "Sam Moore",
+          "Thanks, Klaus! I\u2019ll definitely reach out to Carmen and see who she recommends. Let\u2019s aim to meet on Wednesday to discuss everything in detail. I\u2019ll bring my notes on community engagement too. It's going to be a great event!"
+        ],
+        [
+          "Klaus Mueller",
+          "Sounds good, Sam! I\u2019ll see you on Wednesday. I\u2019m excited to see what Carmen suggests and to finalize our plans. Let\u2019s make this event impactful!"
+        ],
+        [
+          "Sam Moore",
+          "Absolutely, Klaus! I'm excited to see what we come up with. If you have any other ideas or questions before our meeting, just shoot me a message. Have a great day!"
+        ]
+      ]
+    },
+    "Jennifer Moore": {
+      "movement": [
+        44,
+        53
+      ],
+      "pronunciatio": "\ud83c\udfa8\u2728",
+      "description": "continuing to work on her watercolor paintings for her upcoming exhibition (mixing colors on her palette) @ the Ville:Moore family's house:main room:desk",
+      "chat": null
+    },
+    "Yuriko Yamamoto": {
+      "movement": [
+        29,
+        65
+      ],
+      "pronunciatio": "\ud83d\udcd6\ud83d\ude0a",
+      "description": "continuing to relax and unwind after dinner, possibly reading or watching a show (returning to her book or show and continuing to enjoy it) @ the Ville:Yuriko Yamamoto's house:main room:bed",
+      "chat": null
+    },
+    "Adam Smith": {
+      "movement": [
+        28,
+        43
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Rajiv Patel and Adam Smith discussing ideas for integrating interactive elements into Rajiv's upcoming show, including a feedback wall, art creation stations, promotion strategies, and collaboration with local schools. @ <persona> Rajiv Patel",
+      "chat": [
+        [
+          "Rajiv Patel",
+          "Hey Adam, I was just thinking about our last conversation regarding the workshops with local schools. I really like the idea of integrating interactive elements into my upcoming show. What do you think about me including a space where attendees can leave their thoughts on community and creativity?"
+        ],
+        [
+          "Adam Smith",
+          "I think that's a fantastic idea, Rajiv! Creating a space for attendees to share their thoughts would not only engage the community but also spark meaningful conversations about creativity. We could even think about incorporating some prompts to guide their reflections. Have you considered how you might want to display their contributions?"
+        ],
+        [
+          "Rajiv Patel",
+          "That's a great suggestion! I was thinking of using a large canvas or a chalkboard where people can write or draw their thoughts. It could really add a visual element to the show. What do you think?"
+        ],
+        [
+          "Adam Smith",
+          "I love that idea! A large canvas or chalkboard would definitely create an interactive focal point for the show. You could even encourage people to come back and add to it throughout the event. Have you thought about how you'll promote this interactive element to attract more attendees?"
+        ],
+        [
+          "Rajiv Patel",
+          "I haven't thought too much about the promotion yet, but I was considering using social media to highlight the interactive aspects of the show. Maybe we could create some teaser posts or even a video showing the setup process. What do you think would work best?"
+        ],
+        [
+          "Adam Smith",
+          "I think social media is a great way to promote the interactive elements! Teaser posts could definitely create excitement. You might also consider reaching out to local influencers or community groups to share the event. A short video showcasing the setup could really give people a taste of what to expect and encourage them to participate. Have you thought about any specific hashtags or messages to use for the campaign?"
+        ],
+        [
+          "Rajiv Patel",
+          "That's a solid idea! I think using hashtags like #CommunityCreativity and #ArtInAction could work well to engage people. I\u2019ll also brainstorm some messages that capture the essence of the show. I really appreciate your input, Adam! Is there anything else you think I should consider as I finalize these plans?"
+        ],
+        [
+          "Adam Smith",
+          "I'm glad to help, Rajiv! One more thing to consider is perhaps collaborating with local schools for some live demonstrations during the show. It could be a great way to get students involved and showcase their creativity in real-time. What do you think?"
+        ],
+        [
+          "Rajiv Patel",
+          "I love that idea! Collaborating with local schools for live demonstrations would definitely bring a vibrant energy to the show and engage the students in a meaningful way. I can reach out to some schools and see if they would be interested. Thank you for all these great suggestions, Adam! I'm feeling more excited about the show now. Do you have any other thoughts or ideas?"
+        ],
+        [
+          "Adam Smith",
+          "I'm thrilled to hear that you're feeling excited about the show! One last thought\u2014have you considered setting up a feedback mechanism after the event? Gathering insights from attendees could help you improve future shows and continue fostering community engagement. I'd love to hear your thoughts on that."
+        ],
+        [
+          "Rajiv Patel",
+          "That's a great idea, Adam! I hadn't thought about collecting feedback after the event. I could set up a simple survey or feedback box for attendees to share their thoughts. It would be really helpful for planning future shows. Thanks again for all your insights! I'm looking forward to making this show a success. Is there anything else you think I should keep in mind?"
+        ],
+        [
+          "Adam Smith",
+          "I'm glad to hear you're considering feedback! It could really enhance your future projects. Also, don't forget to keep the dialogue going with attendees during the event itself. Maybe you could have a few discussion prompts prepared to guide conversations. That could create a really engaging atmosphere. Is there anything specific you're still unsure about?"
+        ],
+        [
+          "Rajiv Patel",
+          "That's a fantastic idea, Adam! I will definitely prepare some discussion prompts to encourage engagement during the event. I'm also thinking about how to balance the interactive elements with the overall flow of the show\u2014do you have any tips on that?"
+        ],
+        [
+          "Adam Smith",
+          "To balance the interactive elements with the flow of the show, I recommend setting specific times for interactive activities, while also allowing for free movement throughout the space. You could create a schedule that highlights when certain activities or discussions will take place, which can help attendees plan their experience. Additionally, make sure there's a clear path for people to navigate between interactive stations and the main displays. This way, everyone can enjoy the art while still participating in the activities. Do you have any specific activities in mind that you want to highlight?"
+        ],
+        [
+          "Rajiv Patel",
+          "I appreciate those tips, Adam! I was thinking of having a few art creation stations where attendees can try their hand at painting or drawing, along with the feedback wall we discussed. I want to make sure there's enough space for everything and that it feels welcoming. What do you think about that idea?"
+        ],
+        [
+          "Adam Smith",
+          "I think having art creation stations is a wonderful addition, Rajiv! It will provide attendees with a hands-on experience and allow them to express their creativity. Just make sure there's enough room for people to move around comfortably, and consider having some guidance or materials ready for those who might feel a bit shy about starting. Have you thought about what types of art supplies you\u2019ll provide?"
+        ]
+      ]
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 19:01:50"
+  }
+}

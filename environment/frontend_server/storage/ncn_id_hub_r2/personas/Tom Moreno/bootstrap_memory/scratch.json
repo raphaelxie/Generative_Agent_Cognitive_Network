@@ -1,0 +1,447 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 17:09:50",
+  "curr_tile": [
+    59,
+    25
+  ],
+  "daily_plan_req": "Tom Moreno opens The Willow Market and Pharmacy at 8am, stands behind the grocery counter, and goes home afterwards to eat dinner with his wife.",
+  "name": "Tom Moreno",
+  "first_name": "Tom",
+  "last_name": "Moreno",
+  "age": 52,
+  "innate": "rude, aggressive, energetic",
+  "learned": "Tom Moreno is a grocery shop keeper at The Willow Market and Pharmacy who loves interacting with customers. He is always willing to help out and make sure everyone is taken care of.",
+  "currently": "Tom Moreno is living with his wife, Jane Moreno, and is managing the day to day operations at the store and helping out customers with their orders. Tom is also really interested in the local mayor election that is coming up next month. You don't like Sam Moore.",
+  "lifestyle": "Tom Moreno goes to bed around 11pm, awakes up around 7am, eats dinner around 5pm.",
+  "living_area": "the Ville:Moreno family's house:Tom and Jane Moreno's bedroom",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 209,
+  "importance_ele_n": 11,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 7:00 am",
+    "open The Willow Market and Pharmacy at 8:00 am",
+    "stand behind the grocery counter and assist customers until lunch at around 12:00 pm",
+    "take a 30-minute break for lunch from 12:00 pm to 12:30 pm",
+    "continue helping customers and managing the store operations until 5:00 pm",
+    "close the store at 5:00 pm and head home",
+    "have dinner with his wife Jane around 5:15 pm",
+    "discuss the upcoming local mayor election and share thoughts about Sam Moore"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "opening The Willow Market and Pharmacy",
+      60
+    ],
+    [
+      "assisting customers at The Willow Market and Pharmacy (on the way to assisting a customer with finding a specific product)",
+      0
+    ],
+    [
+      "assisting customers at The Willow Market and Pharmacy (conversing about Jane and Tom discussing their busy schedules, concerns about the mayoral election and local businesses, and planning to attend a town hall meeting together.)",
+      14
+    ],
+    [
+      "assisting customers at The Willow Market and Pharmacy (ringing up a customer's groceries at the register)",
+      10
+    ],
+    [
+      "assisting customers at The Willow Market and Pharmacy (on the way to answering a customer's question about store policies)",
+      0
+    ],
+    [
+      "assisting customers at The Willow Market and Pharmacy (conversing about Tom Moreno and Adam Smith discussing their opinions on mayoral candidates, particularly focusing on Sam Moore's disconnect with local businesses and the promising initiatives of Maria Lopez to support small businesses.)",
+      17
+    ],
+    [
+      "assisting customers at The Willow Market and Pharmacy (on the way to restocking shelves with popular items)",
+      0
+    ],
+    [
+      "assisting customers at The Willow Market and Pharmacy (conversing about Ryan Park and Tom Moreno discussing Maria Lopez's initiatives to support local businesses in the upcoming mayoral election, focusing on the potential impact of workshops and community engagement.)",
+      21
+    ],
+    [
+      "assisting customers at The Willow Market and Pharmacy (helping a customer carry their bags to their car)",
+      10
+    ],
+    [
+      "assisting customers at The Willow Market and Pharmacy (on the way to assisting a customer with a return)",
+      0
+    ],
+    [
+      "assisting customers at The Willow Market and Pharmacy (conversing about John Lin and Tom Moreno discussing Maria Lopez's initiatives to support local businesses and their potential impact, as well as the types of workshops that may be offered, their goals for attending, and the importance of networking with other business owners.)",
+      17
+    ],
+    [
+      "assisting customers at The Willow Market and Pharmacy (checking inventory for a customer who wants a specific item)",
+      10
+    ],
+    [
+      "assisting customers at The Willow Market and Pharmacy (on the way to providing recommendations for products to a customer)",
+      0
+    ],
+    [
+      "assisting customers at The Willow Market and Pharmacy (conversing about Arthur Burton and Tom Moreno discussing collaboration on cocktails incorporating local flavors for an upcoming workshop hosted by Maria Lopez.)",
+      18
+    ],
+    [
+      "assisting customers at The Willow Market and Pharmacy (taking a quick break to grab a drink of water)",
+      5
+    ],
+    [
+      "assisting customers at The Willow Market and Pharmacy (helping a customer with a coupon issue)",
+      10
+    ],
+    [
+      "assisting customers at The Willow Market and Pharmacy (assisting a customer with a large order)",
+      20
+    ],
+    [
+      "assisting customers at The Willow Market and Pharmacy (cleaning the checkout area)",
+      10
+    ],
+    [
+      "assisting customers at The Willow Market and Pharmacy (answering a phone call from a customer inquiring about store hours)",
+      5
+    ],
+    [
+      "assisting customers at The Willow Market and Pharmacy (helping a customer find a product in the pharmacy section)",
+      15
+    ],
+    [
+      "assisting customers at The Willow Market and Pharmacy (on the way to processing a payment for a customer)",
+      0
+    ],
+    [
+      "assisting customers at The Willow Market and Pharmacy (conversing about Isabella Rodriguez and Tom Moreno discussing party preparations for a Valentine's Day event, including decorations, colorful flowers, snacks, and drinks.)",
+      15
+    ],
+    [
+      "assisting customers at The Willow Market and Pharmacy (assisting a customer with a loyalty program sign-up)",
+      10
+    ],
+    [
+      "assisting customers at The Willow Market and Pharmacy (checking the expiration dates on products)",
+      15
+    ],
+    [
+      "assisting customers at The Willow Market and Pharmacy (on the way to helping a customer with a special request for a product)",
+      0
+    ],
+    [
+      "assisting customers at The Willow Market and Pharmacy (conversing about Mei Lin and Tom Moreno discussing preparations for the Valentine's Day event at The Willow Market, including decoration ideas and themes.)",
+      14
+    ],
+    [
+      "assisting customers at The Willow Market and Pharmacy (on the way to discussing a product promotion with a customer)",
+      5
+    ],
+    [
+      "assisting customers at The Willow Market and Pharmacy (conversing about Ayesha Khan and Tom Moreno discussing Ayesha's party planning, incorporating the Fibonacci sequence into decorations and an art station, while sharing ideas and quotes related to nature and creativity.)",
+      16
+    ],
+    [
+      "assisting customers at The Willow Market and Pharmacy (wrapping up with a customer and thanking them for their visit)",
+      5
+    ],
+    [
+      "assisting customers at The Willow Market and Pharmacy (preparing for the next customer by getting ready at the register)",
+      5
+    ],
+    [
+      "discussing the upcoming local mayor election with Jane and sharing his thoughts about Sam Moore",
+      48
+    ],
+    [
+      "continuing to assist customers at The Willow Market and Pharmacy (assisting a customer with finding a specific product)",
+      15
+    ],
+    [
+      "continuing to assist customers at The Willow Market and Pharmacy (on the way to restocking shelves with popular items)",
+      0
+    ],
+    [
+      "continuing to assist customers at The Willow Market and Pharmacy (conversing about Tom and Jane Moreno discussing plans for their Valentine's Day party, including decorations, activities, and ideas for incorporating local themes and the Fibonacci sequence.)",
+      14
+    ],
+    [
+      "continuing to assist customers at The Willow Market and Pharmacy (checking out a customer at the register)",
+      10
+    ],
+    [
+      "continuing to assist customers at The Willow Market and Pharmacy (answering a customer's question about store policies)",
+      5
+    ],
+    [
+      "continuing to assist customers at The Willow Market and Pharmacy (helping another customer locate a product in the pharmacy section)",
+      15
+    ],
+    [
+      "continuing to assist customers at The Willow Market and Pharmacy (taking a quick break to grab a drink of water)",
+      5
+    ],
+    [
+      "continuing to assist customers at The Willow Market and Pharmacy (assisting a customer with a return)",
+      10
+    ],
+    [
+      "continuing to assist customers at The Willow Market and Pharmacy (organizing the checkout area to ensure it is tidy)",
+      10
+    ],
+    [
+      "continuing to assist customers at The Willow Market and Pharmacy (helping a customer with a large order)",
+      20
+    ],
+    [
+      "continuing to assist customers at The Willow Market and Pharmacy (on the way to checking inventory levels for popular items)",
+      0
+    ],
+    [
+      "continuing to assist customers at The Willow Market and Pharmacy (conversing about Tom Moreno and Yuriko Yamamoto discussing their research on mayoral candidates' policies and their potential impact on local businesses, as well as planning to engage with candidates and attend workshops.)",
+      21
+    ],
+    [
+      "continuing to assist customers at The Willow Market and Pharmacy (assisting a customer with a loyalty program inquiry)",
+      10
+    ],
+    [
+      "continuing to assist customers at The Willow Market and Pharmacy (on the way to preparing a special order for a customer)",
+      0
+    ],
+    [
+      "continuing to assist customers at The Willow Market and Pharmacy (conversing about Arthur Burton and Tom Moreno discussing ideas for local flavor cocktails for Maria's workshop, including ingredients, names, presentation, and community connections.)",
+      17
+    ],
+    [
+      "continuing to assist customers at The Willow Market and Pharmacy (on the way to helping a customer find a gift item)",
+      0
+    ],
+    [
+      "continuing to assist customers at The Willow Market and Pharmacy (conversing about Francisco Lopez and Tom Moreno discussing collaboration ideas for a web series featuring local business stories and unique cocktails inspired by their community.)",
+      13
+    ],
+    [
+      "continuing to assist customers at The Willow Market and Pharmacy (assisting a customer with a payment issue)",
+      4
+    ],
+    [
+      "continuing to assist customers at The Willow Market and Pharmacy (on the way to tidying up the store before closing)",
+      0
+    ],
+    [
+      "continuing to assist customers at The Willow Market and Pharmacy (conversing about Tom Moreno and Ryan Park discussing a community app project, focusing on involving local businesses and artists through workshops, planning timelines, marketing strategies, and feedback mechanisms to enhance engagement and collaboration.)",
+      20
+    ],
+    [
+      "closing The Willow Market and Pharmacy for the day (checking the inventory for any remaining items)",
+      15
+    ],
+    [
+      "closing The Willow Market and Pharmacy for the day (counting the cash register to ensure all transactions are accurate)",
+      15
+    ],
+    [
+      "closing The Willow Market and Pharmacy for the day (cleaning the grocery counter and surrounding areas)",
+      10
+    ],
+    [
+      "closing The Willow Market and Pharmacy for the day (restocking any items that need to be replenished for the next day)",
+      10
+    ],
+    [
+      "closing The Willow Market and Pharmacy for the day (turning off the lights in the store)",
+      5
+    ],
+    [
+      "closing The Willow Market and Pharmacy for the day (locking the doors and securing the store)",
+      5
+    ],
+    [
+      "having dinner with his wife Jane",
+      45
+    ],
+    [
+      "discussing the upcoming local mayor election with Jane and sharing his thoughts about Sam Moore",
+      120
+    ],
+    [
+      "continuing to discuss the upcoming local mayor election with Jane and sharing his thoughts about Sam Moore",
+      120
+    ],
+    [
+      "sleeping",
+      60
+    ],
+    [
+      "sleeping",
+      1
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      420
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "opening The Willow Market and Pharmacy",
+      60
+    ],
+    [
+      "assisting customers at The Willow Market and Pharmacy",
+      240
+    ],
+    [
+      "discussing the upcoming local mayor election with Jane and sharing his thoughts about Sam Moore",
+      60
+    ],
+    [
+      "continuing to assist customers at The Willow Market and Pharmacy",
+      180
+    ],
+    [
+      "closing The Willow Market and Pharmacy for the day",
+      60
+    ],
+    [
+      "having dinner with his wife Jane",
+      60
+    ],
+    [
+      "discussing the upcoming local mayor election with Jane and sharing his thoughts about Sam Moore",
+      120
+    ],
+    [
+      "continuing to discuss the upcoming local mayor election with Jane and sharing his thoughts about Sam Moore",
+      120
+    ],
+    [
+      "sleeping",
+      60
+    ]
+  ],
+  "act_address": "<persona> Ryan Park",
+  "act_start_time": "February 13, 2023, 17:00:50",
+  "act_duration": 20,
+  "act_description": "conversing about Tom Moreno and Ryan Park discussing a community app project, focusing on involving local businesses and artists through workshops, planning timelines, marketing strategies, and feedback mechanisms to enhance engagement and collaboration.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Tom Moreno",
+    "chat with",
+    "Ryan Park"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Ryan Park",
+  "chat": [
+    [
+      "Tom Moreno",
+      "Hey Ryan! I couldn't help but overhear you talking about that app project. It sounds like a great way to engage the community. How do you think we can involve more local businesses in that initiative?"
+    ],
+    [
+      "Ryan Park",
+      "Thanks, Tom! I think one effective way to involve local businesses is to host a series of workshops that focus on their needs and how they can utilize the app to enhance their outreach. We could also feature their stories and experiences within the app to create a sense of community. What do you think?"
+    ],
+    [
+      "Tom Moreno",
+      "I love that idea! Highlighting local business stories could really personalize the app and make it more relatable. We should definitely brainstorm some potential topics and businesses to feature. Maybe we can even include some incentives for businesses that participate, like discounts or promotions."
+    ],
+    [
+      "Ryan Park",
+      "Absolutely! Incentives could really motivate businesses to get involved. We could also consider reaching out to local artists and storytellers to contribute content. It would add a creative touch and make the app even more engaging. What do you think about setting a timeline for our next steps?"
+    ],
+    [
+      "Tom Moreno",
+      "I think setting a timeline would be a great idea! How about we aim to have a draft plan ready by the end of the month? That way, we can start reaching out to businesses and artists right after the mayoral election. I can also gather some feedback from other local shopkeepers to see what they would find most valuable in the app."
+    ],
+    [
+      "Ryan Park",
+      "That sounds perfect, Tom! I'll start drafting some potential workshop topics and ideas for local artists to contribute. Once we have that plan in place, we can discuss it further and make adjustments based on the feedback you gather. Let's aim for a productive meeting next week!"
+    ],
+    [
+      "Tom Moreno",
+      "Great! I'm looking forward to seeing what you come up with. Let's touch base early next week to review our ideas. Also, do you think we should invite any other local business owners to join us in this planning phase? It could be helpful to get more perspectives."
+    ],
+    [
+      "Ryan Park",
+      "That's a great idea, Tom! Inviting other local business owners could provide valuable insights and help us tailor the workshops to their needs. I can reach out to a few I know and see if they\u2019re interested in participating. Let's make sure we have a diverse group to get a well-rounded perspective."
+    ],
+    [
+      "Tom Moreno",
+      "Sounds like a plan, Ryan! I\u2019ll reach out to some of my contacts as well. Let\u2019s aim to finalize our guest list by the end of the week so we can hit the ground running. I\u2019m excited about this collaboration!"
+    ],
+    [
+      "Ryan Park",
+      "Perfect! Once we have our guest list finalized, we can set a date for the first planning meeting. I\u2019ll also start drafting some workshop outlines and share them with you for feedback before we meet. Let\u2019s keep the momentum going!"
+    ],
+    [
+      "Tom Moreno",
+      "That's a great idea, Ryan! Once we finalize the guest list and workshop outlines, we can also think about how to promote these workshops to the community. I want to make sure we get a good turnout and really make an impact. Let's brainstorm some marketing strategies as well when we meet."
+    ],
+    [
+      "Ryan Park",
+      "Absolutely, Tom! We can strategize on marketing during our next meeting. I think social media could be a powerful tool for outreach, and we might also consider partnering with local influencers to help spread the word. I'll compile some ideas on that as well. Looking forward to our collaboration!"
+    ],
+    [
+      "Tom Moreno",
+      "Great, Ryan! I think partnering with local influencers could really amplify our reach. Let's also think about how we can incorporate feedback from the community after the workshops to keep improving. I'm excited to see what we can come up with together!"
+    ],
+    [
+      "Ryan Park",
+      "That's a great point, Tom! Gathering community feedback will be essential for the app's success. We can set up a survey or feedback form after the workshops to ensure we're meeting their needs. Let\u2019s also think about how we can adapt based on that feedback in future workshops. I'm really looking forward to seeing this project take shape!"
+    ],
+    [
+      "Tom Moreno",
+      "Absolutely, Ryan! I think setting up a feedback mechanism is crucial for our long-term success. Let's also ensure we have a clear way to communicate the outcomes and learnings from each workshop to the community. By keeping everyone in the loop, we can build trust and encourage more participation in future initiatives. I'm really optimistic about this project!"
+    ],
+    [
+      "Ryan Park",
+      "Absolutely, Tom! Communicating our progress will be key to maintaining engagement. I\u2019ll start drafting some ideas for how we can present the outcomes effectively. Do you have any thoughts on the best platforms we should use for updates?"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Jane Moreno": -124,
+    "Adam Smith": -1948,
+    "Ryan Park": 800,
+    "John Lin": -1624,
+    "Arthur Burton": 620,
+    "Isabella Rodriguez": -976,
+    "Mei Lin": -808,
+    "Ayesha Khan": -622,
+    "Yuriko Yamamoto": 464,
+    "Francisco Lopez": 740
+  },
+  "chatting_end_time": "February 13, 2023, 17:21:00",
+  "act_path_set": true,
+  "planned_path": []
+}

@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
     31,
-    59
+    61
   ],
   "daily_plan_req": "",
   "name": "Yuriko Yamamoto",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 152,
-  "importance_ele_n": 42,
+  "importance_trigger_curr": 34,
+  "importance_ele_n": 79,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 8:00 am",
@@ -183,20 +183,32 @@
       10
     ],
     [
-      "preparing and having dinner (preparing ingredients for dinner)",
-      15
+      "preparing and having dinner (on the way to preparing ingredients for dinner)",
+      0
+    ],
+    [
+      "preparing and having dinner (conversing about Yuriko Yamamoto and Adam Smith discussing creativity's role in community development, exploring candidates' initiatives, and planning to collaborate on a proposal to engage local artists and businesses.)",
+      23
     ],
     [
       "preparing and having dinner (chopping vegetables)",
       15
     ],
     [
-      "preparing and having dinner (marinating the protein)",
-      10
+      "preparing and having dinner (on the way to marinating the protein)",
+      0
     ],
     [
-      "preparing and having dinner (cooking the protein)",
-      20
+      "preparing and having dinner (conversing about Isabella Rodriguez and Yuriko Yamamoto discussing creative ideas and preparations for a Valentine's Day party, focusing on a poetry corner to engage the community with prompts and materials, while also considering the event layout and refreshments.)",
+      21
+    ],
+    [
+      "preparing and having dinner (on the way to cooking the protein)",
+      0
+    ],
+    [
+      "preparing and having dinner (conversing about Ayesha Khan and Yuriko Yamamoto discussing ideas for a Valentine's Day poetry corner, including themes, prompts, cozy setups, music, social media promotion, and a contest for the best poem.)",
+      18
     ],
     [
       "preparing and having dinner (boiling pasta/rice)",
@@ -207,20 +219,100 @@
       15
     ],
     [
-      "preparing and having dinner (setting the table)",
+      "preparing and having dinner (on the way to setting the table)",
+      0
+    ],
+    [
+      "preparing and having dinner (conversing about Jennifer Moore and Yuriko Yamamoto discussing Jennifer's upcoming Valentine's Day exhibition and collaborating on a tasting station that blends food and art inspired by her watercolor paintings.)",
+      18
+    ],
+    [
+      "preparing and having dinner (on the way to plating the food)",
+      0
+    ],
+    [
+      "preparing and having dinner (on the way to conversing about Yuriko Yamamoto and Carlos Gomez discussing their Valentine's Day plans, including the creation of a cocktail called 'Fibonacci Bliss,' a poetry contest, and how to enhance the party atmosphere with themed refreshments and cozy setups for poetry readings.)",
       10
     ],
     [
-      "preparing and having dinner (plating the food)",
-      10
+      "preparing and having dinner (conversing about Arthur Burton and Yuriko Yamamoto discussing plans for a Valentine's Day party, focusing on the cocktail 'Fibonacci Bliss,' its unique ingredients and presentation, food pairings, event promotion strategies, and the potential inclusion of a local poet for entertainment.)",
+      24
     ],
     [
       "preparing and having dinner (sitting down to eat dinner)",
+      2
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (settling into her favorite spot on the couch)",
+      5
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (selecting a book to read or a show to watch)",
       10
     ],
     [
-      "continuing to relax and unwind after dinner, possibly reading or watching a show",
-      240
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (reading the first chapter of her book)",
+      15
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (taking a short break to stretch)",
+      5
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (continuing to read her book)",
+      20
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (making a cup of tea to enjoy while reading)",
+      10
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (sipping her tea and getting comfortable again)",
+      5
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (reading another chapter of her book)",
+      20
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (pausing to reflect on what she just read)",
+      5
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (deciding to switch to watching a show)",
+      5
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (browsing through her streaming service for a show)",
+      10
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (selecting a show and starting the first episode)",
+      5
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (watching the show and enjoying the storyline)",
+      30
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (taking a moment to pause and grab a snack)",
+      5
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (returning to the couch with her snack)",
+      5
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (continuing to watch the show)",
+      30
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (reflecting on the episode and discussing it with herself)",
+      5
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (watching the next episode of the show)",
+      31
     ],
     [
       "sleeping",
@@ -229,6 +321,10 @@
     [
       "sleeping",
       14
+    ],
+    [
+      "sleeping",
+      2
     ]
   ],
   "f_daily_schedule_hourly_org": [
@@ -273,27 +369,33 @@
       60
     ]
   ],
-  "act_address": "the Ville:Yuriko Yamamoto's house:main room:desk",
-  "act_start_time": "February 13, 2023, 16:19:00",
-  "act_duration": 10,
-  "act_description": "conducting research on local mayoral candidates (taking notes on key points from each candidate's platform)",
-  "act_pronunciatio": "\ud83d\udcdd\ud83d\uddf3\ufe0f",
+  "act_address": "the Ville:Yuriko Yamamoto's house:main room:cooking area",
+  "act_start_time": "February 13, 2023, 19:23:00",
+  "act_duration": 24,
+  "act_description": "preparing and having dinner (conversing about Arthur Burton and Yuriko Yamamoto discussing plans for a Valentine's Day party, focusing on the cocktail 'Fibonacci Bliss,' its unique ingredients and presentation, food pairings, event promotion strategies, and the potential inclusion of a local poet for entertainment.)",
+  "act_pronunciatio": "\ud83d\udcac\ud83c\udf79",
   "act_event": [
     "Yuriko Yamamoto",
-    "take",
-    "notes"
+    "converse",
+    "plans for a Valentine's Day party"
   ],
-  "act_obj_description": "cluttered with notes and materials related to the research",
-  "act_obj_pronunciatio": "\ud83d\udcdd\ud83d\udcda",
+  "act_obj_description": "in use",
+  "act_obj_pronunciatio": "\ud83d\udd04\u2699\ufe0f",
   "act_obj_event": [
-    "desk",
-    "be",
-    "cluttered with notes and materials related to the research"
+    "cooking area",
+    "is",
+    "in use"
   ],
   "chatting_with": null,
   "chat": null,
   "chatting_with_buffer": {
-    "Carmen Ortiz": 8
+    "Carmen Ortiz": -1192,
+    "Adam Smith": -124,
+    "Isabella Rodriguez": 80,
+    "Ayesha Khan": 188,
+    "Jennifer Moore": 428,
+    "Carlos Gomez": 548,
+    "Arthur Burton": 698
   },
   "chatting_end_time": null,
   "act_path_set": true,

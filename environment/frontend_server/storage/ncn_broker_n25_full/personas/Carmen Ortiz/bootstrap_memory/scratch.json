@@ -2,9 +2,9 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    57,
+    61,
     25
   ],
   "daily_plan_req": "Carmen opens Harvey Oak Supply Store at 8am, stands behind its counter, and closes it at 6pm, at which point, she likes to go to The Rose and Crown Pub to relax",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 167,
-  "importance_ele_n": 25,
+  "importance_trigger_curr": 250,
+  "importance_ele_n": 0,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 8:00 am",
@@ -183,8 +183,12 @@
       15
     ],
     [
-      "continuing to assist customers and manage the store (cleaning the counter area)",
-      10
+      "continuing to assist customers and manage the store (on the way to cleaning the counter area)",
+      0
+    ],
+    [
+      "continuing to assist customers and manage the store (conversing about Carmen Ortiz and Jennifer Moore discussing ideas for a Valentine's Day party at the store, including incorporating local businesses, poetry, watercolor designs, interactive elements, and social media promotion.)",
+      16
     ],
     [
       "continuing to assist customers and manage the store (checking the store\u2019s social media for customer inquiries)",
@@ -204,27 +208,67 @@
     ],
     [
       "continuing to assist customers and manage the store (counting the cash in the register)",
-      4
-    ],
-    [
-      "continuing to assist customers and manage the store (heading to The Rose and Crown Pub for some relaxation)",
-      5
+      3
     ],
     [
       "closing the store and heading to The Rose and Crown Pub for some relaxation",
       44
     ],
     [
-      "relaxing at The Rose and Crown Pub",
-      60
+      "relaxing at The Rose and Crown Pub (on the way to on the way to on the way to ordering a drink)",
+      0
+    ],
+    [
+      "relaxing at The Rose and Crown Pub (conversing about Carmen Ortiz and Arthur Burton discussing unique cocktail ideas inspired by the Fibonacci sequence for a Valentine's Day event, incorporating local ingredients, poetry readings by local poets Mia Chen and Marco Sanchez, and strategies for promoting the event on social media.)",
+      19
+    ],
+    [
+      "relaxing at The Rose and Crown Pub (conversing about Carlos Gomez and Carmen Ortiz collaborating on decorations and ideas for a Valentine's Day party, including a cocktail called 'Fibonacci Bliss' and incorporating poetry elements.)",
+      11
+    ],
+    [
+      "relaxing at The Rose and Crown Pub (on the way to conversing about Rajiv Patel and Carmen Ortiz collaborating on planning a Valentine's Day party, discussing cocktail ideas, decorations, interactive elements, and promotional strategies.)",
+      0
+    ],
+    [
+      "relaxing at The Rose and Crown Pub (conversing about Carmen Ortiz and Francisco Lopez discussing ideas for an interactive Valentine's Day event, including a poetry wall, open mic session, and collaborative designs, while also planning to promote the event through social media.)",
+      18
+    ],
+    [
+      "relaxing at The Rose and Crown Pub (finding a comfortable spot to sit)",
+      5
+    ],
+    [
+      "relaxing at The Rose and Crown Pub (checking her phone for messages)",
+      5
+    ],
+    [
+      "relaxing at The Rose and Crown Pub (looking at the menu for food options)",
+      5
+    ],
+    [
+      "relaxing at The Rose and Crown Pub (placing an order for food)",
+      5
+    ],
+    [
+      "relaxing at The Rose and Crown Pub (chatting with the bartender)",
+      5
+    ],
+    [
+      "relaxing at The Rose and Crown Pub (enjoying her drink while people-watching)",
+      6
+    ],
+    [
+      "relaxing at The Rose and Crown Pub (finishing her drink and preparing to leave)",
+      5
     ],
     [
       "preparing dinner",
-      60
+      39
     ],
     [
       "enjoying dinner and unwinding",
-      60
+      57
     ],
     [
       "working on expanding her shop online",
@@ -282,44 +326,36 @@
     ]
   ],
   "act_address": "the Ville:The Rose and Crown Pub:pub:microphone",
-  "act_start_time": "February 13, 2023, 16:14:00",
-  "act_duration": 21,
-  "act_description": "continuing to assist customers and manage the store (conversing about Carmen Ortiz and Adam Smith discussing creative ideas and strategies for a Valentine's Day party, including engaging activities and local artist collaborations to attract customers.)",
-  "act_pronunciatio": "\u2764\ufe0f\ud83c\udfa8",
+  "act_start_time": "February 13, 2023, 19:32:00",
+  "act_duration": 18,
+  "act_description": "relaxing at The Rose and Crown Pub (conversing about Carmen Ortiz and Francisco Lopez discussing ideas for an interactive Valentine's Day event, including a poetry wall, open mic session, and collaborative designs, while also planning to promote the event through social media.)",
+  "act_pronunciatio": "\ud83d\udcac\u2764\ufe0f",
   "act_event": [
     "Carmen Ortiz",
     "converse",
-    "creative ideas and strategies for a Valentine's Day party"
+    "ideas for an interactive Valentine's Day event"
   ],
-  "act_obj_description": "being used",
-  "act_obj_pronunciatio": "\ud83d\udee0\ufe0f\ud83d\udc64",
+  "act_obj_description": "in use",
+  "act_obj_pronunciatio": "\ud83d\udd04\ud83d\udc41\ufe0f",
   "act_obj_event": [
     "microphone",
     "is",
-    "use"
+    "in use"
   ],
   "chatting_with": null,
   "chat": null,
   "chatting_with_buffer": {
-    "Tamara Taylor": -2074,
-    "Yuriko Yamamoto": 8,
-    "Jane Moreno": 500,
-    "Adam Smith": 764
+    "Tamara Taylor": -3274,
+    "Yuriko Yamamoto": -1192,
+    "Jane Moreno": -700,
+    "Adam Smith": -436,
+    "Jennifer Moore": -262,
+    "Rajiv Patel": 326,
+    "Carlos Gomez": 422,
+    "Arthur Burton": 554,
+    "Francisco Lopez": 752
   },
   "chatting_end_time": null,
   "act_path_set": true,
-  "planned_path": [
-    [
-      59,
-      25
-    ],
-    [
-      60,
-      25
-    ],
-    [
-      61,
-      25
-    ]
-  ]
+  "planned_path": []
 }

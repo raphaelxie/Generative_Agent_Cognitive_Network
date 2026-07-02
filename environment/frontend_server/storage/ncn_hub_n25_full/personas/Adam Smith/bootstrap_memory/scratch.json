@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    78,
-    49
+    57,
+    56
   ],
   "daily_plan_req": "",
   "name": "Adam Smith",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 129,
-  "importance_ele_n": 43,
+  "importance_trigger_curr": 183,
+  "importance_ele_n": 24,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 8:00 am",
@@ -242,24 +242,84 @@
       20
     ],
     [
-      "continuing to work on his book, focusing on how creativity can enhance personal growth and self-expression",
-      49
+      "continuing to work on his book, focusing on how creativity can enhance personal growth and self-expression (on the way to continuing to work on his book, focusing on how creativity can enhance personal growth and self-expressio)",
+      0
     ],
     [
-      "continuing to work on his book, focusing on how creativity can enhance collaboration and teamwork",
-      60
+      "continuing to work on his book, focusing on how creativity can enhance personal growth and self-expression (conversing about Klaus Mueller and Adam Smith discussing how to integrate local artists into community events to enhance creativity and engagement while addressing social issues, and planning a workshop to gather community feedback and involve local businesses.)",
+      23
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can enhance collaboration and teamwork (on the way to continuing to outline the chapter on collaboration and teamwork)",
+      0
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can enhance collaboration and teamwork (conversing about Adam Smith and Giorgio Rossi discussing the upcoming mayor election, potential candidates, and how to creatively incorporate community engagement and art initiatives into their 'Fibonacci Fizz' cocktail promotion for Valentine's Day.)",
+      28
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can enhance collaboration and teamwork (on the way to researching examples of successful collaborative projects)",
+      0
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can enhance collaboration and teamwork (conversing about Arthur Burton and Adam Smith discussing plans for a cocktail tasting event featuring local flavors, including ideas for recipes, community engagement, music, social media promotion, interactive elements, and event organization details.)",
+      21
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can enhance collaboration and teamwork (taking notes on key points from his research)",
+      10
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can enhance collaboration and teamwork (drafting the introduction for the chapter)",
+      15
     ],
     [
       "continuing to work on his book, focusing on how creativity can be applied in everyday life and personal experiences",
-      60
+      46
     ],
     [
-      "continuing to work on his book, focusing on how creativity can influence personal relationships and social interactions",
-      60
+      "continuing to work on his book, focusing on how creativity can influence personal relationships and social interactions (on the way to 1) Adam is reviewing his previous notes on creativity and relationships)",
+      0
     ],
     [
-      "continuing to work on his book, focusing on how creativity can enhance personal relationships and social interactions",
-      60
+      "continuing to work on his book, focusing on how creativity can influence personal relationships and social interactions (conversing about Rajiv Patel and Adam Smith discussing Rajiv's upcoming art show that incorporates interactive elements centered around community and connection, while also exploring how Adam's book on creativity and collaboration can relate to those themes.)",
+      18
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can influence personal relationships and social interactions (brainstorming key concepts related to creativity in personal relationships)",
+      15
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can influence personal relationships and social interactions (outlining the section on how creativity can enhance communication in relationships)",
+      10
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can influence personal relationships and social interactions (writing the first draft of the section on creativity and communication)",
+      15
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can influence personal relationships and social interactions (taking a short break to reflect on his writing)",
+      2
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can enhance personal relationships and social interactions (brainstorming ideas on how creativity influences personal relationships)",
+      15
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can enhance personal relationships and social interactions (outlining key points to include in the chapter)",
+      10
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can enhance personal relationships and social interactions (writing the introduction for the chapter)",
+      10
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can enhance personal relationships and social interactions (researching examples of creativity in relationships)",
+      15
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can enhance personal relationships and social interactions (writing a section on the impact of creative expression on communication)",
+      10
     ],
     [
       "continuing to work on his book, focusing on how creativity can influence personal development and self-improvement",
@@ -268,6 +328,14 @@
     [
       "sleeping",
       1
+    ],
+    [
+      "sleeping",
+      30
+    ],
+    [
+      "sleeping",
+      26
     ]
   ],
   "f_daily_schedule_hourly_org": [
@@ -336,103 +404,229 @@
       120
     ]
   ],
-  "act_address": "<persona> Tom Moreno",
-  "act_start_time": "February 13, 2023, 16:06:30",
-  "act_duration": 20,
-  "act_description": "conversing about Tom Moreno and Adam Smith discussing plans for a community event to promote Maria Lopez's initiatives and support local businesses while fostering creativity and collaboration.",
-  "act_pronunciatio": "\ud83d\udcac",
+  "act_address": "the Ville:Adam Smith's house:main room:desk",
+  "act_start_time": "February 13, 2023, 19:37:00",
+  "act_duration": 10,
+  "act_description": "continuing to work on his book, focusing on how creativity can influence personal relationships and social interactions (outlining the section on how creativity can enhance communication in relationships)",
+  "act_pronunciatio": "\ud83d\udcdd\ud83d\udcac",
   "act_event": [
     "Adam Smith",
-    "chat with",
-    "Tom Moreno"
+    "outline",
+    "section on how creativity can enhance communication in relationships"
   ],
-  "act_obj_description": null,
-  "act_obj_pronunciatio": null,
+  "act_obj_description": "currently cluttered with books, papers, and a laptop",
+  "act_obj_pronunciatio": "\ud83d\udcda\ud83d\udcbb",
   "act_obj_event": [
-    null,
-    null,
-    null
+    "desk",
+    "desk",
+    "is"
   ],
-  "chatting_with": "Tom Moreno",
-  "chat": [
-    [
-      "Tom Moreno",
-      "Hey Adam, I heard you were working on your book about creativity in problem-solving. That sounds interesting! Have you found any new techniques that you think would resonate with local business owners? By the way, have you been following the mayoral race? I think Maria Lopez might have some great initiatives for us small businesses."
-    ],
-    [
-      "Adam Smith",
-      "Thanks, Tom! I've been exploring techniques like brainstorming sessions that incorporate visual storytelling\u2014it's a great way to engage people and foster creativity. I definitely think Maria Lopez's initiatives could provide valuable support for our local businesses, especially with the workshops she's proposing. What do you think about how those could impact our community?"
-    ],
-    [
-      "Tom Moreno",
-      "I think the workshops could really help us connect with other business owners and share best practices. Plus, having someone like Maria advocating for us could make a big difference. Have you thought about collaborating with her campaign on any events?"
-    ],
-    [
-      "Adam Smith",
-      "I haven't thought about collaborating just yet, but that's a great idea! I believe combining our efforts could amplify our message and engage the community even more. Maybe we could organize an event that highlights her initiatives while also showcasing local businesses and their creativity. What do you think?"
-    ],
-    [
-      "Tom Moreno",
-      "I love that idea! We could host a community day at The Willow Market where local businesses can set up booths, share their stories, and participate in some of the workshops Maria is offering. It could really bring everyone together and show the strength of our community. Let's brainstorm some details!"
-    ],
-    [
-      "Adam Smith",
-      "That sounds fantastic, Tom! We could even include some interactive art installations to make it more engaging. Maybe we can reach out to local artists to contribute as well. Let's set a time to brainstorm further and outline our ideas for the event!"
-    ],
-    [
-      "Tom Moreno",
-      "Absolutely! How about we meet later this week to start fleshing out the details? We can also think about who else we might want to involve, like Sarah from the bakery for her insights. I think collaboration is key here."
-    ],
-    [
-      "Adam Smith",
-      "That sounds great, Tom! Let's aim for Wednesday afternoon if that works for you. We can draft a plan and see who else we can bring on board. I\u2019ll also do some research on local artists who might be interested in participating. Collaboration will definitely strengthen our efforts! Looking forward to it!"
-    ],
-    [
-      "Tom Moreno",
-      "Sounds perfect! I\u2019ll make sure to gather some ideas from other local business owners before we meet. It\u2019ll be great to have everyone's input. I'm excited to see how this all comes together!"
-    ],
-    [
-      "Adam Smith",
-      "Great! I\u2019ll also reach out to some of the artists I have in mind to see if they\u2019re interested in getting involved. It would be amazing to have their creativity featured at the event. Let\u2019s touch base on Wednesday and bring all our ideas together. I'm really looking forward to this collaboration!"
-    ],
-    [
-      "Tom Moreno",
-      "Awesome! I\u2019ll also gather some articles about Maria Lopez's initiatives to share with you. Let\u2019s make this event not just fun, but also informative for everyone involved. See you Wednesday!"
-    ],
-    [
-      "Adam Smith",
-      "That sounds like a solid plan, Tom! I'm looking forward to seeing what you gather. And if you come across any specific challenges that local business owners are facing, let\u2019s make sure to address those during the event as well. I think it\u2019s important we create a space for open dialogue. See you soon!"
-    ],
-    [
-      "Tom Moreno",
-      "Absolutely, Adam! I\u2019ll make sure to bring up any challenges the local business owners mention. It\u2019s crucial we create a supportive environment where everyone feels heard. Let\u2019s also think about how we can promote the event to get a good turnout. I\u2019m sure the community will be eager to join in! See you Wednesday!"
-    ],
-    [
-      "Adam Smith",
-      "Absolutely, Tom! Promoting the event will be key. Perhaps we could utilize social media and local newsletters to spread the word. I can draft a message highlighting what the event will offer and the importance of community involvement. Let's ensure we reach as many people as possible!"
-    ],
-    [
-      "Tom Moreno",
-      "That sounds like a great plan, Adam! I\u2019ll start gathering some ideas and feedback from other business owners about what they\u2019d like to see at the event. I think we could also include some local success stories to inspire others. Let\u2019s make sure to bring this community together in a meaningful way. Looking forward to our meeting on Wednesday!"
-    ],
-    [
-      "Adam Smith",
-      "That\u2019s a great idea, Tom! Including local success stories could really motivate and inspire everyone attending. I\u2019ll also think about how we can showcase some of those stories during the event. Let\u2019s keep the momentum going and make this an impactful experience for the community!"
-    ]
-  ],
+  "chatting_with": null,
+  "chat": null,
   "chatting_with_buffer": {
-    "Tom Moreno": 800,
-    "Abigail Chen": -1414,
-    "Arthur Burton": -238,
-    "John Lin": -1168,
-    "Latoya Williams": -904,
-    "Sam Moore": -400,
-    "Giorgio Rossi": -34,
-    "Ryan Park": 158,
-    "Carlos Gomez": 410,
-    "Carmen Ortiz": 686
+    "Tom Moreno": -358,
+    "Abigail Chen": -2614,
+    "Arthur Burton": 140,
+    "John Lin": -2368,
+    "Latoya Williams": -2104,
+    "Sam Moore": -1600,
+    "Giorgio Rossi": 14,
+    "Ryan Park": -1042,
+    "Carlos Gomez": -790,
+    "Carmen Ortiz": -514,
+    "Klaus Mueller": -202,
+    "Rajiv Patel": 416
   },
-  "chatting_end_time": "February 13, 2023, 16:27:00",
+  "chatting_end_time": null,
   "act_path_set": true,
-  "planned_path": []
+  "planned_path": [
+    [
+      55,
+      56
+    ],
+    [
+      54,
+      56
+    ],
+    [
+      53,
+      56
+    ],
+    [
+      52,
+      56
+    ],
+    [
+      51,
+      56
+    ],
+    [
+      50,
+      56
+    ],
+    [
+      49,
+      56
+    ],
+    [
+      48,
+      56
+    ],
+    [
+      47,
+      56
+    ],
+    [
+      46,
+      56
+    ],
+    [
+      46,
+      55
+    ],
+    [
+      45,
+      55
+    ],
+    [
+      45,
+      54
+    ],
+    [
+      44,
+      54
+    ],
+    [
+      44,
+      53
+    ],
+    [
+      43,
+      53
+    ],
+    [
+      42,
+      53
+    ],
+    [
+      41,
+      53
+    ],
+    [
+      40,
+      53
+    ],
+    [
+      39,
+      53
+    ],
+    [
+      38,
+      53
+    ],
+    [
+      37,
+      53
+    ],
+    [
+      36,
+      53
+    ],
+    [
+      35,
+      53
+    ],
+    [
+      34,
+      53
+    ],
+    [
+      33,
+      53
+    ],
+    [
+      32,
+      53
+    ],
+    [
+      31,
+      53
+    ],
+    [
+      30,
+      53
+    ],
+    [
+      29,
+      53
+    ],
+    [
+      28,
+      53
+    ],
+    [
+      27,
+      53
+    ],
+    [
+      26,
+      53
+    ],
+    [
+      25,
+      53
+    ],
+    [
+      24,
+      53
+    ],
+    [
+      23,
+      53
+    ],
+    [
+      22,
+      53
+    ],
+    [
+      22,
+      54
+    ],
+    [
+      22,
+      55
+    ],
+    [
+      22,
+      56
+    ],
+    [
+      22,
+      57
+    ],
+    [
+      22,
+      58
+    ],
+    [
+      22,
+      59
+    ],
+    [
+      22,
+      60
+    ],
+    [
+      21,
+      60
+    ],
+    [
+      21,
+      61
+    ],
+    [
+      21,
+      62
+    ]
+  ]
 }

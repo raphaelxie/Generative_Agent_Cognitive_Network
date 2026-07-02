@@ -1,0 +1,414 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 17:09:50",
+  "curr_tile": [
+    73,
+    67
+  ],
+  "daily_plan_req": "",
+  "name": "Jane Moreno",
+  "first_name": "Jane",
+  "last_name": "Moreno",
+  "age": 46,
+  "innate": "friendly, helpful, organized",
+  "learned": "Jane Moreno is a housewife who loves to take care of her family. She is always looking for new ways to make life easier and more enjoyable for everyone.",
+  "currently": "Jane Moreno is living with her husband, Tom Moreno, who is a shop keeper at The Willow Market and Pharmacy.",
+  "lifestyle": "Jane Moreno goes to bed around 10pm, awakes up around 6am, eats dinner around 6pm.",
+  "living_area": "the Ville:Moreno family's house:Tom and Jane Moreno's bedroom",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 158,
+  "importance_ele_n": 40,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "prepare breakfast for her family at 8:30 am",
+    "spend some time helping her kids with their schoolwork from 9:00 am to 10:30 am",
+    "do household chores and organizing tasks from 10:30 am to 12:00 pm",
+    "have lunch at 12:00 pm",
+    "go grocery shopping for the week from 1:00 pm to 2:30 pm",
+    "prepare dinner ingredients and start cooking by 3:30 pm",
+    "sit down for dinner with her family at 6:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "helping her kids with their schoolwork (on the way to helping her youngest child with math homework)",
+      0
+    ],
+    [
+      "helping her kids with their schoolwork (conversing about Jane and Tom discussing their busy schedules, concerns about the mayoral election and local businesses, and planning to attend a town hall meeting together.)",
+      14
+    ],
+    [
+      "helping her kids with their schoolwork (reviewing her oldest child's science project)",
+      15
+    ],
+    [
+      "helping her kids with their schoolwork (assisting her youngest child with reading practice)",
+      10
+    ],
+    [
+      "helping her kids with their schoolwork (checking her oldest child's history assignment)",
+      10
+    ],
+    [
+      "helping her kids with their schoolwork (encouraging her kids to ask questions about their work)",
+      5
+    ],
+    [
+      "doing household chores and organizing tasks (doing laundry)",
+      15
+    ],
+    [
+      "doing household chores and organizing tasks (folding and putting away clean clothes)",
+      15
+    ],
+    [
+      "doing household chores and organizing tasks (cleaning the kitchen counters)",
+      10
+    ],
+    [
+      "doing household chores and organizing tasks (washing the dishes)",
+      10
+    ],
+    [
+      "doing household chores and organizing tasks (organizing the pantry)",
+      10
+    ],
+    [
+      "continuing household chores and organizing tasks (continuing to organize the living room)",
+      15
+    ],
+    [
+      "continuing household chores and organizing tasks (dusting the furniture in the living room)",
+      10
+    ],
+    [
+      "continuing household chores and organizing tasks (vacuuming the living room carpet)",
+      10
+    ],
+    [
+      "continuing household chores and organizing tasks (organizing the kids' toys in the play area)",
+      15
+    ],
+    [
+      "continuing household chores and organizing tasks (taking a short break to hydrate)",
+      5
+    ],
+    [
+      "continuing household chores and organizing tasks (putting away the cleaning supplies)",
+      5
+    ],
+    [
+      "having lunch with her family (preparing the lunch table)",
+      10
+    ],
+    [
+      "having lunch with her family (heating up the food)",
+      10
+    ],
+    [
+      "having lunch with her family (serving the food onto plates)",
+      10
+    ],
+    [
+      "having lunch with her family (calling her family to the table)",
+      5
+    ],
+    [
+      "having lunch with her family (sitting down to eat with her family)",
+      5
+    ],
+    [
+      "having lunch with her family (engaging in conversation with her family)",
+      10
+    ],
+    [
+      "having lunch with her family (helping her husband with his meal)",
+      5
+    ],
+    [
+      "having lunch with her family (clearing the table after lunch)",
+      5
+    ],
+    [
+      "grocery shopping for the week (creating a grocery list)",
+      10
+    ],
+    [
+      "grocery shopping for the week (on the way to checking the pantry and fridge for items needed)",
+      0
+    ],
+    [
+      "grocery shopping for the week (conversing about Jane Moreno and John Lin discussing their dinner plans, local mayoral candidates, and agreeing to meet at a caf\u00e9 to share insights after grocery shopping.)",
+      8
+    ],
+    [
+      "grocery shopping for the week (organizing the grocery list by store sections (produce, dairy, etc.))",
+      10
+    ],
+    [
+      "grocery shopping for the week (on the way to gathering reusable shopping bags)",
+      0
+    ],
+    [
+      "grocery shopping for the week (conversing about Klaus Mueller and Jane Moreno discussing dinner plans, community engagement events, and the possibility of hosting workshops on local social issues.)",
+      13
+    ],
+    [
+      "grocery shopping for the week (on the way to on the way to getting her wallet and keys ready)",
+      0
+    ],
+    [
+      "grocery shopping for the week (conversing about Mei Lin and Jane Moreno discussing their interest in community engagement events, specifically collaborating on workshops related to local social issues and ethics, while also planning to meet for a brainstorming session at their favorite caf\u00e9.)",
+      10
+    ],
+    [
+      "grocery shopping for the week (conversing about Giorgio Rossi and Jane Moreno discussing ideas for Valentine's Day decorations that incorporate mathematical patterns and local themes, and planning to meet on Wednesday at 5pm to brainstorm together.)",
+      6
+    ],
+    [
+      "grocery shopping for the week (driving to the grocery store)",
+      10
+    ],
+    [
+      "grocery shopping for the week (on the way to parking the car and gathering her bags)",
+      0
+    ],
+    [
+      "grocery shopping for the week (conversing about Jane Moreno and Eddy Lin discussing their collaborative plans for an interactive Valentine's Day party, including decorations, music themes, and brainstorming sessions.)",
+      17
+    ],
+    [
+      "grocery shopping for the week (entering the grocery store and grabbing a shopping cart)",
+      5
+    ],
+    [
+      "continuing grocery shopping for the week (checking her grocery list for items needed)",
+      5
+    ],
+    [
+      "continuing grocery shopping for the week (on the way to walking to the produce section)",
+      0
+    ],
+    [
+      "continuing grocery shopping for the week (conversing about Tom and Jane Moreno discussing plans for their Valentine's Day party, including decorations, activities, and ideas for incorporating local themes and the Fibonacci sequence.)",
+      14
+    ],
+    [
+      "continuing grocery shopping for the week (selecting fresh fruits)",
+      10
+    ],
+    [
+      "continuing grocery shopping for the week (selecting fresh vegetables)",
+      10
+    ],
+    [
+      "continuing grocery shopping for the week (walking to the dairy section)",
+      5
+    ],
+    [
+      "continuing grocery shopping for the week (picking up milk and cheese)",
+      2
+    ],
+    [
+      "preparing dinner ingredients and starting to cook",
+      52
+    ],
+    [
+      "continuing to prepare dinner and setting the table for her family",
+      51
+    ],
+    [
+      "sitting down for dinner with her family (setting the table)",
+      10
+    ],
+    [
+      "sitting down for dinner with her family (serving the main dish)",
+      10
+    ],
+    [
+      "sitting down for dinner with her family (serving the side dishes)",
+      10
+    ],
+    [
+      "sitting down for dinner with her family (pouring drinks for everyone)",
+      5
+    ],
+    [
+      "sitting down for dinner with her family (calling everyone to the table)",
+      5
+    ],
+    [
+      "sitting down for dinner with her family (sitting down at the table)",
+      5
+    ],
+    [
+      "sitting down for dinner with her family (saying a blessing or grace before the meal)",
+      5
+    ],
+    [
+      "sitting down for dinner with her family (starting to eat her meal)",
+      10
+    ],
+    [
+      "sitting down for dinner with her family (engaging in conversation with her family)",
+      20
+    ],
+    [
+      "sitting down for dinner with her family (asking everyone about their day)",
+      10
+    ],
+    [
+      "sitting down for dinner with her family (sharing stories or anecdotes)",
+      10
+    ],
+    [
+      "sitting down for dinner with her family (encouraging her family to try different dishes)",
+      5
+    ],
+    [
+      "sitting down for dinner with her family (checking in on her family's enjoyment of the meal)",
+      5
+    ],
+    [
+      "sitting down for dinner with her family (finishing her meal)",
+      10
+    ],
+    [
+      "relaxing and spending quality time with her family",
+      60
+    ],
+    [
+      "relaxing and enjoying her evening with her family",
+      120
+    ],
+    [
+      "relaxing and winding down for the night",
+      60
+    ],
+    [
+      "sleeping",
+      60
+    ],
+    [
+      "sleeping",
+      6
+    ],
+    [
+      "sleeping",
+      2
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "helping her kids with their schoolwork",
+      60
+    ],
+    [
+      "doing household chores and organizing tasks",
+      60
+    ],
+    [
+      "continuing household chores and organizing tasks",
+      60
+    ],
+    [
+      "having lunch with her family",
+      60
+    ],
+    [
+      "grocery shopping for the week",
+      60
+    ],
+    [
+      "continuing grocery shopping for the week",
+      60
+    ],
+    [
+      "preparing dinner ingredients and starting to cook",
+      60
+    ],
+    [
+      "continuing to prepare dinner and setting the table for her family",
+      60
+    ],
+    [
+      "sitting down for dinner with her family",
+      120
+    ],
+    [
+      "relaxing and spending quality time with her family",
+      60
+    ],
+    [
+      "relaxing and enjoying her evening with her family",
+      120
+    ],
+    [
+      "relaxing and winding down for the night",
+      60
+    ],
+    [
+      "sleeping",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Moreno family's house:common room:common room table",
+  "act_start_time": "February 13, 2023, 17:03:00",
+  "act_duration": 10,
+  "act_description": "sitting down for dinner with her family (serving the main dish)",
+  "act_pronunciatio": "\ud83c\udf7d\ufe0f\ud83d\udc69",
+  "act_event": [
+    "Jane Moreno",
+    "serve",
+    "main dish"
+  ],
+  "act_obj_description": "set for dinner with plates, utensils, and food arranged on it",
+  "act_obj_pronunciatio": "\ud83c\udf7d\ufe0f\ud83c\udf77",
+  "act_obj_event": [
+    "common room table",
+    "set",
+    "dinner"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Tom Moreno": -124,
+    "John Lin": -652,
+    "Klaus Mueller": -544,
+    "Giorgio Rossi": -502,
+    "Mei Lin": -442,
+    "Eddy Lin": -268
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

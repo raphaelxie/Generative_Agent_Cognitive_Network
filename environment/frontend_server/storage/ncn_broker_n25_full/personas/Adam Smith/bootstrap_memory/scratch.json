@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    84,
-    53
+    21,
+    62
   ],
   "daily_plan_req": "",
   "name": "Adam Smith",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 192,
-  "importance_ele_n": 21,
+  "importance_trigger_curr": 156,
+  "importance_ele_n": 35,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 8:00 am",
@@ -242,8 +242,12 @@
       15
     ],
     [
-      "continuing to work on his book, focusing on how creativity can drive social change and community development (writing the first section of the chapter)",
-      9
+      "continuing to work on his book, focusing on how creativity can drive social change and community development (on the way to writing the first section of the chapter)",
+      0
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can drive social change and community development (conversing about Yuriko Yamamoto and Adam Smith discussing creativity's role in community development, exploring candidates' initiatives, and planning to collaborate on a proposal to engage local artists and businesses.)",
+      23
     ],
     [
       "continuing to work on his book, focusing on how creativity can enhance personal growth and self-expression (1) Adam is reviewing his previous notes on personal growth and self-expression)",
@@ -259,19 +263,71 @@
     ],
     [
       "continuing to work on his book, focusing on how creativity can enhance personal growth and self-expression (writing the introduction for the chapter on personal growth and self-expression)",
-      25
+      11
     ],
     [
-      "continuing to work on his book, focusing on how creativity can enhance collaboration and teamwork",
-      60
+      "continuing to work on his book, focusing on how creativity can enhance collaboration and teamwork (1) Adam is reviewing his previous notes on collaboration and teamwork)",
+      10
     ],
     [
-      "continuing to work on his book, focusing on how creativity can be applied in everyday life and personal experiences",
-      60
+      "continuing to work on his book, focusing on how creativity can enhance collaboration and teamwork (researching examples of creative collaboration in various fields)",
+      15
     ],
     [
-      "continuing to work on his book, focusing on how creativity can influence personal relationships and social interactions",
-      60
+      "continuing to work on his book, focusing on how creativity can enhance collaboration and teamwork (outlining key points to include in the chapter)",
+      10
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can enhance collaboration and teamwork (writing the introduction for the chapter)",
+      10
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can enhance collaboration and teamwork (drafting sections on the benefits of creative collaboration)",
+      15
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can be applied in everyday life and personal experiences (continuing to outline the chapter on creativity in everyday life)",
+      15
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can be applied in everyday life and personal experiences (brainstorming examples of creativity in personal experiences)",
+      15
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can be applied in everyday life and personal experiences (writing the introduction for the chapter)",
+      10
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can be applied in everyday life and personal experiences (drafting sections on how creativity can enhance problem-solving in daily situations)",
+      15
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can be applied in everyday life and personal experiences (reviewing and editing the draft he just wrote)",
+      5
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can influence personal relationships and social interactions (1) Adam is reviewing his previous notes on creativity and relationships)",
+      10
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can influence personal relationships and social interactions (brainstorming key concepts related to creativity in personal relationships)",
+      10
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can influence personal relationships and social interactions (outlining the main sections for this chapter)",
+      10
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can influence personal relationships and social interactions (writing the introduction for the chapter)",
+      10
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can influence personal relationships and social interactions (drafting examples of creativity in personal relationships)",
+      10
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can influence personal relationships and social interactions (writing a section on how creativity can resolve conflicts in relationships)",
+      10
     ],
     [
       "continuing to work on his book, focusing on how creativity can enhance personal relationships and social interactions",
@@ -348,57 +404,37 @@
       120
     ]
   ],
-  "act_address": "the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
-  "act_start_time": "February 13, 2023, 16:14:00",
-  "act_duration": 21,
-  "act_description": "continuing to work on his book, focusing on how creativity can drive social change and community development (conversing about Carmen Ortiz and Adam Smith discussing creative ideas and strategies for a Valentine's Day party, including engaging activities and local artist collaborations to attract customers.)",
-  "act_pronunciatio": "\ud83d\udcac\u2764\ufe0f",
+  "act_address": "the Ville:Adam Smith's house:main room:desk",
+  "act_start_time": "February 13, 2023, 19:35:00",
+  "act_duration": 10,
+  "act_description": "continuing to work on his book, focusing on how creativity can be applied in everyday life and personal experiences (writing the introduction for the chapter)",
+  "act_pronunciatio": "\u270d\ufe0f\ud83d\udcd6",
   "act_event": [
     "Adam Smith",
-    "converse",
-    "creative ideas and strategies for a Valentine's Day party"
+    "write",
+    "introduction"
   ],
-  "act_obj_description": "busy with customers",
-  "act_obj_pronunciatio": "\ud83d\udc65\ud83d\udcbc",
+  "act_obj_description": "cluttered with notes and open books, and has a laptop in use",
+  "act_obj_pronunciatio": "\ud83d\udcda\ud83d\udcbb",
   "act_obj_event": [
-    "pharmacy store counter",
+    "desk",
     "be",
-    "busy with customers"
+    "cluttered with notes and open books"
   ],
   "chatting_with": null,
   "chat": null,
   "chatting_with_buffer": {
-    "Tom Moreno": 260,
-    "Abigail Chen": -1414,
-    "Arthur Burton": -238,
-    "John Lin": 392,
-    "Latoya Williams": -904,
-    "Sam Moore": -400,
-    "Giorgio Rossi": -34,
-    "Carmen Ortiz": 764
+    "Tom Moreno": -940,
+    "Abigail Chen": -2614,
+    "Arthur Burton": -1438,
+    "John Lin": -808,
+    "Latoya Williams": -2104,
+    "Sam Moore": -1600,
+    "Giorgio Rossi": -1234,
+    "Carmen Ortiz": -436,
+    "Yuriko Yamamoto": -124
   },
   "chatting_end_time": null,
   "act_path_set": true,
-  "planned_path": [
-    [
-      82,
-      53
-    ],
-    [
-      81,
-      53
-    ],
-    [
-      80,
-      53
-    ],
-    [
-      79,
-      53
-    ],
-    [
-      78,
-      53
-    ]
-  ]
+  "planned_path": []
 }

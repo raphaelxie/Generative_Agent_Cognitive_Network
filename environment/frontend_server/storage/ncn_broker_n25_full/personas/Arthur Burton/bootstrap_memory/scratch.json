@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    55,
-    14
+    61,
+    25
   ],
   "daily_plan_req": "Arthur Burton opens The Rose and Crown Pub at 5pm everyday, and stands at the counter until 10pm, at which point he closes the bar.",
   "name": "Arthur Burton",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 211,
-  "importance_ele_n": 26,
+  "importance_trigger_curr": 150,
+  "importance_ele_n": 27,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 8:00 am",
@@ -227,40 +227,104 @@
       10
     ],
     [
-      "opening The Rose and Crown Pub (setting up the bar area)",
-      15
+      "opening The Rose and Crown Pub (on the way to setting up the bar area)",
+      0
     ],
     [
-      "opening The Rose and Crown Pub (checking the inventory of drinks and supplies)",
-      10
+      "opening The Rose and Crown Pub (conversing about Arthur Burton and Giorgio Rossi discussing ideas for a Valentine's Day party, focusing on incorporating local businesses, the Fibonacci sequence into cocktail decorations, flavor profiles, local ingredients, promotional strategies, and customer engagement activities.)",
+      20
+    ],
+    [
+      "opening The Rose and Crown Pub (on the way to checking the inventory of drinks and supplies)",
+      0
+    ],
+    [
+      "opening The Rose and Crown Pub (conversing about Francisco Lopez and Arthur Burton discussing the planning of a Valentine's Day party, focusing on incorporating interactive games and storytelling elements to enhance community engagement.)",
+      13
     ],
     [
       "opening The Rose and Crown Pub (cleaning the bar top and tables)",
       10
     ],
     [
-      "opening The Rose and Crown Pub (preparing the cocktail station)",
-      10
+      "opening The Rose and Crown Pub (on the way to preparing the cocktail station)",
+      0
     ],
     [
-      "opening The Rose and Crown Pub (arranging the seating area for customers)",
-      10
+      "opening The Rose and Crown Pub (conversing about Arthur Burton and Carlos Gomez discussing plans for a Valentine's Day cocktail inspired by the Fibonacci sequence, including unique ingredients, visual presentation, marketing strategies, and incorporating local artists into the event.)",
+      21
     ],
     [
-      "opening The Rose and Crown Pub (turning on the lights and music)",
-      5
+      "opening The Rose and Crown Pub (on the way to arranging the seating area for customers)",
+      0
     ],
     [
-      "unwinding and relaxing with a short walk or some light reading",
-      60
+      "opening The Rose and Crown Pub (conversing about Arthur Burton and Jennifer Moore discussing their collaboration for a Valentine's Day event that includes an exhibition and a special cocktail inspired by the Fibonacci sequence.)",
+      13
     ],
     [
-      "engaging with customers and serving drinks at The Rose and Crown Pub",
-      180
+      "opening The Rose and Crown Pub (on the way to turning on the lights and music)",
+      0
+    ],
+    [
+      "opening The Rose and Crown Pub (conversing about Arthur Burton and Rajiv Patel discussing their collaboration for a Valentine's Day event focused on creating cocktails inspired by the Fibonacci sequence using local herbs and fruits, and brainstorming ways to enhance customer engagement through visual elements and local art.)",
+      17
+    ],
+    [
+      "unwinding and relaxing with a short walk or some light reading (on the way to unwinding and relaxing with a short walk or some light readin)",
+      0
+    ],
+    [
+      "unwinding and relaxing with a short walk or some light reading (conversing about Carmen Ortiz and Arthur Burton discussing unique cocktail ideas inspired by the Fibonacci sequence for a Valentine's Day event, incorporating local ingredients, poetry readings by local poets Mia Chen and Marco Sanchez, and strategies for promoting the event on social media.)",
+      19
+    ],
+    [
+      "engaging with customers and serving drinks at The Rose and Crown Pub (on the way to engaging with customers at the bar)",
+      0
+    ],
+    [
+      "engaging with customers and serving drinks at The Rose and Crown Pub (conversing about Arthur Burton and Yuriko Yamamoto discussing plans for a Valentine's Day party, focusing on the cocktail 'Fibonacci Bliss,' its unique ingredients and presentation, food pairings, event promotion strategies, and the potential inclusion of a local poet for entertainment.)",
+      24
+    ],
+    [
+      "engaging with customers and serving drinks at The Rose and Crown Pub (taking drink orders from customers)",
+      15
+    ],
+    [
+      "engaging with customers and serving drinks at The Rose and Crown Pub (preparing cocktails for customers)",
+      30
+    ],
+    [
+      "engaging with customers and serving drinks at The Rose and Crown Pub (serving drinks to customers)",
+      15
+    ],
+    [
+      "engaging with customers and serving drinks at The Rose and Crown Pub (checking in with customers to ensure they are enjoying their drinks)",
+      15
+    ],
+    [
+      "engaging with customers and serving drinks at The Rose and Crown Pub (making small talk and building rapport with regulars)",
+      15
+    ],
+    [
+      "engaging with customers and serving drinks at The Rose and Crown Pub (cleaning the bar area and wiping down surfaces)",
+      15
+    ],
+    [
+      "engaging with customers and serving drinks at The Rose and Crown Pub (preparing snacks or appetizers for customers)",
+      15
+    ],
+    [
+      "engaging with customers and serving drinks at The Rose and Crown Pub (taking additional drink orders from customers)",
+      15
+    ],
+    [
+      "engaging with customers and serving drinks at The Rose and Crown Pub (preparing and serving more cocktails)",
+      15
     ],
     [
       "closing The Rose and Crown Pub for the night",
-      60
+      51
     ],
     [
       "closing up any remaining tasks at The Rose and Crown Pub before heading home for the night",
@@ -325,35 +389,39 @@
       60
     ]
   ],
-  "act_address": "the Ville:Arthur Burton's apartment:main room:refrigerator",
-  "act_start_time": "February 13, 2023, 16:13:00",
-  "act_duration": 15,
-  "act_description": "having dinner (preparing his dinner)",
-  "act_pronunciatio": "\ud83c\udf7d\ufe0f\ud83d\udc68",
+  "act_address": "the Ville:The Rose and Crown Pub:pub:microphone",
+  "act_start_time": "February 13, 2023, 19:23:00",
+  "act_duration": 24,
+  "act_description": "engaging with customers and serving drinks at The Rose and Crown Pub (conversing about Arthur Burton and Yuriko Yamamoto discussing plans for a Valentine's Day party, focusing on the cocktail 'Fibonacci Bliss,' its unique ingredients and presentation, food pairings, event promotion strategies, and the potential inclusion of a local poet for entertainment.)",
+  "act_pronunciatio": "\ud83c\udf79\u2764\ufe0f",
   "act_event": [
     "Arthur Burton",
-    "prepare",
-    "dinner"
+    "converse",
+    "plans for a Valentine's Day party"
   ],
-  "act_obj_description": "open and being accessed for ingredients",
-  "act_obj_pronunciatio": "\ud83d\udcd6\ud83d\udd0d",
+  "act_obj_description": "in use",
+  "act_obj_pronunciatio": "\ud83d\udd04\ud83c\udd97",
   "act_obj_event": [
-    "refrigerator",
+    "microphone",
     "is",
-    "open"
+    "in use"
   ],
   "chatting_with": null,
   "chat": null,
   "chatting_with_buffer": {
-    "Latoya Williams": -1510,
-    "Adam Smith": -238,
-    "Tom Moreno": -1174,
-    "John Lin": -1042,
-    "Carlos Gomez": -658,
-    "Klaus Mueller": -124,
-    "Giorgio Rossi": 86,
-    "Hailey Johnson": 284,
-    "Rajiv Patel": 398
+    "Latoya Williams": -2710,
+    "Adam Smith": -1438,
+    "Tom Moreno": -2374,
+    "John Lin": -2242,
+    "Carlos Gomez": 236,
+    "Klaus Mueller": -1324,
+    "Giorgio Rossi": -16,
+    "Hailey Johnson": -916,
+    "Rajiv Patel": 434,
+    "Francisco Lopez": 62,
+    "Jennifer Moore": 314,
+    "Carmen Ortiz": 554,
+    "Yuriko Yamamoto": 698
   },
   "chatting_end_time": null,
   "act_path_set": true,

@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    31,
-    61
+    29,
+    65
   ],
   "daily_plan_req": "",
   "name": "Yuriko Yamamoto",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 225,
-  "importance_ele_n": 13,
+  "importance_trigger_curr": 39,
+  "importance_ele_n": 132,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 8:00 am",
@@ -239,8 +239,72 @@
       20
     ],
     [
-      "continuing to relax and unwind after dinner, possibly reading or watching a show",
-      240
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (settling into her favorite spot on the couch)",
+      5
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (selecting a book to read or a show to watch)",
+      10
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (reading the first chapter of her book or watching the opening episode of her show)",
+      30
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (taking a short break to stretch and grab a glass of water)",
+      5
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (returning to her book or show and continuing to enjoy it)",
+      30
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (pausing to reflect on what she has read or watched so far)",
+      5
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (diving back into her book or show for another session)",
+      30
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (taking another break to check her phone for messages or news)",
+      5
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (resuming her reading or watching, focusing on the storyline)",
+      30
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (pausing to jot down any thoughts or notes about the book or show)",
+      5
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (continuing with her book or show, getting immersed in the content)",
+      30
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (taking a moment to relax and breathe, enjoying the ambiance)",
+      5
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (finishing up the last chapter of her book or the final episode of her show)",
+      30
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (reflecting on the ending and how she feels about it)",
+      5
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (preparing to wind down, putting her book or remote down)",
+      5
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (setting an alarm for the next day and getting ready for bed)",
+      5
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (doing a quick skincare routine before sleeping)",
+      5
     ],
     [
       "sleeping",
@@ -305,30 +369,30 @@
       60
     ]
   ],
-  "act_address": "the Ville:Yuriko Yamamoto's house:main room:cooking area",
-  "act_start_time": "February 13, 2023, 16:11:00",
-  "act_duration": 15,
-  "act_description": "preparing and having dinner (preparing ingredients for dinner)",
-  "act_pronunciatio": "\ud83e\udd57\ud83d\udd2a",
+  "act_address": "the Ville:Yuriko Yamamoto's house:main room:bed",
+  "act_start_time": "February 13, 2023, 19:36:00",
+  "act_duration": 30,
+  "act_description": "continuing to relax and unwind after dinner, possibly reading or watching a show (diving back into her book or show for another session)",
+  "act_pronunciatio": "\ud83d\udcd6\ud83d\udcfa",
   "act_event": [
     "Yuriko Yamamoto",
-    "prepare",
-    "ingredients"
+    "dive",
+    "book or show"
   ],
-  "act_obj_description": "active and organized with ingredients laid out for dinner preparation",
-  "act_obj_pronunciatio": "\ud83d\udc69\u200d\ud83c\udf73",
+  "act_obj_description": "in use",
+  "act_obj_pronunciatio": "\ud83d\udd04\ud83c\udd97",
   "act_obj_event": [
-    "cooking area",
+    "bed",
     "is",
-    "active and organized with ingredients laid out for dinner preparation"
+    "in use"
   ],
   "chatting_with": null,
   "chat": null,
   "chatting_with_buffer": {
-    "Carmen Ortiz": -16,
-    "Mei Lin": 80,
-    "Sam Moore": 182,
-    "Ryan Park": 278
+    "Carmen Ortiz": -1216,
+    "Mei Lin": -1120,
+    "Sam Moore": -1018,
+    "Ryan Park": -922
   },
   "chatting_end_time": null,
   "act_path_set": true,

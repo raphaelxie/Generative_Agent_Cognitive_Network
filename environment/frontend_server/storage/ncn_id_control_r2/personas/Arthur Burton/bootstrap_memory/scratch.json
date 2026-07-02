@@ -1,0 +1,423 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 17:09:50",
+  "curr_tile": [
+    58,
+    25
+  ],
+  "daily_plan_req": "Arthur Burton opens The Rose and Crown Pub at 5pm everyday, and stands at the counter until 10pm, at which point he closes the bar.",
+  "name": "Arthur Burton",
+  "first_name": "Arthur",
+  "last_name": "Burton",
+  "age": 42,
+  "innate": "friendly, outgoing, generous",
+  "learned": "Arthur Burton is a bartender and bar owner of The Rose and Crown Pub who loves to make people feel welcome. He is always looking for ways to make his customers feel special.",
+  "currently": "Arthur Burton is running a beloved bar in the town that's been around for 10 years. He is also learning more about mixology and create unique cocktails.",
+  "lifestyle": "Arthur Burton goes to bed around midnight, awakes up around 7am, eats dinner around 4pm.",
+  "living_area": "the Ville:Arthur Burton's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 141,
+  "importance_ele_n": 45,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "have breakfast at 8:30 am",
+    "spend time researching mixology techniques and experimenting with new cocktail recipes from 9:00 am to 12:00 pm",
+    "take a break and enjoy a light lunch at 12:30 pm",
+    "prepare and organize the bar for the evening rush from 1:00 pm to 4:00 pm",
+    "have dinner at 4:00 pm",
+    "unwind and relax with a short walk or some light reading from 4:30 pm to 5:00 pm",
+    "open The Rose and Crown Pub at 5:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "researching mixology techniques and experimenting with new cocktail recipes (researching different mixology techniques online)",
+      15
+    ],
+    [
+      "researching mixology techniques and experimenting with new cocktail recipes (taking notes on the techniques he finds interesting)",
+      10
+    ],
+    [
+      "researching mixology techniques and experimenting with new cocktail recipes (selecting a few cocktail recipes to try out)",
+      10
+    ],
+    [
+      "researching mixology techniques and experimenting with new cocktail recipes (gathering the ingredients needed for the selected cocktails)",
+      10
+    ],
+    [
+      "researching mixology techniques and experimenting with new cocktail recipes (on the way to setting up his workspace for mixing cocktails)",
+      0
+    ],
+    [
+      "researching mixology techniques and experimenting with new cocktail recipes (conversing about Latoya Williams and Arthur Burton discussing their creative projects in mixology and photography, sharing ideas about local political events, and exchanging cocktail recipes and flavor preferences.)",
+      19
+    ],
+    [
+      "researching mixology techniques and experimenting with new cocktail recipes (mixing the first cocktail recipe)",
+      10
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes (on the way to continuing to research mixology techniques online)",
+      0
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes (conversing about Arthur Burton and Adam Smith discussing local election candidates, particularly Maria Lopez, and planning to attend her events together while also exploring new cocktail recipes that incorporate local flavors.)",
+      19
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes (taking notes on interesting techniques and recipes)",
+      15
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes (on the way to selecting ingredients for the new cocktail recipes)",
+      0
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes (conversing about Arthur Burton and Tom Moreno discussing collaboration on cocktails incorporating local flavors for an upcoming workshop hosted by Maria Lopez.)",
+      18
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes (on the way to preparing the bar area for experimentation)",
+      0
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes (conversing about John Lin and Arthur Burton discussing plans for a spring festival cocktail workshop that highlights local produce, engages the community, and involves local farmers and musicians.)",
+      20
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes (mixing the first cocktail recipe)",
+      15
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes (tasting the first cocktail and making notes on adjustments)",
+      10
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes (on the way to mixing the second cocktail recipe)",
+      11
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes (conversing about Arthur Burton and Carlos Gomez collaborating on a Valentine's Day cocktail inspired by the Fibonacci sequence, discussing ingredients, presentation, marketing strategies, and ways to engage customers at the event.)",
+      22
+    ],
+    [
+      "having a light lunch",
+      47
+    ],
+    [
+      "preparing and organizing the bar for the evening rush (on the way to cleaning the bar top and surfaces)",
+      0
+    ],
+    [
+      "preparing and organizing the bar for the evening rush (conversing about Adam Smith and Arthur Burton discussing Maria Lopez's local election campaign events, brainstorming cocktail recipes with local flavors, food pairings, and strategies for engaging the audience during a cocktail demo, as well as promoting the event on social media.)",
+      20
+    ],
+    [
+      "preparing and organizing the bar for the evening rush (restocking the liquor shelves)",
+      15
+    ],
+    [
+      "preparing and organizing the bar for the evening rush (on the way to checking the inventory of mixers and garnishes)",
+      0
+    ],
+    [
+      "preparing and organizing the bar for the evening rush (conversing about Arthur Burton and Klaus Mueller discussing their respective community engagement initiatives, including cocktail ideas for an upcoming event and workshops focused on social issues like housing inequality and gentrification.)",
+      15
+    ],
+    [
+      "preparing and organizing the bar for the evening rush (preparing cocktail garnishes (e.g., slicing lemons, limes, and herbs))",
+      10
+    ],
+    [
+      "preparing and organizing the bar for the evening rush (on the way to organizing glassware and ensuring everything is clean and ready)",
+      0
+    ],
+    [
+      "preparing and organizing the bar for the evening rush (conversing about Arthur Burton and Giorgio Rossi discussing ideas for a Valentine's Day cocktail event inspired by the Fibonacci sequence, including ingredients, presentation, and community engagement strategies.)",
+      22
+    ],
+    [
+      "continuing to prepare and organize the bar for the evening rush (continuing to clean the bar area)",
+      15
+    ],
+    [
+      "continuing to prepare and organize the bar for the evening rush (on the way to restocking the liquor shelves)",
+      0
+    ],
+    [
+      "continuing to prepare and organize the bar for the evening rush (conversing about Jane Moreno and Arthur Burton discussing plans for a Valentine's Day party app, including cocktail ideas inspired by the Fibonacci sequence, interactive features, marketing strategies, and scheduling a meeting to finalize details.)",
+      20
+    ],
+    [
+      "continuing to prepare and organize the bar for the evening rush (preparing garnishes for cocktails)",
+      15
+    ],
+    [
+      "continuing to prepare and organize the bar for the evening rush (on the way to checking the inventory of mixers and supplies)",
+      0
+    ],
+    [
+      "continuing to prepare and organize the bar for the evening rush (conversing about Arthur Burton and Hailey Johnson discussing ideas for integrating interactive elements into a community-focused project, including live storytelling sessions and an app for sharing cocktail experiences, while planning a collaborative promotional strategy for an upcoming Valentine's Day event.)",
+      20
+    ],
+    [
+      "continuing to prepare and organize the bar for the evening rush (organizing the glassware)",
+      10
+    ],
+    [
+      "continuing to prepare and organize the bar for the evening rush (setting up the bar stools and tables)",
+      8
+    ],
+    [
+      "continuing to prepare and organize the bar for the evening rush (reviewing the cocktail recipes)",
+      5
+    ],
+    [
+      "continuing to prepare and organize the bar for the evening rush (preparing the cash register for the evening)",
+      5
+    ],
+    [
+      "having dinner (preparing his dinner)",
+      15
+    ],
+    [
+      "having dinner (cooking the main dish)",
+      20
+    ],
+    [
+      "having dinner (on the way to setting the dining table)",
+      0
+    ],
+    [
+      "having dinner (conversing about Arthur Burton and Jennifer Moore discussing the planning and ideas for an upcoming Valentine's Day party, focusing on incorporating local business stories, interactive elements, themed cocktails, family-friendly activities, and showcasing local artists.)",
+      20
+    ],
+    [
+      "having dinner (on the way to plating his food)",
+      0
+    ],
+    [
+      "having dinner (conversing about Arthur Burton and Carlos Gomez planning a Valentine's Day cocktail event that incorporates poetry, eco-friendly materials, community engagement, and a special cocktail tasting session.)",
+      21
+    ],
+    [
+      "having dinner (pouring a drink to accompany his meal)",
+      5
+    ],
+    [
+      "having dinner (sitting down to eat)",
+      10
+    ],
+    [
+      "opening The Rose and Crown Pub (setting up the bar area)",
+      15
+    ],
+    [
+      "opening The Rose and Crown Pub (checking the inventory of drinks and supplies)",
+      4
+    ],
+    [
+      "opening The Rose and Crown Pub (preparing the cocktail station)",
+      5
+    ],
+    [
+      "opening The Rose and Crown Pub (turning on the lights and music)",
+      5
+    ],
+    [
+      "unwinding and relaxing with a short walk or some light reading",
+      60
+    ],
+    [
+      "engaging with customers and serving drinks at The Rose and Crown Pub",
+      180
+    ],
+    [
+      "closing The Rose and Crown Pub for the night",
+      60
+    ],
+    [
+      "closing up any remaining tasks at The Rose and Crown Pub before heading home for the night",
+      60
+    ],
+    [
+      "sleeping",
+      11
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "researching mixology techniques and experimenting with new cocktail recipes",
+      60
+    ],
+    [
+      "continuing his research on mixology techniques and experimenting with new cocktail recipes",
+      120
+    ],
+    [
+      "having a light lunch",
+      60
+    ],
+    [
+      "preparing and organizing the bar for the evening rush",
+      60
+    ],
+    [
+      "continuing to prepare and organize the bar for the evening rush",
+      120
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "opening The Rose and Crown Pub",
+      60
+    ],
+    [
+      "unwinding and relaxing with a short walk or some light reading",
+      60
+    ],
+    [
+      "engaging with customers and serving drinks at The Rose and Crown Pub",
+      180
+    ],
+    [
+      "closing The Rose and Crown Pub for the night",
+      60
+    ],
+    [
+      "closing up any remaining tasks at The Rose and Crown Pub before heading home for the night",
+      60
+    ]
+  ],
+  "act_address": "<persona> Carlos Gomez",
+  "act_start_time": "February 13, 2023, 16:58:50",
+  "act_duration": 21,
+  "act_description": "conversing about Arthur Burton and Carlos Gomez planning a Valentine's Day cocktail event that incorporates poetry, eco-friendly materials, community engagement, and a special cocktail tasting session.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Arthur Burton",
+    "chat with",
+    "Carlos Gomez"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Carlos Gomez",
+  "chat": [
+    [
+      "Arthur Burton",
+      "Hey Carlos! I was just thinking about our Valentine's Day cocktail plans. How's the poetry coming along? Have you made any revisions that we could incorporate into the event?"
+    ],
+    [
+      "Carlos Gomez",
+      "Hey Arthur! The poetry is coming along nicely. I've been revising some pieces that reflect the themes of nature and growth, which align perfectly with our Fibonacci concept. I think we could incorporate some of those lines into the cocktail presentation or even as part of the interactive elements at the party. What do you think?"
+    ],
+    [
+      "Arthur Burton",
+      "I love that idea! We could even create a special menu that features your poetry alongside the cocktails. It would add a unique touch to the experience. Do you have any specific lines in mind that you think would fit well?"
+    ],
+    [
+      "Carlos Gomez",
+      "I have a few lines that emphasize the beauty of nature, like 'In every leaf, a whisper of life' and 'Growth spirals, a dance of time.' I think these could resonate well with the theme of our cocktail. We could present them on the menu or even as part of a spoken word moment during the event. What do you think?"
+    ],
+    [
+      "Arthur Burton",
+      "Those lines are beautiful! Presenting them on the menu sounds perfect, and I love the idea of a spoken word moment. Let\u2019s brainstorm how we can set that up during the event. Maybe we could even have a small stage for you to perform on? It would really bring the whole evening to life!"
+    ],
+    [
+      "Carlos Gomez",
+      "A small stage sounds fantastic! I can prepare a short set to perform those lines and maybe some additional pieces that fit the theme. We could even invite guests to share their own poetry during the event. It would create a lovely community vibe. What do you think about that?"
+    ],
+    [
+      "Arthur Burton",
+      "I think inviting guests to share their own poetry is a brilliant idea! It will definitely enhance the community aspect of the event. Let\u2019s also think about how we can promote this on social media to attract more people. We could create a hashtag for the event. What do you think?"
+    ],
+    [
+      "Carlos Gomez",
+      "I love the idea of a hashtag! We could use something like #FibonacciValentine or #SpiralsOfLove to tie it all together. It would be great for promoting the event and encouraging people to share their experiences. We should also consider reaching out to local artists and poets to help spread the word. What do you think about that?"
+    ],
+    [
+      "Arthur Burton",
+      "That sounds like a great plan! I can reach out to some local artists and poets I know, and we can brainstorm how to integrate their contributions. Let's also think about how we can incorporate some eco-friendly materials into our event decorations to align with the community vibe. I\u2019m excited about how this is shaping up!"
+    ],
+    [
+      "Carlos Gomez",
+      "Absolutely, using eco-friendly materials would resonate well with our theme and the community. We could look for local suppliers who focus on sustainability. Do you have any specific ideas in mind for the decorations?"
+    ],
+    [
+      "Arthur Burton",
+      "I was thinking we could use recycled paper for the menus and maybe some potted plants as centerpieces, which people could take home. It would be a nice way to promote sustainability and add to the natural theme. What do you think?"
+    ],
+    [
+      "Carlos Gomez",
+      "I love those ideas, especially the potted plants as centerpieces! It gives guests something to take home and enjoy long after the event. We could also consider adding some natural elements like stones or twigs to the decorations to enhance the theme. Let's start compiling a list of potential suppliers and artists we want to reach out to. I'm excited to see how this all comes together!"
+    ],
+    [
+      "Arthur Burton",
+      "Great! I\u2019ll start drafting a list of potential suppliers and artists tonight. We can finalize it when we meet on Wednesday. In the meantime, let\u2019s think about how we can create a cozy atmosphere for the event with some soft lighting and music that complements the theme. What do you think?"
+    ],
+    [
+      "Carlos Gomez",
+      "I think soft lighting would create a beautiful ambiance! We could use string lights and some candles to give it a warm feel. As for music, maybe we could curate a playlist of nature-inspired melodies or even invite a local musician to perform live? It would add to the overall experience. Let\u2019s brainstorm some options for that."
+    ],
+    [
+      "Arthur Burton",
+      "That sounds perfect! I love the idea of inviting a local musician; it would really enhance the atmosphere. I\u2019ll look into some options and see who might be available. Let's also think about how we can incorporate the cocktail tasting into the evening's activities. Maybe we can have a special tasting session for a select few guests? What do you think?"
+    ],
+    [
+      "Carlos Gomez",
+      "I think a special tasting session would be a fantastic idea! We could limit it to a small group to create an intimate experience, and maybe pair it with some of the poetry readings. It would be a unique way to engage guests and get them excited about the cocktails. Let's decide on how many guests we want to invite for that tasting. What do you think?"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Latoya Williams": -1810,
+    "Adam Smith": -538,
+    "Tom Moreno": -1474,
+    "John Lin": -1342,
+    "Carlos Gomez": 800,
+    "Klaus Mueller": -424,
+    "Giorgio Rossi": -202,
+    "Jane Moreno": 38,
+    "Hailey Johnson": 230,
+    "Jennifer Moore": 680
+  },
+  "chatting_end_time": "February 13, 2023, 17:20:00",
+  "act_path_set": true,
+  "planned_path": []
+}

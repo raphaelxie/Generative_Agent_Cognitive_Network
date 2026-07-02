@@ -92,6 +92,13 @@ celerybeat-schedule
 # dotenv
 .env
 
+# local notes and reports (not for GitHub)
+_feedback/
+_report/
+
+# Large simulation diagnostics (keep local only)
+**/retrieval_diagnostics*.jsonl
+
 # virtualenv
 venv/
 ENV/

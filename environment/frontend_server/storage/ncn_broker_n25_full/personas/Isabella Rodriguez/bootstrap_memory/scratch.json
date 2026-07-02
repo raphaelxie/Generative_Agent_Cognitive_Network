@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    82,
-    26
+    76,
+    14
   ],
   "daily_plan_req": "Isabella Rodriguez opens Hobbs Cafe at 8am everyday, and stands at the counter until 8pm, at which point she closes the cafe.",
   "name": "Isabella Rodriguez",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 19,
-  "importance_ele_n": 87,
+  "importance_trigger_curr": 85,
+  "importance_ele_n": 57,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 6:00 am",
@@ -232,28 +232,108 @@
       20
     ],
     [
-      "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (making last-minute adjustments to the decorations)",
+      "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (on the way to making last-minute adjustments to the decorations)",
+      0
+    ],
+    [
+      "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (conversing about Isabella Rodriguez and Carlos Gomez discussing the final preparations and interactive elements for the Valentine's Day party, including decorations, a poetry corner, and a prize for a contest.)",
+      15
+    ],
+    [
+      "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (on the way to ensuring all supplies are organized and ready for the party)",
+      0
+    ],
+    [
+      "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (conversing about Isabella Rodriguez and Ayesha Khan discussing ideas to enhance the Valentine's Day party, including a poetry corner with quotes from Rumi and Emily Dickinson, as well as interactive art inspired by the Fibonacci sequence.)",
+      16
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (on the way to greeting customers as they enter the cafe)",
+      0
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (conversing about Isabella Rodriguez and Yuriko Yamamoto discussing creative ideas and preparations for a Valentine's Day party, focusing on a poetry corner to engage the community with prompts and materials, while also considering the event layout and refreshments.)",
+      21
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (taking orders from customers at the counter)",
+      15
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (on the way to preparing drinks and food orders for customers)",
+      0
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (conversing about Sam Moore and Isabella Rodriguez discussing the plans for a Valentine's Day party, including live music lineup, decorations, quotes, and snacks and drinks.)",
+      15
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (serving the prepared orders to customers)",
       10
     ],
     [
-      "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (ensuring all supplies are organized and ready for the party)",
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (checking in with customers to ensure they are satisfied with their orders)",
       5
     ],
     [
-      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable",
-      60
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (thanking customers for their visit as they leave)",
+      5
     ],
     [
       "closing Hobbs Cafe for the day and preparing to wind down after a busy day",
-      60
+      33
     ],
     [
-      "relaxing at home after a busy day at Hobbs Cafe, reflecting on the preparations for the Valentine's Day party",
-      60
+      "relaxing at home after a busy day at Hobbs Cafe, reflecting on the preparations for the Valentine's Day party (reflecting on the day's events at Hobbs Cafe)",
+      10
     ],
     [
-      "relaxing at home, enjoying a cup of tea and finalizing her plans for the Valentine's Day party tomorrow",
-      60
+      "relaxing at home after a busy day at Hobbs Cafe, reflecting on the preparations for the Valentine's Day party (reviewing the guest list for the Valentine's Day party)",
+      10
+    ],
+    [
+      "relaxing at home after a busy day at Hobbs Cafe, reflecting on the preparations for the Valentine's Day party (thinking about the decorations she needs to set up)",
+      10
+    ],
+    [
+      "relaxing at home after a busy day at Hobbs Cafe, reflecting on the preparations for the Valentine's Day party (considering the menu items for the party)",
+      10
+    ],
+    [
+      "relaxing at home after a busy day at Hobbs Cafe, reflecting on the preparations for the Valentine's Day party (planning the seating arrangement for the party)",
+      10
+    ],
+    [
+      "relaxing at home after a busy day at Hobbs Cafe, reflecting on the preparations for the Valentine's Day party (making a checklist of items to bring to the cafe in the morning)",
+      10
+    ],
+    [
+      "relaxing at home, enjoying a cup of tea and finalizing her plans for the Valentine's Day party tomorrow (settling into her favorite chair with a cup of tea)",
+      5
+    ],
+    [
+      "relaxing at home, enjoying a cup of tea and finalizing her plans for the Valentine's Day party tomorrow (reviewing the guest list for the Valentine's Day party)",
+      10
+    ],
+    [
+      "relaxing at home, enjoying a cup of tea and finalizing her plans for the Valentine's Day party tomorrow (checking the inventory of party supplies)",
+      10
+    ],
+    [
+      "relaxing at home, enjoying a cup of tea and finalizing her plans for the Valentine's Day party tomorrow (brainstorming decoration ideas for the cafe)",
+      10
+    ],
+    [
+      "relaxing at home, enjoying a cup of tea and finalizing her plans for the Valentine's Day party tomorrow (writing down a list of snacks and drinks to prepare for the party)",
+      10
+    ],
+    [
+      "relaxing at home, enjoying a cup of tea and finalizing her plans for the Valentine's Day party tomorrow (planning the seating arrangement for the party)",
+      10
+    ],
+    [
+      "relaxing at home, enjoying a cup of tea and finalizing her plans for the Valentine's Day party tomorrow (making a final checklist of tasks to complete before the party)",
+      5
     ],
     [
       "relaxing at home, preparing mentally for the Valentine's Day party tomorrow and ensuring she has everything ready for her customers",
@@ -350,33 +430,35 @@
       60
     ]
   ],
-  "act_address": "the Ville:Hobbs Cafe:cafe:piano",
-  "act_start_time": "February 13, 2023, 16:05:00",
-  "act_duration": 15,
-  "act_description": "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (finalizing the playlist for the event)",
-  "act_pronunciatio": "\ud83c\udfb6\u2705",
+  "act_address": "the Ville:Isabella Rodriguez's apartment:main room:closet",
+  "act_start_time": "February 13, 2023, 19:36:00",
+  "act_duration": 10,
+  "act_description": "relaxing at home after a busy day at Hobbs Cafe, reflecting on the preparations for the Valentine's Day party (thinking about the decorations she needs to set up)",
+  "act_pronunciatio": "\ud83e\udd14\ud83c\udf89",
   "act_event": [
     "Isabella Rodriguez",
-    "finalize",
-    "playlist"
+    "think",
+    "decorations"
   ],
-  "act_obj_description": "not being used",
-  "act_obj_pronunciatio": "\ud83d\udeab\ud83d\uded1",
+  "act_obj_description": "full of decorations and supplies for the Valentine's Day party",
+  "act_obj_pronunciatio": "\ud83c\udf89\u2764\ufe0f",
   "act_obj_event": [
-    "piano",
-    "is not being",
-    "used"
+    "closet",
+    "be",
+    "full of decorations and supplies for the Valentine's Day party"
   ],
   "chatting_with": null,
   "chat": null,
   "chatting_with_buffer": {
-    "Sam Moore": 98,
-    "Giorgio Rossi": -358,
-    "Carlos Gomez": -64,
-    "Mei Lin": -1456,
-    "Eddy Lin": -916,
-    "Tom Moreno": -676,
-    "John Lin": -604
+    "Sam Moore": 308,
+    "Giorgio Rossi": -1558,
+    "Carlos Gomez": -148,
+    "Mei Lin": -2656,
+    "Eddy Lin": -2116,
+    "Tom Moreno": -1876,
+    "John Lin": -1804,
+    "Ayesha Khan": -52,
+    "Yuriko Yamamoto": 80
   },
   "chatting_end_time": null,
   "act_path_set": true,

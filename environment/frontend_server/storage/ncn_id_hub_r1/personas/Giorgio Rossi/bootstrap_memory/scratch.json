@@ -1,0 +1,436 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 17:09:50",
+  "curr_tile": [
+    60,
+    25
+  ],
+  "daily_plan_req": "",
+  "name": "Giorgio Rossi",
+  "first_name": "Giorgio",
+  "last_name": "Rossi",
+  "age": 41,
+  "innate": "analytical, logical, eccentric",
+  "learned": "Giorgio Rossi is a mathematician who loves to solve challenging problems. He is always looking for ways to apply his analytical skills.",
+  "currently": "Giorgio Rossi is working on a research project to explore mathematical patterns in nature. He is also taking classes to stay up to date on new mathematical theories. Giorgio is also curious about who will be running for the local mayor election next month and he talks about it a lot with others.",
+  "lifestyle": "Giorgio Rossi goes to bed around midnight, awakes up around 7am, eats dinner around 4pm.",
+  "living_area": "the Ville:Giorgio Rossi's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 141,
+  "importance_ele_n": 28,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "engage in research on mathematical patterns in nature from 8:30 am to 11:30 am",
+    "take a break and enjoy a light lunch at 11:30 am",
+    "continue studying new mathematical theories from 12:00 pm to 2:00 pm",
+    "attend an online mathematics class from 2:30 pm to 4:00 pm",
+    "have dinner at 4:00 pm",
+    "discuss the upcoming local mayor election with friends from 5:00 pm to 6:00 pm",
+    "browse news articles about the election and potential candidates from 6:30 pm to 8:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "engaging in research on mathematical patterns in nature (1) Giorgio is gathering relevant research articles and papers on mathematical patterns in nature)",
+      15
+    ],
+    [
+      "engaging in research on mathematical patterns in nature (on the way to reading through the first research article to identify key concepts)",
+      0
+    ],
+    [
+      "engaging in research on mathematical patterns in nature (conversing about Isabella Rodriguez and Giorgio Rossi discussing the incorporation of the Fibonacci sequence into decorations for a Valentine's Day party at Isabella's cafe.)",
+      11
+    ],
+    [
+      "engaging in research on mathematical patterns in nature (taking notes on important findings from the article)",
+      10
+    ],
+    [
+      "engaging in research on mathematical patterns in nature (discussing the findings with a colleague via email or chat)",
+      10
+    ],
+    [
+      "engaging in research on mathematical patterns in nature (reviewing his notes and summarizing the key points)",
+      5
+    ],
+    [
+      "engaging in research on mathematical patterns in nature (planning the next steps for his research based on the findings)",
+      5
+    ],
+    [
+      "continuing his research on mathematical patterns in nature (1) Giorgio is reviewing previous research on mathematical patterns in nature)",
+      15
+    ],
+    [
+      "continuing his research on mathematical patterns in nature (identifying key patterns to explore further)",
+      20
+    ],
+    [
+      "continuing his research on mathematical patterns in nature (gathering data from various sources (books, articles, online databases))",
+      25
+    ],
+    [
+      "continuing his research on mathematical patterns in nature (on the way to analyzing the collected data for trends and anomalies)",
+      0
+    ],
+    [
+      "continuing his research on mathematical patterns in nature (conversing about Sam Moore and Giorgio Rossi discussing their collaboration for Valentine's Day decorations inspired by mathematical patterns in nature, particularly the Fibonacci sequence, and planning to include flowers and eco-friendly materials.)",
+      21
+    ],
+    [
+      "continuing his research on mathematical patterns in nature (taking a short break to refresh his mind)",
+      5
+    ],
+    [
+      "continuing his research on mathematical patterns in nature (brainstorming potential applications of the identified patterns)",
+      25
+    ],
+    [
+      "continuing to study new mathematical theories (on the way to continuing his research on mathematical theories)",
+      0
+    ],
+    [
+      "continuing to study new mathematical theories (on the way to conversing about Giorgio Rossi and Carlos Gomez collaborating on incorporating themes of nature and the Fibonacci sequence into Valentine's Day decorations and poetry, including creating an interactive element for guests to engage with.)",
+      21
+    ],
+    [
+      "continuing to study new mathematical theories (conversing about Giorgio Rossi and Eddy Lin discussing ideas for decorations and interactive elements for their upcoming Valentine's Day party, focusing on the Fibonacci sequence and nature.)",
+      16
+    ],
+    [
+      "continuing to study new mathematical theories (reviewing recent papers on mathematical theories)",
+      30
+    ],
+    [
+      "continuing to study new mathematical theories (on the way to on the way to taking notes on key concepts from the papers)",
+      0
+    ],
+    [
+      "continuing to study new mathematical theories (conversing about Isabella Rodriguez and Giorgio Rossi discussing ideas for their Valentine's Day party decorations, music playlist, quotes, and themed treats inspired by the Fibonacci sequence.)",
+      19
+    ],
+    [
+      "continuing to study new mathematical theories (conversing about Giorgio Rossi and Klaus Mueller discussing their collaboration on Valentine's Day decorations that incorporate mathematical patterns, themes of love and community, and eco-friendly materials.)",
+      21
+    ],
+    [
+      "continuing to study new mathematical theories (on the way to discussing theories with a colleague via video call)",
+      0
+    ],
+    [
+      "continuing to study new mathematical theories (conversing about Giorgio Rossi and Jane Moreno discussing ideas for Valentine's Day decorations that incorporate mathematical patterns and local themes, and planning to meet on Wednesday at 5pm to brainstorm together.)",
+      6
+    ],
+    [
+      "continuing to study new mathematical theories (on the way to summarizing the discussion notes)",
+      0
+    ],
+    [
+      "continuing to study new mathematical theories (conversing about Adam Smith and Giorgio Rossi discussing how creativity, particularly through mathematical patterns in art, can enhance community engagement and lead to a collaborative event that combines interactive art stations with discussions on local issues and entrepreneurship.)",
+      22
+    ],
+    [
+      "continuing to study new mathematical theories (exploring online resources for additional information)",
+      30
+    ],
+    [
+      "continuing to study new mathematical theories (on the way to on the way to creating a mind map of the theories studied)",
+      0
+    ],
+    [
+      "continuing to study new mathematical theories (conversing about Rajiv Patel and Giorgio Rossi discussing creative ideas to incorporate the Fibonacci sequence into their Valentine's Day projects, including layered cocktails and interactive art stations for guests.)",
+      23
+    ],
+    [
+      "continuing to study new mathematical theories (conversing about Arthur Burton and Giorgio Rossi discussing the incorporation of the Fibonacci sequence into a Valentine's Day cocktail presentation, including garnishes and marketing ideas for the event.)",
+      23
+    ],
+    [
+      "continuing to study new mathematical theories (on the way to drafting a summary of his findings)",
+      0
+    ],
+    [
+      "continuing to study new mathematical theories (conversing about Giorgio Rossi and Klaus Mueller discussing ideas for incorporating the Fibonacci sequence into their Valentine's Day cocktail presentation, including garnishes, layered cocktails, marketing themes, and interactive elements for guest engagement.)",
+      20
+    ],
+    [
+      "continuing to study new mathematical theories (on the way to reviewing the summary for clarity and coherence)",
+      0
+    ],
+    [
+      "continuing to study new mathematical theories (conversing about Isabella Rodriguez and Giorgio Rossi discussing preparations for a party, including the sound system playlist, cocktail presentation inspired by the Fibonacci sequence, decorations, quotes, and layout arrangements.)",
+      18
+    ],
+    [
+      "having dinner (on the way to having dinne)",
+      0
+    ],
+    [
+      "having dinner (conversing about Eddy Lin and Giorgio Rossi discussing ideas for incorporating interactive elements into their Valentine's Day party, focusing on soundscapes, decorations inspired by the Fibonacci sequence, and engaging art stations for guests.)",
+      8
+    ],
+    [
+      "discussing the upcoming local mayor election with friends (gathering his thoughts on the local mayor election candidates)",
+      10
+    ],
+    [
+      "discussing the upcoming local mayor election with friends (reviewing recent news articles about the candidates)",
+      10
+    ],
+    [
+      "discussing the upcoming local mayor election with friends (on the way to preparing questions to ask his friends about their opinions)",
+      0
+    ],
+    [
+      "discussing the upcoming local mayor election with friends (conversing about Ryan Park and Giorgio Rossi discussing the mayoral election candidates, particularly Maria Lopez's initiatives for local businesses and community engagement, as well as brainstorming ideas to incorporate community input into their upcoming Valentine's Day event.)",
+      23
+    ],
+    [
+      "discussing the upcoming local mayor election with friends (setting up a video call with his friends)",
+      5
+    ],
+    [
+      "discussing the upcoming local mayor election with friends (greeting his friends as they join the call)",
+      5
+    ],
+    [
+      "discussing the upcoming local mayor election with friends (sharing his thoughts on the candidates' platforms)",
+      10
+    ],
+    [
+      "discussing the upcoming local mayor election with friends (on the way to asking his friends for their opinions on the candidates)",
+      0
+    ],
+    [
+      "discussing the upcoming local mayor election with friends (conversing about Giorgio Rossi and Jennifer Moore discussing the integration of local artists, businesses, and musicians into their Valentine's Day event while emphasizing community engagement and collaborative art activities.)",
+      22
+    ],
+    [
+      "discussing the upcoming local mayor election with friends (summarizing the key points discussed during the conversation)",
+      5
+    ],
+    [
+      "browsing news articles about the election and potential candidates (searching for news articles about the local mayor election)",
+      10
+    ],
+    [
+      "browsing news articles about the election and potential candidates (reading the first article about the current candidates)",
+      15
+    ],
+    [
+      "browsing news articles about the election and potential candidates (taking notes on key points from the article)",
+      5
+    ],
+    [
+      "continuing to browse news articles about the election and potential candidates",
+      60
+    ],
+    [
+      "browsing news articles about the election and potential candidates",
+      120
+    ],
+    [
+      "continuing to browse news articles about the election and potential candidates",
+      60
+    ],
+    [
+      "sleeping",
+      60
+    ],
+    [
+      "sleeping",
+      4
+    ],
+    [
+      "sleeping",
+      9
+    ],
+    [
+      "sleeping",
+      9
+    ],
+    [
+      "sleeping",
+      17
+    ],
+    [
+      "sleeping",
+      7
+    ],
+    [
+      "sleeping",
+      10
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "engaging in research on mathematical patterns in nature",
+      60
+    ],
+    [
+      "continuing his research on mathematical patterns in nature",
+      120
+    ],
+    [
+      "continuing to study new mathematical theories",
+      240
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "discussing the upcoming local mayor election with friends",
+      60
+    ],
+    [
+      "browsing news articles about the election and potential candidates",
+      60
+    ],
+    [
+      "continuing to browse news articles about the election and potential candidates",
+      60
+    ],
+    [
+      "browsing news articles about the election and potential candidates",
+      120
+    ],
+    [
+      "continuing to browse news articles about the election and potential candidates",
+      60
+    ],
+    [
+      "sleeping",
+      60
+    ]
+  ],
+  "act_address": "<persona> Jennifer Moore",
+  "act_start_time": "February 13, 2023, 16:57:10",
+  "act_duration": 22,
+  "act_description": "conversing about Giorgio Rossi and Jennifer Moore discussing the integration of local artists, businesses, and musicians into their Valentine's Day event while emphasizing community engagement and collaborative art activities.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Giorgio Rossi",
+    "chat with",
+    "Jennifer Moore"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Jennifer Moore",
+  "chat": [
+    [
+      "Giorgio Rossi",
+      "Hey Jennifer, I was just discussing the local mayoral election with some friends. Have you had a chance to look into Maria Lopez's initiatives for local businesses? I think it could tie in nicely with our Valentine's Day event!"
+    ],
+    [
+      "Jennifer Moore",
+      "Yes, I have! I really appreciate her focus on supporting local artists and businesses. I was actually thinking we could incorporate some of her ideas into our Valentine's Day event to highlight community engagement. What do you think?"
+    ],
+    [
+      "Giorgio Rossi",
+      "I think that's a fantastic idea! We could create spaces for local artists to showcase their work during the event. Maybe even feature some interactive art stations that reflect the themes we're working with. It would definitely engage the community more. How do you envision incorporating her initiatives?"
+    ],
+    [
+      "Jennifer Moore",
+      "I love that idea! We could have local artists set up booths to display their work and maybe even host some live painting sessions. Additionally, we could create a collaborative mural where attendees can contribute their own designs. This way, everyone feels involved and connected. What do you think about setting up a planning meeting with the artists to brainstorm more ideas?"
+    ],
+    [
+      "Giorgio Rossi",
+      "I think setting up a planning meeting with the artists is a brilliant idea! It would give us a chance to gather their input and see how we can best support their work. Let's figure out a good time that works for everyone. Maybe we could also reach out to some local businesses to see if they want to get involved too?"
+    ],
+    [
+      "Jennifer Moore",
+      "Absolutely! We should definitely reach out to local businesses and see if they\u2019d like to sponsor a booth or provide supplies for the collaborative mural. I can draft a message to send out to them. Let's aim for a planning meeting soon; I think it would really energize the event!"
+    ],
+    [
+      "Giorgio Rossi",
+      "Great! I can help with the message to local businesses. Maybe we can highlight how their participation could enhance community ties and promote their brand. Once we have that drafted, we can also look at potential dates for the planning meeting with the artists. What do you think?"
+    ],
+    [
+      "Jennifer Moore",
+      "That sounds perfect, Giorgio! We can emphasize the benefits of community involvement for local businesses in our message. Let's aim to have that drafted by the end of the week so we can move forward with scheduling the planning meeting. How about I take the lead on reaching out to the artists, and you can focus on contacting the businesses? We can touch base later this week to see where we stand."
+    ],
+    [
+      "Giorgio Rossi",
+      "That sounds like a solid plan! I'll start drafting the message for the businesses and share it with you for feedback before we send it out. Let's touch base on Wednesday after our meeting to see how everything is progressing. I'm excited about what we can create together for the event!"
+    ],
+    [
+      "Jennifer Moore",
+      "Sounds like a plan, Giorgio! I'm looking forward to seeing your message draft. Let\u2019s aim to finalize everything soon so we can keep the momentum going. I really believe this event will bring our community together in a beautiful way. See you on Wednesday!"
+    ],
+    [
+      "Giorgio Rossi",
+      "Absolutely, Jennifer! I\u2019ll make sure to have the draft ready by Wednesday. By the way, have you thought about any specific themes or activities we want to highlight for the interactive stations? It could be great to brainstorm those ideas ahead of time."
+    ],
+    [
+      "Jennifer Moore",
+      "Yes, I have some ideas! I think we should focus on themes of love and community, perhaps integrating quotes about art and love into the interactive stations. We could also have watercolor painting areas where attendees can express their feelings on canvas. What do you think about incorporating some music into the stations as well? It could really enhance the atmosphere!"
+    ],
+    [
+      "Giorgio Rossi",
+      "I love the idea of incorporating music! It would definitely create a more immersive experience for everyone. Perhaps we could even have a live music element that aligns with the themes we\u2019re exploring. Do you have any specific artists or genres in mind?"
+    ],
+    [
+      "Jennifer Moore",
+      "I think incorporating live music would be wonderful! I imagine some acoustic artists or perhaps a small ensemble that can play soft, romantic tunes. It would create such a lovely atmosphere for everyone to enjoy while they engage in the art activities. Do you know of any local musicians who might be interested in joining us?"
+    ],
+    [
+      "Giorgio Rossi",
+      "I know a few local musicians who might be interested! I can reach out to them and see if they're available for our event. It would be great to have some acoustic sets to complement the art activities. Let\u2019s keep discussing how we can integrate all these elements together. I'm really excited about this!"
+    ],
+    [
+      "Jennifer Moore",
+      "That sounds great, Giorgio! I can't wait to hear back from the musicians. Once we have the artists, businesses, and musicians on board, we can really bring this vision to life. Let\u2019s also keep thinking about how we can weave in the community's stories into the art activities. I believe it could deepen the connection to the themes we're exploring. Let's keep the ideas flowing!"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Isabella Rodriguez": 332,
+    "Sam Moore": -1432,
+    "Carlos Gomez": -1120,
+    "Eddy Lin": 458,
+    "Klaus Mueller": 206,
+    "Jane Moreno": -502,
+    "Adam Smith": -334,
+    "Arthur Burton": -196,
+    "Rajiv Patel": -58,
+    "Ryan Park": 602,
+    "Jennifer Moore": 800
+  },
+  "chatting_end_time": "February 13, 2023, 17:19:00",
+  "act_path_set": true,
+  "planned_path": []
+}

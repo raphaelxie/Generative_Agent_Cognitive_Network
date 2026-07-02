@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    82,
-    26
+    88,
+    67
   ],
   "daily_plan_req": "Eddy Lin goes to Oak Hill College to take classes starting 10am. In the afternoon, he likes to go to Hobbs Cafe to eat and study.",
   "name": "Eddy Lin",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 237,
-  "importance_ele_n": 6,
+  "importance_trigger_curr": 42,
+  "importance_ele_n": 80,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 8:00 am",
@@ -218,20 +218,96 @@
       52
     ],
     [
-      "relaxing or practicing music",
-      60
+      "relaxing or practicing music (setting up his music space)",
+      10
     ],
     [
-      "working on additional music theory assignments",
-      60
+      "relaxing or practicing music (warming up on the piano)",
+      10
     ],
     [
-      "relaxing or practicing music",
-      60
+      "relaxing or practicing music (practicing scales)",
+      10
     ],
     [
-      "working on additional music theory assignments",
-      60
+      "relaxing or practicing music (working on a new piece)",
+      15
+    ],
+    [
+      "relaxing or practicing music (taking a short break)",
+      5
+    ],
+    [
+      "relaxing or practicing music (reviewing his composition notes)",
+      10
+    ],
+    [
+      "working on additional music theory assignments (reviewing his class notes)",
+      15
+    ],
+    [
+      "working on additional music theory assignments (reading the assigned textbook chapters)",
+      20
+    ],
+    [
+      "working on additional music theory assignments (completing practice exercises from the textbook)",
+      15
+    ],
+    [
+      "working on additional music theory assignments (reviewing his completed exercises for accuracy)",
+      10
+    ],
+    [
+      "relaxing or practicing music (tuning his guitar)",
+      5
+    ],
+    [
+      "relaxing or practicing music (selecting a song to practice)",
+      5
+    ],
+    [
+      "relaxing or practicing music (warming up with scales)",
+      10
+    ],
+    [
+      "relaxing or practicing music (practicing the selected song)",
+      15
+    ],
+    [
+      "relaxing or practicing music (taking a short break to hydrate)",
+      5
+    ],
+    [
+      "relaxing or practicing music (reviewing the song's chord progressions)",
+      10
+    ],
+    [
+      "relaxing or practicing music (practicing the song again, focusing on difficult sections)",
+      10
+    ],
+    [
+      "working on additional music theory assignments (reviewing the assignment guidelines)",
+      10
+    ],
+    [
+      "working on additional music theory assignments (gathering his music theory notes and textbooks)",
+      10
+    ],
+    [
+      "working on additional music theory assignments (outlining the key concepts he needs to cover)",
+      10
+    ],
+    [
+      "working on additional music theory assignments (working on the first section of the assignment)",
+      15
+    ],
+    [
+      "working on additional music theory assignments (taking a short break to stretch and relax)",
+      5
+    ],
+    [
+      "working on additional music theory assignments (reviewing what he has completed so far)",
+      10
     ],
     [
       "finishing up his assignments and preparing for bed",
@@ -312,35 +388,35 @@
       60
     ]
   ],
-  "act_address": "the Ville:Hobbs Cafe:cafe:piano",
-  "act_start_time": "February 13, 2023, 16:07:00",
-  "act_duration": 15,
-  "act_description": "working on his composition project at Hobbs Cafe (creating a rough draft of the first section of his composition)",
-  "act_pronunciatio": "\ud83d\udcdd\u270d\ufe0f",
+  "act_address": "the Ville:Lin family's house:common room:common room table",
+  "act_start_time": "February 13, 2023, 19:34:00",
+  "act_duration": 10,
+  "act_description": "relaxing or practicing music (warming up with scales)",
+  "act_pronunciatio": "\ud83c\udfb6\ud83c\udfb9",
   "act_event": [
     "Eddy Lin",
-    "create",
-    "rough draft"
+    "warm up",
+    "scales"
   ],
-  "act_obj_description": "being played",
-  "act_obj_pronunciatio": "\ud83c\udfad\ud83d\ude14",
+  "act_obj_description": "covered with sheet music and a metronome",
+  "act_obj_pronunciatio": "\ud83c\udfb6\u23f1\ufe0f",
   "act_obj_event": [
-    "piano",
-    "is",
-    "play"
+    "common room table",
+    "be covered",
+    "sheet music and a metronome"
   ],
   "chatting_with": null,
   "chat": null,
   "chatting_with_buffer": {
-    "Mei Lin": -1120,
-    "John Lin": -1942,
-    "Carlos Gomez": -1246,
-    "Isabella Rodriguez": -916,
-    "Sam Moore": -814,
-    "Giorgio Rossi": -712,
-    "Ayesha Khan": -442,
-    "Francisco Lopez": -322,
-    "Jennifer Moore": -76
+    "Mei Lin": -2320,
+    "John Lin": -3142,
+    "Carlos Gomez": -2446,
+    "Isabella Rodriguez": -2116,
+    "Sam Moore": -2014,
+    "Giorgio Rossi": -1912,
+    "Ayesha Khan": -1642,
+    "Francisco Lopez": -1522,
+    "Jennifer Moore": -1276
   },
   "chatting_end_time": null,
   "act_path_set": true,

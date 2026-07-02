@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    24,
-    50
+    38,
+    27
   ],
   "daily_plan_req": "",
   "name": "Jennifer Moore",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 102,
-  "importance_ele_n": 32,
+  "importance_trigger_curr": 186,
+  "importance_ele_n": 16,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 5:00 am",
@@ -235,16 +235,108 @@
       46
     ],
     [
-      "having dinner with her husband, Sam",
-      42
+      "having dinner with her husband, Sam (on the way to having dinner with her husband, Sa)",
+      0
     ],
     [
-      "continuing to work on her watercolor paintings for her upcoming exhibition",
-      300
+      "having dinner with her husband, Sam (conversing about Jennifer Moore and Tom Moreno discussing plans for a joint Valentine's Day party and marketing campaign that incorporates interactive elements and special promotions at The Willow Market.)",
+      13
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (setting up her painting area)",
+      15
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (selecting the watercolor paints she will use)",
+      10
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (on the way to preparing her watercolor paper)",
+      0
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (conversing about Jennifer Moore and Yuriko Yamamoto discussing ways to incorporate local businesses into their upcoming Valentine's Day party, including inviting vendors, highlighting their stories, engaging them through contests and demonstrations, and featuring local musicians.)",
+      22
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (on the way to sketching the outline of her painting)",
+      0
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (conversing about Jennifer Moore and Rajiv Patel discussing their upcoming art exhibitions, focusing on incorporating interactive elements that foster community connection and brainstorming promotional strategies and activities for their shows.)",
+      26
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (mixing colors on her palette)",
+      15
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (on the way to painting the background of her artwork)",
+      0
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (conversing about Francisco Lopez and Jennifer Moore discussing their collaborative plans for a Valentine's Day party, including watercolor paintings, animation projects, and engaging interactive elements.)",
+      19
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (on the way to adding details to the foreground)",
+      0
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (conversing about Abigail Chen and Jennifer Moore collaborating on a Valentine's Day exhibition that integrates Jennifer's watercolor paintings with Abigail's animation project, focusing on local small businesses and discussing which coffee shops and bakeries to feature and how to involve them in the process.)",
+      21
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (stepping back to assess her work)",
+      10
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (making adjustments to the colors and details)",
+      30
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (taking a short break to stretch and relax)",
+      10
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (continuing to paint additional layers)",
+      30
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (working on the final touches of her painting)",
+      30
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (cleaning her brushes and palette)",
+      15
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (reviewing her completed painting)",
+      15
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (taking notes on her painting process for future reference)",
+      15
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (packing up her painting supplies)",
+      4
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (reflecting on her work and planning for the next session)",
+      5
     ],
     [
       "preparing for bed and reflecting on her day",
-      60
+      48
+    ],
+    [
+      "sleeping",
+      7
+    ],
+    [
+      "sleeping",
+      11
     ]
   ],
   "f_daily_schedule_hourly_org": [
@@ -305,15 +397,15 @@
       60
     ]
   ],
-  "act_address": "<persona> Sam Moore",
-  "act_start_time": "February 13, 2023, 16:16:10",
-  "act_duration": 23,
-  "act_description": "conversing about Sam Moore and Jennifer Moore discussing plans for a Valentine's Day party that incorporates Jennifer's watercolor designs, interactive elements, live music, guest contributions, and promotional strategies to engage the community.",
+  "act_address": "<persona> Abigail Chen",
+  "act_start_time": "February 13, 2023, 19:35:00",
+  "act_duration": 21,
+  "act_description": "conversing about Abigail Chen and Jennifer Moore collaborating on a Valentine's Day exhibition that integrates Jennifer's watercolor paintings with Abigail's animation project, focusing on local small businesses and discussing which coffee shops and bakeries to feature and how to involve them in the process.",
   "act_pronunciatio": "\ud83d\udcac",
   "act_event": [
     "Jennifer Moore",
     "chat with",
-    "Sam Moore"
+    "Abigail Chen"
   ],
   "act_obj_description": null,
   "act_obj_pronunciatio": null,
@@ -322,83 +414,86 @@
     null,
     null
   ],
-  "chatting_with": "Sam Moore",
+  "chatting_with": "Abigail Chen",
   "chat": [
     [
-      "Sam Moore",
-      "Hey Jennifer, it's great to see you out here! I was just thinking about our plans for the Valentine's Day party and how we can really make it special with your watercolor designs and the interactive elements we discussed. Have you thought more about the ideas with the quotes and live music?"
+      "Abigail Chen",
+      "Hey Jennifer! I\u2019ve been thinking about our collaboration for the Valentine's Day exhibition. How are your watercolor paintings coming along? I\u2019m excited to see how we can integrate your art with my animation project, especially highlighting local small businesses."
     ],
     [
       "Jennifer Moore",
-      "Yes, I've been brainstorming some quotes that really capture the essence of love and creativity! I think we can pair them with specific pieces of my artwork. As for the live music, I had an idea to coordinate my painting sessions with some of the more emotional pieces of Eddy's composition. What do you think?"
+      "Hi Abigail! I'm really excited about it too! I've been working on a few pieces that I think will blend beautifully with your animations. I love the idea of showcasing local businesses; it really adds a personal touch. How do you envision the integration working?"
     ],
     [
-      "Sam Moore",
-      "That sounds like a wonderful idea! Coordinating your painting with Eddy's emotional pieces will definitely enhance the atmosphere. Do you have any specific quotes in mind that you think would resonate with the audience? And maybe we can also think about how to incorporate some interactive elements that tie everything together."
-    ],
-    [
-      "Jennifer Moore",
-      "I have a few quotes in mind, like 'Art is the most beautiful of all lies' and 'Creativity takes courage.' I think they really tie into the theme of the exhibition. As for the interactive elements, how about we set up a space where guests can contribute their own thoughts on love and creativity? We could even incorporate those into the mural! What do you think?"
-    ],
-    [
-      "Sam Moore",
-      "I love that idea! Creating a space for guests to share their thoughts would make the exhibition even more personal and engaging. We could use those contributions as inspiration for the mural. Let\u2019s also think about how we can integrate some of the interactive technology you and Eddy discussed, like the motion sensors or QR codes. It could really bring the whole experience to life!"
+      "Abigail Chen",
+      "I was thinking we could create interactive elements that allow viewers to learn more about each business featured in the animations. Maybe we can use QR codes or something similar to link to short videos or interviews with the owners? What do you think?"
     ],
     [
       "Jennifer Moore",
-      "Absolutely! We could have QR codes that link to short videos of artists discussing their own interpretations of love and creativity. And I can also create a few watercolor pieces on the spot, inviting guests to add their own touches. This way, we can create a collaborative piece that reflects everyone's voice in the community. What do you think?"
+      "I love that idea, Abigail! Incorporating QR codes to link to videos or interviews would really engage the audience and provide them with deeper insights into the businesses. We could even design the QR codes so they blend into my paintings, making it a seamless part of the artwork. What do you think about that approach?"
     ],
     [
-      "Sam Moore",
-      "I think that's a fantastic approach! Having a collaborative piece will really resonate with the community and make everyone feel involved. Let's also make sure we have some space for people to write their poetry inspired by your artwork. It could add another layer to the exhibition. What do you think about setting up a small reading corner for that?"
-    ],
-    [
-      "Jennifer Moore",
-      "I love the idea of a reading corner! It would be a perfect way for people to express themselves. We could have a small selection of your favorite poetry books as inspiration, too. I think creating a cozy atmosphere there with some soft lighting would encourage people to share their thoughts. Should we start planning the layout for that area now?"
-    ],
-    [
-      "Sam Moore",
-      "Yes, let's sketch out a layout! We can position the reading corner near your painting area to create a nice flow. Maybe we can use some of your watercolor designs as part of the decor around that area to tie everything together. What do you think about that?"
+      "Abigail Chen",
+      "That sounds fantastic! I love the idea of making the QR codes a part of the artwork. It would truly enhance the interactive experience. We should also think about how we can visually represent each business in the animations. Maybe we could use elements from your watercolor style to create a cohesive look? What do you think?"
     ],
     [
       "Jennifer Moore",
-      "That sounds perfect! Using my watercolor designs as decor will definitely create a cohesive feel. I can start sketching some ideas for the layout and the decorations. It's all coming together nicely! Should we also think about how to promote this reading corner and the interactive elements on social media to really draw in the community?"
+      "Absolutely! I can create watercolor elements that reflect the essence of each business. We could even incorporate their logos or products within the animations to give them more character. I think that would help to tell their stories visually. We should brainstorm which businesses to feature and how to represent them. Do you have any specific ones in mind so far?"
     ],
     [
-      "Sam Moore",
-      "That's a great idea, Jennifer! We should definitely promote it on social media to generate excitement and encourage participation. Maybe we can create some eye-catching posts that showcase your watercolor designs and highlight the interactive elements, like the poetry corner and the collaborative mural. Let's also think about a hashtag for the event to make it easy for everyone to share their experiences. What do you think?"
-    ],
-    [
-      "Jennifer Moore",
-      "I love the idea of creating a hashtag! How about something like #ArtOfLove or #CreativeConnections? We can encourage everyone to share their experiences from the exhibition. I\u2019ll also start working on some visuals for the social media posts to highlight the interactive elements, especially the reading corner and collaborative mural. This is going to be such a meaningful event for the community! Do you have any other ideas for promotion?"
-    ],
-    [
-      "Sam Moore",
-      "I think we should also reach out to some local influencers and artists to help spread the word. Maybe they can share their own thoughts on the exhibition or even participate in the reading corner. It could really help us connect with a wider audience! What do you think?"
+      "Abigail Chen",
+      "I was thinking we could feature some local coffee shops and maybe a few artisanal bakeries. Their stories are really inspiring, and I think their products could translate well into both your watercolor style and my animations. What do you think?"
     ],
     [
       "Jennifer Moore",
-      "That's a great idea, Sam! I can reach out to some of my artist friends to see if they're interested in participating. It would be wonderful to have a diverse range of voices in the reading corner. We could also invite them to share their own poetry or thoughts on love and creativity during the event. I'm excited about how this is all coming together! Should we set a date to finalize everything?"
+      "I love the idea of featuring local coffee shops and artisanal bakeries! Their stories are so rich, and I can already picture how their products could blend beautifully into my watercolor style. Let's make a list of specific places we want to highlight and maybe even reach out to them for their input. It would be great to involve them in the process. What do you think about that?"
     ],
     [
-      "Sam Moore",
-      "Absolutely, let's aim to finalize everything by the end of the week! We can meet up for breakfast to go over all the details. How does Thursday sound? That way, we can also brainstorm any last-minute ideas we might have."
+      "Abigail Chen",
+      "I completely agree! Involving them would not only make them feel appreciated but also provide us with valuable insights for our project. Let's start by making a list of the coffee shops and bakeries we want to reach out to. I can draft some questions for the interviews too. How does that sound?"
     ],
     [
       "Jennifer Moore",
-      "Thursday sounds great! I\u2019ll make a list of everything we\u2019ve discussed so we can make sure we cover all the details. I\u2019m really looking forward to finalizing our plans and making this event a success!"
+      "That sounds perfect, Abigail! I can't wait to see your questions for the interviews. Let's compile our list of coffee shops and bakeries so we can start reaching out to them. This is going to be such an exciting project!"
+    ],
+    [
+      "Abigail Chen",
+      "Great! How about we list down a few coffee shops and bakeries we love? I can think of a couple already. We could also brainstorm the questions while we compile the list. This way, we can make sure we're ready to reach out as soon as possible!"
+    ],
+    [
+      "Jennifer Moore",
+      "That sounds like a great plan, Abigail! I can think of a couple of coffee shops that would be perfect for this. How about we include 'The Cozy Cup' and 'Brewed Awakenings'? They're both known for their unique blends and community vibe. What do you think?"
+    ],
+    [
+      "Abigail Chen",
+      "Those are great suggestions! 'The Cozy Cup' has such a warm atmosphere, and I love their seasonal drinks. 'Brewed Awakenings' has some amazing pastries too! Let's definitely include them on our list. I can also think of a few more places to add. How about 'Artisan Bakehouse' and 'Caf\u00e9 Mosaic'? They both have unique stories that could really resonate. Once we finalize the list, we can start drafting our interview questions!"
+    ],
+    [
+      "Jennifer Moore",
+      "I love those additions, Abigail! 'Artisan Bakehouse' and 'Caf\u00e9 Mosaic' sound like fantastic choices. Their unique stories will add so much depth to our project. Let's finalize the list and then we can brainstorm those interview questions together. I\u2019m excited to see where this collaboration takes us!"
+    ],
+    [
+      "Abigail Chen",
+      "Awesome! Let's finalize our list of coffee shops and bakeries, and then we can start drafting those interview questions. I can't wait to get in touch with them and hear their stories! Should we set a time to meet again to go over everything?"
+    ],
+    [
+      "Jennifer Moore",
+      "That sounds like a great idea, Abigail! How about we meet again on Wednesday at 2 PM? We can finalize our list and brainstorm those interview questions then. I\u2019m looking forward to it!"
     ]
   ],
   "chatting_with_buffer": {
-    "Sam Moore": 800,
-    "Francisco Lopez": 524,
-    "John Lin": -220,
-    "Eddy Lin": -76,
-    "Abigail Chen": 68,
-    "Hailey Johnson": 224,
-    "Latoya Williams": 362
+    "Sam Moore": -280,
+    "Francisco Lopez": 716,
+    "John Lin": -1420,
+    "Eddy Lin": -1276,
+    "Abigail Chen": 800,
+    "Hailey Johnson": -976,
+    "Latoya Williams": -838,
+    "Tom Moreno": -118,
+    "Yuriko Yamamoto": 392,
+    "Rajiv Patel": 578
   },
-  "chatting_end_time": "February 13, 2023, 16:40:00",
+  "chatting_end_time": "February 13, 2023, 19:56:00",
   "act_path_set": true,
   "planned_path": []
 }

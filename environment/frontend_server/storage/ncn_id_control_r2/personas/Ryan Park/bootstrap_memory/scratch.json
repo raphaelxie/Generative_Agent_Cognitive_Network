@@ -1,0 +1,354 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 17:09:50",
+  "curr_tile": [
+    80,
+    46
+  ],
+  "daily_plan_req": "",
+  "name": "Ryan Park",
+  "first_name": "Ryan",
+  "last_name": "Park",
+  "age": 29,
+  "innate": "analytical, pragmatic, driven",
+  "learned": "Ryan Park is a software engineer who loves to solve problems. He is constantly looking for ways to improve existing systems.",
+  "currently": "Ryan Park is working on a project to create a new mobile app. He is also reading up on the latest technologies to stay ahead of the curve.",
+  "lifestyle": "Ryan Park goes to bed around 1am, awakes up around 9am, eats dinner around 5pm.",
+  "living_area": "the Ville:Ryan Park's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 246,
+  "importance_ele_n": 2,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "work on the mobile app project from 9:00 am to 12:00 pm",
+    "have lunch and take a short break from 12:00 pm to 1:00 pm",
+    "continue working on the mobile app from 1:00 pm to 4:00 pm",
+    "read up on the latest technologies from 4:00 pm to 5:00 pm",
+    "have dinner at 5:00 pm",
+    "take some time to relax and unwind from 5:30 pm to 7:00 pm",
+    "engage in personal projects or side work from 7:00 pm to 9:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "working on the mobile app project (1) Ryan is reviewing the project requirements and specifications)",
+      15
+    ],
+    [
+      "working on the mobile app project (researching the latest technologies and frameworks relevant to the app)",
+      30
+    ],
+    [
+      "working on the mobile app project (on the way to UI) design)",
+      0
+    ],
+    [
+      "working on the mobile app project (conversing about Ryan Park and Tom Moreno discussing Maria Lopez's initiatives to support local businesses in the upcoming mayoral election, focusing on the potential impact of workshops and community engagement.)",
+      21
+    ],
+    [
+      "working on the mobile app project (setting up the development environment and tools)",
+      15
+    ],
+    [
+      "working on the mobile app project (writing the initial code for the app's core functionality)",
+      30
+    ],
+    [
+      "working on the mobile app project (testing the initial code to ensure it works as intended)",
+      15
+    ],
+    [
+      "working on the mobile app project (debugging any issues found during testing)",
+      30
+    ],
+    [
+      "working on the mobile app project (on the way to documenting the code and writing comments for clarity)",
+      0
+    ],
+    [
+      "working on the mobile app project (conversing about Ryan Park and John Lin discussing plans for a spring festival cocktail workshop, including promotion strategies, tech integration, and community involvement.)",
+      14
+    ],
+    [
+      "working on the mobile app project (preparing a summary of progress made on the project)",
+      5
+    ],
+    [
+      "having lunch and taking a short break (preparing his lunch)",
+      11
+    ],
+    [
+      "having lunch and taking a short break (eating his lunch)",
+      20
+    ],
+    [
+      "having lunch and taking a short break (cleaning up after lunch)",
+      10
+    ],
+    [
+      "having lunch and taking a short break (taking a short walk around his apartment)",
+      10
+    ],
+    [
+      "having lunch and taking a short break (relaxing and listening to music)",
+      5
+    ],
+    [
+      "continuing to work on the mobile app project (continuing to code the mobile app features)",
+      30
+    ],
+    [
+      "continuing to work on the mobile app project (reviewing the code for errors)",
+      20
+    ],
+    [
+      "continuing to work on the mobile app project (debugging the app)",
+      30
+    ],
+    [
+      "continuing to work on the mobile app project (testing the app on different devices)",
+      30
+    ],
+    [
+      "continuing to work on the mobile app project (on the way to on the way to gathering feedback from test users)",
+      0
+    ],
+    [
+      "continuing to work on the mobile app project (conversing about Tom Moreno and Ryan Park discussing the progress of app testing, community engagement workshops, and planning a brainstorming session with local businesses to address topics like digital marketing, financial management, and customer engagement.)",
+      16
+    ],
+    [
+      "continuing to work on the mobile app project (on the way to conversing about Ryan Park and Jane Moreno discussing their collaboration on interactive elements and features for a Valentine's Day party app, including decorations, love quotes, and a section for sharing love stories.)",
+      0
+    ],
+    [
+      "continuing to work on the mobile app project (conversing about Ryan Park and John Lin discussing plans to enhance the spring festival cocktail workshop by integrating a dedicated app, promoting it through social media, and collaborating with local businesses.)",
+      15
+    ],
+    [
+      "continuing to work on the mobile app project (analyzing the feedback and making notes)",
+      20
+    ],
+    [
+      "continuing to work on the mobile app project (implementing changes based on feedback)",
+      29
+    ],
+    [
+      "reading up on the latest technologies",
+      44
+    ],
+    [
+      "having dinner (on the way to preparing the ingredients for dinner)",
+      0
+    ],
+    [
+      "having dinner (conversing about Carlos Gomez and Ryan Park discussing interactive technological elements for their Valentine's Day project, including AR features and a poetry submission platform.)",
+      18
+    ],
+    [
+      "having dinner (cooking the main dish)",
+      20
+    ],
+    [
+      "having dinner (on the way to setting the table)",
+      0
+    ],
+    [
+      "having dinner (conversing about Ryan Park and Ayesha Khan discussing their meal choices, food preferences, their academic projects, and creative ideas for a mobile app and thesis presentation.)",
+      15
+    ],
+    [
+      "having dinner (cooking a side dish)",
+      15
+    ],
+    [
+      "having dinner (plating the food)",
+      10
+    ],
+    [
+      "relaxing and unwinding",
+      52
+    ],
+    [
+      "engaging in personal projects or side work",
+      170
+    ],
+    [
+      "working on personal projects or side work",
+      60
+    ],
+    [
+      "engaging in personal projects or side work",
+      60
+    ],
+    [
+      "sleeping",
+      9
+    ],
+    [
+      "sleeping",
+      6
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "working on the mobile app project",
+      180
+    ],
+    [
+      "having lunch and taking a short break",
+      60
+    ],
+    [
+      "continuing to work on the mobile app project",
+      180
+    ],
+    [
+      "reading up on the latest technologies",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing and unwinding",
+      60
+    ],
+    [
+      "engaging in personal projects or side work",
+      180
+    ],
+    [
+      "working on personal projects or side work",
+      60
+    ],
+    [
+      "engaging in personal projects or side work",
+      60
+    ]
+  ],
+  "act_address": "<persona> Ayesha Khan",
+  "act_start_time": "February 13, 2023, 17:06:10",
+  "act_duration": 15,
+  "act_description": "conversing about Ryan Park and Ayesha Khan discussing their meal choices, food preferences, their academic projects, and creative ideas for a mobile app and thesis presentation.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Ryan Park",
+    "chat with",
+    "Ayesha Khan"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Ayesha Khan",
+  "chat": [
+    [
+      "Ryan Park",
+      "Hey Ayesha! I noticed you're enjoying your meal. What did you order? I'm always on the lookout for good food recommendations."
+    ],
+    [
+      "Ayesha Khan",
+      "I ordered the grilled chicken salad with a lemon vinaigrette. It's really fresh and tasty! What about you? Have you tried anything good here lately?"
+    ],
+    [
+      "Ryan Park",
+      "I haven't tried anything from here yet, but that salad sounds great! I might have to order it next time. Have you been here often?"
+    ],
+    [
+      "Ayesha Khan",
+      "Yeah, I've come here a few times. They have a nice variety of healthy options. I also love their smoothies! What kind of food do you usually enjoy?"
+    ],
+    [
+      "Ryan Park",
+      "I usually enjoy a mix of things, but I try to stick to healthier options these days. Smoothies sound great too! Do you have a favorite flavor?"
+    ],
+    [
+      "Ayesha Khan",
+      "I really love the berry smoothie! It's super refreshing. What about you? Do you have a favorite smoothie flavor?"
+    ],
+    [
+      "Ryan Park",
+      "I think I\u2019d have to try the berry smoothie next time! I usually go for something tropical, like mango or pineapple. Do you usually come here for lunch or dinner?"
+    ],
+    [
+      "Ayesha Khan",
+      "I usually come here for dinner since it's a nice way to unwind after a long day of classes. How about you? Do you come here often for lunch or dinner?"
+    ],
+    [
+      "Ryan Park",
+      "I usually come here for dinner as well, especially after a long day of coding. It's nice to relax with a good meal. By the way, are you working on any interesting projects at school right now?"
+    ],
+    [
+      "Ayesha Khan",
+      "Yes, I'm currently working on my senior thesis about the use of language in Shakespeare\u2019s plays. It's been really fascinating to explore the connections between his work and contemporary literature. What about you? Are you working on any projects related to your coding?"
+    ],
+    [
+      "Ryan Park",
+      "That sounds really interesting! Shakespeare's language has so many layers. I'm currently working on a mobile app project that focuses on interactive elements for a Valentine's Day party. It's been a lot of fun to incorporate new technologies. What do you find most challenging about your thesis?"
+    ],
+    [
+      "Ayesha Khan",
+      "I think the most challenging part has been narrowing down my focus and finding the right contemporary texts to compare with Shakespeare. I'm really interested in how themes of identity and displacement play out in both his work and modern literature. It's been a bit overwhelming at times, but also really rewarding. How about you? What challenges have you faced with your app project?"
+    ],
+    [
+      "Ryan Park",
+      "I can relate to that! One of the biggest challenges for me has been balancing the technical aspects with creative features. I really want to make sure the app is engaging and user-friendly. How do you plan to present your findings in your thesis? Are you thinking of any creative formats?"
+    ],
+    [
+      "Ayesha Khan",
+      "I\u2019m considering creating a multimedia presentation that incorporates visuals and maybe even some audio clips from the plays to enhance my analysis. I think it could really bring the themes to life! What about you? Have you thought about any creative features for your app?"
+    ],
+    [
+      "Ryan Park",
+      "I love that idea! Incorporating multimedia sounds like a fantastic way to engage your audience. For my app, I'm thinking about adding interactive elements like AR features and a section where users can share their love stories or poems. I think it would really create a sense of community. What do you think about that?"
+    ],
+    [
+      "Ayesha Khan",
+      "That sounds like a really engaging feature! I love the idea of creating a community around sharing love stories and poems. It adds a personal touch that makes the app more relatable. Have you thought about how you\u2019ll encourage users to share their stories?"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Tom Moreno": -28,
+    "John Lin": 68,
+    "Jane Moreno": -130,
+    "Carlos Gomez": 572,
+    "Ayesha Khan": 800
+  },
+  "chatting_end_time": "February 13, 2023, 17:21:00",
+  "act_path_set": true,
+  "planned_path": []
+}

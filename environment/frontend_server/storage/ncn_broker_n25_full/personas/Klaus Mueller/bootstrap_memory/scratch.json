@@ -2,7 +2,7 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
     119,
     47
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 54,
-  "importance_ele_n": 50,
+  "importance_trigger_curr": 97,
+  "importance_ele_n": 52,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 8:00 am",
@@ -199,32 +199,160 @@
       10
     ],
     [
-      "eating dinner at Hobbs Cafe (enjoying his meal)",
-      20
+      "eating dinner at Hobbs Cafe (on the way to enjoying his meal)",
+      0
+    ],
+    [
+      "eating dinner at Hobbs Cafe (conversing about Klaus Mueller and Sam Moore discussing Sam's mayoral campaign, community engagement workshops, and potential collaboration on incorporating Klaus's research on gentrification into those workshops.)",
+      17
     ],
     [
       "eating dinner at Hobbs Cafe (taking notes on his meal experience for future reference)",
       5
     ],
     [
-      "eating dinner at Hobbs Cafe (finishing his meal)",
-      10
+      "eating dinner at Hobbs Cafe (on the way to finishing his meal)",
+      0
+    ],
+    [
+      "eating dinner at Hobbs Cafe (conversing about Klaus Mueller and Jennifer Moore discussing the planning of a Valentine's Day party, focusing on integrating local businesses, community discussions on gentrification, and creating engaging interactive elements.)",
+      20
     ],
     [
       "eating dinner at Hobbs Cafe (paying the bill)",
       5
     ],
     [
-      "finishing any remaining work on the research paper at the library",
-      60
+      "finishing any remaining work on the research paper at the library (1) Klaus is reviewing his notes and previous research)",
+      10
     ],
     [
-      "relaxing and possibly reading a book or catching up with friends",
-      180
+      "finishing any remaining work on the research paper at the library (organizing his thoughts and outlining the remaining sections of the paper)",
+      10
+    ],
+    [
+      "finishing any remaining work on the research paper at the library (writing the introduction for the remaining sections)",
+      10
+    ],
+    [
+      "finishing any remaining work on the research paper at the library (drafting the body paragraphs that discuss the impact of gentrification)",
+      15
+    ],
+    [
+      "finishing any remaining work on the research paper at the library (on the way to writing the conclusion of the paper)",
+      0
+    ],
+    [
+      "finishing any remaining work on the research paper at the library (conversing about Klaus Mueller and Ayesha Khan discussing their thesis paper on gentrification and how to incorporate Shakespearean themes, particularly from 'The Tempest', along with contemporary texts and social media narratives.)",
+      19
+    ],
+    [
+      "finishing any remaining work on the research paper at the library (on the way to proofreading the entire paper for grammar and clarity)",
+      0
+    ],
+    [
+      "finishing any remaining work on the research paper at the library (conversing about Klaus Mueller and Maria Lopez discussing their respective projects on gentrification and a campaign, exploring collaboration opportunities, and planning a meeting to brainstorm ideas.)",
+      16
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (relaxing in a comfortable chair at the library)",
+      10
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (checking his phone for messages from friends)",
+      5
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (responding to a message from a friend about meeting up later)",
+      5
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (selecting a book to read from the library shelf)",
+      10
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (finding a quiet spot to read the book)",
+      5
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (reading the first chapter of the book)",
+      15
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (taking a moment to reflect on what he just read)",
+      5
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (checking his phone again for any updates from friends)",
+      5
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (deciding to take a break from reading and stretch)",
+      5
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (grabbing a snack from his bag)",
+      5
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (enjoying his snack while continuing to read)",
+      10
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (texting another friend to see if they want to join him)",
+      5
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (reading another chapter of the book)",
+      15
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (discussing the book with a friend who just arrived)",
+      10
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (listening to his friend's thoughts on the book)",
+      5
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (suggesting they both read the book together)",
+      5
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (planning to meet up with friends later for coffee)",
+      5
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (reading a few more pages of the book)",
+      10
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (taking notes on interesting points from the book)",
+      10
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (checking the time to see how much longer he has at the library)",
+      5
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (wrapping up his reading session)",
+      5
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (discussing plans with his friend for the evening)",
+      5
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (gathering his belongings to leave the library)",
+      5
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (saying goodbye to his friend as they head out)",
+      5
     ],
     [
       "preparing for bed and winding down for the night",
-      120
+      100
     ],
     [
       "sleeping",
@@ -241,6 +369,10 @@
     [
       "sleeping",
       1
+    ],
+    [
+      "sleeping",
+      3
     ]
   ],
   "f_daily_schedule_hourly_org": [
@@ -286,30 +418,33 @@
     ]
   ],
   "act_address": "the Ville:Dorm for Oak Hill College:common room:common room table",
-  "act_start_time": "February 13, 2023, 16:05:00",
-  "act_duration": 21,
-  "act_description": "continuing to write and work on the gentrification paper at the library (conversing about Klaus Mueller and Mei Lin discussing their research on gentrification and ethical theories, particularly focusing on distributive justice and grassroots movements, while planning to meet to share insights and resources.)",
-  "act_pronunciatio": "\ud83d\udcac\ud83d\udcda",
+  "act_start_time": "February 13, 2023, 19:30:00",
+  "act_duration": 15,
+  "act_description": "relaxing and possibly reading a book or catching up with friends (reading the first chapter of the book)",
+  "act_pronunciatio": "\ud83d\udcd6\u2728",
   "act_event": [
     "Klaus Mueller",
-    "converse",
-    "research"
+    "read",
+    "first chapter of the book"
   ],
-  "act_obj_description": "covered with books, papers, and notebooks related to gentrification research",
-  "act_obj_pronunciatio": "\ud83d\udcda\ud83d\udcdd",
+  "act_obj_description": "occupied with books and drinks",
+  "act_obj_pronunciatio": "\ud83d\udcda\u2615",
   "act_obj_event": [
     "common room table",
-    "common room table",
-    "is"
+    "be",
+    "occupied with books and drinks"
   ],
   "chatting_with": null,
   "chat": null,
   "chatting_with_buffer": {
-    "Ayesha Khan": 176,
-    "Giorgio Rossi": 506,
-    "Jane Moreno": -244,
-    "Arthur Burton": -124,
-    "Mei Lin": 710
+    "Ayesha Khan": 356,
+    "Giorgio Rossi": -694,
+    "Jane Moreno": -1444,
+    "Arthur Burton": -1324,
+    "Mei Lin": -490,
+    "Sam Moore": -208,
+    "Jennifer Moore": -16,
+    "Maria Lopez": 494
   },
   "chatting_end_time": null,
   "act_path_set": true,

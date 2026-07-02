@@ -1,0 +1,483 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 17:09:50",
+  "curr_tile": [
+    81,
+    47
+  ],
+  "daily_plan_req": "",
+  "name": "Adam Smith",
+  "first_name": "Adam",
+  "last_name": "Smith",
+  "age": 36,
+  "innate": "thoughtful, reflective, intellectual",
+  "learned": "Adam Smith is a philosopher who loves to explore different ideas. He is always looking for ways to challenge people\u2019s preconceptions.",
+  "currently": "Adam Smith is writing a book about the importance of creativity and how it can shape the world. Adam is also curious about who will be running for the local mayor election next month.",
+  "lifestyle": "Adam Smith goes to bed around 8pm, awakes up around 4am, eats dinner around 5pm.",
+  "living_area": "the Ville:Adam Smith's house:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 121,
+  "importance_ele_n": 43,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "spend an hour reading and researching topics related to creativity from 5:00 am to 6:00 am",
+    "write for two hours on his book from 6:00 am to 8:00 am",
+    "take a short break and enjoy a light breakfast from 8:00 am to 8:30 am",
+    "work on gathering information about local candidates for the mayor election from 8:30 am to 10:00 am",
+    "spend the next hour reflecting on the insights he\u2019s gathered and formulating questions for potential interviews from 10:00 am to 11:00 am",
+    "take a short walk for some fresh air and inspiration from 11:00 am to 11:30 am"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "gathering information about local candidates for the mayor election (researching local news articles about the mayoral election)",
+      15
+    ],
+    [
+      "gathering information about local candidates for the mayor election (visiting the official city website to check for candidate announcements)",
+      10
+    ],
+    [
+      "gathering information about local candidates for the mayor election (on the way to looking up candidates' social media profiles for their platforms and public statements)",
+      0
+    ],
+    [
+      "gathering information about local candidates for the mayor election (conversing about Tom Moreno and Adam Smith discussing their opinions on mayoral candidates, particularly focusing on Sam Moore's disconnect with local businesses and the promising initiatives of Maria Lopez to support small businesses.)",
+      17
+    ],
+    [
+      "gathering information about local candidates for the mayor election (taking notes on candidates' key policies and positions)",
+      10
+    ],
+    [
+      "gathering information about local candidates for the mayor election (on the way to reviewing candidate endorsements and public support)",
+      0
+    ],
+    [
+      "gathering information about local candidates for the mayor election (conversing about Abigail Chen and Adam Smith discussing her animation project and how to incorporate local issues, particularly Maria Lopez's initiatives for small businesses, into their collaboration.)",
+      22
+    ],
+    [
+      "reflecting on the insights he\u2019s gathered and formulating questions for potential interviews (on the way to 1) Adam is reviewing the notes he took while gathering information about local candidates)",
+      0
+    ],
+    [
+      "reflecting on the insights he\u2019s gathered and formulating questions for potential interviews (conversing about Arthur Burton and Adam Smith discussing local election candidates, particularly Maria Lopez, and planning to attend her events together while also exploring new cocktail recipes that incorporate local flavors.)",
+      19
+    ],
+    [
+      "reflecting on the insights he\u2019s gathered and formulating questions for potential interviews (identifying key themes and trends from the gathered information)",
+      10
+    ],
+    [
+      "reflecting on the insights he\u2019s gathered and formulating questions for potential interviews (on the way to brainstorming potential questions for interviews based on the identified themes)",
+      0
+    ],
+    [
+      "reflecting on the insights he\u2019s gathered and formulating questions for potential interviews (conversing about Adam Smith and John Lin discussing ideas for workshops and events to benefit local entrepreneurs, including gathering input from local business owners and structuring the workshops effectively.)",
+      18
+    ],
+    [
+      "reflecting on the insights he\u2019s gathered and formulating questions for potential interviews (refining the questions to ensure they are clear and thought-provoking)",
+      10
+    ],
+    [
+      "reflecting on the insights he\u2019s gathered and formulating questions for potential interviews (considering the type of responses he hopes to elicit from the candidates)",
+      6
+    ],
+    [
+      "taking a short walk for some fresh air and inspiration (on the way to 1) Adam is stepping outside and taking a deep breath of fresh air)",
+      0
+    ],
+    [
+      "taking a short walk for some fresh air and inspiration (conversing about Latoya Williams and Adam Smith discussing their collaboration on projects that incorporate insights from local business owners, photography, and local politics, while preparing for a meeting with Abigail.)",
+      22
+    ],
+    [
+      "taking a short walk for some fresh air and inspiration (walking down the street, observing the surroundings)",
+      5
+    ],
+    [
+      "taking a short walk for some fresh air and inspiration (noticing the different colors of the trees and flowers)",
+      5
+    ],
+    [
+      "taking a short walk for some fresh air and inspiration (reflecting on his thoughts about creativity while walking)",
+      5
+    ],
+    [
+      "taking a short walk for some fresh air and inspiration (listening to the sounds of nature, such as birds chirping)",
+      5
+    ],
+    [
+      "taking a short walk for some fresh air and inspiration (thinking about potential interview questions for his book)",
+      5
+    ],
+    [
+      "taking a short walk for some fresh air and inspiration (walking to a nearby park to change his scenery)",
+      5
+    ],
+    [
+      "taking a short walk for some fresh air and inspiration (sitting on a bench in the park to gather his thoughts)",
+      5
+    ],
+    [
+      "taking a short walk for some fresh air and inspiration (jotting down ideas in his notebook that come to mind)",
+      3
+    ],
+    [
+      "continuing to work on his book, focusing on the importance of creativity in shaping the world (continuing to outline the main themes of his book)",
+      15
+    ],
+    [
+      "continuing to work on his book, focusing on the importance of creativity in shaping the world (researching examples of creativity in various fields)",
+      20
+    ],
+    [
+      "continuing to work on his book, focusing on the importance of creativity in shaping the world (on the way to writing the introduction to the chapter on creativity)",
+      0
+    ],
+    [
+      "continuing to work on his book, focusing on the importance of creativity in shaping the world (conversing about Adam Smith and Sam Moore discussing a Valentine's Day party and art exhibition, focusing on incorporating local artists, interactive activities, and involving local schools to enhance community engagement.)",
+      20
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can influence community engagement and local politics (on the way to 1) Adam is reviewing his previous notes on community engagement)",
+      0
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can influence community engagement and local politics (conversing about Adam Smith and Arthur Burton discussing Maria Lopez's local election campaign events, brainstorming cocktail recipes with local flavors, food pairings, and strategies for engaging the audience during a cocktail demo, as well as promoting the event on social media.)",
+      20
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can influence community engagement and local politics (researching examples of creative initiatives in local politics)",
+      15
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can influence community engagement and local politics (on the way to outlining key points to include in the chapter)",
+      0
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can influence community engagement and local politics (conversing about Adam Smith and Giorgio Rossi discussing how creativity, particularly through mathematical patterns in art, can enhance community engagement and lead to a collaborative event that combines interactive art stations with discussions on local issues and entrepreneurship.)",
+      22
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can influence community engagement and local politics (drafting the introduction for the chapter)",
+      10
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can influence community engagement and local politics (writing about specific case studies of successful community engagement)",
+      3
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can foster innovation in various fields (continuing his research on creativity in various fields)",
+      15
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can foster innovation in various fields (on the way to outlining key points for the chapter)",
+      0
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can foster innovation in various fields (conversing about Rajiv Patel and Adam Smith discussing ideas for incorporating interactive elements into Rajiv's upcoming solo art show focused on community and connection, including brainstorming promotional strategies and potential collaborators.)",
+      21
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can foster innovation in various fields (on the way to writing the introduction for the chapter)",
+      0
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can foster innovation in various fields (conversing about Hailey Johnson and Adam Smith discussing the blending of artistic mediums in her novel and exploring interactive elements to engage readers through events and a digital platform.)",
+      24
+    ],
+    [
+      "continuing to work on his book, focusing on the role of creativity in problem-solving and decision-making (1) Adam is reviewing his previous notes on creativity and decision-making)",
+      10
+    ],
+    [
+      "continuing to work on his book, focusing on the role of creativity in problem-solving and decision-making (outlining key points he wants to cover in this section of the book)",
+      10
+    ],
+    [
+      "continuing to work on his book, focusing on the role of creativity in problem-solving and decision-making (researching examples of creativity in problem-solving from various fields)",
+      15
+    ],
+    [
+      "continuing to work on his book, focusing on the role of creativity in problem-solving and decision-making (taking notes on the research findings and how they relate to his thesis)",
+      3
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can drive social change and community development (on the way to 1) Adam is reviewing his previous notes on creativity and social change)",
+      0
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can drive social change and community development (conversing about Carmen Ortiz and Adam Smith discussing creativity in problem-solving, the design of an eco-friendly product display, collaboration with local artists for an event, and strategies for marketing the event to engage the community.)",
+      24
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can drive social change and community development (researching case studies of creative initiatives that have led to community development)",
+      15
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can drive social change and community development (on the way to outlining key points he wants to include in this section of the book)",
+      0
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can drive social change and community development (conversing about Tom Moreno and Adam Smith discussing the planning and promotion of a Valentine's Day party that incorporates local businesses and artists to enhance community engagement and creativity.)",
+      21
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can drive social change and community development (on the way to drafting the introduction to this section, focusing on the importance of creativity in community contexts)",
+      0
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can drive social change and community development (conversing about Mei Lin and Adam Smith discussing plans for a Valentine's Day party, including interactive art stations, local artists, musicians, and a collaborative mural.)",
+      13
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can enhance personal growth and self-expression (on the way to 1) Adam is reviewing his previous notes on personal growth and self-expression)",
+      0
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can enhance personal growth and self-expression (conversing about John Lin and Adam Smith discussing plans for the Valentine's Day party, specifically focusing on interactive art stations, a collaborative mural involving local artists, community engagement through brainstorming sessions and surveys, and the involvement of local businesses.)",
+      16
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can enhance personal growth and self-expression (brainstorming key concepts related to creativity and personal growth)",
+      15
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can enhance personal growth and self-expression (outlining the chapter structure for this section of the book)",
+      10
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can enhance personal growth and self-expression (writing the introduction for this chapter)",
+      10
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can enhance personal growth and self-expression (drafting examples of how creativity has impacted individuals' personal growth)",
+      2
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can enhance collaboration and teamwork (1) Adam is reviewing his previous notes on collaboration and teamwork)",
+      10
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can enhance collaboration and teamwork (researching examples of creative collaboration in various fields)",
+      15
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can enhance collaboration and teamwork (outlining key points to include in the chapter)",
+      10
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can enhance collaboration and teamwork (writing the introduction for the chapter)",
+      10
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can enhance collaboration and teamwork (drafting sections on the benefits of creative collaboration)",
+      9
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can be applied in everyday life and personal experiences",
+      60
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can influence personal relationships and social interactions",
+      60
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can enhance personal relationships and social interactions",
+      60
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can influence personal development and self-improvement",
+      120
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "gathering information about local candidates for the mayor election",
+      60
+    ],
+    [
+      "reflecting on the insights he\u2019s gathered and formulating questions for potential interviews",
+      60
+    ],
+    [
+      "taking a short walk for some fresh air and inspiration",
+      60
+    ],
+    [
+      "continuing to work on his book, focusing on the importance of creativity in shaping the world",
+      60
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can influence community engagement and local politics",
+      60
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can foster innovation in various fields",
+      60
+    ],
+    [
+      "continuing to work on his book, focusing on the role of creativity in problem-solving and decision-making",
+      60
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can drive social change and community development",
+      60
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can enhance personal growth and self-expression",
+      60
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can enhance collaboration and teamwork",
+      60
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can be applied in everyday life and personal experiences",
+      60
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can influence personal relationships and social interactions",
+      60
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can enhance personal relationships and social interactions",
+      60
+    ],
+    [
+      "continuing to work on his book, focusing on how creativity can influence personal development and self-improvement",
+      120
+    ]
+  ],
+  "act_address": "<persona> John Lin",
+  "act_start_time": "February 13, 2023, 17:01:00",
+  "act_duration": 16,
+  "act_description": "conversing about John Lin and Adam Smith discussing plans for the Valentine's Day party, specifically focusing on interactive art stations, a collaborative mural involving local artists, community engagement through brainstorming sessions and surveys, and the involvement of local businesses.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Adam Smith",
+    "chat with",
+    "John Lin"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "John Lin",
+  "chat": [
+    [
+      "John Lin",
+      "Hey Adam, I was just thinking about the Valentine's Day party. Have you made any progress on the interactive art stations? I think they could really enhance the community vibe we're aiming for."
+    ],
+    [
+      "Adam Smith",
+      "I have some ideas about incorporating local artists and musicians to make the stations more engaging. I think it would be great to have a collaborative mural as part of it. What do you think about that?"
+    ],
+    [
+      "John Lin",
+      "I love the idea of a collaborative mural! It would not only showcase local talent but also give the community a chance to express themselves. Do you have any specific artists in mind for this? And maybe we can brainstorm some themes that resonate with everyone?"
+    ],
+    [
+      "Adam Smith",
+      "I was thinking of reaching out to some local artists who have worked on community projects before. As for themes, how about something that reflects our town's history or perhaps a celebration of diversity? We could even gather input from the community on what they'd like to see in the mural."
+    ],
+    [
+      "John Lin",
+      "Those themes sound fantastic! I think involving the community in the brainstorming process would really make the mural special. Maybe we can set up a small meeting or a survey to gather their ideas? It could be a great way to get everyone excited about the party too."
+    ],
+    [
+      "Adam Smith",
+      "That's a great idea! A meeting or survey would really help us gauge community interest and get some creative input. We could also use social media to reach a wider audience. How about we draft a quick outline for the meeting and decide on a date?"
+    ],
+    [
+      "John Lin",
+      "That sounds good! How about we aim for later this week? I can create a draft for the meeting outline, and we can finalize it together. Also, should we consider reaching out to any local businesses to get them involved in the party?"
+    ],
+    [
+      "Adam Smith",
+      "Yes, involving local businesses would be a great way to enhance the party! We could offer them a platform to showcase their products or services at the event. Let's compile a list of potential businesses to reach out to. I can think of a few that might be interested."
+    ],
+    [
+      "John Lin",
+      "Great! I can start by making a list of local businesses we could contact. Maybe we can also think of some benefits for them to participate, like promoting their services during the event. Let\u2019s meet up later this week to finalize our plans and review the survey outline too."
+    ],
+    [
+      "Adam Smith",
+      "That sounds like a solid plan, John! I\u2019ll think about some specific businesses to include on our list. Once we have everything drafted, we can reach out to them and see who\u2019s interested in participating. Let\u2019s touch base later this week to finalize the details."
+    ],
+    [
+      "John Lin",
+      "Perfect! I'll work on the draft and the list of businesses. Should we aim for Thursday or Friday for our meeting? It\u2019ll give us enough time to prepare everything."
+    ],
+    [
+      "Adam Smith",
+      "How about Thursday afternoon? That way, we\u2019ll have some time to finalize everything before the weekend. Plus, we can review the survey outline then as well."
+    ],
+    [
+      "John Lin",
+      "Thursday afternoon works for me! Let's say around 2 PM? That way we can both have some time to gather our thoughts before the meeting."
+    ],
+    [
+      "Adam Smith",
+      "Sounds good! I'll mark it on my calendar for Thursday at 2 PM. I'm looking forward to finalizing our plans and getting the community involved. If anything else comes to mind before then, just let me know!"
+    ],
+    [
+      "John Lin",
+      "Absolutely, Adam! I\u2019ll make sure to gather some ideas for the survey as well. It\u2019ll be exciting to see how the community responds. Looking forward to our meeting on Thursday!"
+    ],
+    [
+      "Adam Smith",
+      "Great! I\u2019ll also draft some questions for the survey to make sure we cover all the important points. Let\u2019s keep the momentum going as we get closer to the party!"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Tom Moreno": 668,
+    "Abigail Chen": -1714,
+    "Arthur Burton": -538,
+    "John Lin": 800,
+    "Latoya Williams": -1204,
+    "Sam Moore": -700,
+    "Giorgio Rossi": -334,
+    "Rajiv Patel": -70,
+    "Hailey Johnson": 104,
+    "Carmen Ortiz": 506,
+    "Mei Lin": 746
+  },
+  "chatting_end_time": "February 13, 2023, 17:17:00",
+  "act_path_set": true,
+  "planned_path": []
+}

@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    79,
-    49
+    73,
+    69
   ],
   "daily_plan_req": "Tom Moreno opens The Willow Market and Pharmacy at 8am, stands behind the grocery counter, and goes home afterwards to eat dinner with his wife.",
   "name": "Tom Moreno",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 45,
-  "importance_ele_n": 70,
+  "importance_trigger_curr": 17,
+  "importance_ele_n": 76,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 7:00 am",
@@ -227,32 +227,104 @@
       20
     ],
     [
-      "continuing to assist customers at The Willow Market and Pharmacy (preparing a special order for a customer)",
-      15
+      "continuing to assist customers at The Willow Market and Pharmacy (on the way to preparing a special order for a customer)",
+      0
     ],
     [
-      "continuing to assist customers at The Willow Market and Pharmacy (helping a customer find a gift item)",
-      4
+      "continuing to assist customers at The Willow Market and Pharmacy (conversing about Tom Moreno and Ryan Park discussing innovative social media strategies and interactive elements to promote Maria Lopez's initiatives for local businesses at an upcoming community event.)",
+      18
+    ],
+    [
+      "continuing to assist customers at The Willow Market and Pharmacy (on the way to helping a customer find a gift item)",
+      0
+    ],
+    [
+      "continuing to assist customers at The Willow Market and Pharmacy (conversing about Jennifer Moore and Tom Moreno discussing plans for a joint Valentine's Day party and marketing campaign that incorporates interactive elements and special promotions at The Willow Market.)",
+      1
     ],
     [
       "continuing to assist customers at The Willow Market and Pharmacy (assisting a customer with a payment issue)",
       10
     ],
     [
-      "continuing to assist customers at The Willow Market and Pharmacy (tidying up the store before closing)",
-      5
+      "continuing to assist customers at The Willow Market and Pharmacy (on the way to tidying up the store before closing)",
+      0
     ],
     [
-      "closing The Willow Market and Pharmacy for the day",
-      60
+      "continuing to assist customers at The Willow Market and Pharmacy (conversing about Tom Moreno and Francisco Lopez collaborating to plan a Valentine's Day party, discussing decorations, interactive elements, promoting the event, and reaching out to local artists and businesses.)",
+      16
+    ],
+    [
+      "closing The Willow Market and Pharmacy for the day (on the way to checking the inventory to ensure all items are accounted for)",
+      0
+    ],
+    [
+      "closing The Willow Market and Pharmacy for the day (conversing about Yuriko Yamamoto and Tom Moreno discussing their plans for a collaborative Valentine's Day party that highlights local businesses, including ideas for vendors, interactive elements, activities, and promotional strategies.)",
+      18
+    ],
+    [
+      "closing The Willow Market and Pharmacy for the day (restocking shelves with any items that are low)",
+      15
+    ],
+    [
+      "closing The Willow Market and Pharmacy for the day (cleaning the grocery counter and surrounding areas)",
+      10
+    ],
+    [
+      "closing The Willow Market and Pharmacy for the day (counting the cash register to ensure the total matches the sales for the day)",
+      10
+    ],
+    [
+      "closing The Willow Market and Pharmacy for the day (preparing the closing report for the day\u2019s sales)",
+      10
     ],
     [
       "having dinner with his wife Jane",
-      60
+      46
     ],
     [
-      "discussing the upcoming local mayor election with Jane and sharing his thoughts about Sam Moore",
-      120
+      "discussing the upcoming local mayor election with Jane and sharing his thoughts about Sam Moore (on the way to gathering his thoughts on the local mayor election)",
+      0
+    ],
+    [
+      "discussing the upcoming local mayor election with Jane and sharing his thoughts about Sam Moore (conversing about Tom and Jane Moreno discussing their plans for the upcoming town hall meeting, including gathering input from other local business owners, preparing handouts, sharing experiences from their business, and inviting community members to ensure diverse perspectives are represented.)",
+      20
+    ],
+    [
+      "discussing the upcoming local mayor election with Jane and sharing his thoughts about Sam Moore (asking Jane about her thoughts on the election)",
+      10
+    ],
+    [
+      "discussing the upcoming local mayor election with Jane and sharing his thoughts about Sam Moore (sharing his opinions on the candidates)",
+      15
+    ],
+    [
+      "discussing the upcoming local mayor election with Jane and sharing his thoughts about Sam Moore (discussing the issues that matter to him in the election)",
+      15
+    ],
+    [
+      "discussing the upcoming local mayor election with Jane and sharing his thoughts about Sam Moore (listening to Jane's perspective on the candidates)",
+      10
+    ],
+    [
+      "discussing the upcoming local mayor election with Jane and sharing his thoughts about Sam Moore (expressing his concerns about Sam Moore's policies)",
+      15
+    ],
+    [
+      "discussing the upcoming local mayor election with Jane and sharing his thoughts about Sam Moore (debating the pros and cons of Sam Moore with Jane)",
+      15
+    ],
+    [
+      "discussing the upcoming local mayor election with Jane and sharing his thoughts about Sam Moore (discussing potential impacts of the election results on their community)",
+      5
+    ],
+    [
+      "discussing the upcoming local mayor election with Jane and sharing his thoughts about Sam Moore (summarizing their discussion and agreeing on key points)",
+      10
+    ],
+    [
+      "discussing the upcoming local mayor election with Jane and sharing his thoughts about Sam Moore (planning to research more about the candidates before the election)",
+      5
     ],
     [
       "continuing to discuss the upcoming local mayor election with Jane and sharing his thoughts about Sam Moore",
@@ -313,101 +385,39 @@
       60
     ]
   ],
-  "act_address": "<persona> Adam Smith",
-  "act_start_time": "February 13, 2023, 16:06:40",
-  "act_duration": 20,
-  "act_description": "conversing about Tom Moreno and Adam Smith discussing plans for a community event to promote Maria Lopez's initiatives and support local businesses while fostering creativity and collaboration.",
-  "act_pronunciatio": "\ud83d\udcac",
+  "act_address": "the Ville:Moreno family's house:common room:common room table",
+  "act_start_time": "February 13, 2023, 18:58:00",
+  "act_duration": 46,
+  "act_description": "having dinner with his wife Jane",
+  "act_pronunciatio": "\ud83c\udf7d\ufe0f\u2764",
   "act_event": [
     "Tom Moreno",
-    "chat with",
-    "Adam Smith"
+    "have",
+    "dinner with his wife Jane"
   ],
-  "act_obj_description": null,
-  "act_obj_pronunciatio": null,
+  "act_obj_description": "set for dinner with plates and utensils arranged, partially filled with food",
+  "act_obj_pronunciatio": "\ud83c\udf7d\ufe0f\ud83c\udf72",
   "act_obj_event": [
-    null,
-    null,
-    null
+    "common room table",
+    "set",
+    "dinner"
   ],
-  "chatting_with": "Adam Smith",
-  "chat": [
-    [
-      "Tom Moreno",
-      "Hey Adam, I heard you were working on your book about creativity in problem-solving. That sounds interesting! Have you found any new techniques that you think would resonate with local business owners? By the way, have you been following the mayoral race? I think Maria Lopez might have some great initiatives for us small businesses."
-    ],
-    [
-      "Adam Smith",
-      "Thanks, Tom! I've been exploring techniques like brainstorming sessions that incorporate visual storytelling\u2014it's a great way to engage people and foster creativity. I definitely think Maria Lopez's initiatives could provide valuable support for our local businesses, especially with the workshops she's proposing. What do you think about how those could impact our community?"
-    ],
-    [
-      "Tom Moreno",
-      "I think the workshops could really help us connect with other business owners and share best practices. Plus, having someone like Maria advocating for us could make a big difference. Have you thought about collaborating with her campaign on any events?"
-    ],
-    [
-      "Adam Smith",
-      "I haven't thought about collaborating just yet, but that's a great idea! I believe combining our efforts could amplify our message and engage the community even more. Maybe we could organize an event that highlights her initiatives while also showcasing local businesses and their creativity. What do you think?"
-    ],
-    [
-      "Tom Moreno",
-      "I love that idea! We could host a community day at The Willow Market where local businesses can set up booths, share their stories, and participate in some of the workshops Maria is offering. It could really bring everyone together and show the strength of our community. Let's brainstorm some details!"
-    ],
-    [
-      "Adam Smith",
-      "That sounds fantastic, Tom! We could even include some interactive art installations to make it more engaging. Maybe we can reach out to local artists to contribute as well. Let's set a time to brainstorm further and outline our ideas for the event!"
-    ],
-    [
-      "Tom Moreno",
-      "Absolutely! How about we meet later this week to start fleshing out the details? We can also think about who else we might want to involve, like Sarah from the bakery for her insights. I think collaboration is key here."
-    ],
-    [
-      "Adam Smith",
-      "That sounds great, Tom! Let's aim for Wednesday afternoon if that works for you. We can draft a plan and see who else we can bring on board. I\u2019ll also do some research on local artists who might be interested in participating. Collaboration will definitely strengthen our efforts! Looking forward to it!"
-    ],
-    [
-      "Tom Moreno",
-      "Sounds perfect! I\u2019ll make sure to gather some ideas from other local business owners before we meet. It\u2019ll be great to have everyone's input. I'm excited to see how this all comes together!"
-    ],
-    [
-      "Adam Smith",
-      "Great! I\u2019ll also reach out to some of the artists I have in mind to see if they\u2019re interested in getting involved. It would be amazing to have their creativity featured at the event. Let\u2019s touch base on Wednesday and bring all our ideas together. I'm really looking forward to this collaboration!"
-    ],
-    [
-      "Tom Moreno",
-      "Awesome! I\u2019ll also gather some articles about Maria Lopez's initiatives to share with you. Let\u2019s make this event not just fun, but also informative for everyone involved. See you Wednesday!"
-    ],
-    [
-      "Adam Smith",
-      "That sounds like a solid plan, Tom! I'm looking forward to seeing what you gather. And if you come across any specific challenges that local business owners are facing, let\u2019s make sure to address those during the event as well. I think it\u2019s important we create a space for open dialogue. See you soon!"
-    ],
-    [
-      "Tom Moreno",
-      "Absolutely, Adam! I\u2019ll make sure to bring up any challenges the local business owners mention. It\u2019s crucial we create a supportive environment where everyone feels heard. Let\u2019s also think about how we can promote the event to get a good turnout. I\u2019m sure the community will be eager to join in! See you Wednesday!"
-    ],
-    [
-      "Adam Smith",
-      "Absolutely, Tom! Promoting the event will be key. Perhaps we could utilize social media and local newsletters to spread the word. I can draft a message highlighting what the event will offer and the importance of community involvement. Let's ensure we reach as many people as possible!"
-    ],
-    [
-      "Tom Moreno",
-      "That sounds like a great plan, Adam! I\u2019ll start gathering some ideas and feedback from other business owners about what they\u2019d like to see at the event. I think we could also include some local success stories to inspire others. Let\u2019s make sure to bring this community together in a meaningful way. Looking forward to our meeting on Wednesday!"
-    ],
-    [
-      "Adam Smith",
-      "That\u2019s a great idea, Tom! Including local success stories could really motivate and inspire everyone attending. I\u2019ll also think about how we can showcase some of those stories during the event. Let\u2019s keep the momentum going and make this an impactful experience for the community!"
-    ]
-  ],
+  "chatting_with": null,
+  "chat": null,
   "chatting_with_buffer": {
-    "Jane Moreno": 218,
-    "Adam Smith": 800,
-    "Ryan Park": -1522,
-    "John Lin": -1324,
-    "Arthur Burton": -1174,
-    "Isabella Rodriguez": -676,
-    "Mei Lin": -508,
-    "Ayesha Khan": -322
+    "Jane Moreno": 548,
+    "Adam Smith": -358,
+    "Ryan Park": -244,
+    "John Lin": -2524,
+    "Arthur Burton": -2374,
+    "Isabella Rodriguez": -1876,
+    "Mei Lin": -1708,
+    "Ayesha Khan": -1522,
+    "Jennifer Moore": -118,
+    "Francisco Lopez": -16,
+    "Yuriko Yamamoto": 98
   },
-  "chatting_end_time": "February 13, 2023, 16:27:00",
+  "chatting_end_time": null,
   "act_path_set": true,
   "planned_path": []
 }

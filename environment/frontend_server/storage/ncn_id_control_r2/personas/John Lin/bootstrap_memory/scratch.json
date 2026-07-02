@@ -1,0 +1,504 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 17:09:50",
+  "curr_tile": [
+    82,
+    47
+  ],
+  "daily_plan_req": "John Lin goes to the Willow Market and Pharmacy around 9am to open the pharmacy counter. He stands behind the counter until 5pm and returns home.",
+  "name": "John Lin",
+  "first_name": "John",
+  "last_name": "Lin",
+  "age": 45,
+  "innate": "patient, kind, organized",
+  "learned": "John Lin is a pharmacy shop keeper at the Willow Market and Pharmacy who loves to help people. He is always looking for ways to make the process of getting medication easier for his customers.",
+  "currently": "John Lin is living with his wife, Mei Lin, and son, Eddy Lin, and is shop keeping a pharmacy at the Willow Market and Pharmacy. He is also taking online classes to stay up to date on new medications and treatments. John is also curious about who will be running for the local mayor election next month and he is asking everyone he meets about who will be running in the election.",
+  "lifestyle": "John Lin goes to bed around 10pm, awakes up around 6am, eats dinner around 5pm.",
+  "living_area": "the Ville:Lin family's house:Mei and John Lin's bedroom",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 115,
+  "importance_ele_n": 49,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 6:00 am",
+    "open the pharmacy counter at 9:00 am",
+    "stand behind the counter and assist customers until 5:00 pm",
+    "return home and have dinner with his family at 5:30 pm",
+    "spend time with his wife and son from 6:00 pm to 7:30 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "completing his morning routine and having breakfast with his family",
+      60
+    ],
+    [
+      "getting ready for the day and preparing to leave for the pharmacy",
+      60
+    ],
+    [
+      "opening the pharmacy counter at Willow Market and Pharmacy (on the way to on the way to checking the pharmacy inventory)",
+      0
+    ],
+    [
+      "opening the pharmacy counter at Willow Market and Pharmacy (conversing about Eddy Lin and John Lin discussing their plans for the day, including Eddy's classes at Oak Hill College and John's interest in gathering information about local mayoral candidates while also planning to share their findings during lunch.)",
+      12
+    ],
+    [
+      "opening the pharmacy counter at Willow Market and Pharmacy (conversing about John Lin and Mei Lin discussing their busy day, including Mei's philosophy class and John's work at the pharmacy, while also planning to share insights about local mayoral candidates and catching up on family stories during lunch.)",
+      14
+    ],
+    [
+      "opening the pharmacy counter at Willow Market and Pharmacy (organizing the medication shelves)",
+      15
+    ],
+    [
+      "opening the pharmacy counter at Willow Market and Pharmacy (setting up the cash register)",
+      10
+    ],
+    [
+      "opening the pharmacy counter at Willow Market and Pharmacy (reviewing the schedule for the day)",
+      5
+    ],
+    [
+      "opening the pharmacy counter at Willow Market and Pharmacy (checking for any special orders or deliveries)",
+      10
+    ],
+    [
+      "opening the pharmacy counter at Willow Market and Pharmacy (preparing the pharmacy counter for customers)",
+      5
+    ],
+    [
+      "assisting customers at the pharmacy (on the way to assisting a customer with their prescription)",
+      0
+    ],
+    [
+      "assisting customers at the pharmacy (conversing about John Lin and Tom Moreno discussing Maria Lopez's initiatives to support local businesses and their potential impact, as well as the types of workshops that may be offered, their goals for attending, and the importance of networking with other business owners.)",
+      17
+    ],
+    [
+      "assisting customers at the pharmacy (answering a customer's question about medication side effects)",
+      10
+    ],
+    [
+      "assisting customers at the pharmacy (on the way to restocking shelves with over-the-counter medications)",
+      0
+    ],
+    [
+      "assisting customers at the pharmacy (conversing about Adam Smith and John Lin discussing ideas for workshops and events to benefit local entrepreneurs, including gathering input from local business owners and structuring the workshops effectively.)",
+      18
+    ],
+    [
+      "assisting customers at the pharmacy (on the way to processing a return for a customer)",
+      0
+    ],
+    [
+      "assisting customers at the pharmacy (conversing about John Lin and Arthur Burton discussing plans for a spring festival cocktail workshop that highlights local produce, engages the community, and involves local farmers and musicians.)",
+      20
+    ],
+    [
+      "assisting customers at the pharmacy (on the way to helping a customer find a specific product)",
+      0
+    ],
+    [
+      "assisting customers at the pharmacy (conversing about Ryan Park and John Lin discussing plans for a spring festival cocktail workshop, including promotion strategies, tech integration, and community involvement.)",
+      14
+    ],
+    [
+      "assisting customers at the pharmacy (taking a short break to hydrate)",
+      5
+    ],
+    [
+      "assisting customers at the pharmacy (assisting a customer with insurance questions)",
+      15
+    ],
+    [
+      "assisting customers at the pharmacy (preparing a medication for a customer)",
+      15
+    ],
+    [
+      "assisting customers at the pharmacy (checking inventory levels for prescription medications)",
+      10
+    ],
+    [
+      "assisting customers at the pharmacy (answering a phone call from a customer)",
+      5
+    ],
+    [
+      "assisting customers at the pharmacy (on the way to providing advice on cold and flu remedies to a customer)",
+      0
+    ],
+    [
+      "assisting customers at the pharmacy (conversing about John Lin offering to help Isabella Rodriguez with decorations and preparations for a Valentine's Day party, including choosing flowers and setting up lights.)",
+      11
+    ],
+    [
+      "assisting customers at the pharmacy (assisting a customer with a complicated prescription)",
+      20
+    ],
+    [
+      "assisting customers at the pharmacy (on the way to taking a moment to organize the counter area)",
+      0
+    ],
+    [
+      "assisting customers at the pharmacy (conversing about John and Mei Lin discussing their plans for dinner, insights on mayoral candidates, Eddy's school project on music and emotions, and how to incorporate family activities related to music and ethics.)",
+      16
+    ],
+    [
+      "assisting customers at the pharmacy (on the way to helping a customer with a medication refill)",
+      0
+    ],
+    [
+      "assisting customers at the pharmacy (conversing about Jane Moreno and John Lin discussing their dinner plans, local mayoral candidates, and agreeing to meet at a caf\u00e9 to share insights after grocery shopping.)",
+      8
+    ],
+    [
+      "assisting customers at the pharmacy (on the way to discussing new medications with a customer)",
+      0
+    ],
+    [
+      "assisting customers at the pharmacy (conversing about John Lin and Jennifer Moore discussing local mayoral candidates' initiatives to support local businesses and planning community engagement events, including art workshops and exhibits.)",
+      18
+    ],
+    [
+      "assisting customers at the pharmacy (checking the expiration dates on products)",
+      10
+    ],
+    [
+      "assisting customers at the pharmacy (assisting a customer with a payment issue)",
+      10
+    ],
+    [
+      "assisting customers at the pharmacy (providing information about local health services to a customer)",
+      10
+    ],
+    [
+      "assisting customers at the pharmacy (taking a lunch break)",
+      30
+    ],
+    [
+      "assisting customers at the pharmacy (helping a customer with a special order request)",
+      15
+    ],
+    [
+      "assisting customers at the pharmacy (answering another phone call from a customer)",
+      5
+    ],
+    [
+      "assisting customers at the pharmacy (assisting a customer with a medication interaction question)",
+      10
+    ],
+    [
+      "assisting customers at the pharmacy (on the way to preparing a medication for a customer)",
+      0
+    ],
+    [
+      "assisting customers at the pharmacy (conversing about Ryan Park and John Lin discussing plans to enhance the spring festival cocktail workshop by integrating a dedicated app, promoting it through social media, and collaborating with local businesses.)",
+      15
+    ],
+    [
+      "assisting customers at the pharmacy (on the way to discussing health tips with a regular customer)",
+      0
+    ],
+    [
+      "assisting customers at the pharmacy (conversing about John Lin and Tom Moreno planning the details for an upcoming Valentine's Day party, focusing on interactive elements like a cocktail mixing station and incorporating themes related to the Fibonacci sequence, local music, decorations, and eco-friendly ingredients.)",
+      19
+    ],
+    [
+      "assisting customers at the pharmacy (checking the pharmacy's email for any urgent messages)",
+      5
+    ],
+    [
+      "assisting customers at the pharmacy (on the way to assisting a customer with a complaint)",
+      0
+    ],
+    [
+      "assisting customers at the pharmacy (conversing about John Lin and Giorgio Rossi discussing their collaborative Valentine's Day project that creatively incorporates the Fibonacci sequence into cocktail recipes and poetry presentations, with plans for interactive elements and local musicians.)",
+      21
+    ],
+    [
+      "assisting customers at the pharmacy (providing a customer with information about a new health product)",
+      10
+    ],
+    [
+      "assisting customers at the pharmacy (taking a moment to tidy up the waiting area)",
+      5
+    ],
+    [
+      "assisting customers at the pharmacy (helping a customer with a medication delivery request)",
+      10
+    ],
+    [
+      "assisting customers at the pharmacy (answering a question about vitamins and supplements)",
+      10
+    ],
+    [
+      "assisting customers at the pharmacy (assisting a customer with a prescription transfer)",
+      15
+    ],
+    [
+      "assisting customers at the pharmacy (checking in with a colleague about inventory)",
+      5
+    ],
+    [
+      "assisting customers at the pharmacy (providing a customer with information about allergy medications)",
+      3
+    ],
+    [
+      "assisting customers at the pharmacy (discussing a new treatment option with a customer)",
+      1
+    ],
+    [
+      "assisting customers at the pharmacy (finalizing the day's sales report)",
+      5
+    ],
+    [
+      "having dinner with his family (on the way to having dinner with his famil)",
+      0
+    ],
+    [
+      "having dinner with his family (conversing about John Lin and Adam Smith discussing plans for the Valentine's Day party, specifically focusing on interactive art stations, a collaborative mural involving local artists, community engagement through brainstorming sessions and surveys, and the involvement of local businesses.)",
+      16
+    ],
+    [
+      "spending time with his wife and son (spending time with his family)",
+      5
+    ],
+    [
+      "spending time with his wife and son (asking Mei about her day)",
+      5
+    ],
+    [
+      "spending time with his wife and son (listening to Mei's updates about work)",
+      5
+    ],
+    [
+      "spending time with his wife and son (asking Eddy about his school day)",
+      5
+    ],
+    [
+      "spending time with his wife and son (helping Eddy with his homework)",
+      10
+    ],
+    [
+      "spending time with his wife and son (playing a board game with Mei and Eddy)",
+      15
+    ],
+    [
+      "spending time with his wife and son (preparing snacks for the family)",
+      10
+    ],
+    [
+      "spending time with his wife and son (enjoying snacks while watching a family movie)",
+      20
+    ],
+    [
+      "spending time with his wife and son (discussing the movie with Mei and Eddy)",
+      10
+    ],
+    [
+      "spending time with his wife and son (helping Eddy with a science project)",
+      15
+    ],
+    [
+      "spending time with his wife and son (reading a story to Eddy before bed)",
+      10
+    ],
+    [
+      "spending time with his wife and son (tucking Eddy into bed)",
+      5
+    ],
+    [
+      "spending time with his wife and son (spending a few quiet moments with Mei)",
+      5
+    ],
+    [
+      "spending time with his family, engaging in activities they enjoy together",
+      120
+    ],
+    [
+      "relaxing and preparing for bed",
+      60
+    ],
+    [
+      "finishing up his day and preparing for bed",
+      60
+    ],
+    [
+      "sleeping",
+      1
+    ],
+    [
+      "sleeping",
+      2
+    ],
+    [
+      "sleeping",
+      2
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      360
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "completing his morning routine and having breakfast with his family",
+      60
+    ],
+    [
+      "getting ready for the day and preparing to leave for the pharmacy",
+      60
+    ],
+    [
+      "opening the pharmacy counter at Willow Market and Pharmacy",
+      60
+    ],
+    [
+      "assisting customers at the pharmacy",
+      420
+    ],
+    [
+      "having dinner with his family",
+      60
+    ],
+    [
+      "spending time with his wife and son",
+      120
+    ],
+    [
+      "spending time with his family, engaging in activities they enjoy together",
+      120
+    ],
+    [
+      "relaxing and preparing for bed",
+      60
+    ],
+    [
+      "finishing up his day and preparing for bed",
+      60
+    ]
+  ],
+  "act_address": "<persona> Adam Smith",
+  "act_start_time": "February 13, 2023, 17:01:10",
+  "act_duration": 16,
+  "act_description": "conversing about John Lin and Adam Smith discussing plans for the Valentine's Day party, specifically focusing on interactive art stations, a collaborative mural involving local artists, community engagement through brainstorming sessions and surveys, and the involvement of local businesses.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "John Lin",
+    "chat with",
+    "Adam Smith"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Adam Smith",
+  "chat": [
+    [
+      "John Lin",
+      "Hey Adam, I was just thinking about the Valentine's Day party. Have you made any progress on the interactive art stations? I think they could really enhance the community vibe we're aiming for."
+    ],
+    [
+      "Adam Smith",
+      "I have some ideas about incorporating local artists and musicians to make the stations more engaging. I think it would be great to have a collaborative mural as part of it. What do you think about that?"
+    ],
+    [
+      "John Lin",
+      "I love the idea of a collaborative mural! It would not only showcase local talent but also give the community a chance to express themselves. Do you have any specific artists in mind for this? And maybe we can brainstorm some themes that resonate with everyone?"
+    ],
+    [
+      "Adam Smith",
+      "I was thinking of reaching out to some local artists who have worked on community projects before. As for themes, how about something that reflects our town's history or perhaps a celebration of diversity? We could even gather input from the community on what they'd like to see in the mural."
+    ],
+    [
+      "John Lin",
+      "Those themes sound fantastic! I think involving the community in the brainstorming process would really make the mural special. Maybe we can set up a small meeting or a survey to gather their ideas? It could be a great way to get everyone excited about the party too."
+    ],
+    [
+      "Adam Smith",
+      "That's a great idea! A meeting or survey would really help us gauge community interest and get some creative input. We could also use social media to reach a wider audience. How about we draft a quick outline for the meeting and decide on a date?"
+    ],
+    [
+      "John Lin",
+      "That sounds good! How about we aim for later this week? I can create a draft for the meeting outline, and we can finalize it together. Also, should we consider reaching out to any local businesses to get them involved in the party?"
+    ],
+    [
+      "Adam Smith",
+      "Yes, involving local businesses would be a great way to enhance the party! We could offer them a platform to showcase their products or services at the event. Let's compile a list of potential businesses to reach out to. I can think of a few that might be interested."
+    ],
+    [
+      "John Lin",
+      "Great! I can start by making a list of local businesses we could contact. Maybe we can also think of some benefits for them to participate, like promoting their services during the event. Let\u2019s meet up later this week to finalize our plans and review the survey outline too."
+    ],
+    [
+      "Adam Smith",
+      "That sounds like a solid plan, John! I\u2019ll think about some specific businesses to include on our list. Once we have everything drafted, we can reach out to them and see who\u2019s interested in participating. Let\u2019s touch base later this week to finalize the details."
+    ],
+    [
+      "John Lin",
+      "Perfect! I'll work on the draft and the list of businesses. Should we aim for Thursday or Friday for our meeting? It\u2019ll give us enough time to prepare everything."
+    ],
+    [
+      "Adam Smith",
+      "How about Thursday afternoon? That way, we\u2019ll have some time to finalize everything before the weekend. Plus, we can review the survey outline then as well."
+    ],
+    [
+      "John Lin",
+      "Thursday afternoon works for me! Let's say around 2 PM? That way we can both have some time to gather our thoughts before the meeting."
+    ],
+    [
+      "Adam Smith",
+      "Sounds good! I'll mark it on my calendar for Thursday at 2 PM. I'm looking forward to finalizing our plans and getting the community involved. If anything else comes to mind before then, just let me know!"
+    ],
+    [
+      "John Lin",
+      "Absolutely, Adam! I\u2019ll make sure to gather some ideas for the survey as well. It\u2019ll be exciting to see how the community responds. Looking forward to our meeting on Thursday!"
+    ],
+    [
+      "Adam Smith",
+      "Great! I\u2019ll also draft some questions for the survey to make sure we cover all the important points. Let\u2019s keep the momentum going as we get closer to the party!"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Mei Lin": -706,
+    "Eddy Lin": -2242,
+    "Tom Moreno": 218,
+    "Adam Smith": 800,
+    "Arthur Burton": -1342,
+    "Ryan Park": 68,
+    "Isabella Rodriguez": -904,
+    "Jane Moreno": -652,
+    "Jennifer Moore": -520,
+    "Giorgio Rossi": 368
+  },
+  "chatting_end_time": "February 13, 2023, 17:17:00",
+  "act_path_set": true,
+  "planned_path": []
+}

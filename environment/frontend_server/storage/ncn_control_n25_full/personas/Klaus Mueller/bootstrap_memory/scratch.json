@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    79,
-    49
+    119,
+    24
   ],
   "daily_plan_req": "Klaus Mueller goes to the library at Oak Hill College early in the morning, spends his days writing, and eats at Hobbs Cafe.",
   "name": "Klaus Mueller",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 70,
-  "importance_ele_n": 45,
+  "importance_trigger_curr": 179,
+  "importance_ele_n": 21,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 8:00 am",
@@ -199,8 +199,12 @@
       10
     ],
     [
-      "eating dinner at Hobbs Cafe (enjoying his meal)",
-      5
+      "eating dinner at Hobbs Cafe (on the way to enjoying his meal)",
+      0
+    ],
+    [
+      "eating dinner at Hobbs Cafe (conversing about Isabella Rodriguez and Klaus Mueller discussing the decorations and final touches for the upcoming Valentine's Day party, including eco-friendly materials, quotes about love, and the layout of decorations.)",
+      18
     ],
     [
       "eating dinner at Hobbs Cafe (taking notes on his thoughts about the paper while eating)",
@@ -215,16 +219,124 @@
       5
     ],
     [
-      "finishing any remaining work on the research paper at the library",
-      60
+      "finishing any remaining work on the research paper at the library (1) Klaus is reviewing his notes and research materials)",
+      15
     ],
     [
-      "relaxing and possibly reading a book or catching up with friends",
-      180
+      "finishing any remaining work on the research paper at the library (organizing his thoughts and outlining the remaining sections of the paper)",
+      15
+    ],
+    [
+      "finishing any remaining work on the research paper at the library (on the way to writing the conclusion of the research paper)",
+      0
+    ],
+    [
+      "finishing any remaining work on the research paper at the library (conversing about Klaus Mueller and Wolfgang Schulz discussing Wolfgang's upcoming pizza night with Maria, including toppings, drinks, side dishes, guest invitations, pizza dough recipes, and potential games or activities to keep everyone entertained.)",
+      18
+    ],
+    [
+      "finishing any remaining work on the research paper at the library (proofreading the entire paper for grammar and clarity)",
+      15
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (on the way to relaxing in a comfortable chair at the library)",
+      0
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (conversing about Klaus Mueller and Sam Moore discussing plans for a Valentine's Day party that involves local artists and includes discussions on gentrification.)",
+      16
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (on the way to checking his phone for messages from friends)",
+      0
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (conversing about Ryan Park and Klaus Mueller discussing plans for a Valentine's Day party, focusing on incorporating local artists, interactive elements, and technology to enhance attendee engagement.)",
+      18
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (responding to a message from a friend about meeting up later)",
+      5
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (selecting a book to read from the library shelf)",
+      10
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (finding a quiet spot to read the book)",
+      5
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (reading the first chapter of the book)",
+      15
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (taking a moment to reflect on what he just read)",
+      5
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (checking his phone again for any new messages)",
+      5
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (deciding to take a break from reading and stretch)",
+      5
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (chatting with a friend who just arrived at the library)",
+      10
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (discussing their plans for the weekend)",
+      10
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (returning to his book and reading for another 15 minutes)",
+      15
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (making notes in the margins of the book)",
+      5
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (checking the time to see how much longer he has before he needs to leave)",
+      5
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (finishing up the chapter he was reading)",
+      10
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (putting the book back on the shelf)",
+      5
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (gathering his belongings to leave the library)",
+      5
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (walking out of the library and heading to Hobbs Cafe)",
+      10
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (thinking about what he wants to order for dinner)",
+      5
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (arriving at Hobbs Cafe and finding a table)",
+      5
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (looking at the menu and deciding on his meal)",
+      10
+    ],
+    [
+      "relaxing and possibly reading a book or catching up with friends (placing his order with the waiter)",
+      7
     ],
     [
       "preparing for bed and winding down for the night",
-      120
+      98
     ],
     [
       "sleeping",
@@ -277,99 +389,38 @@
       120
     ]
   ],
-  "act_address": "<persona> Eddy Lin",
-  "act_start_time": "February 13, 2023, 16:17:30",
-  "act_duration": 19,
-  "act_description": "conversing about Eddy Lin and Klaus Mueller discussing their upcoming Valentine's Day party, focusing on incorporating local art and community engagement while exploring the impact of gentrification on artists.",
-  "act_pronunciatio": "\ud83d\udcac",
+  "act_address": "the Ville:Oak Hill College:library:library table",
+  "act_start_time": "February 13, 2023, 19:26:00",
+  "act_duration": 18,
+  "act_description": "relaxing and possibly reading a book or catching up with friends (conversing about Ryan Park and Klaus Mueller discussing plans for a Valentine's Day party, focusing on incorporating local artists, interactive elements, and technology to enhance attendee engagement.)",
+  "act_pronunciatio": "\ud83d\udcac\ud83c\udf89",
   "act_event": [
     "Klaus Mueller",
-    "chat with",
-    "Eddy Lin"
+    "converse",
+    "plans for a Valentine's Day party"
   ],
-  "act_obj_description": null,
-  "act_obj_pronunciatio": null,
+  "act_obj_description": "in use",
+  "act_obj_pronunciatio": "\ud83d\udd04\ud83d\udcf2",
   "act_obj_event": [
-    null,
-    null,
-    null
+    "library table",
+    "is",
+    "in use"
   ],
-  "chatting_with": "Eddy Lin",
-  "chat": [
-    [
-      "Eddy Lin",
-      "Hey Klaus! How's the paper on gentrification coming along? I\u2019ve been thinking about how it relates to our projects, especially with the upcoming Valentine's Day party and the local art scene."
-    ],
-    [
-      "Klaus Mueller",
-      "Hey Eddy! It's coming along well, thanks for asking. I'm exploring how gentrification impacts local artists and their ability to express themselves in their communities. I think it could tie nicely into our Valentine's Day party theme. What ideas do you have in mind for the event, especially regarding how we can incorporate local art?"
-    ],
-    [
-      "Eddy Lin",
-      "I was thinking we could feature some local artists' work at the party, maybe even have a space for live painting or interactive art installations. It could really showcase the community's talent and highlight the impact of gentrification on those artists. What do you think?"
-    ],
-    [
-      "Klaus Mueller",
-      "I love that idea! Featuring local artists and incorporating live painting could create a vibrant atmosphere. We could also encourage attendees to engage with the art and share their thoughts on how gentrification affects the local scene. Maybe we could even set up a discussion panel or a space for people to share their stories. What do you think?"
-    ],
-    [
-      "Eddy Lin",
-      "That's a great idea! A discussion panel could really encourage dialogue and make the event more meaningful. We could invite some local artists and community leaders to share their experiences. I could also create a musical piece that reflects the themes we discuss, enhancing the overall atmosphere. What do you think about that?"
-    ],
-    [
-      "Klaus Mueller",
-      "That sounds fantastic, Eddy! A musical piece that resonates with the themes of gentrification would add so much depth to the event. We should definitely brainstorm some specific ideas for both the discussion panel and your composition. I can help with reaching out to local artists and community leaders to see if they'd be interested in participating. When do you want to meet to plan this out further?"
-    ],
-    [
-      "Eddy Lin",
-      "How about we meet tomorrow after classes at Hobbs Cafe? We can brainstorm some ideas for the panel and discuss the composition in more detail. Does that work for you?"
-    ],
-    [
-      "Klaus Mueller",
-      "Sounds good! Let's meet at Hobbs Cafe tomorrow after classes. I'm looking forward to brainstorming together and making this event impactful!"
-    ],
-    [
-      "Eddy Lin",
-      "Great! I\u2019ll bring my notes and some ideas for the composition. It\u2019ll be exciting to see how we can blend art, music, and meaningful discussions. See you tomorrow!"
-    ],
-    [
-      "Klaus Mueller",
-      "I can't wait to see what you come up with for the composition! Also, let me know if there's anything specific you want me to look into regarding local artists or community leaders before our meeting. We can make this event really special!"
-    ],
-    [
-      "Eddy Lin",
-      "Thanks, Klaus! I appreciate your offer to look into local artists. I\u2019ll also think of a few specific themes for my composition that tie into the discussions we want to have at the event. See you tomorrow at Hobbs Cafe!"
-    ],
-    [
-      "Klaus Mueller",
-      "Sounds like a plan, Eddy! I\u2019ll make sure to gather some information on local artists and community leaders tonight. I\u2019m excited about how everything is shaping up for the party. See you tomorrow!"
-    ],
-    [
-      "Eddy Lin",
-      "Thanks again for your help, Klaus! I think we\u2019re onto something really special here. By the way, do you have any thoughts on how we can get the community more involved leading up to the event? Maybe a social media campaign or something?"
-    ],
-    [
-      "Klaus Mueller",
-      "That's a great idea, Eddy! A social media campaign could really help generate excitement and encourage community involvement. We could create a hashtag for the event and share sneak peeks of the artists and the discussions we plan to have. Maybe we could even have a contest where people can share their own stories or artwork related to gentrification. What do you think?"
-    ],
-    [
-      "Eddy Lin",
-      "I love the idea of a contest! It would really encourage people to engage with the theme and share their own experiences. Let's brainstorm some details during our meeting tomorrow. I think building a strong online presence will definitely help get more people involved. I'm looking forward to seeing what you find out about local artists too!"
-    ],
-    [
-      "Klaus Mueller",
-      "Absolutely! I'll look into potential local artists and community leaders tonight and share my findings tomorrow. This event has the potential to be really impactful! Let\u2019s make sure we touch base about everything during our meeting. See you at Hobbs Cafe!"
-    ]
-  ],
+  "chatting_with": null,
+  "chat": null,
   "chatting_with_buffer": {
-    "Ayesha Khan": 170,
-    "Giorgio Rossi": -484,
-    "Jane Moreno": -244,
-    "Arthur Burton": -124,
-    "Mei Lin": 734,
-    "Eddy Lin": 800
+    "Ayesha Khan": -1030,
+    "Giorgio Rossi": -1684,
+    "Jane Moreno": -1444,
+    "Arthur Burton": -1324,
+    "Mei Lin": -466,
+    "Eddy Lin": -298,
+    "Isabella Rodriguez": -28,
+    "Wolfgang Schulz": 404,
+    "Sam Moore": 602,
+    "Ryan Park": 716
   },
-  "chatting_end_time": "February 13, 2023, 16:37:00",
+  "chatting_end_time": null,
   "act_path_set": true,
   "planned_path": []
 }

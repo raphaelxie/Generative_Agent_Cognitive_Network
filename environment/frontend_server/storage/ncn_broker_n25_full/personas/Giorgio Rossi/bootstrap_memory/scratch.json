@@ -2,7 +2,7 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
     87,
     21
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 25,
-  "importance_ele_n": 89,
+  "importance_trigger_curr": 104,
+  "importance_ele_n": 65,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 8:00 am",
@@ -211,12 +211,20 @@
       10
     ],
     [
-      "discussing the upcoming local mayor election with friends (summarizing the key points discussed during the call)",
-      5
+      "discussing the upcoming local mayor election with friends (on the way to summarizing the key points discussed during the call)",
+      0
     ],
     [
-      "browsing news articles about the election and potential candidates (browsing news websites for articles about the local mayor election)",
-      15
+      "discussing the upcoming local mayor election with friends (conversing about Giorgio Rossi and Jennifer Moore discussing ideas for a Valentine's Day party at the store, focusing on incorporating local businesses, mathematical patterns like the Fibonacci sequence in decorations, interactive elements for community engagement, and reaching out to local artists for collaboration.)",
+      21
+    ],
+    [
+      "browsing news articles about the election and potential candidates (on the way to browsing news websites for articles about the local mayor election)",
+      0
+    ],
+    [
+      "browsing news articles about the election and potential candidates (conversing about Arthur Burton and Giorgio Rossi discussing ideas for a Valentine's Day party, focusing on incorporating local businesses, the Fibonacci sequence into cocktail decorations, flavor profiles, local ingredients, promotional strategies, and customer engagement activities.)",
+      20
     ],
     [
       "browsing news articles about the election and potential candidates (reading an article about the current mayor's performance)",
@@ -236,11 +244,47 @@
     ],
     [
       "continuing to browse news articles about the election and potential candidates",
-      60
+      44
     ],
     [
-      "browsing news articles about the election and potential candidates",
-      120
+      "browsing news articles about the election and potential candidates (browsing a news website for articles about the election)",
+      10
+    ],
+    [
+      "browsing news articles about the election and potential candidates (reading an article about the current mayor's performance)",
+      15
+    ],
+    [
+      "browsing news articles about the election and potential candidates (taking notes on key points from the article)",
+      10
+    ],
+    [
+      "browsing news articles about the election and potential candidates (searching for articles about potential candidates)",
+      10
+    ],
+    [
+      "browsing news articles about the election and potential candidates (reading an article about a leading candidate's platform)",
+      15
+    ],
+    [
+      "browsing news articles about the election and potential candidates (comparing the platforms of different candidates)",
+      15
+    ],
+    [
+      "browsing news articles about the election and potential candidates (discussing the candidates with a friend via text)",
+      10
+    ],
+    [
+      "browsing news articles about the election and potential candidates (watching a video interview of a candidate)",
+      15
+    ],
+    [
+      "browsing news articles about the election and potential candidates (summarizing his thoughts on the candidates in a document)",
+      10
+    ],
+    [
+      "browsing news articles about the election and potential candidates (saving the document for future reference)",
+      5
     ],
     [
       "continuing to browse news articles about the election and potential candidates",
@@ -326,34 +370,35 @@
     ]
   ],
   "act_address": "the Ville:Giorgio Rossi's apartment:main room:desk",
-  "act_start_time": "February 13, 2023, 16:18:00",
-  "act_duration": 5,
-  "act_description": "discussing the upcoming local mayor election with friends (preparing questions to ask his friends about their opinions)",
-  "act_pronunciatio": "\u2753\ud83e\udd14",
+  "act_start_time": "February 13, 2023, 19:38:00",
+  "act_duration": 10,
+  "act_description": "browsing news articles about the election and potential candidates (searching for articles about potential candidates)",
+  "act_pronunciatio": "\ud83d\udd0d\ud83d\udcf0",
   "act_event": [
     "Giorgio Rossi",
-    "prepare",
-    "questions"
+    "search",
+    "articles about potential candidates"
   ],
-  "act_obj_description": "cluttered with papers and notes",
-  "act_obj_pronunciatio": "\ud83d\udcc4\ud83d\uddc2\ufe0f",
+  "act_obj_description": "cluttered with papers and a laptop open to news articles",
+  "act_obj_pronunciatio": "\ud83d\udcf0\ud83d\udcbb",
   "act_obj_event": [
     "desk",
-    "be",
-    "cluttered with papers and notes"
+    "is",
+    "cluttered with papers and a laptop open to news articles"
   ],
   "chatting_with": null,
   "chat": null,
   "chatting_with_buffer": {
-    "Isabella Rodriguez": -358,
-    "Sam Moore": -1132,
-    "Carlos Gomez": -820,
-    "Eddy Lin": -712,
-    "Klaus Mueller": 506,
-    "Jane Moreno": -202,
-    "Adam Smith": -34,
-    "Arthur Burton": 86,
-    "Tom Moreno": 620
+    "Isabella Rodriguez": -1558,
+    "Sam Moore": -2332,
+    "Carlos Gomez": -2020,
+    "Eddy Lin": -1912,
+    "Klaus Mueller": -694,
+    "Jane Moreno": -1402,
+    "Adam Smith": -1234,
+    "Arthur Burton": -16,
+    "Tom Moreno": -580,
+    "Jennifer Moore": -136
   },
   "chatting_end_time": null,
   "act_path_set": true,

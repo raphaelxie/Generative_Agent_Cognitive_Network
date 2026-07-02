@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    94,
-    21
+    97,
+    18
   ],
   "daily_plan_req": "",
   "name": "Carlos Gomez",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 67,
-  "importance_ele_n": 59,
+  "importance_trigger_curr": 90,
+  "importance_ele_n": 56,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 8:00 am",
@@ -199,24 +199,112 @@
       5
     ],
     [
-      "having dinner (plating the food)",
-      10
+      "having dinner (on the way to plating the food)",
+      0
+    ],
+    [
+      "having dinner (conversing about Ayesha Khan and Carlos Gomez discussing a creative cooking theme for Ayesha's Valentine's Day party, inspired by love and nature, and collaborating on a playlist that combines poetry and music.)",
+      18
     ],
     [
       "having dinner (sitting down to eat)",
       5
     ],
     [
-      "having dinner (enjoying his meal)",
+      "having dinner (on the way to enjoying his meal)",
+      0
+    ],
+    [
+      "having dinner (conversing about Arthur Burton and Carlos Gomez discussing plans for a Valentine's Day tasting event featuring the 'Fibonacci Fizz' cocktail, incorporating local herbs, poetry readings, special appetizers, and social media promotion.)",
+      21
+    ],
+    [
+      "relaxing with some reading or watching TV (on the way to deciding what to watch or read)",
+      0
+    ],
+    [
+      "relaxing with some reading or watching TV (conversing about Carlos Gomez and Tom Moreno discussing plans for a Valentine's Day party at The Willow Market, focusing on incorporating local flavors into cocktails, collaborating with local poets, and promoting the event.)",
+      23
+    ],
+    [
+      "relaxing with some reading or watching TV (on the way to selecting a book or show)",
+      0
+    ],
+    [
+      "relaxing with some reading or watching TV (conversing about how Adam Smith and Carlos Gomez can integrate local artists and musicians into Ayesha's Valentine's Day party, focusing on engaging activities like a poetry wall, art supplies, a local artist's talk, and promoting the event on social media.)",
+      22
+    ],
+    [
+      "relaxing with some reading or watching TV (getting comfortable on the couch)",
       5
     ],
     [
-      "relaxing with some reading or watching TV",
-      180
+      "relaxing with some reading or watching TV (turning on the TV or opening the book)",
+      5
+    ],
+    [
+      "relaxing with some reading or watching TV (watching the first episode of a show or reading the first chapter)",
+      10
+    ],
+    [
+      "relaxing with some reading or watching TV (taking a moment to reflect on what he just watched or read)",
+      5
+    ],
+    [
+      "relaxing with some reading or watching TV (continuing to watch the show or read the book)",
+      15
+    ],
+    [
+      "relaxing with some reading or watching TV (pausing to grab a snack or drink)",
+      5
+    ],
+    [
+      "relaxing with some reading or watching TV (resuming the show or book)",
+      15
+    ],
+    [
+      "relaxing with some reading or watching TV (taking notes on thoughts or feelings inspired by the content)",
+      10
+    ],
+    [
+      "relaxing with some reading or watching TV (continuing to watch or read)",
+      15
+    ],
+    [
+      "relaxing with some reading or watching TV (reflecting on the themes or messages)",
+      5
+    ],
+    [
+      "relaxing with some reading or watching TV (finishing the episode or chapter)",
+      10
+    ],
+    [
+      "relaxing with some reading or watching TV (considering what to watch or read next)",
+      5
+    ],
+    [
+      "relaxing with some reading or watching TV (selecting another episode or chapter)",
+      5
+    ],
+    [
+      "relaxing with some reading or watching TV (getting back into a comfortable position)",
+      5
+    ],
+    [
+      "relaxing with some reading or watching TV (watching or reading again)",
+      10
+    ],
+    [
+      "relaxing with some reading or watching TV (deciding whether to continue with another session or take a break)",
+      5
+    ],
+    [
+      "relaxing with some reading or watching TV (preparing to end the activity, turning off the TV or closing the book)",
+      5
     ],
     [
       "sleeping",
-      60
+      36
     ],
     [
       "getting ready for bed",
@@ -281,32 +369,35 @@
       60
     ]
   ],
-  "act_address": "the Ville:Carlos Gomez's apartment:main room:desk",
-  "act_start_time": "February 13, 2023, 16:15:00",
-  "act_duration": 10,
-  "act_description": "working on poetry revisions (comparing the second poem to his original draft)",
-  "act_pronunciatio": "\ud83d\udcd6\u270d\ufe0f",
+  "act_address": "the Ville:Carlos Gomez's apartment:main room:refrigerator",
+  "act_start_time": "February 13, 2023, 19:36:00",
+  "act_duration": 5,
+  "act_description": "relaxing with some reading or watching TV (pausing to grab a snack or drink)",
+  "act_pronunciatio": "\ud83e\udd64\ud83c\udf7f",
   "act_event": [
     "Carlos Gomez",
-    "compare",
-    "second poem"
+    "pause",
+    "snack or drink"
   ],
-  "act_obj_description": "cluttered with papers and notebooks",
-  "act_obj_pronunciatio": "\ud83d\udcda\ud83d\uddc2\ufe0f",
+  "act_obj_description": "open with snacks and drinks being accessed",
+  "act_obj_pronunciatio": "\ud83c\udf7f\ud83e\udd64",
   "act_obj_event": [
-    "desk",
+    "refrigerator",
     "is",
-    "cluttered with papers and notebooks"
+    "open"
   ],
   "chatting_with": null,
   "chat": null,
   "chatting_with_buffer": {
-    "Isabella Rodriguez": -64,
-    "Eddy Lin": -1246,
-    "Giorgio Rossi": -820,
-    "Arthur Burton": -658,
-    "Rajiv Patel": -502,
-    "Sam Moore": -178
+    "Isabella Rodriguez": -1264,
+    "Eddy Lin": -2446,
+    "Giorgio Rossi": -2020,
+    "Arthur Burton": 248,
+    "Rajiv Patel": -1702,
+    "Sam Moore": -1378,
+    "Ayesha Khan": 74,
+    "Tom Moreno": 386,
+    "Adam Smith": 524
   },
   "chatting_end_time": null,
   "act_path_set": true,

@@ -1,0 +1,882 @@
+{
+  "persona": {
+    "Latoya Williams": {
+      "movement": [
+        37,
+        27
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Jennifer Moore and Latoya Williams discussing their upcoming creative collaboration, combining Jennifer's watercolor designs with Latoya's photography to highlight local business stories in light of the upcoming mayoral election. @ <persona> Jennifer Moore",
+      "chat": [
+        [
+          "Jennifer Moore",
+          "Hi Latoya! I see you're getting ready for your virtual photography workshop. How's it going so far? Are you excited about it?"
+        ],
+        [
+          "Latoya Williams",
+          "Hi Jennifer! Yes, I'm really excited about the workshop. I love learning new techniques and getting inspiration for my photography projects. How about you? How's your painting coming along for the exhibition?"
+        ],
+        [
+          "Jennifer Moore",
+          "It's going well, thank you! I'm really focusing on incorporating some new elements for the exhibition, especially with the upcoming Valentine's Day party in mind. I'm excited to merge my watercolor designs with the event. Do you have any photography projects lined up that you're hoping to capture inspiration for?"
+        ],
+        [
+          "Latoya Williams",
+          "Absolutely! I'm currently working on a photography series inspired by my travels, and I'm hoping to explore how local politics affect small businesses, especially with the mayoral election coming up. I'm really interested in capturing the stories behind those businesses. Do you think your watercolor designs could complement that theme in any way?"
+        ],
+        [
+          "Jennifer Moore",
+          "That's a fascinating theme, Latoya! I think my watercolor designs could definitely enhance the emotional aspect of your series. Perhaps we could collaborate on a project that combines your photography with my art to tell those local business stories visually. What do you think?"
+        ],
+        [
+          "Latoya Williams",
+          "I love that idea, Jennifer! Combining our mediums could really create a powerful narrative. We should brainstorm how we can integrate your watercolor designs with my photography to highlight those local stories. When are you available to discuss this further?"
+        ],
+        [
+          "Jennifer Moore",
+          "I'm available to discuss this further later this week! How about we meet for coffee on Wednesday? We can brainstorm some ideas and see how we can make this collaboration come to life."
+        ],
+        [
+          "Latoya Williams",
+          "Wednesday works for me! Let\u2019s meet in the common room around 2 PM? I\u2019m looking forward to it!"
+        ],
+        [
+          "Jennifer Moore",
+          "Great! I'll see you on Wednesday at 2 PM in the common room. I'm really looking forward to brainstorming together! Enjoy your workshop in the meantime!"
+        ],
+        [
+          "Latoya Williams",
+          "Thank you, Jennifer! I will definitely enjoy the workshop. I\u2019m excited to see what ideas we come up with on Wednesday. If I think of anything else before then, I\u2019ll reach out to you. Have fun with your painting!"
+        ],
+        [
+          "Jennifer Moore",
+          "Sounds good, Latoya! I'm excited to hear any ideas you come up with before our meeting. I'll keep working on my paintings, and I look forward to our collaboration. Enjoy the rest of your workshop!"
+        ],
+        [
+          "Latoya Williams",
+          "Thanks, Jennifer! I appreciate it. After the workshop, I might take a little photography walk to gather more inspiration for our project. I\u2019ll share any interesting shots I find with you. See you on Wednesday!"
+        ],
+        [
+          "Jennifer Moore",
+          "That sounds like a wonderful idea, Latoya! I can't wait to see what you capture on your walk. It's always inspiring to see the world through your lens. Let\u2019s keep the creativity flowing until our meeting!"
+        ],
+        [
+          "Latoya Williams",
+          "Thanks, Jennifer! I\u2019ll make sure to capture some interesting perspectives that could complement your designs. By the way, have you thought about how we might showcase the stories of the business owners in our project? It could add another layer to our collaboration."
+        ],
+        [
+          "Jennifer Moore",
+          "That's a great point, Latoya! We could definitely include quotes or anecdotes from the business owners alongside the visuals to really bring their stories to life. Maybe we can even conduct a few interviews to get their personal insights. This way, we can create a deeper connection between the art and the community. What do you think about that approach?"
+        ],
+        [
+          "Latoya Williams",
+          "I think that's an excellent approach, Jennifer! Including quotes and anecdotes would definitely add depth to our project. I can start reaching out to some local business owners to see if they're willing to share their stories. Let's discuss which businesses we could feature when we meet on Wednesday."
+        ]
+      ]
+    },
+    "Rajiv Patel": {
+      "movement": [
+        41,
+        30
+      ],
+      "pronunciatio": "\ud83c\udfa8\ud83c\udfb6",
+      "description": "practicing guitar (conversing about Jennifer Moore and Rajiv Patel discussing their collaboration for the Valentine's Day party, focusing on integrating art and music with interactive elements inspired by the Fibonacci sequence.) @ the Ville:The Rose and Crown Pub:pub:microphone",
+      "chat": null
+    },
+    "Abigail Chen": {
+      "movement": [
+        36,
+        30
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f\ud83c\udfa8",
+      "description": "continuing to work on the animation project (conversing about Hailey Johnson and Abigail Chen discussing their creative projects focused on collaboration between artists and local businesses, brainstorming ways to integrate community engagement through art events and interactive storytelling.) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null
+    },
+    "Francisco Lopez": {
+      "movement": [
+        39,
+        30
+      ],
+      "pronunciatio": "\ud83d\udca1\ud83d\udda5\ufe0f",
+      "description": "continuing to work on the web series script (brainstorming ideas for the web series script) @ the Ville:artist's co-living space:common room:common room table",
+      "chat": null
+    },
+    "Hailey Johnson": {
+      "movement": [
+        41,
+        28
+      ],
+      "pronunciatio": "\ud83c\udfa8\ud83e\udd1d",
+      "description": "taking a short break to go for a walk and get inspired by her surroundings (conversing about Hailey Johnson and Abigail Chen discussing their creative projects focused on collaboration between artists and local businesses, brainstorming ways to integrate community engagement through art events and interactive storytelling.) @ the Ville:The Rose and Crown Pub:pub:microphone",
+      "chat": null
+    },
+    "Arthur Burton": {
+      "movement": [
+        55,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Arthur Burton and Giorgio Rossi discussing the incorporation of the Fibonacci sequence into a Valentine's Day cocktail presentation, including garnishes and marketing ideas for the event. @ <persona> Giorgio Rossi",
+      "chat": [
+        [
+          "Arthur Burton",
+          "Hey Giorgio, I saw you deep in thought over there! What new mathematical theories are you exploring? I\u2019m really curious about how you think they could tie into our community projects."
+        ],
+        [
+          "Giorgio Rossi",
+          "Hi Arthur! I'm currently looking into how mathematical patterns, especially the Fibonacci sequence, can be used to create engaging art installations. I think it could really enhance community events by making them more interactive and visually appealing. What do you think about incorporating some of these ideas into our upcoming projects?"
+        ],
+        [
+          "Arthur Burton",
+          "That sounds fascinating! I've been thinking about how we could use the Fibonacci sequence for our Valentine's Day cocktail presentation. Maybe we can design the cocktail garnishes and even the way we serve them to reflect those patterns. Do you think you could help me brainstorm some ideas for that?"
+        ],
+        [
+          "Giorgio Rossi",
+          "Absolutely, Arthur! I love the idea of incorporating the Fibonacci sequence into the cocktail presentation. We could create garnishes that mimic the spiral pattern, perhaps using fruits or herbs arranged in a way that reflects that. We could also think about the layering of the drinks to showcase those patterns visually. Let\u2019s brainstorm some specific cocktails that could work with this concept!"
+        ],
+        [
+          "Arthur Burton",
+          "Great! How about we start with a cocktail that features a layered effect, maybe something with different colored juices or spirits? We could also create a garnish that spirals around the glass. What do you think about using oranges and mint for that?"
+        ],
+        [
+          "Giorgio Rossi",
+          "I love that idea! Using oranges and mint would not only look great but also bring a refreshing flavor to the cocktails. We could slice the oranges in a way that highlights the spiral pattern, and then use the mint to add a nice touch of green. What do you think about adding a hint of sweetness with a simple syrup infused with herbs? It could enhance the overall experience for our guests."
+        ],
+        [
+          "Arthur Burton",
+          "That sounds perfect, Giorgio! I can already imagine how beautiful and tasty that cocktail will be. Let's also think about how we can market this concept to our customers, maybe through social media or during the Valentine's Day event. Do you have any ideas on how we can promote this unique cocktail and its artistic presentation?"
+        ],
+        [
+          "Giorgio Rossi",
+          "I think we could create some eye-catching visuals for our social media posts, maybe even a short video showcasing the preparation of the cocktail. We could highlight the Fibonacci pattern in both the drink and the garnish. Additionally, we could use a catchy hashtag related to the theme, like #FibonacciCocktail. What do you think?"
+        ],
+        [
+          "Arthur Burton",
+          "I love that idea, Giorgio! A short video would really capture the attention of our customers. And the hashtag is perfect! Let's plan to shoot that video during the cocktail prep session. We can even invite some regulars to be part of it. It could create a buzz leading up to Valentine's Day! What do you think about that?"
+        ],
+        [
+          "Giorgio Rossi",
+          "I think inviting some regulars to be part of the video is a fantastic idea! It will definitely create a sense of community around the event. We can also ask them to share their thoughts on the cocktail and its inspiration, which would add a personal touch. Let\u2019s also consider how we can engage with our audience on social media before the event, maybe by sharing sneak peeks or behind-the-scenes content. What do you think?"
+        ],
+        [
+          "Arthur Burton",
+          "I completely agree! Sharing sneak peeks will definitely build excitement for the event. How about we start this week by posting some of our brainstorming ideas and the process of creating the cocktail? We could even ask our followers for their input or suggestions. It would be great to involve them in the creative process! What do you think?"
+        ],
+        [
+          "Giorgio Rossi",
+          "I love that idea, Arthur! Involving our followers in the creative process will definitely make them feel more connected to the cocktail and the event. We could create a poll or ask for their favorite ingredients or garnishing ideas. It would be a fun way to engage with them. Let\u2019s make sure to utilize our social media platforms effectively to keep the momentum going. Do you have any specific platforms in mind for our promotional efforts?"
+        ],
+        [
+          "Arthur Burton",
+          "I think we should definitely focus on Instagram and Facebook for our promotional efforts. They seem to be the most effective for reaching our audience. We can share photos and videos on Instagram, and use Facebook for the polls and engaging posts. Does that sound good to you?"
+        ],
+        [
+          "Giorgio Rossi",
+          "That sounds perfect, Arthur! Focusing on Instagram and Facebook will definitely maximize our reach. Let\u2019s also think about a schedule for our posts leading up to the event. We could create a countdown to Valentine's Day and share different aspects of our cocktail preparation each day. How does that sound?"
+        ],
+        [
+          "Arthur Burton",
+          "That sounds like a fantastic plan, Giorgio! A countdown will definitely create excitement. Let's outline what we want to share each day, maybe starting with the inspiration behind the cocktail and then moving on to the ingredients and the preparation process. We can finalize the schedule this week. How about we meet again tomorrow to go over it in detail?"
+        ],
+        [
+          "Giorgio Rossi",
+          "That sounds great, Arthur! I'm looking forward to finalizing the schedule and diving deeper into our ideas. Let\u2019s meet tomorrow and make sure we cover everything we want to share. Do you have a specific time in mind for our meeting?"
+        ]
+      ]
+    },
+    "Ryan Park": {
+      "movement": [
+        58,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcf1\ud83d\udcbb",
+      "description": "continuing to work on the mobile app project (testing the app on different devices) @ the Ville:The Rose and Crown Pub:pub:microphone",
+      "chat": null
+    },
+    "Isabella Rodriguez": {
+      "movement": [
+        79,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Isabella Rodriguez and Mei Lin discussing last-minute decoration ideas inspired by the Fibonacci sequence for their upcoming Valentine's Day party, including quotes, centerpieces, and artwork. @ <persona> Mei Lin",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hey Mei Lin! I hope you're doing well with the students. I wanted to check in and see if you have any last-minute ideas for the decorations for tomorrow's Valentine's Day party. I was thinking we could incorporate some more elements inspired by the Fibonacci sequence!"
+        ],
+        [
+          "Mei Lin",
+          "Hi Isabella! I'm doing well, thanks! I love the idea of incorporating more Fibonacci elements. Have you thought about using spirals in the centerpieces or maybe creating a backdrop that reflects the sequence? It could add a nice touch to the overall theme. What do you think?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I love those ideas, especially the backdrop! We could even use some quotes about love and nature layered into the design. Do you have any specific quotes in mind that we could use?"
+        ],
+        [
+          "Mei Lin",
+          "I have a few quotes in mind! One of my favorites is, 'Love is the beauty of the soul' by Saint Augustine. It ties in beautifully with nature and could work well with our theme. What do you think? Do you have any other quotes you'd like to suggest?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's a beautiful quote, Mei Lin! I also thought we could use, 'In all things of nature, there is something of the marvelous' by Aristotle. It complements the Fibonacci theme nicely. Should we include both quotes in the backdrop design?"
+        ],
+        [
+          "Mei Lin",
+          "Including both quotes sounds perfect! I think they will resonate well with everyone attending. Should we also consider adding some visuals that represent the Fibonacci sequence, like the arrangement of flowers or artwork? It could tie everything together beautifully."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's a fantastic idea, Mei Lin! We could arrange the flowers in a spiral pattern to really highlight the Fibonacci sequence. Let's also think about how we can incorporate some artwork, maybe some prints that reflect the sequence. Do you have any suggestions for where we could find those?"
+        ],
+        [
+          "Mei Lin",
+          "I know a few local artists who create beautiful prints that could be perfect for our theme. I can reach out to them and see if they have anything that reflects the Fibonacci sequence. Also, we could check online for some digital art that we can print ourselves if time is tight. What do you think?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds great! Please reach out to those artists and let me know what you find. I think having a mix of original art and prints would really enhance the decorations. I\u2019m excited to see how everything comes together! Is there anything else we need to finalize before the party?"
+        ],
+        [
+          "Mei Lin",
+          "I think we should also finalize the arrangement of the tables and how we'll display the quotes and artwork. Maybe we can create a designated area for the centerpieces to really make them stand out. What do you think about that?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I agree! A designated area for the centerpieces will really draw attention to them. Let's also make sure we have enough space for guests to move around comfortably. Should we plan to meet later today to finalize the layout?"
+        ],
+        [
+          "Mei Lin",
+          "Absolutely, let's plan to meet later today to finalize the layout! How about we meet at 5:30 PM after I finish up with my students? We can go over everything and make sure we're all set for tomorrow."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds perfect, Mei Lin! I\u2019ll see you at 5:30 PM then. Thanks for all your help! Let\u2019s make this party unforgettable!"
+        ],
+        [
+          "Mei Lin",
+          "I'm really looking forward to it, Isabella! Let's make sure to bring our creative energy to the meeting. If you think of any other ideas before then, feel free to text me. See you soon!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Absolutely, Mei Lin! I'll think of any additional ideas and definitely text you. I'm really excited about the party! If there's anything else you need help with before we meet, just let me know. Otherwise, see you at 5:30 PM!"
+        ],
+        [
+          "Mei Lin",
+          "Thanks, Isabella! I\u2019ll keep you updated on the artists and any other ideas I come up with. Let\u2019s make it a memorable event. See you soon!"
+        ]
+      ]
+    },
+    "Giorgio Rossi": {
+      "movement": [
+        56,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Arthur Burton and Giorgio Rossi discussing the incorporation of the Fibonacci sequence into a Valentine's Day cocktail presentation, including garnishes and marketing ideas for the event. @ <persona> Arthur Burton",
+      "chat": [
+        [
+          "Arthur Burton",
+          "Hey Giorgio, I saw you deep in thought over there! What new mathematical theories are you exploring? I\u2019m really curious about how you think they could tie into our community projects."
+        ],
+        [
+          "Giorgio Rossi",
+          "Hi Arthur! I'm currently looking into how mathematical patterns, especially the Fibonacci sequence, can be used to create engaging art installations. I think it could really enhance community events by making them more interactive and visually appealing. What do you think about incorporating some of these ideas into our upcoming projects?"
+        ],
+        [
+          "Arthur Burton",
+          "That sounds fascinating! I've been thinking about how we could use the Fibonacci sequence for our Valentine's Day cocktail presentation. Maybe we can design the cocktail garnishes and even the way we serve them to reflect those patterns. Do you think you could help me brainstorm some ideas for that?"
+        ],
+        [
+          "Giorgio Rossi",
+          "Absolutely, Arthur! I love the idea of incorporating the Fibonacci sequence into the cocktail presentation. We could create garnishes that mimic the spiral pattern, perhaps using fruits or herbs arranged in a way that reflects that. We could also think about the layering of the drinks to showcase those patterns visually. Let\u2019s brainstorm some specific cocktails that could work with this concept!"
+        ],
+        [
+          "Arthur Burton",
+          "Great! How about we start with a cocktail that features a layered effect, maybe something with different colored juices or spirits? We could also create a garnish that spirals around the glass. What do you think about using oranges and mint for that?"
+        ],
+        [
+          "Giorgio Rossi",
+          "I love that idea! Using oranges and mint would not only look great but also bring a refreshing flavor to the cocktails. We could slice the oranges in a way that highlights the spiral pattern, and then use the mint to add a nice touch of green. What do you think about adding a hint of sweetness with a simple syrup infused with herbs? It could enhance the overall experience for our guests."
+        ],
+        [
+          "Arthur Burton",
+          "That sounds perfect, Giorgio! I can already imagine how beautiful and tasty that cocktail will be. Let's also think about how we can market this concept to our customers, maybe through social media or during the Valentine's Day event. Do you have any ideas on how we can promote this unique cocktail and its artistic presentation?"
+        ],
+        [
+          "Giorgio Rossi",
+          "I think we could create some eye-catching visuals for our social media posts, maybe even a short video showcasing the preparation of the cocktail. We could highlight the Fibonacci pattern in both the drink and the garnish. Additionally, we could use a catchy hashtag related to the theme, like #FibonacciCocktail. What do you think?"
+        ],
+        [
+          "Arthur Burton",
+          "I love that idea, Giorgio! A short video would really capture the attention of our customers. And the hashtag is perfect! Let's plan to shoot that video during the cocktail prep session. We can even invite some regulars to be part of it. It could create a buzz leading up to Valentine's Day! What do you think about that?"
+        ],
+        [
+          "Giorgio Rossi",
+          "I think inviting some regulars to be part of the video is a fantastic idea! It will definitely create a sense of community around the event. We can also ask them to share their thoughts on the cocktail and its inspiration, which would add a personal touch. Let\u2019s also consider how we can engage with our audience on social media before the event, maybe by sharing sneak peeks or behind-the-scenes content. What do you think?"
+        ],
+        [
+          "Arthur Burton",
+          "I completely agree! Sharing sneak peeks will definitely build excitement for the event. How about we start this week by posting some of our brainstorming ideas and the process of creating the cocktail? We could even ask our followers for their input or suggestions. It would be great to involve them in the creative process! What do you think?"
+        ],
+        [
+          "Giorgio Rossi",
+          "I love that idea, Arthur! Involving our followers in the creative process will definitely make them feel more connected to the cocktail and the event. We could create a poll or ask for their favorite ingredients or garnishing ideas. It would be a fun way to engage with them. Let\u2019s make sure to utilize our social media platforms effectively to keep the momentum going. Do you have any specific platforms in mind for our promotional efforts?"
+        ],
+        [
+          "Arthur Burton",
+          "I think we should definitely focus on Instagram and Facebook for our promotional efforts. They seem to be the most effective for reaching our audience. We can share photos and videos on Instagram, and use Facebook for the polls and engaging posts. Does that sound good to you?"
+        ],
+        [
+          "Giorgio Rossi",
+          "That sounds perfect, Arthur! Focusing on Instagram and Facebook will definitely maximize our reach. Let\u2019s also think about a schedule for our posts leading up to the event. We could create a countdown to Valentine's Day and share different aspects of our cocktail preparation each day. How does that sound?"
+        ],
+        [
+          "Arthur Burton",
+          "That sounds like a fantastic plan, Giorgio! A countdown will definitely create excitement. Let's outline what we want to share each day, maybe starting with the inspiration behind the cocktail and then moving on to the ingredients and the preparation process. We can finalize the schedule this week. How about we meet again tomorrow to go over it in detail?"
+        ],
+        [
+          "Giorgio Rossi",
+          "That sounds great, Arthur! I'm looking forward to finalizing the schedule and diving deeper into our ideas. Let\u2019s meet tomorrow and make sure we cover everything we want to share. Do you have a specific time in mind for our meeting?"
+        ]
+      ]
+    },
+    "Carlos Gomez": {
+      "movement": [
+        46,
+        31
+      ],
+      "pronunciatio": "\ud83c\udf33\ud83d\udeb6",
+      "description": "taking a nature walk for inspiration @ the Ville:Johnson Park:park:park garden",
+      "chat": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        122,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Ayesha Khan and Klaus Mueller collaborating on their research connecting themes of displacement in Shakespeare's works with contemporary issues of gentrification, planning a meeting to brainstorm ideas and gather relevant texts and visuals for their presentation. @ <persona> Ayesha Khan",
+      "chat": [
+        [
+          "Ayesha Khan",
+          "Hey Klaus, I noticed you were deep into writing the introduction for your paper. How's it going? Have you found any interesting connections between Shakespeare and gentrification so far?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hey Ayesha! It's going well, thanks! I've been thinking about how Shakespeare's themes of societal change and displacement resonate with the experiences of communities facing gentrification today. I'm planning to include some specific examples from his plays. How about you? Any breakthroughs in your research?"
+        ],
+        [
+          "Ayesha Khan",
+          "That's really insightful! I've been focusing on how language in Shakespeare's works can evoke empathy for characters experiencing displacement. I found some powerful passages that might complement your examples. Do you want to brainstorm together?"
+        ],
+        [
+          "Klaus Mueller",
+          "Absolutely, I'd love to brainstorm together! Maybe we can see how those passages you found could tie in with the themes I'm exploring. When do you want to meet up for that?"
+        ],
+        [
+          "Ayesha Khan",
+          "How about we meet on Thursday afternoon? I can bring the passages I've been working on, and we can discuss how they connect to your themes."
+        ],
+        [
+          "Klaus Mueller",
+          "Thursday afternoon works perfectly for me! I'll make sure to gather more research findings to share with you. I'm really looking forward to seeing how we can weave those passages into the discussion. Do you have a specific time in mind for our meeting?"
+        ],
+        [
+          "Ayesha Khan",
+          "How about we meet around 3 PM on Thursday? That should give us enough time to dive into everything."
+        ],
+        [
+          "Klaus Mueller",
+          "3 PM on Thursday sounds great! I'll be sure to have my notes and any ideas I come across ready to share. I'm excited to see how we can connect everything. Is there anything specific you'd like me to prepare for our meeting?"
+        ],
+        [
+          "Ayesha Khan",
+          "I think it would be helpful if you could bring any examples of contemporary texts that relate to gentrification as well. We could explore how those works echo the themes in Shakespeare. What do you think?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds like a fantastic idea! I'll look for some contemporary texts that highlight gentrification. This will help us draw some strong parallels. Is there a particular text you have in mind, or should I just bring a few options?"
+        ],
+        [
+          "Ayesha Khan",
+          "I think bringing a few options would be great! I'm particularly interested in texts like 'The Sellout' and 'The Hate U Give', as they have some compelling themes related to gentrification. If you come across anything along those lines, that would be perfect. I'm really looking forward to our discussion!"
+        ],
+        [
+          "Klaus Mueller",
+          "Great! I'll keep those texts in mind while I search for more options. I\u2019m excited to see how we can weave together Shakespeare\u2019s themes and contemporary perspectives on gentrification. If you come across any additional passages or texts before Thursday, feel free to share them with me. It\u2019ll be nice to have a comprehensive discussion."
+        ],
+        [
+          "Ayesha Khan",
+          "Definitely! I'll share anything I find before our meeting. By the way, have you thought about how we might present our findings? I think it could be great to incorporate some visuals or quotes in our presentation."
+        ],
+        [
+          "Klaus Mueller",
+          "That's a great idea, Ayesha! Incorporating visuals and quotes will definitely make our presentation more engaging. We can brainstorm some options together when we meet. Do you have any specific ideas for visuals or quotes in mind that we could use?"
+        ],
+        [
+          "Ayesha Khan",
+          "I was thinking we could use images from the plays or maybe some statistics about gentrification in the areas we're discussing. It could really help illustrate our points. What do you think?"
+        ],
+        [
+          "Klaus Mueller",
+          "I love that idea! Using images from the plays and relevant statistics will definitely enhance our presentation. Let\u2019s compile a list of visuals we can use when we meet. Do you have any specific stats or images in mind already?"
+        ]
+      ]
+    },
+    "Maria Lopez": {
+      "movement": [
+        123,
+        57
+      ],
+      "pronunciatio": "\ud83d\ude34\ud83d\udca4",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
+      "chat": null
+    },
+    "Ayesha Khan": {
+      "movement": [
+        122,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Ayesha Khan and Klaus Mueller collaborating on their research connecting themes of displacement in Shakespeare's works with contemporary issues of gentrification, planning a meeting to brainstorm ideas and gather relevant texts and visuals for their presentation. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Ayesha Khan",
+          "Hey Klaus, I noticed you were deep into writing the introduction for your paper. How's it going? Have you found any interesting connections between Shakespeare and gentrification so far?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hey Ayesha! It's going well, thanks! I've been thinking about how Shakespeare's themes of societal change and displacement resonate with the experiences of communities facing gentrification today. I'm planning to include some specific examples from his plays. How about you? Any breakthroughs in your research?"
+        ],
+        [
+          "Ayesha Khan",
+          "That's really insightful! I've been focusing on how language in Shakespeare's works can evoke empathy for characters experiencing displacement. I found some powerful passages that might complement your examples. Do you want to brainstorm together?"
+        ],
+        [
+          "Klaus Mueller",
+          "Absolutely, I'd love to brainstorm together! Maybe we can see how those passages you found could tie in with the themes I'm exploring. When do you want to meet up for that?"
+        ],
+        [
+          "Ayesha Khan",
+          "How about we meet on Thursday afternoon? I can bring the passages I've been working on, and we can discuss how they connect to your themes."
+        ],
+        [
+          "Klaus Mueller",
+          "Thursday afternoon works perfectly for me! I'll make sure to gather more research findings to share with you. I'm really looking forward to seeing how we can weave those passages into the discussion. Do you have a specific time in mind for our meeting?"
+        ],
+        [
+          "Ayesha Khan",
+          "How about we meet around 3 PM on Thursday? That should give us enough time to dive into everything."
+        ],
+        [
+          "Klaus Mueller",
+          "3 PM on Thursday sounds great! I'll be sure to have my notes and any ideas I come across ready to share. I'm excited to see how we can connect everything. Is there anything specific you'd like me to prepare for our meeting?"
+        ],
+        [
+          "Ayesha Khan",
+          "I think it would be helpful if you could bring any examples of contemporary texts that relate to gentrification as well. We could explore how those works echo the themes in Shakespeare. What do you think?"
+        ],
+        [
+          "Klaus Mueller",
+          "That sounds like a fantastic idea! I'll look for some contemporary texts that highlight gentrification. This will help us draw some strong parallels. Is there a particular text you have in mind, or should I just bring a few options?"
+        ],
+        [
+          "Ayesha Khan",
+          "I think bringing a few options would be great! I'm particularly interested in texts like 'The Sellout' and 'The Hate U Give', as they have some compelling themes related to gentrification. If you come across anything along those lines, that would be perfect. I'm really looking forward to our discussion!"
+        ],
+        [
+          "Klaus Mueller",
+          "Great! I'll keep those texts in mind while I search for more options. I\u2019m excited to see how we can weave together Shakespeare\u2019s themes and contemporary perspectives on gentrification. If you come across any additional passages or texts before Thursday, feel free to share them with me. It\u2019ll be nice to have a comprehensive discussion."
+        ],
+        [
+          "Ayesha Khan",
+          "Definitely! I'll share anything I find before our meeting. By the way, have you thought about how we might present our findings? I think it could be great to incorporate some visuals or quotes in our presentation."
+        ],
+        [
+          "Klaus Mueller",
+          "That's a great idea, Ayesha! Incorporating visuals and quotes will definitely make our presentation more engaging. We can brainstorm some options together when we meet. Do you have any specific ideas for visuals or quotes in mind that we could use?"
+        ],
+        [
+          "Ayesha Khan",
+          "I was thinking we could use images from the plays or maybe some statistics about gentrification in the areas we're discussing. It could really help illustrate our points. What do you think?"
+        ],
+        [
+          "Klaus Mueller",
+          "I love that idea! Using images from the plays and relevant statistics will definitely enhance our presentation. Let\u2019s compile a list of visuals we can use when we meet. Do you have any specific stats or images in mind already?"
+        ]
+      ]
+    },
+    "Wolfgang Schulz": {
+      "movement": [
+        107,
+        62
+      ],
+      "pronunciatio": "\ud83d\ude34\ud83d\udca4",
+      "description": "sleeping @ the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:bed",
+      "chat": null
+    },
+    "Mei Lin": {
+      "movement": [
+        79,
+        25
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Isabella Rodriguez and Mei Lin discussing last-minute decoration ideas inspired by the Fibonacci sequence for their upcoming Valentine's Day party, including quotes, centerpieces, and artwork. @ <persona> Isabella Rodriguez",
+      "chat": [
+        [
+          "Isabella Rodriguez",
+          "Hey Mei Lin! I hope you're doing well with the students. I wanted to check in and see if you have any last-minute ideas for the decorations for tomorrow's Valentine's Day party. I was thinking we could incorporate some more elements inspired by the Fibonacci sequence!"
+        ],
+        [
+          "Mei Lin",
+          "Hi Isabella! I'm doing well, thanks! I love the idea of incorporating more Fibonacci elements. Have you thought about using spirals in the centerpieces or maybe creating a backdrop that reflects the sequence? It could add a nice touch to the overall theme. What do you think?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I love those ideas, especially the backdrop! We could even use some quotes about love and nature layered into the design. Do you have any specific quotes in mind that we could use?"
+        ],
+        [
+          "Mei Lin",
+          "I have a few quotes in mind! One of my favorites is, 'Love is the beauty of the soul' by Saint Augustine. It ties in beautifully with nature and could work well with our theme. What do you think? Do you have any other quotes you'd like to suggest?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's a beautiful quote, Mei Lin! I also thought we could use, 'In all things of nature, there is something of the marvelous' by Aristotle. It complements the Fibonacci theme nicely. Should we include both quotes in the backdrop design?"
+        ],
+        [
+          "Mei Lin",
+          "Including both quotes sounds perfect! I think they will resonate well with everyone attending. Should we also consider adding some visuals that represent the Fibonacci sequence, like the arrangement of flowers or artwork? It could tie everything together beautifully."
+        ],
+        [
+          "Isabella Rodriguez",
+          "That's a fantastic idea, Mei Lin! We could arrange the flowers in a spiral pattern to really highlight the Fibonacci sequence. Let's also think about how we can incorporate some artwork, maybe some prints that reflect the sequence. Do you have any suggestions for where we could find those?"
+        ],
+        [
+          "Mei Lin",
+          "I know a few local artists who create beautiful prints that could be perfect for our theme. I can reach out to them and see if they have anything that reflects the Fibonacci sequence. Also, we could check online for some digital art that we can print ourselves if time is tight. What do you think?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "That sounds great! Please reach out to those artists and let me know what you find. I think having a mix of original art and prints would really enhance the decorations. I\u2019m excited to see how everything comes together! Is there anything else we need to finalize before the party?"
+        ],
+        [
+          "Mei Lin",
+          "I think we should also finalize the arrangement of the tables and how we'll display the quotes and artwork. Maybe we can create a designated area for the centerpieces to really make them stand out. What do you think about that?"
+        ],
+        [
+          "Isabella Rodriguez",
+          "I agree! A designated area for the centerpieces will really draw attention to them. Let's also make sure we have enough space for guests to move around comfortably. Should we plan to meet later today to finalize the layout?"
+        ],
+        [
+          "Mei Lin",
+          "Absolutely, let's plan to meet later today to finalize the layout! How about we meet at 5:30 PM after I finish up with my students? We can go over everything and make sure we're all set for tomorrow."
+        ],
+        [
+          "Isabella Rodriguez",
+          "Sounds perfect, Mei Lin! I\u2019ll see you at 5:30 PM then. Thanks for all your help! Let\u2019s make this party unforgettable!"
+        ],
+        [
+          "Mei Lin",
+          "I'm really looking forward to it, Isabella! Let's make sure to bring our creative energy to the meeting. If you think of any other ideas before then, feel free to text me. See you soon!"
+        ],
+        [
+          "Isabella Rodriguez",
+          "Absolutely, Mei Lin! I'll think of any additional ideas and definitely text you. I'm really excited about the party! If there's anything else you need help with before we meet, just let me know. Otherwise, see you at 5:30 PM!"
+        ],
+        [
+          "Mei Lin",
+          "Thanks, Isabella! I\u2019ll keep you updated on the artists and any other ideas I come up with. Let\u2019s make it a memorable event. See you soon!"
+        ]
+      ]
+    },
+    "John Lin": {
+      "movement": [
+        91,
+        67
+      ],
+      "pronunciatio": "\ud83e\udd6a\ud83c\udf1e",
+      "description": "assisting customers at the pharmacy (taking a lunch break) @ the Ville:Lin family's house:common room:common room table",
+      "chat": null
+    },
+    "Eddy Lin": {
+      "movement": [
+        73,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Sam Moore and Eddy Lin discussing music choices and interactive elements for the upcoming Valentine's Day party, including incorporating quotes from Rumi and collaborating with Jennifer on decorations. @ <persona> Sam Moore",
+      "chat": [
+        [
+          "Sam Moore",
+          "Hey Eddy! I just saw you working on your composition. How's it going? Have you thought any more about the music choices for the Valentine's Day party? I really liked the ideas we discussed earlier."
+        ],
+        [
+          "Eddy Lin",
+          "Hey Sam! Thanks for checking in. I'm making some progress on my composition. I've been thinking about incorporating some romantic classical pieces along with a few contemporary love songs to create a nice balance. What do you think? Also, I was wondering if we should include some interactive elements in the music that respond to the decorations we\u2019ve planned."
+        ],
+        [
+          "Sam Moore",
+          "That sounds like a fantastic idea, Eddy! A mix of romantic classical pieces and contemporary love songs will definitely set the right mood. I love the thought of interactive elements in the music. What do you have in mind for those? Maybe we can tie them into Jennifer's watercolor designs?"
+        ],
+        [
+          "Eddy Lin",
+          "Absolutely! I was thinking we could use motion sensors that trigger different musical phrases based on where the guests are standing or moving. It could create a really immersive experience that ties in with Jennifer's watercolor designs. What do you think?"
+        ],
+        [
+          "Sam Moore",
+          "I love that idea! It would definitely make the party more engaging and memorable. We should also think about how we can incorporate some of those quotes we discussed, maybe even having them displayed alongside the music. What do you think about that?"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds great! We could have the quotes displayed on screens that light up or change based on the music's rhythm. It would really enhance the atmosphere. Do you have any specific quotes in mind that we should include?"
+        ],
+        [
+          "Sam Moore",
+          "I was thinking we could include some quotes from Rumi about love and connection. They really resonate with the theme we're going for. Do you have any favorites that you think would work well?"
+        ],
+        [
+          "Eddy Lin",
+          "I really like Rumi's quote, 'The wound is the place where the Light enters you.' It captures both the beauty and complexity of love. What do you think about using that one?"
+        ],
+        [
+          "Sam Moore",
+          "That's a beautiful quote, Eddy! It really does encapsulate the depth of love. I think it would resonate well with our theme. Maybe we could also include a few more quotes to create a variety? I'm sure Jennifer would have some great suggestions too. Shall we brainstorm a few together?"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds like a great idea, Sam! Let's definitely brainstorm some more quotes together. I can reach out to Jennifer to see if she has any suggestions as well. We can incorporate a mix of quotes that reflect different aspects of love. How about we meet up later today to put our ideas together?"
+        ],
+        [
+          "Sam Moore",
+          "That sounds perfect, Eddy! I'm looking forward to hearing Jennifer's suggestions too. How about we meet at Hobbs Cafe around 3 PM? We can grab some coffee and really dive into our ideas."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good! I'll see you at Hobbs Cafe around 3 PM. I'll text Jennifer to get her thoughts on the quotes too. Can't wait to brainstorm together!"
+        ],
+        [
+          "Sam Moore",
+          "Great! I'm excited to see what Jennifer comes up with. And if you think of any other ideas before then, feel free to shoot me a text. See you at 3 PM!"
+        ],
+        [
+          "Eddy Lin",
+          "Definitely! I'll keep thinking about other ideas, and I'll let you know if anything comes to mind. See you soon!"
+        ],
+        [
+          "Sam Moore",
+          "Thanks, Eddy! I'm really looking forward to collaborating on this. Let\u2019s make it a memorable event for everyone!"
+        ],
+        [
+          "Eddy Lin",
+          "Absolutely, Sam! I'm really excited about our collaboration and can't wait to see how everything comes together. I'll keep you updated if I come up with any more ideas before we meet. See you soon!"
+        ]
+      ]
+    },
+    "Tom Moreno": {
+      "movement": [
+        73,
+        63
+      ],
+      "pronunciatio": "\ud83d\udecd\ufe0f\ud83e\udd1d",
+      "description": "continuing to assist customers at The Willow Market and Pharmacy (assisting a customer with finding a specific product) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store shelf",
+      "chat": null
+    },
+    "Jane Moreno": {
+      "movement": [
+        78,
+        52
+      ],
+      "pronunciatio": "\ud83d\udcac\u2764\ufe0f",
+      "description": "grocery shopping for the week (conversing about Jane Moreno and Eddy Lin discussing their collaborative ideas for an interactive Valentine's Day party, incorporating mathematical patterns and sound elements.) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "Tamara Taylor": {
+      "movement": [
+        57,
+        68
+      ],
+      "pronunciatio": "\ud83e\udd57\ud83c\udf71",
+      "description": "having lunch (preparing her lunch) @ the Ville:Tamara Taylor and Carmen Ortiz's house:kitchen:refrigerator",
+      "chat": null
+    },
+    "Carmen Ortiz": {
+      "movement": [
+        61,
+        43
+      ],
+      "pronunciatio": "\ud83e\uddf9\ud83d\uddc2\ufe0f",
+      "description": "continuing to assist customers and manage the store (tidying up the store and organizing displays) @ the Ville:Harvey Oak Supply Store:supply store:supply store product shelf",
+      "chat": null
+    },
+    "Sam Moore": {
+      "movement": [
+        73,
+        30
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Sam Moore and Eddy Lin discussing music choices and interactive elements for the upcoming Valentine's Day party, including incorporating quotes from Rumi and collaborating with Jennifer on decorations. @ <persona> Eddy Lin",
+      "chat": [
+        [
+          "Sam Moore",
+          "Hey Eddy! I just saw you working on your composition. How's it going? Have you thought any more about the music choices for the Valentine's Day party? I really liked the ideas we discussed earlier."
+        ],
+        [
+          "Eddy Lin",
+          "Hey Sam! Thanks for checking in. I'm making some progress on my composition. I've been thinking about incorporating some romantic classical pieces along with a few contemporary love songs to create a nice balance. What do you think? Also, I was wondering if we should include some interactive elements in the music that respond to the decorations we\u2019ve planned."
+        ],
+        [
+          "Sam Moore",
+          "That sounds like a fantastic idea, Eddy! A mix of romantic classical pieces and contemporary love songs will definitely set the right mood. I love the thought of interactive elements in the music. What do you have in mind for those? Maybe we can tie them into Jennifer's watercolor designs?"
+        ],
+        [
+          "Eddy Lin",
+          "Absolutely! I was thinking we could use motion sensors that trigger different musical phrases based on where the guests are standing or moving. It could create a really immersive experience that ties in with Jennifer's watercolor designs. What do you think?"
+        ],
+        [
+          "Sam Moore",
+          "I love that idea! It would definitely make the party more engaging and memorable. We should also think about how we can incorporate some of those quotes we discussed, maybe even having them displayed alongside the music. What do you think about that?"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds great! We could have the quotes displayed on screens that light up or change based on the music's rhythm. It would really enhance the atmosphere. Do you have any specific quotes in mind that we should include?"
+        ],
+        [
+          "Sam Moore",
+          "I was thinking we could include some quotes from Rumi about love and connection. They really resonate with the theme we're going for. Do you have any favorites that you think would work well?"
+        ],
+        [
+          "Eddy Lin",
+          "I really like Rumi's quote, 'The wound is the place where the Light enters you.' It captures both the beauty and complexity of love. What do you think about using that one?"
+        ],
+        [
+          "Sam Moore",
+          "That's a beautiful quote, Eddy! It really does encapsulate the depth of love. I think it would resonate well with our theme. Maybe we could also include a few more quotes to create a variety? I'm sure Jennifer would have some great suggestions too. Shall we brainstorm a few together?"
+        ],
+        [
+          "Eddy Lin",
+          "That sounds like a great idea, Sam! Let's definitely brainstorm some more quotes together. I can reach out to Jennifer to see if she has any suggestions as well. We can incorporate a mix of quotes that reflect different aspects of love. How about we meet up later today to put our ideas together?"
+        ],
+        [
+          "Sam Moore",
+          "That sounds perfect, Eddy! I'm looking forward to hearing Jennifer's suggestions too. How about we meet at Hobbs Cafe around 3 PM? We can grab some coffee and really dive into our ideas."
+        ],
+        [
+          "Eddy Lin",
+          "Sounds good! I'll see you at Hobbs Cafe around 3 PM. I'll text Jennifer to get her thoughts on the quotes too. Can't wait to brainstorm together!"
+        ],
+        [
+          "Sam Moore",
+          "Great! I'm excited to see what Jennifer comes up with. And if you think of any other ideas before then, feel free to shoot me a text. See you at 3 PM!"
+        ],
+        [
+          "Eddy Lin",
+          "Definitely! I'll keep thinking about other ideas, and I'll let you know if anything comes to mind. See you soon!"
+        ],
+        [
+          "Sam Moore",
+          "Thanks, Eddy! I'm really looking forward to collaborating on this. Let\u2019s make it a memorable event for everyone!"
+        ],
+        [
+          "Eddy Lin",
+          "Absolutely, Sam! I'm really excited about our collaboration and can't wait to see how everything comes together. I'll keep you updated if I come up with any more ideas before we meet. See you soon!"
+        ]
+      ]
+    },
+    "Jennifer Moore": {
+      "movement": [
+        36,
+        27
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Jennifer Moore and Latoya Williams discussing their upcoming creative collaboration, combining Jennifer's watercolor designs with Latoya's photography to highlight local business stories in light of the upcoming mayoral election. @ <persona> Latoya Williams",
+      "chat": [
+        [
+          "Jennifer Moore",
+          "Hi Latoya! I see you're getting ready for your virtual photography workshop. How's it going so far? Are you excited about it?"
+        ],
+        [
+          "Latoya Williams",
+          "Hi Jennifer! Yes, I'm really excited about the workshop. I love learning new techniques and getting inspiration for my photography projects. How about you? How's your painting coming along for the exhibition?"
+        ],
+        [
+          "Jennifer Moore",
+          "It's going well, thank you! I'm really focusing on incorporating some new elements for the exhibition, especially with the upcoming Valentine's Day party in mind. I'm excited to merge my watercolor designs with the event. Do you have any photography projects lined up that you're hoping to capture inspiration for?"
+        ],
+        [
+          "Latoya Williams",
+          "Absolutely! I'm currently working on a photography series inspired by my travels, and I'm hoping to explore how local politics affect small businesses, especially with the mayoral election coming up. I'm really interested in capturing the stories behind those businesses. Do you think your watercolor designs could complement that theme in any way?"
+        ],
+        [
+          "Jennifer Moore",
+          "That's a fascinating theme, Latoya! I think my watercolor designs could definitely enhance the emotional aspect of your series. Perhaps we could collaborate on a project that combines your photography with my art to tell those local business stories visually. What do you think?"
+        ],
+        [
+          "Latoya Williams",
+          "I love that idea, Jennifer! Combining our mediums could really create a powerful narrative. We should brainstorm how we can integrate your watercolor designs with my photography to highlight those local stories. When are you available to discuss this further?"
+        ],
+        [
+          "Jennifer Moore",
+          "I'm available to discuss this further later this week! How about we meet for coffee on Wednesday? We can brainstorm some ideas and see how we can make this collaboration come to life."
+        ],
+        [
+          "Latoya Williams",
+          "Wednesday works for me! Let\u2019s meet in the common room around 2 PM? I\u2019m looking forward to it!"
+        ],
+        [
+          "Jennifer Moore",
+          "Great! I'll see you on Wednesday at 2 PM in the common room. I'm really looking forward to brainstorming together! Enjoy your workshop in the meantime!"
+        ],
+        [
+          "Latoya Williams",
+          "Thank you, Jennifer! I will definitely enjoy the workshop. I\u2019m excited to see what ideas we come up with on Wednesday. If I think of anything else before then, I\u2019ll reach out to you. Have fun with your painting!"
+        ],
+        [
+          "Jennifer Moore",
+          "Sounds good, Latoya! I'm excited to hear any ideas you come up with before our meeting. I'll keep working on my paintings, and I look forward to our collaboration. Enjoy the rest of your workshop!"
+        ],
+        [
+          "Latoya Williams",
+          "Thanks, Jennifer! I appreciate it. After the workshop, I might take a little photography walk to gather more inspiration for our project. I\u2019ll share any interesting shots I find with you. See you on Wednesday!"
+        ],
+        [
+          "Jennifer Moore",
+          "That sounds like a wonderful idea, Latoya! I can't wait to see what you capture on your walk. It's always inspiring to see the world through your lens. Let\u2019s keep the creativity flowing until our meeting!"
+        ],
+        [
+          "Latoya Williams",
+          "Thanks, Jennifer! I\u2019ll make sure to capture some interesting perspectives that could complement your designs. By the way, have you thought about how we might showcase the stories of the business owners in our project? It could add another layer to our collaboration."
+        ],
+        [
+          "Jennifer Moore",
+          "That's a great point, Latoya! We could definitely include quotes or anecdotes from the business owners alongside the visuals to really bring their stories to life. Maybe we can even conduct a few interviews to get their personal insights. This way, we can create a deeper connection between the art and the community. What do you think about that approach?"
+        ],
+        [
+          "Latoya Williams",
+          "I think that's an excellent approach, Jennifer! Including quotes and anecdotes would definitely add depth to our project. I can start reaching out to some local business owners to see if they're willing to share their stories. Let's discuss which businesses we could feature when we meet on Wednesday."
+        ]
+      ]
+    },
+    "Yuriko Yamamoto": {
+      "movement": [
+        31,
+        59
+      ],
+      "pronunciatio": "\ud83d\udd0d\u2705",
+      "description": "continuing to work on the tax compliance project for the local business (double-checking the calculations for accuracy) @ the Ville:Yuriko Yamamoto's house:main room:desk",
+      "chat": null
+    },
+    "Adam Smith": {
+      "movement": [
+        61,
+        25
+      ],
+      "pronunciatio": "\ud83c\udfa8\ud83e\udd1d",
+      "description": "continuing to work on his book, focusing on how creativity can influence community engagement and local politics (conversing about Adam Smith and Giorgio Rossi discussing how creativity, particularly through mathematical patterns in art, can enhance community engagement and lead to a collaborative event that combines interactive art stations with discussions on local issues and entrepreneurship.) @ the Ville:The Rose and Crown Pub:pub:microphone",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 14:17:30"
+  }
+}

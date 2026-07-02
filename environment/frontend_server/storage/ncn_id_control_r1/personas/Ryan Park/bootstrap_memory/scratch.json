@@ -1,0 +1,350 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 17:09:50",
+  "curr_tile": [
+    61,
+    25
+  ],
+  "daily_plan_req": "",
+  "name": "Ryan Park",
+  "first_name": "Ryan",
+  "last_name": "Park",
+  "age": 29,
+  "innate": "analytical, pragmatic, driven",
+  "learned": "Ryan Park is a software engineer who loves to solve problems. He is constantly looking for ways to improve existing systems.",
+  "currently": "Ryan Park is working on a project to create a new mobile app. He is also reading up on the latest technologies to stay ahead of the curve.",
+  "lifestyle": "Ryan Park goes to bed around 1am, awakes up around 9am, eats dinner around 5pm.",
+  "living_area": "the Ville:Ryan Park's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 55,
+  "importance_ele_n": 74,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "work on the mobile app project from 9:00 am to 12:00 pm",
+    "have lunch and take a short break from 12:00 pm to 1:00 pm",
+    "continue working on the mobile app from 1:00 pm to 4:00 pm",
+    "read up on the latest technologies from 4:00 pm to 5:00 pm",
+    "have dinner at 5:00 pm",
+    "take some time to relax and unwind from 5:30 pm to 7:00 pm",
+    "engage in personal projects or side work from 7:00 pm to 9:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "working on the mobile app project (1) Ryan is reviewing the project requirements and specifications)",
+      15
+    ],
+    [
+      "working on the mobile app project (researching the latest technologies and frameworks relevant to the app)",
+      30
+    ],
+    [
+      "working on the mobile app project (on the way to UI) design)",
+      0
+    ],
+    [
+      "working on the mobile app project (conversing about Ryan Park and Tom Moreno discussing Maria Lopez's initiatives to support local businesses in the upcoming mayoral election, focusing on the potential impact of workshops and community engagement.)",
+      21
+    ],
+    [
+      "working on the mobile app project (setting up the development environment and tools)",
+      15
+    ],
+    [
+      "working on the mobile app project (writing the initial code for the app's core functionality)",
+      30
+    ],
+    [
+      "working on the mobile app project (testing the initial code to ensure it works as intended)",
+      15
+    ],
+    [
+      "working on the mobile app project (debugging any issues found during testing)",
+      30
+    ],
+    [
+      "working on the mobile app project (on the way to documenting the code and writing comments for clarity)",
+      0
+    ],
+    [
+      "working on the mobile app project (conversing about Ryan Park and John Lin discussing plans for a spring festival cocktail workshop, including promotion strategies, tech integration, and community involvement.)",
+      14
+    ],
+    [
+      "working on the mobile app project (preparing a summary of progress made on the project)",
+      5
+    ],
+    [
+      "having lunch and taking a short break (preparing his lunch)",
+      11
+    ],
+    [
+      "having lunch and taking a short break (eating his lunch)",
+      20
+    ],
+    [
+      "having lunch and taking a short break (cleaning up after lunch)",
+      10
+    ],
+    [
+      "having lunch and taking a short break (taking a short walk around his apartment)",
+      10
+    ],
+    [
+      "having lunch and taking a short break (relaxing and listening to music)",
+      5
+    ],
+    [
+      "continuing to work on the mobile app project (continuing to code the mobile app features)",
+      30
+    ],
+    [
+      "continuing to work on the mobile app project (reviewing the code for errors)",
+      20
+    ],
+    [
+      "continuing to work on the mobile app project (debugging the app)",
+      30
+    ],
+    [
+      "continuing to work on the mobile app project (testing the app on different devices)",
+      30
+    ],
+    [
+      "continuing to work on the mobile app project (on the way to on the way to gathering feedback from test users)",
+      0
+    ],
+    [
+      "continuing to work on the mobile app project (conversing about Ryan Park and Adam Smith discussing creative ideas and technology integration for engaging the community at an upcoming Valentine's Day party.)",
+      24
+    ],
+    [
+      "continuing to work on the mobile app project (on the way to conversing about Ryan Park and Eddy Lin discussing their collaboration ideas for a cocktail workshop, integrating music and local ingredients, while also coordinating a meeting to brainstorm further.)",
+      0
+    ],
+    [
+      "continuing to work on the mobile app project (conversing about Ryan Park and Arthur Burton discussing plans for interactive elements at the Valentine's Day party, including watercolor art-themed cocktails, app features for guest engagement, and brainstorming ideas to make the event special.)",
+      12
+    ],
+    [
+      "continuing to work on the mobile app project (on the way to analyzing the feedback and making notes)",
+      0
+    ],
+    [
+      "continuing to work on the mobile app project (conversing about Klaus Mueller and Ryan Park discussing Klaus's paper on gentrification, focusing on literary connections and the human aspects of the issue, while planning to meet to brainstorm ideas and share relevant texts and articles.)",
+      16
+    ],
+    [
+      "continuing to work on the mobile app project (implementing changes based on feedback)",
+      30
+    ],
+    [
+      "reading up on the latest technologies",
+      36
+    ],
+    [
+      "having dinner (on the way to preparing the ingredients for dinner)",
+      0
+    ],
+    [
+      "having dinner (conversing about Ryan Park and John Lin discussing ideas to engage the community through a spring festival cocktail workshop that features local farmers' produce, marketing strategies, and planning their next meeting to finalize details.)",
+      15
+    ],
+    [
+      "having dinner (on the way to cooking the main dish)",
+      0
+    ],
+    [
+      "having dinner (conversing about Ryan Park and Tom Moreno discussing Maria Lopez's initiatives for workshops aimed at digital marketing, community engagement strategies, and customer feedback, while planning to gather input from local business owners and consider inviting a guest speaker.)",
+      14
+    ],
+    [
+      "having dinner (setting the table)",
+      5
+    ],
+    [
+      "having dinner (cooking a side dish)",
+      10
+    ],
+    [
+      "having dinner (plating the food)",
+      5
+    ],
+    [
+      "having dinner (sitting down to eat)",
+      5
+    ],
+    [
+      "relaxing and unwinding (settling into his favorite chair)",
+      5
+    ],
+    [
+      "relaxing and unwinding (turning on his favorite music playlist)",
+      5
+    ],
+    [
+      "relaxing and unwinding (closing his eyes and taking a few deep breaths)",
+      5
+    ],
+    [
+      "relaxing and unwinding (stretching his arms and legs to release tension)",
+      5
+    ],
+    [
+      "relaxing and unwinding (grabbing a glass of water to stay hydrated)",
+      5
+    ],
+    [
+      "relaxing and unwinding (picking up a book to read for leisure)",
+      5
+    ],
+    [
+      "relaxing and unwinding (reading a few pages of the book)",
+      10
+    ],
+    [
+      "relaxing and unwinding (putting the book down and reflecting on what he read)",
+      5
+    ],
+    [
+      "relaxing and unwinding (checking his phone for any messages or notifications)",
+      5
+    ],
+    [
+      "relaxing and unwinding (putting his phone aside and focusing on the music)",
+      5
+    ],
+    [
+      "relaxing and unwinding (practicing mindfulness by being present in the moment)",
+      5
+    ],
+    [
+      "engaging in personal projects or side work",
+      180
+    ],
+    [
+      "working on personal projects or side work",
+      60
+    ],
+    [
+      "engaging in personal projects or side work",
+      60
+    ],
+    [
+      "sleeping",
+      9
+    ],
+    [
+      "sleeping",
+      6
+    ],
+    [
+      "sleeping",
+      2
+    ],
+    [
+      "sleeping",
+      4
+    ],
+    [
+      "sleeping",
+      6
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "working on the mobile app project",
+      180
+    ],
+    [
+      "having lunch and taking a short break",
+      60
+    ],
+    [
+      "continuing to work on the mobile app project",
+      180
+    ],
+    [
+      "reading up on the latest technologies",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing and unwinding",
+      60
+    ],
+    [
+      "engaging in personal projects or side work",
+      180
+    ],
+    [
+      "working on personal projects or side work",
+      60
+    ],
+    [
+      "engaging in personal projects or side work",
+      60
+    ]
+  ],
+  "act_address": "the Ville:The Rose and Crown Pub:pub:microphone",
+  "act_start_time": "February 13, 2023, 17:07:00",
+  "act_duration": 14,
+  "act_description": "having dinner (conversing about Ryan Park and Tom Moreno discussing Maria Lopez's initiatives for workshops aimed at digital marketing, community engagement strategies, and customer feedback, while planning to gather input from local business owners and consider inviting a guest speaker.)",
+  "act_pronunciatio": "\ud83d\udcac\ud83e\udd1d",
+  "act_event": [
+    "Ryan Park",
+    "converse",
+    "initiatives"
+  ],
+  "act_obj_description": "being used for conversation",
+  "act_obj_pronunciatio": "\ud83d\udcac\ud83d\udc65",
+  "act_obj_event": [
+    "microphone",
+    "use",
+    "conversation"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Tom Moreno": 692,
+    "John Lin": 608,
+    "Eddy Lin": -142,
+    "Adam Smith": 8,
+    "Arthur Burton": 86,
+    "Klaus Mueller": 206
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

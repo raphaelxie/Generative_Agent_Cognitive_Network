@@ -1,0 +1,248 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 17:09:50",
+  "curr_tile": [
+    26,
+    32
+  ],
+  "daily_plan_req": "",
+  "name": "Hailey Johnson",
+  "first_name": "Hailey",
+  "last_name": "Johnson",
+  "age": 30,
+  "innate": "imaginative, energetic, resourceful",
+  "learned": "Hailey Johnson is a writer who is always looking for new ways to tell stories. She loves to immerse herself in different cultures and explore their literature.",
+  "currently": "Hailey Johnson is writing a novel about a group of artists living in a co-living space. She is also planning to start a podcast.",
+  "lifestyle": "Hailey Johnson goes to bed around 2am, awakes up around 10am, eats dinner around 6pm.",
+  "living_area": "the Ville:artist's co-living space:Hailey Johnson's room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 14,
+  "importance_ele_n": 68,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "have breakfast and enjoy a cup of coffee while reading about different cultures and their literature at 10:30 am",
+    "dedicate time to brainstorming ideas for her novel from 11:30 am to 1:00 pm",
+    "take a short break to go for a walk and get inspired by her surroundings from 1:00 pm to 2:00 pm",
+    "write for her novel from 2:30 pm to 5:30 pm",
+    "have dinner at 6:00 pm",
+    "spend time researching potential guests and topics for her podcast from 7:00 pm to 9:00 pm",
+    "record a podcast episode from 9:30 pm to 11:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "sleeping",
+      240
+    ],
+    [
+      "brainstorming ideas for her novel",
+      60
+    ],
+    [
+      "taking a short break to go for a walk and get inspired by her surroundings (on the way to on the way to on the way to putting on her walking shoes)",
+      0
+    ],
+    [
+      "taking a short break to go for a walk and get inspired by her surroundings (conversing about Hailey Johnson and Abigail Chen discussing Abigail's interactive art tool that highlights local businesses and exploring ideas for collaboration between Abigail's project and Hailey's novel.)",
+      18
+    ],
+    [
+      "taking a short break to go for a walk and get inspired by her surroundings (conversing about Hailey Johnson and Francisco Lopez collaborating on their creative projects, exploring themes of collaboration and artistic processes, and brainstorming ideas for scenes to intertwine their works.)",
+      21
+    ],
+    [
+      "taking a short break to go for a walk and get inspired by her surroundings (on the way to walking back to her co-living space, reflecting on her ideas)",
+      0
+    ],
+    [
+      "taking a short break to go for a walk and get inspired by her surroundings (conversing about Hailey Johnson and Ryan Park discussing their collaborative project that integrates local businesses into an interactive art tool and app, planning a marketing strategy and brainstorming session to enhance user engagement.)",
+      15
+    ],
+    [
+      "taking a short break to go for a walk and get inspired by her surroundings (on the way to stepping inside her co-living space)",
+      0
+    ],
+    [
+      "taking a short break to go for a walk and get inspired by her surroundings (conversing about Jennifer Moore and Hailey Johnson discussing their upcoming art exhibition collaboration, focusing on incorporating interactive elements, local stories, community engagement, and logistics for a recording booth and live painting setup.)",
+      19
+    ],
+    [
+      "taking a short break to go for a walk and get inspired by her surroundings (on the way to sitting down with her notebook and pen)",
+      0
+    ],
+    [
+      "taking a short break to go for a walk and get inspired by her surroundings (conversing about Latoya Williams and Hailey Johnson discussing their collaborative project for an art exhibition that incorporates local stories and photographs from a Valentine's Day party, focusing on themes of connection and community.)",
+      20
+    ],
+    [
+      "brainstorming ideas for her novel (on the way to incorporating insights from her conversation and observations)",
+      0
+    ],
+    [
+      "brainstorming ideas for her novel (conversing about Hailey Johnson and Arthur Burton discussing the creation of cocktails inspired by local stories and art pieces for an upcoming exhibition, with plans for a tasting session and collaboration with local farmers.)",
+      22
+    ],
+    [
+      "writing for her novel (brainstorming plot points for her novel)",
+      15
+    ],
+    [
+      "writing for her novel (outlining character development)",
+      15
+    ],
+    [
+      "writing for her novel (on the way to writing the first draft of a chapter)",
+      0
+    ],
+    [
+      "writing for her novel (conversing about Hailey Johnson and Adam Smith discussing the integration of creative storytelling into community events, specifically a Valentine's Day party, and how it can enhance her novel about artists in a co-living space.)",
+      27
+    ],
+    [
+      "sleeping",
+      68
+    ],
+    [
+      "having dinner (preparing the ingredients for dinner)",
+      15
+    ],
+    [
+      "having dinner (cooking the main dish)",
+      20
+    ],
+    [
+      "having dinner (setting the table)",
+      5
+    ],
+    [
+      "having dinner (plating the food)",
+      5
+    ],
+    [
+      "having dinner (pouring a drink)",
+      5
+    ],
+    [
+      "having dinner (sitting down to eat)",
+      10
+    ],
+    [
+      "spending time researching potential guests and topics for her podcast",
+      60
+    ],
+    [
+      "spending time reflecting on her day and journaling her thoughts",
+      60
+    ],
+    [
+      "recording a podcast episode",
+      60
+    ],
+    [
+      "sleeping",
+      120
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "sleeping",
+      240
+    ],
+    [
+      "brainstorming ideas for her novel",
+      60
+    ],
+    [
+      "taking a short break to go for a walk and get inspired by her surroundings",
+      60
+    ],
+    [
+      "writing for her novel",
+      60
+    ],
+    [
+      "sleeping",
+      120
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "spending time researching potential guests and topics for her podcast",
+      60
+    ],
+    [
+      "spending time reflecting on her day and journaling her thoughts",
+      60
+    ],
+    [
+      "recording a podcast episode",
+      60
+    ],
+    [
+      "sleeping",
+      120
+    ]
+  ],
+  "act_address": "the Ville:artist's co-living space:Hailey Johnson's room:bed",
+  "act_start_time": "February 13, 2023, 17:06:00",
+  "act_duration": 68,
+  "act_description": "sleeping",
+  "act_pronunciatio": "\ud83d\ude34\ud83d\udca4",
+  "act_event": [
+    "Hailey Johnson",
+    "is",
+    "sleep"
+  ],
+  "act_obj_description": "occupied",
+  "act_obj_pronunciatio": "\ud83d\udeaa\ud83d\udeb7",
+  "act_obj_event": [
+    "bed",
+    "is",
+    "occupied"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Rajiv Patel": -508,
+    "Francisco Lopez": -376,
+    "Abigail Chen": -256,
+    "Ryan Park": -148,
+    "Jennifer Moore": 20,
+    "Latoya Williams": 140,
+    "Arthur Burton": 302,
+    "Adam Smith": 614
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

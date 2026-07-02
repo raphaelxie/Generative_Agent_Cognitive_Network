@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    88,
-    46
+    91,
+    67
   ],
   "daily_plan_req": "Mei Lin goes to Oak Hill college to teach starting 10 am, teaches until 2pm, and returns home to work.",
   "name": "Mei Lin",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 11,
-  "importance_ele_n": 63,
+  "importance_trigger_curr": 64,
+  "importance_ele_n": 46,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 8:00 am",
@@ -239,32 +239,100 @@
       18
     ],
     [
-      "working on her research paper (writing the methodology section)",
-      20
+      "working on her research paper (on the way to writing the methodology section)",
+      0
+    ],
+    [
+      "working on her research paper (conversing about Mei Lin and Tom Moreno collaborating on decoration ideas, quotes, and promotion strategies for a Valentine's Day event at The Willow Market.)",
+      18
     ],
     [
       "working on her research paper (taking a short break to stretch and refresh)",
       5
     ],
     [
-      "working on her research paper (writing the results section of her paper)",
+      "working on her research paper (on the way to writing the results section of her paper)",
       21
     ],
     [
-      "preparing and having dinner with her family",
-      38
+      "working on her research paper (conversing about Mei Lin and Ryan Park discussing plans for a Valentine's Day party that incorporates local stories, interactive art, and collaboration with local artists.)",
+      20
     ],
     [
-      "helping Eddy and her other child with homework",
-      60
+      "preparing and having dinner with her family (on the way to preparing and having dinner with her famil)",
+      0
     ],
     [
-      "spending quality time with her family",
-      180
+      "preparing and having dinner with her family (conversing about Mei Lin and Adam Smith discussing the planning and logistics of workshops for local entrepreneurs, focusing on creativity, community engagement strategies, potential guest speakers, and necessary materials.)",
+      21
+    ],
+    [
+      "helping Eddy and her other child with homework (on the way to helping Eddy with his math homework)",
+      0
+    ],
+    [
+      "helping Eddy and her other child with homework (conversing about Mei Lin and Eddy Lin discussing their upcoming lunch meeting presentation on ethical theories in music, focusing on classical pieces like Beethoven's 'Eroica' Symphony and John Adams' 'Nixon in China', as well as contemporary composers such as Philip Glass and Caroline Shaw.)",
+      19
+    ],
+    [
+      "helping Eddy and her other child with homework (on the way to reviewing Eddy's completed math problems)",
+      0
+    ],
+    [
+      "helping Eddy and her other child with homework (conversing about John and Mei Lin discussing how to integrate family discussions about ethics into Eddy's music project while planning a listening session and dinner that complements their exploration of classical and contemporary music.)",
+      19
+    ],
+    [
+      "helping Eddy and her other child with homework (explaining a math concept that Eddy finds difficult)",
+      10
+    ],
+    [
+      "helping Eddy and her other child with homework (checking in with her other child about their homework)",
+      5
+    ],
+    [
+      "helping Eddy and her other child with homework (helping her other child with their reading assignment)",
+      15
+    ],
+    [
+      "spending quality time with her family (spending time with her family in the living room)",
+      15
+    ],
+    [
+      "spending quality time with her family (playing a board game with her kids)",
+      30
+    ],
+    [
+      "spending quality time with her family (helping Eddy with a fun science experiment)",
+      30
+    ],
+    [
+      "spending quality time with her family (preparing snacks for the family)",
+      15
+    ],
+    [
+      "spending quality time with her family (enjoying snacks and chatting with her family)",
+      15
+    ],
+    [
+      "spending quality time with her family (watching a family movie together)",
+      45
+    ],
+    [
+      "spending quality time with her family (discussing the movie with her family after it ends)",
+      15
+    ],
+    [
+      "spending quality time with her family (helping her kids with their thoughts on the movie)",
+      10
+    ],
+    [
+      "spending quality time with her family (giving her kids hugs and saying goodnight)",
+      5
     ],
     [
       "relaxing and unwinding after a long day",
-      60
+      51
     ],
     [
       "relaxing and unwinding after a long day before going to bed",
@@ -273,6 +341,10 @@
     [
       "sleeping",
       4
+    ],
+    [
+      "sleeping",
+      2
     ],
     [
       "sleeping",
@@ -333,35 +405,37 @@
       60
     ]
   ],
-  "act_address": "the Ville:The Willows Market and Pharmacy:store:grocery store counter",
-  "act_start_time": "February 13, 2023, 16:09:00",
-  "act_duration": 22,
-  "act_description": "working on her research paper (conversing about Klaus Mueller and Mei Lin discussing their research topics on gentrification and ethical theories in music, exploring potential collaboration for a workshop that combines narratives from Klaus's research with musical pieces that reflect those themes, and considering community organizations for partnership.)",
-  "act_pronunciatio": "\ud83d\udcac\ud83c\udfb6",
+  "act_address": "the Ville:Lin family's house:common room:common room table",
+  "act_start_time": "February 13, 2023, 19:16:00",
+  "act_duration": 30,
+  "act_description": "spending quality time with her family (playing a board game with her kids)",
+  "act_pronunciatio": "\ud83c\udfb2\ud83d\udc69\u200d",
   "act_event": [
     "Mei Lin",
-    "converse",
-    "research topics"
+    "play",
+    "board game"
   ],
-  "act_obj_description": "currently unused and cluttered with research papers and materials related to Mei Lin's conversation with Klaus Mueller",
-  "act_obj_pronunciatio": "\ud83d\udcda\ud83d\uddc4\ufe0f",
+  "act_obj_description": "cluttered with board game pieces, snacks, and drinks",
+  "act_obj_pronunciatio": "\ud83c\udfb2\ud83e\udd68",
   "act_obj_event": [
-    "grocery store counter",
-    "is",
-    "unused"
+    "common room table",
+    "common room table",
+    "is"
   ],
   "chatting_with": null,
   "chat": null,
   "chatting_with_buffer": {
-    "John Lin": -406,
-    "Eddy Lin": 236,
-    "Isabella Rodriguez": -1456,
-    "Ayesha Khan": 590,
-    "Tom Moreno": -508,
-    "Jane Moreno": -142,
-    "Sam Moore": -4,
-    "Yuriko Yamamoto": 80,
-    "Klaus Mueller": 734
+    "John Lin": 332,
+    "Eddy Lin": 212,
+    "Isabella Rodriguez": -2656,
+    "Ayesha Khan": -610,
+    "Tom Moreno": -250,
+    "Jane Moreno": -1342,
+    "Sam Moore": -1204,
+    "Yuriko Yamamoto": -1120,
+    "Klaus Mueller": -466,
+    "Ryan Park": -94,
+    "Adam Smith": 62
   },
   "chatting_end_time": null,
   "act_path_set": true,

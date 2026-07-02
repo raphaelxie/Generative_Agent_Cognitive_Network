@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    59,
-    25
+    37,
+    61
   ],
   "daily_plan_req": "",
   "name": "Jennifer Moore",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 17,
-  "importance_ele_n": 66,
+  "importance_trigger_curr": 185,
+  "importance_ele_n": 27,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 5:00 am",
@@ -219,8 +219,12 @@
       11
     ],
     [
-      "taking an afternoon walk for inspiration (continuing her walk to the nearby park)",
-      5
+      "taking an afternoon walk for inspiration (on the way to continuing her walk to the nearby park)",
+      0
+    ],
+    [
+      "taking an afternoon walk for inspiration (conversing about Jennifer Moore and Arthur Burton discussing their collaboration for an upcoming Valentine's event, focusing on integrating local stories into artwork and creating a special cocktail that complements those stories.)",
+      15
     ],
     [
       "taking an afternoon walk for inspiration (sitting on a bench in the park, taking in the scenery)",
@@ -239,16 +243,100 @@
       34
     ],
     [
-      "having dinner with her husband, Sam",
-      59
+      "having dinner with her husband, Sam (on the way to having dinner with her husband, Sa)",
+      0
     ],
     [
-      "continuing to work on her watercolor paintings for her upcoming exhibition",
-      300
+      "having dinner with her husband, Sam (conversing about Sam and Jennifer discussing how to incorporate Jennifer's watercolor paintings and interactive art activities, including a collaborative mural and local artist involvement, into their upcoming Valentine's Day party.)",
+      20
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (setting up her painting area)",
+      15
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (selecting the watercolor paints she will use)",
+      10
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (choosing the brushes she needs for her painting)",
+      5
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (preparing the canvas or paper for painting)",
+      10
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (on the way to sketching the outline of her painting)",
+      0
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (conversing about Jennifer Moore's upcoming exhibition themed around community stories and resilience of local businesses, and Carmen Ortiz's plans for a community day event at the park where Jennifer will showcase her artwork.)",
+      14
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (mixing colors on her palette)",
+      15
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (painting the background of her artwork)",
+      30
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (adding details to the foreground of her painting)",
+      45
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (stepping back to assess her work)",
+      10
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (making adjustments to the colors and details)",
+      30
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (allowing the painting to dry)",
+      15
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (cleaning her brushes and palette)",
+      10
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (reflecting on her progress and jotting down notes)",
+      15
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (starting a new painting or working on another piece)",
+      30
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (reviewing her exhibition plans and making notes)",
+      20
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (packing up her painting supplies for the night)",
+      10
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (tidying up her painting area)",
+      5
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (reflecting on her day and preparing for bed)",
+      5
     ],
     [
       "preparing for bed and reflecting on her day",
       60
+    ],
+    [
+      "sleeping",
+      7
+    ],
+    [
+      "sleeping",
+      6
     ]
   ],
   "f_daily_schedule_hourly_org": [
@@ -309,74 +397,39 @@
       60
     ]
   ],
-  "act_address": "<persona> Adam Smith",
-  "act_start_time": "February 13, 2023, 16:16:10",
-  "act_duration": 11,
-  "act_description": "conversing about Jennifer Moore and Adam Smith discussing their collaboration for the Valentine's event, focusing on integrating local stories into artwork and writing, and setting up a meeting to brainstorm ideas.",
-  "act_pronunciatio": "\ud83d\udcac",
+  "act_address": "the Ville:Moore family's house:main room:desk",
+  "act_start_time": "February 13, 2023, 19:37:00",
+  "act_duration": 45,
+  "act_description": "continuing to work on her watercolor paintings for her upcoming exhibition (adding details to the foreground of her painting)",
+  "act_pronunciatio": "\ud83c\udfa8\u270d\ufe0f",
   "act_event": [
     "Jennifer Moore",
-    "chat with",
-    "Adam Smith"
+    "add",
+    "details"
   ],
-  "act_obj_description": null,
-  "act_obj_pronunciatio": null,
+  "act_obj_description": "covered in watercolor supplies and paint palettes",
+  "act_obj_pronunciatio": "\ud83c\udfa8\ud83d\udd8c\ufe0f",
   "act_obj_event": [
-    null,
-    null,
-    null
+    "desk",
+    "be covered in",
+    "watercolor supplies and paint palettes"
   ],
-  "chatting_with": "Adam Smith",
-  "chat": [
-    [
-      "Jennifer Moore",
-      "Hi Adam! I saw you deep in thought over there. How's the book coming along? I was just discussing with Hailey about our collaboration for the Valentine's event, and it made me think about how creativity plays a role in everything we do, including your writing."
-    ],
-    [
-      "Adam Smith",
-      "Hi Jennifer! The book is progressing well, thank you for asking. I love how you're incorporating local stories into your watercolor artwork for the Valentine's event. It really highlights the creativity we all bring to our community. I'd love to hear more about your ideas and how I might be able to tie them into my writing."
-    ],
-    [
-      "Jennifer Moore",
-      "I'm glad to hear your book is coming along! For the Valentine's event, I'm thinking of using watercolor designs that reflect the stories of local businesses and artists. I believe each piece can tell a story of love and resilience. Maybe we can even include some quotes that resonate with your themes of creativity and problem-solving. What do you think?"
-    ],
-    [
-      "Adam Smith",
-      "I think that's a fantastic idea, Jennifer! Including quotes that resonate with creativity and resilience could really deepen the connection between the artwork and the community's stories. Perhaps we can brainstorm some specific themes or quotes together that would align well with the visuals you're creating. I'm excited about the possibility of integrating our work!"
-    ],
-    [
-      "Jennifer Moore",
-      "That sounds wonderful, Adam! I love the idea of brainstorming themes together. Maybe we could focus on concepts like community, love, or resilience. I can think of some quotes that tie into those ideas. How about we set a time to meet and sketch out some concepts together?"
-    ],
-    [
-      "Adam Smith",
-      "That sounds like a great plan, Jennifer! How about we meet later this week? I'm looking forward to seeing what you have in mind and sharing some of my thoughts as well."
-    ],
-    [
-      "Jennifer Moore",
-      "How about we meet this Thursday at the Rose and Crown Pub? I can bring some of my sketches and ideas, and we can dive into the brainstorming session over a cup of tea. Does that work for you?"
-    ],
-    [
-      "Adam Smith",
-      "Thursday at the Rose and Crown Pub sounds perfect! I can't wait to see your sketches and share some of my ideas too. Let's aim for around 4 PM? Looking forward to it!"
-    ],
-    [
-      "Jennifer Moore",
-      "Great! I'll see you on Thursday at 4 PM then. I'm really excited to collaborate and see how our ideas can come together for the Valentine's event. It\u2019s going to be a wonderful celebration of our community! Until then, take care!"
-    ]
-  ],
+  "chatting_with": null,
+  "chat": null,
   "chatting_with_buffer": {
-    "Sam Moore": -526,
-    "Francisco Lopez": 512,
-    "John Lin": -220,
-    "Eddy Lin": -76,
-    "Rajiv Patel": 92,
-    "Abigail Chen": 224,
-    "Latoya Williams": 338,
-    "Hailey Johnson": 740,
-    "Adam Smith": 800
+    "Sam Moore": 2,
+    "Francisco Lopez": -688,
+    "John Lin": -1420,
+    "Eddy Lin": -1276,
+    "Rajiv Patel": -1108,
+    "Abigail Chen": -976,
+    "Latoya Williams": -862,
+    "Hailey Johnson": -460,
+    "Adam Smith": -358,
+    "Arthur Burton": -262,
+    "Carmen Ortiz": 428
   },
-  "chatting_end_time": "February 13, 2023, 16:27:00",
+  "chatting_end_time": null,
   "act_path_set": true,
   "planned_path": []
 }

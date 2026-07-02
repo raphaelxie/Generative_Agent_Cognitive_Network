@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    78,
-    51
+    91,
+    69
   ],
   "daily_plan_req": "John Lin goes to the Willow Market and Pharmacy around 9am to open the pharmacy counter. He stands behind the counter until 5pm and returns home.",
   "name": "John Lin",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 233,
-  "importance_ele_n": 4,
+  "importance_trigger_curr": 224,
+  "importance_ele_n": 8,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 6:00 am",
@@ -276,12 +276,52 @@
       48
     ],
     [
-      "spending time with his wife and son",
-      120
+      "spending time with his wife and son (on the way to engaging in a family board game)",
+      0
     ],
     [
-      "spending time with his family, engaging in activities they enjoy together",
-      120
+      "spending time with his wife and son (conversing about Mei Lin and John Lin discussing dinner plans, including a menu of stir-fried vegetables and chocolate mousse, while also planning to talk about local mayoral candidates and Eddy's research project on music and emotions.)",
+      14
+    ],
+    [
+      "spending time with his wife and son (helping Eddy with his homework)",
+      30
+    ],
+    [
+      "spending time with his wife and son (discussing the upcoming mayoral election with Mei)",
+      15
+    ],
+    [
+      "spending time with his wife and son (preparing snacks for the family)",
+      15
+    ],
+    [
+      "spending time with his wife and son (watching a family movie together)",
+      30
+    ],
+    [
+      "spending time with his family, engaging in activities they enjoy together (playing a board game with his family)",
+      30
+    ],
+    [
+      "spending time with his family, engaging in activities they enjoy together (helping Eddy with his homework)",
+      20
+    ],
+    [
+      "spending time with his family, engaging in activities they enjoy together (preparing a snack for the family)",
+      15
+    ],
+    [
+      "spending time with his family, engaging in activities they enjoy together (watching a family movie together)",
+      30
+    ],
+    [
+      "spending time with his family, engaging in activities they enjoy together (discussing the movie with his family)",
+      10
+    ],
+    [
+      "spending time with his family, engaging in activities they enjoy together (helping Mei with a puzzle)",
+      15
     ],
     [
       "relaxing and preparing for bed",
@@ -302,6 +342,10 @@
     [
       "sleeping",
       2
+    ],
+    [
+      "sleeping",
+      16
     ]
   ],
   "f_daily_schedule_hourly_org": [
@@ -350,35 +394,35 @@
       60
     ]
   ],
-  "act_address": "the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
-  "act_start_time": "February 13, 2023, 16:10:00",
-  "act_duration": 10,
-  "act_description": "assisting customers at the pharmacy (helping a customer with a medication delivery request)",
-  "act_pronunciatio": "\ud83d\udc8a\ud83d\ude9a",
+  "act_address": "the Ville:Lin family's house:common room:common room table",
+  "act_start_time": "February 13, 2023, 19:39:00",
+  "act_duration": 30,
+  "act_description": "spending time with his family, engaging in activities they enjoy together (playing a board game with his family)",
+  "act_pronunciatio": "\ud83c\udfb2\ud83d\udc68\u200d",
   "act_event": [
     "John Lin",
-    "help",
-    "customer"
+    "play",
+    "board game"
   ],
-  "act_obj_description": "actively being used to assist customers",
-  "act_obj_pronunciatio": "\ud83e\udd1d\ud83d\udcbc",
+  "act_obj_description": "covered with a board game and snacks",
+  "act_obj_pronunciatio": "\ud83c\udfb2\ud83c\udf7f",
   "act_obj_event": [
-    "pharmacy store counter",
-    "be used",
-    "assist customers"
+    "common room table",
+    "be covered with",
+    "board game and snacks"
   ],
   "chatting_with": null,
   "chat": null,
   "chatting_with_buffer": {
-    "Mei Lin": -406,
-    "Eddy Lin": -1942,
-    "Tom Moreno": 494,
-    "Adam Smith": 392,
-    "Arthur Burton": -1042,
-    "Ryan Park": -946,
-    "Isabella Rodriguez": -604,
-    "Jane Moreno": -352,
-    "Jennifer Moore": -220
+    "Mei Lin": -34,
+    "Eddy Lin": -3142,
+    "Tom Moreno": -706,
+    "Adam Smith": -808,
+    "Arthur Burton": -2242,
+    "Ryan Park": -2146,
+    "Isabella Rodriguez": -1804,
+    "Jane Moreno": -1552,
+    "Jennifer Moore": -1420
   },
   "chatting_end_time": null,
   "act_path_set": true,

@@ -1,0 +1,409 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 17:09:50",
+  "curr_tile": [
+    59,
+    25
+  ],
+  "daily_plan_req": "",
+  "name": "Ryan Park",
+  "first_name": "Ryan",
+  "last_name": "Park",
+  "age": 29,
+  "innate": "analytical, pragmatic, driven",
+  "learned": "Ryan Park is a software engineer who loves to solve problems. He is constantly looking for ways to improve existing systems.",
+  "currently": "Ryan Park is working on a project to create a new mobile app. He is also reading up on the latest technologies to stay ahead of the curve.",
+  "lifestyle": "Ryan Park goes to bed around 1am, awakes up around 9am, eats dinner around 5pm.",
+  "living_area": "the Ville:Ryan Park's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 241,
+  "importance_ele_n": 2,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "work on the mobile app project from 9:00 am to 12:00 pm",
+    "have lunch and take a short break from 12:00 pm to 1:00 pm",
+    "continue working on the mobile app from 1:00 pm to 4:00 pm",
+    "read up on the latest technologies from 4:00 pm to 5:00 pm",
+    "have dinner at 5:00 pm",
+    "take some time to relax and unwind from 5:30 pm to 7:00 pm",
+    "engage in personal projects or side work from 7:00 pm to 9:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "working on the mobile app project (1) Ryan is reviewing the project requirements and specifications)",
+      15
+    ],
+    [
+      "working on the mobile app project (researching the latest technologies and frameworks relevant to the app)",
+      30
+    ],
+    [
+      "working on the mobile app project (on the way to UI) design)",
+      0
+    ],
+    [
+      "working on the mobile app project (conversing about Ryan Park and Tom Moreno discussing Maria Lopez's initiatives to support local businesses in the upcoming mayoral election, focusing on the potential impact of workshops and community engagement.)",
+      21
+    ],
+    [
+      "working on the mobile app project (setting up the development environment and tools)",
+      15
+    ],
+    [
+      "working on the mobile app project (writing the initial code for the app's core functionality)",
+      30
+    ],
+    [
+      "working on the mobile app project (testing the initial code to ensure it works as intended)",
+      15
+    ],
+    [
+      "working on the mobile app project (debugging any issues found during testing)",
+      30
+    ],
+    [
+      "working on the mobile app project (on the way to documenting the code and writing comments for clarity)",
+      0
+    ],
+    [
+      "working on the mobile app project (conversing about Ryan Park and John Lin discussing plans for a spring festival cocktail workshop, including promotion strategies, tech integration, and community involvement.)",
+      14
+    ],
+    [
+      "working on the mobile app project (preparing a summary of progress made on the project)",
+      5
+    ],
+    [
+      "having lunch and taking a short break (preparing his lunch)",
+      11
+    ],
+    [
+      "having lunch and taking a short break (eating his lunch)",
+      20
+    ],
+    [
+      "having lunch and taking a short break (cleaning up after lunch)",
+      10
+    ],
+    [
+      "having lunch and taking a short break (taking a short walk around his apartment)",
+      10
+    ],
+    [
+      "having lunch and taking a short break (relaxing and listening to music)",
+      5
+    ],
+    [
+      "continuing to work on the mobile app project (continuing to code the mobile app features)",
+      30
+    ],
+    [
+      "continuing to work on the mobile app project (reviewing the code for errors)",
+      20
+    ],
+    [
+      "continuing to work on the mobile app project (debugging the app)",
+      30
+    ],
+    [
+      "continuing to work on the mobile app project (testing the app on different devices)",
+      30
+    ],
+    [
+      "continuing to work on the mobile app project (on the way to gathering feedback from test users)",
+      0
+    ],
+    [
+      "continuing to work on the mobile app project (conversing about Adam Smith and Ryan Park discussing how to incorporate creativity and local initiatives into Ryan's app, including features to promote local businesses, community events, and potential collaboration with schools and artists for a launch event.)",
+      21
+    ],
+    [
+      "continuing to work on the mobile app project (on the way to analyzing the feedback and making notes)",
+      0
+    ],
+    [
+      "continuing to work on the mobile app project (conversing about Arthur Burton and Ryan Park discussing the integration of app features with upcoming cocktail events, including a Valentine's Day cocktail presentation inspired by the Fibonacci sequence, and brainstorming ideas for community engagement and local business involvement.)",
+      14
+    ],
+    [
+      "continuing to work on the mobile app project (on the way to implementing changes based on feedback)",
+      0
+    ],
+    [
+      "continuing to work on the mobile app project (conversing about Ryan Park and Sam Moore collaborating on app features and initiatives to enhance their Valentine's Day party by promoting local artists and community engagement.)",
+      23
+    ],
+    [
+      "reading up on the latest technologies (on the way to reading up on the latest technologie)",
+      0
+    ],
+    [
+      "reading up on the latest technologies (conversing about Hailey Johnson and Ryan Park discussing their collaborative efforts to enhance the Valentine's Day party through an app featuring local artists and poetry while also planning to engage local businesses for support.)",
+      14
+    ],
+    [
+      "having dinner (on the way to preparing the ingredients for dinner)",
+      15
+    ],
+    [
+      "having dinner (conversing about Ryan Park and Tom Moreno discussing ideas to incorporate local artists into their Valentine's Day party, promote the event through local businesses, and create a community events calendar in their app.)",
+      17
+    ],
+    [
+      "having dinner (on the way to cooking the main dish)",
+      0
+    ],
+    [
+      "having dinner (conversing about Ryan Park and Giorgio Rossi discussing the mayoral election candidates, particularly Maria Lopez's initiatives for local businesses and community engagement, as well as brainstorming ideas to incorporate community input into their upcoming Valentine's Day event.)",
+      23
+    ],
+    [
+      "having dinner (on the way to setting the table)",
+      0
+    ],
+    [
+      "having dinner (conversing about Ryan Park and Carlos Gomez discussing plans to incorporate live poetry readings into a Valentine's Day party, including a call for submissions, audience voting, prizes, refreshments, and event layout.)",
+      21
+    ],
+    [
+      "having dinner (on the way to cooking a side dish)",
+      0
+    ],
+    [
+      "having dinner (conversing about Arthur Burton and Ryan Park discussing plans for a Valentine's Day cocktail presentation that incorporates local ingredients, a cocktail contest inspired by the Fibonacci sequence, and ways to engage the community through app promotions and local farmer stories.)",
+      18
+    ],
+    [
+      "having dinner (plating the food)",
+      10
+    ],
+    [
+      "relaxing and unwinding (settling into his favorite chair)",
+      5
+    ],
+    [
+      "relaxing and unwinding (turning on his favorite music playlist)",
+      5
+    ],
+    [
+      "relaxing and unwinding (closing his eyes and taking a few deep breaths)",
+      5
+    ],
+    [
+      "relaxing and unwinding (stretching his arms and legs to release tension)",
+      5
+    ],
+    [
+      "relaxing and unwinding (grabbing a glass of water to stay hydrated)",
+      5
+    ],
+    [
+      "relaxing and unwinding (picking up a book he\u2019s been wanting to read)",
+      5
+    ],
+    [
+      "relaxing and unwinding (reading a few pages of the book)",
+      1
+    ],
+    [
+      "relaxing and unwinding (putting his phone aside and focusing on the music)",
+      5
+    ],
+    [
+      "relaxing and unwinding (practicing mindfulness by focusing on his breathing)",
+      5
+    ],
+    [
+      "engaging in personal projects or side work",
+      172
+    ],
+    [
+      "working on personal projects or side work",
+      60
+    ],
+    [
+      "engaging in personal projects or side work",
+      60
+    ],
+    [
+      "sleeping",
+      9
+    ],
+    [
+      "sleeping",
+      6
+    ],
+    [
+      "sleeping",
+      7
+    ],
+    [
+      "sleeping",
+      45
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "working on the mobile app project",
+      180
+    ],
+    [
+      "having lunch and taking a short break",
+      60
+    ],
+    [
+      "continuing to work on the mobile app project",
+      180
+    ],
+    [
+      "reading up on the latest technologies",
+      60
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing and unwinding",
+      60
+    ],
+    [
+      "engaging in personal projects or side work",
+      180
+    ],
+    [
+      "working on personal projects or side work",
+      60
+    ],
+    [
+      "engaging in personal projects or side work",
+      60
+    ]
+  ],
+  "act_address": "<persona> Arthur Burton",
+  "act_start_time": "February 13, 2023, 17:07:10",
+  "act_duration": 18,
+  "act_description": "conversing about Arthur Burton and Ryan Park discussing plans for a Valentine's Day cocktail presentation that incorporates local ingredients, a cocktail contest inspired by the Fibonacci sequence, and ways to engage the community through app promotions and local farmer stories.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Ryan Park",
+    "chat with",
+    "Arthur Burton"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Arthur Burton",
+  "chat": [
+    [
+      "Arthur Burton",
+      "Hey Ryan! I was just thinking about our earlier discussion on the Valentine's Day cocktail presentation. Have you thought more about how we can engage the community with that? Maybe we could incorporate some local ingredients or even a contest for the best cocktail inspired by the Fibonacci sequence."
+    ],
+    [
+      "Ryan Park",
+      "That's a great idea, Arthur! Incorporating local ingredients would not only enhance the cocktails but also support local farmers. I love the contest idea too\u2014maybe we could set up a voting system through our app to let the community choose their favorite cocktail inspired by the Fibonacci sequence. What do you think?"
+    ],
+    [
+      "Arthur Burton",
+      "I think that's perfect! It would really engage our customers and make the event more interactive. We could also showcase the winning cocktail at the pub for a limited time. What do you think about reaching out to some local farmers to see what ingredients they can provide us with?"
+    ],
+    [
+      "Ryan Park",
+      "That sounds like a solid plan! I can reach out to a few local farmers this week and see what they have available. We can also promote their farms in the app, which would be a great way to highlight our community support. Do you have any specific farmers in mind?"
+    ],
+    [
+      "Arthur Burton",
+      "I was thinking about reaching out to John Lin's family farm. They usually have great produce, and they might be excited to get involved. Do you think we should also consider featuring their stories in the app or at the event?"
+    ],
+    [
+      "Ryan Park",
+      "Absolutely! Featuring their stories would add a personal touch and give our audience a connection to the ingredients. We could even have a section in the app dedicated to local farmers and their stories. Let's make it happen!"
+    ],
+    [
+      "Arthur Burton",
+      "Great! I'll reach out to John Lin and see if he can share some stories about his farm. Once we have the ingredients lined up, we can start planning the cocktail contest details. I'm really excited about how this is coming together!"
+    ],
+    [
+      "Ryan Park",
+      "Sounds good, Arthur! Once you have a chance to talk to John Lin, let me know what ingredients we can work with. We should also start brainstorming how to promote the cocktail contest through our app and social media. Maybe we can create some buzz leading up to Valentine's Day!"
+    ],
+    [
+      "Arthur Burton",
+      "Absolutely! I\u2019ll keep you updated on my conversation with John. Once we have the ingredients, we can brainstorm some fun ways to promote the contest. Maybe even create a special hashtag for social media? It would be a great way to encourage engagement."
+    ],
+    [
+      "Ryan Park",
+      "That's a fantastic idea! A special hashtag could definitely help spread the word. We should also think about how to incentivize participation, maybe with some prizes for the winners. What do you think would work best?"
+    ],
+    [
+      "Arthur Burton",
+      "I think offering some drink vouchers or a gift card to The Rose and Crown Pub as prizes would be a great way to incentivize participation! It would encourage more people to join in on the fun. What do you think about that?"
+    ],
+    [
+      "Ryan Park",
+      "I think drink vouchers or a gift card would be perfect! It will definitely motivate people to participate. We should also consider adding some fun elements to the contest, like having a theme for the cocktails that ties back to Valentine's Day. Do you think we should set up a meeting to finalize the details?"
+    ],
+    [
+      "Arthur Burton",
+      "I think that's a great idea! Setting up a meeting to finalize the details would help us stay organized and make sure we cover everything. How about we meet later this week? We can outline the contest rules, the timeline for promotions, and any other ideas we come up with. What day works for you?"
+    ],
+    [
+      "Ryan Park",
+      "How about we meet on Thursday evening? I can bring my notes on the app features and we can hash out the details for the contest and the promotion strategy."
+    ],
+    [
+      "Arthur Burton",
+      "Thursday evening works for me! Let\u2019s say around 6 PM? I\u2019ll make sure to have everything ready for our discussion. Looking forward to it!"
+    ],
+    [
+      "Ryan Park",
+      "Perfect! I\u2019ll see you on Thursday at 6 PM. In the meantime, I\u2019ll start drafting some ideas for the app promotion. I\u2019m really looking forward to seeing how this all comes together!"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Tom Moreno": 446,
+    "John Lin": -1246,
+    "Adam Smith": -100,
+    "Arthur Burton": 800,
+    "Sam Moore": 206,
+    "Hailey Johnson": 290,
+    "Giorgio Rossi": 602,
+    "Carlos Gomez": 752
+  },
+  "chatting_end_time": "February 13, 2023, 17:26:00",
+  "act_path_set": true,
+  "planned_path": []
+}

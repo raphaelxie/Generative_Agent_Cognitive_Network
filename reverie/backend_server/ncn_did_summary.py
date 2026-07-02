@@ -23,6 +23,10 @@ BRANCHES = {
 }
 BASELINE = "ncn_baseline_n25"
 
+# Which post-shock wave to compare against the pre wave. Defaults to the
+# short-horizon "post" wave; set NCN_POST_WAVE=post_long for the extended run.
+POST_WAVE = os.environ.get("NCN_POST_WAVE", "post")
+
 if os.environ.get("NCN_SUFFIX"):
     suffix = os.environ["NCN_SUFFIX"]
     BASELINE = f"ncn_baseline_n25{suffix}"
@@ -132,15 +136,15 @@ def main():
             ctrl_pre = _overall_val(ctrl_rows, metric_col, filter_col,
                                     filter_val, "pre")
             ctrl_post = _overall_val(ctrl_rows, metric_col, filter_col,
-                                     filter_val, "post")
+                                     filter_val, POST_WAVE)
             hub_pre = _overall_val(hub_rows, metric_col, filter_col,
                                    filter_val, "pre")
             hub_post = _overall_val(hub_rows, metric_col, filter_col,
-                                    filter_val, "post")
+                                    filter_val, POST_WAVE)
             broker_pre = _overall_val(broker_rows, metric_col, filter_col,
                                       filter_val, "pre")
             broker_post = _overall_val(broker_rows, metric_col, filter_col,
-                                       filter_val, "post")
+                                       filter_val, POST_WAVE)
 
             # Branches inherit baseline pre; use baseline pre if branch pre missing
             if hub_pre is None:
@@ -181,8 +185,8 @@ def main():
         ctrl_dir = os.path.join(FS_STORAGE, BRANCHES["control"], "survey")
         treat_dir = os.path.join(FS_STORAGE, BRANCHES[branch_key], "survey")
         pre = _shocked_agent_rank(baseline_dir, "pre", agent)
-        ctrl_post = _shocked_agent_rank(ctrl_dir, "post", agent)
-        treat_post = _shocked_agent_rank(treat_dir, "post", agent)
+        ctrl_post = _shocked_agent_rank(ctrl_dir, POST_WAVE, agent)
+        treat_post = _shocked_agent_rank(treat_dir, POST_WAVE, agent)
         records.append({
             "instrument": f"shocked_agent_rank_{treatment}",
             "truth_layer": agent,
@@ -205,7 +209,8 @@ def main():
         print("No branch metrics found. Run the experiment first.")
         sys.exit(1)
 
-    out_path = os.path.join(baseline_dir, "ncn_did_summary.csv")
+    wave_tag = "" if POST_WAVE == "post" else f"_{POST_WAVE}"
+    out_path = os.path.join(baseline_dir, f"ncn_did_summary{wave_tag}.csv")
     fieldnames = list(records[0].keys())
     with open(out_path, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=fieldnames)
@@ -214,12 +219,13 @@ def main():
 
     print(f"Wrote {out_path} ({len(records)} rows)")
 
-    md_path = os.path.join(baseline_dir, "NCN_EXPERIMENT.md")
+    md_path = os.path.join(baseline_dir, f"NCN_EXPERIMENT{wave_tag}.md")
     with open(md_path, "w", encoding="utf-8") as f:
         f.write("# Network Cognition Experiment (n=25)\n\n")
         f.write("## Design\n\n")
         f.write("- Between-branch difference-in-differences\n")
         f.write("- Treatments: control (no shock), hub removal, broker removal\n")
+        f.write(f"- Post wave compared against pre: `{POST_WAVE}`\n")
         f.write(f"- Model: gpt-4o-mini (locked)\n\n")
         if os.path.isfile(targets_path):
             with open(targets_path, encoding="utf-8") as tf:

@@ -1,0 +1,464 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 17:09:50",
+  "curr_tile": [
+    54,
+    30
+  ],
+  "daily_plan_req": "Eddy Lin goes to Oak Hill College to take classes starting 10am. In the afternoon, he likes to go to Hobbs Cafe to eat and study.",
+  "name": "Eddy Lin",
+  "first_name": "Eddy",
+  "last_name": "Lin",
+  "age": 19,
+  "innate": "curious, analytical, musical",
+  "learned": "Eddy Lin is a student at Oak Hill College studying music theory and composition. He loves to explore different musical styles and is always looking for ways to expand his knowledge.",
+  "currently": "Eddy Lin is working on a composition project for his college class. He is also taking classes to learn more about music theory.",
+  "lifestyle": "Eddy Lin goes to bed around 11pm, awakes up around 7amam, eats dinner around 5pm.",
+  "living_area": "the Ville:Lin family's house:Eddy Lin's bedroom",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 65,
+  "importance_ele_n": 50,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "go to classes at Oak Hill College from 10:00 am to 12:00 pm",
+    "have lunch at Hobbs Cafe at 12:30 pm",
+    "study and work on his composition project at Hobbs Cafe from 1:00 pm to 4:30 pm",
+    "head back home and eat dinner at 5:00 pm",
+    "spend some time relaxing or practicing music from 6:00 pm to 7:30 pm",
+    "work on additional music theory assignments from 7:30 pm to 9:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "completing his morning routine",
+      60
+    ],
+    [
+      "getting ready for college (on the way to on the way to getting dressed)",
+      0
+    ],
+    [
+      "getting ready for college (conversing about Eddy Lin and John Lin discussing their plans for the day, including Eddy's classes at Oak Hill College and John's interest in gathering information about local mayoral candidates while also planning to share their findings during lunch.)",
+      12
+    ],
+    [
+      "getting ready for college (conversing about Mei Lin and Eddy Lin discussing their plans for the day, including their classes in philosophy and music theory, and their excitement to share insights during lunch.)",
+      13
+    ],
+    [
+      "getting ready for college (brushing his teeth)",
+      5
+    ],
+    [
+      "getting ready for college (combing his hair)",
+      5
+    ],
+    [
+      "getting ready for college (packing his backpack with notebooks and supplies)",
+      10
+    ],
+    [
+      "getting ready for college (preparing a quick breakfast)",
+      10
+    ],
+    [
+      "getting ready for college (eating his breakfast)",
+      10
+    ],
+    [
+      "getting ready for college (checking his schedule for the day)",
+      5
+    ],
+    [
+      "attending classes at Oak Hill College (attending his first class on music theory)",
+      30
+    ],
+    [
+      "attending classes at Oak Hill College (on the way to taking notes during the lecture)",
+      0
+    ],
+    [
+      "attending classes at Oak Hill College (conversing about Carlos Gomez and Eddy Lin discussing their shared interests in poetry and music, exploring themes of nature and growth, and planning a collaboration that incorporates the Fibonacci sequence into their respective art forms.)",
+      20
+    ],
+    [
+      "attending classes at Oak Hill College (on the way to participating in class discussions)",
+      0
+    ],
+    [
+      "attending classes at Oak Hill College (conversing about Mei Lin and Eddy Lin discussing their classes on music theory and philosophy, exploring connections between ethical theories and musical examples, and planning to analyze pieces that reflect moral dilemmas and cultural perspectives during their lunch meeting.)",
+      16
+    ],
+    [
+      "attending classes at Oak Hill College (reviewing the assigned reading materials)",
+      15
+    ],
+    [
+      "attending classes at Oak Hill College (on the way to attending his second class on composition techniques)",
+      0
+    ],
+    [
+      "attending classes at Oak Hill College (conversing about Isabella Rodriguez and Eddy Lin discussing plans for a Valentine's Day party, including decorations, music choices, quotes, treats, drinks, and overall space setup.)",
+      18
+    ],
+    [
+      "having lunch at Hobbs Cafe (on the way to having lunch at Hobbs Caf)",
+      0
+    ],
+    [
+      "having lunch at Hobbs Cafe (on the way to conversing about Eddy Lin and Sam Moore discussing plans for a Valentine's Day party, including music choices, decorations, and quotes to enhance the romantic atmosphere.)",
+      17
+    ],
+    [
+      "having lunch at Hobbs Cafe (conversing about Giorgio Rossi and Eddy Lin discussing ideas for decorations and interactive elements for their upcoming Valentine's Day party, focusing on the Fibonacci sequence and nature.)",
+      16
+    ],
+    [
+      "studying and working on his composition project at Hobbs Cafe (1) Eddy is finding a suitable table at Hobbs Cafe)",
+      5
+    ],
+    [
+      "studying and working on his composition project at Hobbs Cafe (setting up his laptop and materials on the table)",
+      5
+    ],
+    [
+      "studying and working on his composition project at Hobbs Cafe (reviewing his notes from class)",
+      10
+    ],
+    [
+      "studying and working on his composition project at Hobbs Cafe (on the way to brainstorming ideas for his composition project)",
+      0
+    ],
+    [
+      "studying and working on his composition project at Hobbs Cafe (conversing about Ayesha Khan and Eddy Lin discussing Ayesha's Valentine's Day party planning, incorporating the Fibonacci sequence in decorations and interactive art, while Eddy provides creative ideas and quotes related to nature and inspiration.)",
+      17
+    ],
+    [
+      "studying and working on his composition project at Hobbs Cafe (on the way to sketching out a rough outline of his composition)",
+      0
+    ],
+    [
+      "studying and working on his composition project at Hobbs Cafe (conversing about Francisco Lopez and Eddy Lin discussing their respective creative projects, including Eddy's composition incorporating the Fibonacci sequence and Francisco's web series featuring a co-living space, while planning a collaborative Valentine's Day party with interactive music and decorations.)",
+      17
+    ],
+    [
+      "studying and working on his composition project at Hobbs Cafe (listening to reference tracks for inspiration)",
+      10
+    ],
+    [
+      "studying and working on his composition project at Hobbs Cafe (writing down musical ideas and motifs)",
+      10
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (on the way to working on the outline of his composition)",
+      0
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (conversing about Jennifer Moore and Eddy Lin collaborating on integrating art and music for an interactive Valentine's Day party, discussing ideas such as motion sensors, QR codes, quotes about art and love, a collaborative mural, and live painting.)",
+      23
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (on the way to researching different musical styles for inspiration)",
+      0
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (conversing about Jane Moreno and Eddy Lin discussing their collaborative ideas for an interactive Valentine's Day party, incorporating mathematical patterns and sound elements.)",
+      13
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (on the way to drafting the main theme of his composition)",
+      0
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (conversing about Sam Moore and Eddy Lin discussing music choices and interactive elements for the upcoming Valentine's Day party, including incorporating quotes from Rumi and collaborating with Jennifer on decorations.)",
+      15
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (on the way to experimenting with chord progressions)",
+      0
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (conversing about Isabella Rodriguez and Eddy Lin discussing final ideas for party decorations inspired by the Fibonacci sequence, incorporating soundscapes and interactive elements to engage guests.)",
+      17
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (taking a short break to refresh his mind)",
+      5
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (listening to reference tracks for ideas)",
+      15
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (on the way to jotting down notes on what he likes from the reference tracks)",
+      0
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (conversing about Eddy and Mei Lin discussing Eddy's composition project that incorporates nature soundscapes, the Fibonacci sequence, and plans for their upcoming lunch meeting where they will analyze various musical pieces, including Beethoven's 'Eroica' Symphony and contemporary works addressing social issues.)",
+      17
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (revising the main theme based on his notes)",
+      20
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (on the way to creating a rough draft of the first section of his composition)",
+      0
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (conversing about Eddy Lin and Tom Moreno discussing Eddy's composition project inspired by the Fibonacci sequence, Tom's customer interactions, and their plans for the rest of the day.)",
+      9
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (saving his work and organizing his files)",
+      5
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (on the way to packing up his materials to prepare to leave the cafe)",
+      0
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (conversing about Eddy Lin and Giorgio Rossi discussing ideas for incorporating interactive elements into their Valentine's Day party, focusing on soundscapes, decorations inspired by the Fibonacci sequence, and engaging art stations for guests.)",
+      20
+    ],
+    [
+      "having dinner at home (on the way to on the way to on the way to having dinner at hom)",
+      52
+    ],
+    [
+      "having dinner at home (conversing about Francisco Lopez and Eddy Lin planning a Valentine's Day party with a Fibonacci theme, discussing decorations, interactive design stations, music, a competition for the best design, a prize, and the event timeline.)",
+      18
+    ],
+    [
+      "having dinner at home (conversing about Jennifer Moore and Eddy Lin discussing their plans for an interactive Valentine's Day party that includes innovative art experiences, collaborative murals, and community involvement.)",
+      17
+    ],
+    [
+      "having dinner at home (conversing about Eddy Lin and Adam Smith discussing interactive elements and themes for a Valentine's Day party composition project, including art stations, quotes, and audience engagement strategies.)",
+      21
+    ],
+    [
+      "relaxing or practicing music",
+      38
+    ],
+    [
+      "working on additional music theory assignments",
+      60
+    ],
+    [
+      "relaxing or practicing music",
+      60
+    ],
+    [
+      "working on additional music theory assignments",
+      60
+    ],
+    [
+      "finishing up his assignments and preparing for bed",
+      60
+    ],
+    [
+      "preparing for bed and reflecting on his day",
+      60
+    ],
+    [
+      "sleeping",
+      2
+    ],
+    [
+      "sleeping",
+      14
+    ],
+    [
+      "sleeping",
+      38
+    ],
+    [
+      "sleeping",
+      2
+    ],
+    [
+      "sleeping",
+      13
+    ],
+    [
+      "sleeping",
+      6
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "completing his morning routine",
+      60
+    ],
+    [
+      "getting ready for college",
+      60
+    ],
+    [
+      "attending classes at Oak Hill College",
+      120
+    ],
+    [
+      "having lunch at Hobbs Cafe",
+      60
+    ],
+    [
+      "studying and working on his composition project at Hobbs Cafe",
+      60
+    ],
+    [
+      "working on his composition project at Hobbs Cafe",
+      180
+    ],
+    [
+      "having dinner at home",
+      60
+    ],
+    [
+      "relaxing or practicing music",
+      60
+    ],
+    [
+      "working on additional music theory assignments",
+      60
+    ],
+    [
+      "relaxing or practicing music",
+      60
+    ],
+    [
+      "working on additional music theory assignments",
+      60
+    ],
+    [
+      "finishing up his assignments and preparing for bed",
+      60
+    ],
+    [
+      "preparing for bed and reflecting on his day",
+      60
+    ]
+  ],
+  "act_address": "<persona> Francisco Lopez",
+  "act_start_time": "February 13, 2023, 16:57:30",
+  "act_duration": 18,
+  "act_description": "conversing about Francisco Lopez and Eddy Lin planning a Valentine's Day party with a Fibonacci theme, discussing decorations, interactive design stations, music, a competition for the best design, a prize, and the event timeline.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Eddy Lin",
+    "chat with",
+    "Francisco Lopez"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Francisco Lopez",
+  "chat": [
+    [
+      "Francisco Lopez",
+      "Hey Eddy! How's dinner going? I was just thinking about our Valentine's Day party plans and how we can incorporate that Fibonacci theme into the decorations. Any thoughts?"
+    ],
+    [
+      "Eddy Lin",
+      "Hey Francisco! Dinner is good, thanks for asking! I think we could create some beautiful decorations using spirals and patterns that reflect the Fibonacci sequence. Maybe we could even have some interactive elements where guests can create their own designs inspired by it. What do you think?"
+    ],
+    [
+      "Francisco Lopez",
+      "I love that idea! Having guests create their own designs would definitely make it more engaging. We could set up a station with materials for them to use. Maybe we could also incorporate some music that reflects the Fibonacci sequence to enhance the atmosphere. What do you think?"
+    ],
+    [
+      "Eddy Lin",
+      "That sounds fantastic! We could design the music to gradually build in layers, mirroring the sequence. It would create a really immersive experience for the guests. We should also think about what kind of materials we want for the design station. Do you have any ideas in mind?"
+    ],
+    [
+      "Francisco Lopez",
+      "I was thinking we could use colorful papers, markers, and maybe some natural materials like leaves or flowers to really bring the decorations to life. We could even have some templates for guests to follow if they want. What do you think?"
+    ],
+    [
+      "Eddy Lin",
+      "I love the idea of using natural materials! It will really connect with the themes of nature and growth we've been discussing. The templates could help guide guests who might be unsure about where to start. Should we also think about how to display the finished designs? Maybe we could create a gallery space at the party?"
+    ],
+    [
+      "Francisco Lopez",
+      "That's a great idea! A gallery space would showcase everyone's creativity and make the event feel more like an art experience. We could even have a little competition for the best design to encourage participation. What do you think?"
+    ],
+    [
+      "Eddy Lin",
+      "I think a competition for the best design is a fun idea! It would definitely motivate guests to get creative. We could offer a small prize or recognition for the winner. What kind of prize do you think would work well?"
+    ],
+    [
+      "Francisco Lopez",
+      "I think a gift card to a local coffee shop would be perfect! It ties in nicely with the theme of community and local businesses. Plus, it gives the winner a chance to enjoy some good coffee. What do you think?"
+    ],
+    [
+      "Eddy Lin",
+      "I think a gift card to a local coffee shop is a great idea! It really does tie everything together. We should also consider how we can promote the competition during the party. Maybe we can have a little announcement or a sign at the design station? What do you think?"
+    ],
+    [
+      "Francisco Lopez",
+      "Absolutely! A sign at the design station would definitely catch everyone's attention. We can also make an announcement before the competition starts to get everyone excited about participating. I can't wait to see all the creative designs! Is there anything else we should discuss for the party?"
+    ],
+    [
+      "Eddy Lin",
+      "I think we should also finalize the timeline for the event. It would be good to know when everything will happen, especially the design station and the competition. Maybe we can set up a timeline for announcements as well? What do you think?"
+    ],
+    [
+      "Francisco Lopez",
+      "That's a great idea! Let's outline the timeline together. We could start with a welcome announcement, then open up the design station for a couple of hours before moving into the competition. How does that sound?"
+    ],
+    [
+      "Eddy Lin",
+      "That sounds perfect! Let's also decide on the duration for each part. How long do you think we should keep the design station open before the competition starts? Maybe two hours?"
+    ],
+    [
+      "Francisco Lopez",
+      "Two hours sounds good to me! That should give everyone enough time to get creative. We can announce the start of the competition right after that. Should we also think about how to wrap up the event after the competition? Maybe with some closing remarks or a group photo?"
+    ],
+    [
+      "Eddy Lin",
+      "I think wrapping up with some closing remarks would be a nice touch! A group photo would also be a great way to capture the memories from the night. We could encourage everyone to gather around after the competition for that. Should we also think about any music to play during the wrap-up?"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Mei Lin": 62,
+    "John Lin": -2242,
+    "Carlos Gomez": -1546,
+    "Isabella Rodriguez": -88,
+    "Sam Moore": -196,
+    "Giorgio Rossi": 458,
+    "Ayesha Khan": -742,
+    "Francisco Lopez": 800,
+    "Jennifer Moore": 722,
+    "Jane Moreno": -292,
+    "Tom Moreno": 248,
+    "Adam Smith": 614
+  },
+  "chatting_end_time": "February 13, 2023, 17:16:00",
+  "act_path_set": true,
+  "planned_path": []
+}

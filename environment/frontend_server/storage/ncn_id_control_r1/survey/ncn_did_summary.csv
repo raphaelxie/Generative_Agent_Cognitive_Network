@@ -1,0 +1,27 @@
+instrument,truth_layer,metric,control_pre,control_post,control_delta,hub_pre,hub_post,hub_delta,hub_did,broker_pre,broker_post,broker_delta,broker_did
+micro_tie,observed_interaction,pair_accuracy,0.541333,0.498333,-0.04299999999999993,0.541333,0.508002,-0.033331,0.009668999999999928,0.541333,0.506734,-0.034598999999999935,0.008400999999999992
+micro_tie,observed_interaction_recent,pair_accuracy,0.541333,0.479664,-0.061668999999999974,0.541333,0.489997,-0.05133599999999994,0.010333000000000037,0.541333,0.488065,-0.053267999999999927,0.008401000000000047
+micro_tie,observed_interaction_cumulative_betweenness_rank,pair_accuracy,,,,,,,,,,,
+micro_tie,observed_interaction_recent_betweenness_rank,pair_accuracy,,,,,,,,,,,
+micro_tie,observed_interaction_louvain_communities,pair_accuracy,,,,,,,,,,,
+micro_tie,observed_interaction_recent_louvain_communities,pair_accuracy,,,,,,,,,,,
+bridge_rank,observed_interaction,bridge_mean_abs_rank_error,,,,,,,,,,,
+bridge_rank,observed_interaction_recent,bridge_mean_abs_rank_error,,,,,,,,,,,
+bridge_rank,observed_interaction_cumulative_betweenness_rank,bridge_mean_abs_rank_error,6.6016,7.9424,1.3407999999999998,6.6016,7.6416,1.04,-0.30079999999999973,6.6016,7.1744,0.5728,-0.7679999999999998
+bridge_rank,observed_interaction_recent_betweenness_rank,bridge_mean_abs_rank_error,6.6016,8.3072,1.7055999999999996,6.6016,7.3216,0.7199999999999998,-0.9855999999999998,6.6016,7.056,0.4543999999999997,-1.2511999999999999
+bridge_rank,observed_interaction_louvain_communities,bridge_mean_abs_rank_error,,,,,,,,,,,
+bridge_rank,observed_interaction_recent_louvain_communities,bridge_mean_abs_rank_error,,,,,,,,,,,
+bridge_top1,observed_interaction,bridge_top1_hit,,,,,,,,,,,
+bridge_top1,observed_interaction_recent,bridge_top1_hit,,,,,,,,,,,
+bridge_top1,observed_interaction_cumulative_betweenness_rank,bridge_top1_hit,0.04,0.0,-0.04,0.04,0.16,0.12,0.16,0.04,0.04,0.0,0.04
+bridge_top1,observed_interaction_recent_betweenness_rank,bridge_top1_hit,0.04,0.04,0.0,0.04,0.0,-0.04,-0.04,0.04,0.04,0.0,0.0
+bridge_top1,observed_interaction_louvain_communities,bridge_top1_hit,,,,,,,,,,,
+bridge_top1,observed_interaction_recent_louvain_communities,bridge_top1_hit,,,,,,,,,,,
+community_nmi,observed_interaction,nmi,,,,,,,,,,,
+community_nmi,observed_interaction_recent,nmi,,,,,,,,,,,
+community_nmi,observed_interaction_cumulative_betweenness_rank,nmi,,,,,,,,,,,
+community_nmi,observed_interaction_recent_betweenness_rank,nmi,,,,,,,,,,,
+community_nmi,observed_interaction_louvain_communities,nmi,0.255877,0.277479,0.021601999999999955,0.255877,0.266094,0.010216999999999976,-0.011384999999999978,0.255877,0.251927,-0.003950000000000009,-0.025551999999999964
+community_nmi,observed_interaction_recent_louvain_communities,nmi,0.255877,0.278759,0.022881999999999958,0.255877,0.28909,0.03321299999999999,0.010331000000000035,0.255877,0.29379,0.037912999999999974,0.015031000000000017
+shocked_agent_rank_hub,John Lin,mean_perceived_bridge_rank,10.52,11.68,1.1600000000000001,10.52,12.64,2.120000000000001,,,,,
+shocked_agent_rank_broker,Eddy Lin,mean_perceived_bridge_rank,11.12,12.4,1.2800000000000011,,,,,11.12,14.24,3.120000000000001,

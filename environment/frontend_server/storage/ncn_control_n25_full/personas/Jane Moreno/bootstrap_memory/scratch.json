@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    75,
-    66
+    73,
+    67
   ],
   "daily_plan_req": "",
   "name": "Jane Moreno",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 231,
-  "importance_ele_n": 6,
+  "importance_trigger_curr": 250,
+  "importance_ele_n": 0,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 8:00 am",
@@ -323,12 +323,64 @@
       5
     ],
     [
-      "relaxing and spending quality time with her family",
-      60
+      "relaxing and spending quality time with her family (engaging in conversation with her family)",
+      15
     ],
     [
-      "relaxing and enjoying her evening with her family",
-      120
+      "relaxing and spending quality time with her family (on the way to playing a board game with her family)",
+      0
+    ],
+    [
+      "relaxing and spending quality time with her family (conversing about Tom and Jane Moreno discussing their plans to address concerns about the mayoral election's impact on local businesses at an upcoming town hall meeting, including organizing a gathering of shopkeepers, preparing materials, inviting diverse perspectives, and promoting community engagement events.)",
+      18
+    ],
+    [
+      "relaxing and spending quality time with her family (helping her children with a puzzle)",
+      10
+    ],
+    [
+      "relaxing and spending quality time with her family (sharing stories from her day)",
+      10
+    ],
+    [
+      "relaxing and spending quality time with her family (wrapping up the family time and discussing plans for the next day)",
+      5
+    ],
+    [
+      "relaxing and enjoying her evening with her family (spending time with her husband, Tom, watching a movie together)",
+      30
+    ],
+    [
+      "relaxing and enjoying her evening with her family (preparing some snacks for the movie)",
+      15
+    ],
+    [
+      "relaxing and enjoying her evening with her family (setting up the living room for a cozy movie night)",
+      10
+    ],
+    [
+      "relaxing and enjoying her evening with her family (checking in with her children about their day)",
+      10
+    ],
+    [
+      "relaxing and enjoying her evening with her family (joining her children in a board game after the movie)",
+      20
+    ],
+    [
+      "relaxing and enjoying her evening with her family (helping her children with the game rules)",
+      5
+    ],
+    [
+      "relaxing and enjoying her evening with her family (laughing and enjoying the game with her family)",
+      15
+    ],
+    [
+      "relaxing and enjoying her evening with her family (tidying up the game area after playing)",
+      5
+    ],
+    [
+      "relaxing and enjoying her evening with her family (discussing plans for the upcoming weekend with her family)",
+      10
     ],
     [
       "relaxing and winding down for the night",
@@ -409,32 +461,32 @@
       60
     ]
   ],
-  "act_address": "the Ville:Moreno family's house:kitchen:cooking area",
-  "act_start_time": "February 13, 2023, 16:07:00",
-  "act_duration": 15,
-  "act_description": "continuing to prepare dinner and setting the table for her family (continuing to chop vegetables for the salad)",
-  "act_pronunciatio": "\ud83e\udd57\ud83d\udd2a",
+  "act_address": "the Ville:Moreno family's house:common room:common room table",
+  "act_start_time": "February 13, 2023, 19:35:00",
+  "act_duration": 18,
+  "act_description": "relaxing and spending quality time with her family (conversing about Tom and Jane Moreno discussing their plans to address concerns about the mayoral election's impact on local businesses at an upcoming town hall meeting, including organizing a gathering of shopkeepers, preparing materials, inviting diverse perspectives, and promoting community engagement events.)",
+  "act_pronunciatio": "\ud83d\udde3\ufe0f\ud83d\uddf3",
   "act_event": [
     "Jane Moreno",
-    "continue",
-    "chop vegetables for the salad"
+    "converse",
+    "plans"
   ],
-  "act_obj_description": "busy and organized with ingredients and tools actively in use",
-  "act_obj_pronunciatio": "\ud83d\udc69\u200d\ud83c\udf73",
+  "act_obj_description": "being used for family discussions and planning activities",
+  "act_obj_pronunciatio": "\ud83d\udc68\u200d\ud83d\udc69",
   "act_obj_event": [
-    "cooking area",
-    "is",
-    "busy and organized with ingredients and tools actively in use"
+    "common room table",
+    "use",
+    "family discussions and planning activities"
   ],
   "chatting_with": null,
   "chat": null,
   "chatting_with_buffer": {
-    "Tom Moreno": 176,
-    "John Lin": -352,
-    "Klaus Mueller": -244,
-    "Giorgio Rossi": -202,
-    "Mei Lin": -142,
-    "Eddy Lin": 44
+    "Tom Moreno": 770,
+    "John Lin": -1552,
+    "Klaus Mueller": -1444,
+    "Giorgio Rossi": -1402,
+    "Mei Lin": -1342,
+    "Eddy Lin": -1156
   },
   "chatting_end_time": null,
   "act_path_set": true,

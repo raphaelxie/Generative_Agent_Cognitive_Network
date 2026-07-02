@@ -1,0 +1,301 @@
+node_a,node_b,tie_background,needs_review,relation_types,evidence_a,evidence_b,review_notes,source_file,extraction_method
+Abigail Chen,Adam Smith,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Arthur Burton,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Ayesha Khan,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Carlos Gomez,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Carmen Ortiz,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Eddy Lin,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Francisco Lopez,1,0,crush;housemate;known;vague_like,You and Francisco Lopez are housemates and have known each other for about a year,"You and Abigail Chen are housemates and have known each other for about a year || You have a secret crush on Abigail Chen but so far, you haven't had the courage to ask her out || You think Abigail Chen is cute",,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Giorgio Rossi,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Hailey Johnson,1,1,housemate;known;not_talked,You and Hailey Johnson are housemates and have known each other for about a year,"Abigail Chen is a housemate whom you've known for about a year, but you haven't really talked to her yet",strong evidence is qualified by limited contact,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Isabella Rodriguez,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Jane Moreno,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Jennifer Moore,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Abigail Chen,John Lin,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Klaus Mueller,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Latoya Williams,1,0,housemate;known,You and Latoya Williams are housemates and have known each other for about a year,Abigail Chen is your housemate whom you've known for about a year,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Maria Lopez,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Mei Lin,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Rajiv Patel,1,0,close;housemate;known;vague_like,You and Rajiv Patel are housemates and have known each other for about a year and you two are somewhat close,Abigail Chen is your housemate whom you've known for about a year and you think she is kind of cute,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Ryan Park,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Sam Moore,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Tamara Taylor,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Tom Moreno,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Wolfgang Schulz,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Abigail Chen,Yuriko Yamamoto,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Adam Smith,Arthur Burton,1,1,customer;knows_as_role;name_mention_without_relation_cue,You've knonw the bartender Arthur Burton for a few years,"You know Adam Smith as a customer at your bar, The Rose and Crown Pub",name mention lacks a strong relation cue,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Adam Smith,Ayesha Khan,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Adam Smith,Carlos Gomez,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Adam Smith,Carmen Ortiz,1,0,known;knows_as_role;neighbor,You've known Carmen Ortiz for a year or so as your neighbor,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Adam Smith,Eddy Lin,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Adam Smith,Francisco Lopez,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Adam Smith,Giorgio Rossi,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Adam Smith,Hailey Johnson,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Adam Smith,Isabella Rodriguez,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Adam Smith,Jane Moreno,1,0,known,"You've known the couple, Tom Moreno and Jane Moreno, who live in the next block for a few years",,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Adam Smith,Jennifer Moore,1,0,known;neighbor,"You've known your next door old couple, Sam Moore and Jennifer Moore, for a few years","You've known your neighbor, Adam Smith, for a few years",,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Adam Smith,John Lin,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Adam Smith,Klaus Mueller,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Adam Smith,Latoya Williams,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Adam Smith,Maria Lopez,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Adam Smith,Mei Lin,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Adam Smith,Rajiv Patel,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Adam Smith,Ryan Park,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Adam Smith,Sam Moore,1,0,close;friend;known;neighbor,"You've known your next door old couple, Sam Moore and Jennifer Moore, for a few years || You and Sam Moore are somewhat close || You view Sam Moore as something of a mentor","You've known your neighbor, Adam Smith, for a few years || You consider Adam Smith to be a very close friend of yours although he is much younger than you",,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Adam Smith,Tamara Taylor,0,1,name_mention_without_relation_cue,You know of Tamara Taylor who live next block but you haven't really chatted with her,,name mention lacks a strong relation cue; only weak or ambiguous contact cues found,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Adam Smith,Tom Moreno,1,0,known;talks_often,"You've known the couple, Tom Moreno and Jane Moreno, who live in the next block for a few years || You think Tom Moreno is a little too aggressive and opinionated",You sometimes talk to Adam Smith about local elections,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Adam Smith,Wolfgang Schulz,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Adam Smith,Yuriko Yamamoto,1,0,known;neighbor,"You've known your neighbor, Yuriko Yamamoto, for a few years and you two sometimes chat about the local election","You've known your neighbor, Adam Smith, for a few years and you two sometimes chat about the local election",,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Ayesha Khan,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Carlos Gomez,1,0,customer;friend;knows_as_role,"You know Carlos Gomez as a customer at your bar, The Rose and Crown Pub",you are friends with Arthur Burton who is a bartender at the pub,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Carmen Ortiz,1,1,customer;knows_as_role;name_mention_without_relation_cue,"You know Carmen Ortiz as a customer at your bar, The Rose and Crown Pub",You've knonw the bartender Arthur Burton for a few years,name mention lacks a strong relation cue,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Eddy Lin,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Francisco Lopez,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Giorgio Rossi,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Hailey Johnson,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Isabella Rodriguez,1,0,friend;known;works_at,You and Isabella Rodriguez are friends || You've known Isabella Rodriguez for a few years since she runs Hobbs Cafe right next to your bar,You and Arthur Burton are friends || You've known Arthur Burton for a few years since he runs a bar right next door,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Jane Moreno,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Jennifer Moore,1,0,customer;known;knows_as_role,"You know Jennifer Moore as a customer at your bar, The Rose and Crown Pub",You've known the bartender Arthur Burton for a few years,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Arthur Burton,John Lin,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Klaus Mueller,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Latoya Williams,1,0,customer;known;knows_as_role,"You know Latoya Williams as a customer at your bar, The Rose and Crown Pub","You have known the bartender at The Rose and Crown Pub, Arthur Burton for about half a year",,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Maria Lopez,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Mei Lin,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Rajiv Patel,1,0,customer;known;knows_as_role;location_overlap,"You know Rajiv Patel as a customer at your bar, The Rose and Crown Pub","In terms of your daily plans, you sometimes spend time at The Rose and Crown Pub when it's late and you have known the bartender, Arthur Burton for about a year",,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Ryan Park,1,0,customer;known;knows_as_role,"You know Ryan Park as a customer at your bar, The Rose and Crown Pub","You've known the bartender at The Rose and Crown Pub, Arthur Burton, for about a year",,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Sam Moore,1,0,customer;known;knows_as_role,"You know Sam Moore as a customer at your bar, The Rose and Crown Pub",You've known the bartender Arthur Burton for a few years,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Tamara Taylor,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Tom Moreno,1,1,customer;knows_as_role;name_mention_without_relation_cue,"You know Tom Moreno as a customer at your bar, The Rose and Crown Pub",You've knonw the bartender Arthur Burton for a few years,name mention lacks a strong relation cue,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Wolfgang Schulz,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Arthur Burton,Yuriko Yamamoto,1,1,customer;knows_as_role;name_mention_without_relation_cue,"You know Yuriko Yamamoto as a customer at your bar, The Rose and Crown Pub",You've knonw the bartender Arthur Burton for a few years,name mention lacks a strong relation cue,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Ayesha Khan,Carlos Gomez,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Ayesha Khan,Carmen Ortiz,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Ayesha Khan,Eddy Lin,1,1,classmate;name_mention_without_relation_cue,You and Eddy Lin are classmates,You and Ayesha Khan are school mates,name mention lacks a strong relation cue,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Ayesha Khan,Francisco Lopez,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Ayesha Khan,Giorgio Rossi,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Ayesha Khan,Hailey Johnson,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Ayesha Khan,Isabella Rodriguez,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Ayesha Khan,Jane Moreno,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Ayesha Khan,Jennifer Moore,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Ayesha Khan,John Lin,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Ayesha Khan,Klaus Mueller,1,0,classmate;close;dormmate,You and Klaus Mueller are dormmates,"You are close with Ayesha Khan, who is a classmate in one of your classes and a dormmate",,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Ayesha Khan,Latoya Williams,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Ayesha Khan,Maria Lopez,1,0,classmate;close;dormmate,You and Maria Lopez are dormmates,"You are close with Ayesha Khan, who is a classmate in one of your classes and a dormmate",,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Ayesha Khan,Mei Lin,1,0,student_professor,You know Mei Lin is a professor at your college,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Ayesha Khan,Rajiv Patel,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Ayesha Khan,Ryan Park,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Ayesha Khan,Sam Moore,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Ayesha Khan,Tamara Taylor,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Ayesha Khan,Tom Moreno,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Ayesha Khan,Wolfgang Schulz,1,0,classmate;close;dormmate,"You are close with Wolfgang Schulz, who is a classmate in one of your classes and a dormmate","You are close with Ayesha Khan, who is a classmate in one of your classes and a dormmate",,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Ayesha Khan,Yuriko Yamamoto,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carlos Gomez,Carmen Ortiz,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carlos Gomez,Eddy Lin,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carlos Gomez,Francisco Lopez,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carlos Gomez,Giorgio Rossi,1,0,antagonism;known;neighbor;seen,"You do not like Giorgio Rossi || You think Giorgio Rossi is annoying || You think Giorgio Rossi is a coward || You've known Giorgio Rossi, your next door neighbor, for about two years || You would rather not see Giorgio Rossi ever || You want Ryan Park to take your side in his fight against Giorgio Rossi","You do not like Carlos Gomez || You think Carlos Gomez is annoying || You think Carlos Gomez is pushy || You think Carlos Gomez is a coward || You've known Carlos Gomez, your next door neighbor, for about two years || You think Carlos Gomez is really loud and you have filed complaints against him before || You would rather not see Carlos Gomez ever",,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carlos Gomez,Hailey Johnson,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carlos Gomez,Isabella Rodriguez,1,0,known,,You and Carlos Gomez have known each other for about 4 years || You know that Carlos Gomez is a good poet and you like his poem,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carlos Gomez,Jane Moreno,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carlos Gomez,Jennifer Moore,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carlos Gomez,John Lin,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carlos Gomez,Klaus Mueller,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carlos Gomez,Latoya Williams,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carlos Gomez,Maria Lopez,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carlos Gomez,Mei Lin,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carlos Gomez,Rajiv Patel,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carlos Gomez,Ryan Park,1,0,antagonism;known;neighbor,You've known Ryan Park for about a year living as his neighbor || You want Ryan Park to take your side in his fight against Giorgio Rossi,"You've known Carlos Gomez, your neighbor, for about a year || You wonder why Giorgio Rossi and Carlos Gomez are always fighting || You want no part in Giorgio Rossi and Carlos Gomez's fight",,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carlos Gomez,Sam Moore,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carlos Gomez,Tamara Taylor,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carlos Gomez,Tom Moreno,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carlos Gomez,Wolfgang Schulz,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carlos Gomez,Yuriko Yamamoto,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carmen Ortiz,Eddy Lin,1,0,known;knows_as_role;neighbor,,You've known Carmen Ortiz for a year or so as your neighbor,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carmen Ortiz,Francisco Lopez,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carmen Ortiz,Giorgio Rossi,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carmen Ortiz,Hailey Johnson,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carmen Ortiz,Isabella Rodriguez,1,0,customer;known;knows_as_role,You've known Isabella Rodriguez the owner at Hobbs Cafe for a few years,You know Carmen Ortiz as a customer at Hobbs Cafe,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carmen Ortiz,Jane Moreno,1,0,known;knows_as_role;neighbor,"You've known the couple, Tom Moreno and Jane Moreno, who live in the next block for a few years",You've known Carmen Ortiz for a year or so as your neighbor,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carmen Ortiz,Jennifer Moore,1,0,known;knows_as_role;neighbor,"You've known your next door old couple, Sam Moore and Jennifer Moore, for a few years",You've known Carmen Ortiz for a year or so as your neighbor,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carmen Ortiz,John Lin,1,0,known;knows_as_role;neighbor,,You've known Carmen Ortiz for a year or so as your neighbor,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carmen Ortiz,Klaus Mueller,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carmen Ortiz,Latoya Williams,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carmen Ortiz,Maria Lopez,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carmen Ortiz,Mei Lin,1,0,known;knows_as_role;neighbor,,You've known Carmen Ortiz for a year or so as your neighbor,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carmen Ortiz,Rajiv Patel,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carmen Ortiz,Ryan Park,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carmen Ortiz,Sam Moore,1,0,known;knows_as_role;neighbor,"You've known your next door old couple, Sam Moore and Jennifer Moore, for a few years",You've known Carmen Ortiz for a year or so as your neighbor,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carmen Ortiz,Tamara Taylor,1,0,housemate,Tamara Taylor is your housemate who just moved in || Tamara Taylor just moved in so she doesn't know many peopl in town,Carmen Ortiz is your housemate,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carmen Ortiz,Tom Moreno,1,0,known;knows_as_role;neighbor,"You've known the couple, Tom Moreno and Jane Moreno, who live in the next block for a few years",You've known Carmen Ortiz for a year or so as your neighbor,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carmen Ortiz,Wolfgang Schulz,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Carmen Ortiz,Yuriko Yamamoto,1,0,known;knows_as_role;neighbor,"You've known your neighbor, Yuriko Yamamoto, for a few years and you two sometimes chat about the local election",You've known Carmen Ortiz for a year or so as your neighbor,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Eddy Lin,Francisco Lopez,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Eddy Lin,Giorgio Rossi,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Eddy Lin,Hailey Johnson,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Eddy Lin,Isabella Rodriguez,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Eddy Lin,Jane Moreno,1,1,name_mention_without_relation_cue;neighbor,You know the Moreno family somewhat well -- the husband Tom Moreno and the wife Jane Moreno,"You know the Lin family somewhat well since they are your neighbor -- the husband John Lin, wife, Mei Lin, and the son Eddy Lin",name mention lacks a strong relation cue,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Eddy Lin,Jennifer Moore,1,0,known,"You've known your next door old couple, Sam Moore and Jennifer Moore, for a few years","You've known the Lin family, Mei, John, and the son Eddy Lin, for a few years since they live next block",,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Eddy Lin,John Lin,1,0,student_professor;works_at,"You know that Tom Moreno and your father, John Lin, are colleagues at The Willows Market and Pharmacy || John Lin is your father who works at the Pharmacy section of The Willows Market and Pharmacy",Eddy Lin is your son who studies music theory at the college,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Eddy Lin,Klaus Mueller,1,0,classmate,,You and Eddy Lin are classmates,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Eddy Lin,Latoya Williams,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Eddy Lin,Maria Lopez,1,1,classmate;name_mention_without_relation_cue,You and Maria Lopez are schoolmates,You and Eddy Lin are classmates,name mention lacks a strong relation cue,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Eddy Lin,Mei Lin,1,1,name_mention_without_relation_cue;student_professor,"Mei Lin is your mother who teaches at the Oak Hill Collrhr || You think your mother, Mei Lin, is a little too uptight","Eddy Lin is your son who studies music theory at the college || You think your son, Eddy Lin, has been a little rebellious recently",name mention lacks a strong relation cue,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Eddy Lin,Rajiv Patel,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Eddy Lin,Ryan Park,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Eddy Lin,Sam Moore,1,0,known,"You've known your next door old couple, Sam Moore and Jennifer Moore, for a few years","You've known the Lin family, Mei, John, and the son Eddy Lin, for a few years since they live next block",,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Eddy Lin,Tamara Taylor,0,1,name_mention_without_relation_cue,You know of Tamara Taylor who live next block but you haven't really chatted with her,,name mention lacks a strong relation cue; only weak or ambiguous contact cues found,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Eddy Lin,Tom Moreno,0,1,name_mention_without_relation_cue,"You know the Moreno family somewhat well -- the husband Tom Moreno and the wife Jane Moreno || You know that Tom Moreno and your father, John Lin, are colleagues at The Willows Market and Pharmacy","You know the Lin family somewhat well -- the husband John Lin, wife, Mei Lin, and the son Eddy Lin",name mention lacks a strong relation cue; only weak or ambiguous contact cues found,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Eddy Lin,Wolfgang Schulz,1,1,classmate;name_mention_without_relation_cue;talks_often,You and Wolfgang Schulz are schoolmates,You and Eddy Lin are classmates and you two sometimes talk about your favorite music,name mention lacks a strong relation cue,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Eddy Lin,Yuriko Yamamoto,1,0,known;neighbor,"You've known your neighbor, Yuriko Yamamoto, for a few years since she helped your parents with some legal matters","You've known the Lin family, Mei, John, and the son Eddy Lin, for a few years since the time you helped them with some legal matter",,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Francisco Lopez,Giorgio Rossi,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Francisco Lopez,Hailey Johnson,1,0,housemate;known,You and Hailey Johnson are housemates and have known each other for about a year but you don't really like her too much,Francisco Lopez is your housemate and you two have known each other for quite awhile because you are from the same town,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Francisco Lopez,Isabella Rodriguez,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Francisco Lopez,Jane Moreno,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Francisco Lopez,Jennifer Moore,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Francisco Lopez,John Lin,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Francisco Lopez,Klaus Mueller,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Francisco Lopez,Latoya Williams,1,0,housemate;known,You and Latoya Williams are housemates and have known each other for about a year,Francisco Lopez is your housemate whom you've known for about a year,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Francisco Lopez,Maria Lopez,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Francisco Lopez,Mei Lin,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Francisco Lopez,Rajiv Patel,1,0,housemate;known,You and Rajiv Patel are housemates and have known each other for about a year,Francisco Lopez is your housemate whom you've known for about a year,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Francisco Lopez,Ryan Park,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Francisco Lopez,Sam Moore,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Francisco Lopez,Tamara Taylor,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Francisco Lopez,Tom Moreno,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Francisco Lopez,Wolfgang Schulz,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Francisco Lopez,Yuriko Yamamoto,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Giorgio Rossi,Hailey Johnson,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Giorgio Rossi,Isabella Rodriguez,1,0,customer;friend;knows_as_role;vague_like;works_at,you are friends with Isabella Rodriguez who works at Hobbs Cafe || You think Isabella Rodriguez is kind-hearted,You know Giorgio Rossi as a customer at your Hobbs Cafe,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Giorgio Rossi,Jane Moreno,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Giorgio Rossi,Jennifer Moore,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Giorgio Rossi,John Lin,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Giorgio Rossi,Klaus Mueller,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Giorgio Rossi,Latoya Williams,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Giorgio Rossi,Maria Lopez,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Giorgio Rossi,Mei Lin,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Giorgio Rossi,Rajiv Patel,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Giorgio Rossi,Ryan Park,1,0,antagonism;known;neighbor;talks_often,You and Ryan Park sometimes talk about random things || You've known Ryan Park for about a year living as his neighbor,"You've known Giorgio Rossi, your next door neighbor, for about a year || You wonder why Giorgio Rossi and Carlos Gomez are always fighting || You want no part in Giorgio Rossi and Carlos Gomez's fight",,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Giorgio Rossi,Sam Moore,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Giorgio Rossi,Tamara Taylor,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Giorgio Rossi,Tom Moreno,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Giorgio Rossi,Wolfgang Schulz,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Giorgio Rossi,Yuriko Yamamoto,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Hailey Johnson,Isabella Rodriguez,1,0,customer;frequent_customer;known;location_overlap;talks_often,You've known Isabella Rodriguez for about a year and you talk to her often about the piece you are currently writing,"Hailey Johnson is a frequent customer at your cafe, Hobbs Cafe || You find Hailey Johnson to be a little uncomfortable because she is too pushy",,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Hailey Johnson,Jane Moreno,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Hailey Johnson,Jennifer Moore,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Hailey Johnson,John Lin,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Hailey Johnson,Klaus Mueller,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Hailey Johnson,Latoya Williams,1,0,housemate;known;vague_like,Latoya Williams is your housemate whom you've known for about a year and you think she is somewhat cute,Hailey Johnson is your housemate whom you've known for about a year but you don't really find her too comfortable,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Hailey Johnson,Maria Lopez,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Hailey Johnson,Mei Lin,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Hailey Johnson,Rajiv Patel,1,1,housemate;known,"Rajiv Patel is your housemate whom you've known for about a year, but you don't know much about him",Hailey Johnson is your housemate whom you've known for about a year but you don't really find her too comfortable,strong evidence is qualified by limited contact,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Hailey Johnson,Ryan Park,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Hailey Johnson,Sam Moore,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Hailey Johnson,Tamara Taylor,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Hailey Johnson,Tom Moreno,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Hailey Johnson,Wolfgang Schulz,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Hailey Johnson,Yuriko Yamamoto,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Isabella Rodriguez,Jane Moreno,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Isabella Rodriguez,Jennifer Moore,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Isabella Rodriguez,John Lin,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Isabella Rodriguez,Klaus Mueller,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Isabella Rodriguez,Latoya Williams,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Isabella Rodriguez,Maria Lopez,1,0,frequent_customer;friend;known;location_overlap,You and Maria Lopez have known each other for about a year ever since Maria Lopez visited Hobbs Cafe and are good friends || Maria Lopez is a loyal friend to you and a frequent customer at Hobbs Cafe,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Isabella Rodriguez,Mei Lin,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Isabella Rodriguez,Rajiv Patel,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Isabella Rodriguez,Ryan Park,1,0,known;seen;vague_like;works_at,"You see Ryan Park frequently when he visits your cafe, Hobbs Cafe || You often see Ryan Park working hard on his laptop and you think he is dedicated in his work, which you find to be cool",You've known Isabella Rodriguez for about a year || You know Isabella Rodriguez works at Hobbs Cafe,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Isabella Rodriguez,Sam Moore,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Isabella Rodriguez,Tamara Taylor,1,0,customer;frequent_customer;known;location_overlap;seen,"You see Tamara Taylor as a frequent customer at your cafe, Hobbs Cafe || You and Tamara Taylor have known each other for a few months",,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Isabella Rodriguez,Tom Moreno,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Isabella Rodriguez,Wolfgang Schulz,1,1,customer;knows_as_role;met;met_not_talked;not_talked;works_at,You know Wolfgang Schulz as a customer at Hobbs Cafe,You've met Isabella Rodriguez who works at the cafe but have not really talked to her,strong evidence is qualified by limited contact,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Isabella Rodriguez,Yuriko Yamamoto,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Jane Moreno,Jennifer Moore,1,0,known,"You've known your next door old couple, Sam Moore and Jennifer Moore, for a few years","You've known the couple, Tom Moreno and Jane Moreno, who live in the next block for a few years",,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Jane Moreno,John Lin,1,1,name_mention_without_relation_cue;neighbor,"You know the Lin family somewhat well since they are your neighbor -- the husband John Lin, wife, Mei Lin, and the son Eddy Lin",You know the Moreno family somewhat well -- the husband Tom Moreno and the wife Jane Moreno,name mention lacks a strong relation cue,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Jane Moreno,Klaus Mueller,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Jane Moreno,Latoya Williams,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Jane Moreno,Maria Lopez,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Jane Moreno,Mei Lin,1,1,name_mention_without_relation_cue;neighbor;student_professor,"You know the Lin family somewhat well since they are your neighbor -- the husband John Lin, wife, Mei Lin, and the son Eddy Lin || you know Mei Lin is a professor",You know the Moreno family somewhat well -- the husband Tom Moreno and the wife Jane Moreno,name mention lacks a strong relation cue,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Jane Moreno,Rajiv Patel,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Jane Moreno,Ryan Park,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Jane Moreno,Sam Moore,1,0,known,"You've known your next door old couple, Sam Moore and Jennifer Moore, for a few years || You think Sam Moore is a kind and nice man","You've known the couple, Tom Moreno and Jane Moreno, who live in the next block for a few years",,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Jane Moreno,Tamara Taylor,0,1,name_mention_without_relation_cue,You know of Tamara Taylor who live next block but you haven't really chatted with her,,name mention lacks a strong relation cue; only weak or ambiguous contact cues found,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Jane Moreno,Tom Moreno,0,1,name_mention_without_relation_cue,Tom Moreno is your husband -- you love him but your relationship with him has been strained recently,Jane Moreno is your wife -- you love her but your relationship with her has been strained recently,name mention lacks a strong relation cue; only weak or ambiguous contact cues found,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Jane Moreno,Wolfgang Schulz,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Jane Moreno,Yuriko Yamamoto,1,0,known;neighbor,"You've known your neighbor, Yuriko Yamamoto, for a few years","You've known the couple, Tom Moreno and Jane Moreno, who live in the next block for a few years",,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Jennifer Moore,John Lin,1,0,known,,"You've known your next door old couple, Sam Moore and Jennifer Moore, for a few years || You like Jennifer Moore's art",,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Jennifer Moore,Klaus Mueller,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Jennifer Moore,Latoya Williams,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Jennifer Moore,Maria Lopez,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Jennifer Moore,Mei Lin,1,0,known,,"You've known your next door old couple, Sam Moore and Jennifer Moore, for a few years || You like Jennifer Moore's art",,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Jennifer Moore,Rajiv Patel,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Jennifer Moore,Ryan Park,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Jennifer Moore,Sam Moore,1,0,known;neighbor,"You've known your neighbor, Yuriko Yamamoto, for a few years since the time she helped you and your husband Sam Moore on some legal matters || You love your husband, Sam Moore and hope he has relaxing days || You know Sam Moore, your husband, is planning on running for the local mayor election but you do not want him to as it will be too taxing for him","You've known your neighbor, Yuriko Yamamoto, for a few years since the time she helped you and your wife Jennifer Moore on some legal matters",,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Jennifer Moore,Tamara Taylor,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Jennifer Moore,Tom Moreno,1,0,known,"You've known the couple, Tom Moreno and Jane Moreno, who live in the next block for a few years || You think Tom Moreno is a little too aggressive and opinionated","You've known your next door old couple, Sam Moore and Jennifer Moore, for a few years",,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Jennifer Moore,Wolfgang Schulz,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Jennifer Moore,Yuriko Yamamoto,1,0,known;neighbor,"You've known your neighbor, Yuriko Yamamoto, for a few years since the time she helped you and your husband Sam Moore on some legal matters || You consider Yuriko Yamamoto to be someone like your daughter even though you two are not related","You've known your next door old couple, Sam Moore and Jennifer Moore, for a few years",,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+John Lin,Klaus Mueller,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+John Lin,Latoya Williams,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+John Lin,Maria Lopez,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+John Lin,Mei Lin,1,0,student_professor;works_at,Mei Lin is your wife who is a professor,"You know that Tom Moreno and your husband, John Lin, are colleagues at The Willows Market and Pharmacy || John Lin is your husband who works at the Pharmacy section of The Willows Market and Pharmacy",,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+John Lin,Rajiv Patel,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+John Lin,Ryan Park,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+John Lin,Sam Moore,1,0,known,"You've known your next door old couple, Sam Moore and Jennifer Moore, for a few years || You think Sam Moore is a kind and nice man",,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+John Lin,Tamara Taylor,0,1,name_mention_without_relation_cue,You know of Tamara Taylor who live next block but you haven't really chatted with her,,name mention lacks a strong relation cue; only weak or ambiguous contact cues found,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+John Lin,Tom Moreno,0,1,name_mention_without_relation_cue,You and Tom Moreno are colleagues at The Willows Market and Pharmacy || You know the Moreno family somewhat well -- the husband Tom Moreno and the wife Jane Moreno,"You and John Lin are colleagues at The Willows Market and Pharmacy || You know the Lin family somewhat well -- the husband John Lin, wife, Mei Lin, and the son Eddy Lin",name mention lacks a strong relation cue; only weak or ambiguous contact cues found,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+John Lin,Wolfgang Schulz,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+John Lin,Yuriko Yamamoto,1,0,known;neighbor,"You've known your neighbor, Yuriko Yamamoto, since the time she helped you with some legal matters",,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Klaus Mueller,Latoya Williams,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Klaus Mueller,Maria Lopez,1,0,classmate;close;crush;dormmate;friend;known,This is very important -- you have a crush on Maria Lopez || You and Maria Lopez have known each other for over 2 years now || You and Maria Lopez are close friends and classmates || You and Maria Lopez are dormmates,This is very important -- you have a secret crush on Klaus Mueller || You and Klaus Mueller have known each other for over 2 years now || You and Klaus Mueller are close friends and classmates,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Klaus Mueller,Mei Lin,1,0,student_professor,You know Mei Lin is a professor at your college,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Klaus Mueller,Rajiv Patel,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Klaus Mueller,Ryan Park,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Klaus Mueller,Sam Moore,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Klaus Mueller,Tamara Taylor,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Klaus Mueller,Tom Moreno,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Klaus Mueller,Wolfgang Schulz,1,0,classmate;dormmate,You and Wolfgang Schulz are classmates and dormmates,You and Klaus Mueller are dormmates,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Klaus Mueller,Yuriko Yamamoto,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Latoya Williams,Maria Lopez,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Latoya Williams,Mei Lin,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Latoya Williams,Rajiv Patel,1,0,housemate;known;talks_often,Rajiv Patel is your housemate whom you've known for about a year || You and Rajiv Patel sometimes talk about politics and local elections,Latoya Williams is your housemate whom you've known for about a year || You and Latoya Williams sometimes talk about politics and local elections,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Latoya Williams,Ryan Park,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Latoya Williams,Sam Moore,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Latoya Williams,Tamara Taylor,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Latoya Williams,Tom Moreno,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Latoya Williams,Wolfgang Schulz,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Latoya Williams,Yuriko Yamamoto,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Maria Lopez,Mei Lin,1,0,student_professor,You know Mei Lin is a professor at your college,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Maria Lopez,Rajiv Patel,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Maria Lopez,Ryan Park,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Maria Lopez,Sam Moore,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Maria Lopez,Tamara Taylor,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Maria Lopez,Tom Moreno,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Maria Lopez,Wolfgang Schulz,1,0,classmate;dormmate,You and Wolfgang Schulz are classmates and dormmates,You and Maria Lopez are dormmates,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Maria Lopez,Yuriko Yamamoto,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Mei Lin,Rajiv Patel,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Mei Lin,Ryan Park,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Mei Lin,Sam Moore,1,0,known,"You've known your next door old couple, Sam Moore and Jennifer Moore, for a few years || You think Sam Moore is a kind and nice man",,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Mei Lin,Tamara Taylor,0,1,name_mention_without_relation_cue,You know of Tamara Taylor who live next block but you haven't really chatted with her,,name mention lacks a strong relation cue; only weak or ambiguous contact cues found,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Mei Lin,Tom Moreno,1,1,name_mention_without_relation_cue;student_professor,"You know the Moreno family somewhat well -- the husband Tom Moreno and the wife Jane Moreno || You know that Tom Moreno and your husband, John Lin, are colleagues at The Willows Market and Pharmacy","You know the Lin family somewhat well -- the husband John Lin, wife, Mei Lin, and the son Eddy Lin || you know Mei Lin is a professor",name mention lacks a strong relation cue,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Mei Lin,Wolfgang Schulz,1,0,student_professor,,You know Mei Lin is a professor at your college,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Mei Lin,Yuriko Yamamoto,1,0,known;neighbor,"You've known your neighbor, Yuriko Yamamoto, since the time she helped you with some legal matters",,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Rajiv Patel,Ryan Park,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Rajiv Patel,Sam Moore,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Rajiv Patel,Tamara Taylor,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Rajiv Patel,Tom Moreno,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Rajiv Patel,Wolfgang Schulz,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Rajiv Patel,Yuriko Yamamoto,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Ryan Park,Sam Moore,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Ryan Park,Tamara Taylor,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Ryan Park,Tom Moreno,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Ryan Park,Wolfgang Schulz,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Ryan Park,Yuriko Yamamoto,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Sam Moore,Tamara Taylor,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Sam Moore,Tom Moreno,1,0,known,"You've known the couple, Tom Moreno and Jane Moreno, who live in the next block for a few years || You think Tom Moreno is a little too aggressive and opinionated","You've known your next door old couple, Sam Moore and Jennifer Moore, for a few years || You don't really like Sam Moore",,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Sam Moore,Wolfgang Schulz,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Sam Moore,Yuriko Yamamoto,1,0,close;known;neighbor,"You've known your neighbor, Yuriko Yamamoto, for a few years since the time she helped you and your wife Jennifer Moore on some legal matters || You consider Yuriko Yamamoto to be someone like your daughter even though you two are not related","You've known your next door old couple, Sam Moore and Jennifer Moore, for a few years || You and Sam Moore are somewhat close",,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Tamara Taylor,Tom Moreno,0,1,name_mention_without_relation_cue,,You know of Tamara Taylor who live next block but you haven't really chatted with her,name mention lacks a strong relation cue; only weak or ambiguous contact cues found,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Tamara Taylor,Wolfgang Schulz,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Tamara Taylor,Yuriko Yamamoto,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Tom Moreno,Wolfgang Schulz,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Tom Moreno,Yuriko Yamamoto,1,0,known;neighbor,"You've known your neighbor, Yuriko Yamamoto, for a few years and you two sometimes chat about the local election","You've known the couple, Tom Moreno and Jane Moreno, who live in the next block for a few years || You think Tom Moreno is a little too aggressive and opinionated",,agent_history_init_n25.csv,conservative_relation_cue_rules_v1
+Wolfgang Schulz,Yuriko Yamamoto,0,0,,,,,agent_history_init_n25.csv,conservative_relation_cue_rules_v1

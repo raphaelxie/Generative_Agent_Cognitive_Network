@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    34,
-    45
+    74,
+    25
   ],
   "daily_plan_req": "Sam Moore likes to talk a walk around Johnson Park, and sit at Hobbs cafe reading.",
   "name": "Sam Moore",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 146,
-  "importance_ele_n": 27,
+  "importance_trigger_curr": 198,
+  "importance_ele_n": 20,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 8:00 am",
@@ -259,8 +259,12 @@
       10
     ],
     [
-      "having dinner with Jennifer at home (preparing the meal)",
-      19
+      "having dinner with Jennifer at home (on the way to preparing the meal)",
+      0
+    ],
+    [
+      "having dinner with Jennifer at home (conversing about Klaus Mueller and Sam Moore discussing Sam's mayoral campaign, community engagement workshops, and potential collaboration on incorporating Klaus's research on gentrification into those workshops.)",
+      17
     ],
     [
       "having dinner with Jennifer at home (serving the meal)",
@@ -279,12 +283,80 @@
       5
     ],
     [
-      "spending quality time with Jennifer, discussing their day and planning for the future",
-      240
+      "spending quality time with Jennifer, discussing their day and planning for the future (discussing their day)",
+      15
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (on the way to sharing stories from his past experiences)",
+      0
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (conversing about Sam Moore and Jennifer Moore discussing their plans for an interactive Valentine's Day exhibition, incorporating elements like motion sensors, live painting, local artists, a collaborative mural, refreshments, and promotional strategies.)",
+      22
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (on the way to asking Jennifer about her day)",
+      0
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (conversing about Sam Moore and Isabella Rodriguez discussing the plans for a Valentine's Day party, including live music lineup, decorations, quotes, and snacks and drinks.)",
+      15
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (listening to Jennifer's thoughts and feelings)",
+      15
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (discussing their plans for the upcoming week)",
+      15
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (brainstorming ideas for their future travels)",
+      15
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (talking about their goals for the mayoral campaign)",
+      15
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (discussing community issues that matter to them)",
+      15
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (planning a date night for the following weekend)",
+      15
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (reminiscing about their favorite memories together)",
+      15
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (discussing ways to support each other in their individual pursuits)",
+      15
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (reviewing their budget for the upcoming month)",
+      15
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (talking about their family and friends)",
+      15
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (discussing any upcoming family events)",
+      15
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (planning their garden for the spring)",
+      15
+    ],
+    [
+      "spending quality time with Jennifer, discussing their day and planning for the future (wrapping up the conversation and expressing appreciation for each other)",
+      15
     ],
     [
       "getting ready for bed and reflecting on his day",
-      120
+      113
     ],
     [
       "sleeping",
@@ -297,6 +369,10 @@
     [
       "sleeping",
       9
+    ],
+    [
+      "sleeping",
+      2
     ]
   ],
   "f_daily_schedule_hourly_org": [
@@ -341,83 +417,39 @@
       120
     ]
   ],
-  "act_address": "<persona> Abigail Chen",
-  "act_start_time": "February 13, 2023, 16:11:40",
-  "act_duration": 11,
-  "act_description": "conversing about Abigail Chen and Sam Moore discussing plans for the launch event of a campaign, focusing on incorporating interactive elements like a community mural and promoting local artists, while also exploring collaboration on animations and visuals.",
-  "act_pronunciatio": "\ud83d\udcac",
+  "act_address": "the Ville:Hobbs Cafe:cafe:cafe customer seating",
+  "act_start_time": "February 13, 2023, 19:33:00",
+  "act_duration": 15,
+  "act_description": "spending quality time with Jennifer, discussing their day and planning for the future (discussing community issues that matter to them)",
+  "act_pronunciatio": "\ud83d\udde3\ufe0f\ud83e\udd1d",
   "act_event": [
     "Sam Moore",
-    "chat with",
-    "Abigail Chen"
+    "discuss",
+    "community issues"
   ],
-  "act_obj_description": null,
-  "act_obj_pronunciatio": null,
+  "act_obj_description": "occupied and cozy",
+  "act_obj_pronunciatio": "\ud83c\udfe0\ud83d\udecb\ufe0f",
   "act_obj_event": [
-    null,
-    null,
-    null
+    "cafe customer seating",
+    "is",
+    "occupied and cozy"
   ],
-  "chatting_with": "Abigail Chen",
-  "chat": [
-    [
-      "Abigail Chen",
-      "Hey Sam! I see you're busy with the campaign materials. How's everything going with the launch event? Are you planning to incorporate any interactive elements into it?"
-    ],
-    [
-      "Sam Moore",
-      "Hi Abigail! Yes, we're definitely looking to incorporate some interactive elements. We're considering a live mural tied to the Fibonacci sequence, which should really engage the community. Plus, we\u2019re planning to feature local artists and have some social media promotion. What do you think about that? Any ideas you might have?"
-    ],
-    [
-      "Abigail Chen",
-      "That sounds like a fantastic idea! Incorporating local artists will definitely add a unique touch. For the interactive mural, maybe you could have community members contribute to it during the event? It could really bring everyone together. Also, if you need any help with promoting it through animation or digital art, I'd be happy to collaborate!"
-    ],
-    [
-      "Sam Moore",
-      "That's a brilliant idea, Abigail! Having community members contribute to the mural would certainly foster a sense of belonging and creativity. And I would love to take you up on the offer for help with the promotion. Your skills in animation and digital art would really enhance our outreach. Let's discuss how we can best collaborate on that!"
-    ],
-    [
-      "Abigail Chen",
-      "Great! I'm excited to brainstorm some ideas with you. Maybe we can create some animations that highlight the local artists involved and promote the event's interactive aspects? Let\u2019s set up a time to meet and discuss the details!"
-    ],
-    [
-      "Sam Moore",
-      "That sounds perfect, Abigail! Highlighting the local artists through animations would definitely attract more attention. How about we meet later this week to brainstorm? I can check my schedule and get back to you with a couple of options."
-    ],
-    [
-      "Abigail Chen",
-      "That works for me! Just let me know when you're available, and we can dive into the details. I'm looking forward to it!"
-    ],
-    [
-      "Sam Moore",
-      "Great! I'll take a look at my schedule and reach out to you later today with some times that work. I'm really looking forward to collaborating on this!"
-    ],
-    [
-      "Abigail Chen",
-      "Awesome! I can't wait to see what we come up with. By the way, if you need any visuals for the campaign materials, feel free to reach out. I\u2019d love to help out wherever I can."
-    ],
-    [
-      "Sam Moore",
-      "Thanks, Abigail! I really appreciate your offer to help with the visuals for the campaign materials. I'll definitely keep that in mind. Let\u2019s stay in touch, and I\u2019ll reach out later today with some times for our brainstorming session. Have a great walk!"
-    ],
-    [
-      "Abigail Chen",
-      "Thanks, Sam! I really appreciate it. Enjoy your work on the campaign materials, and I'm looking forward to our brainstorming session. Talk soon!"
-    ]
-  ],
+  "chatting_with": null,
+  "chat": null,
   "chatting_with_buffer": {
-    "Jennifer Moore": -526,
-    "Isabella Rodriguez": 98,
-    "Giorgio Rossi": -1132,
-    "Eddy Lin": -814,
-    "Adam Smith": -400,
-    "Carlos Gomez": -178,
-    "Mei Lin": -4,
-    "Rajiv Patel": 536,
-    "Hailey Johnson": 662,
-    "Abigail Chen": 800
+    "Jennifer Moore": 158,
+    "Isabella Rodriguez": 308,
+    "Giorgio Rossi": -2332,
+    "Eddy Lin": -2014,
+    "Adam Smith": -1600,
+    "Carlos Gomez": -1378,
+    "Mei Lin": -1204,
+    "Rajiv Patel": -664,
+    "Hailey Johnson": -538,
+    "Abigail Chen": -382,
+    "Klaus Mueller": -208
   },
-  "chatting_end_time": "February 13, 2023, 16:23:00",
+  "chatting_end_time": null,
   "act_path_set": true,
   "planned_path": []
 }

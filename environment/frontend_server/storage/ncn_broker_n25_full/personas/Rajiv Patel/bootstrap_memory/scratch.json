@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    36,
-    30
+    42,
+    32
   ],
   "daily_plan_req": "",
   "name": "Rajiv Patel",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 91,
-  "importance_ele_n": 38,
+  "importance_trigger_curr": 14,
+  "importance_ele_n": 65,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 8:00 am",
@@ -199,8 +199,12 @@
       10
     ],
     [
-      "continuing to paint in his studio (taking a moment to relax and enjoy the view from his studio window)",
-      5
+      "continuing to paint in his studio (on the way to taking a moment to relax and enjoy the view from his studio window)",
+      0
+    ],
+    [
+      "continuing to paint in his studio (conversing about Hailey Johnson and Rajiv Patel brainstorming ideas for incorporating local businesses and interactive elements into a Valentine's Day party, including poetry readings and a collaborative mural.)",
+      19
     ],
     [
       "continuing to paint in his studio (reviewing his painting goals for the session)",
@@ -208,11 +212,7 @@
     ],
     [
       "continuing to paint in his studio (adding final touches to the painting)",
-      9
-    ],
-    [
-      "having dinner (preparing the ingredients for dinner)",
-      10
+      5
     ],
     [
       "having dinner (cooking the main dish)",
@@ -235,20 +235,108 @@
       10
     ],
     [
-      "taking a leisurely walk or doing some light exercise",
-      60
+      "taking a leisurely walk or doing some light exercise (putting on his walking shoes)",
+      5
     ],
     [
-      "reviewing and preparing for his solo show",
-      60
+      "taking a leisurely walk or doing some light exercise (on the way to stretching his legs and arms)",
+      0
     ],
     [
-      "continuing to review and prepare for his solo show",
-      180
+      "taking a leisurely walk or doing some light exercise (conversing about Abigail Chen and Rajiv Patel discussing their creative projects, including Rajiv's cocktail inspired by the Fibonacci sequence using local ingredients and Abigail's animation project featuring local businesses with interactive elements.)",
+      12
+    ],
+    [
+      "taking a leisurely walk or doing some light exercise (stepping outside and enjoying the fresh air)",
+      5
+    ],
+    [
+      "taking a leisurely walk or doing some light exercise (on the way to walking at a comfortable pace around the neighborhood)",
+      0
+    ],
+    [
+      "taking a leisurely walk or doing some light exercise (conversing about Rajiv Patel and Carmen Ortiz collaborating on planning a Valentine's Day party, discussing cocktail ideas, decorations, interactive elements, and promotional strategies.)",
+      15
+    ],
+    [
+      "taking a leisurely walk or doing some light exercise (on the way to listening to music on his headphones while walking)",
+      0
+    ],
+    [
+      "taking a leisurely walk or doing some light exercise (conversing about Arthur Burton and Rajiv Patel discussing their collaboration for a Valentine's Day event focused on creating cocktails inspired by the Fibonacci sequence using local herbs and fruits, and brainstorming ways to enhance customer engagement through visual elements and local art.)",
+      17
+    ],
+    [
+      "taking a leisurely walk or doing some light exercise (on the way to stopping to admire some local art or scenery)",
+      0
+    ],
+    [
+      "taking a leisurely walk or doing some light exercise (conversing about Rajiv Patel and Jennifer Moore collaborating on ideas for a Valentine's Day party that integrates her watercolor artwork with his music, including interactive elements for audience participation.)",
+      16
+    ],
+    [
+      "taking a leisurely walk or doing some light exercise (on the way to continuing his walk, focusing on his breathing)",
+      0
+    ],
+    [
+      "taking a leisurely walk or doing some light exercise (conversing about Francisco Lopez and Rajiv Patel discussing ideas for a Valentine's Day party, including interactive elements like a collaborative mural, poetry readings, and promotional strategies.)",
+      17
+    ],
+    [
+      "taking a leisurely walk or doing some light exercise (taking a moment to sit on a bench and relax)",
+      5
+    ],
+    [
+      "taking a leisurely walk or doing some light exercise (on the way to walking back home, reflecting on his day)",
+      0
+    ],
+    [
+      "taking a leisurely walk or doing some light exercise (conversing about Rajiv Patel and Latoya Williams discussing ideas for their collaborative art project, focusing on incorporating interactive elements to engage the community, such as a photo booth, messages, showcasing collections, involving local businesses, connecting the project to the upcoming mayoral election, and promoting a Q&A session with candidates.)",
+      21
+    ],
+    [
+      "reviewing and preparing for his solo show (reviewing his artwork for the show)",
+      8
+    ],
+    [
+      "reviewing and preparing for his solo show (selecting the pieces he wants to display)",
+      15
+    ],
+    [
+      "reviewing and preparing for his solo show (creating a list of titles and descriptions for each piece)",
+      12
+    ],
+    [
+      "continuing to review and prepare for his solo show (reviewing his artwork for the show)",
+      30
+    ],
+    [
+      "continuing to review and prepare for his solo show (organizing the artwork for display)",
+      30
+    ],
+    [
+      "continuing to review and prepare for his solo show (creating labels for each piece of artwork)",
+      30
+    ],
+    [
+      "continuing to review and prepare for his solo show (preparing a presentation about his artwork)",
+      30
+    ],
+    [
+      "continuing to review and prepare for his solo show (taking a short break to stretch and relax)",
+      10
+    ],
+    [
+      "continuing to review and prepare for his solo show (reviewing the presentation he created)",
+      20
+    ],
+    [
+      "continuing to review and prepare for his solo show (making adjustments to the presentation based on his review)",
+      18
     ],
     [
       "relaxing and winding down for the day before bed",
-      60
+      44
     ],
     [
       "sleeping",
@@ -309,37 +397,139 @@
       60
     ]
   ],
-  "act_address": "the Ville:artist's co-living space:common room:common room table",
-  "act_start_time": "February 13, 2023, 16:10:00",
-  "act_duration": 15,
-  "act_description": "continuing to paint in his studio (conversing about Francisco Lopez and Rajiv Patel discussing ideas for an interactive mural project that incorporates community interactions and planning for community painting days, including materials, promotion strategies, and collaboration on flyer design.)",
-  "act_pronunciatio": "\ud83d\udd8c\ufe0f\ud83d\udde3",
+  "act_address": "the Ville:The Rose and Crown Pub:pub:microphone",
+  "act_start_time": "February 13, 2023, 19:39:00",
+  "act_duration": 21,
+  "act_description": "taking a leisurely walk or doing some light exercise (conversing about Rajiv Patel and Latoya Williams discussing ideas for their collaborative art project, focusing on incorporating interactive elements to engage the community, such as a photo booth, messages, showcasing collections, involving local businesses, connecting the project to the upcoming mayoral election, and promoting a Q&A session with candidates.)",
+  "act_pronunciatio": "\ud83d\uddbc\ufe0f\ud83e\udd1d",
   "act_event": [
     "Rajiv Patel",
     "converse",
     "ideas"
   ],
-  "act_obj_description": "covered with paint supplies and design materials, showing signs of active use",
-  "act_obj_pronunciatio": "\ud83c\udfa8\ud83d\udd8c\ufe0f",
+  "act_obj_description": "not in use",
+  "act_obj_pronunciatio": "\ud83d\udeab\ud83d\uded1",
   "act_obj_event": [
-    "common room table",
-    "be covered",
-    "paint supplies and design materials"
+    "microphone",
+    "is not",
+    "in use"
   ],
   "chatting_with": null,
   "chat": null,
   "chatting_with_buffer": {
-    "Francisco Lopez": 740,
-    "Carlos Gomez": -502,
-    "Abigail Chen": -388,
-    "Hailey Johnson": -208,
-    "Jennifer Moore": 116,
-    "Jane Moreno": 284,
-    "Arthur Burton": 398,
-    "Sam Moore": 536,
-    "Latoya Williams": 644
+    "Francisco Lopez": 638,
+    "Carlos Gomez": -1702,
+    "Abigail Chen": 218,
+    "Hailey Johnson": -274,
+    "Jennifer Moore": 530,
+    "Jane Moreno": -916,
+    "Arthur Burton": 434,
+    "Sam Moore": -664,
+    "Latoya Williams": 794,
+    "Carmen Ortiz": 326
   },
   "chatting_end_time": null,
   "act_path_set": true,
-  "planned_path": []
+  "planned_path": [
+    [
+      44,
+      32
+    ],
+    [
+      44,
+      31
+    ],
+    [
+      45,
+      31
+    ],
+    [
+      46,
+      31
+    ],
+    [
+      47,
+      31
+    ],
+    [
+      48,
+      31
+    ],
+    [
+      49,
+      31
+    ],
+    [
+      49,
+      30
+    ],
+    [
+      50,
+      30
+    ],
+    [
+      51,
+      30
+    ],
+    [
+      52,
+      30
+    ],
+    [
+      53,
+      30
+    ],
+    [
+      54,
+      30
+    ],
+    [
+      55,
+      30
+    ],
+    [
+      56,
+      30
+    ],
+    [
+      56,
+      29
+    ],
+    [
+      56,
+      28
+    ],
+    [
+      56,
+      27
+    ],
+    [
+      56,
+      26
+    ],
+    [
+      56,
+      25
+    ],
+    [
+      57,
+      25
+    ],
+    [
+      58,
+      25
+    ],
+    [
+      59,
+      25
+    ],
+    [
+      60,
+      25
+    ],
+    [
+      61,
+      25
+    ]
+  ]
 }

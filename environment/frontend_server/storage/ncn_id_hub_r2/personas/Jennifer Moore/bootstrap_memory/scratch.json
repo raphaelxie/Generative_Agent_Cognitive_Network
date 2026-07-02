@@ -1,0 +1,429 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 17:09:50",
+  "curr_tile": [
+    39,
+    60
+  ],
+  "daily_plan_req": "",
+  "name": "Jennifer Moore",
+  "first_name": "Jennifer",
+  "last_name": "Moore",
+  "age": 68,
+  "innate": "wise, experienced, warm",
+  "learned": "Jennifer Moore is a watercolor painter who has been painting for over fifty years. She is wise and experienced, and her work is full of warmth.",
+  "currently": "Jennifer Moore lives with her husband of 40 years, Sam Moore, and is preparing for an exhibition of her work. She is also mentoring younger artists to help them find their own creative voice.",
+  "lifestyle": "Jennifer Moore goes to bed around 9pm, awakes up around 5am, eats dinner around 5pm.",
+  "living_area": "the Ville:Moore family's house:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 95,
+  "importance_ele_n": 54,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 5:00 am",
+    "have a light breakfast around 6:00 am",
+    "work on her watercolor paintings for her upcoming exhibition from 7:00 am to 10:00 am",
+    "take a short break and enjoy a cup of tea from 10:00 am to 10:30 am",
+    "hold a mentoring session with younger artists via video call from 10:30 am to 12:00 pm",
+    "have a healthy lunch around 12:00 pm",
+    "spend time working on more paintings from 1:00 pm to 3:00 pm",
+    "take an afternoon walk for inspiration from 3:00 pm to 4:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      300
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "having a light breakfast",
+      60
+    ],
+    [
+      "working on her watercolor paintings for her upcoming exhibition",
+      60
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (on the way to continuing to work on her watercolor paintings for her upcoming exhibition) (continuing to work on her watercolor paintings for her upcoming exhibition)",
+      120
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (conversing about Jennifer and Sam discussing her art exhibition, his mayoral campaign, and planning to have breakfast together while brainstorming ideas.)",
+      16
+    ],
+    [
+      "taking a short break and enjoying a cup of tea",
+      60
+    ],
+    [
+      "holding a mentoring session with younger artists via video call (setting up her workspace for the video call)",
+      10
+    ],
+    [
+      "holding a mentoring session with younger artists via video call (checking her video and audio settings to ensure everything is working properly)",
+      5
+    ],
+    [
+      "holding a mentoring session with younger artists via video call (welcoming the younger artists as they join the video call)",
+      5
+    ],
+    [
+      "holding a mentoring session with younger artists via video call (introducing herself and sharing her background in watercolor painting)",
+      5
+    ],
+    [
+      "holding a mentoring session with younger artists via video call (asking each artist to introduce themselves and share their current projects)",
+      10
+    ],
+    [
+      "holding a mentoring session with younger artists via video call (providing feedback on the artists' projects and offering constructive criticism)",
+      15
+    ],
+    [
+      "holding a mentoring session with younger artists via video call (discussing techniques and tips for watercolor painting with the artists)",
+      10
+    ],
+    [
+      "having a healthy lunch (preparing the ingredients for her lunch)",
+      15
+    ],
+    [
+      "having a healthy lunch (on the way to chopping vegetables for her salad)",
+      0
+    ],
+    [
+      "having a healthy lunch (conversing about Sam and Jennifer discussing plans for a Valentine's Day party and an art exhibition, focusing on incorporating Jennifer's watercolor designs, quotes, live music, and interactive activities to create a memorable celebration.)",
+      20
+    ],
+    [
+      "having a healthy lunch (on the way to cooking a piece of grilled chicken)",
+      0
+    ],
+    [
+      "having a healthy lunch (conversing about Francisco Lopez and Jennifer Moore discussing plans for a Valentine's Day party and collaboration on an animation project.)",
+      11
+    ],
+    [
+      "having a healthy lunch (mixing the salad dressing)",
+      5
+    ],
+    [
+      "having a healthy lunch (assembling the salad with the chopped vegetables and grilled chicken)",
+      10
+    ],
+    [
+      "having a healthy lunch (on the way to setting the table for lunch)",
+      0
+    ],
+    [
+      "having a healthy lunch (conversing about John Lin and Jennifer Moore discussing local mayoral candidates' initiatives to support local businesses and planning community engagement events, including art workshops and exhibits.)",
+      18
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (on the way to setting up her painting area)",
+      0
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (conversing about Jennifer Moore and Eddy Lin collaborating on integrating art and music for an interactive Valentine's Day party, discussing ideas such as motion sensors, QR codes, quotes about art and love, a collaborative mural, and live painting.)",
+      23
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (selecting the colors she wants to use for her painting)",
+      10
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (on the way to sketching the outline of her painting on the canvas)",
+      0
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (conversing about Jennifer Moore and Rajiv Patel discussing ideas for an interactive music and art experience for an upcoming Valentine's Day party, including incorporating guest participation through song suggestions, reflections, and visual art.)",
+      25
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (on the way to mixing the paint to achieve the desired shades)",
+      0
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (conversing about Abigail Chen and Jennifer Moore discussing their collaborative projects, including interactive elements for a Valentine's Day party and an animation project showcasing local artists' stories of resilience.)",
+      20
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (on the way to applying the first layer of paint to the canvas)",
+      10
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (conversing about Latoya Williams and Jennifer Moore discussing the details of a collaborative mural for an upcoming Valentine's Day party, including themes, interactive elements, and guest prompts.)",
+      18
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (on the way to allowing the first layer to dry while she cleans her brushes)",
+      0
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (conversing about Hailey Johnson and Jennifer Moore discussing their collaborative mural for the Valentine's Day party, incorporating themes of resilience and creativity, community participation, storytelling, and refreshments for the event.)",
+      22
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (on the way to adding details to the painting with a smaller brush)",
+      0
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (conversing about Francisco Lopez and Jennifer Moore discussing ideas and plans for a collaborative mural centered on themes of love, resilience, and creativity for an upcoming Valentine's Day party.)",
+      21
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (adding details to the painting with a smaller brush)",
+      4
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (adding final touches to enhance the painting)",
+      10
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition (cleaning up her painting area and putting away supplies)",
+      5
+    ],
+    [
+      "taking an afternoon walk for inspiration (putting on her walking shoes)",
+      5
+    ],
+    [
+      "taking an afternoon walk for inspiration (grabbing her hat and sunglasses)",
+      5
+    ],
+    [
+      "taking an afternoon walk for inspiration (stepping outside her home)",
+      5
+    ],
+    [
+      "taking an afternoon walk for inspiration (taking a moment to breathe in the fresh air)",
+      5
+    ],
+    [
+      "taking an afternoon walk for inspiration (walking down her street, observing the surroundings)",
+      10
+    ],
+    [
+      "taking an afternoon walk for inspiration (noticing the colors of the flowers in bloom)",
+      5
+    ],
+    [
+      "taking an afternoon walk for inspiration (jotting down ideas for her paintings inspired by her walk)",
+      5
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition",
+      48
+    ],
+    [
+      "having dinner with her husband, Sam (on the way to setting the dining table)",
+      0
+    ],
+    [
+      "having dinner with her husband, Sam (conversing about Sam and Jennifer discussing their plans for a Valentine's Day party, including incorporating watercolor designs, interactive elements, and involving local artists in a collaborative mural.)",
+      20
+    ],
+    [
+      "having dinner with her husband, Sam (preparing the salad)",
+      10
+    ],
+    [
+      "having dinner with her husband, Sam (cooking the main dish)",
+      15
+    ],
+    [
+      "having dinner with her husband, Sam (setting out drinks)",
+      5
+    ],
+    [
+      "having dinner with her husband, Sam (plating the food)",
+      10
+    ],
+    [
+      "having dinner with her husband, Sam (calling Sam to the table)",
+      5
+    ],
+    [
+      "having dinner with her husband, Sam (sitting down to eat with Sam)",
+      5
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition",
+      290
+    ],
+    [
+      "preparing for bed and reflecting on her day",
+      60
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      300
+    ],
+    [
+      "waking up and completing her morning routine",
+      60
+    ],
+    [
+      "having a light breakfast",
+      60
+    ],
+    [
+      "working on her watercolor paintings for her upcoming exhibition",
+      60
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition",
+      120
+    ],
+    [
+      "taking a short break and enjoying a cup of tea",
+      60
+    ],
+    [
+      "holding a mentoring session with younger artists via video call",
+      60
+    ],
+    [
+      "having a healthy lunch",
+      60
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition",
+      120
+    ],
+    [
+      "taking an afternoon walk for inspiration",
+      60
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition",
+      60
+    ],
+    [
+      "having dinner with her husband, Sam",
+      60
+    ],
+    [
+      "continuing to work on her watercolor paintings for her upcoming exhibition",
+      300
+    ],
+    [
+      "preparing for bed and reflecting on her day",
+      60
+    ]
+  ],
+  "act_address": "<persona> Sam Moore",
+  "act_start_time": "February 13, 2023, 17:03:40",
+  "act_duration": 20,
+  "act_description": "conversing about Sam and Jennifer discussing their plans for a Valentine's Day party, including incorporating watercolor designs, interactive elements, and involving local artists in a collaborative mural.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Jennifer Moore",
+    "chat with",
+    "Sam Moore"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Sam Moore",
+  "chat": [
+    [
+      "Sam Moore",
+      "Hey Jennifer, I was just thinking about your walk earlier. Did you get any good ideas for your paintings? I can't wait to see what you come up with for the art exhibition!"
+    ],
+    [
+      "Jennifer Moore",
+      "Oh, I did! I found some beautiful colors in the sunset and the way the light reflected off the water really inspired me. I can't wait to translate that into my watercolor paintings. How was dinner? Did you try that new recipe?"
+    ],
+    [
+      "Sam Moore",
+      "Dinner was great! I tried that new recipe you found, and I think it turned out pretty well. I was thinking it would be nice to have a cozy dinner together more often, especially with everything going on with the art exhibition and my campaign. Have you thought more about how you want to incorporate your ideas into the Valentine's Day party?"
+    ],
+    [
+      "Jennifer Moore",
+      "Absolutely! I've been brainstorming ways to integrate my watercolor designs with the decorations for the Valentine's Day party. I think incorporating quotes about art and love would really add a special touch. I'm also excited about the interactive elements we discussed, like the collaborative mural. What do you think about the ideas we've come up with so far?"
+    ],
+    [
+      "Sam Moore",
+      "I love the idea of incorporating quotes! It really ties everything together. And the collaborative mural sounds like a wonderful way to engage everyone. Have you thought about what specific quotes you'd like to use? Maybe we could brainstorm some ideas together over breakfast this week."
+    ],
+    [
+      "Jennifer Moore",
+      "That's a great idea! I have a few quotes in mind, but I'd love to hear your thoughts as well. Let's make a list during breakfast. Maybe we could also think about how to involve the local artists in the mural. It could add even more depth to the event! What do you think?"
+    ],
+    [
+      "Sam Moore",
+      "Involving local artists sounds like a fantastic idea! It would not only enrich the mural but also foster community spirit. Maybe we could reach out to some of them this week to see if they're interested. I'm excited to see how everything comes together!"
+    ],
+    [
+      "Jennifer Moore",
+      "Yes, let's definitely reach out to the local artists this week! I think their stories and styles will bring a unique touch to the mural. Also, it might be nice to include some interactive prompts for the guests to engage with the mural during the party. What do you think about that idea?"
+    ],
+    [
+      "Sam Moore",
+      "I think interactive prompts are a brilliant idea! It will really encourage guests to express themselves and make the mural a true community effort. We could have some prompts related to love and creativity. What do you think about including a space for people to write their own messages or thoughts on love?"
+    ],
+    [
+      "Jennifer Moore",
+      "I love that idea! A space for guests to write their own messages would make the mural even more personal and meaningful. We could also encourage them to share their own stories of love and creativity. Let's make sure to plan that out during our breakfast this week. I'm really excited about all the possibilities!"
+    ],
+    [
+      "Sam Moore",
+      "I'm glad we're on the same page about this! I think the combination of personal messages and artistic expression will really resonate with everyone. Speaking of breakfast, how about we make it a little celebration of its own? Maybe we can invite Isabella and Carlos to join us too, get their input on the mural and the party plans."
+    ],
+    [
+      "Jennifer Moore",
+      "That sounds like a wonderful idea! I\u2019d love to invite Isabella and Carlos. Their perspectives will definitely add more depth to our plans. Let's coordinate a time that works for everyone. I can't wait to celebrate together!"
+    ],
+    [
+      "Sam Moore",
+      "Let's check our schedules and find a good time to meet up with them. Maybe we can do it over the weekend? I think it would be fun to combine brainstorming with a nice meal."
+    ],
+    [
+      "Jennifer Moore",
+      "That sounds perfect! Let's look at our schedules and see when Isabella and Carlos are free this weekend. I really think their input will help shape our plans for both the mural and the party. I'm feeling so inspired about everything! How about we sit down after dinner and figure it all out?"
+    ],
+    [
+      "Sam Moore",
+      "That sounds like a plan! I'm looking forward to diving into all the details together. Let's make this Valentine's Day party truly special. And speaking of celebrations, should we think about how we want to set up the dining area for breakfast this weekend? Maybe we can keep it cozy and inviting!"
+    ],
+    [
+      "Jennifer Moore",
+      "I love the idea of making the dining area cozy and inviting! Maybe we could use some of my watercolor designs for the table setting to tie everything together. It would be a lovely way to set the tone for our brainstorming session. Do you have any other ideas for how we can make it feel special?"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Sam Moore": 800,
+    "Francisco Lopez": 368,
+    "John Lin": -520,
+    "Eddy Lin": -376,
+    "Rajiv Patel": -178,
+    "Abigail Chen": -58,
+    "Latoya Williams": 110,
+    "Hailey Johnson": 242
+  },
+  "chatting_end_time": "February 13, 2023, 17:24:00",
+  "act_path_set": true,
+  "planned_path": []
+}

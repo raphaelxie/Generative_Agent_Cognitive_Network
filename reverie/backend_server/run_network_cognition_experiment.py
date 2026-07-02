@@ -9,6 +9,10 @@ advances post-shock and runs a post survey.
 Usage (from reverie/backend_server/):
   PILOT=1 caffeinate -i python run_network_cognition_experiment.py
   caffeinate -i python run_network_cognition_experiment.py
+
+Long-horizon extension (resume existing branches, advance to step 4200,
+add a `post_long` survey wave, and build a separate long-horizon DiD):
+  EXTEND=1 caffeinate -i python run_network_cognition_experiment.py
 """
 import json
 import os
@@ -29,6 +33,19 @@ SIM_SUFFIX = "_pilot" if PILOT else "_full"
 S_PRE = 60 if PILOT else 300
 N_POST = 90 if PILOT else 900
 SEC_PER_STEP = 10
+
+# Long-horizon extension: resume existing branches and push the post-shock
+# measurement out to shock_step + N_POST_LONG (full: 2100 -> step 4200).
+EXTEND = os.environ.get("EXTEND", "0") == "1"
+N_POST_LONG = int(os.environ.get("N_POST_LONG", "180" if PILOT else "2100"))
+WAVE_LONG = "post_long"
+# Keep the windowed-truth window identical to the short `post` wave so the
+# saturation-corrected `observed_interaction_recent` layer stays comparable.
+LONG_RECENT_WINDOW_MIN = N_POST * SEC_PER_STEP // 60
+# start_server() only persists when it returns, so advance in chunks and save
+# between them. A crash then costs at most CHECKPOINT_STEPS of redo, not the
+# whole multi-hour advance.
+CHECKPOINT_STEPS = int(os.environ.get("CHECKPOINT_STEPS", "300"))
 
 FORK_FROM = "preflight_the_ville_n25-1"
 BASELINE_SIM = f"ncn_baseline_n25{SIM_SUFFIX}"
@@ -243,9 +260,120 @@ def _run_branch(treatment, branch_code, shock_step):
         frontend.stop()
 
 
+def _read_shock_targets():
+    path = os.path.abspath(
+        f"{FS_STORAGE}/{BASELINE_SIM}/survey/shock_targets.json")
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def _advance_with_checkpoints(rs, target_step):
+    """Advance to target_step, saving every CHECKPOINT_STEPS so a crash only
+    loses the current chunk (resume picks up from the last saved step)."""
+    while rs.step < target_step:
+        chunk = min(CHECKPOINT_STEPS, target_step - rs.step)
+        print(f"  Advancing {chunk} steps "
+              f"({rs.step} -> {rs.step + chunk}) [target {target_step}]")
+        rs.start_server(chunk)
+        rs.save()
+        print(f"  -> checkpoint saved at step {rs.step}")
+
+
+def _extend_branch(treatment, branch_code, shock_step, targets):
+    from reverie import ReverieServer
+    from perception_survey import run_perception_survey
+
+    sim_folder = os.path.abspath(f"{FS_STORAGE}/{branch_code}")
+    survey_dir = os.path.join(sim_folder, "survey")
+    long_csv = os.path.join(survey_dir, f"perception_survey_{WAVE_LONG}.csv")
+
+    if not os.path.exists(sim_folder):
+        print(f"  ERROR: branch {branch_code} not found; "
+              f"run the base experiment first. Skipping.")
+        return
+
+    if os.path.isfile(long_csv):
+        print(f"  Branch {branch_code}: {WAVE_LONG} survey present; "
+              f"refreshing analysis only.")
+        _run_script("analyze_survey.py", survey_dir)
+        return
+
+    print(f"\n  Resuming branch {branch_code} for extension")
+    rs = ReverieServer(branch_code, branch_code)
+
+    os.environ["GA_RUN_TAG"] = branch_code
+    frontend = HeadlessFrontend(sim_folder)
+    frontend.start()
+    try:
+        # Isolation is an in-memory flag and is NOT persisted across save /
+        # resume, so re-apply the SAME treatment to the SAME agent that was
+        # originally shocked (explicit name -> deterministic target).
+        if treatment == "hub":
+            cmd = f"shock isolate-hub {targets['hub_agent']}"
+            msg = rs._try_shock_isolate_command(cmd, sim_folder)
+            print(f"  Re-shock: {msg.strip()}")
+        elif treatment == "broker":
+            cmd = f"shock isolate-broker {targets['broker_agent']}"
+            msg = rs._try_shock_isolate_command(cmd, sim_folder)
+            print(f"  Re-shock: {msg.strip()}")
+
+        target_step = shock_step + N_POST_LONG
+        _advance_with_checkpoints(rs, target_step)
+
+        print(f"  {WAVE_LONG.upper()} SURVEY @ step {rs.step}")
+        run_perception_survey(
+            rs.personas, rs.sim_code, rs.step, rs.curr_time,
+            survey_dir, wave_id=WAVE_LONG,
+            recent_window_minutes=LONG_RECENT_WINDOW_MIN)
+        rs.save()
+
+        _run_script("analyze_survey.py", survey_dir)
+    finally:
+        frontend.stop()
+
+
+def _run_extension(model):
+    shock_step = 1800 + S_PRE
+    target_step = shock_step + N_POST_LONG
+    targets = _read_shock_targets()
+
+    print(f"\n{'=' * 60}")
+    print("  NETWORK COGNITION EXPERIMENT -- LONG-HORIZON EXTENSION")
+    print(f"  Mode: {'PILOT' if PILOT else 'FULL'}")
+    print(f"  Model: {model}")
+    print(f"  shock_step={shock_step}, target_step={target_step} "
+          f"(N_POST_LONG={N_POST_LONG})")
+    print(f"  recent window: {LONG_RECENT_WINDOW_MIN} min "
+          f"(matched to short `post` wave)")
+    print(f"  hub={targets.get('hub_agent')}, "
+          f"broker={targets.get('broker_agent')}")
+    print(f"{'=' * 60}")
+
+    for treatment, branch_code in BRANCHES.items():
+        print(f"\n{'=' * 60}")
+        print(f"  EXTEND BRANCH: {treatment} ({branch_code})")
+        print(f"{'=' * 60}")
+        _extend_branch(treatment, branch_code, shock_step, targets)
+
+    os.environ["NCN_SUFFIX"] = SIM_SUFFIX
+    os.environ["NCN_POST_WAVE"] = WAVE_LONG
+    _run_script("ncn_did_summary.py")
+
+    print(f"\n{'=' * 60}")
+    print("  LONG-HORIZON EXTENSION COMPLETE")
+    print(f"{'=' * 60}")
+    print(f"  Branches advanced to step {target_step}, "
+          f"wave `{WAVE_LONG}` surveyed.")
+    print(f"  Results: {BASELINE_SIM}/survey/ncn_did_summary_{WAVE_LONG}.csv")
+
+
 def main():
     load_dotenv()
     model = verify_model_lock()
+
+    if EXTEND:
+        _run_extension(model)
+        return
 
     print(f"\n{'=' * 60}")
     print("  NETWORK COGNITION EXPERIMENT")

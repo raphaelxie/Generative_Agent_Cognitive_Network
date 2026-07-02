@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    123,
-    57
+    119,
+    47
   ],
   "daily_plan_req": "Maria Lopez spends at least 6 hours a day Twitch streaming or gaming.",
   "name": "Maria Lopez",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 240,
-  "importance_ele_n": 8,
+  "importance_trigger_curr": 69,
+  "importance_ele_n": 55,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 10:00 am",
@@ -103,12 +103,100 @@
       120
     ],
     [
-      "having dinner at Hobbs Cafe",
-      120
+      "having dinner at Hobbs Cafe (ordering her meal)",
+      10
     ],
     [
-      "relaxing and unwinding with some light reading or watching a show",
-      60
+      "having dinner at Hobbs Cafe (on the way to waiting for her meal to arrive)",
+      0
+    ],
+    [
+      "having dinner at Hobbs Cafe (conversing about Maria Lopez and Wolfgang Schulz discussing their meal choices, Wolfgang's training for a regional track and field competition, weekend plans to stream games together, favorite snacks for gaming, and recommendations for new games.)",
+      13
+    ],
+    [
+      "having dinner at Hobbs Cafe (enjoying her appetizer)",
+      15
+    ],
+    [
+      "having dinner at Hobbs Cafe (on the way to eating her main course)",
+      0
+    ],
+    [
+      "having dinner at Hobbs Cafe (conversing about Klaus Mueller and Maria Lopez discussing their respective projects on gentrification and a campaign, exploring collaboration opportunities, and planning a meeting to brainstorm ideas.)",
+      16
+    ],
+    [
+      "having dinner at Hobbs Cafe (chatting with friends at the table)",
+      15
+    ],
+    [
+      "having dinner at Hobbs Cafe (finishing her main course)",
+      10
+    ],
+    [
+      "having dinner at Hobbs Cafe (on the way to ordering dessert)",
+      0
+    ],
+    [
+      "having dinner at Hobbs Cafe (conversing about Ayesha Khan and Maria Lopez discussing their respective projects on gentrification, exploring the connection between Shakespearean themes and contemporary issues, and planning to collaborate by brainstorming together.)",
+      20
+    ],
+    [
+      "having dinner at Hobbs Cafe (waiting for dessert to arrive)",
+      5
+    ],
+    [
+      "having dinner at Hobbs Cafe (enjoying her dessert)",
+      10
+    ],
+    [
+      "having dinner at Hobbs Cafe (paying the bill)",
+      5
+    ],
+    [
+      "having dinner at Hobbs Cafe (gathering her belongings)",
+      2
+    ],
+    [
+      "relaxing and unwinding with some light reading or watching a show (settling into a comfortable spot with her book or show)",
+      5
+    ],
+    [
+      "relaxing and unwinding with some light reading or watching a show (choosing a book or show to enjoy)",
+      5
+    ],
+    [
+      "relaxing and unwinding with some light reading or watching a show (reading the first few pages of her book or watching the opening scenes of the show)",
+      5
+    ],
+    [
+      "relaxing and unwinding with some light reading or watching a show (getting a snack or drink to enjoy while relaxing)",
+      5
+    ],
+    [
+      "relaxing and unwinding with some light reading or watching a show (continuing to read or watch, getting immersed in the story)",
+      10
+    ],
+    [
+      "relaxing and unwinding with some light reading or watching a show (taking a moment to reflect on what she\u2019s read or watched so far)",
+      5
+    ],
+    [
+      "relaxing and unwinding with some light reading or watching a show (adjusting her seating position for comfort)",
+      5
+    ],
+    [
+      "relaxing and unwinding with some light reading or watching a show (continuing to read or watch, enjoying the experience)",
+      10
+    ],
+    [
+      "relaxing and unwinding with some light reading or watching a show (making a mental note of any interesting points or themes)",
+      5
+    ],
+    [
+      "relaxing and unwinding with some light reading or watching a show (finishing up the last few pages of her book or the final scenes of the show)",
+      5
     ],
     [
       "engaging with her Twitch community and planning upcoming streams",
@@ -121,6 +209,10 @@
     [
       "sleeping",
       60
+    ],
+    [
+      "sleeping",
+      14
     ]
   ],
   "f_daily_schedule_hourly_org": [
@@ -173,26 +265,30 @@
       60
     ]
   ],
-  "act_address": "the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
-  "act_start_time": "February 13, 2023, 08:00:00",
-  "act_duration": 600,
-  "act_description": "sleeping",
-  "act_pronunciatio": "\ud83d\ude34\ud83d\udca4",
+  "act_address": "the Ville:Dorm for Oak Hill College:common room:common room table",
+  "act_start_time": "February 13, 2023, 19:32:00",
+  "act_duration": 20,
+  "act_description": "having dinner at Hobbs Cafe (conversing about Ayesha Khan and Maria Lopez discussing their respective projects on gentrification, exploring the connection between Shakespearean themes and contemporary issues, and planning to collaborate by brainstorming together.)",
+  "act_pronunciatio": "\ud83d\udcac\ud83e\udd1d",
   "act_event": [
     "Maria Lopez",
-    "is",
-    "sleep"
+    "converse",
+    "Ayesha Khan"
   ],
-  "act_obj_description": "being used",
-  "act_obj_pronunciatio": "\ud83d\udd27\ud83d\udee0\ufe0f",
+  "act_obj_description": "occupied with food and discussion materials",
+  "act_obj_pronunciatio": "\ud83c\udf7d\ufe0f\ud83d\udcac",
   "act_obj_event": [
-    "bed",
+    "common room table",
     "be",
-    "used"
+    "occupied with food and discussion materials"
   ],
   "chatting_with": null,
   "chat": null,
-  "chatting_with_buffer": {},
+  "chatting_with_buffer": {
+    "Wolfgang Schulz": 290,
+    "Klaus Mueller": 494,
+    "Ayesha Khan": 752
+  },
   "chatting_end_time": null,
   "act_path_set": true,
   "planned_path": []

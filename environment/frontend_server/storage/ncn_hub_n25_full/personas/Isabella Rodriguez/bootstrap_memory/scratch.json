@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    73,
-    16
+    76,
+    24
   ],
   "daily_plan_req": "Isabella Rodriguez opens Hobbs Cafe at 8am everyday, and stands at the counter until 8pm, at which point she closes the cafe.",
   "name": "Isabella Rodriguez",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 157,
-  "importance_ele_n": 42,
+  "importance_trigger_curr": 101,
+  "importance_ele_n": 57,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 6:00 am",
@@ -224,8 +224,12 @@
       10
     ],
     [
-      "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (preparing a schedule for the party activities)",
-      15
+      "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (on the way to preparing a schedule for the party activities)",
+      0
+    ],
+    [
+      "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (conversing about Isabella Rodriguez and Eddy Lin discussing the lighting, decorations, and interactive elements for an upcoming party, including quotes, nature themes, and activities to create an immersive experience.)",
+      17
     ],
     [
       "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (reviewing the guest list and confirming RSVPs)",
@@ -240,20 +244,72 @@
       5
     ],
     [
-      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable",
-      60
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (greeting customers as they enter the cafe)",
+      10
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (taking orders from customers at the counter)",
+      15
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (on the way to preparing drinks for customers)",
+      0
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (conversing about Isabella Rodriguez and Carlos Gomez discussing the preparations for their Valentine's Day party, including decorations, interactive elements, music, snacks, and drinks.)",
+      18
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (serving food to customers at their tables)",
+      10
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (checking in with customers to ensure they are satisfied with their orders)",
+      5
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (on the way to thanking customers as they finish and leave the cafe)",
+      0
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (conversing about Sam Moore and Isabella Rodriguez discussing the decorations, interactive elements, and music playlist for the upcoming Valentine's Day party.)",
+      18
     ],
     [
       "closing Hobbs Cafe for the day and preparing to wind down after a busy day",
-      60
+      42
     ],
     [
-      "relaxing at home after a busy day at Hobbs Cafe, reflecting on the preparations for the Valentine's Day party",
-      60
+      "relaxing at home after a busy day at Hobbs Cafe, reflecting on the preparations for the Valentine's Day party (reflecting on the day's events at Hobbs Cafe)",
+      10
+    ],
+    [
+      "relaxing at home after a busy day at Hobbs Cafe, reflecting on the preparations for the Valentine's Day party (reviewing the guest list for the Valentine's Day party)",
+      10
+    ],
+    [
+      "relaxing at home after a busy day at Hobbs Cafe, reflecting on the preparations for the Valentine's Day party (on the way to thinking about the decorations she needs to set up)",
+      0
+    ],
+    [
+      "relaxing at home after a busy day at Hobbs Cafe, reflecting on the preparations for the Valentine's Day party (conversing about Isabella Rodriguez and Giorgio Rossi discussing the decorations, music playlist, treats, drinks, quotes, and overall planning for their Valentine's Day party with a Fibonacci sequence theme.)",
+      16
+    ],
+    [
+      "relaxing at home after a busy day at Hobbs Cafe, reflecting on the preparations for the Valentine's Day party (considering the menu items for the party)",
+      10
+    ],
+    [
+      "relaxing at home after a busy day at Hobbs Cafe, reflecting on the preparations for the Valentine's Day party (planning the seating arrangement for the party)",
+      10
+    ],
+    [
+      "relaxing at home after a busy day at Hobbs Cafe, reflecting on the preparations for the Valentine's Day party (making a checklist of items to bring to the cafe tomorrow)",
+      10
     ],
     [
       "relaxing at home, enjoying a cup of tea and finalizing her plans for the Valentine's Day party tomorrow",
-      60
+      54
     ],
     [
       "relaxing at home, preparing mentally for the Valentine's Day party tomorrow and ensuring she has everything ready for her customers",
@@ -350,35 +406,100 @@
       60
     ]
   ],
-  "act_address": "the Ville:Isabella Rodriguez's apartment:main room:desk",
-  "act_start_time": "February 13, 2023, 16:07:00",
-  "act_duration": 15,
-  "act_description": "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (finalizing the playlist for the event)",
-  "act_pronunciatio": "\ud83c\udfb6\u2705",
+  "act_address": "<persona> Giorgio Rossi",
+  "act_start_time": "February 13, 2023, 19:29:20",
+  "act_duration": 16,
+  "act_description": "conversing about Isabella Rodriguez and Giorgio Rossi discussing the decorations, music playlist, treats, drinks, quotes, and overall planning for their Valentine's Day party with a Fibonacci sequence theme.",
+  "act_pronunciatio": "\ud83d\udcac",
   "act_event": [
     "Isabella Rodriguez",
-    "finalize",
-    "playlist"
+    "chat with",
+    "Giorgio Rossi"
   ],
-  "act_obj_description": "cluttered with decorations, party supplies, and notes",
-  "act_obj_pronunciatio": "\ud83c\udf89\ud83d\udcdd",
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
   "act_obj_event": [
-    "desk",
-    "desk",
-    "is"
+    null,
+    null,
+    null
   ],
-  "chatting_with": null,
-  "chat": null,
+  "chatting_with": "Giorgio Rossi",
+  "chat": [
+    [
+      "Isabella Rodriguez",
+      "Hey Giorgio! I see you're looking at some news articles. Have you finalized the decorations for our Valentine's Day party? I'm really excited about incorporating the Fibonacci sequence into everything!"
+    ],
+    [
+      "Giorgio Rossi",
+      "Hey Isabella! I\u2019ve been thinking about it a lot. I have a few ideas for decorations that highlight the Fibonacci sequence, like spiral designs and themed treats. I\u2019d love to hear your thoughts on the music playlist too. What do you think we should include?"
+    ],
+    [
+      "Isabella Rodriguez",
+      "I love the idea of spiral designs! For the music playlist, maybe we could include some romantic classics mixed with some upbeat tracks to keep the energy lively. What kind of treats did you have in mind that fit the theme?"
+    ],
+    [
+      "Giorgio Rossi",
+      "I was thinking of making some treats that follow the Fibonacci numbers in their presentation, like cupcakes with different layers representing the sequence or cookies shaped in spirals. What do you think? Any other ideas you want to add?"
+    ],
+    [
+      "Isabella Rodriguez",
+      "Those sound amazing! I love the idea of layered cupcakes and spiral cookies. We could also consider some drinks that fit the theme\u2014maybe something colorful and layered as well? What do you think?"
+    ],
+    [
+      "Giorgio Rossi",
+      "I love the idea of colorful, layered drinks! We could create something visually striking that ties into the Fibonacci theme. Maybe a fruity punch with layers representing the sequence? Also, we should think about some quotes or poems to display that relate to nature and mathematics. What do you think about that?"
+    ],
+    [
+      "Isabella Rodriguez",
+      "I love that idea! We can find some beautiful quotes about love and nature to complement the decorations. Maybe we could also create a little poetry corner where guests can share their thoughts. What do you think?"
+    ],
+    [
+      "Giorgio Rossi",
+      "That sounds like a fantastic idea! A poetry corner would add a nice personal touch to the party. We can also encourage guests to write their own poems inspired by the Fibonacci sequence. Should we brainstorm some specific quotes to include in our decorations?"
+    ],
+    [
+      "Isabella Rodriguez",
+      "Absolutely! Let's brainstorm some quotes that resonate with the themes of love and nature. We could include some from famous poets and maybe even create our own. I think it would really enhance the atmosphere. How about we set aside some time tomorrow to finalize everything before the party?"
+    ],
+    [
+      "Giorgio Rossi",
+      "That sounds perfect, Isabella! Let\u2019s meet tomorrow to finalize the quotes and decorations. I\u2019m looking forward to making this party special. What time works best for you?"
+    ],
+    [
+      "Isabella Rodriguez",
+      "How about we meet around 10am? That should give us plenty of time to finalize everything before the party. I'm really excited to see how it all comes together!"
+    ],
+    [
+      "Giorgio Rossi",
+      "10am works perfectly for me! I\u2019ll bring some of the quotes I\u2019ve found, and we can brainstorm together. I can\u2019t wait to see how everything will come together for the party!"
+    ],
+    [
+      "Isabella Rodriguez",
+      "Great! I\u2019ll also look for some quotes and ideas for the poetry corner. Let\u2019s make this party unforgettable! See you at 10am tomorrow!"
+    ],
+    [
+      "Giorgio Rossi",
+      "I'm really looking forward to it! Let's make sure to incorporate some fun elements that highlight the Fibonacci sequence throughout the cafe. See you tomorrow at 10am!"
+    ],
+    [
+      "Isabella Rodriguez",
+      "Absolutely! I\u2019ll make sure to have everything prepared for our meeting. I can\u2019t wait to see all the ideas come together! Also, should we think about any specific decorations that will emphasize the Fibonacci sequence as well?"
+    ],
+    [
+      "Giorgio Rossi",
+      "Definitely! We could create some hanging decorations that mimic the spiral pattern, maybe using paper or fabric. We could also have centerpieces on the tables that reflect the Fibonacci sequence. What do you think about that?"
+    ]
+  ],
   "chatting_with_buffer": {
-    "Sam Moore": 104,
-    "Giorgio Rossi": -358,
-    "Carlos Gomez": -64,
-    "Mei Lin": -1456,
-    "Eddy Lin": -916,
-    "Tom Moreno": -676,
-    "John Lin": -604
+    "Sam Moore": 392,
+    "Giorgio Rossi": 800,
+    "Carlos Gomez": 146,
+    "Mei Lin": -2656,
+    "Eddy Lin": -274,
+    "Tom Moreno": -1876,
+    "John Lin": -1804
   },
-  "chatting_end_time": null,
+  "chatting_end_time": "February 13, 2023, 19:46:00",
   "act_path_set": true,
   "planned_path": []
 }

@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
     55,
-    67
+    69
   ],
   "daily_plan_req": "",
   "name": "Tamara Taylor",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 192,
-  "importance_ele_n": 12,
+  "importance_trigger_curr": 105,
+  "importance_ele_n": 39,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 6:00 am",
@@ -247,12 +247,56 @@
       20
     ],
     [
-      "having dinner with her housemate, Carmen Ortiz",
-      60
+      "having dinner with her housemate, Carmen Ortiz (setting the dining table)",
+      10
     ],
     [
-      "continuing her brainstorming session or working on final edits for her children's book series",
-      180
+      "having dinner with her housemate, Carmen Ortiz (preparing the meal)",
+      20
+    ],
+    [
+      "having dinner with her housemate, Carmen Ortiz (helping Tamara with the meal preparation)",
+      10
+    ],
+    [
+      "having dinner with her housemate, Carmen Ortiz (cooking the meal)",
+      15
+    ],
+    [
+      "having dinner with her housemate, Carmen Ortiz (plating the food)",
+      5
+    ],
+    [
+      "continuing her brainstorming session or working on final edits for her children's book series (continuing her brainstorming session)",
+      30
+    ],
+    [
+      "continuing her brainstorming session or working on final edits for her children's book series (outlining the main themes and messages of the book)",
+      30
+    ],
+    [
+      "continuing her brainstorming session or working on final edits for her children's book series (developing character profiles for the main characters)",
+      30
+    ],
+    [
+      "continuing her brainstorming session or working on final edits for her children's book series (drafting the first chapter of the book)",
+      30
+    ],
+    [
+      "continuing her brainstorming session or working on final edits for her children's book series (taking a short break to refresh her mind)",
+      10
+    ],
+    [
+      "continuing her brainstorming session or working on final edits for her children's book series (reviewing the first chapter she drafted)",
+      20
+    ],
+    [
+      "continuing her brainstorming session or working on final edits for her children's book series (making edits to the first chapter based on her review)",
+      20
+    ],
+    [
+      "continuing her brainstorming session or working on final edits for her children's book series (brainstorming ideas for illustrations that will accompany the text)",
+      10
     ],
     [
       "working on final edits for her children's book series",
@@ -326,17 +370,17 @@
     ]
   ],
   "act_address": "the Ville:Tamara Taylor and Carmen Ortiz's house:common room:common room table",
-  "act_start_time": "February 13, 2023, 16:06:00",
+  "act_start_time": "February 13, 2023, 19:36:00",
   "act_duration": 30,
-  "act_description": "continuing her brainstorming session or working on final edits for her children's book series (continuing her brainstorming session)",
-  "act_pronunciatio": "\ud83d\udca1\ud83e\udd14",
+  "act_description": "continuing her brainstorming session or working on final edits for her children's book series (outlining the main themes and messages of the book)",
+  "act_pronunciatio": "\ud83d\udcda\u270d\ufe0f",
   "act_event": [
     "Tamara Taylor",
-    "continue",
-    "brainstorming session"
+    "outline",
+    "main themes and messages of the book"
   ],
-  "act_obj_description": "cluttered with notebooks, pens, and coffee cups",
-  "act_obj_pronunciatio": "\ud83d\udcda\u2615",
+  "act_obj_description": "covered with notebooks, pens, and papers related to the children's book series",
+  "act_obj_pronunciatio": "\ud83d\udcda\u270f\ufe0f",
   "act_obj_event": [
     "common room table",
     "common room table",
@@ -345,7 +389,7 @@
   "chatting_with": null,
   "chat": null,
   "chatting_with_buffer": {
-    "Carmen Ortiz": -2074
+    "Carmen Ortiz": -3274
   },
   "chatting_end_time": null,
   "act_path_set": true,

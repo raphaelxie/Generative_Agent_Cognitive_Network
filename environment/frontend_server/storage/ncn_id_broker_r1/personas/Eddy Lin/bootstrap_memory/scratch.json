@@ -1,0 +1,368 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 17:09:50",
+  "curr_tile": [
+    91,
+    67
+  ],
+  "daily_plan_req": "Eddy Lin goes to Oak Hill College to take classes starting 10am. In the afternoon, he likes to go to Hobbs Cafe to eat and study.",
+  "name": "Eddy Lin",
+  "first_name": "Eddy",
+  "last_name": "Lin",
+  "age": 19,
+  "innate": "curious, analytical, musical",
+  "learned": "Eddy Lin is a student at Oak Hill College studying music theory and composition. He loves to explore different musical styles and is always looking for ways to expand his knowledge.",
+  "currently": "Eddy Lin is working on a composition project for his college class. He is also taking classes to learn more about music theory.",
+  "lifestyle": "Eddy Lin goes to bed around 11pm, awakes up around 7amam, eats dinner around 5pm.",
+  "living_area": "the Ville:Lin family's house:Eddy Lin's bedroom",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 139,
+  "importance_ele_n": 68,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "go to classes at Oak Hill College from 10:00 am to 12:00 pm",
+    "have lunch at Hobbs Cafe at 12:30 pm",
+    "study and work on his composition project at Hobbs Cafe from 1:00 pm to 4:30 pm",
+    "head back home and eat dinner at 5:00 pm",
+    "spend some time relaxing or practicing music from 6:00 pm to 7:30 pm",
+    "work on additional music theory assignments from 7:30 pm to 9:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "completing his morning routine",
+      60
+    ],
+    [
+      "getting ready for college (on the way to on the way to getting dressed)",
+      0
+    ],
+    [
+      "getting ready for college (conversing about Eddy Lin and John Lin discussing their plans for the day, including Eddy's classes at Oak Hill College and John's interest in gathering information about local mayoral candidates while also planning to share their findings during lunch.)",
+      12
+    ],
+    [
+      "getting ready for college (conversing about Mei Lin and Eddy Lin discussing their plans for the day, including their classes in philosophy and music theory, and their excitement to share insights during lunch.)",
+      13
+    ],
+    [
+      "getting ready for college (brushing his teeth)",
+      5
+    ],
+    [
+      "getting ready for college (combing his hair)",
+      5
+    ],
+    [
+      "getting ready for college (packing his backpack with notebooks and supplies)",
+      10
+    ],
+    [
+      "getting ready for college (preparing a quick breakfast)",
+      10
+    ],
+    [
+      "getting ready for college (eating his breakfast)",
+      10
+    ],
+    [
+      "getting ready for college (checking his schedule for the day)",
+      5
+    ],
+    [
+      "attending classes at Oak Hill College (attending his first class on music theory)",
+      30
+    ],
+    [
+      "attending classes at Oak Hill College (on the way to taking notes during the lecture)",
+      0
+    ],
+    [
+      "attending classes at Oak Hill College (conversing about Carlos Gomez and Eddy Lin discussing their shared interests in poetry and music, exploring themes of nature and growth, and planning a collaboration that incorporates the Fibonacci sequence into their respective art forms.)",
+      20
+    ],
+    [
+      "attending classes at Oak Hill College (on the way to participating in class discussions)",
+      0
+    ],
+    [
+      "attending classes at Oak Hill College (conversing about Mei Lin and Eddy Lin discussing their classes on music theory and philosophy, exploring connections between ethical theories and musical examples, and planning to analyze pieces that reflect moral dilemmas and cultural perspectives during their lunch meeting.)",
+      16
+    ],
+    [
+      "attending classes at Oak Hill College (reviewing the assigned reading materials)",
+      15
+    ],
+    [
+      "attending classes at Oak Hill College (on the way to attending his second class on composition techniques)",
+      0
+    ],
+    [
+      "attending classes at Oak Hill College (conversing about Isabella Rodriguez and Eddy Lin discussing plans for a Valentine's Day party, including decorations, music choices, quotes, treats, drinks, and overall space setup.)",
+      18
+    ],
+    [
+      "having lunch at Hobbs Cafe (on the way to having lunch at Hobbs Caf)",
+      0
+    ],
+    [
+      "having lunch at Hobbs Cafe (on the way to conversing about Eddy Lin and Sam Moore discussing plans for a Valentine's Day party, including music choices, decorations, and quotes to enhance the romantic atmosphere.)",
+      17
+    ],
+    [
+      "having lunch at Hobbs Cafe (conversing about Giorgio Rossi and Eddy Lin discussing ideas for decorations and interactive elements for their upcoming Valentine's Day party, focusing on the Fibonacci sequence and nature.)",
+      16
+    ],
+    [
+      "studying and working on his composition project at Hobbs Cafe (1) Eddy is finding a suitable table at Hobbs Cafe)",
+      5
+    ],
+    [
+      "studying and working on his composition project at Hobbs Cafe (setting up his laptop and materials on the table)",
+      5
+    ],
+    [
+      "studying and working on his composition project at Hobbs Cafe (reviewing his notes from class)",
+      10
+    ],
+    [
+      "studying and working on his composition project at Hobbs Cafe (on the way to brainstorming ideas for his composition project)",
+      0
+    ],
+    [
+      "studying and working on his composition project at Hobbs Cafe (conversing about Ayesha Khan and Eddy Lin discussing Ayesha's Valentine's Day party planning, incorporating the Fibonacci sequence in decorations and interactive art, while Eddy provides creative ideas and quotes related to nature and inspiration.)",
+      17
+    ],
+    [
+      "studying and working on his composition project at Hobbs Cafe (on the way to sketching out a rough outline of his composition)",
+      0
+    ],
+    [
+      "studying and working on his composition project at Hobbs Cafe (conversing about Francisco Lopez and Eddy Lin discussing their respective creative projects, including Eddy's composition incorporating the Fibonacci sequence and Francisco's web series featuring a co-living space, while planning a collaborative Valentine's Day party with interactive music and decorations.)",
+      17
+    ],
+    [
+      "studying and working on his composition project at Hobbs Cafe (listening to reference tracks for inspiration)",
+      10
+    ],
+    [
+      "studying and working on his composition project at Hobbs Cafe (writing down musical ideas and motifs)",
+      10
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (on the way to working on the outline of his composition)",
+      0
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (conversing about Jennifer Moore and Eddy Lin collaborating on integrating art and music for an interactive Valentine's Day party, discussing ideas such as motion sensors, QR codes, quotes about art and love, a collaborative mural, and live painting.)",
+      23
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (researching different musical styles for inspiration)",
+      16
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (drafting the main theme of his composition)",
+      30
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (experimenting with chord progressions)",
+      30
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (taking a short break to refresh his mind)",
+      5
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (listening to reference tracks for ideas)",
+      15
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (jotting down notes on what he likes from the reference tracks)",
+      10
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (revising the main theme based on his notes)",
+      20
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (creating a rough draft of the first section of his composition)",
+      15
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (saving his work and organizing his files)",
+      5
+    ],
+    [
+      "working on his composition project at Hobbs Cafe (packing up his materials to prepare to leave the cafe)",
+      5
+    ],
+    [
+      "having dinner at home",
+      52
+    ],
+    [
+      "relaxing or practicing music (setting up his music space)",
+      5
+    ],
+    [
+      "relaxing or practicing music (warming up on the piano)",
+      10
+    ],
+    [
+      "relaxing or practicing music (practicing scales)",
+      10
+    ],
+    [
+      "relaxing or practicing music (reviewing his composition notes)",
+      10
+    ],
+    [
+      "relaxing or practicing music (playing through his current composition)",
+      15
+    ],
+    [
+      "relaxing or practicing music (making adjustments to his composition)",
+      10
+    ],
+    [
+      "working on additional music theory assignments",
+      60
+    ],
+    [
+      "relaxing or practicing music",
+      60
+    ],
+    [
+      "working on additional music theory assignments",
+      60
+    ],
+    [
+      "finishing up his assignments and preparing for bed",
+      60
+    ],
+    [
+      "preparing for bed and reflecting on his day",
+      60
+    ],
+    [
+      "sleeping",
+      2
+    ],
+    [
+      "sleeping",
+      14
+    ],
+    [
+      "sleeping",
+      38
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "completing his morning routine",
+      60
+    ],
+    [
+      "getting ready for college",
+      60
+    ],
+    [
+      "attending classes at Oak Hill College",
+      120
+    ],
+    [
+      "having lunch at Hobbs Cafe",
+      60
+    ],
+    [
+      "studying and working on his composition project at Hobbs Cafe",
+      60
+    ],
+    [
+      "working on his composition project at Hobbs Cafe",
+      180
+    ],
+    [
+      "having dinner at home",
+      60
+    ],
+    [
+      "relaxing or practicing music",
+      60
+    ],
+    [
+      "working on additional music theory assignments",
+      60
+    ],
+    [
+      "relaxing or practicing music",
+      60
+    ],
+    [
+      "working on additional music theory assignments",
+      60
+    ],
+    [
+      "finishing up his assignments and preparing for bed",
+      60
+    ],
+    [
+      "preparing for bed and reflecting on his day",
+      60
+    ]
+  ],
+  "act_address": "the Ville:Lin family's house:common room:common room table",
+  "act_start_time": "February 13, 2023, 16:32:00",
+  "act_duration": 52,
+  "act_description": "having dinner at home",
+  "act_pronunciatio": "\ud83c\udf7d\ufe0f\ud83c\udfe0",
+  "act_event": [
+    "Eddy Lin",
+    "have",
+    "dinner"
+  ],
+  "act_obj_description": "set for dinner with plates, utensils, and food arranged on it",
+  "act_obj_pronunciatio": "\ud83c\udf7d\ufe0f\ud83c\udf74",
+  "act_obj_event": [
+    "common room table",
+    "set",
+    "dinner"
+  ],
+  "chatting_with": null,
+  "chat": null,
+  "chatting_with_buffer": {
+    "Mei Lin": -1420,
+    "John Lin": -2242,
+    "Carlos Gomez": -1546,
+    "Isabella Rodriguez": -1216,
+    "Sam Moore": -1114,
+    "Giorgio Rossi": -1012,
+    "Ayesha Khan": -742,
+    "Francisco Lopez": -622,
+    "Jennifer Moore": -376
+  },
+  "chatting_end_time": null,
+  "act_path_set": true,
+  "planned_path": []
+}

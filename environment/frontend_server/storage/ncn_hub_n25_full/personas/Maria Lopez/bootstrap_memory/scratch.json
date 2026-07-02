@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    123,
-    57
+    105,
+    32
   ],
   "daily_plan_req": "Maria Lopez spends at least 6 hours a day Twitch streaming or gaming.",
   "name": "Maria Lopez",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 240,
-  "importance_ele_n": 8,
+  "importance_trigger_curr": 92,
+  "importance_ele_n": 45,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 10:00 am",
@@ -103,12 +103,96 @@
       120
     ],
     [
-      "having dinner at Hobbs Cafe",
-      120
+      "having dinner at Hobbs Cafe (ordering her meal)",
+      10
     ],
     [
-      "relaxing and unwinding with some light reading or watching a show",
-      60
+      "having dinner at Hobbs Cafe (on the way to waiting for her meal to arrive)",
+      0
+    ],
+    [
+      "having dinner at Hobbs Cafe (conversing about Maria Lopez and Wolfgang Schulz discussing their favorite dishes to cook, cooking techniques, and their enjoyment of experimenting with different recipes.)",
+      13
+    ],
+    [
+      "having dinner at Hobbs Cafe (enjoying her appetizer)",
+      15
+    ],
+    [
+      "having dinner at Hobbs Cafe (on the way to engaging in conversation with friends at the table)",
+      0
+    ],
+    [
+      "having dinner at Hobbs Cafe (conversing about Maria Lopez and Ayesha Khan discussing thesis preparation, Twitch streaming ideas, and strategies for promoting a new physics-themed gaming stream.)",
+      15
+    ],
+    [
+      "having dinner at Hobbs Cafe (receiving her main course)",
+      5
+    ],
+    [
+      "having dinner at Hobbs Cafe (enjoying her main course)",
+      20
+    ],
+    [
+      "having dinner at Hobbs Cafe (on the way to discussing her day with her friends)",
+      0
+    ],
+    [
+      "having dinner at Hobbs Cafe (conversing about Giorgio Rossi and Maria Lopez discussing their plans for Valentine's Day, including Giorgio's decorations inspired by the Fibonacci sequence and Maria's gaming stream featuring physics-themed games, as well as brainstorming ideas for integrating decorations into her stream.)",
+      19
+    ],
+    [
+      "having dinner at Hobbs Cafe (on the way to finishing her meal and asking for dessert options)",
+      0
+    ],
+    [
+      "having dinner at Hobbs Cafe (conversing about Maria Lopez and Eddy Lin discussing their collaborative Valentine's Day project that includes a 'Fibonacci Fizz' cocktail and an interactive stream combining music and physics themes.)",
+      20
+    ],
+    [
+      "having dinner at Hobbs Cafe (ordering dessert)",
+      3
+    ],
+    [
+      "relaxing and unwinding with some light reading or watching a show (settling into a comfortable spot with her book or show)",
+      5
+    ],
+    [
+      "relaxing and unwinding with some light reading or watching a show (choosing a book or show to enjoy)",
+      5
+    ],
+    [
+      "relaxing and unwinding with some light reading or watching a show (reading the first few pages of her book or watching the opening scenes of the show)",
+      5
+    ],
+    [
+      "relaxing and unwinding with some light reading or watching a show (getting a snack or drink to enjoy while relaxing)",
+      5
+    ],
+    [
+      "relaxing and unwinding with some light reading or watching a show (continuing to read or watch, getting immersed in the story)",
+      10
+    ],
+    [
+      "relaxing and unwinding with some light reading or watching a show (taking a moment to reflect on what she\u2019s read or watched so far)",
+      5
+    ],
+    [
+      "relaxing and unwinding with some light reading or watching a show (adjusting her seating or lighting for better comfort)",
+      5
+    ],
+    [
+      "relaxing and unwinding with some light reading or watching a show (continuing to read or watch, enjoying the experience)",
+      10
+    ],
+    [
+      "relaxing and unwinding with some light reading or watching a show (making a note of any interesting ideas or themes she wants to remember)",
+      5
+    ],
+    [
+      "relaxing and unwinding with some light reading or watching a show (finishing up the last few pages of her book or the final scenes of the show)",
+      5
     ],
     [
       "engaging with her Twitch community and planning upcoming streams",
@@ -173,27 +257,97 @@
       60
     ]
   ],
-  "act_address": "the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
-  "act_start_time": "February 13, 2023, 08:00:00",
-  "act_duration": 600,
-  "act_description": "sleeping",
-  "act_pronunciatio": "\ud83d\ude34\ud83d\udca4",
+  "act_address": "<persona> Eddy Lin",
+  "act_start_time": "February 13, 2023, 19:33:40",
+  "act_duration": 20,
+  "act_description": "conversing about Maria Lopez and Eddy Lin discussing their collaborative Valentine's Day project that includes a 'Fibonacci Fizz' cocktail and an interactive stream combining music and physics themes.",
+  "act_pronunciatio": "\ud83d\udcac",
   "act_event": [
     "Maria Lopez",
-    "is",
-    "sleep"
+    "chat with",
+    "Eddy Lin"
   ],
-  "act_obj_description": "being used",
-  "act_obj_pronunciatio": "\ud83d\udd27\ud83d\udee0\ufe0f",
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
   "act_obj_event": [
-    "bed",
-    "be",
-    "used"
+    null,
+    null,
+    null
   ],
-  "chatting_with": null,
-  "chat": null,
-  "chatting_with_buffer": {},
-  "chatting_end_time": null,
+  "chatting_with": "Eddy Lin",
+  "chat": [
+    [
+      "Maria Lopez",
+      "Hey Eddy! I saw you working on your music theory assignments. How's that going? By the way, I heard you\u2019re planning something for Valentine's Day with Klaus. What\u2019s the idea for the 'Fibonacci Fizz' cocktail?"
+    ],
+    [
+      "Eddy Lin",
+      "Hey Maria! It's going well, just trying to make sure I understand the concepts thoroughly. For the 'Fibonacci Fizz' cocktail, Klaus and I are looking at using local ingredients and creating a unique presentation that ties into the Fibonacci sequence. We want to set up tasting stations where people can explore the flavors and maybe even have some interactive activities related to the theme. What do you think?"
+    ],
+    [
+      "Maria Lopez",
+      "That sounds amazing! I love the idea of tasting stations and making it interactive. Maybe I could incorporate some physics elements into my stream for Valentine's Day as well. Do you have any thoughts on how we could combine our ideas?"
+    ],
+    [
+      "Eddy Lin",
+      "That would be awesome, Maria! We could create a segment where I play some music inspired by the Fibonacci sequence while you explain the physics concepts behind it. Maybe even have some visual elements that tie both our themes together. What do you think?"
+    ],
+    [
+      "Maria Lopez",
+      "I love that idea! We could even have the viewers participate by suggesting physics concepts or musical themes during the stream. It would create a really engaging experience! Let's brainstorm more on how to make it visually appealing too. When do you think we should start planning together?"
+    ],
+    [
+      "Eddy Lin",
+      "I think we should start planning soon, maybe this week? We can meet up at Hobbs Cafe and brainstorm some visuals together. I can bring my sketchbook, and we can sketch out ideas for the stream and the tasting stations. How does that sound?"
+    ],
+    [
+      "Maria Lopez",
+      "That sounds perfect, Eddy! How about we meet at Hobbs Cafe on Wednesday afternoon? I can bring some ideas for the visuals too. I'm really excited to see what we come up with together!"
+    ],
+    [
+      "Eddy Lin",
+      "Wednesday works for me! Let's say around 1:00 pm? I\u2019m looking forward to seeing your ideas. This is going to be a great collaboration!"
+    ],
+    [
+      "Maria Lopez",
+      "Great! I'll see you at 1:00 pm on Wednesday at Hobbs Cafe. I can't wait to start putting our ideas together. This is going to be so much fun! Do you have any specific visuals in mind already?"
+    ],
+    [
+      "Eddy Lin",
+      "I have a few ideas floating around! I was thinking about using patterns inspired by the Fibonacci sequence, like spirals or golden ratios, and maybe incorporating those into the visuals for both the stream and the tasting stations. We could also think about colors that represent nature, like greens and browns, to tie everything together. What do you think? Do you have any specific visuals in mind already?"
+    ],
+    [
+      "Maria Lopez",
+      "I love those ideas, especially the colors inspired by nature! We could also think about using some physics-themed elements like graphs or diagrams that show the Fibonacci sequence in action. That way, we can really connect our themes visually. I'm excited to see how it all comes together! Do you think we should also plan some interactive elements for the viewers during the tasting stations?"
+    ],
+    [
+      "Eddy Lin",
+      "Absolutely! We could have the viewers vote on their favorite flavor combinations or even suggest new ingredients for the 'Fibonacci Fizz'. Maybe we can also set up a live Q&A session where they can ask questions about the Fibonacci sequence and its relation to music and physics. What do you think?"
+    ],
+    [
+      "Maria Lopez",
+      "I love the idea of a live Q&A session! It would make the stream much more engaging. We could also encourage viewers to share their own interpretations of the Fibonacci sequence in music and physics. Let's definitely include that in our planning. I'm really excited about how this is all shaping up! Is there anything else you think we should consider for the collaboration?"
+    ],
+    [
+      "Eddy Lin",
+      "I think we should also consider some promotional strategies for our collaboration! Maybe we can create a teaser video or some social media posts to generate excitement ahead of the stream. What do you think about that?"
+    ],
+    [
+      "Maria Lopez",
+      "That's a fantastic idea, Eddy! A teaser video would definitely help build excitement. We could highlight some of the key elements we\u2019ll be discussing and maybe even include some sneak peeks of the visuals we're planning. Let's make a plan for that during our meeting on Wednesday. I can't wait to get started on everything!"
+    ],
+    [
+      "Eddy Lin",
+      "Sounds great, Maria! I\u2019m looking forward to our meeting on Wednesday. Let\u2019s make sure to cover everything from visuals to promotional strategies. I think this collaboration is going to turn out fantastic! Do you have anything specific you want to prepare or bring for our brainstorming session?"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Wolfgang Schulz": 290,
+    "Ayesha Khan": 464,
+    "Giorgio Rossi": 734,
+    "Eddy Lin": 800
+  },
+  "chatting_end_time": "February 13, 2023, 19:54:00",
   "act_path_set": true,
   "planned_path": []
 }

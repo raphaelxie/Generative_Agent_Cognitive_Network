@@ -1,0 +1,480 @@
+{
+  "vision_r": 8,
+  "att_bandwidth": 8,
+  "retention": 8,
+  "curr_time": "February 13, 2023, 17:09:50",
+  "curr_tile": [
+    59,
+    25
+  ],
+  "daily_plan_req": "",
+  "name": "Carlos Gomez",
+  "first_name": "Carlos",
+  "last_name": "Gomez",
+  "age": 32,
+  "innate": "loud, rude, toxic",
+  "learned": "Carlos Gomez is a poet who loves to explore his inner thoughts and feelings. He is always looking for new ways to express himself.",
+  "currently": "Carlos Gomez is working on a collection of poetry that explores the beauty of the natural world. He is also attending creative writing workshops to hone his skills.",
+  "lifestyle": "Carlos Gomez goes to bed around 10pm, awakes up around 7am, eats dinner around 5pm.",
+  "living_area": "the Ville:Carlos Gomez's apartment:main room",
+  "concept_forget": 100,
+  "daily_reflection_time": 180,
+  "daily_reflection_size": 5,
+  "overlap_reflect_th": 4,
+  "kw_strg_event_reflect_th": 10,
+  "kw_strg_thought_reflect_th": 9,
+  "recency_w": 1,
+  "relevance_w": 1,
+  "importance_w": 1,
+  "recency_decay": 0.995,
+  "importance_trigger_max": 250,
+  "importance_trigger_curr": 4,
+  "importance_ele_n": 82,
+  "thought_count": 5,
+  "daily_req": [
+    "wake up and complete the morning routine at 8:00 am",
+    "spend time writing poetry from 8:30 am to 10:30 am",
+    "attend a creative writing workshop from 11:00 am to 1:00 pm",
+    "have lunch at 1:30 pm",
+    "take a nature walk for inspiration from 2:30 pm to 4:00 pm",
+    "work on poetry revisions from 4:30 pm to 5:30 pm",
+    "have dinner at 5:00 pm",
+    "relax with some reading or watching TV from 6:00 pm to 8:00 pm"
+  ],
+  "f_daily_schedule": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "writing poetry (writing down his thoughts and feelings in a journal)",
+      20
+    ],
+    [
+      "writing poetry (brainstorming themes for his poetry collection)",
+      15
+    ],
+    [
+      "writing poetry (on the way to drafting a poem based on a theme he chose)",
+      0
+    ],
+    [
+      "writing poetry (conversing about Isabella and Carlos discussing poetry themes, planning a Valentine's Day party at the cafe, and collaborating on decorations and quotes inspired by the Fibonacci sequence.)",
+      16
+    ],
+    [
+      "writing poetry (revising the poem he just drafted)",
+      20
+    ],
+    [
+      "writing poetry (reading poetry from other authors for inspiration)",
+      35
+    ],
+    [
+      "attending a creative writing workshop (on the way to attending the workshop introduction)",
+      0
+    ],
+    [
+      "attending a creative writing workshop (conversing about Carlos Gomez and Eddy Lin discussing their shared interests in poetry and music, exploring themes of nature and growth, and planning a collaboration that incorporates the Fibonacci sequence into their respective art forms.)",
+      20
+    ],
+    [
+      "attending a creative writing workshop (participating in a group discussion about poetry)",
+      5
+    ],
+    [
+      "attending a creative writing workshop (sharing his own poetry with the group)",
+      10
+    ],
+    [
+      "attending a creative writing workshop (receiving feedback from peers on his poetry)",
+      10
+    ],
+    [
+      "attending a creative writing workshop (on the way to taking notes on techniques discussed in the workshop)",
+      0
+    ],
+    [
+      "attending a creative writing workshop (conversing about Giorgio Rossi and Carlos Gomez collaborating on incorporating themes of nature and the Fibonacci sequence into Valentine's Day decorations and poetry, including creating an interactive element for guests to engage with.)",
+      21
+    ],
+    [
+      "attending a creative writing workshop (asking questions to the workshop leader)",
+      5
+    ],
+    [
+      "having lunch (on the way to preparing his lunch)",
+      0
+    ],
+    [
+      "having lunch (conversing about Arthur Burton and Carlos Gomez collaborating on a Valentine's Day cocktail inspired by the Fibonacci sequence, discussing ingredients, presentation, marketing strategies, and ways to engage customers at the event.)",
+      22
+    ],
+    [
+      "having lunch (setting the table)",
+      5
+    ],
+    [
+      "having lunch (eating his lunch)",
+      30
+    ],
+    [
+      "having lunch (on the way to reflecting on his poetry while eating)",
+      0
+    ],
+    [
+      "having lunch (conversing about Rajiv Patel and Carlos Gomez discussing their collaboration on a Valentine's Day cocktail called 'Fibonacci Fizz' inspired by the Fibonacci sequence, and how Rajiv can incorporate this concept into his upcoming solo art show.)",
+      17
+    ],
+    [
+      "having lunch (cleaning up after lunch)",
+      10
+    ],
+    [
+      "having lunch (washing the dishes)",
+      15
+    ],
+    [
+      "having lunch (on the way to drying the dishes)",
+      0
+    ],
+    [
+      "having lunch (conversing about Carlos Gomez and Sam Moore discussing ideas for their Valentine's Day party decorations, incorporating the Fibonacci sequence, poetry, interactive elements, and live music.)",
+      16
+    ],
+    [
+      "having lunch (on the way to putting the dishes away)",
+      0
+    ],
+    [
+      "having lunch (conversing about Isabella Rodriguez and Carlos Gomez discussing decorations, poetry themes, and interactive elements for their upcoming Valentine's Day party.)",
+      12
+    ],
+    [
+      "taking a nature walk for inspiration",
+      42
+    ],
+    [
+      "working on poetry revisions (on the way to on the way to working on revising the first poem in his collection)",
+      0
+    ],
+    [
+      "working on poetry revisions (conversing about Hailey Johnson and Carlos Gomez discussing their artistic projects and the possibility of collaborating by blending poetry with real-life stories from local businesses.)",
+      13
+    ],
+    [
+      "working on poetry revisions (on the way to conversing about Carlos Gomez and Mei Lin discussing the planning of community engagement workshops that integrate poetry, social issues like environmental sustainability and social justice, and interactive elements to foster participant engagement.)",
+      0
+    ],
+    [
+      "working on poetry revisions (conversing about Carlos Gomez and Eddy Lin discussing their collaborative project that incorporates poetry, music, the Fibonacci sequence, and interactive elements to create a dynamic performance experience.)",
+      17
+    ],
+    [
+      "working on poetry revisions (on the way to reading the poem aloud to hear how it sounds)",
+      0
+    ],
+    [
+      "working on poetry revisions (conversing about Giorgio Rossi and Carlos Gomez discussing their Valentine's Day project, focusing on incorporating the Fibonacci sequence into poetry and interactive spiral art, along with planning visual elements and guest engagement strategies.)",
+      21
+    ],
+    [
+      "working on poetry revisions (making notes on areas that need improvement)",
+      15
+    ],
+    [
+      "working on poetry revisions (on the way to brainstorming new imagery and metaphors to enhance the poem)",
+      0
+    ],
+    [
+      "working on poetry revisions (conversing about Tom Moreno and Carlos Gomez discussing their collaborative Valentine's Day party planning, incorporating the Fibonacci sequence, interactive art, poetry, and social media promotion.)",
+      16
+    ],
+    [
+      "working on poetry revisions (on the way to rewriting sections of the poem based on his notes)",
+      0
+    ],
+    [
+      "working on poetry revisions (conversing about Klaus Mueller and Carlos Gomez discussing their plans for a Valentine's Day party, focusing on incorporating the Fibonacci sequence into decorations, interactive elements, and poetry themes.)",
+      18
+    ],
+    [
+      "working on poetry revisions (on the way to reviewing the revised poem for flow and coherence)",
+      0
+    ],
+    [
+      "working on poetry revisions (conversing about Carlos Gomez and Ryan Park discussing interactive technological elements for their Valentine's Day project, including AR features and a poetry submission platform.)",
+      18
+    ],
+    [
+      "working on poetry revisions (on the way to making final edits to the poem)",
+      0
+    ],
+    [
+      "working on poetry revisions (on the way to conversing about Carlos Gomez and Sam Moore discussing ideas for a Valentine's Day party that incorporates the Fibonacci sequence through interactive art and poetry activities, including a competition, local artist judges, eco-friendly materials, live music, and social media promotion to engage the community.)",
+      20
+    ],
+    [
+      "working on poetry revisions (conversing about Arthur Burton and Carlos Gomez planning a Valentine's Day cocktail event that incorporates poetry, eco-friendly materials, community engagement, and a special cocktail tasting session.)",
+      21
+    ],
+    [
+      "having dinner",
+      23
+    ],
+    [
+      "relaxing with some reading or watching TV (settling into his favorite chair)",
+      5
+    ],
+    [
+      "relaxing with some reading or watching TV (choosing a book to read or a show to watch)",
+      10
+    ],
+    [
+      "relaxing with some reading or watching TV (reading the first chapter of the book or watching the opening scenes of the show)",
+      15
+    ],
+    [
+      "relaxing with some reading or watching TV (taking notes on thoughts or feelings about what he\u2019s reading or watching)",
+      10
+    ],
+    [
+      "relaxing with some reading or watching TV (continuing to read or watch, getting immersed in the story)",
+      20
+    ],
+    [
+      "relaxing with some reading or watching TV (pausing to reflect on a particularly impactful moment)",
+      5
+    ],
+    [
+      "relaxing with some reading or watching TV (resuming reading or watching, focusing on the next section)",
+      15
+    ],
+    [
+      "relaxing with some reading or watching TV (grabbing a snack or drink to enjoy while relaxing)",
+      10
+    ],
+    [
+      "relaxing with some reading or watching TV (discussing the book or show with a friend over the phone or messaging)",
+      15
+    ],
+    [
+      "relaxing with some reading or watching TV (returning to his reading or watching, feeling re-energized)",
+      20
+    ],
+    [
+      "relaxing with some reading or watching TV (taking a moment to appreciate the writing style or cinematography)",
+      5
+    ],
+    [
+      "relaxing with some reading or watching TV (finishing the chapter or episode, feeling satisfied)",
+      15
+    ],
+    [
+      "relaxing with some reading or watching TV (jotting down ideas for his poetry inspired by what he just read or watched)",
+      10
+    ],
+    [
+      "relaxing with some reading or watching TV (reflecting on how the themes relate to his own poetry collection)",
+      10
+    ],
+    [
+      "relaxing with some reading or watching TV (deciding whether to continue with another chapter or episode)",
+      5
+    ],
+    [
+      "relaxing with some reading or watching TV (wrapping up his reading or watching session, feeling relaxed)",
+      5
+    ],
+    [
+      "relaxing with some reading or watching TV (putting the book back on the shelf or turning off the TV)",
+      5
+    ],
+    [
+      "sleeping",
+      60
+    ],
+    [
+      "getting ready for bed",
+      60
+    ],
+    [
+      "sleeping",
+      60
+    ],
+    [
+      "sleeping",
+      14
+    ],
+    [
+      "sleeping",
+      11
+    ],
+    [
+      "sleeping",
+      2
+    ],
+    [
+      "sleeping",
+      4
+    ],
+    [
+      "sleeping",
+      2
+    ]
+  ],
+  "f_daily_schedule_hourly_org": [
+    [
+      "sleeping",
+      480
+    ],
+    [
+      "waking up and completing his morning routine",
+      60
+    ],
+    [
+      "writing poetry",
+      120
+    ],
+    [
+      "attending a creative writing workshop",
+      60
+    ],
+    [
+      "having lunch",
+      120
+    ],
+    [
+      "taking a nature walk for inspiration",
+      60
+    ],
+    [
+      "working on poetry revisions",
+      120
+    ],
+    [
+      "having dinner",
+      60
+    ],
+    [
+      "relaxing with some reading or watching TV",
+      180
+    ],
+    [
+      "sleeping",
+      60
+    ],
+    [
+      "getting ready for bed",
+      60
+    ],
+    [
+      "sleeping",
+      60
+    ]
+  ],
+  "act_address": "<persona> Arthur Burton",
+  "act_start_time": "February 13, 2023, 16:58:40",
+  "act_duration": 21,
+  "act_description": "conversing about Arthur Burton and Carlos Gomez planning a Valentine's Day cocktail event that incorporates poetry, eco-friendly materials, community engagement, and a special cocktail tasting session.",
+  "act_pronunciatio": "\ud83d\udcac",
+  "act_event": [
+    "Carlos Gomez",
+    "chat with",
+    "Arthur Burton"
+  ],
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
+  "act_obj_event": [
+    null,
+    null,
+    null
+  ],
+  "chatting_with": "Arthur Burton",
+  "chat": [
+    [
+      "Arthur Burton",
+      "Hey Carlos! I was just thinking about our Valentine's Day cocktail plans. How's the poetry coming along? Have you made any revisions that we could incorporate into the event?"
+    ],
+    [
+      "Carlos Gomez",
+      "Hey Arthur! The poetry is coming along nicely. I've been revising some pieces that reflect the themes of nature and growth, which align perfectly with our Fibonacci concept. I think we could incorporate some of those lines into the cocktail presentation or even as part of the interactive elements at the party. What do you think?"
+    ],
+    [
+      "Arthur Burton",
+      "I love that idea! We could even create a special menu that features your poetry alongside the cocktails. It would add a unique touch to the experience. Do you have any specific lines in mind that you think would fit well?"
+    ],
+    [
+      "Carlos Gomez",
+      "I have a few lines that emphasize the beauty of nature, like 'In every leaf, a whisper of life' and 'Growth spirals, a dance of time.' I think these could resonate well with the theme of our cocktail. We could present them on the menu or even as part of a spoken word moment during the event. What do you think?"
+    ],
+    [
+      "Arthur Burton",
+      "Those lines are beautiful! Presenting them on the menu sounds perfect, and I love the idea of a spoken word moment. Let\u2019s brainstorm how we can set that up during the event. Maybe we could even have a small stage for you to perform on? It would really bring the whole evening to life!"
+    ],
+    [
+      "Carlos Gomez",
+      "A small stage sounds fantastic! I can prepare a short set to perform those lines and maybe some additional pieces that fit the theme. We could even invite guests to share their own poetry during the event. It would create a lovely community vibe. What do you think about that?"
+    ],
+    [
+      "Arthur Burton",
+      "I think inviting guests to share their own poetry is a brilliant idea! It will definitely enhance the community aspect of the event. Let\u2019s also think about how we can promote this on social media to attract more people. We could create a hashtag for the event. What do you think?"
+    ],
+    [
+      "Carlos Gomez",
+      "I love the idea of a hashtag! We could use something like #FibonacciValentine or #SpiralsOfLove to tie it all together. It would be great for promoting the event and encouraging people to share their experiences. We should also consider reaching out to local artists and poets to help spread the word. What do you think about that?"
+    ],
+    [
+      "Arthur Burton",
+      "That sounds like a great plan! I can reach out to some local artists and poets I know, and we can brainstorm how to integrate their contributions. Let's also think about how we can incorporate some eco-friendly materials into our event decorations to align with the community vibe. I\u2019m excited about how this is shaping up!"
+    ],
+    [
+      "Carlos Gomez",
+      "Absolutely, using eco-friendly materials would resonate well with our theme and the community. We could look for local suppliers who focus on sustainability. Do you have any specific ideas in mind for the decorations?"
+    ],
+    [
+      "Arthur Burton",
+      "I was thinking we could use recycled paper for the menus and maybe some potted plants as centerpieces, which people could take home. It would be a nice way to promote sustainability and add to the natural theme. What do you think?"
+    ],
+    [
+      "Carlos Gomez",
+      "I love those ideas, especially the potted plants as centerpieces! It gives guests something to take home and enjoy long after the event. We could also consider adding some natural elements like stones or twigs to the decorations to enhance the theme. Let's start compiling a list of potential suppliers and artists we want to reach out to. I'm excited to see how this all comes together!"
+    ],
+    [
+      "Arthur Burton",
+      "Great! I\u2019ll start drafting a list of potential suppliers and artists tonight. We can finalize it when we meet on Wednesday. In the meantime, let\u2019s think about how we can create a cozy atmosphere for the event with some soft lighting and music that complements the theme. What do you think?"
+    ],
+    [
+      "Carlos Gomez",
+      "I think soft lighting would create a beautiful ambiance! We could use string lights and some candles to give it a warm feel. As for music, maybe we could curate a playlist of nature-inspired melodies or even invite a local musician to perform live? It would add to the overall experience. Let\u2019s brainstorm some options for that."
+    ],
+    [
+      "Arthur Burton",
+      "That sounds perfect! I love the idea of inviting a local musician; it would really enhance the atmosphere. I\u2019ll look into some options and see who might be available. Let's also think about how we can incorporate the cocktail tasting into the evening's activities. Maybe we can have a special tasting session for a select few guests? What do you think?"
+    ],
+    [
+      "Carlos Gomez",
+      "I think a special tasting session would be a fantastic idea! We could limit it to a small group to create an intimate experience, and maybe pair it with some of the poetry readings. It would be a unique way to engage guests and get them excited about the cocktails. Let's decide on how many guests we want to invite for that tasting. What do you think?"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Isabella Rodriguez": -364,
+    "Eddy Lin": 104,
+    "Giorgio Rossi": 236,
+    "Arthur Burton": 800,
+    "Rajiv Patel": -802,
+    "Sam Moore": 704,
+    "Mei Lin": -172,
+    "Hailey Johnson": -52,
+    "Tom Moreno": 338,
+    "Klaus Mueller": 452,
+    "Ryan Park": 572
+  },
+  "chatting_end_time": "February 13, 2023, 17:20:00",
+  "act_path_set": true,
+  "planned_path": []
+}

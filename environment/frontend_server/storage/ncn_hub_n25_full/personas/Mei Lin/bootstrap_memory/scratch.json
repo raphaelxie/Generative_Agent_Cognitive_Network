@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    118,
-    31
+    88,
+    69
   ],
   "daily_plan_req": "Mei Lin goes to Oak Hill college to teach starting 10 am, teaches until 2pm, and returns home to work.",
   "name": "Mei Lin",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 128,
-  "importance_ele_n": 31,
+  "importance_trigger_curr": 51,
+  "importance_ele_n": 51,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 8:00 am",
@@ -263,12 +263,68 @@
       5
     ],
     [
-      "helping Eddy and her other child with homework",
-      60
+      "helping Eddy and her other child with homework (helping Eddy with his math homework)",
+      20
     ],
     [
-      "spending quality time with her family",
-      180
+      "helping Eddy and her other child with homework (on the way to reviewing Eddy's completed math problems for accuracy)",
+      0
+    ],
+    [
+      "helping Eddy and her other child with homework (conversing about Eddy Lin and Mei Lin discussing ideas to create an interactive music composition for a Valentine's Day party, including using motion sensors, live demonstrations, sound creation stations, a point system for audience participation, poetry integration, and nature-themed decorations.)",
+      20
+    ],
+    [
+      "helping Eddy and her other child with homework (explaining a math concept that Eddy finds challenging)",
+      10
+    ],
+    [
+      "helping Eddy and her other child with homework (checking in with her other child about their homework progress)",
+      5
+    ],
+    [
+      "helping Eddy and her other child with homework (helping her other child with their reading assignment)",
+      15
+    ],
+    [
+      "spending quality time with her family (spending time with her family in the living room)",
+      5
+    ],
+    [
+      "spending quality time with her family (playing a board game with her kids)",
+      30
+    ],
+    [
+      "spending quality time with her family (helping Eddy with a puzzle)",
+      20
+    ],
+    [
+      "spending quality time with her family (preparing snacks for the family)",
+      15
+    ],
+    [
+      "spending quality time with her family (watching a family movie together)",
+      30
+    ],
+    [
+      "spending quality time with her family (discussing the movie with her family)",
+      15
+    ],
+    [
+      "spending quality time with her family (helping her kids with a fun art project)",
+      20
+    ],
+    [
+      "spending quality time with her family (reading a story to her children)",
+      15
+    ],
+    [
+      "spending quality time with her family (reflecting on the day with her family)",
+      10
+    ],
+    [
+      "spending quality time with her family (preparing the kids for bedtime)",
+      10
     ],
     [
       "relaxing and unwinding after a long day",
@@ -337,102 +393,37 @@
       60
     ]
   ],
-  "act_address": "<persona> Ayesha Khan",
-  "act_start_time": "February 13, 2023, 16:04:20",
-  "act_duration": 20,
-  "act_description": "conversing about Ayesha Khan and Mei Lin discussing their research for Klaus\u2019s paper and planning a Valentine's Day party with nature-themed quotes, decorations, and interactive activities.",
-  "act_pronunciatio": "\ud83d\udcac",
+  "act_address": "the Ville:Lin family's house:common room:common room table",
+  "act_start_time": "February 13, 2023, 19:12:00",
+  "act_duration": 30,
+  "act_description": "spending quality time with her family (playing a board game with her kids)",
+  "act_pronunciatio": "\ud83c\udfb2\ud83d\udc67\ud83d\udc66",
   "act_event": [
     "Mei Lin",
-    "chat with",
-    "Ayesha Khan"
+    "play",
+    "board game"
   ],
-  "act_obj_description": null,
-  "act_obj_pronunciatio": null,
+  "act_obj_description": "covered with a board game, snacks, and drinks, with family members gathered around it",
+  "act_obj_pronunciatio": "\ud83c\udfb2\ud83c\udf55",
   "act_obj_event": [
-    null,
-    null,
-    null
+    "common room table",
+    "common room table",
+    "is"
   ],
-  "chatting_with": "Ayesha Khan",
-  "chat": [
-    [
-      "Ayesha Khan",
-      "Hey Mei! I just wanted to check in on your research for Klaus\u2019s paper. How\u2019s it going? I'm also excited about our Valentine's Day party planning. Have you thought about any quotes or ideas for decorations yet?"
-    ],
-    [
-      "Mei Lin",
-      "Hi Ayesha! Thanks for checking in! My research is coming along, but I\u2019m still finalizing some details with Klaus. As for the Valentine's Day party, I\u2019ve been thinking about using quotes that reflect nature and creativity, perhaps something that ties in with the Fibonacci sequence. Do you have any specific ideas or favorites?"
-    ],
-    [
-      "Ayesha Khan",
-      "I love that idea! One quote that comes to mind is from Albert Einstein: 'Look deep into nature, and then you will understand everything better.' It really captures the essence of nature's beauty. Do you think we could incorporate that into our decorations?"
-    ],
-    [
-      "Mei Lin",
-      "That's a beautiful quote, Ayesha! I think it would fit perfectly with our theme. We could create some wall art featuring it, maybe using natural elements to frame it. What do you think about that approach? Also, are there any other quotes we should consider?"
-    ],
-    [
-      "Ayesha Khan",
-      "I think framing it with natural elements sounds amazing! We could also consider another quote by John Muir: 'In every walk with nature, one receives far more than he seeks.' It aligns well with the theme and could inspire creativity in our decorations. What do you think?"
-    ],
-    [
-      "Mei Lin",
-      "I love the John Muir quote as well! It really encapsulates the spirit of our theme. We could use it alongside the Einstein quote in different areas of the venue to create a cohesive look. Maybe we can even design some interactive elements around these quotes! Do you have any thoughts on that?"
-    ],
-    [
-      "Ayesha Khan",
-      "I love the idea of designing interactive elements around the quotes! We could set up a space where guests can share their own thoughts about nature and creativity, maybe even create a collaborative art piece. What do you think about that?"
-    ],
-    [
-      "Mei Lin",
-      "That sounds like a fantastic idea, Ayesha! A collaborative art piece would really engage everyone and bring our theme to life. We could provide different materials for guests to use and let their creativity flow. Should we brainstorm some specific activities we could include?"
-    ],
-    [
-      "Ayesha Khan",
-      "Absolutely! We could have a station for painting or drawing inspired by nature, and maybe another for creating small nature-themed crafts. We could even have a spot where guests can write their thoughts on sticky notes and place them on a board. What do you think about that?"
-    ],
-    [
-      "Mei Lin",
-      "Those are all wonderful ideas, Ayesha! I especially love the idea of a station for painting or drawing inspired by nature. It would be a great way to express creativity. Let's jot down a list of materials we might need for each station and maybe even think about how we can promote this collaborative aspect to our guests. Do you have any thoughts on that?"
-    ],
-    [
-      "Ayesha Khan",
-      "That sounds great! For the painting station, we could use watercolor paints, canvases, and brushes. For the craft station, maybe we could gather some natural materials like twigs, leaves, and flowers for decoration. As for promoting the collaborative aspect, we could create a fun social media post inviting guests to share their own nature-inspired creations. What do you think?"
-    ],
-    [
-      "Mei Lin",
-      "I love the idea of using natural materials for the craft station! It will really tie everything together. And promoting it on social media sounds like a fantastic way to engage our guests. We should also think about creating a hashtag for the event so that we can easily share everyone's contributions. What do you think?"
-    ],
-    [
-      "Ayesha Khan",
-      "Creating a unique hashtag is a great idea! How about something like #NatureInspiredValentine? It could really capture the essence of our theme. I\u2019m excited to see what everyone creates! Is there anything else we should discuss for the party?"
-    ],
-    [
-      "Mei Lin",
-      "I love the hashtag #NatureInspiredValentine! It's catchy and perfectly fits our theme. One more thing we might want to consider is how we'll set up the space for the event. Do you have any ideas on the layout or any other logistical details we should address?"
-    ],
-    [
-      "Ayesha Khan",
-      "That's a good point, Mei! For the layout, we could have the painting and craft stations on one side and the interactive quote wall on the other. This way, it encourages movement and interaction. I think we should also leave some space for seating where guests can relax and discuss their creations. What do you think?"
-    ],
-    [
-      "Mei Lin",
-      "I think that sounds like a great layout, Ayesha! Having a seating area for guests to relax and discuss their creations is a thoughtful touch. We should also consider how we\u2019ll decorate the space to enhance the overall atmosphere. Maybe we could incorporate some natural elements in the decor to tie everything together? What do you think?"
-    ]
-  ],
+  "chatting_with": null,
+  "chat": null,
   "chatting_with_buffer": {
-    "John Lin": -406,
-    "Eddy Lin": 290,
-    "Isabella Rodriguez": -1456,
-    "Ayesha Khan": 800,
-    "Tom Moreno": -508,
-    "Jane Moreno": -142,
-    "Sam Moore": -4,
-    "Carlos Gomez": 134,
-    "Klaus Mueller": 704
+    "John Lin": -1606,
+    "Eddy Lin": 302,
+    "Isabella Rodriguez": -2656,
+    "Ayesha Khan": -370,
+    "Tom Moreno": -1708,
+    "Jane Moreno": -1342,
+    "Sam Moore": -1204,
+    "Carlos Gomez": -1066,
+    "Klaus Mueller": -496
   },
-  "chatting_end_time": "February 13, 2023, 16:25:00",
+  "chatting_end_time": null,
   "act_path_set": true,
   "planned_path": []
 }

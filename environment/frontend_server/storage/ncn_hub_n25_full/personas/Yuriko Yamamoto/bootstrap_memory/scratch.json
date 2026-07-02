@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    41,
-    32
+    31,
+    59
   ],
   "daily_plan_req": "",
   "name": "Yuriko Yamamoto",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 137,
-  "importance_ele_n": 41,
+  "importance_trigger_curr": 120,
+  "importance_ele_n": 77,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 8:00 am",
@@ -175,32 +175,56 @@
       21
     ],
     [
-      "conducting research on local mayoral candidates (reviewing the candidates' platforms and key issues)",
-      15
+      "conducting research on local mayoral candidates (on the way to reviewing the candidates' platforms and key issues)",
+      0
     ],
     [
-      "conducting research on local mayoral candidates (taking notes on each candidate's stance on important topics)",
-      10
+      "conducting research on local mayoral candidates (conversing about Francisco Lopez and Yuriko Yamamoto discussing local mayoral candidates, their initiatives to support local businesses, and planning a community event that integrates these themes.)",
+      19
     ],
     [
-      "conducting research on local mayoral candidates (summarizing her findings and organizing them for easy reference)",
-      5
+      "conducting research on local mayoral candidates (on the way to taking notes on each candidate's stance on important topics)",
+      0
+    ],
+    [
+      "conducting research on local mayoral candidates (conversing about Eddy Lin and Yuriko Yamamoto discussing local mayoral candidates' initiatives, particularly focusing on Francisco Lopez's support for small businesses, and planning a Valentine's Day party that highlights local businesses with interactive elements.)",
+      20
+    ],
+    [
+      "conducting research on local mayoral candidates (on the way to summarizing her findings and organizing them for easy reference)",
+      0
+    ],
+    [
+      "conducting research on local mayoral candidates (conversing about Arthur Burton and Yuriko Yamamoto discussing plans for their Valentine's Day party, including integrating local small businesses, showcasing vendors, creating a signature chocolate cocktail, and promoting the event on social media.)",
+      17
     ],
     [
       "preparing and having dinner (preparing the ingredients for dinner)",
       15
     ],
     [
-      "preparing and having dinner (chopping vegetables)",
-      10
+      "preparing and having dinner (on the way to chopping vegetables)",
+      0
     ],
     [
-      "preparing and having dinner (marinating the protein)",
-      10
+      "preparing and having dinner (conversing about Yuriko Yamamoto and Tom Moreno discussing their plans for a collaborative Valentine's Day party that highlights local businesses, including ideas for vendors, interactive elements, activities, and promotional strategies.)",
+      18
     ],
     [
-      "preparing and having dinner (heating the pan)",
-      5
+      "preparing and having dinner (on the way to marinating the protein)",
+      0
+    ],
+    [
+      "preparing and having dinner (conversing about Giorgio Rossi and Yuriko Yamamoto discussing the upcoming mayor election candidates, particularly their initiatives for local businesses, and planning a collaborative Valentine's Day party that involves community engagement and vendor participation.)",
+      19
+    ],
+    [
+      "preparing and having dinner (on the way to heating the pan)",
+      0
+    ],
+    [
+      "preparing and having dinner (conversing about Jennifer Moore and Yuriko Yamamoto discussing ways to incorporate local businesses into their upcoming Valentine's Day party, including inviting vendors, highlighting their stories, engaging them through contests and demonstrations, and featuring local musicians.)",
+      22
     ],
     [
       "preparing and having dinner (cooking the protein)",
@@ -208,31 +232,67 @@
     ],
     [
       "preparing and having dinner (saut\u00e9ing the vegetables)",
-      10
+      9
     ],
     [
-      "preparing and having dinner (boiling rice or pasta)",
-      10
-    ],
-    [
-      "preparing and having dinner (setting the table)",
-      10
-    ],
-    [
-      "preparing and having dinner (plating the food)",
-      10
-    ],
-    [
-      "preparing and having dinner (pouring drinks)",
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (settling into her favorite spot on the couch)",
       5
     ],
     [
-      "preparing and having dinner (sitting down to eat)",
-      20
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (choosing a book to read or a show to watch)",
+      10
     ],
     [
-      "continuing to relax and unwind after dinner, possibly reading or watching a show",
-      240
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (making a cup of herbal tea to enjoy while relaxing)",
+      5
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (getting comfortable with a blanket)",
+      5
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (starting to read her chosen book)",
+      30
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (taking a short break to stretch and rest her eyes)",
+      5
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (resuming her reading)",
+      30
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (checking her phone for any messages or notifications)",
+      5
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (continuing to read her book)",
+      30
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (pausing to reflect on what she has read)",
+      5
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (switching to watching an episode of her favorite show)",
+      30
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (enjoying the show and laughing at a funny scene)",
+      30
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (taking a moment to grab a snack from the kitchen)",
+      5
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (returning to the couch and resuming the show)",
+      30
+    ],
+    [
+      "continuing to relax and unwind after dinner, possibly reading or watching a show (watching the final moments of the episode and feeling satisfied)",
+      11
     ],
     [
       "sleeping",
@@ -285,135 +345,36 @@
       60
     ]
   ],
-  "act_address": "the Ville:The Rose and Crown Pub:pub:microphone",
-  "act_start_time": "February 13, 2023, 16:15:00",
-  "act_duration": 21,
-  "act_description": "conducting research on local mayoral candidates (conversing about Sam Moore and Yuriko Yamamoto discussing their collaboration on a community clean-up event combined with a local art exhibition to engage residents and address important social issues.)",
-  "act_pronunciatio": "\ud83d\udde3\ufe0f\ud83c\udfa8",
+  "act_address": "the Ville:Yuriko Yamamoto's house:main room:desk",
+  "act_start_time": "February 13, 2023, 19:28:00",
+  "act_duration": 30,
+  "act_description": "continuing to relax and unwind after dinner, possibly reading or watching a show (starting to read her chosen book)",
+  "act_pronunciatio": "\ud83d\udcd6\u2728",
   "act_event": [
     "Yuriko Yamamoto",
-    "converse",
-    "collaboration"
+    "start",
+    "read her chosen book"
   ],
-  "act_obj_description": "in use",
-  "act_obj_pronunciatio": "\ud83d\udd04\ud83d\udee0\ufe0f",
+  "act_obj_description": "cluttered with books and a cup of tea",
+  "act_obj_pronunciatio": "\ud83d\udcda\u2615",
   "act_obj_event": [
-    "microphone",
-    "is",
-    "in use"
+    "desk",
+    "be",
+    "cluttered with books and a cup of tea"
   ],
   "chatting_with": null,
   "chat": null,
   "chatting_with_buffer": {
-    "Carmen Ortiz": -46,
-    "Sam Moore": 770
+    "Carmen Ortiz": -1246,
+    "Sam Moore": -430,
+    "Francisco Lopez": -262,
+    "Eddy Lin": -136,
+    "Arthur Burton": -22,
+    "Tom Moreno": 98,
+    "Giorgio Rossi": 218,
+    "Jennifer Moore": 392
   },
   "chatting_end_time": null,
   "act_path_set": true,
-  "planned_path": [
-    [
-      43,
-      32
-    ],
-    [
-      44,
-      32
-    ],
-    [
-      44,
-      31
-    ],
-    [
-      45,
-      31
-    ],
-    [
-      46,
-      31
-    ],
-    [
-      47,
-      31
-    ],
-    [
-      48,
-      31
-    ],
-    [
-      49,
-      31
-    ],
-    [
-      49,
-      30
-    ],
-    [
-      50,
-      30
-    ],
-    [
-      51,
-      30
-    ],
-    [
-      52,
-      30
-    ],
-    [
-      53,
-      30
-    ],
-    [
-      54,
-      30
-    ],
-    [
-      55,
-      30
-    ],
-    [
-      56,
-      30
-    ],
-    [
-      56,
-      29
-    ],
-    [
-      56,
-      28
-    ],
-    [
-      56,
-      27
-    ],
-    [
-      56,
-      26
-    ],
-    [
-      56,
-      25
-    ],
-    [
-      57,
-      25
-    ],
-    [
-      58,
-      25
-    ],
-    [
-      59,
-      25
-    ],
-    [
-      60,
-      25
-    ],
-    [
-      61,
-      25
-    ]
-  ]
+  "planned_path": []
 }

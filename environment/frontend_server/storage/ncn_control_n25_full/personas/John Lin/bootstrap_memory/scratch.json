@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
     91,
-    67
+    69
   ],
   "daily_plan_req": "John Lin goes to the Willow Market and Pharmacy around 9am to open the pharmacy counter. He stands behind the counter until 5pm and returns home.",
   "name": "John Lin",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 5,
-  "importance_ele_n": 85,
+  "importance_trigger_curr": 82,
+  "importance_ele_n": 46,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 6:00 am",
@@ -252,16 +252,12 @@
       15
     ],
     [
-      "assisting customers at the pharmacy (checking in with a colleague about inventory)",
-      5
+      "assisting customers at the pharmacy (on the way to checking in with a colleague about inventory)",
+      0
     ],
     [
-      "assisting customers at the pharmacy (providing a customer with information about allergy medications)",
-      10
-    ],
-    [
-      "assisting customers at the pharmacy (assisting a customer with a health insurance inquiry)",
-      3
+      "assisting customers at the pharmacy (conversing about John Lin and Adam Smith discussing the structure and topics for workshops aimed at local entrepreneurs, including creative problem-solving, community engagement, and incorporating local business owners' experiences, while also planning to promote the workshops effectively.)",
+      18
     ],
     [
       "assisting customers at the pharmacy (discussing a new treatment option with a customer)",
@@ -276,12 +272,52 @@
       48
     ],
     [
-      "spending time with his wife and son",
-      120
+      "spending time with his wife and son (engaging in a family board game)",
+      30
     ],
     [
-      "spending time with his family, engaging in activities they enjoy together",
-      120
+      "spending time with his wife and son (on the way to helping Eddy with his homework)",
+      0
+    ],
+    [
+      "spending time with his wife and son (conversing about John and Mei Lin discussing how to integrate family discussions about ethics into Eddy's music project while planning a listening session and dinner that complements their exploration of classical and contemporary music.)",
+      19
+    ],
+    [
+      "spending time with his wife and son (discussing the upcoming mayoral election with Mei)",
+      15
+    ],
+    [
+      "spending time with his wife and son (preparing snacks for the family)",
+      15
+    ],
+    [
+      "spending time with his wife and son (watching a family movie together)",
+      30
+    ],
+    [
+      "spending time with his family, engaging in activities they enjoy together (playing a board game with his family)",
+      30
+    ],
+    [
+      "spending time with his family, engaging in activities they enjoy together (helping Eddy with his homework)",
+      20
+    ],
+    [
+      "spending time with his family, engaging in activities they enjoy together (preparing a snack for the family)",
+      15
+    ],
+    [
+      "spending time with his family, engaging in activities they enjoy together (watching a family movie together)",
+      30
+    ],
+    [
+      "spending time with his family, engaging in activities they enjoy together (discussing the movie with his family)",
+      10
+    ],
+    [
+      "spending time with his family, engaging in activities they enjoy together (helping Mei with a puzzle)",
+      15
     ],
     [
       "relaxing and preparing for bed",
@@ -302,6 +338,10 @@
     [
       "sleeping",
       2
+    ],
+    [
+      "sleeping",
+      11
     ]
   ],
   "f_daily_schedule_hourly_org": [
@@ -351,34 +391,34 @@
     ]
   ],
   "act_address": "the Ville:Lin family's house:common room:common room table",
-  "act_start_time": "February 13, 2023, 16:13:00",
-  "act_duration": 12,
-  "act_description": "assisting customers at the pharmacy (conversing about Eddy Lin and John Lin discussing John\u2019s work at the pharmacy, local mayoral candidates and their initiatives, Eddy's composition project, and plans for family night including dessert options.)",
-  "act_pronunciatio": "\ud83d\udde3\ufe0f\ud83c\udf70",
+  "act_start_time": "February 13, 2023, 19:22:00",
+  "act_duration": 30,
+  "act_description": "spending time with his wife and son (watching a family movie together)",
+  "act_pronunciatio": "\ud83c\udfac\ud83d\udc6a",
   "act_event": [
     "John Lin",
-    "converse",
-    "Eddy Lin"
+    "watch",
+    "family movie"
   ],
-  "act_obj_description": "in use with items scattered across it, including papers, pens, and a few snacks left from a previous gathering",
-  "act_obj_pronunciatio": "\ud83d\udcda\ud83c\udf55",
+  "act_obj_description": "occupied with snacks and drinks for the movie",
+  "act_obj_pronunciatio": "\ud83c\udf7f\ud83e\udd64",
   "act_obj_event": [
     "common room table",
-    "is in use",
-    "items scattered across it"
+    "be",
+    "occupied with snacks and drinks for the movie"
   ],
   "chatting_with": null,
   "chat": null,
   "chatting_with_buffer": {
-    "Mei Lin": -406,
-    "Eddy Lin": 758,
-    "Tom Moreno": 272,
-    "Adam Smith": -1168,
-    "Arthur Burton": -1042,
-    "Ryan Park": -946,
-    "Isabella Rodriguez": -604,
-    "Jane Moreno": -352,
-    "Jennifer Moore": -220
+    "Mei Lin": 332,
+    "Eddy Lin": -442,
+    "Tom Moreno": -928,
+    "Adam Smith": -196,
+    "Arthur Burton": -2242,
+    "Ryan Park": -2146,
+    "Isabella Rodriguez": -1804,
+    "Jane Moreno": -1552,
+    "Jennifer Moore": -1420
   },
   "chatting_end_time": null,
   "act_path_set": true,

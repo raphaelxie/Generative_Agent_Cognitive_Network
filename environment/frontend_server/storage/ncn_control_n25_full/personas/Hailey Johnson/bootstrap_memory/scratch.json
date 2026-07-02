@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    55,
-    25
+    39,
+    29
   ],
   "daily_plan_req": "",
   "name": "Hailey Johnson",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 201,
-  "importance_ele_n": 11,
+  "importance_trigger_curr": 122,
+  "importance_ele_n": 43,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 8:00 am",
@@ -127,20 +127,72 @@
       21
     ],
     [
-      "sleeping",
+      "sleeping (on the way to sleepin)",
       80
+    ],
+    [
+      "sleeping (conversing about Abigail Chen and Hailey Johnson discussing how to integrate local stories and community narratives into Hailey's novel, while planning collaborative brainstorming sessions with local artists and considering interactive elements and visual presentations to enhance their projects.)",
+      21
     ],
     [
       "having dinner",
       54
     ],
     [
-      "spending time researching potential guests and topics for her podcast",
-      60
+      "spending time researching potential guests and topics for her podcast (on the way to researching potential podcast guests online)",
+      0
     ],
     [
-      "spending time reflecting on her day and journaling her thoughts",
-      60
+      "spending time researching potential guests and topics for her podcast (conversing about Latoya Williams and Hailey Johnson discussing their photography project that highlights local businesses, including ideas for interviews with business owners and featuring local artists' work.)",
+      16
+    ],
+    [
+      "spending time researching potential guests and topics for her podcast (researching potential podcast guests online and making a list of potential guests and their contact information).",
+      15
+    ],
+    [
+      "spending time researching potential guests and topics for her podcast (on the way to brainstorming topics related to her novel and the guests she has in mind))",
+      0
+    ],
+    [
+      "spending time researching potential guests and topics for her podcast (conversing about Francisco Lopez and Hailey Johnson discussing their collaborative projects, including a web series and a podcast focused on the creative process, community engagement, and featuring local artists.)",
+      20
+    ],
+    [
+      "spending time researching potential guests and topics for her podcast (outlining potential episode structures for her podcast)",
+      15
+    ],
+    [
+      "spending time reflecting on her day and journaling her thoughts (finding a comfortable spot to sit and reflect)",
+      5
+    ],
+    [
+      "spending time reflecting on her day and journaling her thoughts (gathering her journal and pen)",
+      5
+    ],
+    [
+      "spending time reflecting on her day and journaling her thoughts (taking a few deep breaths to center herself)",
+      5
+    ],
+    [
+      "spending time reflecting on her day and journaling her thoughts (thinking about the highlights of her day)",
+      10
+    ],
+    [
+      "spending time reflecting on her day and journaling her thoughts (writing down her thoughts on the highlights)",
+      10
+    ],
+    [
+      "spending time reflecting on her day and journaling her thoughts (reflecting on any challenges she faced during the day)",
+      4
+    ],
+    [
+      "spending time reflecting on her day and journaling her thoughts (writing about the challenges and what she learned from them)",
+      10
+    ],
+    [
+      "spending time reflecting on her day and journaling her thoughts (summarizing her reflections and thoughts for the day)",
+      5
     ],
     [
       "recording a podcast episode",
@@ -206,9 +258,9 @@
     ]
   ],
   "act_address": "<persona> Francisco Lopez",
-  "act_start_time": "February 13, 2023, 16:14:20",
-  "act_duration": 21,
-  "act_description": "conversing about Francisco Lopez and Hailey Johnson discussing the development of their novel, particularly focusing on collaborative art scenes, event structure, community engagement, and potential partnerships with local businesses.",
+  "act_start_time": "February 13, 2023, 19:39:00",
+  "act_duration": 20,
+  "act_description": "conversing about Francisco Lopez and Hailey Johnson discussing their collaborative projects, including a web series and a podcast focused on the creative process, community engagement, and featuring local artists.",
   "act_pronunciatio": "\ud83d\udcac",
   "act_event": [
     "Hailey Johnson",
@@ -226,80 +278,80 @@
   "chat": [
     [
       "Francisco Lopez",
-      "Hey Hailey! I saw you deep in thought with your writing. How's the novel coming along? Have you thought about any new ideas for our collaborative scenes yet?"
+      "Hey Hailey! I saw you working on your podcast research. How's that going? Have you found any interesting guests or topics yet?"
     ],
     [
       "Hailey Johnson",
-      "Hi Francisco! Thanks for checking in. The novel is progressing well, and I\u2019ve been brainstorming some ideas. I think we could weave in some scenes that highlight the interactions between the artists and their creative processes\u2014maybe even have them collaborate on a project that reflects their unique styles. What do you think?"
+      "Hey Francisco! It's going pretty well, actually. I've come up with a few potential guests that I think would bring some great insights into the creative process. I'm also considering some themes around collaboration in the arts, which could tie nicely into our novel. How's your dinner going? Any new ideas for the web series?"
     ],
     [
       "Francisco Lopez",
-      "I love that idea! We could really showcase the dynamic between their styles and how they influence each other. Maybe we could even incorporate some improvisational elements to make it more engaging. What do you think about that?"
+      "My dinner's great, thanks! I've been thinking about how we can incorporate more real-life interactions into our web series, similar to what you\u2019re exploring for your podcast. Do you think that could be a theme we both could develop further?"
     ],
     [
       "Hailey Johnson",
-      "That sounds fantastic! I love the idea of improvisation. It could really bring their collaboration to life. We could also consider using different mediums in their project, like incorporating some visual art or music elements. What do you think would resonate best with the audience?"
+      "Absolutely, I think blending our themes could create a really rich narrative! We could explore how collaboration impacts the creative process in both the web series and my podcast. Maybe we could even feature some of your guests in my podcast episodes? What do you think?"
     ],
     [
       "Francisco Lopez",
-      "I think incorporating visual art and music would definitely resonate with a lot of people! Maybe we could have a scene where the characters hold a collaborative art event that combines their talents. It could be a fun way to showcase their growth and creativity. What do you think?"
+      "I love that idea! Featuring guests from the web series in your podcast would create a nice synergy between our projects. We could highlight their stories and experiences in both formats. Let's brainstorm who could fit well in both! Do you have any specific guests in mind?"
     ],
     [
       "Hailey Johnson",
-      "I love that concept! A collaborative art event could really highlight their growth and the fusion of their talents. We could have different stations for each medium, allowing them to experiment and interact with the audience. What if we also added some local stories to inspire their pieces? It could create a deeper connection with the community."
+      "I\u2019ve got a few names on my list! I was thinking of reaching out to some local artists who focus on community engagement. For instance, I have an artist in mind who works with underrepresented groups, and their perspective could really enrich both our projects. What do you think?"
     ],
     [
       "Francisco Lopez",
-      "That's a brilliant idea, Hailey! Incorporating local stories would not only enrich the characters' projects but also engage the community on a deeper level. We could even invite local artists to share their stories during the event. This way, it becomes a true celebration of creativity and collaboration. What do you think?"
+      "That sounds like a fantastic idea! I love the idea of featuring someone who has a unique perspective on community engagement. It would definitely add depth to both our projects. Do you want to reach out to them together, or would you like me to handle that part?"
     ],
     [
       "Hailey Johnson",
-      "I completely agree! Inviting local artists to share their stories would not only enrich the event but also foster a sense of community. We could even create a segment where the audience can participate and share their experiences. I'm really excited about how this is shaping up! Do you want to brainstorm more ideas on how to structure the event?"
+      "I think it would be great if you could handle reaching out to them! You have such a good rapport with the local artists. Once you hear back, we can discuss how to incorporate their insights into both the web series and the podcast. I'm excited to see where this collaboration takes us!"
     ],
     [
       "Francisco Lopez",
-      "Absolutely! I think we should outline the flow of the event. We could start with an introduction where the artists share their motivations, then move into the different stations for creating art. Maybe we can also have some performances in between to keep the energy up. What do you think about that structure?"
+      "Sounds great! I'll reach out to them and let you know what they say. I\u2019m really excited about how our projects are coming together. Do you have any other ideas or themes you want to explore while I\u2019m at it?"
     ],
     [
       "Hailey Johnson",
-      "That sounds like a great structure! Having performances in between will definitely keep the energy high. I think it would be cool to have a segment where the audience can interact with the artists as well. Maybe we could even have a Q&A session after the showcases? I'm excited to see how this all comes together!"
+      "I was also thinking about how we could showcase the creative processes of the artists we feature. Maybe we could include behind-the-scenes glimpses of their work and how they collaborate with others. It could really resonate with our audience. What do you think?"
     ],
     [
       "Francisco Lopez",
-      "That sounds perfect! A Q&A session would really allow the audience to connect with the artists and dive deeper into their creative processes. Should we also think about how we can promote the event to attract a larger crowd? Maybe social media campaigns or collaborating with local businesses?"
+      "I think showcasing the behind-the-scenes processes is a brilliant idea! It would really give our audience a deeper understanding of the artists' work and the collaborative spirit behind it. We could even consider doing some mini-documentary segments for both the web series and the podcast. How does that sound to you?"
     ],
     [
       "Hailey Johnson",
-      "That's a great point! I think a strong social media campaign would really help generate buzz. We could create teasers and behind-the-scenes content to engage our audience. Collaborating with local businesses for cross-promotion could also be beneficial. Do you have any specific ideas in mind for how we could approach that?"
+      "I love the idea of mini-documentary segments! It would add such a personal touch to our projects. Let's brainstorm how we can structure those segments and what specific aspects we want to highlight. I think it could really resonate with our audience and give them a unique insight into the artists' journeys. What do you think?"
     ],
     [
       "Francisco Lopez",
-      "I was thinking we could reach out to local coffee shops and art supply stores to see if they\u2019d be interested in sponsoring the event or providing materials. We could also highlight their involvement in our promotions. What do you think about that approach?"
+      "I completely agree! Let's outline what we want to capture in those segments. Maybe we can highlight their artistic processes, their inspirations, and how they engage with the community. We could also include some interviews where they talk about their experiences. Do you have any specific artists in mind for the first mini-documentary?"
     ],
     [
       "Hailey Johnson",
-      "I think that's a fantastic approach! Partnering with local businesses not only helps us with resources but also strengthens our community ties. We could even feature their stories in our promotions to highlight their contributions to the event. Let's make a list of potential partners and draft a proposal to reach out to them. I'm really looking forward to bringing this event to life!"
+      "I have a couple of artists in mind! One is a muralist who works with the community on public art projects, and another is a sculptor who incorporates recycled materials into their work. I think both would bring unique perspectives to the mini-documentary. What do you think about reaching out to them next?"
     ],
     [
       "Francisco Lopez",
-      "Great idea! I'll start compiling a list of potential partners and we can work on that proposal together. I'm really excited about how this event is shaping up! Do you have any specific businesses in mind that we should approach first?"
+      "Those sound like amazing choices! I love the idea of showcasing both the muralist's community impact and the sculptor's innovative use of materials. I'll reach out to them and see if they're interested. We can discuss how to incorporate their stories into our projects once I hear back. Is there anything else you'd like to add or explore while I\u2019m working on that?"
     ],
     [
       "Hailey Johnson",
-      "I think we should definitely reach out to some local coffee shops and art supply stores first. They often have a strong community presence and could be really interested in supporting our event. We could also consider local galleries or even the bakery and flower shop we discussed earlier for additional partnerships. What do you think?"
+      "That sounds perfect! I can't wait to see what they say. Also, while you're reaching out to them, maybe we could start putting together a list of questions for the mini-documentary interviews. I think having some preliminary questions could help guide the conversations. What do you think?"
     ]
   ],
   "chatting_with_buffer": {
-    "Rajiv Patel": -208,
+    "Rajiv Patel": -1408,
     "Francisco Lopez": 800,
-    "Abigail Chen": 38,
-    "Latoya Williams": 140,
-    "Arthur Burton": 296,
-    "Adam Smith": 422,
-    "Ryan Park": 578,
-    "Jennifer Moore": 740
+    "Abigail Chen": -130,
+    "Latoya Williams": 470,
+    "Arthur Burton": -904,
+    "Adam Smith": -778,
+    "Ryan Park": -622,
+    "Jennifer Moore": -460
   },
-  "chatting_end_time": "February 13, 2023, 16:36:00",
+  "chatting_end_time": "February 13, 2023, 19:59:00",
   "act_path_set": true,
   "planned_path": []
 }

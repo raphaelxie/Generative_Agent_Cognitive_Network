@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    78,
-    52
+    80,
+    53
   ],
   "daily_plan_req": "Tom Moreno opens The Willow Market and Pharmacy at 8am, stands behind the grocery counter, and goes home afterwards to eat dinner with his wife.",
   "name": "Tom Moreno",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 217,
-  "importance_ele_n": 10,
+  "importance_trigger_curr": 15,
+  "importance_ele_n": 90,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 7:00 am",
@@ -243,16 +243,108 @@
       5
     ],
     [
-      "closing The Willow Market and Pharmacy for the day",
-      60
+      "closing The Willow Market and Pharmacy for the day (checking the inventory to ensure all items are accounted for)",
+      15
     ],
     [
-      "having dinner with his wife Jane",
-      60
+      "closing The Willow Market and Pharmacy for the day (restocking shelves with any items that are low)",
+      15
     ],
     [
-      "discussing the upcoming local mayor election with Jane and sharing his thoughts about Sam Moore",
-      120
+      "closing The Willow Market and Pharmacy for the day (cleaning the grocery counter and surrounding areas)",
+      10
+    ],
+    [
+      "closing The Willow Market and Pharmacy for the day (counting the cash register to ensure the correct amount is in the till)",
+      10
+    ],
+    [
+      "closing The Willow Market and Pharmacy for the day (preparing the closing report for the day\u2019s sales)",
+      10
+    ],
+    [
+      "having dinner with his wife Jane (setting the dining table)",
+      10
+    ],
+    [
+      "having dinner with his wife Jane (on the way to serving the dinner)",
+      0
+    ],
+    [
+      "having dinner with his wife Jane (conversing about Tom and Jane Moreno discussing their plans for an upcoming town hall meeting to voice concerns about the election, support local businesses, and brainstorm workshop ideas to engage the community.)",
+      19
+    ],
+    [
+      "having dinner with his wife Jane (sitting down to eat)",
+      5
+    ],
+    [
+      "having dinner with his wife Jane (asking Jane about her day)",
+      5
+    ],
+    [
+      "having dinner with his wife Jane (sharing his thoughts on the dinner)",
+      5
+    ],
+    [
+      "having dinner with his wife Jane (discussing plans for the week)",
+      10
+    ],
+    [
+      "having dinner with his wife Jane (listening to Jane's opinions)",
+      5
+    ],
+    [
+      "having dinner with his wife Jane (finishing his meal)",
+      10
+    ],
+    [
+      "discussing the upcoming local mayor election with Jane and sharing his thoughts about Sam Moore (gathering his thoughts on the local mayor election)",
+      10
+    ],
+    [
+      "discussing the upcoming local mayor election with Jane and sharing his thoughts about Sam Moore (on the way to expressing his concerns about Sam Moore's policies)",
+      0
+    ],
+    [
+      "discussing the upcoming local mayor election with Jane and sharing his thoughts about Sam Moore (conversing about Ryan Park and Tom Moreno discussing Maria Lopez's initiatives for supporting local businesses, including workshops on digital marketing and community engagement, and planning to gather feedback from local business owners to tailor the workshops effectively.)",
+      14
+    ],
+    [
+      "discussing the upcoming local mayor election with Jane and sharing his thoughts about Sam Moore (asking Jane for her opinion on the election)",
+      10
+    ],
+    [
+      "discussing the upcoming local mayor election with Jane and sharing his thoughts about Sam Moore (listening to Jane's perspective on the candidates)",
+      15
+    ],
+    [
+      "discussing the upcoming local mayor election with Jane and sharing his thoughts about Sam Moore (sharing specific examples of why he dislikes Sam Moore)",
+      10
+    ],
+    [
+      "discussing the upcoming local mayor election with Jane and sharing his thoughts about Sam Moore (discussing the importance of voting in the upcoming election)",
+      10
+    ],
+    [
+      "discussing the upcoming local mayor election with Jane and sharing his thoughts about Sam Moore (brainstorming potential candidates they could support instead of Sam Moore)",
+      15
+    ],
+    [
+      "discussing the upcoming local mayor election with Jane and sharing his thoughts about Sam Moore (reviewing the election timeline and key dates with Jane)",
+      10
+    ],
+    [
+      "discussing the upcoming local mayor election with Jane and sharing his thoughts about Sam Moore (planning how they can encourage others to vote)",
+      1
+    ],
+    [
+      "discussing the upcoming local mayor election with Jane and sharing his thoughts about Sam Moore (summarizing their discussion and key points about the election)",
+      10
+    ],
+    [
+      "discussing the upcoming local mayor election with Jane and sharing his thoughts about Sam Moore (wrapping up the conversation and transitioning to the next topic)",
+      5
     ],
     [
       "continuing to discuss the upcoming local mayor election with Jane and sharing his thoughts about Sam Moore",
@@ -313,37 +405,90 @@
       60
     ]
   ],
-  "act_address": "the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
-  "act_start_time": "February 13, 2023, 16:08:00",
-  "act_duration": 20,
-  "act_description": "continuing to assist customers at The Willow Market and Pharmacy (helping a customer with a large order)",
-  "act_pronunciatio": "\ud83d\uded2\ud83e\udd1d",
+  "act_address": "<persona> Ryan Park",
+  "act_start_time": "February 13, 2023, 19:29:40",
+  "act_duration": 14,
+  "act_description": "conversing about Ryan Park and Tom Moreno discussing Maria Lopez's initiatives for supporting local businesses, including workshops on digital marketing and community engagement, and planning to gather feedback from local business owners to tailor the workshops effectively.",
+  "act_pronunciatio": "\ud83d\udcac",
   "act_event": [
     "Tom Moreno",
-    "help",
-    "customer"
+    "chat with",
+    "Ryan Park"
   ],
-  "act_obj_description": "busy with a customer transaction",
-  "act_obj_pronunciatio": "\ud83d\udcb3\ud83e\udd1d",
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
   "act_obj_event": [
-    "pharmacy store counter",
-    "be",
-    "busy with a customer transaction"
+    null,
+    null,
+    null
   ],
-  "chatting_with": null,
-  "chat": null,
+  "chatting_with": "Ryan Park",
+  "chat": [
+    [
+      "Ryan Park",
+      "Hey Tom, I overheard you discussing the upcoming election. What do you think about Maria Lopez's initiatives for supporting local businesses? I feel like they could really make a difference."
+    ],
+    [
+      "Tom Moreno",
+      "Absolutely, Ryan! I think Maria Lopez's plans for workshops and community engagement are exactly what we need to revitalize our local business scene. Unlike Sam Moore, she understands the challenges we face. What specific initiatives do you think would be most beneficial for us?"
+    ],
+    [
+      "Ryan Park",
+      "I think the workshops on digital marketing and e-commerce could really help businesses adapt to the current landscape. Plus, having a platform for local business owners to share their experiences and challenges could foster a sense of community. What are your thoughts on that?"
+    ],
+    [
+      "Tom Moreno",
+      "I completely agree, Ryan! Digital marketing is crucial these days. It\u2019s amazing how many businesses still struggle with it. Creating a space for sharing experiences would definitely help us learn from each other. Have you thought about what kind of topics you'd want to discuss in those workshops?"
+    ],
+    [
+      "Ryan Park",
+      "Yes, I have a few ideas in mind! We could cover topics like social media strategies, SEO best practices, and even how to use analytics to drive sales. I think it would be beneficial to tailor the workshops to the specific needs of our local businesses. What do you think?"
+    ],
+    [
+      "Tom Moreno",
+      "Those topics sound fantastic, Ryan! Tailoring the workshops to our local needs will definitely make them more effective. I'm particularly interested in how we can use analytics to not just drive sales but also improve customer experiences. Maybe we could even collaborate with other local businesses to get their input on what they feel would be most useful. What do you think about reaching out to them for feedback?"
+    ],
+    [
+      "Ryan Park",
+      "I think that's a great idea, Tom! I'll reach out to some local business owners to gather their input and ideas on the workshop topics. We can finalize everything later this week. Do you have anyone in mind that we should definitely talk to?"
+    ],
+    [
+      "Tom Moreno",
+      "I think we should definitely reach out to Sarah from the bakery; she's always full of great insights. Also, it might be good to include John Lin since he has experience with community events. Let\u2019s aim to gather a diverse range of perspectives. How about we set up a small meeting after dinner to brainstorm together?"
+    ],
+    [
+      "Ryan Park",
+      "That sounds like a solid plan, Tom! I'll make sure to reach out to Sarah and John, and we can sync up after dinner to brainstorm. What time works for you?"
+    ],
+    [
+      "Tom Moreno",
+      "How about we meet around 7:30 PM? That should give us enough time to gather our thoughts after dinner. I'm looking forward to seeing what ideas Sarah and John bring to the table!"
+    ],
+    [
+      "Ryan Park",
+      "Sounds perfect, Tom! I'll confirm with Sarah and John and see you at 7:30 PM. Looking forward to brainstorming together!"
+    ],
+    [
+      "Tom Moreno",
+      "Great! I'm excited to see what we come up with. Also, if you have any other ideas on how we can promote the workshops, feel free to share them during our meeting. Let's make this a collaborative effort!"
+    ],
+    [
+      "Ryan Park",
+      "Absolutely, Tom! I'll keep brainstorming and come prepared with some promotional ideas as well. It's great to feel this momentum building for the workshops. See you later!"
+    ]
+  ],
   "chatting_with_buffer": {
-    "Jane Moreno": -2116,
-    "Adam Smith": 260,
-    "Ryan Park": -1522,
-    "John Lin": 494,
-    "Arthur Burton": -1174,
-    "Isabella Rodriguez": -676,
-    "Mei Lin": -508,
-    "Ayesha Khan": -322,
-    "Giorgio Rossi": 620
+    "Jane Moreno": 440,
+    "Adam Smith": -940,
+    "Ryan Park": 800,
+    "John Lin": -706,
+    "Arthur Burton": -2374,
+    "Isabella Rodriguez": -1876,
+    "Mei Lin": -1708,
+    "Ayesha Khan": -1522,
+    "Giorgio Rossi": -580
   },
-  "chatting_end_time": null,
+  "chatting_end_time": "February 13, 2023, 19:44:00",
   "act_path_set": true,
   "planned_path": []
 }

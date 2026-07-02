@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    68,
-    46
+    57,
+    25
   ],
   "daily_plan_req": "Carmen opens Harvey Oak Supply Store at 8am, stands behind its counter, and closes it at 6pm, at which point, she likes to go to The Rose and Crown Pub to relax",
   "name": "Carmen Ortiz",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 191,
-  "importance_ele_n": 17,
+  "importance_trigger_curr": 142,
+  "importance_ele_n": 38,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 8:00 am",
@@ -207,20 +207,96 @@
       5
     ],
     [
-      "closing the store and heading to The Rose and Crown Pub for some relaxation",
-      60
+      "closing the store and heading to The Rose and Crown Pub for some relaxation (closing the cash register)",
+      10
     ],
     [
-      "relaxing at The Rose and Crown Pub",
-      60
+      "closing the store and heading to The Rose and Crown Pub for some relaxation (counting the cash and ensuring it matches the sales)",
+      10
+    ],
+    [
+      "closing the store and heading to The Rose and Crown Pub for some relaxation (organizing the store for the next day)",
+      15
+    ],
+    [
+      "closing the store and heading to The Rose and Crown Pub for some relaxation (on the way to turning off the lights in the store)",
+      0
+    ],
+    [
+      "closing the store and heading to The Rose and Crown Pub for some relaxation (conversing about Jennifer Moore's upcoming exhibition themed around community stories and resilience of local businesses, and Carmen Ortiz's plans for a community day event at the park where Jennifer will showcase her artwork.)",
+      14
+    ],
+    [
+      "closing the store and heading to The Rose and Crown Pub for some relaxation (locking the front door of the store)",
+      5
+    ],
+    [
+      "closing the store and heading to The Rose and Crown Pub for some relaxation (checking her phone for any messages or notifications)",
+      5
+    ],
+    [
+      "closing the store and heading to The Rose and Crown Pub for some relaxation (on the way to walking to her car or the bus stop)",
+      0
+    ],
+    [
+      "closing the store and heading to The Rose and Crown Pub for some relaxation (conversing about Carmen Ortiz and Arthur Burton discussing plans for an upcoming community day event to support local artists, businesses, and musicians, coinciding with Jennifer Moore's exhibition.)",
+      19
+    ],
+    [
+      "relaxing at The Rose and Crown Pub (on the way to ordering a drink)",
+      0
+    ],
+    [
+      "relaxing at The Rose and Crown Pub (conversing about Abigail Chen and Carmen Ortiz discussing plans for a community day event, including featuring local artists, showcasing Abigail's animation with an interactive element, and brainstorming ways to engage the community.)",
+      17
+    ],
+    [
+      "relaxing at The Rose and Crown Pub (finding a comfortable spot to sit)",
+      5
+    ],
+    [
+      "relaxing at The Rose and Crown Pub (checking her phone for messages)",
+      5
+    ],
+    [
+      "relaxing at The Rose and Crown Pub (looking at the menu for food options)",
+      5
+    ],
+    [
+      "relaxing at The Rose and Crown Pub (on the way to placing an order for food)",
+      0
+    ],
+    [
+      "relaxing at The Rose and Crown Pub (conversing about Carmen Ortiz and Adam Smith discussing ideas for incorporating interactive elements into their community day event, including local artists, art stations, promotional strategies, and logistics for finalizing their plans.)",
+      19
+    ],
+    [
+      "relaxing at The Rose and Crown Pub (chatting with the bartender)",
+      5
+    ],
+    [
+      "relaxing at The Rose and Crown Pub (enjoying her drink while people-watching)",
+      10
+    ],
+    [
+      "relaxing at The Rose and Crown Pub (reading a book or magazine she brought along)",
+      10
+    ],
+    [
+      "relaxing at The Rose and Crown Pub (checking in with her housemate, Tamara, via text)",
+      5
+    ],
+    [
+      "relaxing at The Rose and Crown Pub (finishing her drink and preparing to leave)",
+      5
     ],
     [
       "preparing dinner",
-      60
+      28
     ],
     [
       "enjoying dinner and unwinding",
-      60
+      48
     ],
     [
       "working on expanding her shop online",
@@ -277,31 +353,100 @@
       60
     ]
   ],
-  "act_address": "the Ville:Harvey Oak Supply Store:supply store:supply store counter",
-  "act_start_time": "February 13, 2023, 16:11:00",
-  "act_duration": 15,
-  "act_description": "continuing to assist customers and manage the store (assisting a customer with a large order)",
-  "act_pronunciatio": "\ud83d\uded2\ud83e\udd1d",
+  "act_address": "<persona> Adam Smith",
+  "act_start_time": "February 13, 2023, 19:34:00",
+  "act_duration": 19,
+  "act_description": "conversing about Carmen Ortiz and Adam Smith discussing ideas for incorporating interactive elements into their community day event, including local artists, art stations, promotional strategies, and logistics for finalizing their plans.",
+  "act_pronunciatio": "\ud83d\udcac",
   "act_event": [
     "Carmen Ortiz",
-    "assist",
-    "customer"
+    "chat with",
+    "Adam Smith"
   ],
-  "act_obj_description": "busy assisting customers with a large order",
-  "act_obj_pronunciatio": "\ud83d\udc69\u200d\ud83d\udcbc",
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
   "act_obj_event": [
-    "supply store counter",
-    "assist",
-    "customers"
+    null,
+    null,
+    null
   ],
-  "chatting_with": null,
-  "chat": null,
+  "chatting_with": "Adam Smith",
+  "chat": [
+    [
+      "Carmen Ortiz",
+      "Hey Adam, it looks like you're deep in thought! How's the book coming along? I was also thinking about our community day event and how we can incorporate some of those interactive elements you mentioned for Rajiv's show. Any ideas?"
+    ],
+    [
+      "Adam Smith",
+      "Hey Carmen! The book is progressing well; I'm really diving into how creativity fosters collaboration and teamwork. For the community day event, I think we could set up interactive art stations where participants can create their own pieces inspired by local issues. Maybe we could even have a feedback wall where people can share their thoughts on the artwork and community initiatives. What do you think?"
+    ],
+    [
+      "Carmen Ortiz",
+      "I love those ideas! Interactive art stations would definitely engage the community. A feedback wall sounds like a great way to gather input and foster dialogue. Maybe we could also invite local artists to facilitate some of the stations? It could really enhance the experience!"
+    ],
+    [
+      "Adam Smith",
+      "That's a fantastic idea, Carmen! Inviting local artists to facilitate the stations would not only support them but also provide participants with unique insights into the creative process. We could even have them share their stories related to the artwork they create. Let\u2019s brainstorm a list of artists we\u2019d like to invite and put together a plan for reaching out to them."
+    ],
+    [
+      "Carmen Ortiz",
+      "Absolutely, I can think of a few local artists who would be perfect for this! Let\u2019s make a list and decide how we want to approach them. Also, do you think we should set a date to meet up and finalize our plans?"
+    ],
+    [
+      "Adam Smith",
+      "Yes, let's set a date to meet up! How about later this week? We can finalize our list of artists and discuss the logistics of the event. I\u2019m really excited about bringing this to life with you!"
+    ],
+    [
+      "Carmen Ortiz",
+      "Sounds great! How about we meet on Thursday evening? That should give us enough time to gather our ideas and finalize everything. I'm really looking forward to this event!"
+    ],
+    [
+      "Adam Smith",
+      "Thursday evening works perfectly for me! Let's say around 5 PM? We can grab some food and really dive into our plans. I'm excited to see what we come up with together!"
+    ],
+    [
+      "Carmen Ortiz",
+      "Perfect! I\u2019ll bring my notes and any ideas I have. I can\u2019t wait to see how we can make this event truly special for the community! See you Thursday at 5 PM!"
+    ],
+    [
+      "Adam Smith",
+      "Great! I'm sure together we can create something amazing that truly resonates with the community. I'll start drafting some ideas for the art stations and gather some materials we might need. Looking forward to our meeting!"
+    ],
+    [
+      "Carmen Ortiz",
+      "That sounds like a great plan! If you need any help gathering materials or brainstorming ideas for the art stations, just let me know. I\u2019m excited to collaborate on this and make it a memorable event for everyone!"
+    ],
+    [
+      "Adam Smith",
+      "Thanks, Carmen! I appreciate your offer to help. I\u2019ll let you know if I need anything. Also, should we think about how to promote the event once we have our plans in place? It would be great to get the word out to as many people as possible!"
+    ],
+    [
+      "Carmen Ortiz",
+      "Absolutely, Adam! Once we finalize our plans, we should definitely brainstorm some promotional strategies. Social media could be a great start, and maybe we can reach out to local businesses to help spread the word. I can also design some flyers to put up around the community. What do you think?"
+    ],
+    [
+      "Adam Smith",
+      "I love those ideas, Carmen! Social media is definitely a powerful tool for promotion, and having flyers around the community will help reach those who might not be online. Let\u2019s also consider reaching out to local newspapers or community boards to get even more visibility. Once we have our artist list and event details, we can draft a press release. Does that sound good to you?"
+    ],
+    [
+      "Carmen Ortiz",
+      "That sounds like a solid plan, Adam! I agree that a press release could really help us reach a wider audience. Let\u2019s make sure to include all the details about the interactive stations and the local artists. I\u2019m excited to see how this event can bring our community together! Do you have any specific local newspapers in mind that we should contact?"
+    ],
+    [
+      "Adam Smith",
+      "I think we should reach out to the local community newspaper, 'The Daily Herald,' as they often cover events like ours. Also, we could consider contacting 'City Life Magazine' since they focus on local culture and events. What do you think about those options?"
+    ]
+  ],
   "chatting_with_buffer": {
-    "Tamara Taylor": -2074,
-    "Yuriko Yamamoto": -16,
-    "Sam Moore": 416
+    "Tamara Taylor": -3274,
+    "Yuriko Yamamoto": -1216,
+    "Sam Moore": -784,
+    "Jennifer Moore": 428,
+    "Arthur Burton": 578,
+    "Abigail Chen": 686,
+    "Adam Smith": 800
   },
-  "chatting_end_time": null,
+  "chatting_end_time": "February 13, 2023, 19:53:00",
   "act_path_set": true,
   "planned_path": []
 }

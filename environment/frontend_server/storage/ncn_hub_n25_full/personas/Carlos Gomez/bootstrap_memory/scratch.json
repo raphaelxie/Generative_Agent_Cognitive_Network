@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    55,
-    25
+    94,
+    21
   ],
   "daily_plan_req": "",
   "name": "Carlos Gomez",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 124,
-  "importance_ele_n": 36,
+  "importance_trigger_curr": 45,
+  "importance_ele_n": 57,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 8:00 am",
@@ -215,12 +215,112 @@
       30
     ],
     [
-      "relaxing with some reading or watching TV",
-      180
+      "relaxing with some reading or watching TV (on the way to on the way to deciding what to watch or read)",
+      0
+    ],
+    [
+      "relaxing with some reading or watching TV (conversing about Isabella Rodriguez and Carlos Gomez discussing the preparations for their Valentine's Day party, including decorations, interactive elements, music, snacks, and drinks.)",
+      18
+    ],
+    [
+      "relaxing with some reading or watching TV (on the way to conversing about Klaus Mueller and Carlos Gomez discussing the planning of community engagement workshops that integrate poetry and social issues, including interactive segments and live performances to enhance participation and creativity.)",
+      0
+    ],
+    [
+      "relaxing with some reading or watching TV (conversing about Carlos Gomez and Sam Moore discussing plans for Valentine's Day decorations that incorporate the Fibonacci sequence, live music, interactive poetry elements, and eco-friendly displays.)",
+      21
+    ],
+    [
+      "relaxing with some reading or watching TV (selecting a book or show)",
+      5
+    ],
+    [
+      "relaxing with some reading or watching TV (getting comfortable on the couch)",
+      5
+    ],
+    [
+      "relaxing with some reading or watching TV (pouring himself a drink or snack)",
+      5
+    ],
+    [
+      "relaxing with some reading or watching TV (settling in and turning on the TV or opening the book)",
+      5
+    ],
+    [
+      "relaxing with some reading or watching TV (watching the first episode of a show or reading the first chapter of a book)",
+      10
+    ],
+    [
+      "relaxing with some reading or watching TV (taking notes on thoughts or feelings about what he\u2019s watching/reading)",
+      10
+    ],
+    [
+      "relaxing with some reading or watching TV (on the way to continuing to watch/read)",
+      0
+    ],
+    [
+      "relaxing with some reading or watching TV (conversing about Carlos Gomez and Arthur Burton discussing unique decoration ideas, cocktail presentations, poetry readings, interactive elements, and marketing strategies for their 'Fibonacci Fizz' event to reflect the Fibonacci sequence.)",
+      22
+    ],
+    [
+      "relaxing with some reading or watching TV (on the way to pausing to reflect on the themes or messages)",
+      0
+    ],
+    [
+      "relaxing with some reading or watching TV (conversing about Carlos Gomez and Carmen Ortiz discussing plans for an eco-friendly Valentine's Day event that incorporates local artists and poets, with a focus on a Fibonacci theme and community engagement.)",
+      19
+    ],
+    [
+      "relaxing with some reading or watching TV (resuming the show or book)",
+      10
+    ],
+    [
+      "relaxing with some reading or watching TV (getting distracted by his phone or social media)",
+      5
+    ],
+    [
+      "relaxing with some reading or watching TV (refocusing on the show or book)",
+      5
+    ],
+    [
+      "relaxing with some reading or watching TV (watching/reading more intently)",
+      15
+    ],
+    [
+      "relaxing with some reading or watching TV (taking a break to stretch or move around)",
+      5
+    ],
+    [
+      "relaxing with some reading or watching TV (returning to the couch to continue)",
+      5
+    ],
+    [
+      "relaxing with some reading or watching TV (watching/reading and enjoying the experience)",
+      15
+    ],
+    [
+      "relaxing with some reading or watching TV (thinking about how the content relates to his poetry)",
+      5
+    ],
+    [
+      "relaxing with some reading or watching TV (finishing the episode or chapter)",
+      10
+    ],
+    [
+      "relaxing with some reading or watching TV (reflecting on what he just watched/read)",
+      5
+    ],
+    [
+      "relaxing with some reading or watching TV (jotting down ideas for his poetry inspired by the content)",
+      4
+    ],
+    [
+      "relaxing with some reading or watching TV (getting engrossed in the new content)",
+      5
     ],
     [
       "sleeping",
-      60
+      31
     ],
     [
       "getting ready for bed",
@@ -289,101 +389,38 @@
       60
     ]
   ],
-  "act_address": "<persona> Arthur Burton",
-  "act_start_time": "February 13, 2023, 16:04:00",
-  "act_duration": 21,
-  "act_description": "conversing about Arthur Burton and Carlos Gomez discussing the planning and creative elements for their Valentine's Day cocktail event themed 'Fibonacci Fizz,' including poetry, decorations, cocktail presentation, and marketing strategies.",
-  "act_pronunciatio": "\ud83d\udcac",
+  "act_address": "the Ville:Carlos Gomez's apartment:main room:desk",
+  "act_start_time": "February 13, 2023, 19:30:00",
+  "act_duration": 19,
+  "act_description": "relaxing with some reading or watching TV (conversing about Carlos Gomez and Carmen Ortiz discussing plans for an eco-friendly Valentine's Day event that incorporates local artists and poets, with a focus on a Fibonacci theme and community engagement.)",
+  "act_pronunciatio": "\ud83c\udf0d\ud83d\udc96",
   "act_event": [
     "Carlos Gomez",
-    "chat with",
-    "Arthur Burton"
+    "converse",
+    "plans"
   ],
-  "act_obj_description": null,
-  "act_obj_pronunciatio": null,
+  "act_obj_description": "being used for planning and organizing an event",
+  "act_obj_pronunciatio": "\ud83d\uddd3\ufe0f\ud83d\udccb",
   "act_obj_event": [
-    null,
-    null,
-    null
+    "desk",
+    "use",
+    "planning and organizing an event"
   ],
-  "chatting_with": "Arthur Burton",
-  "chat": [
-    [
-      "Arthur Burton",
-      "Hey Carlos! I was just thinking about our Valentine's Day cocktail, the 'Fibonacci Fizz.' Have you made any progress on the poetry revisions? I\u2019d love to hear how we can tie that into our plans for the bar decorations and the event overall."
-    ],
-    [
-      "Carlos Gomez",
-      "Hey Arthur! I've been working on some revisions that incorporate themes of nature and growth, which aligns perfectly with our 'Fibonacci Fizz' concept. I think we could use some of these lines as inspiration for the decorations. What do you think about adding some poetry excerpts around the bar to enhance the atmosphere?"
-    ],
-    [
-      "Arthur Burton",
-      "I love that idea! Adding poetry excerpts would create a unique ambiance. We could even think about a specific spot for them, maybe near the bar or at the tables. Do you have any particular lines in mind that fit the theme?"
-    ],
-    [
-      "Carlos Gomez",
-      "I was thinking of using lines that celebrate the beauty of nature, like those that describe growth patterns or the interconnectedness of life. I can pull a few from my revisions that highlight those themes. We could place them on decorative cards around the bar, maybe even integrate some natural elements like flowers or branches to tie it all together. What do you think?"
-    ],
-    [
-      "Arthur Burton",
-      "That sounds fantastic! I love the idea of using natural elements alongside the poetry. It will definitely enhance the 'Fibonacci Fizz' theme. Once you have the lines selected, we can brainstorm how to display them creatively. Also, should we think about any specific colors or styles for the cards to match the decorations?"
-    ],
-    [
-      "Carlos Gomez",
-      "I think using earthy tones like greens and browns for the cards would complement the natural theme perfectly. We could even consider incorporating some gold accents to give it that special Valentine's touch. Once I finalize the lines, I can bring a few samples for us to review together. How does that sound?"
-    ],
-    [
-      "Arthur Burton",
-      "That sounds great, Carlos! I\u2019m excited to see the samples. Once we have everything set, we can start promoting the event more aggressively. Maybe we can even create a social media post showcasing the poetry and the cocktail together. What do you think?"
-    ],
-    [
-      "Carlos Gomez",
-      "Absolutely! A social media post would be a fantastic way to generate interest. We could even create a short video of us mixing the cocktail while reading some of the poetry excerpts. It would give potential customers a taste of what to expect. Let's brainstorm some visuals for that as well!"
-    ],
-    [
-      "Arthur Burton",
-      "I think a video would be a brilliant way to showcase the cocktail and the poetry! We could even include some behind-the-scenes footage of us preparing for the event. Let\u2019s make sure to set a date for shooting that. Also, I\u2019ve got some ideas for the cocktail presentation that we should discuss, like garnishes or unique glassware. What do you think?"
-    ],
-    [
-      "Carlos Gomez",
-      "I\u2019m all for discussing the cocktail presentation! Unique glassware and garnishes can really elevate the experience. Let\u2019s brainstorm some ideas together. I was thinking maybe something with fresh herbs or edible flowers to tie in with our nature theme. What do you have in mind?"
-    ],
-    [
-      "Arthur Burton",
-      "I love the idea of using fresh herbs or edible flowers! Maybe we could use something like basil or a floral garnish like a hibiscus petal. We could also think about the glassware\u2014perhaps something that reflects the Fibonacci spiral shape? Let\u2019s jot down all these ideas and see what fits best with the overall theme."
-    ],
-    [
-      "Carlos Gomez",
-      "I think using a glass that has a spiral design would be visually stunning and really tie everything together. We could also consider garnishing with basil and a hibiscus petal for a pop of color. Let\u2019s make a list of our ideas and we can finalize everything next time we meet. I'm really excited about how this is all coming together!"
-    ],
-    [
-      "Arthur Burton",
-      "Great! Let's make that list and set a date for our next meeting. How about we aim for Wednesday to finalize everything? I'm really looking forward to seeing how all these elements come together for the 'Fibonacci Fizz'! Also, do you want to discuss any other ideas for the event while we\u2019re at it?"
-    ],
-    [
-      "Carlos Gomez",
-      "Absolutely! I think we should also consider some interactive elements for the event. Maybe we can have a poetry corner where guests can write their own lines inspired by nature and the Fibonacci sequence. It would be a fun way to engage everyone and tie in with our theme. What do you think?"
-    ],
-    [
-      "Arthur Burton",
-      "I love that idea of a poetry corner! It would definitely encourage guest participation and make the event feel more immersive. We could even have some prompts to help inspire their lines. Let\u2019s add that to our list of ideas for Wednesday. Is there anything else you\u2019d like to discuss today?"
-    ],
-    [
-      "Carlos Gomez",
-      "I think we should also brainstorm some ideas for the marketing strategies to promote the event. We could create some engaging posts that highlight both the cocktail and the interactive poetry corner. What do you think?"
-    ]
-  ],
+  "chatting_with": null,
+  "chat": null,
   "chatting_with_buffer": {
-    "Isabella Rodriguez": -64,
-    "Eddy Lin": 704,
-    "Giorgio Rossi": 566,
-    "Arthur Burton": 800,
-    "Rajiv Patel": -502,
-    "Sam Moore": -178,
-    "Mei Lin": 134,
-    "Adam Smith": 410
+    "Isabella Rodriguez": 146,
+    "Eddy Lin": -496,
+    "Giorgio Rossi": -634,
+    "Arthur Burton": 608,
+    "Rajiv Patel": -1702,
+    "Sam Moore": 272,
+    "Mei Lin": -1066,
+    "Adam Smith": -790,
+    "Klaus Mueller": 14,
+    "Carmen Ortiz": 740
   },
-  "chatting_end_time": "February 13, 2023, 16:25:00",
+  "chatting_end_time": null,
   "act_path_set": true,
   "planned_path": []
 }

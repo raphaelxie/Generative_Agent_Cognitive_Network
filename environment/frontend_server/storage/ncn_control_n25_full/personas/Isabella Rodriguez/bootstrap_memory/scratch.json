@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
     76,
-    19
+    21
   ],
   "daily_plan_req": "Isabella Rodriguez opens Hobbs Cafe at 8am everyday, and stands at the counter until 8pm, at which point she closes the cafe.",
   "name": "Isabella Rodriguez",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 99,
-  "importance_ele_n": 67,
+  "importance_trigger_curr": 165,
+  "importance_ele_n": 26,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 6:00 am",
@@ -240,28 +240,92 @@
       20
     ],
     [
-      "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (making last-minute adjustments to the decorations)",
-      10
+      "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (on the way to making last-minute adjustments to the decorations)",
+      0
+    ],
+    [
+      "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (conversing about Isabella Rodriguez and Klaus Mueller discussing the decorations and final touches for the upcoming Valentine's Day party, including eco-friendly materials, quotes about love, and the layout of decorations.)",
+      18
     ],
     [
       "gathering final touches for the Valentine's Day party and ensuring everything is set for tomorrow's event (ensuring all supplies are organized and ready for the party)",
       5
     ],
     [
-      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable",
-      60
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (greeting customers as they enter the cafe)",
+      10
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (taking orders from customers at the counter)",
+      15
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (on the way to preparing drinks for customers)",
+      0
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (conversing about Isabella Rodriguez and Ayesha Khan discussing the menu and presentation ideas for a Valentine's Day party, incorporating romantic and nature themes.)",
+      19
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (on the way to serving food to customers at their tables)",
+      0
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (conversing about Isabella Rodriguez and Sam Moore discussing the final details for their Valentine's Day party, including decorations, music, flowers, quotes, and interactive elements to ensure a memorable event.)",
+      16
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (on the way to checking in with customers to ensure they are satisfied with their orders)",
+      0
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (conversing about Ryan Park and Isabella Rodriguez discussing the details and planning for an upcoming Valentine's Day party, including incorporating local businesses and their products into the event.)",
+      19
+    ],
+    [
+      "serving customers at Hobbs Cafe and ensuring everyone feels welcome and comfortable (thanking customers as they finish and leave the cafe)",
+      5
     ],
     [
       "closing Hobbs Cafe for the day and preparing to wind down after a busy day",
-      50
+      18
     ],
     [
-      "relaxing at home after a busy day at Hobbs Cafe, reflecting on the preparations for the Valentine's Day party",
-      60
+      "relaxing at home after a busy day at Hobbs Cafe, reflecting on the preparations for the Valentine's Day party (on the way to reflecting on the day's events at Hobbs Cafe)",
+      0
+    ],
+    [
+      "relaxing at home after a busy day at Hobbs Cafe, reflecting on the preparations for the Valentine's Day party (conversing about Isabella Rodriguez and Maria Lopez discussing plans and ideas for a Valentine's Day party at the cafe, including decorations, themes, and interactive activities.)",
+      17
+    ],
+    [
+      "relaxing at home after a busy day at Hobbs Cafe, reflecting on the preparations for the Valentine's Day party (on the way to reviewing the guest list for the Valentine's Day party)",
+      0
+    ],
+    [
+      "relaxing at home after a busy day at Hobbs Cafe, reflecting on the preparations for the Valentine's Day party (conversing about Isabella Rodriguez and Eddy Lin discussing the details for a Valentine's Day party, including song selections, quotes, decorations, interactive activities, and special treats to create a romantic garden theme.)",
+      18
+    ],
+    [
+      "relaxing at home after a busy day at Hobbs Cafe, reflecting on the preparations for the Valentine's Day party (thinking about the decorations she needs to set up)",
+      10
+    ],
+    [
+      "relaxing at home after a busy day at Hobbs Cafe, reflecting on the preparations for the Valentine's Day party (considering the menu items for the party)",
+      10
+    ],
+    [
+      "relaxing at home after a busy day at Hobbs Cafe, reflecting on the preparations for the Valentine's Day party (planning the seating arrangement for the party)",
+      10
+    ],
+    [
+      "relaxing at home after a busy day at Hobbs Cafe, reflecting on the preparations for the Valentine's Day party (making a checklist of items to bring to the cafe tomorrow)",
+      10
     ],
     [
       "relaxing at home, enjoying a cup of tea and finalizing her plans for the Valentine's Day party tomorrow",
-      60
+      45
     ],
     [
       "relaxing at home, preparing mentally for the Valentine's Day party tomorrow and ensuring she has everything ready for her customers",
@@ -358,15 +422,15 @@
       60
     ]
   ],
-  "act_address": "<persona> Giorgio Rossi",
-  "act_start_time": "February 13, 2023, 16:07:20",
+  "act_address": "<persona> Eddy Lin",
+  "act_start_time": "February 13, 2023, 19:25:30",
   "act_duration": 18,
-  "act_description": "conversing about Isabella Rodriguez and Giorgio Rossi discussing the final details for their Valentine's Day party, including song suggestions, nature-inspired decorations, a collaborative art station, and quotes about love and nature.",
+  "act_description": "conversing about Isabella Rodriguez and Eddy Lin discussing the details for a Valentine's Day party, including song selections, quotes, decorations, interactive activities, and special treats to create a romantic garden theme.",
   "act_pronunciatio": "\ud83d\udcac",
   "act_event": [
     "Isabella Rodriguez",
     "chat with",
-    "Giorgio Rossi"
+    "Eddy Lin"
   ],
   "act_obj_description": null,
   "act_obj_pronunciatio": null,
@@ -375,83 +439,87 @@
     null,
     null
   ],
-  "chatting_with": "Giorgio Rossi",
+  "chatting_with": "Eddy Lin",
   "chat": [
     [
       "Isabella Rodriguez",
-      "Hey Giorgio, I hope you\u2019re enjoying your dinner! I was just finalizing the playlist for the Valentine's Day party. Do you have any last-minute song suggestions?"
+      "Hey Eddy! I was just thinking about the Valentine's Day party. Have you decided on which songs you want to include in the playlist? I think a romantic garden theme sounds perfect!"
     ],
     [
-      "Giorgio Rossi",
-      "Thanks, Isabella! I'm really looking forward to the party. How about adding 'Can't Help Falling in Love' by Elvis Presley? It has that romantic vibe that fits perfectly with the theme. Also, have you thought about including some instrumental pieces inspired by nature to tie in with the Fibonacci sequence?"
-    ],
-    [
-      "Isabella Rodriguez",
-      "That's a great suggestion! I love the idea of adding some nature-inspired instrumental pieces. Do you have any specific tracks in mind that would work well?"
-    ],
-    [
-      "Giorgio Rossi",
-      "I think we could include 'River Flows in You' by Yiruma; it has a beautiful flow that resonates with nature. Also, maybe something from Vivaldi's 'Four Seasons' to capture the essence of the changing seasons. What do you think?"
+      "Eddy Lin",
+      "Hey Isabella! I love the romantic garden theme idea! I'm thinking of including some classic love songs along with a few contemporary ones. Maybe we could add some quotes from Rumi and Pablo Neruda to set the mood? What do you think?"
     ],
     [
       "Isabella Rodriguez",
-      "Those are fantastic suggestions, Giorgio! 'River Flows in You' is perfect, and I love the idea of adding Vivaldi's 'Four Seasons' for that seasonal touch. Let's finalize those tracks! Is there anything else you'd like to contribute for the decorations or activities?"
+      "I love that idea! Mixing classic and contemporary love songs will definitely create a beautiful atmosphere. And incorporating those quotes will add a nice touch. Do you have any specific songs or quotes in mind?"
     ],
     [
-      "Giorgio Rossi",
-      "I was thinking about the decorations we discussed earlier. Have you decided on how to incorporate the Fibonacci sequence into the overall setup? Maybe we could create some spiral patterns with the lights or flowers?"
-    ],
-    [
-      "Isabella Rodriguez",
-      "I love that idea, Giorgio! Spiral patterns would look amazing and really emphasize the Fibonacci theme. We could use fairy lights or even arrange flowers in spirals. Let\u2019s brainstorm more on that! Do you have any other ideas for decorations or activities that can engage our guests?"
-    ],
-    [
-      "Giorgio Rossi",
-      "I also thought we could set up a collaborative art station where guests can create their own spiral art pieces inspired by the Fibonacci sequence. It could be a fun way to engage everyone and let them explore their creativity! What do you think?"
+      "Eddy Lin",
+      "I was thinking of including classics like 'At Last' by Etta James and 'Can't Help Falling in Love' by Elvis Presley, along with contemporary ones like 'Perfect' by Ed Sheeran and 'All of Me' by John Legend. For quotes, how about Rumi's 'Love is the bridge between you and everything' and Pablo Neruda's 'I love you without knowing how, or when, or from where'? What do you think?"
     ],
     [
       "Isabella Rodriguez",
-      "That's a brilliant idea, Giorgio! A collaborative art station would not only engage our guests but also create some unique pieces for the cafe. Let's set it up near the entrance so everyone can see it as they come in. Do you have any materials in mind that we should gather for that?"
+      "Those song choices are fantastic, Eddy! I can already imagine the lovely ambiance they'll create. And the quotes are so romantic; they'll definitely resonate with our customers. Do you think we should have a specific area for the music setup, or just let it flow throughout the cafe?"
     ],
     [
-      "Giorgio Rossi",
-      "I was thinking we could gather some colored paper, markers, and maybe some glitter to add a little sparkle. We could also provide some templates with Fibonacci patterns for inspiration. What do you think?"
-    ],
-    [
-      "Isabella Rodriguez",
-      "That sounds perfect, Giorgio! I love the idea of including templates for inspiration. Let\u2019s make sure we have everything ready by tomorrow. I'll check our supplies and let you know if we need anything else. Is there anything specific you want to focus on for the decorations before we wrap up?"
-    ],
-    [
-      "Giorgio Rossi",
-      "I think we should also consider adding some quotes about love and nature around the cafe to enhance the theme. It would create a cozy atmosphere and spark conversations among the guests. What do you think about that? Should we brainstorm some quotes together?"
+      "Eddy Lin",
+      "I think we should have a designated area for the music setup to create a focal point, but we can also let the music flow throughout the cafe to enhance the overall atmosphere. Maybe we could set up a small stage or a cozy corner for live performances? What do you think?"
     ],
     [
       "Isabella Rodriguez",
-      "I love that idea, Giorgio! Adding quotes about love and nature would really enhance the ambiance. Let's brainstorm some quotes together! Do you have any favorites in mind to start us off?"
+      "I love the idea of having a cozy corner for live performances! It would really enhance the romantic vibe of the party. Let's make sure we have some comfortable seating around that area too. Should we also consider some decorations to make it stand out?"
     ],
     [
-      "Giorgio Rossi",
-      "One of my favorites is by John Muir: 'In every walk with nature, one receives far more than he seeks.' It beautifully captures the relationship between nature and our experiences. What do you think? Do you have any quotes that you love?"
+      "Eddy Lin",
+      "Absolutely! I think we should use soft pastel colors for the decorations to match our romantic garden theme. Maybe some fairy lights and fresh flowers to create a warm atmosphere? What do you think would work best?"
     ],
     [
       "Isabella Rodriguez",
-      "That's a beautiful quote, Giorgio! I really love how it connects nature to our experiences. Another one I like is by Ralph Waldo Emerson: 'The creation of a thousand forests is in one acorn.' It speaks to the power of nature and growth. What do you think about that one?"
+      "I love the idea of using soft pastel colors and fairy lights! Fresh flowers will definitely add to the ambiance. Let's also think about some cute table centerpieces. Maybe we can create little arrangements with flowers and some of those romantic quotes? What do you think?"
     ],
     [
-      "Giorgio Rossi",
-      "I love that quote by Emerson! It really resonates with the theme we're going for. We could even create a beautiful display for the quotes in a Fibonacci spiral arrangement to tie everything together. Do you think we should include some more quotes, or do you feel we have enough?"
+      "Eddy Lin",
+      "That's a great idea, Isabella! We could use small vases with roses and peonies, and attach the quotes to the arrangements for a personal touch. Do you think we should have a specific color scheme for the flowers as well?"
+    ],
+    [
+      "Isabella Rodriguez",
+      "I think a mix of soft pinks and whites would be perfect for the flowers! It will complement our pastel theme beautifully. We can also add some greenery to give it a fresh look. What do you think about that?"
+    ],
+    [
+      "Eddy Lin",
+      "That sounds perfect! I love the idea of mixing soft pinks and whites with some greenery. It will create such a lovely ambiance. Should we also think about how to incorporate some interactive activities for our guests during the party?"
+    ],
+    [
+      "Isabella Rodriguez",
+      "Yes, I think interactive activities would be a great addition! Maybe we could have a DIY flower arrangement station where guests can create their own small bouquets to take home, or perhaps a love letter writing corner with some beautiful stationery? What do you think?"
+    ],
+    [
+      "Eddy Lin",
+      "Those are fantastic ideas, Isabella! A DIY flower arrangement station sounds like a lot of fun, and a love letter writing corner would definitely add a personal touch. We could even provide some prompts for the letters to help inspire people. What do you think?"
+    ],
+    [
+      "Isabella Rodriguez",
+      "I love the idea of providing prompts for the love letters! It will definitely help those who might be unsure of what to write. Let\u2019s brainstorm some prompts together. Also, should we consider any special treats or drinks for the party? I want to make it a memorable experience for everyone!"
+    ],
+    [
+      "Eddy Lin",
+      "Great idea, Isabella! We could have some heart-shaped cookies and maybe a signature cocktail like a raspberry spritzer. As for drinks, we can also offer a variety of teas and coffees to keep everyone cozy. What do you think? And let's definitely brainstorm those prompts for the love letters!"
     ]
   ],
   "chatting_with_buffer": {
-    "Sam Moore": 80,
-    "Giorgio Rossi": 800,
-    "Carlos Gomez": -64,
-    "Mei Lin": -1456,
-    "Eddy Lin": 494,
-    "Tom Moreno": -676,
-    "John Lin": -604
+    "Sam Moore": 302,
+    "Giorgio Rossi": -364,
+    "Carlos Gomez": -1264,
+    "Mei Lin": -2656,
+    "Eddy Lin": 800,
+    "Tom Moreno": -1876,
+    "John Lin": -1804,
+    "Klaus Mueller": -28,
+    "Ayesha Khan": 188,
+    "Ryan Park": 416,
+    "Maria Lopez": 680
   },
-  "chatting_end_time": "February 13, 2023, 16:26:00",
+  "chatting_end_time": "February 13, 2023, 19:44:00",
   "act_path_set": true,
   "planned_path": []
 }

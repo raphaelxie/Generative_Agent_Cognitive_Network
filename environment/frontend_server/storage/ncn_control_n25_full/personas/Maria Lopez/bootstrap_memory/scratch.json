@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    123,
-    57
+    75,
+    23
   ],
   "daily_plan_req": "Maria Lopez spends at least 6 hours a day Twitch streaming or gaming.",
   "name": "Maria Lopez",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 240,
-  "importance_ele_n": 8,
+  "importance_trigger_curr": 221,
+  "importance_ele_n": 9,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 10:00 am",
@@ -103,12 +103,88 @@
       120
     ],
     [
-      "having dinner at Hobbs Cafe",
-      120
+      "having dinner at Hobbs Cafe (ordering her meal)",
+      10
     ],
     [
-      "relaxing and unwinding with some light reading or watching a show",
-      60
+      "having dinner at Hobbs Cafe (on the way to waiting for her meal to arrive)",
+      0
+    ],
+    [
+      "having dinner at Hobbs Cafe (conversing about Maria Lopez and Wolfgang Schulz discussing dinner plans, sharing cooking tips, and making plans for a pizza night together.)",
+      13
+    ],
+    [
+      "having dinner at Hobbs Cafe (enjoying her appetizer)",
+      15
+    ],
+    [
+      "having dinner at Hobbs Cafe (eating her main course)",
+      30
+    ],
+    [
+      "having dinner at Hobbs Cafe (on the way to on the way to taking a moment to enjoy her drink)",
+      0
+    ],
+    [
+      "having dinner at Hobbs Cafe (conversing about Isabella Rodriguez and Maria Lopez discussing plans and ideas for a Valentine's Day party at the cafe, including decorations, themes, and interactive activities.)",
+      17
+    ],
+    [
+      "having dinner at Hobbs Cafe (conversing about Maria Lopez and Tom Moreno discussing the planning and decoration ideas for the upcoming Valentine's Day party at The Willow Market, including local flavors in cocktails and incorporating quotes about love and community.)",
+      10
+    ],
+    [
+      "having dinner at Hobbs Cafe (on the way to finishing her main course)",
+      0
+    ],
+    [
+      "having dinner at Hobbs Cafe (conversing about Maria Lopez and Sam Moore planning a Valentine's Day party, discussing incorporating quotes from Rumi and Pablo Neruda into decorations, interactive activities like a love note station, collaborating with local musicians, and creating a romantic garden theme with flowers and fairy lights.)",
+      16
+    ],
+    [
+      "having dinner at Hobbs Cafe (looking at the dessert menu)",
+      5
+    ],
+    [
+      "having dinner at Hobbs Cafe (ordering dessert)",
+      4
+    ],
+    [
+      "relaxing and unwinding with some light reading or watching a show (settling into a comfortable spot with her book or show)",
+      5
+    ],
+    [
+      "relaxing and unwinding with some light reading or watching a show (choosing a book or show to enjoy)",
+      5
+    ],
+    [
+      "relaxing and unwinding with some light reading or watching a show (reading the first few pages of her book or watching the opening scenes of the show)",
+      5
+    ],
+    [
+      "relaxing and unwinding with some light reading or watching a show (getting a snack or drink to enjoy while relaxing)",
+      5
+    ],
+    [
+      "relaxing and unwinding with some light reading or watching a show (continuing to read or watch, getting immersed in the story)",
+      10
+    ],
+    [
+      "relaxing and unwinding with some light reading or watching a show (taking a moment to reflect on what she\u2019s read or watched so far)",
+      5
+    ],
+    [
+      "relaxing and unwinding with some light reading or watching a show (resuming her reading or watching, focusing on the plot development)",
+      10
+    ],
+    [
+      "relaxing and unwinding with some light reading or watching a show (pausing to check her phone for any messages or notifications)",
+      5
+    ],
+    [
+      "relaxing and unwinding with some light reading or watching a show (finishing up the last few pages of her book or the final scenes of the show)",
+      10
     ],
     [
       "engaging with her Twitch community and planning upcoming streams",
@@ -173,27 +249,97 @@
       60
     ]
   ],
-  "act_address": "the Ville:Dorm for Oak Hill College:Maria Lopez's room:bed",
-  "act_start_time": "February 13, 2023, 08:00:00",
-  "act_duration": 600,
-  "act_description": "sleeping",
-  "act_pronunciatio": "\ud83d\ude34\ud83d\udca4",
+  "act_address": "<persona> Sam Moore",
+  "act_start_time": "February 13, 2023, 19:25:10",
+  "act_duration": 16,
+  "act_description": "conversing about Maria Lopez and Sam Moore planning a Valentine's Day party, discussing incorporating quotes from Rumi and Pablo Neruda into decorations, interactive activities like a love note station, collaborating with local musicians, and creating a romantic garden theme with flowers and fairy lights.",
+  "act_pronunciatio": "\ud83d\udcac",
   "act_event": [
     "Maria Lopez",
-    "is",
-    "sleep"
+    "chat with",
+    "Sam Moore"
   ],
-  "act_obj_description": "being used",
-  "act_obj_pronunciatio": "\ud83d\udd27\ud83d\udee0\ufe0f",
+  "act_obj_description": null,
+  "act_obj_pronunciatio": null,
   "act_obj_event": [
-    "bed",
-    "be",
-    "used"
+    null,
+    null,
+    null
   ],
-  "chatting_with": null,
-  "chat": null,
-  "chatting_with_buffer": {},
-  "chatting_end_time": null,
+  "chatting_with": "Sam Moore",
+  "chat": [
+    [
+      "Maria Lopez",
+      "Hey Sam! I couldn't help but overhear you discussing the Valentine's Day party. I love the idea of using quotes from Rumi and Pablo Neruda. Have you thought about how we can incorporate those into the decorations?"
+    ],
+    [
+      "Sam Moore",
+      "That's a great point, Maria! I was thinking we could create some decorative signs with the quotes that can be placed around the cafe. Maybe even have a few of them as part of the centerpieces on the tables. What do you think? Any other ideas on how to showcase the quotes?"
+    ],
+    [
+      "Maria Lopez",
+      "I love that idea! We could also have a board where people can write their favorite quotes or even their own love messages. It could be a fun interactive element for the party! What do you think?"
+    ],
+    [
+      "Sam Moore",
+      "That's a fantastic idea, Maria! I love the thought of having a board where guests can share their own quotes and love messages. It would definitely add a personal touch to the party. Do you have any other interactive activities in mind that we could incorporate?"
+    ],
+    [
+      "Maria Lopez",
+      "How about we set up a love note station where guests can write little notes to their loved ones? We could provide some cute stationery and maybe even a few prompts to help inspire them. It could be a great keepsake for the guests!"
+    ],
+    [
+      "Sam Moore",
+      "I love that idea, Maria! A love note station sounds perfect. We could even have a special box for guests to drop their notes in, and maybe read a few aloud during the party. It would definitely create a warm atmosphere. Do you think we should also consider some live music to enhance the vibe?"
+    ],
+    [
+      "Maria Lopez",
+      "Absolutely! Live music would really elevate the ambiance. Maybe we could collaborate with some local musicians? It would be a great way to support our community too. What do you think?"
+    ],
+    [
+      "Sam Moore",
+      "I think collaborating with local musicians is a wonderful idea! It not only supports them but also brings a unique flavor to our party. Do you have any particular musicians in mind, or should we reach out to the local music community to see who might be available?"
+    ],
+    [
+      "Maria Lopez",
+      "I think reaching out to the local music community would be a great approach! We might discover some hidden gems. Plus, we can ask for recommendations from our friends too. Let's brainstorm some names together!"
+    ],
+    [
+      "Sam Moore",
+      "That sounds like a plan, Maria! Let's jot down some names and maybe even create a list of genres we're interested in. I\u2019m sure we can find some talented musicians to make the evening special. How about we meet up later this week to finalize some details?"
+    ],
+    [
+      "Maria Lopez",
+      "That sounds great, Sam! How about we meet on Wednesday afternoon? We can grab a coffee and finalize everything. I\u2019m really excited about this party!"
+    ],
+    [
+      "Sam Moore",
+      "Wednesday afternoon works perfectly for me, Maria! I\u2019ll bring my notes on the musicians we\u2019ve discussed, and we can also brainstorm more ideas for the decorations and interactive activities. Looking forward to it!"
+    ],
+    [
+      "Maria Lopez",
+      "Awesome! I\u2019ll bring some ideas too. I\u2019m really looking forward to making this party unforgettable. See you on Wednesday!"
+    ],
+    [
+      "Sam Moore",
+      "Great! I'm glad we're on the same page. Do you think we should also think about some decorations that reflect the romantic garden theme? Maybe some flowers or fairy lights to create a cozy atmosphere?"
+    ],
+    [
+      "Maria Lopez",
+      "Definitely! We could have some beautiful flower arrangements and string lights to enhance that romantic garden feel. Maybe even some candles for a warm glow? I think those elements would really tie everything together."
+    ],
+    [
+      "Sam Moore",
+      "I love the idea of candles for a warm glow! It will definitely add to the cozy atmosphere we're aiming for. Let's also think about where to place everything\u2014maybe a few arrangements near the music area to create a nice focal point. What do you think?"
+    ]
+  ],
+  "chatting_with_buffer": {
+    "Wolfgang Schulz": 290,
+    "Tom Moreno": 566,
+    "Isabella Rodriguez": 680,
+    "Sam Moore": 800
+  },
+  "chatting_end_time": "February 13, 2023, 19:41:00",
   "act_path_set": true,
   "planned_path": []
 }

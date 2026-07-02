@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
     55,
-    67
+    69
   ],
   "daily_plan_req": "",
   "name": "Tamara Taylor",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 185,
-  "importance_ele_n": 13,
+  "importance_trigger_curr": 92,
+  "importance_ele_n": 40,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 6:00 am",
@@ -247,12 +247,52 @@
       15
     ],
     [
-      "having dinner with her housemate, Carmen Ortiz",
-      60
+      "having dinner with her housemate, Carmen Ortiz (setting the dining table)",
+      10
     ],
     [
-      "continuing her brainstorming session or working on final edits for her children's book series",
-      180
+      "having dinner with her housemate, Carmen Ortiz (preparing the meal)",
+      20
+    ],
+    [
+      "having dinner with her housemate, Carmen Ortiz (helping Tamara with the meal preparation)",
+      10
+    ],
+    [
+      "having dinner with her housemate, Carmen Ortiz (cooking the meal)",
+      15
+    ],
+    [
+      "having dinner with her housemate, Carmen Ortiz (plating the food)",
+      5
+    ],
+    [
+      "continuing her brainstorming session or working on final edits for her children's book series (continuing her brainstorming session)",
+      30
+    ],
+    [
+      "continuing her brainstorming session or working on final edits for her children's book series (outlining the main themes and characters for the new book)",
+      30
+    ],
+    [
+      "continuing her brainstorming session or working on final edits for her children's book series (writing the first draft of a new chapter)",
+      30
+    ],
+    [
+      "continuing her brainstorming session or working on final edits for her children's book series (reviewing and editing the first draft)",
+      30
+    ],
+    [
+      "continuing her brainstorming session or working on final edits for her children's book series (taking a short break to refresh her mind)",
+      10
+    ],
+    [
+      "continuing her brainstorming session or working on final edits for her children's book series (reading through feedback from her previous drafts)",
+      20
+    ],
+    [
+      "continuing her brainstorming session or working on final edits for her children's book series (incorporating feedback into the manuscript)",
+      30
     ],
     [
       "working on final edits for her children's book series",
@@ -326,17 +366,17 @@
     ]
   ],
   "act_address": "the Ville:Tamara Taylor and Carmen Ortiz's house:common room:common room table",
-  "act_start_time": "February 13, 2023, 16:06:00",
+  "act_start_time": "February 13, 2023, 19:36:00",
   "act_duration": 30,
-  "act_description": "continuing her brainstorming session or working on final edits for her children's book series (continuing her brainstorming session)",
-  "act_pronunciatio": "\ud83d\udca1\ud83d\udcdd",
+  "act_description": "continuing her brainstorming session or working on final edits for her children's book series (outlining the main themes and characters for the new book)",
+  "act_pronunciatio": "\ud83d\udcda\u270d\ufe0f",
   "act_event": [
     "Tamara Taylor",
-    "continue",
-    "brainstorming session"
+    "outline",
+    "main themes and characters for the new book"
   ],
-  "act_obj_description": "covered with notebooks, pens, and papers scattered around",
-  "act_obj_pronunciatio": "\ud83d\udcda\ud83d\udd8a\ufe0f",
+  "act_obj_description": "covered with notebooks, pens, and paper scattered around, with a laptop open showing a document in progress",
+  "act_obj_pronunciatio": "\ud83d\udcdd\ud83d\udcbb",
   "act_obj_event": [
     "common room table",
     "common room table",
@@ -345,7 +385,7 @@
   "chatting_with": null,
   "chat": null,
   "chatting_with_buffer": {
-    "Carmen Ortiz": -2074
+    "Carmen Ortiz": -3274
   },
   "chatting_end_time": null,
   "act_path_set": true,

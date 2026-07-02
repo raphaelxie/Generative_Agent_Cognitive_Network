@@ -2,10 +2,10 @@
   "vision_r": 8,
   "att_bandwidth": 8,
   "retention": 8,
-  "curr_time": "February 13, 2023, 16:19:50",
+  "curr_time": "February 13, 2023, 19:39:50",
   "curr_tile": [
-    107,
-    62
+    119,
+    24
   ],
   "daily_plan_req": "Wolfgang Schulz goes for a run at the part in the morning, studies during the day, and exercises at his room at night ",
   "name": "Wolfgang Schulz",
@@ -28,8 +28,8 @@
   "importance_w": 1,
   "recency_decay": 0.995,
   "importance_trigger_max": 250,
-  "importance_trigger_curr": 240,
-  "importance_ele_n": 8,
+  "importance_trigger_curr": 216,
+  "importance_ele_n": 12,
   "thought_count": 5,
   "daily_req": [
     "wake up and complete the morning routine at 8:00 am",
@@ -95,20 +95,88 @@
       60
     ],
     [
-      "having dinner",
-      60
+      "having dinner (preparing the ingredients for dinner)",
+      10
     ],
     [
-      "continuing to study or work on assignments",
-      180
+      "having dinner (on the way to cooking the main dish)",
+      0
+    ],
+    [
+      "having dinner (conversing about Maria Lopez and Wolfgang Schulz discussing their favorite dishes to cook, cooking techniques, and their enjoyment of experimenting with different recipes.)",
+      13
+    ],
+    [
+      "having dinner (setting the table)",
+      5
+    ],
+    [
+      "having dinner (plating the food)",
+      5
+    ],
+    [
+      "having dinner (on the way to pouring a drink)",
+      0
+    ],
+    [
+      "having dinner (conversing about Giorgio Rossi and Wolfgang Schulz discussing preparations for a Valentine's Day party, incorporating a Fibonacci theme into decorations, food, and activities.)",
+      20
+    ],
+    [
+      "having dinner (sitting down to eat)",
+      15
+    ],
+    [
+      "continuing to study or work on assignments (on the way to reviewing his class notes)",
+      0
+    ],
+    [
+      "continuing to study or work on assignments (conversing about Wolfgang Schulz and Carmen Ortiz discussing plans for a Valentine's Day party with a Fibonacci theme, including food arrangements, decorations, activities like trivia and cooking demonstrations, and promotional strategies.)",
+      17
+    ],
+    [
+      "continuing to study or work on assignments (reading the assigned textbook chapters)",
+      30
+    ],
+    [
+      "continuing to study or work on assignments (working on a chemistry assignment)",
+      30
+    ],
+    [
+      "continuing to study or work on assignments (taking a short break)",
+      10
+    ],
+    [
+      "continuing to study or work on assignments (reviewing his chemistry formulas)",
+      20
+    ],
+    [
+      "continuing to study or work on assignments (practicing problems from the textbook)",
+      30
+    ],
+    [
+      "continuing to study or work on assignments (summarizing key concepts in his study guide)",
+      20
+    ],
+    [
+      "continuing to study or work on assignments (organizing his study materials for the next session)",
+      10
     ],
     [
       "exercising in his room",
-      60
+      45
     ],
     [
       "sleeping",
       60
+    ],
+    [
+      "sleeping",
+      7
+    ],
+    [
+      "sleeping",
+      13
     ]
   ],
   "f_daily_schedule_hourly_org": [
@@ -149,26 +217,30 @@
       60
     ]
   ],
-  "act_address": "the Ville:Dorm for Oak Hill College:Wolfgang Schulz's room:bed",
-  "act_start_time": "February 13, 2023, 08:00:00",
-  "act_duration": 540,
-  "act_description": "sleeping",
-  "act_pronunciatio": "\ud83d\ude34\ud83d\udca4",
+  "act_address": "the Ville:Oak Hill College:library:library table",
+  "act_start_time": "February 13, 2023, 19:28:00",
+  "act_duration": 30,
+  "act_description": "continuing to study or work on assignments (reading the assigned textbook chapters)",
+  "act_pronunciatio": "\ud83d\udcda\ud83d\udc40",
   "act_event": [
     "Wolfgang Schulz",
-    "is",
-    "sleep"
+    "read",
+    "assigned textbook chapters"
   ],
-  "act_obj_description": "being used",
-  "act_obj_pronunciatio": "\ud83d\udee0\ufe0f\ud83d\udc64",
+  "act_obj_description": "being used for studying and reading textbooks",
+  "act_obj_pronunciatio": "\ud83d\udcda\ud83e\udde0",
   "act_obj_event": [
-    "bed",
-    "be",
-    "used"
+    "library table",
+    "use",
+    "studying and reading textbooks"
   ],
   "chatting_with": null,
   "chat": null,
-  "chatting_with_buffer": {},
+  "chatting_with_buffer": {
+    "Maria Lopez": 290,
+    "Giorgio Rossi": 500,
+    "Carmen Ortiz": 626
+  },
   "chatting_end_time": null,
   "act_path_set": true,
   "planned_path": []
