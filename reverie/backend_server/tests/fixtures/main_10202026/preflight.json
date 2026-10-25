@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "config": {
+    "protocol_version": "midnight-pilot-v1",
+    "model": "gpt-6-luna",
+    "embedding_model": "text-embedding-3-small",
+    "chat_endpoint": "https://api.openai.com/v1",
+    "embedding_endpoint": "https://api.openai.com/v1",
+    "reasoning_effort": "none",
+    "seed": 104729,
+    "survey_repeats": 3,
+    "source_digest": "34daaadc69ca0752ffda96daa6670d2083a1cc724161256cef4a8b552f85ee64",
+    "python": "3.11.5",
+    "dependencies": {
+      "openai": "2.43.0",
+      "numpy": "2.4.4",
+      "networkx": "3.6.1",
+      "scipy": "1.17.1",
+      "scikit-learn": "1.8.0"
+    },
+    "recent_minutes": 120,
+    "seconds_per_step": 10,
+    "end_step": 23040,
+    "survey_version": "recent-network-v1"
+  },
+  "embedding_dimensions": 1536,
+  "checked_at": "2026-10-20T02:23:11.788021"
+}

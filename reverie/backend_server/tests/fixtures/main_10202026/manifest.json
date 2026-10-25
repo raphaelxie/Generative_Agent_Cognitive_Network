@@ -1,0 +1,57 @@
+{
+  "run_name": "main_10202026",
+  "config": {
+    "protocol_version": "midnight-pilot-v1",
+    "model": "gpt-6-luna",
+    "embedding_model": "text-embedding-3-small",
+    "chat_endpoint": "https://api.openai.com/v1",
+    "embedding_endpoint": "https://api.openai.com/v1",
+    "reasoning_effort": "none",
+    "seed": 104729,
+    "survey_repeats": 3,
+    "source_digest": "34daaadc69ca0752ffda96daa6670d2083a1cc724161256cef4a8b552f85ee64",
+    "python": "3.11.5",
+    "dependencies": {
+      "openai": "2.43.0",
+      "numpy": "2.4.4",
+      "networkx": "3.6.1",
+      "scipy": "1.17.1",
+      "scikit-learn": "1.8.0"
+    },
+    "recent_minutes": 120,
+    "seconds_per_step": 10,
+    "end_step": 23040,
+    "survey_version": "recent-network-v1"
+  },
+  "status": "paused",
+  "arm": "control",
+  "step": 4075,
+  "sim_time": "2023-02-13T11:19:10",
+  "checkpoint_status": "searching",
+  "selected_checkpoint": null,
+  "snapshots": {
+    "0": {
+      "path": "snapshots/step_000000.pkl.gz",
+      "labels": [
+        "initial"
+      ]
+    },
+    "3600": {
+      "path": "snapshots/step_003600.pkl.gz",
+      "labels": [
+        "scheduled"
+      ]
+    }
+  },
+  "template": "/Users/mac/Documents/PythonNote/SocResearch/generative_agents-main/environment/frontend_server/storage/base_the_ville_n25",
+  "saved_at": "2026-10-20T17:01:13.788278+00:00",
+  "pause": {
+    "reason": "user_requested_save_after_api_connection_error",
+    "wall_time": "2026-10-20T17:01:09.225674+00:00",
+    "runtime_ended_at": "2026-10-20T16:02:35.269807+00:00",
+    "error_type": "APIConnectionError",
+    "saved_step": 4075,
+    "last_complete_live_step": 4080,
+    "unsaved_simulation_seconds": 50
+  }
+}

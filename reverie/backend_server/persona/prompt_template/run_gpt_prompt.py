@@ -7,6 +7,7 @@ interface with the safe_generate_response function.
 """
 import re
 import datetime
+import os
 import sys
 import ast
 
@@ -46,6 +47,11 @@ def run_gpt_prompt_wake_up_hour(persona, test_input=None, verbose=False):
   OUTPUT: 
     integer for the wake up hour.
   """
+  if os.environ.get("NCN_PILOT") == "1":
+    from pilot_schedule import generate_wake_hour
+    output, prompt = generate_wake_hour(persona)
+    return output, [output, prompt, {}, [], None]
+
   def create_prompt_input(persona, test_input=None): 
     if test_input: return test_input
     prompt_input = [persona.scratch.get_str_iss(),
@@ -100,6 +106,11 @@ def run_gpt_prompt_daily_plan(persona,
   OUTPUT: 
     a list of daily actions in broad strokes.
   """
+  if os.environ.get("NCN_PILOT") == "1":
+    from pilot_schedule import generate_daily_plan
+    output, prompt = generate_daily_plan(persona, wake_up_hour)
+    return output, [output, prompt, {"engine": DEFAULT_CHAT_MODEL}, [], None]
+
   def create_prompt_input(persona, wake_up_hour, test_input=None):
     if test_input: return test_input
     prompt_input = []
@@ -193,6 +204,12 @@ def run_gpt_prompt_generate_hourly_schedule(persona,
                                             intermission2=None,
                                             test_input=None, 
                                             verbose=False): 
+  if os.environ.get("NCN_PILOT") == "1":
+    from pilot_schedule import generate_hourly_activity
+    output, prompt = generate_hourly_activity(
+        persona, curr_hour_str, p_f_ds_hourly_org, hour_str, intermission2)
+    return output, [output, prompt, {"engine": DEFAULT_CHAT_MODEL}, [], None]
+
   def create_prompt_input(persona, 
                           curr_hour_str, 
                           p_f_ds_hourly_org,
@@ -368,6 +385,11 @@ def run_gpt_prompt_task_decomp(persona,
                                duration, 
                                test_input=None, 
                                verbose=False): 
+  if os.environ.get("NCN_PILOT") == "1":
+    from pilot_tasks import generate_task_parts
+    output, prompt = generate_task_parts(persona, task, duration)
+    return output, [output, prompt, {}, [], None]
+
   def create_prompt_input(persona, task, duration, test_input=None):
 
     """
@@ -654,7 +676,7 @@ def run_gpt_prompt_action_sector(action_description,
 
     action_description_1 = action_description
     action_description_2 = action_description
-    if "(" in action_description: 
+    if os.environ.get("NCN_PILOT") != "1" and "(" in action_description: 
       action_description_1 = action_description.split("(")[0].strip()
       action_description_2 = action_description.split("(")[-1][:-1]
     prompt_input += [persona.scratch.get_str_name()]
@@ -727,6 +749,13 @@ def run_gpt_prompt_action_sector(action_description,
   prompt_input = create_prompt_input(action_description, persona, maze)
   prompt = generate_prompt(prompt_input, prompt_template)
 
+  if os.environ.get("NCN_PILOT") == "1":
+    # Strict JSON contract; a failure raises instead of sending the agent home.
+    from pilot_actions import choose_sector
+    options = [i.strip() for i in prompt_input[7].split(",") if i.strip()]
+    output = choose_sector(prompt, options)
+    return output, [output, prompt, gpt_param, prompt_input, None]
+
   fail_safe = get_fail_safe()
   output = safe_generate_response(prompt, gpt_param, 5, fail_safe,
                                    __func_validate, __func_clean_up)
@@ -783,7 +812,7 @@ def run_gpt_prompt_action_arena(action_description,
 
     action_description_1 = action_description
     action_description_2 = action_description
-    if "(" in action_description: 
+    if os.environ.get("NCN_PILOT") != "1" and "(" in action_description: 
       action_description_1 = action_description.split("(")[0].strip()
       action_description_2 = action_description.split("(")[-1][:-1]
     prompt_input += [persona.scratch.get_str_name()]
@@ -837,6 +866,15 @@ def run_gpt_prompt_action_arena(action_description,
   prompt_input = create_prompt_input(action_description, persona, maze, act_world, act_sector)
   prompt = generate_prompt(prompt_input, prompt_template)
 
+  if os.environ.get("NCN_PILOT") == "1":
+    from pilot_actions import choose_arena
+    options = _accessible_arenas()
+    if not options:
+      output = get_fail_safe()  # no choice exists in this sector; not a model failure
+    else:
+      output = choose_arena(prompt, options)
+    return output, [output, prompt, gpt_param, prompt_input, None]
+
   fail_safe = get_fail_safe()
   output = safe_generate_response(prompt, gpt_param, 5, fail_safe,
                                    __func_validate, __func_clean_up)
@@ -864,7 +902,7 @@ def run_gpt_prompt_action_game_object(action_description,
                           temp_address, 
                           test_input=None): 
     prompt_input = []
-    if "(" in action_description: 
+    if os.environ.get("NCN_PILOT") != "1" and "(" in action_description: 
       action_description = action_description.split("(")[-1][:-1]
       
     prompt_input += [action_description]
@@ -898,6 +936,14 @@ def run_gpt_prompt_action_game_object(action_description,
                                      test_input)
   prompt = generate_prompt(prompt_input, prompt_template)
 
+  if os.environ.get("NCN_PILOT") == "1":
+    from pilot_actions import choose_object
+    options = [i.strip() for i in
+               persona.s_mem.get_str_accessible_arena_game_objects(temp_address).split(",")
+               if i.strip()]
+    output = choose_object(prompt, options) if options else "<random>"
+    return output, [output, prompt, gpt_param, prompt_input, None]
+
   fail_safe = get_fail_safe()
   output = safe_generate_response(prompt, gpt_param, 5, fail_safe,
                                    __func_validate, __func_clean_up)
@@ -919,7 +965,7 @@ def run_gpt_prompt_action_game_object(action_description,
 
 def run_gpt_prompt_pronunciatio(action_description, persona, verbose=False): 
   def create_prompt_input(action_description): 
-    if "(" in action_description: 
+    if os.environ.get("NCN_PILOT") != "1" and "(" in action_description: 
       action_description = action_description.split("(")[-1].split(")")[0]
     prompt_input = [action_description]
     return prompt_input
@@ -1011,7 +1057,7 @@ def run_gpt_prompt_pronunciatio(action_description, persona, verbose=False):
 
 def run_gpt_prompt_event_triple(action_description, persona, verbose=False): 
   def create_prompt_input(action_description, persona): 
-    if "(" in action_description: 
+    if os.environ.get("NCN_PILOT") != "1" and "(" in action_description: 
       action_description = action_description.split("(")[-1].split(")")[0]
     prompt_input = [persona.name, 
                     action_description,
@@ -1075,10 +1121,22 @@ def run_gpt_prompt_event_triple(action_description, persona, verbose=False):
   prompt_template = "persona/prompt_template/v2/generate_event_triple_v1.txt"
   prompt_input = create_prompt_input(action_description, persona)
   prompt = generate_prompt(prompt_input, prompt_template)
+
+  if os.environ.get("NCN_PILOT") == "1":
+    from pilot_actions import generate_triple
+    predicate, obj = generate_triple(prompt, "Event triple")
+    output = (persona.name, predicate, obj)
+    return output, [output, prompt, gpt_param, prompt_input, None]
+
   fail_safe = get_fail_safe(persona) ########
   output = safe_generate_response(prompt, gpt_param, 5, fail_safe,
                                    __func_validate, __func_clean_up)
-  output = (persona.name, output[0], output[1])
+  # The fail-safe is already a full (subject, predicate, object) triple; only a
+  # parsed [predicate, object] pair needs the subject prepended.
+  if len(output) == 3:
+    output = tuple(output)
+  else:
+    output = (persona.name, output[0], output[1])
 
   if debug or verbose: 
     print_run_prompts(prompt_template, persona, gpt_param, 
@@ -1209,10 +1267,20 @@ def run_gpt_prompt_act_obj_event_triple(act_game_object, act_obj_desc, persona, 
   prompt_template = "persona/prompt_template/v2/generate_event_triple_v1.txt"
   prompt_input = create_prompt_input(act_game_object, act_obj_desc)
   prompt = generate_prompt(prompt_input, prompt_template)
+
+  if os.environ.get("NCN_PILOT") == "1":
+    from pilot_actions import generate_triple
+    predicate, obj = generate_triple(prompt, "Object event triple")
+    output = (act_game_object, predicate, obj)
+    return output, [output, prompt, gpt_param, prompt_input, None]
+
   fail_safe = get_fail_safe(act_game_object)
   output = safe_generate_response(prompt, gpt_param, 5, fail_safe,
                                    __func_validate, __func_clean_up)
-  output = (act_game_object, output[0], output[1])
+  if len(output) == 3:
+    output = tuple(output)
+  else:
+    output = (act_game_object, output[0], output[1])
 
   if debug or verbose: 
     print_run_prompts(prompt_template, persona, gpt_param, 
@@ -1233,6 +1301,10 @@ def run_gpt_prompt_new_decomp_schedule(persona,
                                        inserted_act_dur,
                                        test_input=None, 
                                        verbose=False): 
+  if os.environ.get("NCN_PILOT") == "1":
+    from pilot_schedule import PilotScheduleError
+    raise PilotScheduleError("Pilot reactions must use structured reschedule_reaction")
+
   def create_prompt_input(persona, 
                            main_act_dur, 
                            truncated_act_dur, 
@@ -1401,7 +1473,7 @@ def run_gpt_prompt_decide_to_talk(persona, target_persona, retrieved,test_input=
 
     curr_time = init_persona.scratch.curr_time.strftime("%B %d, %Y, %H:%M:%S %p")
     init_act_desc = init_persona.scratch.act_description
-    if "(" in init_act_desc: 
+    if os.environ.get("NCN_PILOT") != "1" and "(" in init_act_desc: 
       init_act_desc = init_act_desc.split("(")[-1][:-1]
     
     if len(init_persona.scratch.planned_path) == 0 and "waiting" not in init_act_desc: 
@@ -1412,7 +1484,7 @@ def run_gpt_prompt_decide_to_talk(persona, target_persona, retrieved,test_input=
       init_p_desc = f"{init_persona.name} is on the way to {init_act_desc}"
 
     target_act_desc = target_persona.scratch.act_description
-    if "(" in target_act_desc: 
+    if os.environ.get("NCN_PILOT") != "1" and "(" in target_act_desc: 
       target_act_desc = target_act_desc.split("(")[-1][:-1]
     
     if len(target_persona.scratch.planned_path) == 0 and "waiting" not in init_act_desc: 
@@ -1465,6 +1537,13 @@ def run_gpt_prompt_decide_to_talk(persona, target_persona, retrieved,test_input=
                                      test_input)
   prompt = generate_prompt(prompt_input, prompt_template)
 
+  if os.environ.get("NCN_PILOT") == "1":
+    # A parse failure must not become "yes": that would create conversation
+    # edges from formatting errors instead of agent decisions.
+    from pilot_actions import decide_yes_no
+    output = decide_yes_no(prompt)
+    return output, [output, prompt, gpt_param, prompt_input, None]
+
   fail_safe = get_fail_safe()
   output = safe_generate_response(prompt, gpt_param, 5, fail_safe,
                                    __func_validate, __func_clean_up)
@@ -1498,7 +1577,7 @@ def run_gpt_prompt_decide_to_react(persona, target_persona, retrieved,test_input
 
     curr_time = init_persona.scratch.curr_time.strftime("%B %d, %Y, %H:%M:%S %p")
     init_act_desc = init_persona.scratch.act_description
-    if "(" in init_act_desc: 
+    if os.environ.get("NCN_PILOT") != "1" and "(" in init_act_desc: 
       init_act_desc = init_act_desc.split("(")[-1][:-1]
     if len(init_persona.scratch.planned_path) == 0: 
       loc = ""
@@ -1512,7 +1591,7 @@ def run_gpt_prompt_decide_to_react(persona, target_persona, retrieved,test_input
       init_p_desc = f"{init_persona.name} is on the way to {init_act_desc} at {loc}"
 
     target_act_desc = target_persona.scratch.act_description
-    if "(" in target_act_desc: 
+    if os.environ.get("NCN_PILOT") != "1" and "(" in target_act_desc: 
       target_act_desc = target_act_desc.split("(")[-1][:-1]
     if len(target_persona.scratch.planned_path) == 0: 
       loc = ""
@@ -1562,6 +1641,11 @@ def run_gpt_prompt_decide_to_react(persona, target_persona, retrieved,test_input
   prompt_input = create_prompt_input(persona, target_persona, retrieved,
                                      test_input)
   prompt = generate_prompt(prompt_input, prompt_template)
+
+  if os.environ.get("NCN_PILOT") == "1":
+    from pilot_actions import decide_option
+    output = decide_option(prompt, (1, 2))
+    return output, [output, prompt, gpt_param, prompt_input, None]
 
   fail_safe = get_fail_safe()
   output = safe_generate_response(prompt, gpt_param, 5, fail_safe,

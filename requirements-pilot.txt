@@ -1,0 +1,9 @@
+# Small runtime overlay for the existing project; manifest records exact installed versions.
+openai>=1.0
+python-dotenv>=1.0
+numpy>=1.25
+networkx>=3.0
+scipy>=1.11
+scikit-learn>=1.3
+selenium>=4.8
+pytest>=7

@@ -19,6 +19,7 @@ import os
 import hashlib
 
 from openai import OpenAI
+from pilot_api import chat_arguments, record_usage, PilotAPIError, raise_if_failed
 
 
 class _HardTimeout(Exception):
@@ -139,6 +140,7 @@ def _extract_chat_text(message) -> str:
 # ----------------------------------------------------------------------------
 
 def _chat(prompt: str, model: str = None, temperature: float = 0.7, max_tokens: int = None, stop=None) -> str:
+    raise_if_failed()
     temp_sleep()
     used_model = (model or DEFAULT_CHAT_MODEL)
 
@@ -164,7 +166,9 @@ def _chat(prompt: str, model: str = None, temperature: float = 0.7, max_tokens: 
             temperature=temperature,
             max_tokens=max_tokens,
         )
-        if stop:
+        if os.environ.get("NCN_PILOT") == "1":
+            api_kwargs = chat_arguments(used_model, prompt, max_tokens)
+        elif stop:
             api_kwargs["stop"] = stop
         resp = _with_hard_timeout(
             lambda: client.chat.completions.create(**api_kwargs),
@@ -180,9 +184,16 @@ def _chat(prompt: str, model: str = None, temperature: float = 0.7, max_tokens: 
             "error": str(e)[:500],
         }, "LLM-B")
         # #endregion
+        record_usage("chat", used_model, error=e)
+        if os.environ.get("NCN_PILOT") == "1":
+            raise PilotAPIError(f"Chat API failed: {type(e).__name__}") from e
         raise
+    record_usage("chat", used_model, resp)
     msg = resp.choices[0].message
     text = _extract_chat_text(msg)
+    if os.environ.get("NCN_PILOT") == "1" and stop:
+        for delimiter in ([stop] if isinstance(stop, str) else stop):
+            text = text.split(delimiter, 1)[0]
     finish_reason = getattr(resp.choices[0], "finish_reason", None)
     # #region agent log
     if (not (msg.content or "").strip()
@@ -469,6 +480,7 @@ def safe_generate_response(prompt,
 # ----------------------------------------------------------------------------
 
 def get_embedding(text: str, model: str = None):
+    raise_if_failed()
     text = text.replace("\n", " ")
     used_model = model or DEFAULT_EMBED_MODEL
 
@@ -494,8 +506,12 @@ def get_embedding(text: str, model: str = None):
             "error": str(e)[:500],
         }, "EMBED-B")
         # #endregion
+        record_usage("embed", used_model, error=e)
+        if os.environ.get("NCN_PILOT") == "1":
+            raise PilotAPIError(f"Embedding API failed: {type(e).__name__}") from e
         raise
 
+    record_usage("embed", used_model, resp)
     embedding = resp.data[0].embedding
     # #region agent log
     _dbg2483ef("after_embedding_request", {

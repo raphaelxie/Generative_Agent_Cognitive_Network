@@ -108,3 +108,15 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# Midnight pilot snapshots, survey output and API usage stay local
+pilot_runs/
+.pytest_cache/
+
+# Fresh simulation logs. Already-tracked historical runs stay in history.
+reverie/backend_server/runs/main_10202026/
+reverie/backend_server/runs/midnight_pilot/
+reverie/backend_server/runs/smoke_mobility_v4/
+
+# Local editor logs
+.cursor/

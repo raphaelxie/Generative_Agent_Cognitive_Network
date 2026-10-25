@@ -5,6 +5,7 @@ File: plan.py
 Description: This defines the "Plan" module for generative agents. 
 """
 import datetime
+import os
 import math
 import random 
 import sys
@@ -12,6 +13,7 @@ import time
 sys.path.append('../../')
 
 from global_methods import *
+from pilot_sleep import prewake_sleep
 from persona.prompt_template.run_gpt_prompt import *
 from persona.cognitive_modules.retrieve import *
 from persona.cognitive_modules.converse import *
@@ -109,12 +111,19 @@ def generate_hourly_schedule(persona, wake_up_hour):
     if len(n_m1_activity_set) < 5: 
       n_m1_activity = []
       for count, curr_hour_str in enumerate(hour_str): 
-        if wake_up_hour > 0: 
+        if (prewake_sleep(count, wake_up_hour, persona.scratch.lifestyle)
+            if os.environ.get("NCN_PILOT") == "1" else count < wake_up_hour):
           n_m1_activity += ["sleeping"]
-          wake_up_hour -= 1
         else: 
+          extra = {}
+          if os.environ.get("NCN_PILOT") == "1":
+            extra["intermission2"] = (
+                "Respect the lifestyle bedtime across midnight. If bedtime is "
+                "after midnight, earlier hours continue the previous evening's "
+                "activities; do not assume everyone is already asleep at 00:00. "
+                f"Today's generated wake-up hour is {wake_up_hour}:00.")
           n_m1_activity += [run_gpt_prompt_generate_hourly_schedule(
-                          persona, curr_hour_str, n_m1_activity, hour_str)[0]]
+                          persona, curr_hour_str, n_m1_activity, hour_str, **extra)[0]]
   
   # Step 1. Compressing the hourly schedule to the following format: 
   # The integer indicates the number of hours. They should add up to 24. 
@@ -322,6 +331,9 @@ def generate_decide_to_react(init_persona, target_persona, retrieved):
 
 
 def generate_new_decomp_schedule(persona, inserted_act, inserted_act_dur,  start_hour, end_hour): 
+  if os.environ.get("NCN_PILOT") == "1":
+    from pilot_schedule import PilotScheduleError
+    raise PilotScheduleError("Pilot reactions must use structured reschedule_reaction")
   # Step 1: Setting up the core variables for the function. 
   # <p> is the persona whose schedule we are editing right now. 
   p = persona
@@ -455,6 +467,9 @@ def revise_identity(persona):
 
   persona.scratch.currently = new_currently
 
+  if os.environ.get("NCN_PILOT") == "1":
+    return
+
   daily_req_prompt = persona.scratch.get_str_iss() + "\n"
   daily_req_prompt += f"Today is {persona.scratch.curr_time.strftime('%A %B %d')}. Here is {persona.scratch.name}'s plan today in broad-strokes (with the time of the day. e.g., have a lunch at 12:00 pm, watch TV from 7 to 8 pm).\n\n"
   daily_req_prompt += f"Follow this format (the list should have 4~6 items but no more):\n"
@@ -494,15 +509,21 @@ def _long_term_planning(persona, new_day):
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - TODO
     # We need to create a new daily_req here...
-    persona.scratch.daily_req = persona.scratch.daily_req
+    if os.environ.get("NCN_PILOT") == "1":
+      persona.scratch.daily_req = generate_first_daily_plan(persona, wake_up_hour)
+      persona.scratch.daily_plan_req = "; ".join(persona.scratch.daily_req)
+    else:
+      persona.scratch.daily_req = persona.scratch.daily_req
 
   # Based on the daily_req, we create an hourly schedule for the persona, 
   # which is a list of todo items with a time duration (in minutes) that 
   # add up to 24 hours.
   persona.scratch.f_daily_schedule = generate_hourly_schedule(persona, 
                                                               wake_up_hour)
-  persona.scratch.f_daily_schedule_hourly_org = (persona.scratch
-                                                   .f_daily_schedule[:])
+  persona.scratch.f_daily_schedule_hourly_org = [row[:] for row in persona.scratch.f_daily_schedule]
+  if os.environ.get("NCN_PILOT") == "1":
+    from pilot_tasks import initialize_day
+    initialize_day(persona.scratch, persona.scratch.f_daily_schedule)
 
 
   # Added March 4 -- adding plan to the memory.
@@ -559,68 +580,75 @@ def _determine_action(persona, maze):
         return False
     return True
 
-  # The goal of this function is to get us the action associated with 
-  # <curr_index>. As a part of this, we may need to decompose some large 
-  # chunk actions. 
-  # Importantly, we try to decompose at least two hours worth of schedule at
-  # any given point. 
-  curr_index = persona.scratch.get_f_daily_schedule_index()
-  curr_index_60 = persona.scratch.get_f_daily_schedule_index(advance=60)
+  if os.environ.get("NCN_PILOT") == "1":
+    from pilot_tasks import prepare_actions, current_action_end
+    curr_index = prepare_actions(persona, generate_task_decomp)
+    act_desp, _ = persona.scratch.f_daily_schedule[curr_index]
+    planned_end = current_action_end(persona.scratch)
+    act_dura = max(1, math.ceil((planned_end-persona.scratch.curr_time).total_seconds()/60))
+  else:
+    # The goal of this function is to get us the action associated with 
+    # <curr_index>. As a part of this, we may need to decompose some large 
+    # chunk actions. 
+    # Importantly, we try to decompose at least two hours worth of schedule at
+    # any given point. 
+    curr_index = persona.scratch.get_f_daily_schedule_index()
+    curr_index_60 = persona.scratch.get_f_daily_schedule_index(advance=60)
 
-  # * Decompose * 
-  # During the first hour of the day, we need to decompose two hours 
-  # sequence. We do that here. 
-  if curr_index == 0:
-    # This portion is invoked if it is the first hour of the day. 
-    act_desp, act_dura = persona.scratch.f_daily_schedule[curr_index]
-    if act_dura >= 60: 
-      # We decompose if the next action is longer than an hour, and fits the
-      # criteria described in determine_decomp.
-      if determine_decomp(act_desp, act_dura): 
-        persona.scratch.f_daily_schedule[curr_index:curr_index+1] = (
-                            generate_task_decomp(persona, act_desp, act_dura))
-    if curr_index_60 + 1 < len(persona.scratch.f_daily_schedule):
-      act_desp, act_dura = persona.scratch.f_daily_schedule[curr_index_60+1]
+    # * Decompose * 
+    # During the first hour of the day, we need to decompose two hours 
+    # sequence. We do that here. 
+    if curr_index == 0:
+      # This portion is invoked if it is the first hour of the day. 
+      act_desp, act_dura = persona.scratch.f_daily_schedule[curr_index]
       if act_dura >= 60: 
+        # We decompose if the next action is longer than an hour, and fits the
+        # criteria described in determine_decomp.
         if determine_decomp(act_desp, act_dura): 
-          persona.scratch.f_daily_schedule[curr_index_60+1:curr_index_60+2] = (
-                            generate_task_decomp(persona, act_desp, act_dura))
-
-  if curr_index_60 < len(persona.scratch.f_daily_schedule):
-    # If it is not the first hour of the day, this is always invoked (it is
-    # also invoked during the first hour of the day -- to double up so we can
-    # decompose two hours in one go). Of course, we need to have something to
-    # decompose as well, so we check for that too. 
-    if persona.scratch.curr_time.hour < 23:
-      # And we don't want to decompose after 11 pm. 
-      act_desp, act_dura = persona.scratch.f_daily_schedule[curr_index_60]
-      if act_dura >= 60: 
-        if determine_decomp(act_desp, act_dura): 
-          persona.scratch.f_daily_schedule[curr_index_60:curr_index_60+1] = (
+          persona.scratch.f_daily_schedule[curr_index:curr_index+1] = (
                               generate_task_decomp(persona, act_desp, act_dura))
-  # * End of Decompose * 
+      if curr_index_60 + 1 < len(persona.scratch.f_daily_schedule):
+        act_desp, act_dura = persona.scratch.f_daily_schedule[curr_index_60+1]
+        if act_dura >= 60: 
+          if determine_decomp(act_desp, act_dura): 
+            persona.scratch.f_daily_schedule[curr_index_60+1:curr_index_60+2] = (
+                              generate_task_decomp(persona, act_desp, act_dura))
 
-  # Generate an <Action> instance from the action description and duration. By
-  # this point, we assume that all the relevant actions are decomposed and 
-  # ready in f_daily_schedule. 
-  print ("DEBUG LJSDLFSKJF")
-  for i in persona.scratch.f_daily_schedule: print (i)
-  print (curr_index)
-  print (len(persona.scratch.f_daily_schedule))
-  print (persona.scratch.name)
-  print ("------")
+    if curr_index_60 < len(persona.scratch.f_daily_schedule):
+      # If it is not the first hour of the day, this is always invoked (it is
+      # also invoked during the first hour of the day -- to double up so we can
+      # decompose two hours in one go). Of course, we need to have something to
+      # decompose as well, so we check for that too. 
+      if persona.scratch.curr_time.hour < 23:
+        # And we don't want to decompose after 11 pm. 
+        act_desp, act_dura = persona.scratch.f_daily_schedule[curr_index_60]
+        if act_dura >= 60: 
+          if determine_decomp(act_desp, act_dura): 
+            persona.scratch.f_daily_schedule[curr_index_60:curr_index_60+1] = (
+                                generate_task_decomp(persona, act_desp, act_dura))
+    # * End of Decompose * 
 
-  x_emergency = 0
-  for i in persona.scratch.f_daily_schedule: 
-    x_emergency += i[1]
+    # Generate an <Action> instance from the action description and duration. By
+    # this point, we assume that all the relevant actions are decomposed and 
+    # ready in f_daily_schedule. 
+    print ("DEBUG LJSDLFSKJF")
+    for i in persona.scratch.f_daily_schedule: print (i)
+    print (curr_index)
+    print (len(persona.scratch.f_daily_schedule))
+    print (persona.scratch.name)
+    print ("------")
 
-  if 1440 - x_emergency > 0: 
-    persona.scratch.f_daily_schedule += [["sleeping", 1440 - x_emergency]]
+    x_emergency = 0
+    for i in persona.scratch.f_daily_schedule: 
+      x_emergency += i[1]
+
+    if 1440 - x_emergency > 0: 
+      persona.scratch.f_daily_schedule += [["sleeping", 1440 - x_emergency]]
   
 
 
 
-  act_desp, act_dura = persona.scratch.f_daily_schedule[curr_index] 
+    act_desp, act_dura = persona.scratch.f_daily_schedule[curr_index] 
 
 
 
@@ -655,6 +683,8 @@ def _determine_action(persona, maze):
                                  act_obj_desp, 
                                  act_obj_pron, 
                                  act_obj_event)
+  if os.environ.get("NCN_PILOT") == "1":
+    persona.scratch.pilot_action_end_time = planned_end
 
 
 def _choose_retrieved(persona, retrieved): 
@@ -821,38 +851,42 @@ def _create_react(persona, inserted_act, inserted_act_dur,
                   act_obj_event, act_start_time=None): 
   p = persona 
 
-  min_sum = 0
-  for i in range (p.scratch.get_f_daily_schedule_hourly_org_index()): 
-    min_sum += p.scratch.f_daily_schedule_hourly_org[i][1]
-  start_hour = int (min_sum/60)
+  if os.environ.get("NCN_PILOT") == "1":
+    from pilot_tasks import reschedule_reaction
+    reschedule_reaction(p, inserted_act, inserted_act_dur)
+  else:
+    min_sum = 0
+    for i in range (p.scratch.get_f_daily_schedule_hourly_org_index()): 
+      min_sum += p.scratch.f_daily_schedule_hourly_org[i][1]
+    start_hour = int (min_sum/60)
 
-  if (p.scratch.f_daily_schedule_hourly_org[p.scratch.get_f_daily_schedule_hourly_org_index()][1] >= 120):
-    end_hour = start_hour + p.scratch.f_daily_schedule_hourly_org[p.scratch.get_f_daily_schedule_hourly_org_index()][1]/60
+    if (p.scratch.f_daily_schedule_hourly_org[p.scratch.get_f_daily_schedule_hourly_org_index()][1] >= 120):
+      end_hour = start_hour + p.scratch.f_daily_schedule_hourly_org[p.scratch.get_f_daily_schedule_hourly_org_index()][1]/60
 
-  elif (p.scratch.f_daily_schedule_hourly_org[p.scratch.get_f_daily_schedule_hourly_org_index()][1] + 
-      p.scratch.f_daily_schedule_hourly_org[p.scratch.get_f_daily_schedule_hourly_org_index()+1][1]): 
-    end_hour = start_hour + ((p.scratch.f_daily_schedule_hourly_org[p.scratch.get_f_daily_schedule_hourly_org_index()][1] + 
-              p.scratch.f_daily_schedule_hourly_org[p.scratch.get_f_daily_schedule_hourly_org_index()+1][1])/60)
+    elif (p.scratch.f_daily_schedule_hourly_org[p.scratch.get_f_daily_schedule_hourly_org_index()][1] + 
+        p.scratch.f_daily_schedule_hourly_org[p.scratch.get_f_daily_schedule_hourly_org_index()+1][1]): 
+      end_hour = start_hour + ((p.scratch.f_daily_schedule_hourly_org[p.scratch.get_f_daily_schedule_hourly_org_index()][1] + 
+                p.scratch.f_daily_schedule_hourly_org[p.scratch.get_f_daily_schedule_hourly_org_index()+1][1])/60)
 
-  else: 
-    end_hour = start_hour + 2
-  end_hour = int(end_hour)
+    else: 
+      end_hour = start_hour + 2
+    end_hour = int(end_hour)
 
-  dur_sum = 0
-  count = 0 
-  start_index = None
-  end_index = None
-  for act, dur in p.scratch.f_daily_schedule: 
-    if dur_sum >= start_hour * 60 and start_index == None:
-      start_index = count
-    if dur_sum >= end_hour * 60 and end_index == None: 
-      end_index = count
-    dur_sum += dur
-    count += 1
+    dur_sum = 0
+    count = 0 
+    start_index = None
+    end_index = None
+    for act, dur in p.scratch.f_daily_schedule: 
+      if dur_sum >= start_hour * 60 and start_index == None:
+        start_index = count
+      if dur_sum >= end_hour * 60 and end_index == None: 
+        end_index = count
+      dur_sum += dur
+      count += 1
 
-  ret = generate_new_decomp_schedule(p, inserted_act, inserted_act_dur, 
-                                       start_hour, end_hour)
-  p.scratch.f_daily_schedule[start_index:end_index] = ret
+    ret = generate_new_decomp_schedule(p, inserted_act, inserted_act_dur, 
+                                         start_hour, end_hour)
+    p.scratch.f_daily_schedule[start_index:end_index] = ret
   p.scratch.add_new_action(act_address,
                            inserted_act_dur,
                            inserted_act,
@@ -918,12 +952,17 @@ def _chat_react(maze, persona, focused_event, reaction_mode, personas):
 def _wait_react(persona, reaction_mode): 
   p = persona
 
-  inserted_act = f'waiting to start {p.scratch.act_description.split("(")[-1][:-1]}'
   end_time = datetime.datetime.strptime(reaction_mode[6:].strip(), "%B %d, %Y, %H:%M:%S")
-  inserted_act_dur = (end_time.minute + end_time.hour * 60) - (p.scratch.curr_time.minute + p.scratch.curr_time.hour * 60) + 1
+  if os.environ.get("NCN_PILOT") == "1":
+    wait_target = p.scratch.act_description
+    inserted_act_dur = max(1, math.ceil((end_time-p.scratch.curr_time).total_seconds()/60))
+  else:
+    wait_target = p.scratch.act_description.split("(")[-1][:-1]
+    inserted_act_dur = (end_time.minute + end_time.hour * 60) - (p.scratch.curr_time.minute + p.scratch.curr_time.hour * 60) + 1
+  inserted_act = f"waiting to start {wait_target}"
 
   act_address = f"<waiting> {p.scratch.curr_tile[0]} {p.scratch.curr_tile[1]}"
-  act_event = (p.name, "waiting to start", p.scratch.act_description.split("(")[-1][:-1])
+  act_event = (p.name, "waiting to start", wait_target)
   chatting_with = None
   chat = None
   chatting_with_buffer = None

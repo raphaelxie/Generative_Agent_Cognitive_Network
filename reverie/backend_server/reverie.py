@@ -413,7 +413,7 @@ class ReverieServer:
     # e.g., ('double studio[...]:bed', None, None, None)
     # So we need to keep track of which event we added. 
     # <game_obj_cleanup> is used for that. 
-    game_obj_cleanup = dict()
+    game_obj_cleanup = getattr(self, "game_obj_cleanup", {})
 
     # The main while loop of Reverie. 
     while (True): 
@@ -480,6 +480,11 @@ class ReverieServer:
                        None, None, None)
               self.maze.remove_event_from_tile(blank, new_tile)
 
+          self.game_obj_cleanup = game_obj_cleanup
+          if os.environ.get("NCN_PILOT") == "1":
+            from pilot_api import set_context
+            set_context("simulation", self.curr_time, self.step)
+
           # Then we need to actually have each of the personas perceive and
           # move. The movement for each of the personas comes in the form of
           # x y coordinates where the persona will move towards. e.g., (50, 34)
@@ -495,6 +500,9 @@ class ReverieServer:
             next_tile, pronunciatio, description = persona.move(
               self.maze, self.personas, self.personas_tile[persona_name], 
               self.curr_time)
+            if os.environ.get("NCN_PILOT") == "1":
+              from pilot_api import raise_if_failed
+              raise_if_failed()
             movements["persona"][persona_name] = {}
             movements["persona"][persona_name]["movement"] = next_tile
             movements["persona"][persona_name]["pronunciatio"] = pronunciatio
@@ -518,6 +526,13 @@ class ReverieServer:
           os.makedirs(_dbg_move_parent, exist_ok=True)
           with open(curr_move_file, "w") as outfile: 
             outfile.write(json.dumps(movements, indent=2))
+          if os.environ.get("NCN_PILOT") == "1":
+            from pilot_state import atomic_json
+            self.pilot_next_environment = {
+                name: {"x": info["movement"][0], "y": info["movement"][1]}
+                for name, info in movements["persona"].items()}
+            atomic_json(f"{sim_folder}/environment/{self.step + 1}.json",
+                        self.pilot_next_environment)
           # #region agent log
           _dbg2483ef("movement_written", {
             "step": self.step,

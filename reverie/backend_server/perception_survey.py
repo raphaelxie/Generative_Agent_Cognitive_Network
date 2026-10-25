@@ -83,7 +83,7 @@ def _restore_last_accessed(personas, snap):
 # lockstep.
 
 def _retrieve_with_diagnostics(persona, focal, query_target_person,
-                                n_count=50):
+                                n_count=50, include_timestamps=False):
     """Retrieve top-k memory nodes and return (statements_str, diagnostics).
 
     diagnostics is a dict with keys:
@@ -142,7 +142,12 @@ def _retrieve_with_diagnostics(persona, focal, query_target_person,
         pred = getattr(node, "predicate", "") or ""
         obj = getattr(node, "object", "") or ""
 
-        statements_parts.append(ek)
+        if include_timestamps:
+            stamp = node.created.strftime(DT_FMT)
+            kind = getattr(node, "type", "memory")
+            statements_parts.append(f"[{kind} recorded {stamp}] {ek}")
+        else:
+            statements_parts.append(ek)
 
         text_pool = f"{ek} {subj} {obj}".lower()
         mentions_qt = (qt_lower in text_pool) if qt_lower else None

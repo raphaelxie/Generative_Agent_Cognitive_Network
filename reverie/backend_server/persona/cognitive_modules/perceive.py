@@ -4,6 +4,7 @@ Author: Joon Sung Park (joonspk@stanford.edu)
 File: perceive.py
 Description: This defines the "Perceive" module for generative agents. 
 """
+import os
 import sys
 sys.path.append('../../')
 
@@ -134,7 +135,7 @@ def perceive(persona, maze):
 
       # Get event embedding
       desc_embedding_in = desc
-      if "(" in desc: 
+      if os.environ.get("NCN_PILOT") != "1" and "(" in desc: 
         desc_embedding_in = (desc_embedding_in.split("(")[1]
                                               .split(")")[0]
                                               .strip())

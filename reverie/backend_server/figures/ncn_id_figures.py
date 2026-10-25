@@ -325,24 +325,42 @@ def fig_id2_treatment_deltas(
         return []
 
     n_p = len(panels)
-    fig, axes = plt.subplots(1, n_p, figsize=(2.2 * n_p, 3.2), squeeze=False)
+    fig, axes = plt.subplots(1, n_p, figsize=(2.6 * n_p, 4.6), squeeze=False)
     treatments = ["control", "hub", "broker"]
 
     for ax, (title, sub) in zip(axes[0], panels):
         means = []
+        all_vals: list[float] = []
+        per_treatment_vals: list[list[float]] = []
         for trt in treatments:
             vals = sub.loc[sub["treatment"] == trt, "delta"].astype(float).tolist()
             means.append(np.mean(vals) if vals else np.nan)
+            per_treatment_vals.append(vals)
+            all_vals.extend(vals)
+
+        # Explicit y-range (data + generous padding) computed *before* placing
+        # text labels, so labels always land inside the visible axis. Relying
+        # on matplotlib autoscale here can leave text outside the data range,
+        # which triggers a bbox_inches="tight" bug that collapses the saved
+        # figure to a sliver.
+        lo = min(all_vals + means)
+        hi = max(all_vals + means)
+        span = max(hi - lo, 1e-6)
+        pad = span * 0.40
+        y_lo, y_hi = min(lo - pad, 0.0), max(hi + pad, 0.0)
+        label_off = span * 0.20
+
+        for trt, vals in zip(treatments, per_treatment_vals):
             x = treatments.index(trt)
             jitter = np.random.default_rng(42).uniform(-0.08, 0.08, size=len(vals))
             ax.scatter(
                 np.full(len(vals), x) + jitter,
                 vals,
                 color=TREATMENT_COLORS[trt],
-                s=22,
-                alpha=0.75,
+                s=30,
+                alpha=0.8,
                 edgecolors="black",
-                linewidths=0.3,
+                linewidths=0.4,
                 zorder=3,
             )
 
@@ -359,24 +377,34 @@ def fig_id2_treatment_deltas(
             if not np.isnan(m):
                 ax.text(
                     b.get_x() + b.get_width() / 2,
-                    m + (0.02 if m >= 0 else -0.06),
+                    m + (label_off if m >= 0 else -label_off),
                     f"{m:+.3f}",
                     ha="center",
                     va="bottom" if m >= 0 else "top",
-                    fontsize=6,
-                    color="0.35",
+                    fontsize=8,
+                    fontweight="bold",
+                    color="0.2",
+                    clip_on=True,
+                    bbox=dict(
+                        boxstyle="round,pad=0.15",
+                        facecolor="white",
+                        edgecolor="none",
+                        alpha=0.75,
+                    ),
+                    zorder=4,
                 )
 
+        ax.set_ylim(y_lo, y_hi)
         ax.axhline(0, color="black", linewidth=0.8)
         ax.set_xticks(range(3))
-        ax.set_xticklabels(["Control", "Hub", "Broker"], fontsize=7)
-        ax.set_title(title, fontsize=9, loc="left")
-        ax.tick_params(labelsize=7)
+        ax.set_xticklabels(["Control", "Hub", "Broker"], fontsize=9)
+        ax.set_title(title, fontsize=10.5, loc="left")
+        ax.tick_params(labelsize=8)
         _despine(ax)
 
-    axes[0, 0].set_ylabel("Pre→post Δ")
-    fig.suptitle("Treatment-arm deltas (primary outcomes)", fontsize=11, x=0.02, ha="left")
-    fig.tight_layout()
+    axes[0, 0].set_ylabel("Pre→post Δ", fontsize=11)
+    fig.suptitle("Treatment-arm deltas (primary outcomes)", fontsize=13, x=0.02, ha="left")
+    fig.tight_layout(rect=(0, 0, 1, 0.94))
     return _save(fig, outdir, "fig_id2_treatment_deltas")
 
 
@@ -411,9 +439,12 @@ def fig_id3_noise_floor(
         vals = row["values"]
         mean_v = np.mean(vals)
         std_v = np.std(vals, ddof=1) if len(vals) > 1 else 0.0
+        # Replicate points, mean tick, and ±2σ band all live on the same
+        # metric-value x-axis (the replicates are plotted at their measured
+        # values, not at their replicate index).
         ax.hlines(yi, mean_v - 2 * std_v, mean_v + 2 * std_v, color="0.75", linewidth=5, zorder=1)
         ax.scatter(
-            range(len(vals)),
+            vals,
             [yi] * len(vals),
             c=[0.4 + 0.1 * i for i in range(len(vals))],
             s=28,
@@ -422,18 +453,23 @@ def fig_id3_noise_floor(
             linewidths=0.3,
         )
         ax.plot(mean_v, yi, "k|", markersize=12, markeredgewidth=2, zorder=3)
+        # Annotate μ/σ just above each row's cluster so labels stay near their
+        # own (very different) metric scales rather than colliding across rows.
         ax.text(
-            len(vals) + 0.15,
-            yi,
+            mean_v,
+            yi + 0.28,
             f"μ={mean_v:.3f}, σ={std_v:.3f}",
-            va="center",
+            va="bottom",
+            ha="center",
             fontsize=7,
             color="0.4",
         )
 
+    ax.margins(x=0.08)
+    ax.set_ylim(-0.6, len(rows) - 0.3)
     ax.set_yticks(y_positions)
     ax.set_yticklabels([r["label"] for r in rows])
-    ax.set_xlabel("Noise replicate index")
+    ax.set_xlabel("Metric value (per instrument; note differing scales across rows)")
     ax.set_title(
         f"Measurement noise floor (K={len(noise_waves)} surveys @ step {SHOCK_STEP})",
         loc="left",

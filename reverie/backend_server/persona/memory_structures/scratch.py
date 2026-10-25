@@ -203,6 +203,11 @@ class Scratch:
       self.daily_req = scratch_load["daily_req"]
       self.f_daily_schedule = scratch_load["f_daily_schedule"]
       self.f_daily_schedule_hourly_org = scratch_load["f_daily_schedule_hourly_org"]
+      if "pilot_schedule_state" in scratch_load:
+        self.pilot_schedule_state = scratch_load["pilot_schedule_state"]
+      if "pilot_action_end_time" in scratch_load:
+        value = scratch_load["pilot_action_end_time"]
+        self.pilot_action_end_time = datetime.datetime.fromisoformat(value) if value else None
 
       self.act_address = scratch_load["act_address"]
       if scratch_load["act_start_time"]: 
@@ -210,7 +215,7 @@ class Scratch:
                                               scratch_load["act_start_time"],
                                               "%B %d, %Y, %H:%M:%S")
       else: 
-        self.curr_time = None
+        self.act_start_time = None
       self.act_duration = scratch_load["act_duration"]
       self.act_description = scratch_load["act_description"]
       self.act_pronunciatio = scratch_load["act_pronunciatio"]
@@ -281,6 +286,10 @@ class Scratch:
     scratch["daily_req"] = self.daily_req
     scratch["f_daily_schedule"] = self.f_daily_schedule
     scratch["f_daily_schedule_hourly_org"] = self.f_daily_schedule_hourly_org
+    if hasattr(self, "pilot_schedule_state"):
+      scratch["pilot_schedule_state"] = self.pilot_schedule_state
+    if hasattr(self, "pilot_action_end_time"):
+      scratch["pilot_action_end_time"] = self.pilot_action_end_time.isoformat() if self.pilot_action_end_time else None
 
     scratch["act_address"] = self.act_address
     if self.act_start_time:
@@ -514,6 +523,10 @@ class Scratch:
     self.act_obj_event = act_obj_event
     
     self.act_start_time = self.curr_time
+    # A new reaction clears a previous timetable deadline. Scheduled actions
+    # set their absolute end after this call, so mid-row resumes do not overrun.
+    if hasattr(self, "pilot_action_end_time"):
+      self.pilot_action_end_time = None
     
     self.act_path_set = False
 
@@ -548,6 +561,8 @@ class Scratch:
       
     if self.chatting_with: 
       end_time = self.chatting_end_time
+    elif getattr(self, "pilot_action_end_time", None) is not None:
+      end_time = self.pilot_action_end_time
     else: 
       x = self.act_start_time
       if x.second != 0: 
@@ -555,7 +570,7 @@ class Scratch:
         x = (x + datetime.timedelta(minutes=1))
       end_time = (x + datetime.timedelta(minutes=self.act_duration))
 
-    if end_time.strftime("%H:%M:%S") == self.curr_time.strftime("%H:%M:%S"): 
+    if self.curr_time >= end_time:
       return True
     return False
 

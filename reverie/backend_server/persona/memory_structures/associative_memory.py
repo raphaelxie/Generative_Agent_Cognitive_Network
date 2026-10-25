@@ -7,6 +7,7 @@ Description: Defines the core long-term memory module for generative agents.
 Note (May 1, 2023) -- this class is the Memory Stream module in the generative
 agents paper. 
 """
+import os
 import sys
 sys.path.append('../../')
 
@@ -161,7 +162,7 @@ class AssociativeMemory:
     depth = 0
 
     # Node type specific clean up. 
-    if "(" in description: 
+    if os.environ.get("NCN_PILOT") != "1" and "(" in description: 
       description = (" ".join(description.split()[:3]) 
                      + " " 
                      +  description.split("(")[-1][:-1])
