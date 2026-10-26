@@ -8,7 +8,8 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from pilot_tasks import (request_contract, repair_prompt, parse_task_parts,
-                         parse_replanned_suffix, MAX_REPAIR_RESPONSE, MAX_REPAIR_ERROR)
+                         parse_revision_priority, allocate_revision_minutes,
+                         REVISION_REPAIR_INSTRUCTIONS, MAX_REPAIR_RESPONSE, MAX_REPAIR_ERROR)
 from pilot_schedule import PilotScheduleError
 
 
@@ -115,14 +116,18 @@ def test_suffix_retry_preserves_order_and_budget(monkeypatch):
     from persona.prompt_template import gpt_structure
     source = [{"activity": "Study notes", "minutes": 30, "terminal": True, "origin": "a"},
               {"activity": "Write an essay", "minutes": 30, "terminal": True, "origin": "b"}]
-    responses = iter(['{"parts":[{"source":0,"minutes":30}]}',
-                      '{"parts":[{"source":0,"minutes":30},{"source":1,"minutes":25}]}'])
+    # Artificial invalid ranking; the historical minute-error replies were not captured.
+    responses = iter(['{"priority":[0,0]}', '{"priority":[1,0]}'])
     calls = []
     def chat(prompt, **kwargs):
         calls.append(prompt)
         return next(responses)
     monkeypatch.setattr(gpt_structure, "_chat", chat)
-    result = request_contract("original", lambda x: parse_replanned_suffix(x, source, 55), "Schedule revision")
+    priority = request_contract("original", lambda x: parse_revision_priority(x, len(source)),
+                                "Schedule revision", repair_instructions=REVISION_REPAIR_INSTRUCTIONS)
+    allocated = allocate_revision_minutes(source, priority, 55)
+    result = [{**r, "minutes": allocated[i]} for i, r in enumerate(source) if allocated[i]]
     assert [r["origin"] for r in result] == ["a", "b"]
-    assert [r["minutes"] for r in result] == [30, 25]
-    assert "exact remaining interval" in calls[1]
+    assert [r["minutes"] for r in result] == [25, 30]
+    assert "missing=[1]" in calls[1] and "repeated=[0]" in calls[1]
+    assert "exact total minutes" not in calls[1]

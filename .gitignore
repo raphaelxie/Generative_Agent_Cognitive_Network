@@ -101,6 +101,7 @@ _report/
 
 # virtualenv
 venv/
+.venv/
 ENV/
 
 # Spyder project settings
@@ -117,6 +118,12 @@ pilot_runs/
 reverie/backend_server/runs/main_10202026/
 reverie/backend_server/runs/midnight_pilot/
 reverie/backend_server/runs/smoke_mobility_v4/
+reverie/backend_server/runs/smoke_mobility_v5*/
 
 # Local editor logs
 .cursor/
+
+# Generated experiment archives and request logs remain local.
+/environment/frontend_server/compressed_storage/*
+/reverie/backend_server/runs/
+/reverie/backend_server/logs/

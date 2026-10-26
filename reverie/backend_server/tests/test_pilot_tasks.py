@@ -11,7 +11,7 @@ import pytest
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from pilot_schedule import PilotScheduleError, parse_daily_plan, parse_hourly_activity, parse_wake_hour
 from pilot_tasks import (initialize_day, prepare_actions, reschedule_reaction, state_for,
-                         slice_rows, projection, parse_task_parts, parse_replanned_suffix,
+                         slice_rows, projection, parse_task_parts, parse_revision_priority,
                          generate_task_parts, current_action_end)
 from test_pilot_engine import engine
 
@@ -29,14 +29,7 @@ def setup_persona(engine, name="Latoya Williams", now=None, schedule=None):
 
 def suffix_response(prompt, **kwargs):
     context = json.loads(prompt.split("\n", 1)[1])
-    remaining = context["remaining_minutes"]
-    parts=[]
-    for row in context["source"]:
-        n=min(remaining,row["minutes"])
-        if n: parts.append({"source":row["source"],"minutes":n})
-        remaining-=n
-    assert remaining==0
-    return json.dumps({"parts":parts})
+    return json.dumps({"priority": [row["source"] for row in context["source"]]})
 
 
 def mock_location(monkeypatch):
@@ -136,17 +129,16 @@ def test_valid_retry_preserves_model_order_and_exact_minutes(engine,monkeypatch)
     assert generate_task_parts(p,"painting",60)[0]==[["mix pigments",5],["paint canvas",55]]
 
 
-def test_replanning_rejects_reordering_unknown_sources_overlong_durations_and_new_text():
-    rows=[{"activity":"paint canvas","minutes":30,"terminal":True,"origin":"a"},
-          {"activity":"clean brushes","minutes":30,"terminal":True,"origin":"b"}]
-    for parts in [[{"source":1,"minutes":10},{"source":0,"minutes":10}],
-                  [{"source":2,"minutes":20}], [{"source":0,"minutes":31}],
-                  [{"source":0,"minutes":20,"activity":"sleeping"}]]:
-        with pytest.raises(ValueError):parse_replanned_suffix(json.dumps({"parts":parts}),rows,20)
+def test_replanning_rejects_minutes_and_activity_text_instead_of_priority():
+    for value in [{"parts": [{"source": 0, "minutes": 20}]},
+                  {"priority": [0, 1], "activity": "sleeping"},
+                  {"priority": [0, 1], "minutes": [20, 30]}]:
+        with pytest.raises(ValueError):
+            parse_revision_priority(json.dumps(value), 2)
 
 
 def test_failed_revision_does_not_change_past_or_any_state(engine,monkeypatch):
-    p=setup_persona(engine)
+    p=setup_persona(engine,schedule=[["sleeping",480],["painting",60],["reading",60],["resting",840]])
     before=copy.deepcopy(vars(p.scratch))
     from persona.prompt_template import gpt_structure
     calls=[]

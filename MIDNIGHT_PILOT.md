@@ -2,7 +2,7 @@
 
 本入口实现 Day 1 00:00 → Day 3 16:00 的 64 小时未干预 pilot。与旧版实验入口分开，默认创建全新的输出目录，不续跑 GPT-4o-mini 的历史，不启动 hub/broker 干预分支。
 
-本次命名为 **main_10202026** 的限时运行、caffeinate、防止 09:00 后继续 survey、出门前保存与下一模型交接，按 [MAIN_10202026_RUN_GUIDE.md](MAIN_10202026_RUN_GUIDE.md) 执行。准备指南不等于已经启动 simulation。
+当前执行任务是在本机续跑已到 Day 1 14:00 的 `smoke_mobility_v5`，并独立执行每个快照三次问卷，命令见 [README.md](README.md)。[MAIN_10202026_RUN_GUIDE.md](MAIN_10202026_RUN_GUIDE.md) 是 10 月 20 日限时运行的历史记录，其中的截止时间不适用于本次续跑。
 
 ## 启动
 
@@ -54,6 +54,8 @@ python3 reverie/backend_server/run_midnight_pilot.py report
 
 跳过测量时状态标为 `simulation_complete_surveys_pending`。`measure` 完成全部指定测量（含最终测量）后才标为 `complete`。被中断的问卷保留已经完成的 respondent，同一重复的剩余 respondent 从原快照恢复；已有回答不进入模型上下文。
 
+若需要保留旧轨迹配置、另外对同一批快照执行三次问卷，使用 `measure_saved_pilot.py --source-run SOURCE --output SEPARATE_OUTPUT --repeats 3`。该入口单独锁定测量设置、串行执行独立 worker、核对源文件完整性，并把分析写到独立输出目录；不改变原轨迹的重复次数或完成状态。可在后续快照生成后再次运行以补齐测量。本机续跑及三次测量命令见 [README.md](README.md)。
+
 ## 恢复与未来分支
 
 每 30 个模拟分钟保存恢复点，涵盖记忆、scratch、空间记忆、计划、隔离标记、场景事件、待清理对象事件、下一帧位置、时钟及 Python/NumPy RNG。重启时重新执行同一个 `run` 命令。恢复会重做上次未完成的区间；远端模型本身具有随机性，因此无法保证故障后的重试逐字重现此前未提交的回答。
@@ -103,3 +105,36 @@ python3 -m pytest -q reverie/backend_server/tests
 **运行限制。** `run --stop-at-step N`（N 为 180 的倍数）在协议边界保存并暂停，属于操作性限制，不进入配置锁。源码摘要已变化，因此此后任何轨迹都必须使用新的输出目录；旧轨迹不能用新源码续跑。
 
 **未处理的相关问题（范围外）：** survey 概率项约 14.6% 缺失，以及 degree 排名受名单字母顺序影响。
+
+## Schedule revision：priority-fill-v1
+
+聊天或等待插入日程后，模型只返回 `{"priority":[2,0,1]}`：全部 source 索引按保留优先级排列，各出现一次。代码按优先级保留原时长，边界活动截短，剩余活动省略；最终仍按原日程顺序执行。例如 `[30,30,30]` 分钟、预算 70、优先级 `[2,0,1]`，分配结果为原顺序的 `[30,10,30]`。活动文字、终结标记、来源、过去区间和窗口后的日程保持不变。
+
+非法排序最多反馈重试三次，耗尽仍停止，不猜测缺失索引。预算错误是本地状态错误，直接停止。无剩余区间无需模型；只有一个 source 时记录 `only_feasible_choice` 并直接分配。此分配方式改变了时长决策机制：最多一个活动被部分缩短，而不再让模型分别压缩多个活动。
+
+配置增加 `reaction_revision_version=priority-fill-v1`，日程状态仍为 `standalone-tasks-v3`。源码变化后必须使用新目录，禁止将 v4 轨迹迁移后继续充当原轨迹。
+
+诊断文件：
+
+- `schedule_diagnostics.jsonl` 保持每次模型尝试的摘要，并为重排增加 revision ID、被重排角色和版本。
+- `schedule_revision_audit.jsonl` 保存 source、预算、优先级、分配向量和最终 suffix。它记录已验证的单次分配；故障 tick 中的记录不等于已经提交的模拟状态，应以完整恢复点为准。
+- 设置 `NCN_REACTION_DEBUG_LOG=/absolute/path.jsonl` 才保存重排的完整 prompt、raw 和 error，默认关闭。下面的 smoke 入口自动将它指向本次输出目录。不要把本地调试日志批量提交；筛选实际失败样例后再形成测试夹具。原 v4 失败正文未捕获，不能将人工样例标成历史真实回复。
+
+两阶段真实验收（付费 API；目录必须尚不存在）：
+
+```bash
+PYTHONHASHSEED=104729 OPENAI_MODEL=gpt-6-luna /usr/bin/caffeinate -i -s \
+  /Library/Frameworks/Python.framework/Versions/3.11/bin/python3 -u \
+  reverie/backend_server/run_schedule_smoke.py --output pilot_runs/smoke_mobility_v5
+```
+
+入口固定 seed 104729、repeats 2、defer surveys，先暂停在 step 3600。完整快照、角色日程、重排排序和分配、调试捕获全部通过后，才以同一源码续到 5040。任一运行或验收失败就停止，不自动恢复，不删除失败证据。`smoke_status.json` 记录子进程退出码，`acceptance_003600.json` / `acceptance_005040.json` 保存各阶段与 v4 同时点的比较。
+
+可独立重查（只读取本地可信快照，不调用 API）：
+
+```bash
+python3 reverie/backend_server/validate_schedule_smoke.py \
+  --output pilot_runs/smoke_mobility_v5 --baseline pilot_runs/smoke_mobility_v4 --step 5040
+```
+
+移动检查遍历所有完成 tick 的实际坐标；行动描述 `@` 后的地址另记为目的地。v4 在 14:00 的基线是实际到访 19/25、目的地 20/25、6 个公共地点、30 条边、16 个非零 betweenness 节点、最大连通分量 21。14:00 最低功能门槛为有实际公共地点到访、边数大于 3、存在非零 betweenness；这些指标不要求随机轨迹复现旧数值，也不替代正式实验推断。

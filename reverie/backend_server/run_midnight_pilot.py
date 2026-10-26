@@ -70,6 +70,7 @@ def configure(args):
                       NCN_STORAGE_ROOT=str(output/"worlds"),
                       NCN_TEMP_ROOT=str(output/"frontend_temp"),
                       NCN_SCHEDULE_LOG=str(output/"schedule_diagnostics.jsonl"),
+                      NCN_REACTION_AUDIT_LOG=str(output/"schedule_revision_audit.jsonl"),
                       NCN_USAGE_LOG=str(output/"usage.jsonl"))
     utils.fs_storage = str(output/"worlds")
     utils.fs_temp_storage = str(output/"frontend_temp")
@@ -89,9 +90,10 @@ def configure(args):
 
 
 def configuration(args):
-    from pilot_tasks import VERSION as schedule_version
+    from pilot_tasks import VERSION as schedule_version, REACTION_REVISION_VERSION
     return {"protocol_version": PROTOCOL_VERSION, "model": MODEL,
             "schedule_version": schedule_version,
+            "reaction_revision_version": REACTION_REVISION_VERSION,
             "embedding_model": os.environ.get("OPENAI_EMBED_MODEL", "text-embedding-3-small"),
             "chat_endpoint": os.environ.get("OPENAI_BASE_URL", "https://api.openai.com/v1"),
             "embedding_endpoint": os.environ.get("OPENAI_EMBED_BASE_URL", "https://api.openai.com/v1"),

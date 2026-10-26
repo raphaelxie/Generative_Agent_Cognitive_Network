@@ -3,6 +3,66 @@
 Date: 2026-10-24/25. Workspace: `/Users/mac/Documents/PythonNote/SocResearch/generative_agents-main`.
 Python: `/Library/Frameworks/Python.framework/Versions/3.11/bin/python3` (the `.env` here sets a non-Luna model; the runner re-pins `gpt-6-luna`, and tests must pin it too).
 
+## Update: priority-fill-v1 implementation (2026-10-25)
+
+**2026-10-26 repository cleanup:** at the user's request, pre-August experiment outputs and logs were removed from the working tree. Current v4/v5 evidence, templates, assets and frozen runtime source were verified unchanged; all 162 offline tests and the step 5040 snapshot verification passed. See `REPOSITORY_CLEANUP_20261026.md`. Git history is retained; the user has authorized committing and pushing the implementation and cleanup.
+
+**2026-10-26 execution/measurement decision:** the user selected three independent survey repeats and will continue on the current machine. The alternate-machine handoff, installation list and private transfer archive have been removed at the user's request. `measure_saved_pilot.py` remains necessary: it supports an independent repeats=3 measurement output without rewriting the frozen repeats=2 trajectory. Use the local commands in `README.md`.
+
+The step 5040 snapshot has been verified (25 agents, snapshot and manifest match). Initial, 10:00 and 14:00 snapshots exist, but there are zero completed survey waves and zero respondent files; no paid questionnaires have run for this trajectory. The three-repeat wrapper adds four offline regression tests; the full suite passed **162 tests** under Python 3.11 with `PYTHONHASHSEED=104729` and `OPENAI_MODEL=gpt-6-luna`. Simulation runtime source digest is unchanged.
+
+The sections below describe the original v4 diagnosis. The v4 action repair is now committed as `4d0ec88fc`, rather than uncommitted. Schedule revision now asks for a complete priority permutation and deterministically fills the remaining interval: preserve higher priorities at their original duration, shorten only the boundary activity, omit the rest, then restore original execution order. This removes model arithmetic from this contract. The schedule state stays v3; the manifest separately locks `reaction_revision_version=priority-fill-v1`.
+
+Each revision has its actual recipient and an independent revision ID. `schedule_revision_audit.jsonl` records the source, priority and allocation. Opt-in `NCN_REACTION_DEBUG_LOG` captures full attempt prompts/replies/errors; normal attempt logs remain hashes and metadata. A recorded allocation is not proof that its entire engine tick committed. Three malformed rankings still stop the run; no automatic priority completion or failed-run retry is used.
+
+Run `run_schedule_smoke.py` as documented in `MIDNIGHT_PILOT.md`: a new directory, first step 3600, then 5040 only after verification succeeds. `smoke_status.json` and `acceptance_*.json` are the source of truth for actual validation progress; implementation alone is not evidence of a successful real run. Preserve all v4 evidence.
+
+Metric correction: the old `/tmp/smoke_check.py` used action destination descriptions. Actual coordinates show **19/25** public-place visitors at step 5040, versus 20/25 public destinations (Francisco Lopez had not arrived). All six public sectors were reached. The 30 edges, 16 nonzero betweenness nodes and largest component of 21 were independently verified. New validation reports both destination and arrival metrics.
+
+The exact v4 failing replies remain unavailable. Synthetic ranking tests are labeled synthetic. Any future observed failures can be extracted from the new local debug log after review.
+
+Implementation validation: **158 tests passed** with Python 3.11 and `PYTHONHASHSEED=104729`; `git diff --check` passed. The real `smoke_mobility_v5` supervisor started on 2026-10-25 at 06:24 America/Los_Angeles. Its API/location preflight and **10:00 stage passed**. The original 14:00 attempt **failed at 11:05 (step 3990)** on the unchanged **Task decomposition** contract; a later explicitly user-requested recovery **reached 14:00 and passed post-recovery validation**, detailed below. The original zero-abort criterion remains unmet. Frozen runtime source digest remains `29cfd946e0d44df4cddc0f3938bb74a3ac12875ec3e81f5d27c379c8b1cd2813`; v4 evidence and runtime source were preserved.
+
+### v5 real-validation outcome (2026-10-25 10:21 America/Los_Angeles)
+
+- `acceptance_003600.json`: 34 model schedule revisions, all accepted on attempt 1; allocation audits, full debug traces, snapshot and manifest all passed. At 10:00, actual public visitors were 14/25 (v4: 17/25), public destinations 15/25 (v4: 17/25), all six public sectors were reached in both, edges 10 (v4: 8), nonzero betweenness nodes 4 (v4: 4), largest component 5 (v4: 4).
+- Across the entire attempted run, **44 schedule revisions passed on attempt 1, zero rejected or exhausted**. Independent post-failure audit confirmed all 44 allocation records and debug traces are valid. There are no rejected priority replies to turn into new fixtures.
+- The fatal failure was `Task decomposition contract failed after 3 attempts: Subtask durations must sum exactly to the parent duration`. All three replies have the same SHA-256 and length (760 characters). The API calls themselves succeeded. Task-decomposition prompt/reply bodies were not captured because the approved debug scope was schedule revision only; do not invent the exact arithmetic error or attribute a persona from interleaved stdout.
+- Last completed live tick: step 3990 / 11:05:00. Last durable recovery snapshot: **step 3973 / 11:02:10**; `snapshot_valid` and `manifest_matches` are true. Its manifest retains the pre-failure status `running`; terminal process status is **failed** in `smoke_status.json`.
+- Evidence: `pilot_runs/smoke_mobility_v5/failure_review.json`, `smoke_status.json`, `acceptance_003600.json`, `schedule_diagnostics.jsonl`, `schedule_revision_audit.jsonl`, `schedule_revision_debug.jsonl`, and `smoke_launcher.log`. No `acceptance_005040.json` exists: do not claim full smoke acceptance or 14:00 network results.
+- Remaining work requires a separately scoped task-decomposition arithmetic/feedback repair and a fresh trajectory to complete 14:00 acceptance. Task decomposition was explicitly excluded from this implementation. The temporary follow-up stops after reporting this failure; it does not silently expand scope or resume this failed trajectory.
+
+### User-authorized continuation (2026-10-25 18:12 America/Los_Angeles)
+
+After the failure explanation, the user explicitly requested continuing the unfinished simulation validation. A **single recovery attempt** ran from the verified step 3973 snapshot to step 5040, using the identical runtime source digest. This superseded the earlier no-resume operational instruction for this specific user-requested attempt; it does not erase the prior abort or establish uninterrupted-run acceptance.
+
+- Current continuation status: `pilot_runs/smoke_mobility_v5/resume_attempt_01/status.json`. The old root `smoke_status.json` deliberately remains the historical failed result.
+- The pre-resume snapshot, manifest, progress, failure report, and movement/environment frames that recovery may overwrite are saved in `resume_attempt_01/before_resume/`; original diagnostic log prefixes are hashed and will be checked after completion.
+- The external observer in `resume_attempt_01/supervise_resume.py` captures full task-decomposition attempts (including actual persona, parent task and duration) to `contract_trace.jsonl`, plus other rejected contracts. Hash seed is set before process startup so re-exec does not discard the observer. An offline check confirmed capture works and neither simulation RNG nor runtime source digest changes. No task-decomposition behavior or model settings were changed.
+- On completion, validation results go to `resume_attempt_01/acceptance_005040_resumed.json`, explicitly labeled **completed after user-requested resume**, with one prior abort and `original_zero_abort_acceptance_passed=false`. Replayed API usage remains accounted for.
+- The continuation supervisor stops on any new failure without another automatic retry. A temporary follow-up will report this attempt's actual result and then stop.
+
+### Completed recovery validation (2026-10-25 21:58 America/Los_Angeles)
+
+The continuation exited with code 0 and is **completed_after_user_requested_resume**. The final snapshot is paused at **step 5040 / Day 1 14:00**, with `snapshot_valid=true`, `manifest_matches=true`, validated schedules for all 25 agents, valid allocation audits, complete revision debug traces, and unchanged pre-resume log prefixes. The original failure remains in the historical status and failure review. The current result is `resume_attempt_01/acceptance_005040_resumed.json`: `validation_passed=true`, `prior_abort_count=1`, and `original_zero_abort_acceptance_passed=false`.
+
+Across the recorded run and continuation, **101 model-priority revisions passed on attempt 1**, with zero rejected or exhausted revision attempts; one additional allocation used the logged single-source shortcut. Audit lineage was checked against the pre-resume byte boundary: 44 allocations preceded recovery, 58 followed, and none of the 44 fell in the discarded interval at/after step 3973. Thus the 102 allocation records do not double-count rolled-back schedule revisions. This does not generalize to API usage: replayed requests remain in the usage ledger as actual billed work.
+
+| Metric at Day 1 14:00 | v4 baseline | v5 after authorized recovery |
+|---|---:|---:|
+| Actual public-place visitors | 19/25 | 21/25 |
+| Agents selecting public destinations | 20/25 | 21/25 |
+| Public sectors actually reached | 6 | 6 |
+| Cumulative edges | 30 | 24 |
+| Nodes with nonzero betweenness | 16 | 10 |
+| Largest connected component | 21 | 18 |
+
+The predeclared mobility/network functional checks passed. These are different stochastic trajectories; this comparison is descriptive and does not establish that the allocation policy increases or decreases connectivity.
+
+The recovery observer captured 57 task-decomposition attempts: 56 accepted responses and one rejected first attempt that recovered on attempt 2. At step 4698, Mei Lin's 60-minute task initially returned a single 60-minute subtask (violating the minimum of two subtasks); the retry returned four parts totaling 60. Four event-triple rejections also occurred without aborting the recovery. No task-decomposition sum error recurred in the captured continuation, but its original arithmetic failure was **not repaired**, and this recovery does not prove uninterrupted reliability. No rejected priority responses exist to add as ranking fixtures.
+
+Final evidence: `pilot_runs/smoke_mobility_v5/resume_attempt_01/status.json`, `acceptance_005040_resumed.json`, `contract_trace.jsonl`, and `before_resume/`; the original 10:00 acceptance remains at the run root. The requested continuation and 14:00 post-recovery checks are complete. No further simulation was started, and the temporary follow-up is now stopped.
+
 ## 1. What was wrong in the original experiment (solved)
 
 The 25-agent, 3-day run (`main_10212026_v3_1_continuation`, copy under `/Users/mac/Documents/ChatGPT/Social Network Research/`) produced 3 edges (only the couples sharing a bedroom) and betweenness 0 for everyone.
