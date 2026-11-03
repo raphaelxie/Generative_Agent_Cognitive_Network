@@ -120,8 +120,18 @@ reverie/backend_server/runs/midnight_pilot/
 reverie/backend_server/runs/smoke_mobility_v4/
 reverie/backend_server/runs/smoke_mobility_v5*/
 
-# Local editor logs
+# Local editor / IDE
 .cursor/
+.idea/
+
+# Local ops manuals, handoffs, and Chinese-heavy run notes (keep on disk)
+HANDOFF_*.md
+*_HANDOFF.md
+MIDNIGHT_PILOT.md
+MAIN_*_RUN_GUIDE.md
+REPOSITORY_CLEANUP_*.md
+CSS_SURVEY.md
+PILOT_CONTINUATION_HANDOFF.md
 
 # Generated experiment archives and request logs remain local.
 /environment/frontend_server/compressed_storage/*
