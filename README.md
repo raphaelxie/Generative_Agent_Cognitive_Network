@@ -4,7 +4,7 @@ This repository extends [Generative Agents](https://github.com/joonspk-research/
 
 We keep that engine and ask a further question: **what social network do the agents report, and does that report move when the conversation graph changes?**
 
-The full write-up of the current pilot is in [docs/report.md](docs/report.md).
+The current write-up of this pilot is the PDF [docs/report.pdf](docs/report.pdf).
 
 ## What the original project is
 
@@ -26,7 +26,7 @@ A pair marked `tie = 1` is a judgment of *connection*, not a claim that the two 
 
 ## Current experiment
 
-![Shared run to 16:00; control continues on the trunk, JM and CG fork](docs/fork_design.png)
+![Shared history to 16:00, then control, JM (Jennifer isolated), and CG (Carlos isolated)](docs/fork_design.png)
 
 Twenty-five agents share history from Day 1 00:00 to 16:00. At 16:00 the same state splits into three arms, each run to Day 2 06:00:
 
@@ -36,9 +36,9 @@ Twenty-five agents share history from Day 1 00:00 to 16:00. At 16:00 the same st
 | **JM** | Soft-isolate Jennifer Moore. |
 | **CG** | Soft-isolate Carlos Gomez. |
 
-Jennifer was the unique betweenness maximum at the fork; Jennifer and Carlos were the top two by degree. Isolation did change the conversation graph. On the CSS survey, the two isolation arms did not separate from control in any clear way: agents missed most true conversation edges, marked almost every pair uncertain, and usually ranked themselves first. See [docs/report.md](docs/report.md) for tables and limits.
+At the fork, Jennifer was both the hub (most conversation partners) and the broker (most often between others); Carlos was second on both. Isolation did change the conversation graph. On the CSS survey, the two isolation arms did not separate from control in any clear way: agents missed most true conversation edges, marked almost every pair uncertain, and usually ranked themselves first. Tables, figures, and limits are in [docs/report.pdf](docs/report.pdf).
 
-This fork point was chosen after the fact. The original plan was to lock a hub and a broker in a later night window; that window never produced two distinct, stable targets.
+The fork point was chosen after the fact. The plan was to find a moment when the hub and the broker were different people and isolate each; none of the checks from Day 1 20:00 to Day 2 08:00 qualified. The 16:00 state was rebuilt by replaying two hours from a 14:00 save, so the experiment compares isolating the top person, the runner-up, and nobody, and cannot separate a hub shock from a broker shock.
 
 ## Repository layout
 
@@ -49,7 +49,7 @@ This fork point was chosen after the fact. The original plan was to lock a hub a
 | `environment/frontend_server/` | Django map server and sprites |
 | `environment/frontend_server/storage/base_the_ville_n25/` | 25-agent template |
 | `environment/frontend_server/storage/base_the_ville_isabella_maria_klaus/` | Original 3-agent template |
-| `docs/report.md` | English pilot report |
+| `docs/report.pdf` | English pilot report |
 | `requirements.txt` / `requirements-pilot.txt` | Dependencies |
 
 The `base_*` folders are initialization templates, not experiment results. Snapshots, API logs, and credentials are not in this repository.
